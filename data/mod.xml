@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../scheme/mod.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<mod>
+	<core>2021-06-20T12:05:00+09:00</core>
+	<plugins_list>2021-05-23T17:28:00+09:00</plugins_list>
+	<scripts_list>2021-05-23T17:28:00+09:00</scripts_list>
+</mod>

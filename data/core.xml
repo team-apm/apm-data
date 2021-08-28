@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../scheme/core.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<core>
+	<aviutl>
+		<files>
+			<file>aviutl.exe</file>
+			<file>aviutl.txt</file>
+			<file optional="true">aviutl.aup</file>
+			<file optional="true">aviutl.ini</file>
+			<file optional="true">aviutl.key</file>
+			<file optional="true">aviutl.sav</file>
+		</files>
+		<latestVersion>1.10</latestVersion>
+		<releases prefix="http://spring-fragrance.mints.ne.jp/aviutl/">
+			<fileURL version="1.10rc2">aviutl110rc2.zip</fileURL>
+			<fileURL version="1.10rc1">aviutl110rc1.zip</fileURL>
+			<fileURL version="1.10">aviutl110.zip</fileURL>
+			<fileURL version="1.00">aviutl100.zip</fileURL>
+		</releases>
+	</aviutl>
+	<exedit>
+		<files>
+			<file>exedit.anm</file>
+			<file>exedit.auf</file>
+			<file>exedit.aui</file>
+			<file>exedit.auo</file>
+			<file>exedit.cam</file>
+			<file>exedit.ini</file>
+			<file>exedit.obj</file>
+			<file>exedit.scn</file>
+			<file>exedit.tra</file>
+			<file>exedit.txt</file>
+			<file>lua.txt</file>
+			<file>lua51.dll</file>
+			<file>lua51jit.dll</file>
+		</files>
+		<latestVersion>0.93rc1</latestVersion>
+		<releases prefix="http://spring-fragrance.mints.ne.jp/aviutl/">
+			<fileURL version="0.93rc1">exedit93rc1.zip</fileURL>
+			<fileURL version="0.92">exedit92.zip</fileURL>
+		</releases>
+	</exedit>
+</core>

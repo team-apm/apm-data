@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://halshusato.starfree.jp/ato_lash/aviutl/"
+>
+
+	<xsd:simpleType name="pluginType">
+		<xsd:list>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="input" />
+					<xsd:enumeration value="output" />
+					<xsd:enumeration value="filter" />
+					<xsd:enumeration value="color" />
+					<xsd:enumeration value="language" />
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:list>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="scriptType">
+		<xsd:list>
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="animation" />
+					<xsd:enumeration value="object" />
+					<xsd:enumeration value="scene" />
+					<xsd:enumeration value="camera" />
+					<xsd:enumeration value="track" />
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:list>
+	</xsd:simpleType>
+
+	<xsd:complexType name="releases">
+		<xsd:sequence>
+			<xsd:element name="fileURL" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:anyURI">
+							<xsd:attribute name="version" type="xsd:string" use="required" />
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="prefix" type="xsd:anyURI" use="optional" />
+	</xsd:complexType>
+
+	<xsd:complexType name="files">
+		<xsd:sequence>
+			<xsd:element name="file" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:string">
+							<xsd:attribute
+								name="optional"
+								type="xsd:boolean"
+								default="false"
+								use="optional"
+							/>
+							<xsd:attribute
+								name="directory"
+								type="xsd:boolean"
+								default="false"
+								use="optional"
+							/>
+							<xsd:attribute name="archivePath" type="xsd:string" use="optional" />
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+</xsd:schema>

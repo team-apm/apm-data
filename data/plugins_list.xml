@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../scheme/plugins_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<plugins>
+	<plugin>
+		<id>x264guiEx</id>
+		<name>x264guiEx</name>
+		<overview>x264を使用したH264出力</overview>
+		<description>拡張 x264 出力(GUI) Ex (x264guiEx) は、
+x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
+		<developer>rigaya</developer>
+		<type>output</type>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-5.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rgwli2WZ_vq8YjCdI</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/drive/folders/0BzA4dIFteM2dOWhmTXA3bE9WaWs?usp=sharing</downloadMirrorURL>
+		<latestVersion>2.66</latestVersion>
+		<detailURL />
+		<installer>auo_setup.exe</installer>
+		<installArg>-dir "$instpath" -autorun</installArg>
+		<files>
+			<file>plugins/x264guiEx.auo</file>
+			<file>plugins/x264guiEx.conf</file>
+			<file optional="true">plugins/x264guiEx.ini</file>
+			<file optional="true" directory="true">exe_files/</file>
+			<file optional="true" directory="true">plugins/x264guiEx_stg/</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>LSmashWorks</id>
+		<name>L-SMASH Works</name>
+		<overview>様々なファイルを読み込む</overview>
+		<description
+		>muken氏が L-SMASH Works 開発の一環として実装を進めている OSS であり、MP4/MOV/QT/3gp/3g2/F4V/M4A 等の L-SMASH 対応コンテナに格納された映像・音声データおよび libav / ffmpeg ライブラリ対応のコンテナフォーマットを AviSynth / AviUtl / VapourSynth で読み込むためのプラグインで構成されています。</description>
+		<developer>ぽっぷん</developer>
+		<type>input filter color</type>
+		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
+		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
+		<latestVersion>r940</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/lwcolor.auc</file>
+			<file>plugins/lwdumper.auf</file>
+			<file>plugins/lwinput.aui</file>
+			<file>plugins/lwmuxer.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>ExeditRamPreview</id>
+		<name>拡張編集RAMプレビュー</name>
+		<overview>キャッシュしてコマ落ちを減らす</overview>
+		<description
+		>拡張編集のレンダリング結果をメモリにキャッシュすることで、プレビューのコマ落ちを軽減させるプラグインです。メモリがいっぱいあればいっぱい使えます。</description>
+		<developer>oov</developer>
+		<type>output filter</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm32668490</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_rampreview/releases</downloadURL>
+		<latestVersion>v0.3rc7</latestVersion>
+		<detailURL />
+		<files>
+			<file>ZRamPreview.auf</file>
+			<file>ZRamPreview.auo</file>
+			<file>ZRamPreview.exe</file>
+			<file directory="true">script</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>InputPipePlugin</id>
+		<name>InputPipePlugin</name>
+		<overview>AviUtlのメモリ使用量を減らす</overview>
+		<description
+		>このソフトは、L-SMASH_Works File Reader(lwinput.aui)を別プロセスで実行してあげることによって
+aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです</description>
+		<developer>amate</developer>
+		<type>input</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
+		<downloadURL
+		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
+		<latestVersion>v1.8</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="InputPipePlugin/">plugins/InputPipeMain.exe</file>
+			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
+			<file optional="true">plugins/InputPipePlugin.log</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>VstHostPlugin</id>
+		<name>VSTホストプラグイン＋α</name>
+		<overview
+		>aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる</overview>
+		<description
+		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。
+１つのaufファイルにつき１DLLのみマウントできます。
+複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
+		<developer>しし/りっちゃん</developer>
+		<type>filter</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
+		<downloadURL>https://github.com/Aios-Ciao/VSThost4aviutl</downloadURL>
+		<latestVersion>ver.001</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_1.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_2.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_3.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_4.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/wavpatch.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>SeekbarPlus</id>
+		<name>シークバー＋</name>
+		<overview>シークバーにサムネイルを表示する</overview>
+		<description
+		>Youtubeのようなサムネイルをシークバーに追加するAviutlプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/613302.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/613302.html</downloadURL>
+		<latestVersion>Ver 0.3.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/seekbarx.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>GcmzDrops</id>
+		<name>ごちゃまぜドロップス</name>
+		<overview>ファイルをドラッグ＆ドロップで読み込み</overview>
+		<description
+		>ごちゃまぜドロップス（ GCMZDrops.auf ）は AviUtl の拡張編集ウィンドウへファイルやテキストをドラッグ＆ドロップした時の挙動を拡張するための AviUtl プラグインです。</description>
+		<developer>oov</developer>
+		<type>filter</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm33020019</pageURL>
+		<downloadURL
+		>https://github.com/oov/aviutl_gcmzdrops/releases/latest</downloadURL>
+		<latestVersion>v0.3.18</latestVersion>
+		<detailURL />
+		<files>
+			<file directory="true">GCMZDrops</file>
+			<file>GCMZDrops.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>Loudness</id>
+		<name>loudness.auf</name>
+		<overview>Loudness値を測定</overview>
+		<description>ラウドネス値が表示できるプラグイン</description>
+		<developer>oov</developer>
+		<type>filter</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm34877728</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing</downloadURL>
+		<latestVersion>v0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/loudness.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>DirectShowFileReader</id>
+		<name>DirectShow File Reader プラグイン for AviUtl</name>
+		<overview>様々なファイルを読み込む</overview>
+		<description
+		>AviUtl0.98以降で使用できるDirectShow入力プラグインです。</description>
+		<developer>AviUtl実験室</developer>
+		<type>input</type>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</downloadURL>
+		<latestVersion>ver0.26a</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/ds_input.aui</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>OutputPng</id>
+		<name>PNG出力</name>
+		<overview>現在フレームの画像をPNG形式で出力</overview>
+		<description>現在フレームの画像をPNG形式で出力します。
+アルファチャンネルの有無を選べます。</description>
+		<developer>yu_noimage_</developer>
+		<type>filter</type>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
+		<latestVersion>2014/04/06更新</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/auls_outputpng.auf</file>
+		</files>
+	</plugin>
+</plugins>

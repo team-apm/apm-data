@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:au="http://halshusato.starfree.jp/ato_lash/aviutl/"
+>
+	<xsd:import
+		namespace="http://halshusato.starfree.jp/ato_lash/aviutl/"
+		schemaLocation="au.xsd"
+	/>
+
+	<xsd:element name="plugins">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="plugin" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="plugin">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="id" type="xsd:string" />
+				<xsd:element name="name" type="xsd:string" />
+				<xsd:element name="overview" type="xsd:string" />
+				<xsd:element name="description" type="xsd:string" />
+				<xsd:element name="developer" type="xsd:string" />
+				<xsd:element name="type" type="au:pluginType" />
+				<xsd:element name="pageURL" type="xsd:anyURI" />
+				<xsd:element name="downloadURL" type="xsd:anyURI" />
+				<xsd:element name="downloadMirrorURL" type="xsd:anyURI" minOccurs="0" />
+				<xsd:element name="latestVersion" type="xsd:string" />
+				<xsd:element name="detailURL" type="xsd:anyURI" />
+				<xsd:element name="installer" type="xsd:string" minOccurs="0" />
+				<xsd:element name="installArg" type="xsd:string" minOccurs="0" />
+				<xsd:element name="files" type="au:files" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

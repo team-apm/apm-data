@@ -1,0 +1,22 @@
+{
+  "name": "apm-data",
+  "version": "1.0.0",
+  "repository": "https://github.com/hal-shu-sato/apm-data.git",
+  "author": "ato lash <hal-shu-sato@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "fix": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^1.0.2",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "prettier-plugin-md-nocjsp": "^1.1.1"
+  },
+  "lint-staged": {
+    "*.{js,css,md,xml,xsd}": "prettier --write"
+  }
+}

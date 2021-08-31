@@ -1,12 +1,466 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="../scheme/plugins_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <plugins>
+	<!-- amate -->
+	<plugin>
+		<id>InputPipePlugin</id>
+		<name>InputPipePlugin</name>
+		<overview>AviUtlのメモリ使用量を減らす</overview>
+		<description
+		>このソフトは、L-SMASH_Works File Reader(lwinput.aui)を別プロセスで実行してあげることによって、Aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです</description>
+		<developer>amate</developer>
+		<type>input</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
+		<downloadURL
+		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
+		<latestVersion>v1.8</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="InputPipePlugin/">plugins/InputPipeMain.exe</file>
+			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
+			<file optional="true">plugins/InputPipePlugin.log</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>MFVideoReader</id>
+		<name>MFVideoReader</name>
+		<overview>Media Foundationを使った入力プラグイン</overview>
+		<description
+		>ファイルの入力、分離、デコードに、Media Foundation を使っており、DXVA2(GPU)を利用した高速なデコードが可能です</description>
+		<developer>amate</developer>
+		<type>input</type>
+		<pageURL />
+		<downloadURL>https://github.com/amate/MFVideoReader/releases</downloadURL>
+		<latestVersion>v1.0</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="MFVideoReader/">plugins/MFVideoReader.exe</file>
+			<file archivePath="MFVideoReader/">plugins/MFVideoReaderPlugin.aui</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>PropertyWindowFixerPlugin</id>
+		<name>設定ダイアログ画面サイズ固定化プラグイン</name>
+		<overview>拡張編集設定ダイアログのウインドウサイズを固定化する</overview>
+		<description
+		>このプラグインは、拡張編集の設定ダイアログのウィンドウサイズが長くなったり短くなったりするのを阻止し、常に同じウィンドウサイズに固定化するプラグインである</description>
+		<developer>amate</developer>
+		<type>filter</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm36085428</pageURL>
+		<downloadURL
+		>https://github.com/amate/PropertyWindowFixerPlugin/releases</downloadURL>
+		<latestVersion>v2.2</latestVersion>
+		<detailURL />
+		<files>
+			<file
+				archivePath="PropertyWindowFixerPlugin/"
+			>plugins/PropertyWindowFixerPlugin.auf</file>
+			<file
+				archivePath="PropertyWindowFixerPlugin/"
+			>plugins/PropertyWindowFixerPluginConfig.ini</file>
+		</files>
+	</plugin>
+
+	<!-- aoytsk -->
+	<plugin>
+		<id>adjustaudio</id>
+		<name>音声の位置微調整</name>
+		<overview>1フレーム以下のより細かい精度で音ズレを修正</overview>
+		<description
+		>音声の位置微調整は1フレーム以下のより細かい精度(周波数単位)で音ズレを修正できるプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/2092140.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/2092140.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/adjustaudio.auf</file>
+			<file>plugins/adjustaudioex.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>aoytskdummy</id>
+		<name>ダミーファイル入力</name>
+		<overview>指定した設定で空の動画を読み込む</overview>
+		<description
+		>「ダミーファイル入力」はテキストファイルで指定した設定で空の動画を読み込む入力プラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>input</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1559137.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1559137.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/dummy.aui</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>aoytskmisc</id>
+		<name>小物詰め合わせ</name>
+		<overview>小物プラグイン色々</overview>
+		<description
+		>小物プラグイン色々。「音声プレビュー」「黒塗り」「編集＋」「タイムライン拡大率」「メモ」「ポイントミュート」「選択範囲編集」「タイムスタンプ合わせ」</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1607088.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1607088.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/audiopreview.auf</file>
+			<file>plugins/blacken.auf</file>
+			<file>plugins/editx.auf</file>
+			<file>plugins/exlayerjump.auf</file>
+			<file>plugins/exlayerswitch.auf</file>
+			<file>plugins/exscale.auf</file>
+			<file>plugins/exsceneswitch.auf</file>
+			<file>plugins/memo.auf</file>
+			<file>plugins/pointmute.auf</file>
+			<file>plugins/selector.auf</file>
+			<file>plugins/timestamp.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>aoytskrec</id>
+		<name>簡易録音</name>
+		<overview>Aviutlで録音をするプラグイン</overview>
+		<description
+		>簡易録音はAviutlで録音をするプラグインです。プレビューを再生しながら録音したり、拡張編集のタイムラインに自動で追加することができます。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1677824.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1677824.html</downloadURL>
+		<latestVersion>Ver 0.2</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/rec.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>aoytskrecovery</id>
+		<name>リカバリ</name>
+		<overview>AviUtlが落ちた時の編集状態を復元し、再起動する</overview>
+		<description
+		>「リカバリ」はAviUtlが落ちた時の編集状態を復元し、再起動するプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/34739355.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/34739355.html</downloadURL>
+		<latestVersion>Ver 0.1.0</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/recovery.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>autoloader</id>
+		<name>オートローダー</name>
+		<overview>ファイルを開いたときに追加で他のファイルを読み込みます</overview>
+		<description
+		>オートローダーはAviutlでファイルを開いたときに追加で他のファイルを読み込んだり他のプラグインにファイルを渡す機能を追加します。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1578022.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1578022.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/autoloader.auf</file>
+			<file optional="true">plugins/autoloader.ini</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>cmpwnd</id>
+		<name>比較ウィンドウ</name>
+		<overview>２つの動画を比較するためのプラグイン</overview>
+		<description
+		>比較ウィンドウ は２つの動画を比較するためのプラグインです。プラグインのコピーで複数の動画を比較することもできます。エンコード設定や参考動画の比較に役立ちます。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1490264.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1490264.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/cmpwnd.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>dbgwnd</id>
+		<name>デバッグウィンドウ</name>
+		<overview>Aviutlの構造体やメッセージなどの情報を表示</overview>
+		<description
+		>「デバッグウィンドウ」はAviutlの構造体やメッセージなどの情報を表示するプラグインです。OutputDebugStringに対応しているのでスクリプトのデバッグ出力も表示できます。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1545310.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1545310.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/dbgwnd.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>easymp4</id>
+		<name>かんたんMP4出力</name>
+		<overview>セットアップ不要、プラグイン一つで簡単にエンコード</overview>
+		<description
+		>セットアップ不要、プラグイン一つで簡単にエンコードできます。</description>
+		<developer>aoytsk</developer>
+		<type>output</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/34586383.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/34586383.html</downloadURL>
+		<latestVersion>v0.1.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/easymp4.auo</file>
+		</files>
+	</plugin>
+
+		<plugin>
+		<id>exeditbutton</id>
+		<name>拡張編集が...消えた?</name>
+		<overview>拡張編集の表示を切り替えるメニューを追加</overview>
+		<description
+		>拡張編集のウィンドウが消えてももう大丈夫。メニューから素早く表示できます。・メインウィンドウに拡張編集を表示を切り替えるメニューを追加・画面外に消えた拡張編集ウィンドウを起動時に画面内に移動させる。(既に本体で実装されている模様)</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/Aviutl/891011.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/Aviutl/891011.html</downloadURL>
+		<latestVersion>Ver 1.0</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/exeditbutton.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>extext</id>
+		<name>字幕アシスト</name>
+		<overview>エディタやブラウザなどから、文章を直接タイムラインに追加</overview>
+		<description
+		>字幕アシストはエディタやブラウザなどから、選択した文章を直接タイムラインに追加できるプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1412254.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1412254.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/extext.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>extoolbar</id>
+		<name>拡張ツールバー</name>
+		<overview>Aviutlに拡張編集用ツールバーを追加</overview>
+		<description
+		>拡張ツールバーはAviutlに拡張編集用ツールバーを追加するプラグインです。ツールバーのアイコンは自分で書き換えることもできます。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/422768.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/422768.html</downloadURL>
+		<latestVersion>Ver 0.3.5</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/extoolbar.auf</file>
+			<file optional="true">plugins/extoolbar.ini</file>
+			<file optional="true" directory="true">plugins/extoolbar/</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>inputprofile</id>
+		<name>入力優先度変更 β</name>
+		<overview>入力プラグインの優先度をプロファイルに記録する</overview>
+		<description
+		>「入力優先度変更」は、入力プラグインの優先度をプロファイルに記録することで切り替えを容易にするAviutlプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/Aviutl/711549.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/Aviutl/711549.html</downloadURL>
+		<latestVersion>Ver 0.2b</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/inputprofile.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>jumpbarx</id>
+		<name>ジャンプバー＋</name>
+		<overview>様々なジャンプ機能を提供するAviutlプラグイン</overview>
+		<description
+		>ジャンプバー＋ は様々なジャンプ機能を提供するAviutlプラグインです。フレーム・秒単位の相対位置ジャンプや、編集点・プロファイル変更位置へのジャンプ、マークやコピーしながらのジャンプなどが可能です。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/Aviutl/719123.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/Aviutl/719123.html</downloadURL>
+		<latestVersion>Ver 0.4.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/jumpbarx.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>jumpdlg</id>
+		<name>ジャンプダイアログ（通常版）</name>
+		<overview>指定した位置に簡単にジャンプできるダイアログを追加する</overview>
+		<description
+		>ジャンプダイアログはAviutlに指定した位置に簡単にジャンプできるダイアログを追加するプラグインです。10ヶ所まで登録できる通常版と、32ヶ所まで登録できる 増量版があります。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/445066.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/445066.html</downloadURL>
+		<latestVersion>Ver 0.4</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/jumpdlg.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>jumpdlg32</id>
+		<name>ジャンプダイアログ（増量版）</name>
+		<overview>指定した位置に簡単にジャンプできるダイアログを追加する</overview>
+		<description
+		>ジャンプダイアログはAviutlに指定した位置に簡単にジャンプできるダイアログを追加するプラグインです。10ヶ所まで登録できる通常版と、32ヶ所まで登録できる 増量版があります。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/445066.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/445066.html</downloadURL>
+		<latestVersion>Ver 0.4</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/jumpdlg32.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>pluginlist</id>
+		<name>プラグインリスト</name>
+		<overview>プラグインとスクリプトの一覧をファイルに保存</overview>
+		<description
+		>プラグインリストはプラグインとスクリプトの一覧を、エクセルなどで閲覧できるtsvファイルに保存するプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1592487.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1592487.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/pluginlist.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>quickopen</id>
+		<name>クイックオープン</name>
+		<overview>出力後の動画ファイルを素早く開く</overview>
+		<description
+		>クイックオープンは編集中、出力後の動画ファイルを素早く開くためのプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1347719.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1347719.html</downloadURL>
+		<latestVersion>Ver 0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/quickopen.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>seekbarx</id>
+		<name>シークバー＋</name>
+		<overview>シークバーにサムネイルを表示する</overview>
+		<description
+		>Youtubeのようなサムネイルをシークバーに追加するAviutlプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/613302.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/613302.html</downloadURL>
+		<latestVersion>Ver 0.3.1</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/seekbarx.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>statbarx</id>
+		<name>ステータスバー＋</name>
+		<overview>編集情報を一覧できるステータスバーをAviUtlに追加</overview>
+		<description
+		>ステータスバー＋は編集情報を一覧できるステータスバーをAviUtlに追加するプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/435251.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/435251.html</downloadURL>
+		<latestVersion>Ver 0.5.0</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/statbarx.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>trayiconx</id>
+		<name>トレイアイコン＋</name>
+		<overview>Aviutl を通知領域(タスクトレイ)に格納する</overview>
+		<description
+		>トレイアイコン＋はAviutl を通知領域(タスクトレイ)に格納したり、進捗情報の表示や一時停止機能を追加する Aviutlプラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/450565.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/450565.html</downloadURL>
+		<latestVersion>Ver 0.4</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/trayiconx.auf</file>
+		</files>
+	</plugin>
+
+	<plugin>
+		<id>wndman</id>
+		<name>ウィンドウマネージャー</name>
+		<overview>ウィンドウの配置を記録して切り替える機能などを追加</overview>
+		<description
+		>ウィンドウマネージャーはAviUtlのウィンドウの配置を記録して切り替えたり、消えたウィンドウを表示させる機能などを追加するウィンドウ管理プラグインです。</description>
+		<developer>aoytsk</developer>
+		<type>filter</type>
+		<pageURL>https://aoytsk.blog.jp/aviutl/1470428.html</pageURL>
+		<downloadURL>https://aoytsk.blog.jp/aviutl/1470428.html</downloadURL>
+		<latestVersion>Ver 0.4.0</latestVersion>
+		<detailURL />
+		<files>
+			<file>plugins/wndman.auf</file>
+			<file optional="true">plugins/wndman.ini</file>
+		</files>
+	</plugin>
+
+	<!-- in progress -->
+
 	<plugin>
 		<id>x264guiEx</id>
 		<name>x264guiEx</name>
 		<overview>x264を使用したH264出力</overview>
-		<description>拡張 x264 出力(GUI) Ex (x264guiEx) は、
-x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
+		<description
+		>拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
 		<type>output</type>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-5.html</pageURL>
@@ -27,7 +481,7 @@ x264を使用してエンコードを行うAviutlの出力プラグインです�
 	</plugin>
 
 	<plugin>
-		<id>LSmashWorks</id>
+		<id>LSMASHWorks</id>
 		<name>L-SMASH Works</name>
 		<overview>様々なファイルを読み込む</overview>
 		<description
@@ -47,7 +501,7 @@ x264を使用してエンコードを行うAviutlの出力プラグインです�
 	</plugin>
 
 	<plugin>
-		<id>ExeditRamPreview</id>
+		<id>ZRamPreview</id>
 		<name>拡張編集RAMプレビュー</name>
 		<overview>キャッシュしてコマ落ちを減らす</overview>
 		<description
@@ -67,35 +521,12 @@ x264を使用してエンコードを行うAviutlの出力プラグインです�
 	</plugin>
 
 	<plugin>
-		<id>InputPipePlugin</id>
-		<name>InputPipePlugin</name>
-		<overview>AviUtlのメモリ使用量を減らす</overview>
-		<description
-		>このソフトは、L-SMASH_Works File Reader(lwinput.aui)を別プロセスで実行してあげることによって
-aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです</description>
-		<developer>amate</developer>
-		<type>input</type>
-		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
-		<downloadURL
-		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
-		<latestVersion>v1.8</latestVersion>
-		<detailURL />
-		<files>
-			<file archivePath="InputPipePlugin/">plugins/InputPipeMain.exe</file>
-			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
-			<file optional="true">plugins/InputPipePlugin.log</file>
-		</files>
-	</plugin>
-
-	<plugin>
-		<id>VstHostPlugin</id>
+		<id>VSThost4aviutl</id>
 		<name>VSTホストプラグイン＋α</name>
 		<overview
 		>aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる</overview>
 		<description
-		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。
-１つのaufファイルにつき１DLLのみマウントできます。
-複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
+		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
 		<developer>しし/りっちゃん</developer>
 		<type>filter</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
@@ -108,23 +539,6 @@ aviutlのメモリ使用量削減を目論む、aviutlの入力プラグイン�
 			<file archivePath="VSThost4aviutl/">plugins/vsthost_3.auf</file>
 			<file archivePath="VSThost4aviutl/">plugins/vsthost_4.auf</file>
 			<file archivePath="VSThost4aviutl/">plugins/wavpatch.auf</file>
-		</files>
-	</plugin>
-
-	<plugin>
-		<id>SeekbarPlus</id>
-		<name>シークバー＋</name>
-		<overview>シークバーにサムネイルを表示する</overview>
-		<description
-		>Youtubeのようなサムネイルをシークバーに追加するAviutlプラグインです。</description>
-		<developer>aoytsk</developer>
-		<type>filter</type>
-		<pageURL>https://aoytsk.blog.jp/aviutl/613302.html</pageURL>
-		<downloadURL>https://aoytsk.blog.jp/aviutl/613302.html</downloadURL>
-		<latestVersion>Ver 0.3.1</latestVersion>
-		<detailURL />
-		<files>
-			<file>plugins/seekbarx.auf</file>
 		</files>
 	</plugin>
 
@@ -148,7 +562,7 @@ aviutlのメモリ使用量削減を目論む、aviutlの入力プラグイン�
 	</plugin>
 
 	<plugin>
-		<id>Loudness</id>
+		<id>oovloudness</id>
 		<name>loudness.auf</name>
 		<overview>Loudness値を測定</overview>
 		<description>ラウドネス値が表示できるプラグイン</description>
@@ -165,7 +579,7 @@ aviutlのメモリ使用量削減を目論む、aviutlの入力プラグイン�
 	</plugin>
 
 	<plugin>
-		<id>DirectShowFileReader</id>
+		<id>dsinput</id>
 		<name>DirectShow File Reader プラグイン for AviUtl</name>
 		<overview>様々なファイルを読み込む</overview>
 		<description
@@ -184,11 +598,11 @@ aviutlのメモリ使用量削減を目論む、aviutlの入力プラグイン�
 	</plugin>
 
 	<plugin>
-		<id>OutputPng</id>
+		<id>aulsoutputpng</id>
 		<name>PNG出力</name>
 		<overview>現在フレームの画像をPNG形式で出力</overview>
-		<description>現在フレームの画像をPNG形式で出力します。
-アルファチャンネルの有無を選べます。</description>
+		<description
+		>現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。</description>
 		<developer>yu_noimage_</developer>
 		<type>filter</type>
 		<pageURL>https://auls.client.jp/</pageURL>

@@ -83,7 +83,7 @@
 	</plugin>
 
 	<plugin>
-		<id>aoytskDummy</id>
+		<id>aoytskdummy</id>
 		<name>ダミーファイル入力</name>
 		<overview>指定した設定で空の動画を読み込む</overview>
 		<description
@@ -100,7 +100,7 @@
 	</plugin>
 
 	<plugin>
-		<id>aoytskMisc</id>
+		<id>aoytskmisc</id>
 		<name>小物詰め合わせ</name>
 		<overview>小物プラグイン色々</overview>
 		<description
@@ -127,7 +127,7 @@
 	</plugin>
 
 	<plugin>
-		<id>aoytskRec</id>
+		<id>aoytskrec</id>
 		<name>簡易録音</name>
 		<overview>Aviutlで録音をするプラグイン</overview>
 		<description
@@ -144,7 +144,7 @@
 	</plugin>
 
 	<plugin>
-		<id>aoytskRecovery</id>
+		<id>aoytskrecovery</id>
 		<name>リカバリ</name>
 		<overview>AviUtlが落ちた時の編集状態を復元し、再起動する</overview>
 		<description
@@ -385,7 +385,7 @@
 	</plugin>
 
 	<plugin>
-		<id>SeekbarPlus</id>
+		<id>seekbarx</id>
 		<name>シークバー＋</name>
 		<overview>シークバーにサムネイルを表示する</overview>
 		<description
@@ -481,7 +481,7 @@
 	</plugin>
 
 	<plugin>
-		<id>LSmashWorks</id>
+		<id>LSMASHWorks</id>
 		<name>L-SMASH Works</name>
 		<overview>様々なファイルを読み込む</overview>
 		<description
@@ -501,7 +501,7 @@
 	</plugin>
 
 	<plugin>
-		<id>ExeditRamPreview</id>
+		<id>ZRamPreview</id>
 		<name>拡張編集RAMプレビュー</name>
 		<overview>キャッシュしてコマ落ちを減らす</overview>
 		<description
@@ -520,10 +520,8 @@
 		</files>
 	</plugin>
 
-
-
 	<plugin>
-		<id>VstHostPlugin</id>
+		<id>VSThost4aviutl</id>
 		<name>VSTホストプラグイン＋α</name>
 		<overview
 		>aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる</overview>
@@ -543,8 +541,6 @@
 			<file archivePath="VSThost4aviutl/">plugins/wavpatch.auf</file>
 		</files>
 	</plugin>
-
-
 
 	<plugin>
 		<id>GcmzDrops</id>
@@ -566,7 +562,7 @@
 	</plugin>
 
 	<plugin>
-		<id>Loudness</id>
+		<id>oovloudness</id>
 		<name>loudness.auf</name>
 		<overview>Loudness値を測定</overview>
 		<description>ラウドネス値が表示できるプラグイン</description>
@@ -583,7 +579,7 @@
 	</plugin>
 
 	<plugin>
-		<id>DirectShowFileReader</id>
+		<id>dsinput</id>
 		<name>DirectShow File Reader プラグイン for AviUtl</name>
 		<overview>様々なファイルを読み込む</overview>
 		<description
@@ -602,7 +598,7 @@
 	</plugin>
 
 	<plugin>
-		<id>OutputPng</id>
+		<id>aulsoutputpng</id>
 		<name>PNG出力</name>
 		<overview>現在フレームの画像をPNG形式で出力</overview>
 		<description

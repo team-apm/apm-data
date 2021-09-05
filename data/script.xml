@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../scheme/script.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="../schema/script.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <script>
 	<name />
 	<developer />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../scheme/scripts_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="../schema/scripts_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <scripts>
 	<script>
 		<id>Satsuki</id>

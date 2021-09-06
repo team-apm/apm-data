@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../schema/plugins_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<plugins>
+<?xml-model href="../schema/packages_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<packages>
 	<!-- amate -->
-	<plugin>
+	<package>
 		<id>InputPipePlugin</id>
 		<name>InputPipePlugin</name>
 		<overview>AviUtlのメモリ使用量を減らす</overview>
@@ -20,9 +20,9 @@
 			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
 			<file optional="true">plugins/InputPipePlugin.log</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>MFVideoReader</id>
 		<name>MFVideoReader</name>
 		<overview>Media Foundationを使った入力プラグイン</overview>
@@ -38,9 +38,9 @@
 			<file archivePath="MFVideoReader/">plugins/MFVideoReader.exe</file>
 			<file archivePath="MFVideoReader/">plugins/MFVideoReaderPlugin.aui</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>PropertyWindowFixerPlugin</id>
 		<name>設定ダイアログ画面サイズ固定化プラグイン</name>
 		<overview>拡張編集設定ダイアログのウインドウサイズを固定化する</overview>
@@ -61,10 +61,10 @@
 				archivePath="PropertyWindowFixerPlugin/"
 			>plugins/PropertyWindowFixerPluginConfig.ini</file>
 		</files>
-	</plugin>
+	</package>
 
 	<!-- aoytsk -->
-	<plugin>
+	<package>
 		<id>adjustaudio</id>
 		<name>音声の位置微調整</name>
 		<overview>1フレーム以下のより細かい精度で音ズレを修正</overview>
@@ -80,9 +80,9 @@
 			<file>plugins/adjustaudio.auf</file>
 			<file>plugins/adjustaudioex.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>aoytskdummy</id>
 		<name>ダミーファイル入力</name>
 		<overview>指定した設定で空の動画を読み込む</overview>
@@ -97,9 +97,9 @@
 		<files>
 			<file>plugins/dummy.aui</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>aoytskmisc</id>
 		<name>小物詰め合わせ</name>
 		<overview>小物プラグイン色々</overview>
@@ -124,9 +124,9 @@
 			<file>plugins/selector.auf</file>
 			<file>plugins/timestamp.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>aoytskrec</id>
 		<name>簡易録音</name>
 		<overview>Aviutlで録音をするプラグイン</overview>
@@ -141,9 +141,9 @@
 		<files>
 			<file>plugins/rec.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>aoytskrecovery</id>
 		<name>リカバリ</name>
 		<overview>AviUtlが落ちた時の編集状態を復元し、再起動する</overview>
@@ -158,9 +158,9 @@
 		<files>
 			<file>plugins/recovery.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>autoloader</id>
 		<name>オートローダー</name>
 		<overview>ファイルを開いたときに追加で他のファイルを読み込みます</overview>
@@ -176,9 +176,9 @@
 			<file>plugins/autoloader.auf</file>
 			<file optional="true">plugins/autoloader.ini</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>cmpwnd</id>
 		<name>比較ウィンドウ</name>
 		<overview>２つの動画を比較するためのプラグイン</overview>
@@ -193,9 +193,9 @@
 		<files>
 			<file>plugins/cmpwnd.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>dbgwnd</id>
 		<name>デバッグウィンドウ</name>
 		<overview>Aviutlの構造体やメッセージなどの情報を表示</overview>
@@ -210,9 +210,9 @@
 		<files>
 			<file>plugins/dbgwnd.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>easymp4</id>
 		<name>かんたんMP4出力</name>
 		<overview>セットアップ不要、プラグイン一つで簡単にエンコード</overview>
@@ -227,9 +227,9 @@
 		<files>
 			<file>plugins/easymp4.auo</file>
 		</files>
-	</plugin>
+	</package>
 
-		<plugin>
+		<package>
 		<id>exeditbutton</id>
 		<name>拡張編集が...消えた?</name>
 		<overview>拡張編集の表示を切り替えるメニューを追加</overview>
@@ -244,9 +244,9 @@
 		<files>
 			<file>plugins/exeditbutton.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>extext</id>
 		<name>字幕アシスト</name>
 		<overview>エディタやブラウザなどから、文章を直接タイムラインに追加</overview>
@@ -261,9 +261,9 @@
 		<files>
 			<file>plugins/extext.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>extoolbar</id>
 		<name>拡張ツールバー</name>
 		<overview>Aviutlに拡張編集用ツールバーを追加</overview>
@@ -280,9 +280,9 @@
 			<file optional="true">plugins/extoolbar.ini</file>
 			<file optional="true" directory="true">plugins/extoolbar/</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>inputprofile</id>
 		<name>入力優先度変更 β</name>
 		<overview>入力プラグインの優先度をプロファイルに記録する</overview>
@@ -297,9 +297,9 @@
 		<files>
 			<file>plugins/inputprofile.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>jumpbarx</id>
 		<name>ジャンプバー＋</name>
 		<overview>様々なジャンプ機能を提供するAviutlプラグイン</overview>
@@ -314,9 +314,9 @@
 		<files>
 			<file>plugins/jumpbarx.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>jumpdlg</id>
 		<name>ジャンプダイアログ（通常版）</name>
 		<overview>指定した位置に簡単にジャンプできるダイアログを追加する</overview>
@@ -331,9 +331,9 @@
 		<files>
 			<file>plugins/jumpdlg.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>jumpdlg32</id>
 		<name>ジャンプダイアログ（増量版）</name>
 		<overview>指定した位置に簡単にジャンプできるダイアログを追加する</overview>
@@ -348,9 +348,9 @@
 		<files>
 			<file>plugins/jumpdlg32.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>pluginlist</id>
 		<name>プラグインリスト</name>
 		<overview>プラグインとスクリプトの一覧をファイルに保存</overview>
@@ -365,9 +365,9 @@
 		<files>
 			<file>plugins/pluginlist.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>quickopen</id>
 		<name>クイックオープン</name>
 		<overview>出力後の動画ファイルを素早く開く</overview>
@@ -382,9 +382,9 @@
 		<files>
 			<file>plugins/quickopen.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>seekbarx</id>
 		<name>シークバー＋</name>
 		<overview>シークバーにサムネイルを表示する</overview>
@@ -399,9 +399,9 @@
 		<files>
 			<file>plugins/seekbarx.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>statbarx</id>
 		<name>ステータスバー＋</name>
 		<overview>編集情報を一覧できるステータスバーをAviUtlに追加</overview>
@@ -416,9 +416,9 @@
 		<files>
 			<file>plugins/statbarx.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>trayiconx</id>
 		<name>トレイアイコン＋</name>
 		<overview>Aviutl を通知領域(タスクトレイ)に格納する</overview>
@@ -433,9 +433,9 @@
 		<files>
 			<file>plugins/trayiconx.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>wndman</id>
 		<name>ウィンドウマネージャー</name>
 		<overview>ウィンドウの配置を記録して切り替える機能などを追加</overview>
@@ -451,11 +451,11 @@
 			<file>plugins/wndman.auf</file>
 			<file optional="true">plugins/wndman.ini</file>
 		</files>
-	</plugin>
+	</package>
 
 	<!-- in progress -->
 
-	<plugin>
+	<package>
 		<id>x264guiEx</id>
 		<name>x264guiEx</name>
 		<overview>x264を使用したH264出力</overview>
@@ -478,9 +478,9 @@
 			<file optional="true" directory="true">exe_files/</file>
 			<file optional="true" directory="true">plugins/x264guiEx_stg/</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>LSMASHWorks</id>
 		<name>L-SMASH Works</name>
 		<overview>様々なファイルを読み込む</overview>
@@ -498,9 +498,9 @@
 			<file>plugins/lwinput.aui</file>
 			<file>plugins/lwmuxer.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>ZRamPreview</id>
 		<name>拡張編集RAMプレビュー</name>
 		<overview>キャッシュしてコマ落ちを減らす</overview>
@@ -518,9 +518,9 @@
 			<file>ZRamPreview.exe</file>
 			<file directory="true">script</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>VSThost4aviutl</id>
 		<name>VSTホストプラグイン＋α</name>
 		<overview
@@ -540,9 +540,9 @@
 			<file archivePath="VSThost4aviutl/">plugins/vsthost_4.auf</file>
 			<file archivePath="VSThost4aviutl/">plugins/wavpatch.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>GcmzDrops</id>
 		<name>ごちゃまぜドロップス</name>
 		<overview>ファイルをドラッグ＆ドロップで読み込み</overview>
@@ -559,9 +559,9 @@
 			<file directory="true">GCMZDrops</file>
 			<file>GCMZDrops.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>oovloudness</id>
 		<name>loudness.auf</name>
 		<overview>Loudness値を測定</overview>
@@ -576,9 +576,9 @@
 		<files>
 			<file>plugins/loudness.auf</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>dsinput</id>
 		<name>DirectShow File Reader プラグイン for AviUtl</name>
 		<overview>様々なファイルを読み込む</overview>
@@ -595,9 +595,9 @@
 		<files>
 			<file>plugins/ds_input.aui</file>
 		</files>
-	</plugin>
+	</package>
 
-	<plugin>
+	<package>
 		<id>aulsoutputpng</id>
 		<name>PNG出力</name>
 		<overview>現在フレームの画像をPNG形式で出力</overview>
@@ -612,5 +612,51 @@
 		<files>
 			<file>plugins/auls_outputpng.auf</file>
 		</files>
-	</plugin>
-</plugins>
+	</package>
+
+	<package>
+		<id>Satsuki</id>
+		<name>AviUtlスクリプト一式</name>
+		<overview>AviUtlを使うなら必須のスクリプト</overview>
+		<description />
+		<developer>さつき</developer>
+		<type>animation object track</type>
+		<pageURL>https://dic.nicovideo.jp/u/2787743#script</pageURL>
+		<downloadURL>https://bowlroll.net/file/3777</downloadURL>
+		<latestVersion>20160828</latestVersion>
+		<detailURL />
+		<files>
+			<file>script/さつき/@ANM1.anm</file>
+			<file>script/さつき/@ANM2.anm</file>
+			<file>script/さつき/@FIGURE.obj</file>
+			<file>script/さつき/@LOAD.obj</file>
+			<file>script/さつき/@TA.anm</file>
+			<file>script/さつき/@音声.anm</file>
+			<file>script/さつき/@加減速.anm</file>
+			<file>script/さつき/@連番.anm</file>
+			<file directory="true">script/ANM_ssd/</file>
+			<file directory="true">script/TA_ssd/</file>
+		</files>
+	</package>
+
+	<package>
+		<id>EasingTra2020</id>
+		<name>トラックバー対応イージングスクリプト</name>
+		<overview>移動を滑らかに</overview>
+		<description />
+		<developer>UndoFish</developer>
+		<type>animation object track</type>
+		<pageURL>https://www.nicovideo.jp/watch/sm37721332</pageURL>
+		<downloadURL>https://www.nicovideo.jp/watch/sm37721332</downloadURL>
+		<latestVersion>2020版</latestVersion>
+		<detailURL />
+		<files>
+			<file>script/easing_tra_2020/@uf_easing.anm</file>
+			<file>script/easing_tra_2020/@uf_easing.tra</file>
+			<file>script/easing_tra_2020/easing.lua</file>
+			<file>script/easing_tra_2020/easing.png</file>
+			<file>script/easing_tra_2020/easing_aviutl2020.lua</file>
+			<file>script/easing_tra_2020/uf_easing.obj</file>
+		</files>
+	</package>
+</packages>

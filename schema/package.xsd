@@ -8,12 +8,12 @@
 		schemaLocation="au.xsd"
 	/>
 
-	<xsd:element name="script">
+	<xsd:element name="package">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="name" type="xsd:string" />
 				<xsd:element name="developer" type="xsd:string" />
-				<xsd:element name="type" type="au:scriptType" />
+				<xsd:element name="type" type="au:packageType" />
 				<xsd:element name="pageURL" type="xsd:anyURI" />
 				<xsd:element name="latestVersion" type="xsd:string" />
 				<xsd:element name="releases" type="au:releases" />

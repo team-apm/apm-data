@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../schema/plugin.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<plugin>
+<?xml-model href="../schema/package.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package>
 	<name>x264guiex</name>
 	<developer />
 	<type>output</type>
@@ -10,4 +10,4 @@
 		<fileURL version="" />
 		<fileURL version="" />
 	</releases>
-</plugin>
+</package>

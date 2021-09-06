@@ -4,7 +4,7 @@
 	targetNamespace="http://halshusato.starfree.jp/ato_lash/aviutl/"
 >
 
-	<xsd:simpleType name="pluginType">
+	<xsd:simpleType name="packageType">
 		<xsd:list>
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -13,15 +13,6 @@
 					<xsd:enumeration value="filter" />
 					<xsd:enumeration value="color" />
 					<xsd:enumeration value="language" />
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:list>
-	</xsd:simpleType>
-
-	<xsd:simpleType name="scriptType">
-		<xsd:list>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
 					<xsd:enumeration value="animation" />
 					<xsd:enumeration value="object" />
 					<xsd:enumeration value="scene" />

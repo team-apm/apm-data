@@ -4,25 +4,6 @@
 	targetNamespace="http://halshusato.starfree.jp/ato_lash/aviutl/"
 >
 
-	<xsd:simpleType name="packageType">
-		<xsd:list>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="input" />
-					<xsd:enumeration value="output" />
-					<xsd:enumeration value="filter" />
-					<xsd:enumeration value="color" />
-					<xsd:enumeration value="language" />
-					<xsd:enumeration value="animation" />
-					<xsd:enumeration value="object" />
-					<xsd:enumeration value="scene" />
-					<xsd:enumeration value="camera" />
-					<xsd:enumeration value="track" />
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:list>
-	</xsd:simpleType>
-
 	<xsd:complexType name="releases">
 		<xsd:sequence>
 			<xsd:element name="fileURL" maxOccurs="unbounded">

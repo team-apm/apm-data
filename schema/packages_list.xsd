@@ -24,7 +24,6 @@
 				<xsd:element name="overview" type="xsd:string" />
 				<xsd:element name="description" type="xsd:string" />
 				<xsd:element name="developer" type="xsd:string" />
-				<xsd:element name="type" type="au:packageType" />
 				<xsd:element name="pageURL" type="xsd:anyURI" />
 				<xsd:element name="downloadURL" type="xsd:anyURI" />
 				<xsd:element name="downloadMirrorURL" type="xsd:anyURI" minOccurs="0" />

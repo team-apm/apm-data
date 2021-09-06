@@ -428,6 +428,193 @@
 		</files>
 	</package>
 
+	<!-- AviUtl実験室 -->
+
+	<package>
+		<id>AviUtlLabanimate</id>
+		<name>アニメーション編集 for AviUtl</name>
+		<overview>スクリプトを読み込んで動画を編集する</overview>
+		<description
+		>スクリプトを読み込んで動画を編集するプラグインです。座標や色などのパラメータにフレーム番号を含む数式を記述できるので動きなどを表現できます。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl</downloadURL>
+		<latestVersion>ver1.4</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="animate/">plugins/animate.auf</file>
+			<file archivePath="animate/">plugins/animation.txt</file>
+		</files>
+	</package>
+
+	<package>
+		<id>AviUtlLabchapter</id>
+		<name>チャプター編集 for AviUtl</name>
+		<overview>ogm/mkv/mp4用のチャプターファイルを作成する</overview>
+		<description
+		>ogm/mkv/mp4用のチャプターファイルを作成するためのプラグインです。表示メニューに「チャプター編集」を追加します。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%C1%A5%E3%A5%D7%A5%BF%A1%BC%CA%D4%BD%B8%20for%20AviUtl</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%C1%A5%E3%A5%D7%A5%BF%A1%BC%CA%D4%BD%B8%20for%20AviUtl</downloadURL>
+		<latestVersion>ver0.6</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="chapter/">plugins/chapter.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>AviUtlLabcroma</id>
+		<name>クロマキー画像作成プラグイン</name>
+		<overview>クロマキー合成用の画像またはマスク画像を作る</overview>
+		<description
+		>指定範囲内、または範囲外の色を塗り潰してクロマキー合成用の画像またはマスク画像を作るプラグインです。また、マウスクリックした場所の座標と色をポップアップダイアログで表示できます。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792</downloadURL>
+		<latestVersion>ver0.1</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="croma/">plugins/croma.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>cmdex</id>
+		<name>コマンド実行 for AviUtl</name>
+		<overview>バッチ処理にコマンドラインによる処理を組み込む</overview>
+		<description
+		>バッチ処理にコマンドラインツールによる処理を組み込むための出力プラグインです。このプラグイン自体は何も出力しません（一時ファイルは作ります）。使うにはコマンドラインツールを扱える知識が必要です。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%B3%A5%DE%A5%F3%A5%C9%BC%C2%B9%D4%20for%20AviUtl</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%A5%B3%A5%DE%A5%F3%A5%C9%BC%C2%B9%D4%20for%20AviUtl</downloadURL>
+		<latestVersion>ver0.3</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="cmdex/">plugins/cmdex.auo</file>
+			<file archivePath="cmdex/">plugins/cmdex.txt</file>
+			<file archivePath="cmdex/">plugins/powerctl.exe</file>
+		</files>
+	</package>
+
+	<package>
+		<id>dsinput</id>
+		<name>DirectShow File Reader</name>
+		<overview>様々なファイルを読み込む</overview>
+		<description
+		>AviUtl0.98以降で使用できるDirectShow入力プラグインです。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</downloadURL>
+		<latestVersion>ver0.26a</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="ds_input/">plugins/ds_input.aui</file>
+		</files>
+	</package>
+
+	<package>
+		<id>itvfr</id>
+		<name>可変FR出力(逆テレシネ)</name>
+		<overview>30/24fps混在のソースを可変フレームレートで出力</overview>
+		<description
+		>30/24fps混在のソースを自動判定して可変フレームレートで出力するプラグインセットです。24fpsで動きが大きなシーンは24fps、それ以外は30fpsで出力されます。逆テレシネプラグインと出力プラグインのセットで動作します。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#taa0bd65</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#taa0bd65</downloadURL>
+		<latestVersion>ver0.9</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="itvfr/">plugins/itvfr.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>itvfrdeint</id>
+		<name>可変FR出力(逆テレシネ・インターレース解除)</name>
+		<overview>30/24fps混在のソースを可変フレームレートで出力</overview>
+		<description
+		>30/24fps混在のソースを自動判定して可変フレームレートで出力するプラグインセットです。24fpsで動きが大きなシーンは24fps、それ以外は30fpsで出力されます。逆テレシネプラグインと出力プラグインのセットで動作します。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#taa0bd65</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#taa0bd65</downloadURL>
+		<latestVersion>ver0.9</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="itvfr/">plugins/itvfr_deint.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>vfrout</id>
+		<name>可変FR出力(AVI出力)</name>
+		<overview>30/24fps混在のソースを可変フレームレートで出力</overview>
+		<description
+		>30/24fps混在のソースを自動判定して可変フレームレートで出力するプラグインセットです。24fpsで動きが大きなシーンは24fps、それ以外は30fpsで出力されます。逆テレシネプラグインと出力プラグインのセットで動作します。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#d81965c2</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#d81965c2</downloadURL>
+		<latestVersion>ver0.5</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="vfrout/">plugins/vfrout.auo</file>
+			<file optional="true" archivePath="vfrout/">plugins/vfrout.ini</file>
+		</files>
+	</package>
+
+	<package>
+		<id>wmvoutvfr</id>
+		<name>可変FR出力(WMV出力)</name>
+		<overview>30/24fps混在のソースを可変フレームレートで出力</overview>
+		<description
+		>30/24fps混在のソースを自動判定して可変フレームレートで出力するプラグインセットです。24fpsで動きが大きなシーンは24fps、それ以外は30fpsで出力されます。逆テレシネプラグインと出力プラグインのセットで動作します。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#m37cd4ca</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#m37cd4ca</downloadURL>
+		<latestVersion>ver0.5a</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="wmvout_vfr/">plugins/wmvout_vfr.auo</file>
+		</files>
+	</package>
+
+	<package>
+		<id>x264out</id>
+		<name>可変FR出力(x264出力)</name>
+		<overview>30/24fps混在のソースを可変フレームレートで出力</overview>
+		<description
+		>30/24fps混在のソースを自動判定して可変フレームレートで出力するプラグインセットです。24fpsで動きが大きなシーンは24fps、それ以外は30fpsで出力されます。逆テレシネプラグインと出力プラグインのセットで動作します。</description>
+		<developer>AviUtl実験室</developer>
+		<pageURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#ua42580e</pageURL>
+		<downloadURL
+		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#ua42580e</downloadURL>
+		<latestVersion>ver0.9</latestVersion>
+		<detailURL />
+		<files>
+			<file archivePath="x264out/">plugins/x264out.auo</file>
+			<file archivePath="x264out/">plugins/x264out.ini</file>
+		</files>
+	</package>
+
 	<!-- in progress -->
 
 	<package>
@@ -544,24 +731,6 @@
 		<detailURL />
 		<files>
 			<file>plugins/loudness.auf</file>
-		</files>
-	</package>
-
-	<package>
-		<id>dsinput</id>
-		<name>DirectShow File Reader プラグイン for AviUtl</name>
-		<overview>様々なファイルを読み込む</overview>
-		<description
-		>AviUtl0.98以降で使用できるDirectShow入力プラグインです。</description>
-		<developer>AviUtl実験室</developer>
-		<pageURL
-		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</pageURL>
-		<downloadURL
-		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</downloadURL>
-		<latestVersion>ver0.26a</latestVersion>
-		<detailURL />
-		<files>
-			<file archivePath="ds_input/">plugins/ds_input.aui</file>
 		</files>
 	</package>
 

@@ -9,7 +9,6 @@
 		<description
 		>このソフトは、L-SMASH_Works File Reader(lwinput.aui)を別プロセスで実行してあげることによって、Aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです</description>
 		<developer>amate</developer>
-		<type>input</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
 		<downloadURL
 		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
@@ -29,7 +28,6 @@
 		<description
 		>ファイルの入力、分離、デコードに、Media Foundation を使っており、DXVA2(GPU)を利用した高速なデコードが可能です</description>
 		<developer>amate</developer>
-		<type>input</type>
 		<pageURL />
 		<downloadURL>https://github.com/amate/MFVideoReader/releases</downloadURL>
 		<latestVersion>v1.0</latestVersion>
@@ -47,7 +45,6 @@
 		<description
 		>このプラグインは、拡張編集の設定ダイアログのウィンドウサイズが長くなったり短くなったりするのを阻止し、常に同じウィンドウサイズに固定化するプラグインである</description>
 		<developer>amate</developer>
-		<type>filter</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm36085428</pageURL>
 		<downloadURL
 		>https://github.com/amate/PropertyWindowFixerPlugin/releases</downloadURL>
@@ -71,7 +68,6 @@
 		<description
 		>音声の位置微調整は1フレーム以下のより細かい精度(周波数単位)で音ズレを修正できるプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/2092140.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/2092140.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -89,7 +85,6 @@
 		<description
 		>「ダミーファイル入力」はテキストファイルで指定した設定で空の動画を読み込む入力プラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>input</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1559137.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1559137.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -106,7 +101,6 @@
 		<description
 		>小物プラグイン色々。「音声プレビュー」「黒塗り」「編集＋」「タイムライン拡大率」「メモ」「ポイントミュート」「選択範囲編集」「タイムスタンプ合わせ」</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1607088.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1607088.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -133,7 +127,6 @@
 		<description
 		>簡易録音はAviutlで録音をするプラグインです。プレビューを再生しながら録音したり、拡張編集のタイムラインに自動で追加することができます。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1677824.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1677824.html</downloadURL>
 		<latestVersion>Ver 0.2</latestVersion>
@@ -150,7 +143,6 @@
 		<description
 		>「リカバリ」はAviUtlが落ちた時の編集状態を復元し、再起動するプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/34739355.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/34739355.html</downloadURL>
 		<latestVersion>Ver 0.1.0</latestVersion>
@@ -167,7 +159,6 @@
 		<description
 		>オートローダーはAviutlでファイルを開いたときに追加で他のファイルを読み込んだり他のプラグインにファイルを渡す機能を追加します。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1578022.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1578022.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -185,7 +176,6 @@
 		<description
 		>比較ウィンドウ は２つの動画を比較するためのプラグインです。プラグインのコピーで複数の動画を比較することもできます。エンコード設定や参考動画の比較に役立ちます。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1490264.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1490264.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -202,7 +192,6 @@
 		<description
 		>「デバッグウィンドウ」はAviutlの構造体やメッセージなどの情報を表示するプラグインです。OutputDebugStringに対応しているのでスクリプトのデバッグ出力も表示できます。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1545310.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1545310.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -219,7 +208,6 @@
 		<description
 		>セットアップ不要、プラグイン一つで簡単にエンコードできます。</description>
 		<developer>aoytsk</developer>
-		<type>output</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/34586383.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/34586383.html</downloadURL>
 		<latestVersion>v0.1.1</latestVersion>
@@ -236,7 +224,6 @@
 		<description
 		>拡張編集のウィンドウが消えてももう大丈夫。メニューから素早く表示できます。・メインウィンドウに拡張編集を表示を切り替えるメニューを追加・画面外に消えた拡張編集ウィンドウを起動時に画面内に移動させる。(既に本体で実装されている模様)</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/Aviutl/891011.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/Aviutl/891011.html</downloadURL>
 		<latestVersion>Ver 1.0</latestVersion>
@@ -253,7 +240,6 @@
 		<description
 		>字幕アシストはエディタやブラウザなどから、選択した文章を直接タイムラインに追加できるプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1412254.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1412254.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -270,7 +256,6 @@
 		<description
 		>拡張ツールバーはAviutlに拡張編集用ツールバーを追加するプラグインです。ツールバーのアイコンは自分で書き換えることもできます。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/422768.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/422768.html</downloadURL>
 		<latestVersion>Ver 0.3.5</latestVersion>
@@ -289,7 +274,6 @@
 		<description
 		>「入力優先度変更」は、入力プラグインの優先度をプロファイルに記録することで切り替えを容易にするAviutlプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/Aviutl/711549.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/Aviutl/711549.html</downloadURL>
 		<latestVersion>Ver 0.2b</latestVersion>
@@ -306,7 +290,6 @@
 		<description
 		>ジャンプバー＋ は様々なジャンプ機能を提供するAviutlプラグインです。フレーム・秒単位の相対位置ジャンプや、編集点・プロファイル変更位置へのジャンプ、マークやコピーしながらのジャンプなどが可能です。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/Aviutl/719123.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/Aviutl/719123.html</downloadURL>
 		<latestVersion>Ver 0.4.1</latestVersion>
@@ -323,7 +306,6 @@
 		<description
 		>ジャンプダイアログはAviutlに指定した位置に簡単にジャンプできるダイアログを追加するプラグインです。10ヶ所まで登録できる通常版と、32ヶ所まで登録できる 増量版があります。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/445066.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/445066.html</downloadURL>
 		<latestVersion>Ver 0.4</latestVersion>
@@ -340,7 +322,6 @@
 		<description
 		>ジャンプダイアログはAviutlに指定した位置に簡単にジャンプできるダイアログを追加するプラグインです。10ヶ所まで登録できる通常版と、32ヶ所まで登録できる 増量版があります。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/445066.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/445066.html</downloadURL>
 		<latestVersion>Ver 0.4</latestVersion>
@@ -357,7 +338,6 @@
 		<description
 		>プラグインリストはプラグインとスクリプトの一覧を、エクセルなどで閲覧できるtsvファイルに保存するプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1592487.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1592487.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -374,7 +354,6 @@
 		<description
 		>クイックオープンは編集中、出力後の動画ファイルを素早く開くためのプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1347719.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1347719.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
@@ -391,7 +370,6 @@
 		<description
 		>Youtubeのようなサムネイルをシークバーに追加するAviutlプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/613302.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/613302.html</downloadURL>
 		<latestVersion>Ver 0.3.1</latestVersion>
@@ -408,7 +386,6 @@
 		<description
 		>ステータスバー＋は編集情報を一覧できるステータスバーをAviUtlに追加するプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/435251.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/435251.html</downloadURL>
 		<latestVersion>Ver 0.5.0</latestVersion>
@@ -425,7 +402,6 @@
 		<description
 		>トレイアイコン＋はAviutl を通知領域(タスクトレイ)に格納したり、進捗情報の表示や一時停止機能を追加する Aviutlプラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/450565.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/450565.html</downloadURL>
 		<latestVersion>Ver 0.4</latestVersion>
@@ -442,7 +418,6 @@
 		<description
 		>ウィンドウマネージャーはAviUtlのウィンドウの配置を記録して切り替えたり、消えたウィンドウを表示させる機能などを追加するウィンドウ管理プラグインです。</description>
 		<developer>aoytsk</developer>
-		<type>filter</type>
 		<pageURL>https://aoytsk.blog.jp/aviutl/1470428.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1470428.html</downloadURL>
 		<latestVersion>Ver 0.4.0</latestVersion>
@@ -462,7 +437,6 @@
 		<description
 		>拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
-		<type>output</type>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-5.html</pageURL>
 		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rgwli2WZ_vq8YjCdI</downloadURL>
 		<downloadMirrorURL
@@ -487,7 +461,6 @@
 		<description
 		>muken氏が L-SMASH Works 開発の一環として実装を進めている OSS であり、MP4/MOV/QT/3gp/3g2/F4V/M4A 等の L-SMASH 対応コンテナに格納された映像・音声データおよび libav / ffmpeg ライブラリ対応のコンテナフォーマットを AviSynth / AviUtl / VapourSynth で読み込むためのプラグインで構成されています。</description>
 		<developer>ぽっぷん</developer>
-		<type>input filter color</type>
 		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
 		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
 		<latestVersion>r940</latestVersion>
@@ -507,7 +480,6 @@
 		<description
 		>拡張編集のレンダリング結果をメモリにキャッシュすることで、プレビューのコマ落ちを軽減させるプラグインです。メモリがいっぱいあればいっぱい使えます。</description>
 		<developer>oov</developer>
-		<type>output filter</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm32668490</pageURL>
 		<downloadURL>https://github.com/oov/aviutl_rampreview/releases</downloadURL>
 		<latestVersion>v0.3rc7</latestVersion>
@@ -528,7 +500,6 @@
 		<description
 		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
 		<developer>しし/りっちゃん</developer>
-		<type>filter</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
 		<downloadURL>https://github.com/Aios-Ciao/VSThost4aviutl</downloadURL>
 		<latestVersion>ver.001</latestVersion>
@@ -549,7 +520,6 @@
 		<description
 		>ごちゃまぜドロップス（ GCMZDrops.auf ）は AviUtl の拡張編集ウィンドウへファイルやテキストをドラッグ＆ドロップした時の挙動を拡張するための AviUtl プラグインです。</description>
 		<developer>oov</developer>
-		<type>filter</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm33020019</pageURL>
 		<downloadURL
 		>https://github.com/oov/aviutl_gcmzdrops/releases/latest</downloadURL>
@@ -567,7 +537,6 @@
 		<overview>Loudness値を測定</overview>
 		<description>ラウドネス値が表示できるプラグイン</description>
 		<developer>oov</developer>
-		<type>filter</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm34877728</pageURL>
 		<downloadURL
 		>https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing</downloadURL>
@@ -585,7 +554,6 @@
 		<description
 		>AviUtl0.98以降で使用できるDirectShow入力プラグインです。</description>
 		<developer>AviUtl実験室</developer>
-		<type>input</type>
 		<pageURL
 		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</pageURL>
 		<downloadURL
@@ -604,7 +572,6 @@
 		<description
 		>現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。</description>
 		<developer>yu_noimage_</developer>
-		<type>filter</type>
 		<pageURL>https://auls.client.jp/</pageURL>
 		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2014/04/06更新</latestVersion>
@@ -620,7 +587,6 @@
 		<overview>AviUtlを使うなら必須のスクリプト</overview>
 		<description />
 		<developer>さつき</developer>
-		<type>animation object track</type>
 		<pageURL>https://dic.nicovideo.jp/u/2787743#script</pageURL>
 		<downloadURL>https://bowlroll.net/file/3777</downloadURL>
 		<latestVersion>20160828</latestVersion>
@@ -645,7 +611,6 @@
 		<overview>移動を滑らかに</overview>
 		<description />
 		<developer>UndoFish</developer>
-		<type>animation object track</type>
 		<pageURL>https://www.nicovideo.jp/watch/sm37721332</pageURL>
 		<downloadURL>https://www.nicovideo.jp/watch/sm37721332</downloadURL>
 		<latestVersion>2020版</latestVersion>

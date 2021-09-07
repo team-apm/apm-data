@@ -561,7 +561,7 @@
 		<latestVersion>ver0.26a</latestVersion>
 		<detailURL />
 		<files>
-			<file>plugins/ds_input.aui</file>
+			<file archivePath="ds_input/">plugins/ds_input.aui</file>
 		</files>
 	</package>
 

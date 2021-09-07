@@ -488,7 +488,7 @@
 			<file>ZRamPreview.auf</file>
 			<file>ZRamPreview.auo</file>
 			<file>ZRamPreview.exe</file>
-			<file directory="true">script</file>
+			<file archivePath="script/">script/Extram.dll</file>
 		</files>
 	</package>
 

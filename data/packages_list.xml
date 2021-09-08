@@ -574,7 +574,7 @@
 		<detailURL />
 		<files>
 			<file archivePath="vfrout/">plugins/vfrout.auo</file>
-			<file optional="true" archivePath="vfrout/">plugins/vfrout.ini</file>
+			<file optional="true">plugins/vfrout.ini</file>
 		</files>
 	</package>
 
@@ -746,7 +746,7 @@
 		<latestVersion>2014/04/06更新</latestVersion>
 		<detailURL />
 		<files>
-			<file>plugins/auls_outputpng.auf</file>
+			<file archivePath="auls_outputpng/">plugins/auls_outputpng.auf</file>
 		</files>
 	</package>
 
@@ -761,16 +761,16 @@
 		<latestVersion>20160828</latestVersion>
 		<detailURL />
 		<files>
-			<file>script/さつき/@ANM1.anm</file>
-			<file>script/さつき/@ANM2.anm</file>
-			<file>script/さつき/@FIGURE.obj</file>
-			<file>script/さつき/@LOAD.obj</file>
-			<file>script/さつき/@TA.anm</file>
-			<file>script/さつき/@音声.anm</file>
-			<file>script/さつき/@加減速.anm</file>
-			<file>script/さつき/@連番.anm</file>
-			<file directory="true">script/ANM_ssd/</file>
-			<file directory="true">script/TA_ssd/</file>
+			<file archivePath="script_20160828/">script/さつき/@ANM1.anm</file>
+			<file archivePath="script_20160828/">script/さつき/@ANM2.anm</file>
+			<file archivePath="script_20160828/">script/さつき/@FIGURE.obj</file>
+			<file archivePath="script_20160828/">script/さつき/@LOAD.obj</file>
+			<file archivePath="script_20160828/">script/さつき/@TA.anm</file>
+			<file archivePath="script_20160828/">script/さつき/@音声.anm</file>
+			<file archivePath="script_20160828/">script/さつき/@加減速.anm</file>
+			<file archivePath="script_20160828/">script/さつき/@連番.anm</file>
+			<file archivePath="script_20160828/" directory="true">script/ANM_ssd/</file>
+			<file archivePath="script_20160828/" directory="true">script/TA_ssd/</file>
 		</files>
 	</package>
 

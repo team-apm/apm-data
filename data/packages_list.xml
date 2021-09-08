@@ -13,7 +13,6 @@
 		<downloadURL
 		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
 		<latestVersion>v1.8</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="InputPipePlugin/">plugins/InputPipeMain.exe</file>
 			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
@@ -31,7 +30,6 @@
 		<pageURL />
 		<downloadURL>https://github.com/amate/MFVideoReader/releases</downloadURL>
 		<latestVersion>v1.0</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="MFVideoReader/">plugins/MFVideoReader.exe</file>
 			<file archivePath="MFVideoReader/">plugins/MFVideoReaderPlugin.aui</file>
@@ -49,7 +47,6 @@
 		<downloadURL
 		>https://github.com/amate/PropertyWindowFixerPlugin/releases</downloadURL>
 		<latestVersion>v2.2</latestVersion>
-		<detailURL />
 		<files>
 			<file
 				archivePath="PropertyWindowFixerPlugin/"
@@ -71,7 +68,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/2092140.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/2092140.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/adjustaudio.auf</file>
 			<file>plugins/adjustaudioex.auf</file>
@@ -88,7 +84,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1559137.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1559137.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/dummy.aui</file>
 		</files>
@@ -104,7 +99,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1607088.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1607088.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/audiopreview.auf</file>
 			<file>plugins/blacken.auf</file>
@@ -130,7 +124,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1677824.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1677824.html</downloadURL>
 		<latestVersion>Ver 0.2</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/rec.auf</file>
 		</files>
@@ -146,7 +139,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/34739355.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/34739355.html</downloadURL>
 		<latestVersion>Ver 0.1.0</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/recovery.auf</file>
 		</files>
@@ -162,7 +154,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1578022.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1578022.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/autoloader.auf</file>
 			<file optional="true">plugins/autoloader.ini</file>
@@ -179,7 +170,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1490264.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1490264.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/cmpwnd.auf</file>
 		</files>
@@ -195,7 +185,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1545310.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1545310.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/dbgwnd.auf</file>
 		</files>
@@ -211,7 +200,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/34586383.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/34586383.html</downloadURL>
 		<latestVersion>v0.1.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/easymp4.auo</file>
 		</files>
@@ -227,7 +215,6 @@
 		<pageURL>https://aoytsk.blog.jp/Aviutl/891011.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/Aviutl/891011.html</downloadURL>
 		<latestVersion>Ver 1.0</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/exeditbutton.auf</file>
 		</files>
@@ -243,7 +230,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1412254.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1412254.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/extext.auf</file>
 		</files>
@@ -259,7 +245,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/422768.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/422768.html</downloadURL>
 		<latestVersion>Ver 0.3.5</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/extoolbar.auf</file>
 			<file optional="true">plugins/extoolbar.ini</file>
@@ -277,7 +262,6 @@
 		<pageURL>https://aoytsk.blog.jp/Aviutl/711549.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/Aviutl/711549.html</downloadURL>
 		<latestVersion>Ver 0.2b</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/inputprofile.auf</file>
 		</files>
@@ -293,7 +277,6 @@
 		<pageURL>https://aoytsk.blog.jp/Aviutl/719123.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/Aviutl/719123.html</downloadURL>
 		<latestVersion>Ver 0.4.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/jumpbarx.auf</file>
 		</files>
@@ -309,7 +292,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/445066.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/445066.html</downloadURL>
 		<latestVersion>Ver 0.4</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/jumpdlg.auf</file>
 		</files>
@@ -325,7 +307,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/445066.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/445066.html</downloadURL>
 		<latestVersion>Ver 0.4</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/jumpdlg32.auf</file>
 		</files>
@@ -341,7 +322,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1592487.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1592487.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/pluginlist.auf</file>
 		</files>
@@ -357,7 +337,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1347719.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1347719.html</downloadURL>
 		<latestVersion>Ver 0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/quickopen.auf</file>
 		</files>
@@ -373,7 +352,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/613302.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/613302.html</downloadURL>
 		<latestVersion>Ver 0.3.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/seekbarx.auf</file>
 		</files>
@@ -389,7 +367,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/435251.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/435251.html</downloadURL>
 		<latestVersion>Ver 0.5.0</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/statbarx.auf</file>
 		</files>
@@ -405,7 +382,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/450565.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/450565.html</downloadURL>
 		<latestVersion>Ver 0.4</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/trayiconx.auf</file>
 		</files>
@@ -421,7 +397,6 @@
 		<pageURL>https://aoytsk.blog.jp/aviutl/1470428.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/1470428.html</downloadURL>
 		<latestVersion>Ver 0.4.0</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/wndman.auf</file>
 			<file optional="true">plugins/wndman.ini</file>
@@ -442,7 +417,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl</downloadURL>
 		<latestVersion>ver1.4</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="animate/">plugins/animate.auf</file>
 			<file archivePath="animate/">plugins/animation.txt</file>
@@ -461,7 +435,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%A5%C1%A5%E3%A5%D7%A5%BF%A1%BC%CA%D4%BD%B8%20for%20AviUtl</downloadURL>
 		<latestVersion>ver0.6</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="chapter/">plugins/chapter.auf</file>
 		</files>
@@ -479,7 +452,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792</downloadURL>
 		<latestVersion>ver0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="croma/">plugins/croma.auf</file>
 		</files>
@@ -497,7 +469,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%A5%B3%A5%DE%A5%F3%A5%C9%BC%C2%B9%D4%20for%20AviUtl</downloadURL>
 		<latestVersion>ver0.3</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="cmdex/">plugins/cmdex.auo</file>
 			<file archivePath="cmdex/">plugins/cmdex.txt</file>
@@ -517,7 +488,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl</downloadURL>
 		<latestVersion>ver0.26a</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="ds_input/">plugins/ds_input.aui</file>
 		</files>
@@ -535,7 +505,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#taa0bd65</downloadURL>
 		<latestVersion>ver0.9</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="itvfr/">plugins/itvfr.auf</file>
 		</files>
@@ -553,7 +522,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#taa0bd65</downloadURL>
 		<latestVersion>ver0.9</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="itvfr/">plugins/itvfr_deint.auf</file>
 		</files>
@@ -571,7 +539,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#d81965c2</downloadURL>
 		<latestVersion>ver0.5</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="vfrout/">plugins/vfrout.auo</file>
 			<file optional="true" archivePath="vfrout/">plugins/vfrout.ini</file>
@@ -590,7 +557,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#m37cd4ca</downloadURL>
 		<latestVersion>ver0.5a</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="wmvout_vfr/">plugins/wmvout_vfr.auo</file>
 		</files>
@@ -608,7 +574,6 @@
 		<downloadURL
 		>https://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#ua42580e</downloadURL>
 		<latestVersion>ver0.9</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="x264out/">plugins/x264out.auo</file>
 			<file archivePath="x264out/">plugins/x264out.ini</file>
@@ -629,7 +594,6 @@
 		<downloadMirrorURL
 		>https://drive.google.com/drive/folders/0BzA4dIFteM2dOWhmTXA3bE9WaWs?usp=sharing</downloadMirrorURL>
 		<latestVersion>2.66</latestVersion>
-		<detailURL />
 		<installer>auo_setup.exe</installer>
 		<installArg>-dir "$instpath" -autorun</installArg>
 		<files>
@@ -651,7 +615,6 @@
 		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
 		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
 		<latestVersion>r940</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/lwcolor.auc</file>
 			<file>plugins/lwdumper.auf</file>
@@ -670,7 +633,6 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm32668490</pageURL>
 		<downloadURL>https://github.com/oov/aviutl_rampreview/releases</downloadURL>
 		<latestVersion>v0.3rc7</latestVersion>
-		<detailURL />
 		<files>
 			<file>ZRamPreview.auf</file>
 			<file>ZRamPreview.auo</file>
@@ -690,7 +652,6 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
 		<downloadURL>https://github.com/Aios-Ciao/VSThost4aviutl</downloadURL>
 		<latestVersion>ver.001</latestVersion>
-		<detailURL />
 		<files>
 			<file archivePath="VSThost4aviutl/">plugins/vsthost_1.auf</file>
 			<file archivePath="VSThost4aviutl/">plugins/vsthost_2.auf</file>
@@ -711,7 +672,6 @@
 		<downloadURL
 		>https://github.com/oov/aviutl_gcmzdrops/releases/latest</downloadURL>
 		<latestVersion>v0.3.18</latestVersion>
-		<detailURL />
 		<files>
 			<file directory="true">GCMZDrops</file>
 			<file>GCMZDrops.auf</file>
@@ -728,7 +688,6 @@
 		<downloadURL
 		>https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing</downloadURL>
 		<latestVersion>v0.1</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/loudness.auf</file>
 		</files>
@@ -744,7 +703,6 @@
 		<pageURL>https://auls.client.jp/</pageURL>
 		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2014/04/06更新</latestVersion>
-		<detailURL />
 		<files>
 			<file>plugins/auls_outputpng.auf</file>
 		</files>
@@ -759,7 +717,6 @@
 		<pageURL>https://dic.nicovideo.jp/u/2787743#script</pageURL>
 		<downloadURL>https://bowlroll.net/file/3777</downloadURL>
 		<latestVersion>20160828</latestVersion>
-		<detailURL />
 		<files>
 			<file>script/さつき/@ANM1.anm</file>
 			<file>script/さつき/@ANM2.anm</file>
@@ -783,7 +740,6 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm37721332</pageURL>
 		<downloadURL>https://www.nicovideo.jp/watch/sm37721332</downloadURL>
 		<latestVersion>2020版</latestVersion>
-		<detailURL />
 		<files>
 			<file>script/easing_tra_2020/@uf_easing.anm</file>
 			<file>script/easing_tra_2020/@uf_easing.tra</file>

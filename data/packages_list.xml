@@ -580,6 +580,229 @@
 		</files>
 	</package>
 
+	<!-- oov -->
+
+	<package>
+		<id>aviutlBrowser</id>
+		<name>aviutl_browser</name>
+		<overview>拡張編集上にブラウザーの表示内容を持ち込む</overview>
+		<description
+		>AviUtl の拡張編集プラグイン上でブラウザーの表示内容を持ち込めるようにするためのプログラムです。使用には bridge.dll の導入が必要です。</description>
+		<developer>oov</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm38772089</pageURL>
+		<downloadURL
+		>https://github.com/oov/aviutl_browser/releases/tag/v0.3</downloadURL>
+		<latestVersion>v0.3</latestVersion>
+		<files>
+			<file archivePath="script/browser" directory="true">script/browser/exe</file>
+			<file
+				archivePath="script/browser/contents"
+				directory="true"
+			>script/browser/contents/絵文字セレクター</file>
+			<file archivePath="script/browser">script/browser/browser.lua</file>
+			<file archivePath="script/browser">script/browser/glTF表示デモ.obj</file>
+			<file archivePath="script/browser">script/browser/Markdown.anm</file>
+			<file archivePath="script/browser">script/browser/Markdown.exa</file>
+			<file archivePath="script/browser">script/browser/SVGアニメ.obj</file>
+			<file archivePath="script/browser">script/browser/ファイル参照デモ.obj</file>
+			<file archivePath="script/browser">script/browser/絵文字.obj</file>
+			<file
+				archivePath="script/browser/contents"
+			>script/browser/contents/glTF表示デモ.abc</file>
+			<file
+				archivePath="script/browser/contents"
+			>script/browser/contents/Markdown.abc</file>
+			<file
+				archivePath="script/browser/contents"
+			>script/browser/contents/SVGアニメ.abc</file>
+			<file
+				archivePath="script/browser/contents"
+			>script/browser/contents/ファイル参照デモ.abc</file>
+			<file
+				archivePath="script/browser/contents"
+			>script/browser/contents/絵文字.abc</file>
+		</files>
+	</package>
+
+	<package>
+		<id>aviutlBrowserMinecraftSkin</id>
+		<name>マイクラスキン</name>
+		<overview>マインクラフト風モデルを描画する</overview>
+		<description
+		>AviUtl + 拡張編集 + aviutl_browser の環境で使用可能なマインクラフト風モデルを描画するカスタムオブジェクトです。スキン画像を読み込みで適用することができます。</description>
+		<developer>oov</developer>
+		<pageURL>https://github.com/oov/aviutl_browser_minecraft_skin</pageURL>
+		<downloadURL
+		>https://github.com/oov/aviutl_browser_minecraft_skin/releases</downloadURL>
+		<latestVersion>v1.0</latestVersion>
+		<files>
+			<file archivePath="script/browser">script/browser/@マイクラスキン.anm</file>
+			<file archivePath="script/browser">script/browser/@マイクラスキン.obj</file>
+			<file archivePath="script/browser">script/browser/マイクラスキン-歩き.exa</file>
+			<file archivePath="script/browser">script/browser/マイクラスキン-走り.exa</file>
+			<file archivePath="script/browser">script/browser/マイクラスキン.exa</file>
+			<file
+				archivePath="script/browser/contents"
+			>script/browser/contents/マイクラスキン.abc</file>
+		</files>
+	</package>
+
+	<package>
+		<id>CacheText</id>
+		<name>キャッシュテキスト</name>
+		<overview>テキストをキャッシュすることで描画処理を効率化する</overview>
+		<description
+		>キャッシュテキストは、生成したテキストを画像としてキャッシュすることで描画処理を効率化する拡張編集用スクリプトです。画像としてキャッシュするため、表示速度を利用したアニメーション、サイズのリアルタイムな変更などのような機能は使用できません。</description>
+		<developer>oov</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm37598954</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_cachetext/releases</downloadURL>
+		<latestVersion>v0.8</latestVersion>
+		<files>
+			<file>キャッシュテキスト.exa</file>
+			<file archivePath="script">script/CacheText.lua</file>
+			<file archivePath="script">script/CacheText.anm</file>
+		</files>
+	</package>
+
+	<package>
+		<id>GcmzDrops</id>
+		<name>ごちゃまぜドロップス</name>
+		<overview>ファイルをドラッグ＆ドロップで読み込み</overview>
+		<description
+		>ごちゃまぜドロップス（ GCMZDrops.auf ）は AviUtl の拡張編集ウィンドウへファイルやテキストをドラッグ＆ドロップした時の挙動を拡張するための AviUtl プラグインです。</description>
+		<developer>oov</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm33020019</pageURL>
+		<downloadURL
+		>https://github.com/oov/aviutl_gcmzdrops/releases/latest</downloadURL>
+		<latestVersion>v0.3.18</latestVersion>
+		<files>
+			<file directory="true">GCMZDrops</file>
+			<file>GCMZDrops.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>oovBridge</id>
+		<name>bridge.dll</name>
+		<overview>Luaから外部プログラムを使った処理をしやすくする</overview>
+		<description
+		>拡張編集で Lua から外部プログラムを使って処理をしやすくするためのプラグインです。外部プログラムは stdin / stdout を使って通信するものを作成する必要があります。</description>
+		<developer>oov</developer>
+		<pageURL>https://twitter.com/oovch/status/1161359705723195392</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/1skhMrPf2VwXRFP5Req4JAowV9I4Hj0eF</downloadURL>
+		<latestVersion>v0.13</latestVersion>
+		<files>
+			<file>bridge.dll</file>
+		</files>
+	</package>
+
+	<package>
+		<id>oovloudness</id>
+		<name>loudness.auf</name>
+		<overview>Loudness値を測定</overview>
+		<description>ラウドネス値が表示できるプラグイン</description>
+		<developer>oov</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm34877728</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing</downloadURL>
+		<latestVersion>v0.1</latestVersion>
+		<files>
+			<file>plugins/loudness.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>oovPrima</id>
+		<name>PRIMA File Reader</name>
+		<overview>PRIMAファイルをAviUtlで読み込めるようにする</overview>
+		<description
+		>これは PSDTool(https://oov.github.com/psdtool/) でシンプルビューを元にして出力できる PRIMA (Pre-Rendered IMage Archive) ファイルを AviUtl で読み込めるようにする AviUtl 用入力プラグインです。</description>
+		<developer>oov</developer>
+		<pageURL />
+		<downloadURL>https://github.com/oov/aviutl_prima/releases</downloadURL>
+		<latestVersion>v0.1</latestVersion>
+		<files>
+			<file>prima.aui</file>
+		</files>
+	</package>
+
+	<package>
+		<id>PSDToolKit</id>
+		<name>PSDToolKit</name>
+		<overview>拡張編集プラグイン上でPSDファイルを扱えるようにする</overview>
+		<description
+		>PSDToolKit は AviUtl の拡張編集プラグイン上で PSD ファイルを扱えるようにするためのツールキットです。</description>
+		<developer>oov</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm32904901</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_psdtoolkit/releases</downloadURL>
+		<latestVersion>v0.2beta55</latestVersion>
+		<files>
+			<file>PSDToolKit.auf</file>
+			<file>AudioMixer.auf</file>
+			<file>GCMZDrops.auf</file>
+			<file directory="true">GCMZDrops</file>
+			<file>ZRamPreview.auf</file>
+			<file>ZRamPreview.auo</file>
+			<file>ZRamPreview.exe</file>
+			<file>キャッシュテキスト.exa</file>
+			<file directory="true">かんしくん</file>
+			<file directory="true">PSDToolKit</file>
+			<file archivePath="script">script/Extram.dll</file>
+			<file archivePath="script">script/CacheText.anm</file>
+			<file archivePath="script">script/CacheText.lua</file>
+			<file archivePath="script" directory="true">script/PSDToolKit</file>
+		</files>
+	</package>
+
+	<package>
+		<id>RelMovieHandle</id>
+		<name>動画ハンドル開放</name>
+		<overview>動画ハンドルを開放します</overview>
+		<description
+		>AviUtl のメニューから 編集→動画ハンドル開放→動画ハンドルを開放 を選ぶと動画ハンドルが開放されます。このコマンドにはショートカットキー Ctrl + F5 が標準で割り当てられています。</description>
+		<developer>oov</developer>
+		<pageURL>https://github.com/oov/aviutl_relmoviehandle</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_relmoviehandle/releases</downloadURL>
+		<latestVersion>v1.1</latestVersion>
+		<files>
+			<file>RelMovieHandle.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>textassist</id>
+		<name>テキスト編集補助プラグイン</name>
+		<overview>拡張編集プラグイン上で制御文字の書き換えを行う</overview>
+		<description
+		>AviUtl の拡張編集プラグインで複数行テキストを編集する際に、Alt + 方向キー で制御文字の内容を書き換える AviUtl 用プラグインです。</description>
+		<developer>oov</developer>
+		<pageURL>https://github.com/oov/aviutl_textassist</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_textassist/releases</downloadURL>
+		<latestVersion>v0.3</latestVersion>
+		<files>
+			<file>textassist.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>ZRamPreview</id>
+		<name>拡張編集RAMプレビュー</name>
+		<overview>キャッシュしてコマ落ちを減らす</overview>
+		<description
+		>拡張編集のレンダリング結果をメモリにキャッシュすることで、プレビューのコマ落ちを軽減させるプラグインです。メモリがいっぱいあればいっぱい使えます。</description>
+		<developer>oov</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm32668490</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_rampreview/releases</downloadURL>
+		<latestVersion>v0.3rc7</latestVersion>
+		<files>
+			<file>ZRamPreview.auf</file>
+			<file>ZRamPreview.auo</file>
+			<file>ZRamPreview.exe</file>
+			<file archivePath="script/">script/Extram.dll</file>
+		</files>
+	</package>
+
 	<!-- in progress -->
 
 	<package>
@@ -624,24 +847,6 @@
 	</package>
 
 	<package>
-		<id>ZRamPreview</id>
-		<name>拡張編集RAMプレビュー</name>
-		<overview>キャッシュしてコマ落ちを減らす</overview>
-		<description
-		>拡張編集のレンダリング結果をメモリにキャッシュすることで、プレビューのコマ落ちを軽減させるプラグインです。メモリがいっぱいあればいっぱい使えます。</description>
-		<developer>oov</developer>
-		<pageURL>https://www.nicovideo.jp/watch/sm32668490</pageURL>
-		<downloadURL>https://github.com/oov/aviutl_rampreview/releases</downloadURL>
-		<latestVersion>v0.3rc7</latestVersion>
-		<files>
-			<file>ZRamPreview.auf</file>
-			<file>ZRamPreview.auo</file>
-			<file>ZRamPreview.exe</file>
-			<file archivePath="script/">script/Extram.dll</file>
-		</files>
-	</package>
-
-	<package>
 		<id>VSThost4aviutl</id>
 		<name>VSTホストプラグイン＋α</name>
 		<overview
@@ -662,38 +867,6 @@
 	</package>
 
 	<package>
-		<id>GcmzDrops</id>
-		<name>ごちゃまぜドロップス</name>
-		<overview>ファイルをドラッグ＆ドロップで読み込み</overview>
-		<description
-		>ごちゃまぜドロップス（ GCMZDrops.auf ）は AviUtl の拡張編集ウィンドウへファイルやテキストをドラッグ＆ドロップした時の挙動を拡張するための AviUtl プラグインです。</description>
-		<developer>oov</developer>
-		<pageURL>https://www.nicovideo.jp/watch/sm33020019</pageURL>
-		<downloadURL
-		>https://github.com/oov/aviutl_gcmzdrops/releases/latest</downloadURL>
-		<latestVersion>v0.3.18</latestVersion>
-		<files>
-			<file directory="true">GCMZDrops</file>
-			<file>GCMZDrops.auf</file>
-		</files>
-	</package>
-
-	<package>
-		<id>oovloudness</id>
-		<name>loudness.auf</name>
-		<overview>Loudness値を測定</overview>
-		<description>ラウドネス値が表示できるプラグイン</description>
-		<developer>oov</developer>
-		<pageURL>https://www.nicovideo.jp/watch/sm34877728</pageURL>
-		<downloadURL
-		>https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing</downloadURL>
-		<latestVersion>v0.1</latestVersion>
-		<files>
-			<file>plugins/loudness.auf</file>
-		</files>
-	</package>
-
-	<package>
 		<id>aulsoutputpng</id>
 		<name>PNG出力</name>
 		<overview>現在フレームの画像をPNG形式で出力</overview>
@@ -707,6 +880,8 @@
 			<file archivePath="auls_outputpng/">plugins/auls_outputpng.auf</file>
 		</files>
 	</package>
+
+	<!-- script -->
 
 	<package>
 		<id>Satsuki</id>

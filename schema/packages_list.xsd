@@ -28,7 +28,7 @@
 				<xsd:element name="downloadURL" type="xsd:anyURI" />
 				<xsd:element name="downloadMirrorURL" type="xsd:anyURI" minOccurs="0" />
 				<xsd:element name="latestVersion" type="xsd:string" />
-				<xsd:element name="detailURL" type="xsd:anyURI" />
+				<xsd:element name="detailURL" type="xsd:anyURI" minOccurs="0" />
 				<xsd:element name="installer" type="xsd:string" minOccurs="0" />
 				<xsd:element name="installArg" type="xsd:string" minOccurs="0" />
 				<xsd:element name="files" type="au:files" />

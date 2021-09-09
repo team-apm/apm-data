@@ -12,8 +12,6 @@
 		</files>
 		<latestVersion>1.10</latestVersion>
 		<releases prefix="http://spring-fragrance.mints.ne.jp/aviutl/">
-			<fileURL version="1.10rc2">aviutl110rc2.zip</fileURL>
-			<fileURL version="1.10rc1">aviutl110rc1.zip</fileURL>
 			<fileURL version="1.10">aviutl110.zip</fileURL>
 			<fileURL version="1.00">aviutl100.zip</fileURL>
 		</releases>
@@ -32,9 +30,9 @@
 			<file>exedit.txt</file>
 			<file>lua.txt</file>
 			<file>lua51.dll</file>
-			<file>lua51jit.dll</file>
+			<file optional="true">lua51jit.dll</file>
 		</files>
-		<latestVersion>0.93rc1</latestVersion>
+		<latestVersion>0.92</latestVersion>
 		<releases prefix="http://spring-fragrance.mints.ne.jp/aviutl/">
 			<fileURL version="0.93rc1">exedit93rc1.zip</fileURL>
 			<fileURL version="0.92">exedit92.zip</fileURL>

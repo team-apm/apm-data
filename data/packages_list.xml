@@ -803,30 +803,277 @@
 		</files>
 	</package>
 
-	<!-- in progress -->
+	<!-- rigaya -->
+
+	<package>
+		<id>AviutlColor</id>
+		<name>AviutlColor</name>
+		<overview>Aviutlの色空間変換プラグインです</overview>
+		<description>Aviutlの色空間変換プラグインです。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-25.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rpA_zeixfUoylnZ9K</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/drive/folders/0BzA4dIFteM2dQjgwZkhtWUN6Zjg?usp=sharing</downloadMirrorURL>
+		<latestVersion>0.02</latestVersion>
+		<files>
+			<file archivePath="AviutlColor_0.02">plugins/color_bt2020nc.auc</file>
+			<file archivePath="AviutlColor_0.02">plugins/color_bt601.auc</file>
+			<file archivePath="AviutlColor_0.02">plugins/color_bt709.auc</file>
+			<file archivePath="AviutlColor_0.02">plugins/AviutlColor.ini</file>
+		</files>
+	</package>
+
+	<package>
+		<id>bandingMTSIMD</id>
+		<name>バンディング低減MT SIMD</name>
+		<overview>バンディング低減フィルタMTを高速化</overview>
+		<description
+		>がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のバンディング低減フィルタMTを高速化したものです</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-15.html</pageURL>
+		<downloadURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dQ1U3dG1mQ3Z5QWM&amp;usp=sharing</downloadURL>
+		<downloadMirrorURL
+		>https://1drv.ms/f/s!AsYziax1Q91rhEGimA7oABVfdmkE</downloadMirrorURL>
+		<latestVersion>v17+8</latestVersion>
+		<files>
+			<file archivePath="bandingMT_simd_v17+8">plugins/bandingMT_simd.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>delogoSIMD</id>
+		<name>透過性ロゴ フィルタプラグイン SIMD版</name>
+		<overview>透過性ロゴ フィルタプラグインをSIMD化</overview>
+		<description
+		>MakKi様による透過性ロゴ フィルタプラグインver0.13をrigayaがSIMD化したものです。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-20.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rlQoaLBz34MoNMe69</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dZEhId3NQaWZGbXc&amp;usp=sharing</downloadMirrorURL>
+		<latestVersion>r17</latestVersion>
+		<files>
+			<file archivePath="delogoSIMD_r17">plugins/delogo.auf</file>
+			<file archivePath="delogoSIMD_r17">plugins/logoscan.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>ffmpegOut</id>
+		<name>ffmpeg/avconv出力</name>
+		<overview>ffmpeg.exeやavconv.exeを使用したエンコード</overview>
+		<description
+		>ffmpeg.exeやavconv.exeを使用してエンコードを行うAviutlの出力プラグインです。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-13.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rgxZaOQeLAW2MZeZF</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dQzFoTUlNR2xiaTg&amp;usp=sharing</downloadMirrorURL>
+		<latestVersion>0.07</latestVersion>
+		<files>
+			<file archivePath="ffmpegOut_0.07/auo">plugins/ffmpegOut.auo</file>
+			<file archivePath="ffmpegOut_0.07/auo">plugins/ffmpegOut.ini</file>
+			<file
+				archivePath="ffmpegOut_0.07/auo"
+				directory="true"
+			>plugins/ffmpegOut_stg</file>
+		</files>
+	</package>	
+
+	<package>
+		<id>NVEnc</id>
+		<name>NVEnc</name>
+		<overview>NVIDIAのNVEncを使用したエンコード</overview>
+		<description
+		>NVIDIAのNVEncを使用してエンコードを行うAviutlの出力プラグインです。NVEncによるハードウェア高速エンコードを目指します。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-17.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rkXXAkmy0xayDLSFY</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dS1ZUT1FjTnF3Q0E&amp;usp=sharing</downloadMirrorURL>
+		<latestVersion>5.37</latestVersion>
+		<installer>auo_setup.exe</installer>
+		<installArg>-dir "$instpath" -autorun</installArg>
+		<files>
+			<file directory="true">exe_files/NVEncC</file>
+			<file directory="true">plugins/NVEnc_stg</file>
+			<file>plugins/NVEnc.auo</file>
+			<file>plugins/NVEnc.conf</file>
+			<file>plugins/NVEnc.ini</file>
+		</files>
+	</package>
+
+	<package>
+		<id>QSVEnc</id>
+		<name>QSVEnc</name>
+		<overview>Intel Media SDKを使用したエンコード</overview>
+		<description
+		>Intel Media SDKを使用してエンコードを行うAviutlの出力プラグインです。QuickSyncVideoによるハードウェア高速エンコードを目指します。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-10.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rg2IR1eU0eCrzar_a</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dVGZ5dE5lSE5mYVk&amp;usp=sharing</downloadMirrorURL>
+		<latestVersion>6.01</latestVersion>
+		<installer>auo_setup.exe</installer>
+		<installArg>-dir "$instpath" -autorun</installArg>
+		<files>
+			<file directory="true">exe_files/QSVEncC</file>
+			<file directory="true">plugins/QSVEnc_stg</file>
+			<file>plugins/QSVEnc.auo</file>
+			<file>plugins/QSVEnc.conf</file>
+			<file>plugins/QSVEnc.ini</file>
+		</files>
+	</package>
+
+	<package>
+		<id>rigayaAfs</id>
+		<name>自動フィールドシフト 高速化版</name>
+		<overview>自動フィールドシフトの高速化版</overview>
+		<description
+		>aji氏作「自動フィールドシフト インタレース解除プラグイン」の高速化版</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-14.html</pageURL>
+		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rhBs2o7PMtyiEP8gC</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dSXduMXdPMXBjeFk&amp;usp=sharing</downloadMirrorURL>
+		<latestVersion>7.5a+22</latestVersion>
+		<files>
+			<file archivePath="afs_7.5a+22">afsvf.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>rigayaEdgelevelMT</id>
+		<name>エッジレベル調整MT</name>
+		<overview>エッジレベル調整をMT化(並列化)</overview>
+		<description
+		>がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のエッジレベル調整を勝手にMT化(並列化)したものです。オリジナルと同様に動くはずです。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-11.html</pageURL>
+		<downloadURL
+		>https://1drv.ms/u/s!AsYziax1Q91rgjecLz36N1c41syz?e=7BeQTq</downloadURL>
+		<downloadMirrorURL
+		>https://drive.google.com/drive/folders/0BzA4dIFteM2dSEZZbmdOWDNuSHM?usp=sharing</downloadMirrorURL>
+		<latestVersion>v9</latestVersion>
+		<files>
+			<file archivePath="edgelevelMTv9">plugins/edgelevelMT.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>rigayaPmdMt</id>
+		<name>PMD_MT 高速化版</name>
+		<overview>PMD_MTの高速化版</overview>
+		<description>PMD_MTの高速化版です。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-18.html</pageURL>
+		<downloadURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dd2NtMWhCTVlLVlE&amp;usp=sharing</downloadURL>
+		<downloadMirrorURL
+		>https://1drv.ms/f/s!AsYziax1Q91rkk8-E-D2vnTHf2nx</downloadMirrorURL>
+		<latestVersion>+6</latestVersion>
+		<files>
+			<file archivePath="pmd_mt+6">plugins/pmd_mt.auf</file>
+		</files>
+	</package>	
+
+	<package>
+		<id>svtAV1guiEx</id>
+		<name>svtAV1guiEx</name>
+		<overview>SVT-AV1を使用してエンコードを行う</overview>
+		<description
+		>SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-28.html</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/1G3vOBXVrL9H7a2M5cvqTC09C6LfMdglF?usp=sharing</downloadURL>
+		<downloadMirrorURL
+		>https://1drv.ms/u/s!AsYziax1Q91rtm3SrZNkNI1RGfZW?e=49ueTU</downloadMirrorURL>
+		<latestVersion>0.05</latestVersion>
+		<files>
+			<file
+				archivePath="svtAV1guiEx_0.05/exe_files"
+			>exe_files/SvtAv1EncApp_0.8.7+11.exe</file>
+			<file archivePath="svtAV1guiEx_0.05/auo">plugins/svtAV1guiEx.auo</file>
+			<file archivePath="svtAV1guiEx_0.05/auo">plugins/svtAV1guiEx.ini</file>
+		</files>
+	</package>	
+
+	<package>
+		<id>VCEEnc</id>
+		<name>VCEEnc</name>
+		<overview>AMDのVCEを使用してエンコードを行う</overview>
+		<description
+		>AMDのVCE(VideoCodecEngine)を使用してエンコードを行うAviutlの出力プラグインです。VCEによるハードウェア高速エンコードを目指します。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-12.html</pageURL>
+		<downloadURL
+		>https://drive.google.com/folderview?id=0BzA4dIFteM2dazcxNnYwRXpvNFU&amp;usp=sharing</downloadURL>
+		<downloadMirrorURL
+		>https://1drv.ms/f/s!AsYziax1Q91rhASqkmMeOq-DWHD_</downloadMirrorURL>
+		<latestVersion>6.16</latestVersion>
+		<installer>auo_setup.exe</installer>
+		<installArg>-dir "$instpath" -autorun</installArg>
+		<files>
+			<file directory="true">exe_files/VCEEncC</file>
+			<file directory="true">plugins/VCEEnc_stg</file>
+			<file>plugins/VCEEnc.auo</file>
+			<file>plugins/VCEEnc.conf</file>
+			<file>plugins/VCEEnc.ini</file>
+		</files>
+	</package>
 
 	<package>
 		<id>x264guiEx</id>
 		<name>x264guiEx</name>
 		<overview>x264を使用したH264出力</overview>
 		<description
-		>拡張 x264 出力(GUI) Ex (x264guiEx) は、x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
+		>拡張x264出力(GUI)Ex(x264guiEx)は、x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-5.html</pageURL>
 		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rgwli2WZ_vq8YjCdI</downloadURL>
 		<downloadMirrorURL
 		>https://drive.google.com/drive/folders/0BzA4dIFteM2dOWhmTXA3bE9WaWs?usp=sharing</downloadMirrorURL>
-		<latestVersion>2.66</latestVersion>
+		<latestVersion>2.67</latestVersion>
 		<installer>auo_setup.exe</installer>
 		<installArg>-dir "$instpath" -autorun</installArg>
 		<files>
 			<file>plugins/x264guiEx.auo</file>
 			<file>plugins/x264guiEx.conf</file>
-			<file optional="true">plugins/x264guiEx.ini</file>
-			<file optional="true" directory="true">exe_files/</file>
-			<file optional="true" directory="true">plugins/x264guiEx_stg/</file>
+			<file>plugins/x264guiEx.ini</file>
+			<file directory="true">exe_files</file>
+			<file directory="true">plugins/x264guiEx_stg</file>
 		</files>
 	</package>
+
+	<package>
+		<id>x265guiEx</id>
+		<name>x265guiEx</name>
+		<overview>x264/x265を使用したエンコード</overview>
+		<description
+		>拡張x265出力(GUI)Ex(x265guiEx)は、x265を使用してエンコードを行うAviutlの出力プラグインです。</description>
+		<developer>rigaya</developer>
+		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-19.html</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/0BzA4dIFteM2dRkRzWXZMT0lkM2M?usp=sharing</downloadURL>
+		<downloadMirrorURL
+		>https://1drv.ms/f/s!AsYziax1Q91rhiHTWVMtfNFgG9GQ</downloadMirrorURL>
+		<latestVersion>3.101</latestVersion>
+		<installer>auo_setup.exe</installer>
+		<installArg>-dir "$instpath" -autorun</installArg>
+		<files>
+		    <file>plugins/x265guiEx.auo</file>
+			<file>plugins/x265guiEx.conf</file>
+			<file>plugins/x265guiEx.ini</file>
+			<file directory="true">exe_files</file>
+			<file directory="true">plugins/x265guiEx_stg</file>
+		</files>
+	</package>
+
+	<!-- in progress -->
 
 	<package>
 		<id>LSMASHWorks</id>

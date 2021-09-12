@@ -1073,7 +1073,12 @@
 		    <file>plugins/x265guiEx.auo</file>
 			<file>plugins/x265guiEx.conf</file>
 			<file>plugins/x265guiEx.ini</file>
-			<file directory="true">exe_files</file>
+			<file>exe_files/boxdumper.exe</file>
+			<file>exe_files/ffmpeg_audenc.exe</file>
+			<file>exe_files/muxer.exe</file>
+			<file>exe_files/remuxer.exe</file>
+			<file>exe_files/timelineeditor.exe</file>
+			<file>exe_files/x265_3.4+19_x64.exe</file>
 			<file directory="true">plugins/x265guiEx_stg</file>
 		</files>
 	</package>

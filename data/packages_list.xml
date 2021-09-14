@@ -403,6 +403,110 @@
 		</files>
 	</package>
 
+	<!-- yu_noimage_ -->
+
+	<package>
+		<id>aulsAddshorcut</id>
+		<name>ショートカット追加</name>
+		<overview>拡張編集関連のショートカットを追加</overview>
+		<description>拡張編集用のショートカットを追加する</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>http://auls.client.jp/</pageURL>
+		<downloadURL>http://auls.client.jp/</downloadURL>
+		<latestVersion>2014/05/06</latestVersion>
+		<files>
+			<file archivePath="auls_addshortcut">plugins/auls_addshortcut.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>aulsAliaslist</id>
+		<name>エイリアス一覧</name>
+		<overview>エイリアス一覧からエイリアスを配置できるようにする</overview>
+		<description
+		>エイリアス一覧からエイリアスを配置できるようにします。</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>http://auls.client.jp/</pageURL>
+		<downloadURL>http://auls.client.jp/</downloadURL>
+		<latestVersion>2014/05/06</latestVersion>
+		<files>
+			<file archivePath="auls_aliaslist">plugins/auls_aliaslist.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>aulsConfirmclose</id>
+		<name>終了確認</name>
+		<overview>プロジェクトを閉じる前に確認メッセージを表示する</overview>
+		<description
+		>拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>http://auls.client.jp/</pageURL>
+		<downloadURL>http://auls.client.jp/</downloadURL>
+		<latestVersion>2014/05/06</latestVersion>
+		<files>
+			<file archivePath="auls_confirmclose">plugins/auls_confirmclose.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>aulsoutputpng</id>
+		<name>PNG出力</name>
+		<overview>現在フレームの画像をPNG形式で出力</overview>
+		<description
+		>現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
+		<latestVersion>2014/04/06</latestVersion>
+		<files>
+			<file archivePath="auls_outputpng/">plugins/auls_outputpng.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>aulsRendermask</id>
+		<name>出力マスク</name>
+		<overview>オブジェクトを配置した範囲の出力をキャンセルする</overview>
+		<description>オブジェクトを配置した範囲の出力をキャンセルします。</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>http://auls.client.jp/</pageURL>
+		<downloadURL>http://auls.client.jp/</downloadURL>
+		<latestVersion>2014/04/16</latestVersion>
+		<files>
+			<file archivePath="auls_rendermask">plugins/auls_rendermask.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>aulsTransparence</id>
+		<name>拡張編集を半透明化</name>
+		<overview>拡張編集ウィンドウを半透明にする</overview>
+		<description
+		>拡張編集ウィンドウを半透明にします。後ろにあるウィンドウをマウスで操作することもできます。</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>http://auls.client.jp/</pageURL>
+		<downloadURL>http://auls.client.jp/</downloadURL>
+		<latestVersion>2013/01/08</latestVersion>
+		<files>
+			<file archivePath="auls_transparence">plugins/auls_transparence.auf</file>
+		</files>
+	</package>
+
+	<package>
+		<id>framesound</id>
+		<name>フレーム移動時に音を鳴らす</name>
+		<overview>現在フレームを移動させた時に、そのフレームの音を鳴らす</overview>
+		<description>編集中、現在フレームの音を鳴らすプラグインです。</description>
+		<developer>yu_noimage_</developer>
+		<pageURL>http://auls.client.jp/</pageURL>
+		<downloadURL>http://auls.client.jp/</downloadURL>
+		<latestVersion>2012/09/10</latestVersion>
+		<files>
+			<file archivePath="framesound">plugins/framesound.auf</file>
+		</files>
+	</package>
+
 	<!-- AviUtl実験室 -->
 
 	<package>
@@ -577,6 +681,25 @@
 		<files>
 			<file archivePath="x264out/">plugins/x264out.auo</file>
 			<file archivePath="x264out/">plugins/x264out.ini</file>
+		</files>
+	</package>
+
+	<!-- ePi -->
+
+	<package>
+		<id>ePiAulsMemref</id>
+		<name>Aulsメモリ参照プラグイン（ePi版）</name>
+		<overview>他のメモリを参照するプラグインやDLLで必要</overview>
+		<description
+		>AviUtl version 1.00以降(1.10など)で使えるメモリ参照プラグインです。拡張編集は0.92です。</description>
+		<developer>ePi</developer>
+		<pageURL
+		>https://scrapbox.io/ePi5131/Auls%E3%83%A1%E3%83%A2%E3%83%AA%E5%8F%82%E7%85%A7%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3</pageURL>
+		<downloadURL
+		>https://scrapbox.io/ePi5131/Auls%E3%83%A1%E3%83%A2%E3%83%AA%E5%8F%82%E7%85%A7%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3</downloadURL>
+		<latestVersion>2021/05/23</latestVersion>
+		<files>
+			<file>plugins/auls_memref.auf</file>
 		</files>
 	</package>
 
@@ -1083,62 +1206,133 @@
 		</files>
 	</package>
 
-	<!-- in progress -->
+	<!-- rikky -->
 
 	<package>
-		<id>LSMASHWorks</id>
-		<name>L-SMASH Works</name>
-		<overview>様々なファイルを読み込む</overview>
+		<id>fanClipping</id>
+		<name>扇クリッピングR</name>
+		<overview>扇のようなクリッピングができるスクリプト</overview>
 		<description
-		>muken氏が L-SMASH Works 開発の一環として実装を進めている OSS であり、MP4/MOV/QT/3gp/3g2/F4V/M4A 等の L-SMASH 対応コンテナに格納された映像・音声データおよび libav / ffmpeg ライブラリ対応のコンテナフォーマットを AviSynth / AviUtl / VapourSynth で読み込むためのプラグインで構成されています。</description>
-		<developer>ぽっぷん</developer>
-		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
-		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
-		<latestVersion>r940</latestVersion>
+		>扇のようなクリッピングができるスクリプト。標準のカスタムオブジェクトの扇を拡張したようなものです。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm26625892</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/3Os/</downloadURL>
+		<latestVersion>ver3</latestVersion>
 		<files>
-			<file>plugins/lwcolor.auc</file>
-			<file>plugins/lwdumper.auf</file>
-			<file>plugins/lwinput.aui</file>
-			<file>plugins/lwmuxer.auf</file>
+			<file>script/扇クリッピングR/fan_clipping.lua</file>
+			<file>script/扇クリッピングR/扇クリッピングR.anm</file>
 		</files>
 	</package>
 
 	<package>
-		<id>VSThost4aviutl</id>
-		<name>VSTホストプラグイン＋α</name>
-		<overview
-		>aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる</overview>
+		<id>rikkyModuleMemory</id>
+		<name>rikkymodule memory</name>
+		<overview>スクリプト製作の役に立つプラグイン</overview>
 		<description
-		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
-		<developer>しし/りっちゃん</developer>
-		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
-		<downloadURL>https://github.com/Aios-Ciao/VSThost4aviutl</downloadURL>
-		<latestVersion>ver.001</latestVersion>
+		>スクリプト製作に役に立つかもしれないDLL及びスクリプト及びそれらを使えるようにするプラグインです 2020/01/13現在対応しているAviUtlは1.10まで 対応している拡張編集は0.92まで</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm34776162</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/a2Z/</downloadURL>
+		<latestVersion>1.4b</latestVersion>
 		<files>
-			<file archivePath="VSThost4aviutl/">plugins/vsthost_1.auf</file>
-			<file archivePath="VSThost4aviutl/">plugins/vsthost_2.auf</file>
-			<file archivePath="VSThost4aviutl/">plugins/vsthost_3.auf</file>
-			<file archivePath="VSThost4aviutl/">plugins/vsthost_4.auf</file>
-			<file archivePath="VSThost4aviutl/">plugins/wavpatch.auf</file>
+			<file archivePath="dll_v_12">rikky_module.dll</file>
+			<file archivePath="dll_v_12">rikky_memory.auf</file>
 		</files>
 	</package>
 
 	<package>
-		<id>aulsoutputpng</id>
-		<name>PNG出力</name>
-		<overview>現在フレームの画像をPNG形式で出力</overview>
+		<id>rikkyModule2</id>
+		<name>rikkymodule(version2)</name>
+		<overview>スクリプト製作の役に立つプラグイン</overview>
 		<description
-		>現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。</description>
-		<developer>yu_noimage_</developer>
-		<pageURL>https://auls.client.jp/</pageURL>
-		<downloadURL>https://auls.client.jp/</downloadURL>
-		<latestVersion>2014/04/06更新</latestVersion>
+		>スクリプト製作に役に立つかもしれないプラグインです 20/01/11現在対応しているAviUtlは1.10のみ 対応している拡張編集は0.93rc1のみ</description>
+		<developer>rikky</developer>
+		<pageURL>http://hazumurhythm.com/a/q9Q/</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/q9Q/</downloadURL>
+		<latestVersion>v2_0.1d</latestVersion>
 		<files>
-			<file archivePath="auls_outputpng/">plugins/auls_outputpng.auf</file>
+			<file archivePath="modulev2_0.1d">rikky_module.auf</file>
 		</files>
 	</package>
 
-	<!-- script -->
+	<package>
+		<id>rikkyRoll</id>
+		<name>ロール巻取(ページめくり)</name>
+		<overview>画像を巻いたり、シールのように捲ったりするスクリプト</overview>
+		<description
+		>適応したときに画像が崩れる際は、ファイル→環境設定→システム設定の順でクリックしてください。最大画面サイズを大きくすると直ります。それでも崩れるときはもっと大きくしてください。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm27678925</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/Y2n/</downloadURL>
+		<latestVersion>v4</latestVersion>
+		<files>
+			<file archivePath="rollv4">script/rollv4/ロール巻取(ページめくり).anm</file>
+			<file archivePath="rollv4">script/rollv4/動画背景スクリプト.exo</file>
+		</files>
+	</package>
+
+	<package>
+		<id>rikkeySeparate1</id>
+		<name>パーツ分割（rikky_module 1）</name>
+		<overview>文字などをパーツごとに分割するスクリプト</overview>
+		<description
+		>分割したいイメージにパーツ分割のアニメーション効果を付けるだけです。分割された一部が表示されます。順番の数値を変えれば、分割される部分も変わります。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm34776228</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/pA2/</downloadURL>
+		<latestVersion>5</latestVersion>
+		<files>
+			<file
+				archivePath="パーツ分割5"
+			>script/パーツ分割/パーツ分割(ライト版).anm</file>
+			<file
+				archivePath="パーツ分割5/rikky_module ver1用"
+			>script/パーツ分割/rikky_separate.dll</file>
+		</files>
+	</package>
+
+	<package>
+		<id>rikkeySeparate2</id>
+		<name>パーツ分割（rikky_module 2）</name>
+		<overview>文字などをパーツごとに分割するスクリプト</overview>
+		<description
+		>分割したいイメージにパーツ分割のアニメーション効果を付けるだけです。分割された一部が表示されます。順番の数値を変えれば、分割される部分も変わります。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm34776228</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/pA2/</downloadURL>
+		<latestVersion>5</latestVersion>
+		<files>
+			<file
+				archivePath="パーツ分割5"
+			>script/パーツ分割/パーツ分割(ライト版).anm</file>
+			<file
+				archivePath="パーツ分割5/rikky_module ver2用"
+			>script/パーツ分割/rikky_separate.dll</file>
+		</files>
+	</package>
+
+	<!-- UndoFish -->
+
+	<package>
+		<id>EasingTra2020</id>
+		<name>トラックバー対応イージングスクリプト</name>
+		<overview>移動を滑らかに</overview>
+		<description />
+		<developer>UndoFish</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm37721332</pageURL>
+		<downloadURL>https://www.nicovideo.jp/watch/sm37721332</downloadURL>
+		<latestVersion>2020版</latestVersion>
+		<files>
+			<file>script/easing_tra_2020/@uf_easing.anm</file>
+			<file>script/easing_tra_2020/@uf_easing.tra</file>
+			<file>script/easing_tra_2020/easing.lua</file>
+			<file>script/easing_tra_2020/easing.png</file>
+			<file>script/easing_tra_2020/easing_aviutl2020.lua</file>
+			<file>script/easing_tra_2020/uf_easing.obj</file>
+		</files>
+	</package>
+
+	<!-- さつき -->
 
 	<package>
 		<id>Satsuki</id>
@@ -1163,22 +1357,46 @@
 		</files>
 	</package>
 
+
+	<!-- しし/りっちゃん -->
+
 	<package>
-		<id>EasingTra2020</id>
-		<name>トラックバー対応イージングスクリプト</name>
-		<overview>移動を滑らかに</overview>
-		<description />
-		<developer>UndoFish</developer>
-		<pageURL>https://www.nicovideo.jp/watch/sm37721332</pageURL>
-		<downloadURL>https://www.nicovideo.jp/watch/sm37721332</downloadURL>
-		<latestVersion>2020版</latestVersion>
+		<id>VSThost4aviutl</id>
+		<name>VSTホストプラグイン＋α</name>
+		<overview
+		>aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる</overview>
+		<description
+		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
+		<developer>しし/りっちゃん</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
+		<downloadURL>https://github.com/Aios-Ciao/VSThost4aviutl</downloadURL>
+		<latestVersion>ver.001</latestVersion>
 		<files>
-			<file>script/easing_tra_2020/@uf_easing.anm</file>
-			<file>script/easing_tra_2020/@uf_easing.tra</file>
-			<file>script/easing_tra_2020/easing.lua</file>
-			<file>script/easing_tra_2020/easing.png</file>
-			<file>script/easing_tra_2020/easing_aviutl2020.lua</file>
-			<file>script/easing_tra_2020/uf_easing.obj</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_1.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_2.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_3.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/vsthost_4.auf</file>
+			<file archivePath="VSThost4aviutl/">plugins/wavpatch.auf</file>
+		</files>
+	</package>
+
+	<!-- ぽっぷん -->
+
+	<package>
+		<id>LSMASHWorks</id>
+		<name>L-SMASH Works</name>
+		<overview>様々なファイルを読み込む</overview>
+		<description
+		>muken氏が L-SMASH Works 開発の一環として実装を進めている OSS であり、MP4/MOV/QT/3gp/3g2/F4V/M4A 等の L-SMASH 対応コンテナに格納された映像・音声データおよび libav / ffmpeg ライブラリ対応のコンテナフォーマットを AviSynth / AviUtl / VapourSynth で読み込むためのプラグインで構成されています。</description>
+		<developer>ぽっぷん</developer>
+		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
+		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
+		<latestVersion>r940</latestVersion>
+		<files>
+			<file>plugins/lwcolor.auc</file>
+			<file>plugins/lwdumper.auf</file>
+			<file>plugins/lwinput.aui</file>
+			<file>plugins/lwmuxer.auf</file>
 		</files>
 	</package>
 </packages>

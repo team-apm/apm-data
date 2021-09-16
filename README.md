@@ -21,7 +21,7 @@
 AviUtlと拡張編集Pluginのデータファイル
 
 - **/core/${program}/files/file**: プログラムで使用されるファイルのファイル名
-  - _/core/${program}/files/file/@optional_: インストール時にそのファイルをインストールするかどうか (デフォルト: false)
+  - _/core/${program}/files/file/@optional_: インストール時に必要ないかどうか (デフォルト: false)
 - **/core/${program}/latestVersion**: プログラムの最新バージョン
 - **/core/${program}/releases**: プログラムのリリース
   - _/core/${program}/releases/@prefix_: `fileURL`のプレフィックス

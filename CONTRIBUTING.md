@@ -39,7 +39,7 @@ When the pull request is merged, your contribution will be added to the [Contrib
 
 ## Confirmation of Modifications
 
-Try installing and uninstalling the added package by specifying the XML file you edited as the destination to get the additional data from `Setting` of [AviUtl Package Manager](https://github.com/hal-shu-sato/apm).
+Try installing and uninstalling the added package by specifying the XML file you edited as the destination to get the additional data from the `Setting` tab of [AviUtl Package Manager](https://github.com/hal-shu-sato/apm).
 
 ## Directory Structure
 

@@ -18,7 +18,7 @@ This file contains modified date and time.
 
 ### [core.xml](./data/core.xml)
 
-This file contaiins data of AviUtl and Exedit.
+This file contains data of AviUtl and Exedit.
 
 - **/core/${program}/files/file**: The name of the file used in the program
   - _/core/${program}/files/file/@optional_: Whether it is optional during installation (Default: false)
@@ -30,7 +30,7 @@ This file contaiins data of AviUtl and Exedit.
 
 ### [packages_list.xml](./data/packages_list.xml)
 
-This file contaiins data of plugins and scripts.
+This file contains data of plugins and scripts.
 
 - **/packages/package/id**: The ID of the package (Non-duplicated alphanumeric characters. Use a file name that represents the package. If there is no representative name, use the archive file name. If there is a possibility of duplication, such as only one word, prefix it with the developer's name.)
 - **/packages/package/name**: The name of the package (Up to 25 characters)

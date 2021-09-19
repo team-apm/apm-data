@@ -9,6 +9,9 @@
 		<description
 		>このソフトは、L-SMASH_Works File Reader(lwinput.aui)を別プロセスで実行してあげることによって、Aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです</description>
 		<developer>amate</developer>
+		<dependencies>
+			<dependency>LSMASHWorks</dependency>
+		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
 		<downloadURL
 		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
@@ -242,6 +245,9 @@
 		<description
 		>拡張ツールバーはAviutlに拡張編集用ツールバーを追加するプラグインです。ツールバーのアイコンは自分で書き換えることもできます。</description>
 		<developer>aoytsk</developer>
+		<dependencies>
+			<dependency>exedit92</dependency>
+		</dependencies>
 		<pageURL>https://aoytsk.blog.jp/aviutl/422768.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/422768.html</downloadURL>
 		<latestVersion>Ver 0.3.5</latestVersion>
@@ -693,6 +699,9 @@
 		<description
 		>AviUtl version 1.00以降(1.10など)で使えるメモリ参照プラグインです。拡張編集は0.92です。</description>
 		<developer>ePi</developer>
+		<dependencies>
+			<dependency>exedit92</dependency>
+		</dependencies>
 		<pageURL
 		>https://scrapbox.io/ePi5131/Auls%E3%83%A1%E3%83%A2%E3%83%AA%E5%8F%82%E7%85%A7%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3</pageURL>
 		<downloadURL
@@ -777,6 +786,9 @@
 		<description
 		>キャッシュテキストは、生成したテキストを画像としてキャッシュすることで描画処理を効率化する拡張編集用スクリプトです。画像としてキャッシュするため、表示速度を利用したアニメーション、サイズのリアルタイムな変更などのような機能は使用できません。</description>
 		<developer>oov</developer>
+		<dependencies>
+			<dependency>ZRamPreview</dependency>
+		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm37598954</pageURL>
 		<downloadURL>https://github.com/oov/aviutl_cachetext/releases</downloadURL>
 		<latestVersion>v0.8</latestVersion>
@@ -1231,6 +1243,9 @@
 		<description
 		>スクリプト製作に役に立つかもしれないDLL及びスクリプト及びそれらを使えるようにするプラグインです 2020/01/13現在対応しているAviUtlは1.10まで 対応している拡張編集は0.92まで</description>
 		<developer>rikky</developer>
+		<dependencies>
+			<dependency>exedit92</dependency>
+		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776162</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/a2Z/</downloadURL>
 		<latestVersion>1.4b</latestVersion>
@@ -1247,6 +1262,9 @@
 		<description
 		>スクリプト製作に役に立つかもしれないプラグインです 20/01/11現在対応しているAviUtlは1.10のみ 対応している拡張編集は0.93rc1のみ</description>
 		<developer>rikky</developer>
+		<dependencies>
+			<dependency>exedit93rc1</dependency>
+		</dependencies>
 		<pageURL>http://hazumurhythm.com/a/q9Q/</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/q9Q/</downloadURL>
 		<latestVersion>v2_0.1d</latestVersion>
@@ -1278,6 +1296,9 @@
 		<description
 		>分割したいイメージにパーツ分割のアニメーション効果を付けるだけです。分割された一部が表示されます。順番の数値を変えれば、分割される部分も変わります。</description>
 		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikkyModuleMemory</dependency>
+		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776228</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/pA2/</downloadURL>
 		<latestVersion>5</latestVersion>
@@ -1298,6 +1319,9 @@
 		<description
 		>分割したいイメージにパーツ分割のアニメーション効果を付けるだけです。分割された一部が表示されます。順番の数値を変えれば、分割される部分も変わります。</description>
 		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikkyModule2</dependency>
+		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776228</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/pA2/</downloadURL>
 		<latestVersion>5</latestVersion>

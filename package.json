@@ -17,6 +17,6 @@
     "prettier-plugin-md-nocjsp": "^1.1.1"
   },
   "lint-staged": {
-    "*.{js,css,md,xml,xsd}": "prettier --write"
+    "*.{js,html,css,md,xml,xsd}": "prettier --write"
   }
 }

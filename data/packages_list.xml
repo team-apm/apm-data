@@ -246,7 +246,7 @@
 		>拡張ツールバーはAviutlに拡張編集用ツールバーを追加するプラグインです。ツールバーのアイコンは自分で書き換えることもできます。</description>
 		<developer>aoytsk</developer>
 		<dependencies>
-			<dependency>exedit92</dependency>
+			<dependency>exedit0.92</dependency>
 		</dependencies>
 		<pageURL>https://aoytsk.blog.jp/aviutl/422768.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/422768.html</downloadURL>
@@ -700,7 +700,7 @@
 		>AviUtl version 1.00以降(1.10など)で使えるメモリ参照プラグインです。拡張編集は0.92です。</description>
 		<developer>ePi</developer>
 		<dependencies>
-			<dependency>exedit92</dependency>
+			<dependency>exedit0.92</dependency>
 		</dependencies>
 		<pageURL
 		>https://scrapbox.io/ePi5131/Auls%E3%83%A1%E3%83%A2%E3%83%AA%E5%8F%82%E7%85%A7%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3</pageURL>
@@ -721,6 +721,9 @@
 		<description
 		>AviUtl の拡張編集プラグイン上でブラウザーの表示内容を持ち込めるようにするためのプログラムです。使用には bridge.dll の導入が必要です。</description>
 		<developer>oov</developer>
+		<dependencies>
+			<dependency>oovBridge</dependency>
+		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm38772089</pageURL>
 		<downloadURL
 		>https://github.com/oov/aviutl_browser/releases/tag/v0.3</downloadURL>
@@ -763,6 +766,9 @@
 		<description
 		>AviUtl + 拡張編集 + aviutl_browser の環境で使用可能なマインクラフト風モデルを描画するカスタムオブジェクトです。スキン画像を読み込みで適用することができます。</description>
 		<developer>oov</developer>
+		<dependencies>
+			<dependency>aviutlBrowser</dependency>
+		</dependencies>
 		<pageURL>https://github.com/oov/aviutl_browser_minecraft_skin</pageURL>
 		<downloadURL
 		>https://github.com/oov/aviutl_browser_minecraft_skin/releases</downloadURL>
@@ -1244,7 +1250,7 @@
 		>スクリプト製作に役に立つかもしれないDLL及びスクリプト及びそれらを使えるようにするプラグインです 2020/01/13現在対応しているAviUtlは1.10まで 対応している拡張編集は0.92まで</description>
 		<developer>rikky</developer>
 		<dependencies>
-			<dependency>exedit92</dependency>
+			<dependency>exedit0.92</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776162</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/a2Z/</downloadURL>
@@ -1263,7 +1269,7 @@
 		>スクリプト製作に役に立つかもしれないプラグインです 20/01/11現在対応しているAviUtlは1.10のみ 対応している拡張編集は0.93rc1のみ</description>
 		<developer>rikky</developer>
 		<dependencies>
-			<dependency>exedit93rc1</dependency>
+			<dependency>exedit0.93rc1</dependency>
 		</dependencies>
 		<pageURL>http://hazumurhythm.com/a/q9Q/</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/q9Q/</downloadURL>

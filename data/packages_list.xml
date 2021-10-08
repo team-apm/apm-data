@@ -202,6 +202,7 @@
 		<developer>aoytsk</developer>
 		<pageURL>https://aoytsk.blog.jp/aviutl/34586383.html</pageURL>
 		<downloadURL>https://aoytsk.blog.jp/aviutl/34586383.html</downloadURL>
+		<directURL>https://aoytsk.blog.jp/aviutl/easymp4v0.1.1.zip</directURL>
 		<latestVersion>v0.1.1</latestVersion>
 		<files>
 			<file>plugins/easymp4.auo</file>
@@ -1421,6 +1422,8 @@
 		<developer>ぽっぷん</developer>
 		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
 		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
+		<directURL
+		>https://pop.4-bit.jp/bin/l-smash/L-SMASH_Works_r940_plugins.zip</directURL>
 		<latestVersion>r940</latestVersion>
 		<files>
 			<file>plugins/lwcolor.auc</file>

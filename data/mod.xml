@@ -2,5 +2,5 @@
 <?xml-model href="../schema/mod.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <mod>
 	<core>2021-06-20T12:05:00+09:00</core>
-	<packages_list>2021-09-25T20:30:00+09:00</packages_list>
+	<packages_list>2021-10-09T07:55:00+09:00</packages_list>
 </mod>

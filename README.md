@@ -1,5 +1,7 @@
 # apm-data
 
+[![Node CI](https://github.com/hal-shu-sato/apm-data/actions/workflows/nodejs.yml/badge.svg)](https://github.com/hal-shu-sato/apm-data/actions/workflows/nodejs.yml)
+
 [AviUtl Package Manager](https://github.com/hal-shu-sato/apm)のデータリポジトリ
 
 ## データ構造

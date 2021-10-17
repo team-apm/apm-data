@@ -1437,9 +1437,9 @@
 	<package>
 		<id>SigContrastFastAviUtl</id>
 		<name>SigContrastFastAviUtl</name>
-		<overview>Sigmoidal/Logit contrast Aviutl plugin. IM is not used.</overview>
+		<overview>シグモイド関数に基づくコントラスト調整</overview>
 		<description
-		>Sigmoidal contrast and decontrast Aviutl plugin. ImageMagick is not being used.</description>
+		>コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。</description>
 		<developer>yumetodo</developer>
 		<dependencies>
 			<dependency>LSMASHWorks</dependency>

@@ -1432,4 +1432,24 @@
 			<file>plugins/lwmuxer.auf</file>
 		</files>
 	</package>
+
+	<!-- yumetodo  -->
+	<package>
+		<id>SigContrastFastAviUtl</id>
+		<name>SigContrastFastAviUtl</name>
+		<overview>シグモイド関数に基づくコントラスト調整</overview>
+		<description
+		>コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。</description>
+		<developer>yumetodo</developer>
+		<dependencies>
+			<dependency>LSMASHWorks</dependency>
+		</dependencies>
+		<pageURL>https://github.com/yumetodo/SigContrastFastAviUtl</pageURL>
+		<downloadURL
+		>https://github.com/yumetodo/SigContrastFastAviUtl/releases/download/1.0.0/SigColorFastAviUtl.zip</downloadURL>
+		<latestVersion>v1.0.0</latestVersion>
+		<files>
+			<file archivePath="SigColorFastAviUtl/">SigColorFastAviUtl.auf</file>
+		</files>
+	</package>
 </packages>

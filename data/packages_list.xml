@@ -695,11 +695,12 @@
 
 	<package>
 		<id>ePiAulsMemref</id>
-		<name>Aulsメモリ参照プラグイン（ePi版）</name>
+		<name>Aulsメモリ参照プラグイン</name>
 		<overview>他のメモリを参照するプラグインやDLLで必要</overview>
 		<description
 		>AviUtl version 1.00以降(1.10など)で使えるメモリ参照プラグインです。拡張編集は0.92です。</description>
 		<developer>ePi</developer>
+		<originalDeveloper>yu_noimage_</originalDeveloper>
 		<dependencies>
 			<dependency>exedit0.92</dependency>
 		</dependencies>
@@ -973,6 +974,7 @@
 		<description
 		>がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のバンディング低減フィルタMTを高速化したものです</description>
 		<developer>rigaya</developer>
+		<originalDeveloper>flash3kyuu</originalDeveloper>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-15.html</pageURL>
 		<downloadURL
 		>https://drive.google.com/folderview?id=0BzA4dIFteM2dQ1U3dG1mQ3Z5QWM&amp;usp=sharing</downloadURL>
@@ -991,6 +993,7 @@
 		<description
 		>MakKi様による透過性ロゴ フィルタプラグインver0.13をrigayaがSIMD化したものです。</description>
 		<developer>rigaya</developer>
+		<originalDeveloper>MakKi</originalDeveloper>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-20.html</pageURL>
 		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rlQoaLBz34MoNMe69</downloadURL>
 		<downloadMirrorURL
@@ -1077,6 +1080,7 @@
 		<description
 		>aji氏作「自動フィールドシフト インタレース解除プラグイン」の高速化版</description>
 		<developer>rigaya</developer>
+		<originalDeveloper>aji</originalDeveloper>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-14.html</pageURL>
 		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rhBs2o7PMtyiEP8gC</downloadURL>
 		<downloadMirrorURL
@@ -1094,6 +1098,7 @@
 		<description
 		>がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のエッジレベル調整を勝手にMT化(並列化)したものです。オリジナルと同様に動くはずです。</description>
 		<developer>rigaya</developer>
+		<originalDeveloper>flash3kyuu</originalDeveloper>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-11.html</pageURL>
 		<downloadURL
 		>https://1drv.ms/u/s!AsYziax1Q91rgjecLz36N1c41syz?e=7BeQTq</downloadURL>
@@ -1109,8 +1114,10 @@
 		<id>rigayaPmdMt</id>
 		<name>PMD_MT 高速化版</name>
 		<overview>PMD_MTの高速化版</overview>
-		<description>PMD_MTの高速化版です。</description>
+		<description
+		>PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。</description>
 		<developer>rigaya</developer>
+		<originalDeveloper>エモリ, スレ48≫989</originalDeveloper>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-18.html</pageURL>
 		<downloadURL
 		>https://drive.google.com/folderview?id=0BzA4dIFteM2dd2NtMWhCTVlLVlE&amp;usp=sharing</downloadURL>
@@ -1416,15 +1423,16 @@
 	<package>
 		<id>LSMASHWorks</id>
 		<name>L-SMASH Works</name>
-		<overview>様々なファイルを読み込む</overview>
+		<overview>様々な形式の動画・音楽ファイルを読み込む</overview>
 		<description
-		>muken氏が L-SMASH Works 開発の一環として実装を進めている OSS であり、MP4/MOV/QT/3gp/3g2/F4V/M4A 等の L-SMASH 対応コンテナに格納された映像・音声データおよび libav / ffmpeg ライブラリ対応のコンテナフォーマットを AviSynth / AviUtl / VapourSynth で読み込むためのプラグインで構成されています。</description>
+		>様々な形式の動画・音楽ファイルを読み込み可能にします。muken氏が L-SMASH Works 開発の一環として実装を進めている OSS のぽっぷん氏ビルドです。ffmpegのバージョン4.2.2を使用しています。海外からはダウンロードできません。</description>
 		<developer>ぽっぷん</developer>
+		<originalDeveloper>muken</originalDeveloper>
 		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
 		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
 		<directURL
 		>https://pop.4-bit.jp/bin/l-smash/L-SMASH_Works_r940_plugins.zip</directURL>
-		<latestVersion>r940</latestVersion>
+		<latestVersion>r940 release1</latestVersion>
 		<files>
 			<file>plugins/lwcolor.auc</file>
 			<file>plugins/lwdumper.auf</file>

@@ -24,6 +24,7 @@
 				<xsd:element name="overview" type="xsd:string" />
 				<xsd:element name="description" type="xsd:string" />
 				<xsd:element name="developer" type="xsd:string" />
+				<xsd:element name="originalDeveloper" type="xsd:string" minOccurs="0" />
 				<xsd:element name="dependencies" minOccurs="0">
 					<xsd:complexType>
 						<xsd:sequence>

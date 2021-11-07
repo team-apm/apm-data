@@ -39,7 +39,7 @@ AviUtlと拡張編集Pluginのデータファイル
 - **/packages/package/overview**: パッケージの概要（35字以内）
 - **/packages/package/description**: パッケージの説明
 - **/packages/package/developer**: パッケージの開発者
-- /packages/package/originalDeveloper: 派生元パッケージの開発者
+- _/packages/package/originalDeveloper_: 派生元パッケージの開発者
 - **/packages/package/pageURL**: パッケージの紹介ページURL
 - **/packages/package/downloadURL**: パッケージのダウンロードページURL
 - _/packages/package/downloadMirrorURL_: パッケージのミラーダウンロードページURL

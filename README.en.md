@@ -39,7 +39,7 @@ This file contains data of plugins and scripts.
 - **/packages/package/overview**: The overview of the package (Up to 35 characters)
 - **/packages/package/description**: The description of the package
 - **/packages/package/developer**: The name of the developer of the package
-- /packages/package/originalDeveloper: The name of the developer of the package from which it was derived
+- _/packages/package/originalDeveloper_: The name of the developer of the package from which it was derived
 - **/packages/package/pageURL**: The URL of the package introduction page
 - **/packages/package/downloadURL**: The URL of the package download page
 - _/packages/package/downloadMirrorURL_: The URL of the mirror of the package download page

@@ -713,6 +713,63 @@
 		</files>
 	</package>
 
+	<!-- karoterra -->
+
+	<package>
+		<id>aviutlWaveformPreview</id>
+		<name>aviutl_WaveformPreview</name>
+		<overview>編集中の音声波形を確認する</overview>
+		<description
+		>AviUtl で編集中の音声波形を確認するためのプラグインです。AviUtl の「設定→波形プレビュー」の設定メニューから波形プレビュープラグインの画面を表示してください。</description>
+		<developer>karoterra</developer>
+		<pageURL>https://github.com/karoterra/aviutl_WaveformPreview</pageURL>
+		<downloadURL
+		>https://github.com/karoterra/aviutl_WaveformPreview/releases/latest</downloadURL>
+		<latestVersion>v0.3.0</latestVersion>
+		<files>
+			<file
+				archivePath="aviutl_WaveformPreview_v0.3.0"
+			>plugins/WaveformPreview.auf</file>
+			<file
+				archivePath="aviutl_WaveformPreview_v0.3.0"
+			>plugins/WaveformPreview.exe</file>
+		</files>
+	</package>
+
+	<package>
+		<id>MarkdownEX</id>
+		<name>AviUtl MarkdownEX</name>
+		<overview>aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト</overview>
+		<description
+		>aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト。aviutl_browser同梱のMarkdown.anmを元に機能拡張を行ったものです。</description>
+		<developer>karoterra</developer>
+		<dependencies>
+			<dependency>aviutlBrowser</dependency>
+		</dependencies>
+		<pageURL>https://github.com/karoterra/aviutl-markdownex</pageURL>
+		<downloadURL
+		>https://github.com/karoterra/aviutl-markdownex/releases/latest</downloadURL>
+		<latestVersion>v0.1.0</latestVersion>
+		<files>
+			<file
+				archivePath="aviutl-markdownex-v0.1.0/script/browser"
+			>script/browser/MarkdownEX.anm</file>
+			<file
+				archivePath="aviutl-markdownex-v0.1.0/script/browser"
+			>script/browser/MarkdownEX.exa</file>
+			<file
+				archivePath="aviutl-markdownex-v0.1.0/script/browser"
+			>script/browser/MarkdownEX.obj</file>
+			<file
+				archivePath="aviutl-markdownex-v0.1.0/script/browser/contents"
+			>script/browser/contents/MarkdownEX-emoji-list.html</file>
+			<file
+				archivePath="aviutl-markdownex-v0.1.0/script/browser/contents"
+				directory="true"
+			>script/browser/contents/MarkdownEX</file>
+		</files>
+	</package>
+
 	<!-- oov -->
 
 	<package>
@@ -1363,6 +1420,27 @@
 		</files>
 	</package>
 
+	<!-- yumetodo  -->
+
+	<package>
+		<id>SigContrastFastAviUtl</id>
+		<name>SigContrastFastAviUtl</name>
+		<overview>シグモイド関数に基づくコントラスト調整</overview>
+		<description
+		>コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。</description>
+		<developer>yumetodo</developer>
+		<dependencies>
+			<dependency>LSMASHWorks</dependency>
+		</dependencies>
+		<pageURL>https://github.com/yumetodo/SigContrastFastAviUtl</pageURL>
+		<downloadURL
+		>https://github.com/yumetodo/SigContrastFastAviUtl/releases/download/1.0.0/SigColorFastAviUtl.zip</downloadURL>
+		<latestVersion>v1.0.0</latestVersion>
+		<files>
+			<file archivePath="SigColorFastAviUtl/">SigColorFastAviUtl.auf</file>
+		</files>
+	</package>
+
 	<!-- さつき -->
 
 	<package>
@@ -1430,26 +1508,6 @@
 			<file>plugins/lwdumper.auf</file>
 			<file>plugins/lwinput.aui</file>
 			<file>plugins/lwmuxer.auf</file>
-		</files>
-	</package>
-
-	<!-- yumetodo  -->
-	<package>
-		<id>SigContrastFastAviUtl</id>
-		<name>SigContrastFastAviUtl</name>
-		<overview>シグモイド関数に基づくコントラスト調整</overview>
-		<description
-		>コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。</description>
-		<developer>yumetodo</developer>
-		<dependencies>
-			<dependency>LSMASHWorks</dependency>
-		</dependencies>
-		<pageURL>https://github.com/yumetodo/SigContrastFastAviUtl</pageURL>
-		<downloadURL
-		>https://github.com/yumetodo/SigContrastFastAviUtl/releases/download/1.0.0/SigColorFastAviUtl.zip</downloadURL>
-		<latestVersion>v1.0.0</latestVersion>
-		<files>
-			<file archivePath="SigColorFastAviUtl/">SigColorFastAviUtl.auf</file>
 		</files>
 	</package>
 </packages>

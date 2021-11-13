@@ -44,6 +44,7 @@ AviUtlと拡張編集Pluginのデータファイル
 - **/packages/package/downloadURL**: パッケージのダウンロードページURL
 - _/packages/package/downloadMirrorURL_: パッケージのミラーダウンロードページURL
 - **/packages/package/latestVersion**: パッケージの最新バージョン
+  - _/packages/package/latestVersion/@continuous_: 最新バージョンに追従するかどうか (デフォルト:false)
 - _/packages/package/installer_: インストーラーファイル名
 - _/packages/package/installerArg_: インストーラーに渡される引数（`$instpath`は、インストール先フォルダに置き換えられます。）
 - **/packages/package/files/file**: パッケージで使用されるファイルのファイル名

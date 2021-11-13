@@ -40,9 +40,11 @@ This file contains data of plugins and scripts.
 - **/packages/package/description**: The description of the package
 - **/packages/package/developer**: The name of the developer of the package
 - _/packages/package/originalDeveloper_: The name of the developer of the package from which it was derived
+- _/packages/package/dependencies/dependency_: ID of the package on which it depends
 - **/packages/package/pageURL**: The URL of the package introduction page
 - **/packages/package/downloadURL**: The URL of the package download page
 - _/packages/package/downloadMirrorURL_: The URL of the mirror of the package download page
+- _/packages/package/directURL_: URL to be used for the batch install feature
 - **/packages/package/latestVersion**: The latest version of the package
   - _/packages/package/latestVersion/@continuous_: Whether to track the latest version (Default: false)
 - _/packages/package/installer_: The name of the installer file

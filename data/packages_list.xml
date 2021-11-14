@@ -714,6 +714,28 @@
 		</files>
 	</package>
 
+	<!-- HolyWu -->
+
+	<package>
+		<id>HolyWuLSMASHWorks</id>
+		<name>L-SMASH Works</name>
+		<overview>様々な形式の動画・音楽ファイルを読み込む</overview>
+		<description
+		>様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS のHolyWu氏版です。Mr-Ojii氏により毎日最新のffmpegを用いてビルドされています。</description>
+		<developer>HolyWu</developer>
+		<originalDeveloper>VFR-maniac</originalDeveloper>
+		<pageURL>https://github.com/HolyWu/L-SMASH-Works</pageURL>
+		<downloadURL
+		>https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest</downloadURL>
+		<latestVersion continuous="true">最新</latestVersion>
+		<files>
+			<file>plugins/lwcolor.auc</file>
+			<file>plugins/lwdumper.auf</file>
+			<file>plugins/lwinput.aui</file>
+			<file>plugins/lwmuxer.auf</file>
+		</files>
+	</package>
+
 	<!-- karoterra -->
 
 	<package>
@@ -768,6 +790,28 @@
 				archivePath="aviutl-markdownex-v0.1.0/script/browser/contents"
 				directory="true"
 			>script/browser/contents/MarkdownEX</file>
+		</files>
+	</package>
+
+	<!-- Mr-Ojii -->
+
+	<package>
+		<id>MrOjiiLSMASHWorks</id>
+		<name>L-SMASH Works</name>
+		<overview>様々な形式の動画・音楽ファイルを読み込む</overview>
+		<description
+		>様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS のMr-Ojii氏版です。Mr-Ojii氏により毎日最新のffmpegを用いてビルドされています。</description>
+		<developer>Mr-Ojii</developer>
+		<originalDeveloper>VFR-maniac</originalDeveloper>
+		<pageURL>https://github.com/Mr-Ojii/L-SMASH-Works</pageURL>
+		<downloadURL
+		>https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest</downloadURL>
+		<latestVersion continuous="true">最新</latestVersion>
+		<files>
+			<file>plugins/lwcolor.auc</file>
+			<file>plugins/lwdumper.auf</file>
+			<file>plugins/lwinput.aui</file>
+			<file>plugins/lwmuxer.auf</file>
 		</files>
 	</package>
 
@@ -1428,6 +1472,27 @@
 		</files>
 	</package>
 
+	<!-- VFR-maniac -->
+
+	<package>
+		<id>VFRmaniacLSMASHWorks</id>
+		<name>L-SMASH Works</name>
+		<overview>様々な形式の動画・音楽ファイルを読み込む</overview>
+		<description
+		>様々な形式の動画・音楽ファイルを読み込み可能にします。Mr-Ojii氏により毎日最新のffmpegを用いてビルドされています。</description>
+		<developer>VFRmaniac</developer>
+		<pageURL>https://github.com/VFR-maniac/L-SMASH-Works</pageURL>
+		<downloadURL
+		>https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest</downloadURL>
+		<latestVersion continuous="true">最新</latestVersion>
+		<files>
+			<file>plugins/lwcolor.auc</file>
+			<file>plugins/lwdumper.auf</file>
+			<file>plugins/lwinput.aui</file>
+			<file>plugins/lwmuxer.auf</file>
+		</files>
+	</package>
+
 	<!-- yumetodo  -->
 
 	<package>
@@ -1505,9 +1570,9 @@
 		<name>L-SMASH Works</name>
 		<overview>様々な形式の動画・音楽ファイルを読み込む</overview>
 		<description
-		>様々な形式の動画・音楽ファイルを読み込み可能にします。muken氏が L-SMASH Works 開発の一環として実装を進めている OSS のぽっぷん氏ビルドです。ffmpegのバージョン4.2.2を使用しています。海外からはダウンロードできません。</description>
+		>様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS のぽっぷん氏ビルドです。ffmpegのバージョン4.2.2を使用しています。海外からはダウンロードできません。</description>
 		<developer>ぽっぷん</developer>
-		<originalDeveloper>muken</originalDeveloper>
+		<originalDeveloper>VFR-maniac</originalDeveloper>
 		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
 		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
 		<directURL

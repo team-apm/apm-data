@@ -1455,8 +1455,9 @@
 	<package>
 		<id>EasingTra2020</id>
 		<name>トラックバー対応イージングスクリプト</name>
-		<overview>移動を滑らかに</overview>
-		<description />
+		<overview>オブジェクトの動きに緩急をつける</overview>
+		<description
+		>オブジェクトに加速、減速、バウンドなどの動きをつけることができます。補間移動版では中間点を使った曲線上のイージングにも対応しています。</description>
 		<developer>UndoFish</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm37721332</pageURL>
 		<downloadURL>https://www.nicovideo.jp/watch/sm37721332</downloadURL>
@@ -1519,7 +1520,8 @@
 		<id>Satsuki</id>
 		<name>AviUtlスクリプト一式</name>
 		<overview>AviUtlを使うなら必須のスクリプト</overview>
-		<description />
+		<description
+		>画像の配置や色やさまざまなエフェクトに関するアニメーション効果、なめらかな加減速が可能なフィルタ効果、連番画像の配置、音声に同期したアニメーション、テキストに対するアニメーション効果、ノイズや模様や図形のカスタムオブジェクトなどのたくさんのスクリプトが含まれています。</description>
 		<developer>さつき</developer>
 		<pageURL>https://dic.nicovideo.jp/u/2787743#script</pageURL>
 		<downloadURL>https://bowlroll.net/file/3777</downloadURL>

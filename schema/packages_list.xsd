@@ -36,7 +36,20 @@
 				<xsd:element name="downloadURL" type="xsd:anyURI" />
 				<xsd:element name="downloadMirrorURL" type="xsd:anyURI" minOccurs="0" />
 				<xsd:element name="directURL" type="xsd:anyURI" minOccurs="0" />
-				<xsd:element name="latestVersion" type="xsd:string" />
+				<xsd:element name="latestVersion">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+								<xsd:attribute
+									name="continuous"
+									type="xsd:boolean"
+									default="false"
+									use="optional"
+								/>
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
 				<xsd:element name="detailURL" type="xsd:anyURI" minOccurs="0" />
 				<xsd:element name="installer" type="xsd:string" minOccurs="0" />
 				<xsd:element name="installArg" type="xsd:string" minOccurs="0" />

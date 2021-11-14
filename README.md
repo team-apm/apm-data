@@ -40,10 +40,13 @@ AviUtlと拡張編集Pluginのデータファイル
 - **/packages/package/description**: パッケージの説明
 - **/packages/package/developer**: パッケージの開発者
 - _/packages/package/originalDeveloper_: 派生元パッケージの開発者
+- _/packages/package/dependencies/dependency_: 依存パッケージのID
 - **/packages/package/pageURL**: パッケージの紹介ページURL
 - **/packages/package/downloadURL**: パッケージのダウンロードページURL
 - _/packages/package/downloadMirrorURL_: パッケージのミラーダウンロードページURL
+- _/packages/package/directURL_: 一括インストール機能に使用されるURL
 - **/packages/package/latestVersion**: パッケージの最新バージョン
+  - _/packages/package/latestVersion/@continuous_: 最新バージョンに追従するかどうか (デフォルト:false)
 - _/packages/package/installer_: インストーラーファイル名
 - _/packages/package/installerArg_: インストーラーに渡される引数（`$instpath`は、インストール先フォルダに置き換えられます。）
 - **/packages/package/files/file**: パッケージで使用されるファイルのファイル名

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="mod">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="core" type="xsd:dateTime" />
+				<xsd:element name="packages" type="xsd:dateTime" />
+			</xsd:sequence>
+			<xsd:attribute
+				name="version"
+				type="xsd:positiveInteger"
+				use="required"
+			/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

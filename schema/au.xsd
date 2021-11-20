@@ -11,6 +11,8 @@
 					<xsd:simpleContent>
 						<xsd:extension base="xsd:anyURI">
 							<xsd:attribute name="version" type="xsd:string" use="required" />
+							<xsd:attribute name="target" type="xsd:string" use="optional" />
+							<xsd:attribute name="targetIntegrity" type="xsd:string" use="optional" />
 						</xsd:extension>
 					</xsd:simpleContent>
 				</xsd:complexType>

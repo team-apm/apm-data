@@ -10,7 +10,8 @@
 		>このソフトは、L-SMASH_Works File Reader(lwinput.aui)を別プロセスで実行してあげることによって、Aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです</description>
 		<developer>amate</developer>
 		<dependencies>
-			<dependency>LSMASHWorks</dependency>
+			<dependency
+			>LSMASHWorks|VFRmaniacLSMASHWorks|HolyWuLSMASHWorks|MrOjiiLSMASHWorks</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
 		<downloadURL
@@ -1503,7 +1504,8 @@
 		>コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。</description>
 		<developer>yumetodo</developer>
 		<dependencies>
-			<dependency>LSMASHWorks</dependency>
+			<dependency
+			>LSMASHWorks|VFRmaniacLSMASHWorks|HolyWuLSMASHWorks|MrOjiiLSMASHWorks</dependency>
 		</dependencies>
 		<pageURL>https://github.com/yumetodo/SigContrastFastAviUtl</pageURL>
 		<downloadURL

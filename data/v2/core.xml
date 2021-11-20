@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../../schema/v2/core.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<core version="2">
+	<aviutl>
+		<latestVersion>1.10</latestVersion>
+
+		<files>
+			<file>aviutl.exe</file>
+			<file>aviutl.txt</file>
+			<file optional="true">aviutl.aup</file>
+			<file optional="true">aviutl.ini</file>
+			<file optional="true">aviutl.key</file>
+			<file optional="true">aviutl.sav</file>
+		</files>
+
+		<releases>
+			<release version="1.10">
+				<url>http://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip</url>
+				<integrities>
+					<integrity
+						target="aviutl.exe"
+					>sha384-BsJg59A0t7oHOZp54iljF4nB2V6tYzHiPhYW/h16Oz3qE7qhFFXx6AvhdajnwKfD</integrity>
+				</integrities>
+			</release>
+
+			<release version="1.00">
+				<url>http://spring-fragrance.mints.ne.jp/aviutl/aviutl100.zip</url>
+				<integrities>
+					<integrity
+						target="aviutl.exe"
+					>sha384-TrRFAxOVGtJIhyWV20dXHEOmss96xEHYHaNE4/+t3kvxUGF3IjOP55AnznoNzMom</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</aviutl>
+
+	<exedit>
+		<latestVersion>0.92</latestVersion>
+
+		<files>
+			<file>exedit.anm</file>
+			<file>exedit.auf</file>
+			<file>exedit.aui</file>
+			<file>exedit.auo</file>
+			<file>exedit.cam</file>
+			<file>exedit.ini</file>
+			<file>exedit.obj</file>
+			<file>exedit.scn</file>
+			<file>exedit.tra</file>
+			<file>exedit.txt</file>
+			<file>lua.txt</file>
+			<file>lua51.dll</file>
+		</files>
+
+		<releases>
+			<release version="0.93rc1">
+				<url>http://spring-fragrance.mints.ne.jp/aviutl/exedit93rc1.zip</url>
+				<files>
+					<file>lua51jit.dll</file>
+				</files>
+				<integrities>
+					<integrity
+						target="exedit.auf"
+					>sha384-Zbt+Oc8pG3dGXmPqr3c767Y5/3/FaSVngmipn0v1KyXRW8dWVZuOZ2WTrP09YRDZ</integrity>
+				</integrities>
+			</release>
+
+			<release version="0.92">
+				<url>http://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip</url>
+				<integrities>
+					<integrity
+						target="exedit.auf"
+					>sha384-aW5769CsMnmDGnZzNzqP4KFvM2npA8gfopzwB//TBbwYfoLZtGvoP/oXZctVEZxp</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</exedit>
+</core>

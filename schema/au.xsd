@@ -3,16 +3,27 @@
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	targetNamespace="http://halshusato.starfree.jp/ato_lash/aviutl/"
 >
-
 	<xsd:complexType name="releases">
 		<xsd:sequence>
 			<xsd:element name="fileURL" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:simpleContent>
 						<xsd:extension base="xsd:anyURI">
-							<xsd:attribute name="version" type="xsd:string" use="required" />
-							<xsd:attribute name="target" type="xsd:string" use="optional" />
-							<xsd:attribute name="targetIntegrity" type="xsd:string" use="optional" />
+							<xsd:attribute
+								name="version"
+								type="xsd:string"
+								use="required"
+							/>
+							<xsd:attribute
+								name="target"
+								type="xsd:string"
+								use="optional"
+							/>
+							<xsd:attribute
+								name="targetIntegrity"
+								type="xsd:string"
+								use="optional"
+							/>
 						</xsd:extension>
 					</xsd:simpleContent>
 				</xsd:complexType>
@@ -39,12 +50,15 @@
 								default="false"
 								use="optional"
 							/>
-							<xsd:attribute name="archivePath" type="xsd:string" use="optional" />
+							<xsd:attribute
+								name="archivePath"
+								type="xsd:string"
+								use="optional"
+							/>
 						</xsd:extension>
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
-
 </xsd:schema>

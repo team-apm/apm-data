@@ -24,5 +24,4 @@
 			<xsd:element name="releases" type="au:releases" />
 		</xsd:sequence>
 	</xsd:complexType>
-
 </xsd:schema>

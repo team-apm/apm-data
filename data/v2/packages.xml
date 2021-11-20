@@ -22,6 +22,15 @@
 			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
 			<file optional="true">plugins/InputPipePlugin.log</file>
 		</files>
+		<releases>
+			<release version="v1.8">
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-776J7729DAnph546772h772v44O7IuODu2NK772tHemAuEk5776A5aW4A3Pvvacq776fS+++hua4uRDuhJPvvaQ0G+ODu+++kO+9vn0r44O7DQo=</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -208,6 +217,15 @@
 		<files>
 			<file>plugins/easymp4.auo</file>
 		</files>
+		<releases>
+			<release version="v0.1.1">
+				<integrities>
+					<integrity
+						target="plugins/easymp4.auo"
+					>sha384-6Kiq7pax776RbhEVPlHvvajmhZ3lkqvilLDulZnjg7vvvajvvpPjg7tm44O7776cIAgp776JM2/vo7DmlqQS776RJe6ZpzMgPw0KIQ0K</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

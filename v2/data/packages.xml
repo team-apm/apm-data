@@ -27,7 +27,7 @@
 				<integrities>
 					<integrity
 						target="plugins/InputPipePlugin.aui"
-					>sha384-776J7729DAnph546772h772v44O7IuODu2NK772tHemAuEk5776A5aW4A3Pvvacq776fS+++hua4uRDuhJPvvaQ0G+ODu+++kO+9vn0r44O7DQo=</integrity>
+					>sha384-ujWRvgLYdr/2XKYMuzfkHSttfgJPXtXsH+StEkpPXj6cXTlJy2F3tha0sr0/lD14</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -222,7 +222,7 @@
 				<integrities>
 					<integrity
 						target="plugins/easymp4.auo"
-					>sha384-6Kiq7pax776RbhEVPlHvvajmhZ3lkqvilLDulZnjg7vvvajvvpPjg7tm44O7776cIAgp776JM2/vo7DmlqQS776RJe6ZpzMgPw0KIQ0K</integrity>
+					>sha384-KqP7FgXutVgItDDzUI7iGiqR/scffirppUcToFdU5MAB2QCKYTda7suNNzaiuwB5</integrity>
 				</integrities>
 			</release>
 		</releases>

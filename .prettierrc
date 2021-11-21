@@ -14,6 +14,12 @@
       }
     },
     {
+      "files": ["*.xsd"],
+      "options": {
+        "xmlWhitespaceSensitivity": "ignore"
+      }
+    },
+    {
       "files": ["*.json"],
       "options": {
         "singleQuote": false

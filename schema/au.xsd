@@ -15,12 +15,12 @@
 								use="required"
 							/>
 							<xsd:attribute
-								name="target"
+								name="hashTarget"
 								type="xsd:string"
 								use="optional"
 							/>
 							<xsd:attribute
-								name="targetIntegrity"
+								name="hashTargetSHA256"
 								type="xsd:string"
 								use="optional"
 							/>

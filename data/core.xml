@@ -14,13 +14,13 @@
 		<releases prefix="http://spring-fragrance.mints.ne.jp/aviutl/">
 			<fileURL
 				version="1.10"
-				target="aviutl.exe"
-				targetIntegrity="sha384-BsJg59A0t7oHOZp54iljF4nB2V6tYzHiPhYW/h16Oz3qE7qhFFXx6AvhdajnwKfD"
+				hashTarget="aviutl.exe"
+				hashTargetSHA256="3737D8B0BC1336624BFB7F7C54425C819A208B5FEEE552F5CE9443DD4C6A1A04"
 			>aviutl110.zip</fileURL>
 			<fileURL
 				version="1.00"
-				target="aviutl.exe"
-				targetIntegrity="sha384-TrRFAxOVGtJIhyWV20dXHEOmss96xEHYHaNE4/+t3kvxUGF3IjOP55AnznoNzMom"
+				hashTarget="aviutl.exe"
+				hashTargetSHA256="B8FFAF79853686C41A8033AF04607325FF9454BE9D3C2365D81D6924FFC34A40"
 			>aviutl100.zip</fileURL>
 		</releases>
 	</aviutl>
@@ -44,13 +44,13 @@
 		<releases prefix="http://spring-fragrance.mints.ne.jp/aviutl/">
 			<fileURL
 				version="0.93rc1"
-				target="exedit.auf"
-				targetIntegrity="sha384-Zbt+Oc8pG3dGXmPqr3c767Y5/3/FaSVngmipn0v1KyXRW8dWVZuOZ2WTrP09YRDZ"
+				hashTarget="exedit.auf"
+				hashTargetSHA256="319BA428C4528A528171A8F898DA7AD2D246E4A6A7FDF9136C3296986C015E05"
 			>exedit93rc1.zip</fileURL>
 			<fileURL
 				version="0.92"
-				target="exedit.auf"
-				targetIntegrity="sha384-aW5769CsMnmDGnZzNzqP4KFvM2npA8gfopzwB//TBbwYfoLZtGvoP/oXZctVEZxp"
+				hashTarget="exedit.auf"
+				hashTargetSHA256="06F2D89D31D6B8F5D1D8B079A2872A467F3C704ED38355E1F19F1FBD9529EE3A"
 			>exedit92.zip</fileURL>
 		</releases>
 	</exedit>

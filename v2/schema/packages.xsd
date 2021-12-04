@@ -24,7 +24,13 @@
 	<xsd:element name="package">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="id" type="xsd:string" />
+				<xsd:element name="id">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:pattern value="[a-zA-Z0-9]+/[a-zA-Z0-9]+" />
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
 				<xsd:element name="name" type="xsd:string" />
 				<xsd:element name="overview" type="xsd:string" />
 				<xsd:element name="description" type="xsd:string" />

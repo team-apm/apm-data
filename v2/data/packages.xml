@@ -2,6 +2,7 @@
 <?xml-model href="../schema/packages.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <packages version="2">
 	<!-- amate ID:amate -->
+
 	<package>
 		<id>amate/InputPipePlugin</id>
 		<name>InputPipePlugin</name>
@@ -41,7 +42,8 @@
 		>ファイルの入力、分離、デコードに、Media Foundation を使っており、DXVA2(GPU)を利用した高速なデコードが可能です</description>
 		<developer>amate</developer>
 		<pageURL />
-		<downloadURL>https://github.com/amate/MFVideoReader/releases</downloadURL>
+		<downloadURL
+		>https://github.com/amate/MFVideoReader/releases/latest</downloadURL>
 		<latestVersion>v1.0</latestVersion>
 		<files>
 			<file archivePath="MFVideoReader/">plugins/MFVideoReader.exe</file>
@@ -58,8 +60,8 @@
 		<developer>amate</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm36085428</pageURL>
 		<downloadURL
-		>https://github.com/amate/PropertyWindowFixerPlugin/releases</downloadURL>
-		<latestVersion>v2.2</latestVersion>
+		>https://github.com/amate/PropertyWindowFixerPlugin/releases/latest</downloadURL>
+		<latestVersion>v2.3</latestVersion>
 		<files>
 			<file
 				archivePath="PropertyWindowFixerPlugin/"
@@ -71,6 +73,7 @@
 	</package>
 
 	<!-- aoytsk ID:aoytsk -->
+
 	<package>
 		<id>aoytsk/adjustaudio</id>
 		<name>音声の位置微調整</name>
@@ -847,8 +850,7 @@
 			<dependency>oov/bridge</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm38772089</pageURL>
-		<downloadURL
-		>https://github.com/oov/aviutl_browser/releases/tag/v0.3</downloadURL>
+		<downloadURL>https://github.com/oov/aviutl_browser/releases/latest</downloadURL>
 		<latestVersion>v0.3</latestVersion>
 		<files>
 			<file archivePath="script/browser" directory="true">script/browser/exe</file>
@@ -893,7 +895,7 @@
 		</dependencies>
 		<pageURL>https://github.com/oov/aviutl_browser_minecraft_skin</pageURL>
 		<downloadURL
-		>https://github.com/oov/aviutl_browser_minecraft_skin/releases</downloadURL>
+		>https://github.com/oov/aviutl_browser_minecraft_skin/releases/latest</downloadURL>
 		<latestVersion>v1.0</latestVersion>
 		<files>
 			<file archivePath="script/browser">script/browser/@マイクラスキン.anm</file>
@@ -937,7 +939,7 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm33020019</pageURL>
 		<downloadURL
 		>https://github.com/oov/aviutl_gcmzdrops/releases/latest</downloadURL>
-		<latestVersion>v0.3.18</latestVersion>
+		<latestVersion>v0.3.25</latestVersion>
 		<files>
 			<file directory="true">GCMZDrops</file>
 			<file>GCMZDrops.auf</file>
@@ -983,7 +985,7 @@
 		>これは PSDTool(https://oov.github.com/psdtool/) でシンプルビューを元にして出力できる PRIMA (Pre-Rendered IMage Archive) ファイルを AviUtl で読み込めるようにする AviUtl 用入力プラグインです。</description>
 		<developer>oov</developer>
 		<pageURL />
-		<downloadURL>https://github.com/oov/aviutl_prima/releases</downloadURL>
+		<downloadURL>https://github.com/oov/aviutl_prima/releases/latest</downloadURL>
 		<latestVersion>v0.1</latestVersion>
 		<files>
 			<file>prima.aui</file>
@@ -1026,7 +1028,8 @@
 		>AviUtl のメニューから 編集→動画ハンドル開放→動画ハンドルを開放 を選ぶと動画ハンドルが開放されます。このコマンドにはショートカットキー Ctrl + F5 が標準で割り当てられています。</description>
 		<developer>oov</developer>
 		<pageURL>https://github.com/oov/aviutl_relmoviehandle</pageURL>
-		<downloadURL>https://github.com/oov/aviutl_relmoviehandle/releases</downloadURL>
+		<downloadURL
+		>https://github.com/oov/aviutl_relmoviehandle/releases/latest</downloadURL>
 		<latestVersion>v1.1</latestVersion>
 		<files>
 			<file>RelMovieHandle.auf</file>
@@ -1041,8 +1044,9 @@
 		>AviUtl の拡張編集プラグインで複数行テキストを編集する際に、Alt + 方向キー で制御文字の内容を書き換える AviUtl 用プラグインです。</description>
 		<developer>oov</developer>
 		<pageURL>https://github.com/oov/aviutl_textassist</pageURL>
-		<downloadURL>https://github.com/oov/aviutl_textassist/releases</downloadURL>
-		<latestVersion>v0.3</latestVersion>
+		<downloadURL
+		>https://github.com/oov/aviutl_textassist/releases/latest</downloadURL>
+		<latestVersion>v0.3.3</latestVersion>
 		<files>
 			<file>textassist.auf</file>
 		</files>
@@ -1339,7 +1343,7 @@
 		<installer>auo_setup.exe</installer>
 		<installArg>-dir "$instpath" -autorun</installArg>
 		<files>
-		    <file>plugins/x265guiEx.auo</file>
+			<file>plugins/x265guiEx.auo</file>
 			<file>plugins/x265guiEx.conf</file>
 			<file>plugins/x265guiEx.ini</file>
 			<file>exe_files/boxdumper.exe</file>
@@ -1527,8 +1531,8 @@
 		</dependencies>
 		<pageURL>https://github.com/yumetodo/SigContrastFastAviUtl</pageURL>
 		<downloadURL
-		>https://github.com/yumetodo/SigContrastFastAviUtl/releases/download/1.0.0/SigColorFastAviUtl.zip</downloadURL>
-		<latestVersion>v1.0.0</latestVersion>
+		>https://github.com/yumetodo/SigContrastFastAviUtl/releases/latest</downloadURL>
+		<latestVersion>1.0.0</latestVersion>
 		<files>
 			<file archivePath="SigColorFastAviUtl/">SigColorFastAviUtl.auf</file>
 		</files>
@@ -1559,7 +1563,6 @@
 			<file archivePath="script_20160828/" directory="true">script/TA_ssd/</file>
 		</files>
 	</package>
-
 
 	<!-- しし/りっちゃん ID:AiosCiao -->
 

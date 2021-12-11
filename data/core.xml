@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="../schema/core.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<core>
+<core version="1">
 	<aviutl>
 		<files>
 			<file>aviutl.exe</file>

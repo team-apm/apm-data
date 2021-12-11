@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-model href="../schema/packages_list.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<packages>
+<packages version="1">
 	<!-- amate -->
 	<package>
 		<id>InputPipePlugin</id>

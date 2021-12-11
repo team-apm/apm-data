@@ -6,6 +6,11 @@
 				<xsd:element name="core" type="xsd:dateTime" />
 				<xsd:element name="packages_list" type="xsd:dateTime" />
 			</xsd:sequence>
+			<xsd:attribute
+				name="version"
+				type="xsd:positiveInteger"
+				use="required"
+			/>
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>

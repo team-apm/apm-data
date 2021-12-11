@@ -13,6 +13,11 @@
 			<xsd:sequence>
 				<xsd:element ref="package" maxOccurs="unbounded" />
 			</xsd:sequence>
+			<xsd:attribute
+				name="version"
+				type="xsd:positiveInteger"
+				use="required"
+			/>
 		</xsd:complexType>
 	</xsd:element>
 

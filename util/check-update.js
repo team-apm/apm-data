@@ -123,10 +123,21 @@ async function check() {
       if (XMLValidator.validate(modXmlData)) {
         const modObj = parser.parse(modXmlData);
 
+        const padNumber = (number) => number.toString().padStart(2, '0');
+        const toISODate = (date) =>
+          date.getFullYear() +
+          '-' +
+          padNumber(date.getMonth() + 1) +
+          '-' +
+          padNumber(date.getDate()) +
+          'T' +
+          padNumber(date.getHours()) +
+          ':' +
+          padNumber(date.getMinutes()) +
+          ':00+09:00';
+
         const now = new Date();
-        const newModDate = `${now.getFullYear()}-${
-          now.getMonth() + 1
-        }-${now.getDate()}T${now.getHours()}:${now.getMinutes()}:00+09:00`;
+        const newModDate = toISODate(now);
         modObj[2].mod[1].packages[0]._ = newModDate;
 
         const newModXml = builder.build(modObj);

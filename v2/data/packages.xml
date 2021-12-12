@@ -221,11 +221,25 @@
 			<file>plugins/easymp4.auo</file>
 		</files>
 		<releases>
+			<release version="v0.1.0">
+				<integrities>
+					<integrity
+						target="plugins/easymp4.auo"
+					>sha384-9d9tQl1Xd9UpLtE7Y69+kYsH5SF7l4d3rNTG+O3NxrPMV/w73wOv1NsxKTULKKJo</integrity>
+				</integrities>
+			</release>
 			<release version="v0.1.1">
 				<integrities>
 					<integrity
 						target="plugins/easymp4.auo"
 					>sha384-KqP7FgXutVgItDDzUI7iGiqR/scffirppUcToFdU5MAB2QCKYTda7suNNzaiuwB5</integrity>
+				</integrities>
+			</release>
+			<release version="v0.1.1(仮修正)">
+				<integrities>
+					<integrity
+						target="plugins/easymp4.auo"
+					>sha384-q1ur+XoS/QRVeHkCINN7EKyBB1KY/uYKN869NWq3jf+GuKm/tKpiWOHjWPMYbDFM</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -1607,5 +1621,21 @@
 			<file>plugins/lwinput.aui</file>
 			<file>plugins/lwmuxer.auf</file>
 		</files>
+		<releases>
+			<release version="r940 release1">
+				<integrities>
+					<integrity
+						target="plugins/lwinput.aui"
+					>sha384-11Bixku/iJUz6SgrABVClbVYcP4yM1D14eS52/HwQA60yYI1UMAoabnjLsIo+o3J</integrity>
+				</integrities>
+			</release>
+			<release version="r940 mod1">
+				<integrities>
+					<integrity
+						target="plugins/lwinput.aui"
+					>sha384-G+do1l9i5JW6y18m/C/OzPnKEq667EWIk/PenITnH3ymEYQf+H9lfHlkDhtJHv5C</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 </packages>

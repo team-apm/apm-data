@@ -300,10 +300,10 @@ execa@^5.1.1:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-fast-xml-parser@^4.0.0-beta.7:
-  version "4.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-4.0.0-beta.7.tgz#02be65194de59efec531eba71d18e8a913deabfd"
-  integrity sha512-tjbPPXfmHmiZMp3gsbPCcMoac8ocavUWG24IIDwjrB5W7iFHRjToNy3g8FgHa0ZCH+z2C1xOaAs4La7us6J0hQ==
+fast-xml-parser@^4.0.0-beta.8:
+  version "4.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-4.0.0-beta.8.tgz#f0004e29f0eb105e45fbf3f69f2d206a6bfdc587"
+  integrity sha512-2QEZ/WRt6mfrguLsluhvpTWNxdKYgvdZx3dA+Tnx0pUmlEA4ZWt32qSmA1sR1jXscFozHIKqZrikUeiCYSe3ow==
   dependencies:
     strnum "^1.0.5"
 

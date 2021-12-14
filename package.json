@@ -16,7 +16,7 @@
     "@octokit/rest": "^18.12.0",
     "@prettier/plugin-xml": "^1.0.2",
     "chalk": "^4.1.2",
-    "fast-xml-parser": "^4.0.0-beta.7",
+    "fast-xml-parser": "^4.0.0-beta.8",
     "fs-extra": "^10.0.0",
     "husky": "^7.0.0",
     "lint-staged": "^12.1.2",

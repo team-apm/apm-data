@@ -66,3 +66,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 ](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Contributor
+
+[@hal-shu-sato](https://github.com/hal-shu-sato)
+[@mitosagi](https://github.com/mitosagi)
+[@yumetodo](https://github.com/yumetodo)

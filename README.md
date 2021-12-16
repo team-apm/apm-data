@@ -66,3 +66,9 @@ AviUtlと拡張編集Pluginのデータファイル
 ](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 この作品は、[クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス](https://creativecommons.org/licenses/by-nc-sa/4.0/)の下に提供されています。
+
+## コントリビューター
+
+[@hal-shu-sato](https://github.com/hal-shu-sato)
+[@mitosagi](https://github.com/mitosagi)
+[@yumetodo](https://github.com/yumetodo)

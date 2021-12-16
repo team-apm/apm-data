@@ -1,4 +1,5 @@
-// > yarn run check-update
+// > yarn run mod-core
+// > yarn run mod-packages
 
 const fs = require('fs-extra');
 const chalk = require('chalk');

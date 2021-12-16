@@ -10,7 +10,9 @@
     "lint": "prettier --check .",
     "prepare": "husky install",
     "check-convert": "node util/check-convert.js",
-    "check-update": "node util/check-update.js"
+    "check-update": "node util/check-update.js",
+    "mod-core": "node util/update-mod.js --core",
+    "mod-packages": "node util/update-mod.js --packages"
   },
   "devDependencies": {
     "@octokit/rest": "^18.12.0",

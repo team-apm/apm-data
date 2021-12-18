@@ -750,6 +750,35 @@
 		</files>
 	</package>
 
+	<package>
+		<id>ePi/patch</id>
+		<name>patch.aul</name>
+		<overview>AviUtl ver.1.10や拡張編集Plugin ver.0.92のバグを修正する</overview>
+		<description
+		>AviUtl ver.1.10や拡張編集Plugin ver.0.92に存在するバグを修正します。拡張編集Plugin ver.0.93rc1で修正されたバグも修正します。</description>
+		<developer>ePi</developer>
+		<dependencies>
+			<dependency>aviutl1.10</dependency>
+			<dependency>exedit0.92</dependency>
+		</dependencies>
+		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
+		<downloadURL>https://scrapbox.io/ePi5131/patch.aul</downloadURL>
+		<latestVersion>r8</latestVersion>
+		<files>
+			<file>plugins/patch.aul</file>
+			<file optional="true">plugins/patch.aul.json</file>
+		</files>
+		<releases>
+			<release version="r8">
+				<integrities>
+					<integrity
+						target="plugins/patch.aul"
+					>sha384-Y5+kwXflyU0gp355bol79vADMCZVIZz0yV8mcPXB0lLxNRLxEzqfOJM8BpU1Td9Y</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
 	<!-- HolyWu ID:HolyWu -->
 
 	<package>
@@ -1634,6 +1663,56 @@
 					<integrity
 						target="plugins/lwinput.aui"
 					>sha384-G+do1l9i5JW6y18m/C/OzPnKEq667EWIk/PenITnH3ymEYQf+H9lfHlkDhtJHv5C</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<!-- 鈴音 ID:suzune-->
+
+	<package>
+		<id>suzune/bakusoku</id>
+		<name>bakusoku.auf</name>
+		<overview>AviUtlを爆速化するプラグイン</overview>
+		<description>ウィンドウの描画処理を変更して、動作を軽くします。</description>
+		<developer>鈴音</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm39679253</pageURL>
+		<downloadURL
+		>https://github.com/suzune25254649/bakusoku_aviutl_plugin/releases/latest</downloadURL>
+		<latestVersion>v1.06</latestVersion>
+		<files>
+			<file archivePath="bakusoku_aviutl_plugin-1.06/">plugins/bakusoku.auf</file>
+		</files>
+		<releases>
+			<release version="v1.06">
+				<integrities>
+					<integrity
+						target="plugins/bakusoku.auf"
+					>sha384-R88BgBkWqGyNV7k17Rs1pdSExz5BvYpAjezWiQLL3xalz4LabnEKcZhBx2pSt7EB</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>suzune/WideDialog</id>
+		<name>WideDialog.auf</name>
+		<overview>AviUtlの設定ダイアログを幅広にする</overview>
+		<description>AviUtlの設定ダイアログの幅を広くします。</description>
+		<developer>鈴音</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm39708120</pageURL>
+		<downloadURL
+		>https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest</downloadURL>
+		<latestVersion>v1.02</latestVersion>
+		<files>
+			<file archivePath="WideDialog_aviutl_plugin-1.02/">plugins/WideDialog.auf</file>
+		</files>
+		<releases>
+			<release version="v1.02">
+				<integrities>
+					<integrity
+						target="plugins/WideDialog.auf"
+					>sha384-esDTZQT6MIC5ZUDz9kqohy1VAfi0XgQrOhC8Yk0KYLs04/jXZOgTtCRcPp0Eu2N6</integrity>
 				</integrities>
 			</release>
 		</releases>

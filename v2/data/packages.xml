@@ -858,6 +858,198 @@
 		</files>
 	</package>
 
+	<!-- Maverick Tse ID:MaverickTse -->
+
+	<package>
+		<id>MaverickTse/AGifExport</id>
+		<name>Animated Gif Export</name>
+		<overview>アニメーションGIFを出力する</overview>
+		<description
+		>動画のエンコードと同じ要領でアニメーションGIFの出力ができます。</description>
+		<developer>Maverick Tse</developer>
+		<pageURL>http://www.nicovideo.jp/watch/sm24236552</pageURL>
+		<downloadURL>https://onedrive.live.com/?id=26840CDF9818EB8E%21391</downloadURL>
+		<latestVersion>v0.51 beta</latestVersion>
+		<files>
+			<file archivePath="AGifExportPack">AForge.dll</file>
+			<file archivePath="AGifExportPack">AForge.Imaging.dll</file>
+			<file archivePath="AGifExportPack">AForge.Imaging.Formats.dll</file>
+			<file archivePath="AGifExportPack">AGifExport.auo</file>
+			<file archivePath="AGifExportPack">CORE_RL_bzlib_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_glib_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_lcms_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_lqr_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_magick_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_ttf_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_wand_.dll</file>
+			<file archivePath="AGifExportPack">CORE_RL_zlib_.dll</file>
+			<file archivePath="AGifExportPack">IM_MOD_RL_gif_.dll</file>
+			<file archivePath="AGifExportPack">msvcp120.dll</file>
+			<file archivePath="AGifExportPack">msvcr120.dll</file>
+			<file archivePath="AGifExportPack">thresholds.xml</file>
+			<file archivePath="AGifExportPack">vcomp120.dll</file>
+		</files>
+		<releases>
+			<release version="v0.51 beta">
+				<integrities>
+					<integrity
+						target="AGifExport.auo"
+					>sha384-5vZn/bLFtFF7vZd05QjxhxxrxnSulTTiGjaGqM+vsn6MljbkddZoyH75gLseI0dd</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>MaverickTse/MotionTrackingMK2</id>
+		<name>Motion Tracking MK-II</name>
+		<overview>モーショントラッキング機能を追加する</overview>
+		<description
+		>動画中の物体の動きに追従するモーショントラッキング機能を追加します。</description>
+		<developer>Maverick Tse</developer>
+		<pageURL>https://aviutl.info/motiontracking/</pageURL>
+		<downloadURL>https://onedrive.live.com/?id=26840CDF9818EB8E%21434</downloadURL>
+		<latestVersion>2014/11/17</latestVersion>
+		<files>
+			<file
+				archivePath="MotionTrackingMKII-Release"
+			>plugins/haarcascade_profileface.xml</file>
+			<file
+				archivePath="MotionTrackingMKII-Release"
+			>plugins/haarcascade_frontalface_default.xml</file>
+			<file
+				archivePath="MotionTrackingMKII-Release"
+			>plugins/MotionTrackingMKII.auf</file>
+		</files>
+		<releases>
+			<release version="2014/11/17">
+				<integrities>
+					<integrity
+						target="plugins/MotionTrackingMKII.auf"
+					>sha384-64R4Z8zmaaQj0xNLWb90s68nlalNpAukcpNS6G8o1kkH5pKL9xuZRjmqYbWxSdtv</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<!-- morgue ID:morgue-->
+
+	<package>
+		<id>morgue/tr1</id>
+		<name>MORGUEトランジション素材#1~20</name>
+		<overview>トランジション素材として使用できるPNG画像</overview>
+		<description
+		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
+		<developer>morgue</developer>
+		<pageURL>http://nega.client.jp/</pageURL>
+		<downloadURL>http://nega.client.jp/</downloadURL>
+		<latestVersion>2009/03/28</latestVersion>
+		<files>
+			<file>transition/t1.png</file>
+			<file>transition/t2.png</file>
+			<file>transition/t3.png</file>
+			<file>transition/t4.png</file>
+			<file>transition/t5.png</file>
+			<file>transition/t6.png</file>
+			<file>transition/t7.png</file>
+			<file>transition/t8.png</file>
+			<file>transition/t9.png</file>
+			<file>transition/t10.png</file>
+			<file>transition/t11.png</file>
+			<file>transition/t12.png</file>
+			<file>transition/t13.png</file>
+			<file>transition/t14.png</file>
+			<file>transition/t15.png</file>
+			<file>transition/t16.png</file>
+			<file>transition/t17.png</file>
+			<file>transition/t18.png</file>
+			<file>transition/t19.png</file>
+			<file>transition/t20.png</file>
+		</files>
+	</package>
+
+	<package>
+		<id>morgue/tr2</id>
+		<name>MORGUEトランジション素材#21~40</name>
+		<overview>トランジション素材として使用できるPNG画像</overview>
+		<description
+		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
+		<developer>morgue</developer>
+		<pageURL>http://nega.client.jp/</pageURL>
+		<downloadURL>http://nega.client.jp/</downloadURL>
+		<latestVersion>2009/03/28</latestVersion>
+		<files>
+			<file>transition/t21.png</file>
+			<file>transition/t22.png</file>
+			<file>transition/t23.png</file>
+			<file>transition/t24.png</file>
+			<file>transition/t25.png</file>
+			<file>transition/t26.png</file>
+			<file>transition/t27.png</file>
+			<file>transition/t28.png</file>
+			<file>transition/t29.png</file>
+			<file>transition/t30.png</file>
+			<file>transition/t31.png</file>
+			<file>transition/t32.png</file>
+			<file>transition/t33.png</file>
+			<file>transition/t34.png</file>
+			<file>transition/t35.png</file>
+			<file>transition/t36.png</file>
+			<file>transition/t37.png</file>
+			<file>transition/t38.png</file>
+			<file>transition/t39.png</file>
+			<file>transition/t40.png</file>
+		</files>
+	</package>
+
+	<package>
+		<id>morgue/tr3</id>
+		<name>MORGUEトランジション素材#41~50</name>
+		<overview>トランジション素材として使用できるPNG画像</overview>
+		<description
+		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
+		<developer>morgue</developer>
+		<pageURL>http://nega.client.jp/</pageURL>
+		<downloadURL>http://nega.client.jp/</downloadURL>
+		<latestVersion>2009/03/28</latestVersion>
+		<files>
+			<file>transition/t41.png</file>
+			<file>transition/t42.png</file>
+			<file>transition/t43.png</file>
+			<file>transition/t44.png</file>
+			<file>transition/t45.png</file>
+			<file>transition/t46.png</file>
+			<file>transition/t47.png</file>
+			<file>transition/t48.png</file>
+			<file>transition/t49.png</file>
+			<file>transition/t50.png</file>
+		</files>
+	</package>
+
+	<package>
+		<id>morgue/tr4</id>
+		<name>MORGUEトランジション素材#51~60</name>
+		<overview>トランジション素材として使用できるPNG画像</overview>
+		<description
+		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
+		<developer>morgue</developer>
+		<pageURL>http://nega.client.jp/</pageURL>
+		<downloadURL>http://nega.client.jp/</downloadURL>
+		<latestVersion>2009/03/28</latestVersion>
+		<files>
+			<file>transition/t51.png</file>
+			<file>transition/t52.png</file>
+			<file>transition/t53.png</file>
+			<file>transition/t54.png</file>
+			<file>transition/t55.png</file>
+			<file>transition/t56.png</file>
+			<file>transition/t57.png</file>
+			<file>transition/t58.png</file>
+			<file>transition/t59.png</file>
+			<file>transition/t60.png</file>
+		</files>
+	</package>
+
 	<!-- Mr-Ojii ID:MrOjii -->
 
 	<package>
@@ -1716,5 +1908,60 @@
 				</integrities>
 			</release>
 		</releases>
+	</package>
+
+	<!-- W.Dee ID:WDee-->
+
+	<package>
+		<id>WDee/translib2</id>
+		<name>吉里吉里２トランジションライブラリ</name>
+		<overview>トランジション素材として使用できるPNG画像</overview>
+		<description
+		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
+		<developer>W.Dee</developer>
+		<pageURL>https://krkrz.github.io/</pageURL>
+		<downloadURL>https://krkrz.github.io/#krkr2</downloadURL>
+		<latestVersion>2003/05/03</latestVersion>
+		<files>
+			<file>transition/こすり(左から右へ).png</file>
+			<file
+			>transition/どう言ったらいいか分からないけどちょっと違う横ブラインド(左から右へ).png</file>
+			<file>transition/ひし形(左から右へ).png</file>
+			<file>transition/ひし形(左上から右下へ).png</file>
+			<file>transition/やや細かい横ブラインド(上から下へ).png</file>
+			<file>transition/やや細かい横ブラインド(短い軌跡で上から下へ).png</file>
+			<file>transition/やや細かい縦ブラインド(中央から左右へ).png</file>
+			<file>transition/やや細かい縦ブラインド(左から右へ).png</file>
+			<file>transition/やや細かい縦ブラインド(短い軌跡で左から右へ).png</file>
+			<file>transition/チェッカー.png</file>
+			<file>transition/モザイク.png</file>
+			<file>transition/ランダム.png</file>
+			<file>transition/上から下へ.png</file>
+			<file>transition/下から上へ.png</file>
+			<file>transition/円形(中から外へ).png</file>
+			<file>transition/円形(外から中へ).png</file>
+			<file>transition/右から左へ.png</file>
+			<file>transition/右渦巻き.png</file>
+			<file>transition/左から右へ.png</file>
+			<file>transition/左下から右上へ.png</file>
+			<file>transition/左回り.png</file>
+			<file>transition/左回りの連続.png</file>
+			<file>transition/放射状(時計回り).png</file>
+			<file>transition/斜めチェッカー.png</file>
+			<file>transition/斜めブラインド(左上から右下へ).png</file>
+			<file>transition/横ブラインド(上から下へ).png</file>
+			<file>transition/横ブラインド.png</file>
+			<file>transition/波.png</file>
+			<file>transition/爆発.png</file>
+			<file>transition/細かいひし形(左から右へ).png</file>
+			<file>transition/細かいひし形(左上から右下へ).png</file>
+			<file>transition/細かい横ブラインド(上から下へ).png</file>
+			<file>transition/細かい横ブラインド(短い軌跡で上から下へ).png</file>
+			<file>transition/細かい縦ブラインド(左から右へ).png</file>
+			<file>transition/細かい縦ブラインド(短い軌跡で左から右へ).png</file>
+			<file>transition/縦ブラインド(左から右へ).png</file>
+			<file>transition/縦ブラインド.png</file>
+			<file>transition/虫食い.png</file>
+		</files>
 	</package>
 </packages>

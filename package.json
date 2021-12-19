@@ -6,26 +6,41 @@
   "license": "CC BY-NC-SA 4.0",
   "private": true,
   "scripts": {
-    "fix": "prettier --write .",
-    "lint": "prettier --check .",
+    "lint": "run-s lint:prettier lint:eslint",
+    "lint:prettier": "prettier --check .",
+    "lint:eslint": "eslint --fix-dry-run .",
+    "fix": "run-s fix:prettier fix:eslint",
+    "fix:prettier": "prettier --write .",
+    "fix:eslint": "eslint --fix .",
     "prepare": "husky install",
     "check-convert": "node util/check-convert.js",
     "check-update": "node util/check-update.js",
     "mod-core": "node util/update-mod.js --core",
-    "mod-packages": "node util/update-mod.js --packages"
+    "mod-packages": "node util/update-mod.js --packages",
+    "sri": "node util/sri.js"
   },
   "devDependencies": {
     "@octokit/rest": "^18.12.0",
     "@prettier/plugin-xml": "^1.0.2",
     "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "eslint": "^8.4.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
     "fast-xml-parser": "^4.0.0-beta.8",
     "fs-extra": "^10.0.0",
     "husky": "^7.0.0",
     "lint-staged": "^12.1.2",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
-    "prettier-plugin-md-nocjsp": "^1.1.1"
+    "prettier-plugin-md-nocjsp": "^1.1.1",
+    "ssri": "^8.0.1"
   },
   "lint-staged": {
-    "*.{js,html,css,md,xml,xsd}": "prettier --write"
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,html,css,md,xml,xsd}": "prettier --write"
   }
 }

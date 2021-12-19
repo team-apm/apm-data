@@ -454,6 +454,9 @@
 		<overview>拡張編集関連のショートカットを追加</overview>
 		<description>拡張編集用のショートカットを追加する</description>
 		<developer>yu_noimage_</developer>
+		<dependencies>
+			<dependency>ePi/aulsMemref</dependency>
+		</dependencies>
 		<pageURL>http://auls.client.jp/</pageURL>
 		<downloadURL>http://auls.client.jp/</downloadURL>
 		<latestVersion>2014/05/06</latestVersion>
@@ -469,6 +472,9 @@
 		<description
 		>エイリアス一覧からエイリアスを配置できるようにします。</description>
 		<developer>yu_noimage_</developer>
+		<dependencies>
+			<dependency>ePi/aulsMemref</dependency>
+		</dependencies>
 		<pageURL>http://auls.client.jp/</pageURL>
 		<downloadURL>http://auls.client.jp/</downloadURL>
 		<latestVersion>2014/05/06</latestVersion>
@@ -484,6 +490,9 @@
 		<description
 		>拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。</description>
 		<developer>yu_noimage_</developer>
+		<dependencies>
+			<dependency>ePi/aulsMemref</dependency>
+		</dependencies>
 		<pageURL>http://auls.client.jp/</pageURL>
 		<downloadURL>http://auls.client.jp/</downloadURL>
 		<latestVersion>2014/05/06</latestVersion>
@@ -748,6 +757,15 @@
 		<files>
 			<file>plugins/auls_memref.auf</file>
 		</files>
+		<releases>
+			<release version="2021/05/23">
+				<integrities>
+					<integrity
+						target="plugins/auls_memref.auf"
+					>sha384-O83zl2bsuzcynGveej15GrNPf3tRDdMz1P5jkpQB/PYX/R+Oh/7XFBFWf8Z/NXRi</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -1594,6 +1612,95 @@
 	<!-- rikky ID:rikky -->
 
 	<package>
+		<id>rikky/aulsPluginsByRikky</id>
+		<name>Aulsプラグインforaviutl110</name>
+		<overview>Auls氏プラグインの拡張編集0.93rc1対応版</overview>
+		<description
+		>Auls氏が公開しているプラグイン「ショートカット追加」「エイリアス一覧」「終了確認 」をaviutl1.10+exedit0.93rc1に対応させたものです。</description>
+		<developer>rikky</developer>
+		<originalDeveloper>yu_noimage_</originalDeveloper>
+		<dependencies>
+			<dependency>exedit0.93rc1</dependency>
+			<dependency>rikky/rikkyModule2</dependency>
+		</dependencies>
+		<pageURL>http://hazumurhythm.com/a/s1BS/</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/s1BS/</downloadURL>
+		<latestVersion>ver 1.1</latestVersion>
+		<files>
+			<file
+				archivePath="auls_plugins_by_rikky"
+			>plugins/auls_plugins_by_rikky.auf</file>
+		</files>
+		<releases>
+			<release version="ver 1.1">
+				<integrities>
+					<integrity
+						target="plugins/auls_plugins_by_rikky.auf"
+					>sha384-lIgdU3YYovmPXDcLzYeR3gob5Rfc5U3NRq/cHbLILHhAXYy5Nb64pQy/6w9AaNE6</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/colorPalette1</id>
+		<name>カラーパレット(rm 1)</name>
+		<overview>色選択ダイアログのパレット情報を変更する</overview>
+		<description
+		>色選択ダイアログのパレット情報を変更ができるプラグイン</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModuleMemory</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290590</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/Y3c/</downloadURL>
+		<latestVersion>v2.2</latestVersion>
+		<files>
+			<file archivePath="からぱれ" directory="true">color_palette_edit</file>
+			<file archivePath="からぱれ/aviutl1.00用">color_palette.auf</file>
+			<file archivePath="からぱれ">script/color_palette.obj</file>
+		</files>
+		<releases>
+			<release version="v2.2">
+				<integrities>
+					<integrity
+						target="color_palette.auf"
+					>sha384-4Kf9CKSUv0V68LUWKA++C+2r/mcKl+ruEzUgQ2Nwkf8eZuymCTDT6/y8wW/Wu4VE</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/colorPalette2</id>
+		<name>カラーパレット(rm 2)</name>
+		<overview>色選択ダイアログのパレット情報を変更する</overview>
+		<description
+		>色選択ダイアログのパレット情報を変更ができるプラグイン</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModule2</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290590</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/Y3c/</downloadURL>
+		<latestVersion>v2.2a</latestVersion>
+		<files>
+			<file archivePath="からぱれ" directory="true">color_palette_edit</file>
+			<file archivePath="からぱれ/aviutl1.10用">color_palette.auf</file>
+			<file archivePath="からぱれ">script/color_palette.obj</file>
+		</files>
+		<releases>
+			<release version="v2.2a">
+				<integrities>
+					<integrity
+						target="color_palette.auf"
+					>sha384-r0yTfHgJO4451AtAzF4ZzdHTpguFpR4gOXkuijGvwpymR2tYud4g5mDRG12X/fKx</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
 		<id>rikky/fanClipping</id>
 		<name>扇クリッピングR</name>
 		<overview>扇のようなクリッピングができるスクリプト</overview>
@@ -1607,6 +1714,236 @@
 			<file>script/扇クリッピングR/fan_clipping.lua</file>
 			<file>script/扇クリッピングR/扇クリッピングR.anm</file>
 		</files>
+	</package>
+
+	<package>
+		<id>rikky/objectsound1</id>
+		<name>オブジェクトサウンド(rm 1)</name>
+		<overview
+		>オブジェクトやスクリプト制御で音声を追加するためのプラグイン</overview>
+		<description
+		>オブジェクトやスクリプト制御で音声を追加するためのプラグインです。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModuleMemory</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm34781714</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/0bS/</downloadURL>
+		<latestVersion>1.1</latestVersion>
+		<files>
+			<file
+				archivePath="オブジェクトサウンドv1,2/aviutl1.00用"
+			>plugins/objectsound.auf</file>
+		</files>
+		<releases>
+			<release version="1.1">
+				<integrities>
+					<integrity
+						target="plugins/objectsound.auf"
+					>sha384-eq3wqyyVpH8aVW9k/ES4fq4BeHX42UhETX2VhNnbP/yqqViVJ00dgSu7vy+S+UIc</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/pitch</id>
+		<name>ピッチ変更プラグイン</name>
+		<overview>音声のピッチを変更する</overview>
+		<description
+		>オーディオ関係のプラグイン。VSTを読み込めるプラグインが実はあって、これは要らない子になってしまいましたとさ。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm29432469</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/qP6/</downloadURL>
+		<latestVersion>v01(補助), v02</latestVersion>
+		<files>
+			<file>pitch.auf</file>
+		</files>
+		<releases>
+			<release version="v01(補助), v02">
+				<integrities>
+					<integrity
+						target="pitch.auf"
+					>sha384-mfCffqrKd7bnKWCSOV20BohxYJlpr3Xf0qouyA4w7upsJ3bCQVc82Lkflo9ddvvr</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/relativePath1</id>
+		<name>相対パス保存(rikky_module 1)</name>
+		<overview>保存したとき画像のパスなどを相対パスで保存するプラグイン</overview>
+		<description
+		>保存したとき画像のパスなどを相対パスで保存するプラグイン。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModuleMemory</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm31884370</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/3Av/</downloadURL>
+		<latestVersion>v0.9b</latestVersion>
+		<files>
+			<file
+				archivePath="relative0.9e/rikky_module ver1用"
+			>plugins/relative_path.auf</file>
+		</files>
+		<releases>
+			<release version="v0.9b">
+				<integrities>
+					<integrity
+						target="plugins/relative_path.auf"
+					>sha384-CqpL1vL5ul1SsUvNXLASHSGe431dfVZlvxBJH+wjCJNVsmYfo5iC2BwfgFDCTDYJ</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/relativePath2</id>
+		<name>相対パス保存(rikky_module 2)</name>
+		<overview>保存したとき画像のパスなどを相対パスで保存するプラグイン</overview>
+		<description
+		>保存したとき画像のパスなどを相対パスで保存するプラグイン。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModule2</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm31884370</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/3Av/</downloadURL>
+		<latestVersion>v0.9a</latestVersion>
+		<files>
+			<file
+				archivePath="relative0.9e/rikky_module ver2用"
+			>plugins/relative_path.auf</file>
+		</files>
+		<releases>
+			<release version="v0.9a">
+				<integrities>
+					<integrity
+						target="plugins/relative_path.auf"
+					>sha384-TcmsW8q1/2EHtKQQnd6+0kVUYIyCuXxkQdvc+0ac9g2jP7IMOKnQXS9vBW4y6Etu</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/renamePlugin1</id>
+		<name>オブジェクト名変更(rm 1)</name>
+		<overview>タイムラインのオブジェクトの名称を変更するプラグイン</overview>
+		<description>タイムラインのオブジェクトの名称を変更するプラグイン</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModuleMemory</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290486</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/G8o/</downloadURL>
+		<latestVersion>v0.9</latestVersion>
+		<files>
+			<file
+				archivePath="rename_plugin/rikky_module ver1用"
+			>plugins/rename_plugin.auf</file>
+		</files>
+		<releases>
+			<release version="v0.9">
+				<integrities>
+					<integrity
+						target="plugins/rename_plugin.auf"
+					>sha384-rxlEAP/aCBRWPApIawYYT9kD67WpZ4z/gj5HA3BDcwteFtQcJGp+3Fr7jwmNio8L</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/renamePlugin2</id>
+		<name>オブジェクト名変更(rm 2)</name>
+		<overview>タイムラインのオブジェクトの名称を変更するプラグイン</overview>
+		<description>タイムラインのオブジェクトの名称を変更するプラグイン</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModule2</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290486</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/G8o/</downloadURL>
+		<latestVersion>0.9b</latestVersion>
+		<files>
+			<file
+				archivePath="rename_plugin/rikky_module ver2用"
+			>plugins/rename_plugin.auf</file>
+		</files>
+		<releases>
+			<release version="0.9b">
+				<integrities>
+					<integrity
+						target="plugins/rename_plugin.auf"
+					>sha384-qTblQcbdaGH50dD15umyI6Iz7AGGRs38bPeFKK3wYy5j1WjmWNFBctpvf4pZ1hpT</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/rikkeyframe1</id>
+		<name>キーフレームプラグイン(rm 1)</name>
+		<overview
+		>中間点でなくキーフレームでオブジェクトのパラメータを制御する</overview>
+		<description
+		>中間点ではなく独自のキーフレームでオブジェクトのパラメータを制御できるものです。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModuleMemory</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm34389463</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/tZl0/</downloadURL>
+		<latestVersion>1.0</latestVersion>
+		<files>
+			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameEasing</file>
+			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameScript</file>
+			<file archivePath="rikkkkkkyframe_2/rikky_module ver1用">rikkeyframe.auf</file>
+			<file archivePath="rikkkkkkyframe_2">script/rikkeyframe.tra</file>
+		</files>
+		<releases>
+			<release version="1.0">
+				<integrities>
+					<integrity
+						target="rikkeyframe.auf"
+					>sha384-GgsP4nKX8SH4B0LUtxH4go8xUT8AzuxV0JWZfb5nzfXugYKe5TDCI/UFN5J6N1jA</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/rikkeyframe2</id>
+		<name>キーフレームプラグイン(rm 2)</name>
+		<overview
+		>中間点でなくキーフレームでオブジェクトのパラメータを制御する</overview>
+		<description
+		>中間点ではなく独自のキーフレームでオブジェクトのパラメータを制御できるものです。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModule2</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm34389463</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/tZl0/</downloadURL>
+		<latestVersion>1.0a</latestVersion>
+		<files>
+			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameEasing</file>
+			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameScript</file>
+			<file archivePath="rikkkkkkyframe_2/rikky_module ver2用">rikkeyframe.auf</file>
+			<file archivePath="rikkkkkkyframe_2">script/rikkeyframe.tra</file>
+		</files>
+		<releases>
+			<release version="1.0a">
+				<integrities>
+					<integrity
+						target="rikkeyframe.auf"
+					>sha384-rzc1zTKYKrqRQmvZhIcklR/ptl4PNw/lHJTbJAfBjMqFUe7yOG8wywDDSQFJBzNR</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -1626,6 +1963,18 @@
 			<file archivePath="dll_v_12">rikky_module.dll</file>
 			<file archivePath="dll_v_12">rikky_memory.auf</file>
 		</files>
+		<releases>
+			<release version="1.4b">
+				<integrities>
+					<integrity
+						target="rikky_module.dll"
+					>sha384-alK8STLxUEklHYahTWI4aR5AnIqoeap6z0veuStJ9gKzY3JDQMKG4RGai8IMF6CZ</integrity>
+					<integrity
+						target="rikky_memory.auf"
+					>sha384-Fx0g0aXkoonki1Ql0057tsztntM1fFftxMfRR5hsoya/J1Ou4vEoPFihGQ231lsj</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -1644,6 +1993,15 @@
 		<files>
 			<file archivePath="modulev2_0.1d">rikky_module.auf</file>
 		</files>
+		<releases>
+			<release version="v2_0.1d">
+				<integrities>
+					<integrity
+						target="rikky_module.auf"
+					>sha384-BMz0JmZND+d73mda5UiangRaPMYJPWV9cQJBfLTUgLowP9ZZnvEOZRapd0KlNPjv</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -1660,6 +2018,64 @@
 			<file archivePath="rollv4">script/rollv4/ロール巻取(ページめくり).anm</file>
 			<file archivePath="rollv4">script/rollv4/動画背景スクリプト.exo</file>
 		</files>
+	</package>
+
+	<package>
+		<id>rikky/scriptSort1</id>
+		<name>スクリプト並べ替え管理(rm 1)</name>
+		<overview>アニメーション効果一覧の並び替えやフィルタのドロップ追加</overview>
+		<description
+		>アニメーション効果一覧を並び替えたりフィルタをドロップできるプラグインです。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModuleMemory</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290540</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/Di0/</downloadURL>
+		<latestVersion>v1.5</latestVersion>
+		<files>
+			<file
+				archivePath="スクリプトを並び替え2/rikky_module ver1用"
+			>script_sort.auf</file>
+		</files>
+		<releases>
+			<release version="v1.5">
+				<integrities>
+					<integrity
+						target="script_sort.auf"
+					>sha384-upOneFu04DzGrLWk6v7S4X+eMiQ73fRRCXpA2K9aJiHJ2rHqt1+Ve/vRQ2AS6ojx</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/scriptSort2</id>
+		<name>スクリプト並べ替え管理(rm 2)</name>
+		<overview>アニメーション効果一覧の並び替えやフィルタのドロップ追加</overview>
+		<description
+		>アニメーション効果一覧を並び替えたりフィルタをドロップできるプラグインです。</description>
+		<developer>rikky</developer>
+		<dependencies>
+			<dependency>rikky/rikkyModule2</dependency>
+		</dependencies>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290540</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/Di0/</downloadURL>
+		<latestVersion>v1.5a</latestVersion>
+		<files>
+			<file
+				archivePath="スクリプトを並び替え2/rikky_module ver2用"
+			>script_sort.auf</file>
+		</files>
+		<releases>
+			<release version="v1.5a">
+				<integrities>
+					<integrity
+						target="script_sort.auf"
+					>sha384-y7kwRwjCt9It4CVstK6cP1SOmKkWJ2k+olGl9S2gkhoOw6TTnxY7y7TKoyvg+aSS</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -1706,6 +2122,55 @@
 				archivePath="パーツ分割5/rikky_module ver2用"
 			>script/パーツ分割/rikky_separate.dll</file>
 		</files>
+	</package>
+
+	<package>
+		<id>rikky/smallPlay</id>
+		<name>少し音確認再生</name>
+		<overview>数秒音声を流して音合わせをするプラグイン</overview>
+		<description
+		>再生位置前後の音を流すことで映像と音のずれを確認できます。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm30290443</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/5Kf/</downloadURL>
+		<latestVersion>alpha.kai2.A</latestVersion>
+		<files>
+			<file archivePath="少し音再生">plugins/small_play.auf</file>
+		</files>
+		<releases>
+			<release version="alpha.kai2.A">
+				<integrities>
+					<integrity
+						target="plugins/small_play.auf"
+					>sha384-JRiUwelhzxHL0iRj9En4YzkhWdyKcXOM9bUWgwi9dAM6vFImtqhP0u8R70TDLClJ</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>rikky/tempMeasure</id>
+		<name>手動テンポ計測(メトロノーム)</name>
+		<overview>BPMを手動で計測するプラグイン</overview>
+		<description
+		>リズムよくクリックして、BPMを計測できるプラグイン。ついでにメトロノームにもなります。</description>
+		<developer>rikky</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm32113857</pageURL>
+		<downloadURL>http://hazumurhythm.com/a/Ow8/</downloadURL>
+		<latestVersion>v0.1</latestVersion>
+		<files>
+			<file archivePath="TempMeasure_alpha">pthreadGC2.dll</file>
+			<file archivePath="TempMeasure_alpha">temp_measure.auf</file>
+		</files>
+		<releases>
+			<release version="v0.1">
+				<integrities>
+					<integrity
+						target="temp_measure.auf"
+					>sha384-kKS3HFEnqivQx3TVpjVF2k/RaAwokPlx/BTf0xu2SsYZ+NW267+ls+6XIgvfc5dj</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<!-- UndoFish ID:UndoFish -->

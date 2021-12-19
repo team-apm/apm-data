@@ -455,7 +455,7 @@
 		<description>拡張編集用のショートカットを追加する</description>
 		<developer>yu_noimage_</developer>
 		<dependencies>
-			<dependency>ePi/aulsMemref|rikky/aulsPluginsByRikky</dependency>
+			<dependency>ePi/aulsMemref</dependency>
 		</dependencies>
 		<pageURL>http://auls.client.jp/</pageURL>
 		<downloadURL>http://auls.client.jp/</downloadURL>
@@ -473,7 +473,7 @@
 		>エイリアス一覧からエイリアスを配置できるようにします。</description>
 		<developer>yu_noimage_</developer>
 		<dependencies>
-			<dependency>ePi/aulsMemref|rikky/aulsPluginsByRikky</dependency>
+			<dependency>ePi/aulsMemref</dependency>
 		</dependencies>
 		<pageURL>http://auls.client.jp/</pageURL>
 		<downloadURL>http://auls.client.jp/</downloadURL>
@@ -491,7 +491,7 @@
 		>拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。</description>
 		<developer>yu_noimage_</developer>
 		<dependencies>
-			<dependency>ePi/aulsMemref|rikky/aulsPluginsByRikky</dependency>
+			<dependency>ePi/aulsMemref</dependency>
 		</dependencies>
 		<pageURL>http://auls.client.jp/</pageURL>
 		<downloadURL>http://auls.client.jp/</downloadURL>
@@ -1614,7 +1614,7 @@
 	<package>
 		<id>rikky/aulsPluginsByRikky</id>
 		<name>Aulsプラグインforaviutl110</name>
-		<overview>他のメモリを参照するプラグインやDLLで必要</overview>
+		<overview>Auls氏プラグインの拡張編集0.93rc1対応版</overview>
 		<description
 		>Auls氏が公開しているプラグイン「ショートカット追加」「エイリアス一覧」「終了確認 」をaviutl1.10+exedit0.93rc1に対応させたものです。</description>
 		<developer>rikky</developer>
@@ -1625,14 +1625,14 @@
 		</dependencies>
 		<pageURL>http://hazumurhythm.com/a/s1BS/</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/s1BS/</downloadURL>
-		<latestVersion>2020/01/04</latestVersion>
+		<latestVersion>ver 1.1</latestVersion>
 		<files>
 			<file
 				archivePath="auls_plugins_by_rikky"
 			>plugins/auls_plugins_by_rikky.auf</file>
 		</files>
 		<releases>
-			<release version="2020/01/04">
+			<release version="ver 1.1">
 				<integrities>
 					<integrity
 						target="plugins/auls_plugins_by_rikky.auf"
@@ -1654,14 +1654,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290590</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/Y3c/</downloadURL>
-		<latestVersion>2020/01/04</latestVersion>
+		<latestVersion>v2.2</latestVersion>
 		<files>
 			<file archivePath="からぱれ" directory="true">color_palette_edit</file>
 			<file archivePath="からぱれ/aviutl1.00用">color_palette.auf</file>
 			<file archivePath="からぱれ">script/color_palette.obj</file>
 		</files>
 		<releases>
-			<release version="2020/01/04">
+			<release version="v2.2">
 				<integrities>
 					<integrity
 						target="color_palette.auf"
@@ -1683,14 +1683,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290590</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/Y3c/</downloadURL>
-		<latestVersion>2020/01/04</latestVersion>
+		<latestVersion>v2.2a</latestVersion>
 		<files>
 			<file archivePath="からぱれ" directory="true">color_palette_edit</file>
 			<file archivePath="からぱれ/aviutl1.10用">color_palette.auf</file>
 			<file archivePath="からぱれ">script/color_palette.obj</file>
 		</files>
 		<releases>
-			<release version="2020/01/04">
+			<release version="v2.2a">
 				<integrities>
 					<integrity
 						target="color_palette.auf"
@@ -1729,48 +1729,18 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34781714</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/0bS/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>1.1</latestVersion>
 		<files>
 			<file
 				archivePath="オブジェクトサウンドv1,2/aviutl1.00用"
 			>plugins/objectsound.auf</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="1.1">
 				<integrities>
 					<integrity
 						target="plugins/objectsound.auf"
 					>sha384-eq3wqyyVpH8aVW9k/ES4fq4BeHX42UhETX2VhNnbP/yqqViVJ00dgSu7vy+S+UIc</integrity>
-				</integrities>
-			</release>
-		</releases>
-	</package>
-
-	<package>
-		<id>rikky/objectsound2</id>
-		<name>オブジェクトサウンド(rm 2)</name>
-		<overview
-		>オブジェクトやスクリプト制御で音声を追加するためのプラグイン</overview>
-		<description
-		>オブジェクトやスクリプト制御で音声を追加するためのプラグインです。</description>
-		<developer>rikky</developer>
-		<dependencies>
-			<dependency>rikky/rikkyModule2</dependency>
-		</dependencies>
-		<pageURL>https://www.nicovideo.jp/watch/sm34781714</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/0bS/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
-		<files>
-			<file
-				archivePath="オブジェクトサウンドv1,2/aviutl1.10用"
-			>plugins/objectsound.auf</file>
-		</files>
-		<releases>
-			<release version="2020/09/05">
-				<integrities>
-					<integrity
-						target="plugins/objectsound.auf"
-					>sha384-tGUpm0mK4kDn8rcCDdGZAC7Hp7rxxCvyyWSqpC70PALlo40YUFgjyC76i7iWGPAh</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -1785,12 +1755,12 @@
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm29432469</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/qP6/</downloadURL>
-		<latestVersion>2018/08/09</latestVersion>
+		<latestVersion>v01(補助), v02</latestVersion>
 		<files>
 			<file>pitch.auf</file>
 		</files>
 		<releases>
-			<release version="2018/08/09">
+			<release version="v01(補助), v02">
 				<integrities>
 					<integrity
 						target="pitch.auf"
@@ -1812,14 +1782,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm31884370</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/3Av/</downloadURL>
-		<latestVersion>0.9e</latestVersion>
+		<latestVersion>v0.9b</latestVersion>
 		<files>
 			<file
 				archivePath="relative0.9e/rikky_module ver1用"
 			>plugins/relative_path.auf</file>
 		</files>
 		<releases>
-			<release version="0.9e">
+			<release version="v0.9b">
 				<integrities>
 					<integrity
 						target="plugins/relative_path.auf"
@@ -1841,14 +1811,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm31884370</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/3Av/</downloadURL>
-		<latestVersion>0.9e</latestVersion>
+		<latestVersion>v0.9a</latestVersion>
 		<files>
 			<file
 				archivePath="relative0.9e/rikky_module ver2用"
 			>plugins/relative_path.auf</file>
 		</files>
 		<releases>
-			<release version="0.9e">
+			<release version="v0.9a">
 				<integrities>
 					<integrity
 						target="plugins/relative_path.auf"
@@ -1869,14 +1839,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290486</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/G8o/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>v0.9</latestVersion>
 		<files>
 			<file
 				archivePath="rename_plugin/rikky_module ver1用"
 			>plugins/rename_plugin.auf</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="v0.9">
 				<integrities>
 					<integrity
 						target="plugins/rename_plugin.auf"
@@ -1897,14 +1867,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290486</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/G8o/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>0.9b</latestVersion>
 		<files>
 			<file
 				archivePath="rename_plugin/rikky_module ver2用"
 			>plugins/rename_plugin.auf</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="0.9b">
 				<integrities>
 					<integrity
 						target="plugins/rename_plugin.auf"
@@ -1927,7 +1897,7 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34389463</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/tZl0/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>1.0</latestVersion>
 		<files>
 			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameEasing</file>
 			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameScript</file>
@@ -1935,7 +1905,7 @@
 			<file archivePath="rikkkkkkyframe_2">script/rikkeyframe.tra</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="1.0">
 				<integrities>
 					<integrity
 						target="rikkeyframe.auf"
@@ -1958,7 +1928,7 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34389463</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/tZl0/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>1.0a</latestVersion>
 		<files>
 			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameEasing</file>
 			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameScript</file>
@@ -1966,7 +1936,7 @@
 			<file archivePath="rikkkkkkyframe_2">script/rikkeyframe.tra</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="1.0a">
 				<integrities>
 					<integrity
 						target="rikkeyframe.auf"
@@ -2062,14 +2032,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290540</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/Di0/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>v1.5</latestVersion>
 		<files>
 			<file
 				archivePath="スクリプトを並び替え2/rikky_module ver1用"
 			>script_sort.auf</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="v1.5">
 				<integrities>
 					<integrity
 						target="script_sort.auf"
@@ -2091,14 +2061,14 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290540</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/Di0/</downloadURL>
-		<latestVersion>2020/09/05</latestVersion>
+		<latestVersion>v1.5a</latestVersion>
 		<files>
 			<file
 				archivePath="スクリプトを並び替え2/rikky_module ver2用"
 			>script_sort.auf</file>
 		</files>
 		<releases>
-			<release version="2020/09/05">
+			<release version="v1.5a">
 				<integrities>
 					<integrity
 						target="script_sort.auf"
@@ -2163,12 +2133,12 @@
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290443</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/5Kf/</downloadURL>
-		<latestVersion>2016/12/24</latestVersion>
+		<latestVersion>alpha.kai2.A</latestVersion>
 		<files>
 			<file archivePath="少し音再生">plugins/small_play.auf</file>
 		</files>
 		<releases>
-			<release version="2016/12/24">
+			<release version="alpha.kai2.A">
 				<integrities>
 					<integrity
 						target="plugins/small_play.auf"
@@ -2187,13 +2157,13 @@
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm32113857</pageURL>
 		<downloadURL>http://hazumurhythm.com/a/Ow8/</downloadURL>
-		<latestVersion>2017/10/19</latestVersion>
+		<latestVersion>v0.1</latestVersion>
 		<files>
 			<file archivePath="TempMeasure_alpha">pthreadGC2.dll</file>
 			<file archivePath="TempMeasure_alpha">temp_measure.auf</file>
 		</files>
 		<releases>
-			<release version="2017/10/19">
+			<release version="v0.1">
 				<integrities>
 					<integrity
 						target="temp_measure.auf"

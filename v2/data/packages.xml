@@ -457,8 +457,8 @@
 		<dependencies>
 			<dependency>ePi/aulsMemref</dependency>
 		</dependencies>
-		<pageURL>http://auls.client.jp/</pageURL>
-		<downloadURL>http://auls.client.jp/</downloadURL>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2014/05/06</latestVersion>
 		<files>
 			<file archivePath="auls_addshortcut">plugins/auls_addshortcut.auf</file>
@@ -475,8 +475,8 @@
 		<dependencies>
 			<dependency>ePi/aulsMemref</dependency>
 		</dependencies>
-		<pageURL>http://auls.client.jp/</pageURL>
-		<downloadURL>http://auls.client.jp/</downloadURL>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2014/05/06</latestVersion>
 		<files>
 			<file archivePath="auls_aliaslist">plugins/auls_aliaslist.auf</file>
@@ -493,8 +493,8 @@
 		<dependencies>
 			<dependency>ePi/aulsMemref</dependency>
 		</dependencies>
-		<pageURL>http://auls.client.jp/</pageURL>
-		<downloadURL>http://auls.client.jp/</downloadURL>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2014/05/06</latestVersion>
 		<files>
 			<file archivePath="auls_confirmclose">plugins/auls_confirmclose.auf</file>
@@ -522,8 +522,8 @@
 		<overview>オブジェクトを配置した範囲の出力をキャンセルする</overview>
 		<description>オブジェクトを配置した範囲の出力をキャンセルします。</description>
 		<developer>yu_noimage_</developer>
-		<pageURL>http://auls.client.jp/</pageURL>
-		<downloadURL>http://auls.client.jp/</downloadURL>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2014/04/16</latestVersion>
 		<files>
 			<file archivePath="auls_rendermask">plugins/auls_rendermask.auf</file>
@@ -537,8 +537,8 @@
 		<description
 		>拡張編集ウィンドウを半透明にします。後ろにあるウィンドウをマウスで操作することもできます。</description>
 		<developer>yu_noimage_</developer>
-		<pageURL>http://auls.client.jp/</pageURL>
-		<downloadURL>http://auls.client.jp/</downloadURL>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2013/01/08</latestVersion>
 		<files>
 			<file archivePath="auls_transparence">plugins/auls_transparence.auf</file>
@@ -551,8 +551,8 @@
 		<overview>現在フレームを移動させた時に、そのフレームの音を鳴らす</overview>
 		<description>編集中、現在フレームの音を鳴らすプラグインです。</description>
 		<developer>yu_noimage_</developer>
-		<pageURL>http://auls.client.jp/</pageURL>
-		<downloadURL>http://auls.client.jp/</downloadURL>
+		<pageURL>https://auls.client.jp/</pageURL>
+		<downloadURL>https://auls.client.jp/</downloadURL>
 		<latestVersion>2012/09/10</latestVersion>
 		<files>
 			<file archivePath="framesound">plugins/framesound.auf</file>
@@ -885,7 +885,7 @@
 		<description
 		>動画のエンコードと同じ要領でアニメーションGIFの出力ができます。</description>
 		<developer>Maverick Tse</developer>
-		<pageURL>http://www.nicovideo.jp/watch/sm24236552</pageURL>
+		<pageURL>https://www.nicovideo.jp/watch/sm24236552</pageURL>
 		<downloadURL>https://onedrive.live.com/?id=26840CDF9818EB8E%21391</downloadURL>
 		<latestVersion>v0.51 beta</latestVersion>
 		<files>
@@ -959,8 +959,8 @@
 		<description
 		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
 		<developer>morgue</developer>
-		<pageURL>http://nega.client.jp/</pageURL>
-		<downloadURL>http://nega.client.jp/</downloadURL>
+		<pageURL>https://nega.client.jp/</pageURL>
+		<downloadURL>https://nega.client.jp/</downloadURL>
 		<latestVersion>2009/03/28</latestVersion>
 		<files>
 			<file>transition/t1.png</file>
@@ -993,8 +993,8 @@
 		<description
 		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
 		<developer>morgue</developer>
-		<pageURL>http://nega.client.jp/</pageURL>
-		<downloadURL>http://nega.client.jp/</downloadURL>
+		<pageURL>https://nega.client.jp/</pageURL>
+		<downloadURL>https://nega.client.jp/</downloadURL>
 		<latestVersion>2009/03/28</latestVersion>
 		<files>
 			<file>transition/t21.png</file>
@@ -1027,8 +1027,8 @@
 		<description
 		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
 		<developer>morgue</developer>
-		<pageURL>http://nega.client.jp/</pageURL>
-		<downloadURL>http://nega.client.jp/</downloadURL>
+		<pageURL>https://nega.client.jp/</pageURL>
+		<downloadURL>https://nega.client.jp/</downloadURL>
 		<latestVersion>2009/03/28</latestVersion>
 		<files>
 			<file>transition/t41.png</file>
@@ -1051,8 +1051,8 @@
 		<description
 		>トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。</description>
 		<developer>morgue</developer>
-		<pageURL>http://nega.client.jp/</pageURL>
-		<downloadURL>http://nega.client.jp/</downloadURL>
+		<pageURL>https://nega.client.jp/</pageURL>
+		<downloadURL>https://nega.client.jp/</downloadURL>
 		<latestVersion>2009/03/28</latestVersion>
 		<files>
 			<file>transition/t51.png</file>
@@ -1623,8 +1623,8 @@
 			<dependency>exedit0.93rc1</dependency>
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
-		<pageURL>http://hazumurhythm.com/a/s1BS/</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/s1BS/</downloadURL>
+		<pageURL>https://hazumurhythm.com/a/s1BS/</pageURL>
+		<downloadURL>https://hazumurhythm.com/a/s1BS/</downloadURL>
 		<latestVersion>ver 1.1</latestVersion>
 		<files>
 			<file
@@ -1653,7 +1653,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290590</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/Y3c/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/Y3c/</downloadURL>
 		<latestVersion>v2.2</latestVersion>
 		<files>
 			<file archivePath="からぱれ" directory="true">color_palette_edit</file>
@@ -1682,7 +1682,7 @@
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290590</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/Y3c/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/Y3c/</downloadURL>
 		<latestVersion>v2.2a</latestVersion>
 		<files>
 			<file archivePath="からぱれ" directory="true">color_palette_edit</file>
@@ -1708,7 +1708,7 @@
 		>扇のようなクリッピングができるスクリプト。標準のカスタムオブジェクトの扇を拡張したようなものです。</description>
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm26625892</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/3Os/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/3Os/</downloadURL>
 		<latestVersion>ver3</latestVersion>
 		<files>
 			<file>script/扇クリッピングR/fan_clipping.lua</file>
@@ -1728,7 +1728,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34781714</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/0bS/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/0bS/</downloadURL>
 		<latestVersion>1.1</latestVersion>
 		<files>
 			<file
@@ -1754,7 +1754,7 @@
 		>オーディオ関係のプラグイン。VSTを読み込めるプラグインが実はあって、これは要らない子になってしまいましたとさ。</description>
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm29432469</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/qP6/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/qP6/</downloadURL>
 		<latestVersion>v01(補助), v02</latestVersion>
 		<files>
 			<file>pitch.auf</file>
@@ -1781,7 +1781,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm31884370</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/3Av/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/3Av/</downloadURL>
 		<latestVersion>v0.9b</latestVersion>
 		<files>
 			<file
@@ -1810,7 +1810,7 @@
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm31884370</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/3Av/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/3Av/</downloadURL>
 		<latestVersion>v0.9a</latestVersion>
 		<files>
 			<file
@@ -1838,7 +1838,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290486</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/G8o/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/G8o/</downloadURL>
 		<latestVersion>v0.9</latestVersion>
 		<files>
 			<file
@@ -1866,7 +1866,7 @@
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290486</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/G8o/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/G8o/</downloadURL>
 		<latestVersion>0.9b</latestVersion>
 		<files>
 			<file
@@ -1896,7 +1896,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34389463</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/tZl0/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/tZl0/</downloadURL>
 		<latestVersion>1.0</latestVersion>
 		<files>
 			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameEasing</file>
@@ -1927,7 +1927,7 @@
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34389463</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/tZl0/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/tZl0/</downloadURL>
 		<latestVersion>1.0a</latestVersion>
 		<files>
 			<file archivePath="rikkkkkkyframe_2" directory="true">KeyFrameEasing</file>
@@ -1957,7 +1957,7 @@
 			<dependency>exedit0.92</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776162</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/a2Z/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/a2Z/</downloadURL>
 		<latestVersion>1.4b</latestVersion>
 		<files>
 			<file archivePath="dll_v_12">rikky_module.dll</file>
@@ -1987,8 +1987,8 @@
 		<dependencies>
 			<dependency>exedit0.93rc1</dependency>
 		</dependencies>
-		<pageURL>http://hazumurhythm.com/a/q9Q/</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/q9Q/</downloadURL>
+		<pageURL>https://hazumurhythm.com/a/q9Q/</pageURL>
+		<downloadURL>https://hazumurhythm.com/a/q9Q/</downloadURL>
 		<latestVersion>v2_0.1d</latestVersion>
 		<files>
 			<file archivePath="modulev2_0.1d">rikky_module.auf</file>
@@ -2012,7 +2012,7 @@
 		>適応したときに画像が崩れる際は、ファイル→環境設定→システム設定の順でクリックしてください。最大画面サイズを大きくすると直ります。それでも崩れるときはもっと大きくしてください。</description>
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm27678925</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/Y2n/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/Y2n/</downloadURL>
 		<latestVersion>v4</latestVersion>
 		<files>
 			<file archivePath="rollv4">script/rollv4/ロール巻取(ページめくり).anm</file>
@@ -2031,7 +2031,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290540</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/Di0/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/Di0/</downloadURL>
 		<latestVersion>v1.5</latestVersion>
 		<files>
 			<file
@@ -2060,7 +2060,7 @@
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290540</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/Di0/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/Di0/</downloadURL>
 		<latestVersion>v1.5a</latestVersion>
 		<files>
 			<file
@@ -2089,7 +2089,7 @@
 			<dependency>rikky/rikkyModuleMemory</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776228</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/pA2/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/pA2/</downloadURL>
 		<latestVersion>5</latestVersion>
 		<files>
 			<file
@@ -2112,7 +2112,7 @@
 			<dependency>rikky/rikkyModule2</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm34776228</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/pA2/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/pA2/</downloadURL>
 		<latestVersion>5</latestVersion>
 		<files>
 			<file
@@ -2132,7 +2132,7 @@
 		>再生位置前後の音を流すことで映像と音のずれを確認できます。</description>
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm30290443</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/5Kf/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/5Kf/</downloadURL>
 		<latestVersion>alpha.kai2.A</latestVersion>
 		<files>
 			<file archivePath="少し音再生">plugins/small_play.auf</file>
@@ -2156,7 +2156,7 @@
 		>リズムよくクリックして、BPMを計測できるプラグイン。ついでにメトロノームにもなります。</description>
 		<developer>rikky</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm32113857</pageURL>
-		<downloadURL>http://hazumurhythm.com/a/Ow8/</downloadURL>
+		<downloadURL>https://hazumurhythm.com/a/Ow8/</downloadURL>
 		<latestVersion>v0.1</latestVersion>
 		<files>
 			<file archivePath="TempMeasure_alpha">pthreadGC2.dll</file>

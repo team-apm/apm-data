@@ -16,6 +16,8 @@
 		<releases>
 			<release version="1.10">
 				<url>http://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip</url>
+				<archiveIntegrity
+				>sha384-YJcXuvmKzJ3nUsGPHaylBdFI9Q4AxAwSDUqpDyZ2wLzYQaU/OE1abw8tMpLf4Jwq</archiveIntegrity>
 				<integrities>
 					<integrity
 						target="aviutl.exe"
@@ -25,6 +27,8 @@
 
 			<release version="1.00">
 				<url>http://spring-fragrance.mints.ne.jp/aviutl/aviutl100.zip</url>
+				<archiveIntegrity
+				>sha384-pDm14wvnIx2y4nfsuVJx15k9jTLHGrmTB24m97P5VafHbIXAeFsMRieAfCfASMfi</archiveIntegrity>
 				<integrities>
 					<integrity
 						target="aviutl.exe"
@@ -58,6 +62,8 @@
 				<files>
 					<file>lua51jit.dll</file>
 				</files>
+				<archiveIntegrity
+				>sha384-tTGQHYA16JBSXELzf7w0PAavkkoOjZFC6cWJzG3l2EssP5jeZO+Ou0xndh/vOolW</archiveIntegrity>
 				<integrities>
 					<integrity
 						target="exedit.auf"
@@ -67,6 +73,8 @@
 
 			<release version="0.92">
 				<url>http://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip</url>
+				<archiveIntegrity
+				>sha384-1+quM7LqkkFzFKjDoipezYsRsAqKXZC+OM1uPNJpzT58pMYFKnlGrniYxe8amgZK</archiveIntegrity>
 				<integrities>
 					<integrity
 						target="exedit.auf"

@@ -229,6 +229,8 @@
 				</integrities>
 			</release>
 			<release version="v0.1.1">
+				<archiveIntegrity
+				>sha384-GTJj01R8s/hVG98mFN3GTAYH4iRkOq3/5jwhcxpk4OG3tG7G7o2fC1bfyKljs6Jx</archiveIntegrity>
 				<integrities>
 					<integrity
 						target="plugins/easymp4.auo"
@@ -2309,6 +2311,8 @@
 		</files>
 		<releases>
 			<release version="r940 release1">
+				<archiveIntegrity
+				>sha384-yBDA/RFCozGCQc6tcPa+Vsm4B0J82skJXN4ZrVRegCgQFTJW8N8eLlWXy55LiFRX</archiveIntegrity>
 				<integrities>
 					<integrity
 						target="plugins/lwinput.aui"

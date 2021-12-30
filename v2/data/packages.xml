@@ -61,7 +61,7 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm36085428</pageURL>
 		<downloadURL
 		>https://github.com/amate/PropertyWindowFixerPlugin/releases/latest</downloadURL>
-		<latestVersion>v2.3</latestVersion>
+		<latestVersion>v2.4</latestVersion>
 		<files>
 			<file
 				archivePath="PropertyWindowFixerPlugin/"

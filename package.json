@@ -17,6 +17,7 @@
     "check-update": "node util/check-update.js",
     "mod-core": "node util/update-mod.js --core",
     "mod-packages": "node util/update-mod.js --packages",
+    "mod-convert": "node util/update-mod.js --convert",
     "sri": "node util/sri.js"
   },
   "devDependencies": {

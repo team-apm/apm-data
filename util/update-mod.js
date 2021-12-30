@@ -1,5 +1,6 @@
 // > yarn run mod-core
 // > yarn run mod-packages
+// > yarn run mod-convert
 
 const fs = require('fs-extra');
 const chalk = require('chalk');
@@ -55,6 +56,8 @@ async function update(args) {
       targetObj = modObj[2].mod[0].core[0];
     } else if (args[0] === '--packages') {
       targetObj = modObj[2].mod[1].packages[0];
+    } else if (args[0] === '--convert') {
+      targetObj = modObj[2].mod[2].convert[0];
     }
     const oldDate = new Date(targetObj._);
     const update = newDate.getTime() > oldDate.getTime();

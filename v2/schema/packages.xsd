@@ -96,6 +96,11 @@
 			<xsd:sequence>
 				<xsd:element name="files" type="au:files" minOccurs="0" />
 				<xsd:element
+					name="archiveIntegrity"
+					type="au:integrity"
+					minOccurs="0"
+				/>
+				<xsd:element
 					name="integrities"
 					type="au:integrities"
 					minOccurs="0"

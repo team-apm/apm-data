@@ -2300,8 +2300,6 @@
 		<originalDeveloper>VFR-maniac</originalDeveloper>
 		<pageURL>https://pop.4-bit.jp/?page_id=7929</pageURL>
 		<downloadURL>https://pop.4-bit.jp/?page_id=7929</downloadURL>
-		<directURL
-		>https://pop.4-bit.jp/bin/l-smash/L-SMASH_Works_r940_plugins.zip</directURL>
 		<latestVersion>r940 release1</latestVersion>
 		<files>
 			<file>plugins/lwcolor.auc</file>

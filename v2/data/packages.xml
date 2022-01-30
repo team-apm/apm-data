@@ -1172,7 +1172,7 @@
 		>キャッシュテキストは、生成したテキストを画像としてキャッシュすることで描画処理を効率化する拡張編集用スクリプトです。画像としてキャッシュするため、表示速度を利用したアニメーション、サイズのリアルタイムな変更などのような機能は使用できません。</description>
 		<developer>oov</developer>
 		<dependencies>
-			<dependency>oov/ZRamPreview</dependency>
+			<dependency>oov/ZRamPreview|oov/PSDToolKit</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm37598954</pageURL>
 		<downloadURL>https://github.com/oov/aviutl_cachetext/releases</downloadURL>

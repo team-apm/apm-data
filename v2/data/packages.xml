@@ -12,7 +12,7 @@
 		<developer>amate</developer>
 		<dependencies>
 			<dependency
-			>pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks|MrOjii/LSMASHWorks</dependency>
+			>MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks</dependency>
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
 		<downloadURL
@@ -2229,7 +2229,7 @@
 		<developer>yumetodo</developer>
 		<dependencies>
 			<dependency
-			>pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks|MrOjii/LSMASHWorks</dependency>
+			>MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks</dependency>
 		</dependencies>
 		<pageURL>https://github.com/yumetodo/SigContrastFastAviUtl</pageURL>
 		<downloadURL

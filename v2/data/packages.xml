@@ -845,6 +845,33 @@
 	</package>
 
 	<package>
+		<id>karoterra/ShowLimit</id>
+		<name>上限確認</name>
+		<overview>スクリプト名等のバッファの使用率を確認する</overview>
+		<description
+		>AviUtl 拡張編集内部に存在するスクリプト名等のバッファの使用率を確認するプラグインです。 これにより、あとどれくらいスクリプトを追加できるか確認できます。</description>
+		<developer>karoterra</developer>
+		<pageURL>https://github.com/karoterra/aviutl_ShowLimit</pageURL>
+		<downloadURL
+		>https://github.com/karoterra/aviutl_ShowLimit/releases/latest</downloadURL>
+		<latestVersion>v0.1.0</latestVersion>
+		<files>
+			<file>plugins/ShowLimit.auf</file>
+		</files>
+		<releases>
+			<release version="v0.1.0">
+				<archiveIntegrity
+				>sha384-fcerL9dZNDObOM+U1IRXOY+cUOijqbOxIl37nUhwLqLAK+yW2NhbY7pFhMxhdrx8</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ShowLimit.auf"
+					>sha384-BAeuliq8jhmSJK3sMc+NzTeZhyyo+moZkl+06N1AiXGOO5l8IHD+gDbkw2RC3ums</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
 		<id>karoterra/MarkdownEX</id>
 		<name>AviUtl MarkdownEX</name>
 		<overview>aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト</overview>
@@ -876,6 +903,103 @@
 				directory="true"
 			>script/browser/contents/MarkdownEX</file>
 		</files>
+	</package>
+
+	<package>
+		<id>karoterra/bend</id>
+		<name>曲げKR</name>
+		<overview>画像を曲線に沿って曲げるスクリプト</overview>
+		<description>画像を曲線に沿って曲げる AviUtl スクリプトです。</description>
+		<developer>karoterra</developer>
+		<pageURL>https://github.com/karoterra/aviutl-Bend</pageURL>
+		<downloadURL
+		>https://github.com/karoterra/aviutl-Bend/releases/latest</downloadURL>
+		<latestVersion>v1.0.0</latestVersion>
+		<files>
+			<file>script/karoterra/@曲げKR.anm</file>
+			<file>script/karoterra/KaroterraBend.lua</file>
+		</files>
+		<releases>
+			<release version="v1.0.0">
+				<archiveIntegrity
+				>sha384-kQZEZuH0rR6desFAEPGef04zoc8yu/m1T4P7Jw8SgLJp7eY61m/I+Dy+Ep6DxjMe</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/karoterra/@曲げKR.anm"
+					>sha384-KKoIgVpouYx6YWBq25bpYaQTVdO8kLkIdN9OHw0vRmjPgGehWW4KDMIJ2xsUpBsG</integrity>
+					<integrity
+						target="script/karoterra/KaroterraBend.lua"
+					>sha384-g0AopPBYkSYI8T/Vk+Pz/fsK8bzoCNGGUfSx3ghDN/vcP8GhIyX2FJqrxWLAldIg</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>karoterra/OilPainting</id>
+		<name>油絵</name>
+		<overview>油絵風の加工を施すアニメーション効果</overview>
+		<description
+		>Kuwahara filter により油絵風の加工を施す AviUtl スクリプトです。高橋直哉氏の油絵スクリプトの処理速度を向上させたものです。</description>
+		<developer>karoterra</developer>
+		<pageURL>https://github.com/karoterra/aviutl-OilPainting</pageURL>
+		<downloadURL
+		>https://github.com/karoterra/aviutl-OilPainting/releases/latest</downloadURL>
+		<latestVersion>v1.0.1</latestVersion>
+		<files>
+			<file>script/karoterra/KaroterraOilPainting.dll</file>
+			<file>script/karoterra/油絵.anm</file>
+		</files>
+		<releases>
+			<release version="v1.0.1">
+				<archiveIntegrity
+				>sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/karoterra/KaroterraOilPainting.dll"
+					>sha384-OIbc00TOruQRt24IojLBbnApEVOsaVgzoHZBVcUINk8nwoLrtHbowX9TOsKRCyhM</integrity>
+					<integrity
+						target="script/karoterra/油絵.anm"
+					>sha384-2Ns5FaSZaP/EZCZd3js91FKPBHR8AwU/Vhf32riHw7xo086Knn0ToQaZ8Cr92lwp</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>karoterra/DynamicPolygon</id>
+		<name>動く多角形</name>
+		<overview
+		>トラックバーで指定した頂点座標をもとに多角形を描画するスクリプト</overview>
+		<description
+		>トラックバーで指定した頂点座標をもとに多角形を描画する AviUtl スクリプトです。</description>
+		<developer>karoterra</developer>
+		<pageURL>https://github.com/karoterra/aviutl-DynamicPolygon</pageURL>
+		<downloadURL
+		>https://github.com/karoterra/aviutl-DynamicPolygon/releases/latest</downloadURL>
+		<latestVersion>v1.0.2</latestVersion>
+		<files>
+			<file>script/karoterra/KaroterraDynamicPolygon.dll</file>
+			<file>script/karoterra/動く多角形ベース.obj</file>
+			<file>script/karoterra/@動く多角形.anm</file>
+		</files>
+		<releases>
+			<release version="v1.0.2">
+				<archiveIntegrity
+				>sha384-v8baIFOdmqDd7oe/WOQLH0e8j6ni4YcJmGrJ74/zUtViIafFb0C1ql27s3qD7O2w</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/karoterra/KaroterraDynamicPolygon.dll"
+					>sha384-KHSGoE5lbIMyYBRtuvzvJ7hp3l6qD7FccL4BeXp+nwpQW39tM525TBrkgaiNOjEQ</integrity>
+					<integrity
+						target="script/karoterra/動く多角形ベース.obj"
+					>sha384-NJPZWMxFWvMp9iBoNljSU64NzOGGe0sP+larP9l7ktT/O9xcrTt1g5ME0dhHzzSa</integrity>
+					<integrity
+						target="script/karoterra/@動く多角形.anm"
+					>sha384-Bnyi2kh0K/eDYbuiyKwCZi8nVSxFbOr5nl6lB132Wl9mNJvMiclAh7pHNK7G/Ykz</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<!-- Maverick Tse ID:MaverickTse -->

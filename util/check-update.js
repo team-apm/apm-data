@@ -16,7 +16,6 @@ function format(string) {
     .trim()
     .replace(/<\?xml-model +/, '<?xml-model ') // Fix `<?xml-model   `
     .replaceAll('&quot;', '"') // Convert `&quot` to `"`
-    .replaceAll('&', '&amp;') // Convert `&` to `&amp`
     .replaceAll(/<(.+?)>\r?\n?\t+([^<>\t]+?)\r?\n?\t+<\/(.+?)>/g, '<$1>$2</$3>') // Adjust line-breaking
     .replaceAll(/-->\r?\n?\t?<package>/g, '-->\r\n\r\n\t<package>') // Add line break between a comment and `<package>`
     .replaceAll(/<\/package>\r?\n?\t?</g, '</package>\r\n\r\n\t<') // Add line break between `<package>`

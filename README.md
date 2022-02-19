@@ -51,6 +51,7 @@ AviUtlと拡張編集Pluginのデータファイル
 - _/packages/package/installerArg_: インストーラーに渡される引数（`$instpath`は、インストール先フォルダに置き換えられます。）
 - **/packages/package/files/file**: パッケージで使用されるファイルのファイル名
   - _/packages/package/files/file/@optional_: インストール時に必要ないかどうか (デフォルト: false)
+  - _/packages/package/files/file/@installOnly_: アンインストール不可のファイルかどうか (デフォルト: false)
   - _/packages/package/files/file/@directory_: ディレクトリかどうか (デフォルト: false)
   - _/packages/package/files/file/@archivePath_: ファイルのアーカイブ内相対パス (デフォルト: null)
 

@@ -17,6 +17,12 @@
 								use="optional"
 							/>
 							<xsd:attribute
+								name="installOnly"
+								type="xsd:boolean"
+								default="false"
+								use="optional"
+							/>
+							<xsd:attribute
 								name="directory"
 								type="xsd:boolean"
 								default="false"

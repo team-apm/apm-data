@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "webpage": {
+      "type": "array",
+      "description": "List of script distribution sites",
+      "items": {
+        "type": "object",
+        "description": "Script distribution site",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "URL of the script distribution site"
+          },
+          "developer": {
+            "type": "string",
+            "description": "Developer's name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the site"
+          }
+        },
+        "required": ["url", "developer"]
+      }
+    },
+    "scripts": {
+      "type": "array",
+      "description": "Information to be added to the downloaded script. In case of multiple matches, the later information in the array takes priority.",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "description": "Information required for automatic installation",
+            "properties": {
+              "match": {
+                "type": "array",
+                "description": "Compare these with browser history to determine which script have been downloaded",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "folder": {
+                "type": "string",
+                "description": "Name of the folder where script will be installed"
+              },
+              "developer": {
+                "type": "string",
+                "description": "The name of the script developer"
+              },
+              "dependencies": {
+                "type": "array",
+                "description": "Script dependencies",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": ["match", "folder", "developer", "dependencies"]
+          },
+          {
+            "type": "object",
+            "description": "Information to fall back to the normal installation method",
+            "properties": {
+              "match": {
+                "type": "array",
+                "description": "Compare these with browser history to determine which script have been downloaded",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "redirect": {
+                "type": "string",
+                "description": "Install as a package with the specified id"
+              }
+            },
+            "required": ["match", "redirect"]
+          }
+        ]
+      }
+    }
+  },
+  "required": ["webpage", "scripts"]
+}

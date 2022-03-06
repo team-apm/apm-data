@@ -783,7 +783,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://scrapbox.io/ePi5131/patch.aul</downloadURL>
-		<latestVersion>r11</latestVersion>
+		<latestVersion>r14</latestVersion>
 		<files>
 			<file>plugins/patch.aul</file>
 			<file optional="true">plugins/patch.aul.json</file>
@@ -803,6 +803,15 @@
 					<integrity
 						target="plugins/patch.aul"
 					>sha384-6W9VOV37w21UVMqBX2ItjSbTWarxkXg/DoQUjJpQaLpJRtIt8+itur5Vm3Q6wwOu</integrity>
+				</integrities>
+			</release>
+			<release version="r14">
+				<archiveIntegrity
+				>sha384-F12wUu5o4f0Q4x7j86plKB7v1xNxB8EOKPXdJnHLnr+liunQN2CN8ViLvSUR6ohZ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/patch.aul"
+					>sha384-tPCOyr4p2z/P+/eiuCz2ItcGoMGhBQRM43+jCheRLNzse9P4VCYz7TJiCGl1IaZX</integrity>
 				</integrities>
 			</release>
 		</releases>

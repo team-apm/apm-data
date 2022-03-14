@@ -785,7 +785,8 @@
 		<downloadURL>https://scrapbox.io/ePi5131/patch.aul</downloadURL>
 		<latestVersion>r14</latestVersion>
 		<files>
-			<file>plugins/patch.aul</file>
+			<file>patch.aul</file>
+			<file obsolete="true">plugins/patch.aul</file>
 			<file optional="true">plugins/patch.aul.json</file>
 		</files>
 		<releases>

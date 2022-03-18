@@ -51,6 +51,7 @@ This file contains data of plugins and scripts.
 - _/packages/package/installerArg_: The arguments passed to the installer (`$instpath` will be replaced with the installation path.)
 - **/packages/package/files/file**: The name of the file used in the package
   - _/packages/package/files/file/@optional_: Whether it is optional during installation (Default: false)
+  - _/packages/package/files/file/@installOnly_: Whether the file is a non-uninstallable file (Default: false)
   - _/packages/package/files/file/@directory_: Whether it is a directory (Default: false)
   - _/packages/package/files/file/@archivePath_: The relative path of the file in the archive (Default: null)
 
@@ -72,3 +73,4 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 [@hal-shu-sato](https://github.com/hal-shu-sato)
 [@mitosagi](https://github.com/mitosagi)
 [@yumetodo](https://github.com/yumetodo)
+[@karoterra](https://github.com/karoterra)

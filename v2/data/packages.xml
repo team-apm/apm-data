@@ -771,6 +771,32 @@
 	</package>
 
 	<package>
+		<id>ePi/LuaJIT</id>
+		<name>LuaJIT</name>
+		<overview>スクリプトエンジン「Lua」の高速版です</overview>
+		<description
+		>AviUtl(拡張編集)のスクリプトが使うスクリプトエンジン「Lua」の高速版です。【アンインストール方法】このパッケージは拡張編集を上書きします。そのため、このパッケージをアンインストールするときは拡張編集の再インストールも併せて行う必要があります。</description>
+		<developer>ePi</developer>
+		<pageURL>https://scrapbox.io/ePi5131/LuaJIT</pageURL>
+		<downloadURL>https://scrapbox.io/ePi5131/LuaJIT</downloadURL>
+		<latestVersion>2.1.0-beta3</latestVersion>
+		<files>
+			<file installOnly="true">lua51.dll</file>
+		</files>
+		<releases>
+			<release version="2.1.0-beta3">
+				<archiveIntegrity
+				>sha384-hfvjNiRmpKd+MbPaJANABNkbqtE2Z/w+V3k3wWXUX8I2w9vQn9DtLYout4up1RAQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="lua51.dll"
+					>sha384-Tyx0ziJxtuafsPaBhg6OLWnKyJKE/cpfY5E+ixylKFsXeduy5j4b4AUhp3GtLuP4</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
 		<id>ePi/patch</id>
 		<name>patch.aul</name>
 		<overview>拡張編集Plugin ver.0.92のバグを修正する</overview>
@@ -783,7 +809,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://scrapbox.io/ePi5131/patch.aul</downloadURL>
-		<latestVersion>r11</latestVersion>
+		<latestVersion>r14</latestVersion>
 		<files>
 			<file>plugins/patch.aul</file>
 			<file optional="true">plugins/patch.aul.json</file>
@@ -803,6 +829,15 @@
 					<integrity
 						target="plugins/patch.aul"
 					>sha384-6W9VOV37w21UVMqBX2ItjSbTWarxkXg/DoQUjJpQaLpJRtIt8+itur5Vm3Q6wwOu</integrity>
+				</integrities>
+			</release>
+			<release version="r14">
+				<archiveIntegrity
+				>sha384-F12wUu5o4f0Q4x7j86plKB7v1xNxB8EOKPXdJnHLnr+liunQN2CN8ViLvSUR6ohZ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/patch.aul"
+					>sha384-tPCOyr4p2z/P+/eiuCz2ItcGoMGhBQRM43+jCheRLNzse9P4VCYz7TJiCGl1IaZX</integrity>
 				</integrities>
 			</release>
 		</releases>

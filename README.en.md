@@ -73,3 +73,4 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 [@hal-shu-sato](https://github.com/hal-shu-sato)
 [@mitosagi](https://github.com/mitosagi)
 [@yumetodo](https://github.com/yumetodo)
+[@karoterra](https://github.com/karoterra)

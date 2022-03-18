@@ -58,6 +58,8 @@ async function update(args) {
       targetObj = modObj[2].mod[1].packages[0];
     } else if (args[0] === '--convert') {
       targetObj = modObj[2].mod[2].convert[0];
+    } else if (args[0] === '--scripts') {
+      targetObj = modObj[2].mod[3].scripts[0];
     }
     const oldDate = new Date(targetObj._);
     const update = newDate.getTime() > oldDate.getTime();

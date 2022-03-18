@@ -6,6 +6,7 @@
 				<xsd:element name="core" type="xsd:dateTime" />
 				<xsd:element name="packages" type="xsd:dateTime" />
 				<xsd:element name="convert" type="xsd:dateTime" minOccurs="0" />
+				<xsd:element name="scripts" type="xsd:dateTime" minOccurs="0" />
 			</xsd:sequence>
 			<xsd:attribute
 				name="version"

@@ -892,7 +892,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>1.1.2</latestVersion>
+		<latestVersion>2.0.4</latestVersion>
 		<files>
 			<file>aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -918,7 +918,7 @@
 		<name>フィルタドラッグ移動</name>
 		<overview>フィルタをドラッグして移動できるようにする</overview>
 		<description
-		>オブジェクトダイアログのフィルタをドラッグして移動できるようにします。  </description>
+		>オブジェクトダイアログのフィルタをドラッグして移動できるようにします。</description>
 		<developer>hebiiro</developer>
 		<dependencies>
 			<dependency>exedit0.92</dependency>
@@ -926,7 +926,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DragFilter</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest</downloadURL>
-		<latestVersion>1.0.0</latestVersion>
+		<latestVersion>8.0.0</latestVersion>
 		<files>
 			<file>plugins/DragFilter.auf</file>
 		</files>
@@ -955,7 +955,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-OptimizeEditBox</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-OptimizeEditBox/releases/latest</downloadURL>
-		<latestVersion>2.1.1</latestVersion>
+		<latestVersion>7.1.0</latestVersion>
 		<files>
 			<file>plugins/OptimizeEditBox.auf</file>
 			<file>plugins/OptimizeEditBox.ini</file>
@@ -1019,7 +1019,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont/releases/latest</downloadURL>
-		<latestVersion>5.1.2</latestVersion>
+		<latestVersion>5.2.1</latestVersion>
 		<files>
 			<file>plugins/SelectFavoriteFont.auf</file>
 			<file>plugins/SelectFavoriteFont.xml</file>
@@ -1825,7 +1825,7 @@
 			<file>script/respectrum93_old/音声玉.obj</file>
 			<file>script/respectrum93_old/＠＠スクリプトの使用方法＠＠.txt</file>
 			<file>script/respectrum93_old/@GetColor-V2_old.zip</file>
-			</files>
+		</files>
 		<releases>
 			<release version="2017/12/25">
 				<archiveIntegrity

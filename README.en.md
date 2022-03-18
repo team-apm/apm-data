@@ -54,6 +54,7 @@ This file contains data of plugins and scripts.
   - _/packages/package/files/file/@installOnly_: Whether the file is a non-uninstallable file (Default: false)
   - _/packages/package/files/file/@directory_: Whether it is a directory (Default: false)
   - _/packages/package/files/file/@archivePath_: The relative path of the file in the archive (Default: null)
+  - _/packages/package/files/file/@obsolete_: Whether it is not included in the latest version (Default: false)
 
 ## Contribution
 

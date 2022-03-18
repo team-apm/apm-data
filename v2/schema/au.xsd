@@ -33,6 +33,12 @@
 								type="xsd:string"
 								use="optional"
 							/>
+							<xsd:attribute
+								name="obsolete"
+								type="xsd:boolean"
+								default="false"
+								use="optional"
+							/>
 						</xsd:extension>
 					</xsd:simpleContent>
 				</xsd:complexType>

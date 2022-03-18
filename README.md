@@ -54,6 +54,7 @@ AviUtlと拡張編集Pluginのデータファイル
   - _/packages/package/files/file/@installOnly_: アンインストール不可のファイルかどうか (デフォルト: false)
   - _/packages/package/files/file/@directory_: ディレクトリかどうか (デフォルト: false)
   - _/packages/package/files/file/@archivePath_: ファイルのアーカイブ内相対パス (デフォルト: null)
+  - _/packages/package/files/file/@obsolete_: 最新バージョンに存在しないかどうか (デフォルト: false)
 
 ## コントリビューション
 

@@ -1491,6 +1491,98 @@
 		</files>
 	</package>
 
+	<!-- 謎の生物 ID:nazono -->
+
+	<package>
+		<id>nazono/redoNoRuntime</id>
+		<name>Redoプラグイン(ランタイム不要・非推奨)</name>
+		<overview>Ctrl+Yキーでのやり直し機能を追加する</overview>
+		<description
+		>AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。</description>
+		<developer>謎の生物</developer>
+		<dependencies>
+			<dependency>exedit0.92</dependency>
+		</dependencies>
+		<pageURL
+		>https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/11whtRpnaNEzp-_VkORZpmHoqj5yfPrgD</downloadURL>
+		<latestVersion>v2.7</latestVersion>
+		<files>
+			<file>plugins/Redo.auf</file>
+		</files>
+		<releases>
+			<release version="v2.7">
+				<archiveIntegrity
+				>sha384-2r0hL+qtRjQCQyc0dogmR/Q3ZjdDr13IYGttudAc3We2H3Wv0zmsS9ydy5ik5r02</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/Redo.auf"
+					>sha384-ddEOS42sd1gqLqSoTx/pP19EfSBO9RDshyYILzaqnenkYk/DxoTx/gHf2q9DTkg0</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>nazono/redoRuntime</id>
+		<name>Redoプラグイン(要ランタイム・省メモリ)</name>
+		<overview>Ctrl+Yキーでのやり直し機能を追加する</overview>
+		<description
+		>AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。【動作にはVisual C++ 再頒布可能パッケージの2022 x86(32bit)対応の物がインストールされている必要があります】</description>
+		<developer>謎の生物</developer>
+		<dependencies>
+			<dependency>exedit0.92</dependency>
+		</dependencies>
+		<pageURL
+		>https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY</pageURL>
+		<downloadURL
+		>https://drive.google.com/drive/folders/1tg-kZSw6m3d5MLeKuA95UB8Kv_H2uoT5</downloadURL>
+		<latestVersion>v2.7rt</latestVersion>
+		<files>
+			<file>plugins/Redo.auf</file>
+		</files>
+		<releases>
+			<release version="v2.7rt">
+				<archiveIntegrity
+				>sha384-hSHKjKjQwy1XTpuGuORffr7MDjzYTQqBy2gcHsdMFlcOqYrorflZRg/vIZ6rUgH9</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/Redo.auf"
+					>sha384-0s8DAzZIdJvw0aSKbMIALM3O1ddY414jbKj02ZrlMoncLppMN8Rd52FIuZKI71bE</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<!-- Nure ID:nure500 -->
+
+	<package>
+		<id>nure500/vhs</id>
+		<name>VHS風のエフェクト</name>
+		<overview>VHS風のエフェクトです。記述内容は極めてシンプルです。</overview>
+		<description>VHS風のエフェクトです。記述内容は極めてシンプルです。</description>
+		<developer>Nure</developer>
+		<pageURL>https://twitter.com/sdkd500/status/1042352681241591810</pageURL>
+		<downloadURL
+		>https://www.dropbox.com/s/lrlzc0f34bzcvqa/VHS%E9%A2%A8.anm?dl=0</downloadURL>
+		<latestVersion>2018/9/19</latestVersion>
+		<files>
+			<file>script/nure500/VHS風.anm</file>
+		</files>
+		<releases>
+			<release version="2018/9/19">
+				<archiveIntegrity
+				>sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/nure500/VHS風.anm"
+					>sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
 	<!-- oov ID:oov -->
 
 	<package>

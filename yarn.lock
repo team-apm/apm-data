@@ -132,13 +132,13 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@prettier/plugin-xml@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-xml/-/plugin-xml-1.2.0.tgz#8bc75e3f715338e2f72efae5cd3a370f4d3ad23f"
-  integrity sha512-bFvVAZKs59XNmntYjyefn3K4TBykS6E+d6ZW8IcylAs88ZO+TzLhp0dPpi0VKfPzq1Nb+kpDnPRTiwb4zY6NgA==
+"@prettier/plugin-xml@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-xml/-/plugin-xml-2.0.1.tgz#947d80d2e3bca798ee37130302c99ddd0ce863b6"
+  integrity sha512-zJ2+/J5ujo23oHwaiuo3DEnxnRWSw/52IP7to+XmHiTC/qG17w2ld6FbDfVrsnO2PTPp0HFotPtZFlbrPJnaqA==
   dependencies:
     "@xml-tools/parser" "^1.0.11"
-    prettier ">=2.3"
+    prettier ">=2.4.0"
 
 "@xml-tools/parser@^1.0.11":
   version "1.0.11"
@@ -1328,7 +1328,7 @@ prettier-plugin-md-nocjsp@^1.1.1:
   resolved "https://registry.yarnpkg.com/prettier-plugin-md-nocjsp/-/prettier-plugin-md-nocjsp-1.2.0.tgz#ad8fed862590c87bb2ad5e0b83dbb24d355ea2e8"
   integrity sha512-ShX2dd8XoE6bi1zlY3U4yKJl/MN5LIdMDjVr//n/Dy6vWOWZdMqSFYeA7qcETTfUj6bTP4VfULDcQbgaJcgJKg==
 
-prettier@>=2.3, prettier@^2.6.0:
+prettier@>=2.4.0, prettier@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.0.tgz#12f8f504c4d8ddb76475f441337542fa799207d4"
   integrity sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==

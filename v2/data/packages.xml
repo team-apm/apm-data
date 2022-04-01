@@ -1598,7 +1598,7 @@
 		</dependencies>
 		<pageURL>https://www.nicovideo.jp/watch/sm38772089</pageURL>
 		<downloadURL>https://github.com/oov/aviutl_browser/releases/latest</downloadURL>
-		<latestVersion>v0.3</latestVersion>
+		<latestVersion>v0.4.1</latestVersion>
 		<files>
 			<file archivePath="script/browser" directory="true">script/browser/exe</file>
 			<file

@@ -1606,23 +1606,35 @@
 				directory="true"
 			>script/browser/contents/絵文字セレクター</file>
 			<file archivePath="script/browser">script/browser/browser.lua</file>
-			<file archivePath="script/browser">script/browser/glTF表示デモ.obj</file>
+			<file
+				archivePath="script/browser"
+				obsolete="true"
+			>script/browser/glTF表示デモ.obj</file>
 			<file archivePath="script/browser">script/browser/Markdown.anm</file>
 			<file archivePath="script/browser">script/browser/Markdown.exa</file>
-			<file archivePath="script/browser">script/browser/SVGアニメ.obj</file>
-			<file archivePath="script/browser">script/browser/ファイル参照デモ.obj</file>
+			<file
+				archivePath="script/browser"
+				obsolete="true"
+			>script/browser/SVGアニメ.obj</file>
+			<file
+				archivePath="script/browser"
+				obsolete="true"
+			>script/browser/ファイル参照デモ.obj</file>
 			<file archivePath="script/browser">script/browser/絵文字.obj</file>
 			<file
 				archivePath="script/browser/contents"
+				obsolete="true"
 			>script/browser/contents/glTF表示デモ.abc</file>
 			<file
 				archivePath="script/browser/contents"
 			>script/browser/contents/Markdown.abc</file>
 			<file
 				archivePath="script/browser/contents"
+				obsolete="true"
 			>script/browser/contents/SVGアニメ.abc</file>
 			<file
 				archivePath="script/browser/contents"
+				obsolete="true"
 			>script/browser/contents/ファイル参照デモ.abc</file>
 			<file
 				archivePath="script/browser/contents"
@@ -1700,10 +1712,9 @@
 		<description
 		>拡張編集で Lua から外部プログラムを使って処理をしやすくするためのプラグインです。外部プログラムは stdin / stdout を使って通信するものを作成する必要があります。</description>
 		<developer>oov</developer>
-		<pageURL>https://twitter.com/oovch/status/1161359705723195392</pageURL>
-		<downloadURL
-		>https://drive.google.com/drive/folders/1skhMrPf2VwXRFP5Req4JAowV9I4Hj0eF</downloadURL>
-		<latestVersion>v0.13</latestVersion>
+		<pageURL>https://github.com/oov/aviutl_bridge</pageURL>
+		<downloadURL>https://github.com/oov/aviutl_bridge/releases/latest</downloadURL>
+		<latestVersion>v0.14.0</latestVersion>
 		<files>
 			<file>bridge.dll</file>
 		</files>

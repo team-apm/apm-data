@@ -41,7 +41,7 @@
 		<description
 		>ファイルの入力、分離、デコードに、Media Foundation を使っており、DXVA2(GPU)を利用した高速なデコードが可能です</description>
 		<developer>amate</developer>
-		<pageURL />
+		<pageURL>https://github.com/amate/MFVideoReader</pageURL>
 		<downloadURL
 		>https://github.com/amate/MFVideoReader/releases/latest</downloadURL>
 		<latestVersion>v1.0</latestVersion>
@@ -1220,7 +1220,7 @@
 	<package>
 		<id>karoterra/MarkdownEX</id>
 		<name>AviUtl MarkdownEX</name>
-		<overview>aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト</overview>
+		<overview>aviutl_browserを利用してMarkdownを表示する</overview>
 		<description
 		>aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト。aviutl_browser同梱のMarkdown.anmを元に機能拡張を行ったものです。</description>
 		<developer>karoterra</developer>
@@ -1742,7 +1742,7 @@
 		<description
 		>これは PSDTool(https://oov.github.com/psdtool/) でシンプルビューを元にして出力できる PRIMA (Pre-Rendered IMage Archive) ファイルを AviUtl で読み込めるようにする AviUtl 用入力プラグインです。</description>
 		<developer>oov</developer>
-		<pageURL />
+		<pageURL>https://github.com/oov/aviutl_prima</pageURL>
 		<downloadURL>https://github.com/oov/aviutl_prima/releases/latest</downloadURL>
 		<latestVersion>v0.1</latestVersion>
 		<files>

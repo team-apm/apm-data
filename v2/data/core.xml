@@ -54,14 +54,12 @@
 			<file>exedit.txt</file>
 			<file>lua.txt</file>
 			<file>lua51.dll</file>
+			<file optional="true">lua51jit.dll</file>
 		</files>
 
 		<releases>
 			<release version="0.93rc1">
 				<url>http://spring-fragrance.mints.ne.jp/aviutl/exedit93rc1.zip</url>
-				<files>
-					<file>lua51jit.dll</file>
-				</files>
 				<archiveIntegrity
 				>sha384-tTGQHYA16JBSXELzf7w0PAavkkoOjZFC6cWJzG3l2EssP5jeZO+Ou0xndh/vOolW</archiveIntegrity>
 				<integrities>

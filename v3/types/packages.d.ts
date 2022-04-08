@@ -32,7 +32,18 @@ export interface Packages {
      * The name of the developer of the package from which it was derived
      */
     originalDeveloper?: string;
+    /**
+     * ID of the package on which it depends
+     */
     dependencies?: string[];
+    /**
+     * ID of the package causing the conflict (not yet implemented)
+     */
+    conflicts?: string[];
+    /**
+     * ID of the compatible package (not yet implemented)
+     */
+    provides?: string;
     /**
      * The URL of the package introduction page
      */
@@ -65,6 +76,10 @@ export interface Packages {
      * The arguments passed to the installer (`$instpath` will be replaced with the installation path.)
      */
     installArg?: string;
+    /**
+     * Niconi Commons ID (not yet implemented)
+     */
+    nicommons?: string;
     files: {
       /**
        * The name of the file used in the package

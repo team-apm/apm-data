@@ -41,9 +41,22 @@
             "type": "array",
             "items": {
               "type": "string",
-              "pattern": "^(([A-Za-z0-9]+\\/[A-Za-z0-9]+)|(aviutl[A-Za-z0-9.]+)|(exedit[A-Za-z0-9.]+))(\\|(([A-Za-z0-9]+\\/[A-Za-z0-9]+)|(aviutl[A-Za-z0-9.]+)|(exedit[A-Za-z0-9.]+)))*$",
-              "description": "ID of the package on which it depends"
-            }
+              "pattern": "^(([A-Za-z0-9]+\\/[A-Za-z0-9]+)|(aviutl[A-Za-z0-9.]+)|(exedit[A-Za-z0-9.]+))(\\|(([A-Za-z0-9]+\\/[A-Za-z0-9]+)|(aviutl[A-Za-z0-9.]+)|(exedit[A-Za-z0-9.]+)))*$"
+            },
+            "description": "ID of the package on which it depends"
+          },
+          "conflicts": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9]+/[a-zA-Z0-9]+$"
+            },
+            "description": "ID of the package causing the conflict (not yet implemented)"
+          },
+          "provides": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9]+/[a-zA-Z0-9]+$",
+            "description": "ID of the compatible package (not yet implemented)"
           },
           "pageURL": {
             "type": "string",
@@ -80,6 +93,10 @@
           "installArg": {
             "type": "string",
             "description": "The arguments passed to the installer (`$instpath` will be replaced with the installation path.)"
+          },
+          "nicommons": {
+            "type": "string",
+            "description": "Niconi Commons ID (not yet implemented)"
           },
           "files": {
             "type": "array",

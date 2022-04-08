@@ -1,0 +1,22 @@
+{
+  "core": {
+    "path": "core.json",
+    "modified": "2021-12-27T22:23:00+09:00"
+  },
+  "convert": {
+    "path": "convert.json",
+    "modified": "2021-12-11T16:03:00+09:00"
+  },
+  "packages": [
+    {
+      "path": "packages.json",
+      "modified": "2022-02-18T05:48:00+09:00"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "scripts.json",
+      "modified": "2021-12-27T22:23:00+09:00"
+    }
+  ]
+}

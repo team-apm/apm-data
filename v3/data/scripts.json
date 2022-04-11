@@ -1,0 +1,193 @@
+{
+  "webpage": [
+    {
+      "url": "https://hazumurhythm.com/wev/amazon/?filter=all&search=Aodaruma&search_price=&sort=viewh&page=1",
+      "developer": "Aodaruma",
+      "description": "スクリプトの例: 3DObject, CameraDisplays, ClipFigures, CycleAffect, DelayBuffer, FlatShadow, ImageLoader, LoopTextures, MaskingSlider, Modulator, OriginalToon, ParallelCamera, Partition&Flex, PixelSort, Repeater, RepeatingClip, RikkyReflection, SphereMaterialTest, Trackers, UVmapping(beta), VariableTrack, WipeClipping, kerning, light&shadow, キャッシュ保存RM, グラデーションマップ(Re), 対角線クリッピング, 平行四辺形, 抜き出し縁取り, 段付き円形, 簡易Glitch++(派生)"
+    },
+    {
+      "url": "http://auls.client.jp/",
+      "developer": "yu_noimage_",
+      "description": "スクリプトの例: アニメーション効果, トラックバー, Zバッファ, 指定レイヤー以外を半透明化"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1axN8BDCSGY3w1YaeUgZ4TjlU7MzwRoGI",
+      "developer": "gometh",
+      "description": "スクリプトの例: @グラフ描画.anm, @パチ文字.anm, カード並べ.zip, クソデカレベルアップくん.exa, クリッピングして登場.anm, テキストSE.anm, ドカベン.anm, ハーフトーン(g).anm, ひらがな小さ.anm, ベベルとエンボス(g).anm, 円状音声波形.anm, 角丸四角形.obj, 角丸正多角形.obj, 任意軸回転.anm, 非弾性衝突.tra, 麻雀牌スクリプト.zip, 満ち欠け円.obj, 漫画化v3.zip"
+    },
+    {
+      "url": "https://twitter.com/i/moments/950334056461344768",
+      "developer": "kaisatsu",
+      "description": "スクリプトの例: @バック.tra, スケールワイプ.anm, なめらか縁取り.anm, バウンド.tra, 減衰振動.tra, 減衰振動(微分).tra, 光彩.anm, 光彩内側(仮).anm"
+    },
+    {
+      "url": "https://github.com/karoterra/aviutl-scripts",
+      "developer": "karoterra",
+      "description": "スクリプトの例: @サムネチェック.obj, @ヨッシーアイランド.obj, Karoterra.lua, タイル素材切り出し.anm"
+    },
+    {
+      "url": "http://niconicotetu.web.fc2.com/download_page.html",
+      "developer": "テツ",
+      "description": "スクリプトの例: 特製パーティクル, 縞図形, 順番に出現, ニュースプリント, フェード＋α, スポットライト, ドット化, ﾃｷｽﾄに枠, 雨3D, トーナメント, 3D音声波形(tetsu), Z軸ループ, シャッター, 粒子化, 転がる多角形, 格子線, 正多面体(正十二面体を除く), Trackingライン, 立方体を並べる, 球上パーティクル, 波(3D)化, 波(3D), ハチの巣, ターゲット, 時計, 円形に並んだオブジェクト, 魚眼レンズ, なめくじ, 軌跡配置, 回転ブラー（っぽいもの）, 渦, ノイズマスク, ターゲット（カメラ効果）, 跳ね返るボール, ランダム配置, お絵かきマスク, (3D)ブラインド, 巻く（裏面あり）, 巻く（裏面なし）"
+    },
+    {
+      "url": "https://tim3.web.fc2.com/sidx.htm",
+      "developer": "ティム",
+      "description": "スクリプトの例: ライン抽出T, ひび割れガラスT, 罫線T, 低解像度T, 注ぎT, ジグザグ塗りT, バーコードT, 色調調整セットver6, カメレオン効果, ブロマガ, 縁取りT, ブロックラスターT, ぷよぷよT, 網点分解T, 集中線T, マルチラインT, リール回転T, 風揺れT, ストロークT, twitchっぽいものT, ライントーン＆ハーフトーン, ラフエッジ, 透明度指定, モーションタイル, ベジエ曲線による軌道調整, フィルターセット, 透明塗り, 簡易モーフィング, 色抽出, 燃焼, ワイヤー3D, TrackingラインEasy, オーラ放出, シーンチェンジセット, スターバースト, 砕け散るパズル, ニコ動(V1), スカイドーム, 虹色グラデーション, 色収差, ニコ動, 領域枠, ニコ動(V1), 二十六面体, 標準エフェクトのみ使った簡単な作成例, 放射分布 変色パーティクル, 曲面変形, な～さりい☆らいむ風TA, 輝度ワイプ, グリッドワイプ, ツイスター, ３Ｄ音声波形, 色付きエッジ抽出, つまむ, インク（＋ひょうたん）, ニコ動, スプリット, 蜂の巣モザイク, 正多面体, カスタムフレア, ニコ動, 回転ブラー, ニコ動(V1), ランダムブラー, フィルム焦げ, ゆらめき, 斜めブラインド(改), 極座標変換＋ぼかしミラー, 小物(カメラデータコピー等), 稲妻, 砕けたガラス, MMDカメラデータ読込, オートターゲット, ライトバースト, バニシングポイント2, ニコ動(V1), バニシングポイント, ニコ動(V1), 任意多角形カット, 簡易リピーター, ニコ動(V1), 時系列音声波形, 任意多角形カスタムオブジェクト, 泡, 輪郭追跡, ニコ動(V1), 一時保存読込, 多色グラデーション, 砕け散る球, グループ補助, エンボスタイル, 砕け散る(改), 簡易ワープ(改), 簡易ワープ, 簡易モーションパス(パス数無制限版), 簡易モーションパス, 歯車変形, 直方体展開, ルービックキューブ配置, ニコ動, はためき, レンズフレア, 多角錐変形, ニコ動(V1)"
+    },
+    {
+      "url": "https://www.dropbox.com/sh/u73uud29hcxlply/AABH9ZhzL1P1kX-bWrL4asdDa",
+      "developer": "Respectrum93",
+      "description": "スクリプトの例: @線を描画.anm, Bezier移動.anm, CircleSlicer.anm, DelayDraw2.anm, DisplacementMap-B.anm, GEN-VTX.zip, GetColor-V2r.zip, MultiSlicer_P.anm, OBJ Reader.zip, old_script_etc.zip, マルチベジェ軌道.zip, レイヤーに線を描画.anm, 音声データlink.tra, 音声データ取得.obj, 旗.zip"
+    },
+    {
+      "url": "http://hazumurhythm.com/wev/amazon/?filter=editor&search=rikky&sort=viewh&page=1",
+      "developer": "rikky",
+      "description": "スクリプトの例: 扇クリッピングR, パーティクル(R), 立体化(R), タイピング, パーツ分割, ティムさん風, カラーパレット, カメラ手ぶれ(R), ロール巻取(ページめくり), 色ずれ(R), シャッフルレター, パペットピンツール, アウトライン, グループアニメーションGA, 多角形モザイクマスク, 書道(R), パララックス視差効果, 拡張イージング, 合作テキストアニメーション, ライン＊(R), スライドカット, 音声読み上げ, ミックスレター, MIDI譜表示, パーティクル(R)カスタムオブジェクト, 合成モード拡張, 脅迫文と夜露死苦(当て漢字)テキスト, 内側シャドー, 乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまったED風, ボーン制御, ポリゴン表示(R), ハンディカム, お絵かき, グラデーション(R), ランダムフォント, カケアミ, 日周運動, 崩れ落ちる, シームレス, シーンチェンジセット, トランプ, シーンチェンジアニメ, モザイク(R), ガラス球, お絵かきイージング, スライドパズル, 簡易変形(r), スロット, どうぶつの森風セリフ枠, ドミノ, 透明度縁取りや画像合成プラスなど, AA(アスキーアート)化, MMDクレジット, 中二病戀エンディング風ライト(遠近照明), 設定内パラメーター, ランダム動画, カラフルブロックノイズ, 簡易部分フィルター, TAつるし紐, カスタムフレア(カメラ対応), 全方位ミラー, パズル風ランダム, 芒星(魔法陣), 少々ぼかし, ランダム単色化"
+    },
+    {
+      "url": "https://bowlroll.net/file/3777",
+      "developer": "さつき",
+      "description": "スクリプトの例: AviUtlスクリプト一式"
+    },
+    {
+      "url": "https://www.nicovideo.jp/user/26576669/mylist/37628454",
+      "developer": "UndoFish",
+      "description": "スクリプトの例: トラックバー対応イージングスクリプト 2020版, イージング対応動画オブジェクト, 可変移動量指定, 動画ループ, カウントアップテキストもどき, 移動軌跡マスク, 最終フレームを描画, EXO作成＿顔追跡入り, EXO生成スクリプト（輪郭Trackingラインなど）, 曲げスクリプト, クレヨン, 文字用 輪郭追跡, 9grid(四辺の枠を保って拡大), Eなし位置固定_拡大クリッピング"
+    },
+    {
+      "url": "https://www.nicovideo.jp/series/138505",
+      "developer": "ウサギ",
+      "description": "スクリプトの例: カバー付ワイプ, 展開for出力プラグイン, シャッフルレター, 角付き丸吹き出し, 簡易水玉, 丸付折線テキスト, カバー画像付ワイプ"
+    }
+  ],
+  "scripts": [
+    {
+      "match": ["https://github.com/Aodaruma/Aodaruma-AviUtl-Script/releases*"],
+      "folder": "aodaruma",
+      "developer": "Aodaruma",
+      "dependencies": ["rikky/rikkyModuleMemory|rikky/rikkyModule2"]
+    },
+    {
+      "match": [
+        "https://github.com/Aodaruma/Aodaruma-AviUtl-Script/releases*/3DObject.zip*"
+      ],
+      "folder": "aodaruma",
+      "developer": "Aodaruma",
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2",
+        "respectrum93/oldScripts"
+      ]
+    },
+    {
+      "match": ["http://auls.client.jp/*"],
+      "folder": "auls",
+      "developer": "yu_noimage_",
+      "dependencies": []
+    },
+    {
+      "match": ["http://auls.client.jp/script/auls_zbuffer.zip*"],
+      "folder": "auls",
+      "developer": "yu_noimage_",
+      "dependencies": ["ePi/aulsMemref"]
+    },
+    {
+      "match": [
+        "https://drive.google.com/drive/folders/1axN8BDCSGY3w1YaeUgZ4TjlU7MzwRoGI*"
+      ],
+      "folder": "gometh",
+      "developer": "gometh",
+      "dependencies": [
+        "ePi/LuaJIT",
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2"
+      ]
+    },
+    {
+      "match": ["*麻雀牌スクリプト*.zip*"],
+      "folder": "麻雀牌",
+      "developer": "gometh",
+      "dependencies": ["rikky/rikkyModuleMemory|rikky/rikkyModule2"]
+    },
+    {
+      "match": ["https://twitter.com/i/moments/950334056461344768*"],
+      "folder": "kaisatsu",
+      "developer": "kaisatsu",
+      "dependencies": []
+    },
+    {
+      "match": ["https://github.com/karoterra/aviutl-scripts*"],
+      "folder": "karoterra",
+      "developer": "karoterra",
+      "dependencies": []
+    },
+    {
+      "match": ["http://niconicotetu.web.fc2.com/download_page.html*"],
+      "folder": "tetu",
+      "developer": "テツ",
+      "dependencies": []
+    },
+    {
+      "match": ["https://tim3.web.fc2.com/sidx.htm*"],
+      "folder": "tim",
+      "developer": "ティム",
+      "dependencies": []
+    },
+    {
+      "match": [
+        "https://www.dropbox.com/sh/u73uud29hcxlply/AABH9ZhzL1P1kX-bWrL4asdDa*"
+      ],
+      "folder": "respectrum93",
+      "developer": "Respectrum93",
+      "dependencies": []
+    },
+    {
+      "match": ["*old_script_etc*.zip*"],
+      "redirect": "respectrum93/oldScripts"
+    },
+    {
+      "match": ["https://hazumurhythm.com/wev/amazon/?*search=rikky*"],
+      "folder": "rikky",
+      "developer": "rikky",
+      "dependencies": ["rikky/rikkyModuleMemory|rikky/rikkyModule2"]
+    },
+    {
+      "match": ["*fan_clipping*.zip*"],
+      "redirect": "rikky/fanClipping"
+    },
+    {
+      "match": ["*ロール巻取(ページめくり)*.zip*"],
+      "redirect": "rikky/roll"
+    },
+    {
+      "match": ["*パーツ分割*.zip*"],
+      "redirect": "rikky/separate1|rikky/separate2"
+    },
+    {
+      "match": ["*立体化(R)*.zip*"],
+      "redirect": "rikky/dimensionize1|rikky/dimensionize2"
+    },
+    {
+      "match": ["https://bowlroll.net/file/3777*"],
+      "redirect": "satsuki/satsuki"
+    },
+    {
+      "match": ["https://www.nicovideo.jp/user/26576669/mylist/37628454*"],
+      "folder": "undofish",
+      "developer": "UndoFish",
+      "dependencies": []
+    },
+    {
+      "match": ["*easing_tra_2020*.zip*"],
+      "redirect": "UndoFish/easingTra2020"
+    },
+    {
+      "match": [
+        "https://z9z.sakura.ne.jp/box/aviutl/*",
+        "http://takeshima.halfmoon.jp/room/aviutl*"
+      ],
+      "folder": "usagi",
+      "developer": "ウサギ",
+      "dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "definitions": {
+    "program": {
+      "type": "object",
+      "description": "AviUtl or Exedit",
+      "properties": {
+        "latestVersion": {
+          "type": "string",
+          "description": "The latest version of the program"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "filename": {
+                "type": "string",
+                "description": "The name of the file used in the program"
+              },
+              "isUninstallOnly": {
+                "type": "boolean",
+                "description": "Whether it is optional during installation (Default: false)"
+              },
+              "isInstallOnly": {
+                "type": "boolean",
+                "description": "Whether the file is a non-uninstallable file (Default: false)"
+              },
+              "isDirectory": {
+                "type": "boolean",
+                "description": "Whether it is a directory (Default: false)"
+              },
+              "archivePath": {
+                "type": "string",
+                "description": "The relative path of the file in the archive (Default: null)"
+              }
+            },
+            "required": ["filename"],
+            "additionalProperties": false
+          }
+        },
+        "releases": {
+          "type": "array",
+          "description": "Releases of the program",
+          "items": {
+            "type": "object",
+            "properties": {
+              "version": {
+                "type": "string",
+                "description": "The version of the release"
+              },
+              "url": {
+                "type": "string",
+                "description": "The URL of the released archive"
+              },
+              "integrity": {
+                "type": "object",
+                "properties": {
+                  "archive": {
+                    "type": "string",
+                    "pattern": "^sha(256|384|512)-([A-Za-z0-9+/]{4})*([A-Za-z0-9+/]{3}=|[A-Za-z0-9+/]{2}==)?$"
+                  },
+                  "file": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "target": {
+                          "type": "string"
+                        },
+                        "hash": {
+                          "type": "string",
+                          "pattern": "^sha(256|384|512)-([A-Za-z0-9+/]{4})*([A-Za-z0-9+/]{3}=|[A-Za-z0-9+/]{2}==)?$"
+                        }
+                      },
+                      "required": ["target", "hash"],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": ["archive", "file"],
+                "additionalProperties": false
+              }
+            },
+            "required": ["version", "url", "integrity"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["latestVersion", "files", "releases"],
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "aviutl": {
+      "$ref": "#/definitions/program"
+    },
+    "exedit": {
+      "$ref": "#/definitions/program"
+    }
+  },
+  "required": ["version", "aviutl", "exedit"],
+  "additionalProperties": false
+}

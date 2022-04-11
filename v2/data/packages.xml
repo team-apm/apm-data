@@ -956,7 +956,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-OptimizeEditBox</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-OptimizeEditBox/releases/latest</downloadURL>
-		<latestVersion>7.1.0</latestVersion>
+		<latestVersion>7.1.1</latestVersion>
 		<files>
 			<file>plugins/OptimizeEditBox.auf</file>
 			<file>plugins/OptimizeEditBox.ini</file>

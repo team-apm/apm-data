@@ -98,7 +98,7 @@ export interface Packages {
        */
       isDirectory?: boolean;
       /**
-       * WThe relative path of the file in the archive (Default: null)
+       * The relative path of the file in the archive (Default: null)
        */
       archivePath?: string;
       /**

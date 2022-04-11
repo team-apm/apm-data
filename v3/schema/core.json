@@ -24,13 +24,16 @@
                 "description": "Whether it is optional during installation (Default: false)"
               },
               "isInstallOnly": {
-                "type": "boolean"
+                "type": "boolean",
+                "description": "Whether the file is a non-uninstallable file (Default: false)"
               },
               "isDirectory": {
-                "type": "boolean"
+                "type": "boolean",
+                "description": "Whether it is a directory (Default: false)"
               },
               "archivePath": {
-                "type": "string"
+                "type": "string",
+                "description": "The relative path of the file in the archive (Default: null)"
               }
             },
             "required": ["filename"],
@@ -60,7 +63,6 @@
                   },
                   "file": {
                     "type": "array",
-                    "description": "Releases of the program",
                     "items": {
                       "type": "object",
                       "properties": {

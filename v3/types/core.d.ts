@@ -27,8 +27,17 @@ export interface Program {
      * Whether it is optional during installation (Default: false)
      */
     isUninstallOnly?: boolean;
+    /**
+     * Whether the file is a non-uninstallable file (Default: false)
+     */
     isInstallOnly?: boolean;
+    /**
+     * Whether it is a directory (Default: false)
+     */
     isDirectory?: boolean;
+    /**
+     * The relative path of the file in the archive (Default: null)
+     */
     archivePath?: string;
   }[];
   /**
@@ -45,9 +54,6 @@ export interface Program {
     url: string;
     integrity: {
       archive: string;
-      /**
-       * Releases of the program
-       */
       file: {
         target: string;
         hash: string;

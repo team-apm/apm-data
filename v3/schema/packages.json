@@ -121,7 +121,7 @@
                 },
                 "archivePath": {
                   "type": "string",
-                  "description": "WThe relative path of the file in the archive (Default: null)"
+                  "description": "The relative path of the file in the archive (Default: null)"
                 },
                 "isObsolete": {
                   "type": "boolean",

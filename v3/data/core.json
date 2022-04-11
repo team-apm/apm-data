@@ -1,4 +1,5 @@
 {
+  "version": 3,
   "aviutl": {
     "files": [
       { "filename": "aviutl.exe" },
@@ -83,6 +84,5 @@
         }
       }
     ]
-  },
-  "version": 3
+  }
 }

@@ -892,7 +892,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>3.1.0</latestVersion>
+		<latestVersion>3.2.0</latestVersion>
 		<files>
 			<file>aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -927,9 +927,10 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DragFilter</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest</downloadURL>
-		<latestVersion>8.0.0</latestVersion>
+		<latestVersion>9.0.0</latestVersion>
 		<files>
 			<file>plugins/DragFilter.auf</file>
+			<file>plugins/DragFilter.ini</file>
 		</files>
 		<releases>
 			<release version="1.0.0">

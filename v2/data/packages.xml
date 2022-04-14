@@ -930,6 +930,7 @@
 		<latestVersion>9.0.0</latestVersion>
 		<files>
 			<file>plugins/DragFilter.auf</file>
+			<file>plugins/DragFilter.ini</file>
 		</files>
 		<releases>
 			<release version="1.0.0">

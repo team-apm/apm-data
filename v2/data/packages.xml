@@ -808,10 +808,11 @@
 			<dependency>exedit0.92</dependency>
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
-		<downloadURL>https://scrapbox.io/ePi5131/patch.aul</downloadURL>
-		<latestVersion>r14</latestVersion>
+		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
+		<latestVersion>r19</latestVersion>
 		<files>
 			<file>patch.aul</file>
+			<file optional="true">patch.aul.json</file>
 			<file obsolete="true">plugins/patch.aul</file>
 			<file optional="true">plugins/patch.aul.json</file>
 		</files>
@@ -819,7 +820,7 @@
 			<release version="r8">
 				<integrities>
 					<integrity
-						target="plugins/patch.aul"
+						target="patch.aul"
 					>sha384-Y5+kwXflyU0gp355bol79vADMCZVIZz0yV8mcPXB0lLxNRLxEzqfOJM8BpU1Td9Y</integrity>
 				</integrities>
 			</release>
@@ -828,7 +829,7 @@
 				>sha384-7cWPCn0miWYLWiAcIEVyDkZFidAPTZQQzMPRHsgaoUWIL7v2x3N+L96L+tjm4BAO</archiveIntegrity>
 				<integrities>
 					<integrity
-						target="plugins/patch.aul"
+						target="patch.aul"
 					>sha384-6W9VOV37w21UVMqBX2ItjSbTWarxkXg/DoQUjJpQaLpJRtIt8+itur5Vm3Q6wwOu</integrity>
 				</integrities>
 			</release>
@@ -837,8 +838,17 @@
 				>sha384-F12wUu5o4f0Q4x7j86plKB7v1xNxB8EOKPXdJnHLnr+liunQN2CN8ViLvSUR6ohZ</archiveIntegrity>
 				<integrities>
 					<integrity
-						target="plugins/patch.aul"
+						target="patch.aul"
 					>sha384-tPCOyr4p2z/P+/eiuCz2ItcGoMGhBQRM43+jCheRLNzse9P4VCYz7TJiCGl1IaZX</integrity>
+				</integrities>
+			</release>
+			<release version="r19">
+				<archiveIntegrity
+				>sha384-5+jMRlIpcax35H+fO4LOiCGT9Aul9ojWmAwe/Dlx/1rCNxRHD+/EQl+2Va4MmG6/</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-CbHLDY6VKlgWNQPE04LkX0DeyMJBiD/Q+Ma744JSanagv8439iURG/Ldvu050ul5</integrity>
 				</integrities>
 			</release>
 		</releases>

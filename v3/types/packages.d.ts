@@ -49,13 +49,9 @@ export interface Packages {
      */
     pageURL: string;
     /**
-     * The URL of the package download page
+     * The URLs of the package download page
      */
-    downloadURL: string;
-    /**
-     * The URL of the mirror of the package download page
-     */
-    downloadMirrorURL?: string;
+    downloadURLs: [string, ...string[]];
     /**
      * URL to be used for the batch install feature
      */

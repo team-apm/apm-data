@@ -63,15 +63,14 @@
             "pattern": "^https?:\\/\\/",
             "description": "The URL of the package introduction page"
           },
-          "downloadURL": {
-            "type": "string",
-            "pattern": "^https?:\\/\\/",
-            "description": "The URL of the package download page"
-          },
-          "downloadMirrorURL": {
-            "type": "string",
-            "pattern": "^https?:\\/\\/",
-            "description": "The URL of the mirror of the package download page"
+          "downloadURLs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^https?:\\/\\/"
+            },
+            "minItems": 1,
+            "description": "The URLs of the package download page"
           },
           "directURL": {
             "type": "string",
@@ -182,7 +181,7 @@
           "description",
           "developer",
           "pageURL",
-          "downloadURL",
+          "downloadURLs",
           "latestVersion",
           "files"
         ],

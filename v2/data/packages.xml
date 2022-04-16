@@ -1857,7 +1857,7 @@
 		<pageURL>https://github.com/oov/aviutl_textassist</pageURL>
 		<downloadURL
 		>https://github.com/oov/aviutl_textassist/releases/latest</downloadURL>
-		<latestVersion>v0.3.3</latestVersion>
+		<latestVersion>v0.3.4</latestVersion>
 		<files>
 			<file>textassist.auf</file>
 		</files>

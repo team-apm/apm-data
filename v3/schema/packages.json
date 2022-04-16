@@ -69,6 +69,7 @@
               "type": "string",
               "pattern": "^https?:\\/\\/"
             },
+            "minItems": 1,
             "description": "The URLs of the package download page"
           },
           "directURL": {

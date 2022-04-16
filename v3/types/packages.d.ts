@@ -51,7 +51,7 @@ export interface Packages {
     /**
      * The URLs of the package download page
      */
-    downloadURLs?: string[];
+    downloadURLs: [string, ...string[]];
     /**
      * URL to be used for the batch install feature
      */

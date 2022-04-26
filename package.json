@@ -9,7 +9,7 @@
     "lint": "run-s lint:prettier lint:eslint lint:jsonschema",
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint --fix-dry-run .",
-    "lint:jsonschema": "ajv -s node_modules/apm-schema/v3/schema/core.json -d v3/data/core.json && ajv -s node_modules/apm-schema/v3/schema/packages.json -d v3/data/packages.json && ajv -s node_modules/apm-schema/v3/schema/scripts.json -d v3/data/scripts.json",
+    "lint:jsonschema": "ajv -s node_modules/apm-schema/v3/schema/core.json -d v3/core.json && ajv -s node_modules/apm-schema/v3/schema/packages.json -d v3/packages.json && ajv -s node_modules/apm-schema/v3/schema/scripts.json -d v3/scripts.json",
     "fix": "run-s fix:prettier fix:eslint",
     "fix:prettier": "prettier --write .",
     "fix:eslint": "eslint --fix .",

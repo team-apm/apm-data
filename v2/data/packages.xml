@@ -2092,8 +2092,10 @@
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-25.html</pageURL>
 		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rpA_zeixfUoylnZ9K</downloadURL>
+		<!--This URL requires permission.
 		<downloadMirrorURL
 		>https://drive.google.com/drive/folders/0BzA4dIFteM2dQjgwZkhtWUN6Zjg?usp=sharing</downloadMirrorURL>
+		-->
 		<latestVersion>0.02</latestVersion>
 		<files>
 			<file archivePath="AviutlColor_0.02">plugins/color_bt2020nc.auc</file>
@@ -2149,17 +2151,14 @@
 		>ffmpeg.exeやavconv.exeを使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-13.html</pageURL>
-		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rgxZaOQeLAW2MZeZF</downloadURL>
-		<downloadMirrorURL
-		>https://drive.google.com/folderview?id=0BzA4dIFteM2dQzFoTUlNR2xiaTg&amp;usp=sharing</downloadMirrorURL>
-		<latestVersion>0.10</latestVersion>
+		<downloadURL>https://github.com/rigaya/ffmpegOut/releases/latest</downloadURL>
+		<latestVersion>1.00</latestVersion>
 		<files>
-			<file archivePath="ffmpegOut_0.10/auo">plugins/ffmpegOut.auo</file>
-			<file archivePath="ffmpegOut_0.10/auo">plugins/ffmpegOut.ini</file>
-			<file
-				archivePath="ffmpegOut_0.10/auo"
-				directory="true"
-			>plugins/ffmpegOut_stg</file>
+			<file archivePath="plugins">plugins/ffmpegOut.auo</file>
+			<file archivePath="plugins">plugins/ffmpegOut.ini</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/ffmpegOut_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
 		</files>
 		<releases>
 			<release version="0.10">
@@ -2169,6 +2168,15 @@
 					<integrity
 						target="plugins/ffmpegOut.auo"
 					>sha384-wOUpuUYb6Rh0HPi3ycpFaNwKxCEgfoQYgg9z3fNZ1LdDrr9MVcg47T5B0iqQiui9</integrity>
+				</integrities>
+			</release>
+			<release version="1.00">
+				<archiveIntegrity
+				>sha384-7kfgxgORTvI+EA+HFlxPpGcC94yZKvLfHBHv8HDyBQ3zaLRhYKVSFSk2JoA++H2A</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ffmpegOut.auo"
+					>sha384-xsm3y7kOYBJ7W9Uuv+gsIcEUaf+dtm2UKqyZ/h2YA5LBYzMVZlY25mqJBwfQFOGl</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2182,18 +2190,16 @@
 		>NVIDIAのNVEncを使用してエンコードを行うAviutlの出力プラグインです。NVEncによるハードウェア高速エンコードを目指します。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-17.html</pageURL>
-		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rkXXAkmy0xayDLSFY</downloadURL>
-		<downloadMirrorURL
-		>https://drive.google.com/folderview?id=0BzA4dIFteM2dS1ZUT1FjTnF3Q0E&amp;usp=sharing</downloadMirrorURL>
-		<latestVersion>5.42</latestVersion>
-		<installer>auo_setup.exe</installer>
-		<installArg>-dir "$instpath" -autorun</installArg>
+		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
+		<latestVersion>6.00</latestVersion>
 		<files>
-			<file directory="true">exe_files/NVEncC</file>
-			<file directory="true">plugins/NVEnc_stg</file>
-			<file>plugins/NVEnc.auo</file>
-			<file>plugins/NVEnc.conf</file>
-			<file>plugins/NVEnc.ini</file>
+			<file archivePath="plugins">plugins/NVEnc.auo</file>
+			<file archivePath="plugins">plugins/NVEnc.ini</file>
+			<file archivePath="plugins" optional="true">plugins/NVEnc.conf</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/NVEnc_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
+			<file directory="true" optional="true">exe_files/NVEncC</file>
 		</files>
 		<releases>
 			<release version="5.42">
@@ -2203,6 +2209,15 @@
 					<integrity
 						target="plugins/NVEnc.auo"
 					>sha384-ACFEiDl87pYv1VGq2gvKtL3izDBFHvY878WtMJjsdtrLpCqoXYWbbaXXZGlnvqmz</integrity>
+				</integrities>
+			</release>
+			<release version="6.00">
+				<archiveIntegrity
+				>sha384-wST4X1zHU0nocsTJolZ5BkS87AogU4jsQuWpw1WjmcfVNWYngCg73WE2zjodznRH</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/NVEnc.auo"
+					>sha384-DCTCTINHSqic1Er/hwBdGjr+93W5kTK5VQl3ZexKLdtZLETRwDVh3KwNqefo2WNC</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2216,18 +2231,16 @@
 		>Intel Media SDKを使用してエンコードを行うAviutlの出力プラグインです。QuickSyncVideoによるハードウェア高速エンコードを目指します。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-10.html</pageURL>
-		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rg2IR1eU0eCrzar_a</downloadURL>
-		<downloadMirrorURL
-		>https://drive.google.com/folderview?id=0BzA4dIFteM2dVGZ5dE5lSE5mYVk&amp;usp=sharing</downloadMirrorURL>
-		<latestVersion>6.08</latestVersion>
-		<installer>auo_setup.exe</installer>
-		<installArg>-dir "$instpath" -autorun</installArg>
+		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
+		<latestVersion>7.01</latestVersion>
 		<files>
-			<file directory="true">exe_files/QSVEncC</file>
-			<file directory="true">plugins/QSVEnc_stg</file>
-			<file>plugins/QSVEnc.auo</file>
-			<file>plugins/QSVEnc.conf</file>
-			<file>plugins/QSVEnc.ini</file>
+			<file archivePath="plugins">plugins/QSVEnc.auo</file>
+			<file archivePath="plugins">plugins/QSVEnc.ini</file>
+			<file archivePath="plugins" optional="true">plugins/QSVEnc.conf</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/QSVEnc_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
+			<file directory="true" optional="true">exe_files/QSVEncC</file>
 		</files>
 		<releases>
 			<release version="6.08">
@@ -2235,8 +2248,17 @@
 				>sha384-5FMrX54f6s1eThdjN80tLgyxjQPTGR7JMB/mbiBqOTMgID30hKF2RV4PWY6OAARz</archiveIntegrity>
 				<integrities>
 					<integrity
-						target="Fplugins/QSVEnc.auo"
+						target="plugins/QSVEnc.auo"
 					>sha384-0CPgLel6+2S9RQKc+KlDi8KletchmooZURxqvW10HMgaGaHtWcAQnlVJFvE0C492</integrity>
+				</integrities>
+			</release>
+			<release version="7.01">
+				<archiveIntegrity
+				>sha384-C9yVRBCKrJrXZMffnO0KmncUIsnIEQfGb9w3/pHHc17wGCMvfzYPcwbPwlT2AERR</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-caZN/aFwpQJW/jkNjlmIQLUEN+HXxQoxYziOiXeWyzaIIjCQz+145q5t9WXPaVSy</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2288,14 +2310,22 @@
 		<developer>rigaya</developer>
 		<originalDeveloper>エモリ, スレ48≫989</originalDeveloper>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-18.html</pageURL>
-		<downloadURL
-		>https://drive.google.com/folderview?id=0BzA4dIFteM2dd2NtMWhCTVlLVlE&amp;usp=sharing</downloadURL>
-		<downloadMirrorURL
-		>https://1drv.ms/f/s!AsYziax1Q91rkk8-E-D2vnTHf2nx</downloadMirrorURL>
-		<latestVersion>+6</latestVersion>
+		<downloadURL>https://github.com/rigaya/pmd_mt/releases/latest</downloadURL>
+		<latestVersion>+7</latestVersion>
 		<files>
-			<file archivePath="pmd_mt+6">plugins/pmd_mt.auf</file>
+			<file>plugins/pmd_mt.auf</file>
 		</files>
+		<releases>
+			<release version="+7">
+				<archiveIntegrity
+				>sha384-NUyICEn5FRm8uff1IgAL2IS6W8Q8hf72cykclDllCuEcrM+V8Nr1uvR7oQ8xfAmU</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/pmd_mt.auf"
+					>sha384-RsWp5Y2AEvBlc4sXbZurdJt22PS5GonAbz2bRWMnKYjG/xUhhdTM2cp7FtGglH33</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -2306,18 +2336,30 @@
 		>SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-28.html</pageURL>
-		<downloadURL
-		>https://drive.google.com/drive/folders/1G3vOBXVrL9H7a2M5cvqTC09C6LfMdglF?usp=sharing</downloadURL>
-		<downloadMirrorURL
-		>https://1drv.ms/u/s!AsYziax1Q91rtm3SrZNkNI1RGfZW?e=49ueTU</downloadMirrorURL>
-		<latestVersion>0.05</latestVersion>
+		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
+		<latestVersion>1.01</latestVersion>
 		<files>
-			<file
-				archivePath="svtAV1guiEx_0.05/exe_files"
-			>exe_files/SvtAv1EncApp_0.8.7+11.exe</file>
-			<file archivePath="svtAV1guiEx_0.05/auo">plugins/svtAV1guiEx.auo</file>
-			<file archivePath="svtAV1guiEx_0.05/auo">plugins/svtAV1guiEx.ini</file>
+			<file archivePath="plugins">plugins/svtAV1guiEx.auo</file>
+			<file archivePath="plugins">plugins/svtAV1guiEx.ini</file>
+			<file archivePath="plugins" optional="true">plugins/svtAV1guiEx.conf</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/svtAV1guiEx_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
+			<file optional="true">exe_files/SvtAv1EncApp_1.0.0-rc2-1_x64.exe</file>
+			<file optional="true">exe_files/ffmpeg_audenc.exe</file>
+			<file optional="true">exe_files/mp4box.exe</file>
 		</files>
+		<releases>
+			<release version="1.01">
+				<archiveIntegrity
+				>sha384-DrmlvGM0YCIDy4ZJQFtZ3nDO/VAiOIDeTcwODKuqVWAeUD/fo1re3QUFg5Xlqmxi</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>
@@ -2336,11 +2378,11 @@
 		<installer>auo_setup.exe</installer>
 		<installArg>-dir "$instpath" -autorun</installArg>
 		<files>
-			<file directory="true">exe_files/VCEEncC</file>
-			<file directory="true">plugins/VCEEnc_stg</file>
 			<file>plugins/VCEEnc.auo</file>
-			<file>plugins/VCEEnc.conf</file>
 			<file>plugins/VCEEnc.ini</file>
+			<file>plugins/VCEEnc.conf</file>
+			<file directory="true">plugins/VCEEnc_stg</file>
+			<file directory="true">exe_files/VCEEncC</file>
 		</files>
 		<releases>
 			<release version="6.17">
@@ -2363,24 +2405,17 @@
 		>拡張x264出力(GUI)Ex(x264guiEx)は、x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-5.html</pageURL>
-		<downloadURL>https://1drv.ms/f/s!AsYziax1Q91rgwli2WZ_vq8YjCdI</downloadURL>
-		<downloadMirrorURL
-		>https://drive.google.com/drive/folders/0BzA4dIFteM2dOWhmTXA3bE9WaWs?usp=sharing</downloadMirrorURL>
-		<latestVersion>2.68</latestVersion>
-		<installer>auo_setup.exe</installer>
-		<installArg>-dir "$instpath" -autorun</installArg>
+		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
+		<latestVersion>3.05</latestVersion>
 		<files>
-			<file>plugins/x264guiEx.auo</file>
-			<file>plugins/x264guiEx.conf</file>
-			<file>plugins/x264guiEx.ini</file>
-			<file>exe_files/boxdumper.exe</file>
-			<file>exe_files/ffmpeg_audenc.exe</file>
-			<file>exe_files/muxer.exe</file>
-			<file>exe_files/remuxer.exe</file>
-			<file>exe_files/timelineeditor.exe</file>
-			<file optional="true">exe_files/x264_3065_x64.exe</file>
-			<file optional="true">exe_files/x264_3075_x64.exe</file>
-			<file directory="true">plugins/x264guiEx_stg</file>
+			<file archivePath="plugins">plugins/x264guiEx.auo</file>
+			<file archivePath="plugins">plugins/x264guiEx.ini</file>
+			<file archivePath="plugins" optional="true">plugins/x264guiEx.conf</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/x264guiEx_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
+			<file optional="true">exe_files/x264_3094_x64.exe</file>
+			<file optional="true">exe_files/x264_3094_x86.exe</file>
 		</files>
 		<releases>
 			<release version="2.68">
@@ -2390,6 +2425,15 @@
 					<integrity
 						target="plugins/x264guiEx.auo"
 					>sha384-grUy4QgOBHxblkxgnkHGXiyYbLjJjMyXgny4jrGN81vCzX/Fdvuwe8C2np2nsZGQ</integrity>
+				</integrities>
+			</release>
+			<release version="3.05">
+				<archiveIntegrity
+				>sha384-bYoAdHLaf+q1m773ViDztm1dwGSA/xom6glR9fffy0oOOODyqCgYDcmyM7ufD6oF</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-SsxtQ5w05TZFi+d3Hz0DEM0bx5NQK9B94IcrOstg4bqBXRbzU3bBzdci6Ism2owx</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2403,25 +2447,17 @@
 		>拡張x265出力(GUI)Ex(x265guiEx)は、x265を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
 		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-19.html</pageURL>
-		<downloadURL
-		>https://drive.google.com/drive/folders/0BzA4dIFteM2dRkRzWXZMT0lkM2M?usp=sharing</downloadURL>
-		<downloadMirrorURL
-		>https://1drv.ms/f/s!AsYziax1Q91rhiHTWVMtfNFgG9GQ</downloadMirrorURL>
-		<latestVersion>3.102</latestVersion>
-		<installer>auo_setup.exe</installer>
-		<installArg>-dir "$instpath" -autorun</installArg>
+		<downloadURL>https://github.com/rigaya/x265guiEx/releases/latest</downloadURL>
+		<latestVersion>4.00</latestVersion>
 		<files>
-			<file>plugins/x265guiEx.auo</file>
-			<file>plugins/x265guiEx.conf</file>
-			<file>plugins/x265guiEx.ini</file>
-			<file>exe_files/boxdumper.exe</file>
-			<file>exe_files/ffmpeg_audenc.exe</file>
-			<file>exe_files/muxer.exe</file>
-			<file>exe_files/remuxer.exe</file>
-			<file>exe_files/timelineeditor.exe</file>
-			<file optional="true">exe_files/x265_3.4+19_x64.exe</file>
-			<file optional="true">exe_files/x265_3.5+13_x64.exe</file>
-			<file directory="true">plugins/x265guiEx_stg</file>
+			<file archivePath="plugins">plugins/x265guiEx.auo</file>
+			<file archivePath="plugins">plugins/x265guiEx.ini</file>
+			<file archivePath="plugins" optional="true">plugins/x265guiEx.conf</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/x265guiEx_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
+			<file optional="true">exe_files/x265_3.5+35_x64.exe</file>
+			<file optional="true">exe_files/x265_3.5+35_x86.exe</file>
 		</files>
 		<releases>
 			<release version="3.102">
@@ -2431,6 +2467,15 @@
 					<integrity
 						target="plugins/x265guiEx.auo"
 					>sha384-vHylrjLn+kqGKRpMS8k28RrvJ4LKFZrOanXdgpiB5xPIgq47V+GBbrKy9YJ+EPa9</integrity>
+				</integrities>
+			</release>
+			<release version="4.00">
+				<archiveIntegrity
+				>sha384-90hBDCSF2RAfMyPUk75kpuLvpd2obVU1ArUUxOkQuNSvIfu1ewXrP9btS+70XRtH</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x265guiEx.auo"
+					>sha384-AucRj3yrJG7BQayf6xUaHF1J/COk4ceuegXUxXSxbfVx8BcXAL1JHrDAjaHw0USH</integrity>
 				</integrities>
 			</release>
 		</releases>

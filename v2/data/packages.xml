@@ -2150,7 +2150,7 @@
 		<description
 		>ffmpeg.exeやavconv.exeを使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-13.html</pageURL>
+		<pageURL>https://github.com/rigaya/ffmpegOut#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/ffmpegOut/releases/latest</downloadURL>
 		<latestVersion>1.00</latestVersion>
 		<files>
@@ -2189,7 +2189,7 @@
 		<description
 		>NVIDIAのNVEncを使用してエンコードを行うAviutlの出力プラグインです。NVEncによるハードウェア高速エンコードを目指します。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-17.html</pageURL>
+		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
 		<latestVersion>6.00</latestVersion>
 		<files>
@@ -2230,7 +2230,7 @@
 		<description
 		>Intel Media SDKを使用してエンコードを行うAviutlの出力プラグインです。QuickSyncVideoによるハードウェア高速エンコードを目指します。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-10.html</pageURL>
+		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
 		<latestVersion>7.01</latestVersion>
 		<files>
@@ -2309,7 +2309,7 @@
 		>PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。</description>
 		<developer>rigaya</developer>
 		<originalDeveloper>エモリ, スレ48≫989</originalDeveloper>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-18.html</pageURL>
+		<pageURL>https://github.com/rigaya/pmd_mt#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/pmd_mt/releases/latest</downloadURL>
 		<latestVersion>+7</latestVersion>
 		<files>
@@ -2335,7 +2335,7 @@
 		<description
 		>SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-28.html</pageURL>
+		<pageURL>https://github.com/rigaya/svtAV1guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
 		<latestVersion>1.01</latestVersion>
 		<files>
@@ -2369,20 +2369,17 @@
 		<description
 		>AMDのVCE(VideoCodecEngine)を使用してエンコードを行うAviutlの出力プラグインです。VCEによるハードウェア高速エンコードを目指します。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-12.html</pageURL>
-		<downloadURL
-		>https://drive.google.com/folderview?id=0BzA4dIFteM2dazcxNnYwRXpvNFU&amp;usp=sharing</downloadURL>
-		<downloadMirrorURL
-		>https://1drv.ms/f/s!AsYziax1Q91rhASqkmMeOq-DWHD_</downloadMirrorURL>
-		<latestVersion>6.17</latestVersion>
-		<installer>auo_setup.exe</installer>
-		<installArg>-dir "$instpath" -autorun</installArg>
+		<pageURL>https://github.com/rigaya/VCEEnc#readme</pageURL>
+		<downloadURL>https://github.com/rigaya/VCEEnc/releases/latest</downloadURL>
+		<latestVersion>7.00</latestVersion>
 		<files>
-			<file>plugins/VCEEnc.auo</file>
-			<file>plugins/VCEEnc.ini</file>
-			<file>plugins/VCEEnc.conf</file>
-			<file directory="true">plugins/VCEEnc_stg</file>
-			<file directory="true">exe_files/VCEEncC</file>
+			<file archivePath="plugins">plugins/VCEEnc.auo</file>
+			<file archivePath="plugins">plugins/VCEEnc.ini</file>
+			<file archivePath="plugins" optional="true">plugins/VCEEnc.conf</file>
+			<file archivePath="plugins" installOnly="true">plugins/auo_setup.auf</file>
+			<file archivePath="plugins" directory="true">plugins/VCEEnc_stg</file>
+			<file directory="true" installOnly="true">exe_files</file>
+			<file directory="true" optional="true">exe_files/VCEEncC</file>
 		</files>
 		<releases>
 			<release version="6.17">
@@ -2404,7 +2401,7 @@
 		<description
 		>拡張x264出力(GUI)Ex(x264guiEx)は、x264を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-5.html</pageURL>
+		<pageURL>https://github.com/rigaya/x264guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
 		<latestVersion>3.05</latestVersion>
 		<files>
@@ -2446,7 +2443,7 @@
 		<description
 		>拡張x265出力(GUI)Ex(x265guiEx)は、x265を使用してエンコードを行うAviutlの出力プラグインです。</description>
 		<developer>rigaya</developer>
-		<pageURL>https://rigaya34589.blog.fc2.com/blog-category-19.html</pageURL>
+		<pageURL>https://github.com/rigaya/x265guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x265guiEx/releases/latest</downloadURL>
 		<latestVersion>4.00</latestVersion>
 		<files>

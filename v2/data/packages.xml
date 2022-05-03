@@ -2191,7 +2191,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.00</latestVersion>
+		<latestVersion>6.01</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>
@@ -2337,7 +2337,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/svtAV1guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
-		<latestVersion>1.01</latestVersion>
+		<latestVersion>1.02</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/svtAV1guiEx.auo</file>
 			<file archivePath="plugins">plugins/svtAV1guiEx.ini</file>
@@ -2445,7 +2445,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x265guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x265guiEx/releases/latest</downloadURL>
-		<latestVersion>4.00</latestVersion>
+		<latestVersion>4.01</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x265guiEx.auo</file>
 			<file archivePath="plugins">plugins/x265guiEx.ini</file>

@@ -81,7 +81,19 @@ async function check() {
               repo: dirs[1],
             });
 
-            const latestTag = res.data.tag_name;
+            let latestTag = res.data.tag_name;
+
+            // only for hebiiro's packages
+            if (dirs[0] === 'hebiiro') {
+              const versionArray = latestTag
+                .split('.')
+                .filter((value) => /[0-9]+/.test(value));
+              if (versionArray.length >= 1) {
+                latestTag = versionArray.join('.');
+              } else {
+                throw new Error('A version-like string is not found.');
+              }
+            }
 
             if (latestTag === currentVersion) {
               console.log(chalk.whiteBright(id), chalk.green(currentVersion));
@@ -105,7 +117,7 @@ async function check() {
                 chalk.red('Not Found')
               );
             } else {
-              console.error(e.message);
+              console.error(chalk.red(e.message));
             }
           }
         }

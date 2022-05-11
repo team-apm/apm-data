@@ -869,7 +869,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-AdjustLastFrame</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-AdjustLastFrame/releases/latest</downloadURL>
-		<latestVersion>1.0.3</latestVersion>
+		<latestVersion>2.0.1</latestVersion>
 		<files>
 			<file>plugins/AdjustLastFrame.auf</file>
 			<file>plugins/auls_memref.ini</file>
@@ -902,7 +902,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>3.2.1</latestVersion>
+		<latestVersion>4.1.1</latestVersion>
 		<files>
 			<file>aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>

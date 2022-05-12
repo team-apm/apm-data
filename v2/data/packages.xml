@@ -1289,6 +1289,35 @@
 		</releases>
 	</package>
 
+	<!-- khsk ID:khsk -->
+
+	<package>
+		<id>khsk/LocalFontPlugin</id>
+		<name>LocalFontPlugin</name>
+		<overview>AviUtlにフォントを追加する</overview>
+		<description
+		>AviUtlのFontsディレクトリ内のフォントを一時的に追加するプラグインです。AviUtlをショートカットから起動した場合、このプラグインは機能しません。</description>
+		<developer>khsk</developer>
+		<pageURL>https://qiita.com/khsk/items/997adf671dfae94bb455</pageURL>
+		<downloadURL
+		>https://github.com/khsk/AviUtl-LocalFontPlugin/releases/latest</downloadURL>
+		<latestVersion>v2.0</latestVersion>
+		<files>
+			<file>plugins/localfont.aul</file>
+		</files>
+		<releases>
+			<release version="v2.0">
+				<archiveIntegrity
+				>sha384-X0ntO0/ijbouHneUkp7/Uy9LUXb2Ytob29vyxahUrRYK2mAO8M2Sr50RRREe+5U8</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/localfont.aul"
+					>sha384-MKcUHw90iVYraS2f7a41NRva/ua44zCFgJH9lg5ja5jOGGwKgmSWzNX51sd8hX76</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
 	<!-- Maverick Tse ID:MaverickTse -->
 
 	<package>

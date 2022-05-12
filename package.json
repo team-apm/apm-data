@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@octokit/rest": "^18.12.0",
-    "@prettier/plugin-xml": "^2.1.0",
+    "@prettier/plugin-xml": "^2.2.0",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^2.1.1",
     "apm-schema": "team-apm/apm-schema#v3.1.0",

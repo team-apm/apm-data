@@ -1,0 +1,17 @@
+{
+  "webpage": [
+    {
+      "url": "https://ux.getuploader.com/hanatai_haihu/",
+      "developer": "hanatai001",
+      "description": "スクリプトの例: ピッカピカ加工、斜めクリッピングE、グラデーション縁取り、オブジェクト追従、拡大率ぼかし"
+    }
+  ],
+  "scripts": [
+    {
+      "match": ["https://ux.getuploader.com/hanatai_haihu/download/*"],
+      "folder": "hanatai001",
+      "developer": "hanatai001",
+      "dependencies": []
+    }
+  ]
+}

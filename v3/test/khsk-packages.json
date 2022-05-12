@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "khsk/LocalFontPlugin",
+      "name": "LocalFontPlugin",
+      "overview": "AviUtlにフォントを追加する",
+      "description": "AviUtlのFontsディレクトリ内のフォントを一時的に追加するプラグインです。AviUtlをショートカットから起動した場合、このプラグインは機能しません。",
+      "developer": "khsk",
+      "pageURL": "https://qiita.com/khsk/items/997adf671dfae94bb455",
+      "downloadURLs": [
+        "https://github.com/khsk/AviUtl-LocalFontPlugin/releases/latest"
+      ],
+      "latestVersion": "v2.0",
+      "files": [
+        {
+          "filename": "plugins/localfont.aul"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v2.0",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/localfont.aul",
+                "hash": "sha384-MKcUHw90iVYraS2f7a41NRva/ua44zCFgJH9lg5ja5jOGGwKgmSWzNX51sd8hX76"
+              }
+            ],
+            "archive": "sha384-X0ntO0/ijbouHneUkp7/Uy9LUXb2Ytob29vyxahUrRYK2mAO8M2Sr50RRREe+5U8"
+          }
+        }
+      ]
+    }
+  ]
+}

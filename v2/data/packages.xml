@@ -902,7 +902,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>5.2.0</latestVersion>
+		<latestVersion>5.3.0</latestVersion>
 		<files>
 			<file>aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -1241,7 +1241,7 @@
 		<pageURL>https://github.com/karoterra/aviutl-markdownex</pageURL>
 		<downloadURL
 		>https://github.com/karoterra/aviutl-markdownex/releases/latest</downloadURL>
-		<latestVersion>v0.1.0</latestVersion>
+		<latestVersion>v0.2.0</latestVersion>
 		<files>
 			<file
 				archivePath="aviutl-markdownex-v0.1.0/script/browser"
@@ -1301,7 +1301,7 @@
 		<pageURL>https://qiita.com/khsk/items/997adf671dfae94bb455</pageURL>
 		<downloadURL
 		>https://github.com/khsk/AviUtl-LocalFontPlugin/releases/latest</downloadURL>
-		<latestVersion>v2.0</latestVersion>
+		<latestVersion>v3.0</latestVersion>
 		<files>
 			<file>plugins/localfont.aul</file>
 		</files>
@@ -2220,7 +2220,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.01</latestVersion>
+		<latestVersion>6.02</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>

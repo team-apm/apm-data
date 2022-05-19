@@ -1243,20 +1243,14 @@
 		>https://github.com/karoterra/aviutl-markdownex/releases/latest</downloadURL>
 		<latestVersion>v0.2.0</latestVersion>
 		<files>
+			<file archivePath="script/browser">script/browser/MarkdownEX.anm</file>
+			<file archivePath="script/browser">script/browser/MarkdownEX.exa</file>
+			<file archivePath="script/browser">script/browser/MarkdownEX.obj</file>
 			<file
-				archivePath="aviutl-markdownex-v0.1.0/script/browser"
-			>script/browser/MarkdownEX.anm</file>
-			<file
-				archivePath="aviutl-markdownex-v0.1.0/script/browser"
-			>script/browser/MarkdownEX.exa</file>
-			<file
-				archivePath="aviutl-markdownex-v0.1.0/script/browser"
-			>script/browser/MarkdownEX.obj</file>
-			<file
-				archivePath="aviutl-markdownex-v0.1.0/script/browser/contents"
+				archivePath="script/browser/contents"
 			>script/browser/contents/MarkdownEX-emoji-list.html</file>
 			<file
-				archivePath="aviutl-markdownex-v0.1.0/script/browser/contents"
+				archivePath="script/browser/contents"
 				directory="true"
 			>script/browser/contents/MarkdownEX</file>
 		</files>

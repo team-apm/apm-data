@@ -365,6 +365,12 @@ async function convertPackages(v2ListPath, v3ListPath) {
           newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
 
           // For work in progress
+          for (const package of newV3Data.packages) {
+            if (package.pageURL.startsWith('https://www.nicovideo.jp/watch/'))
+              package.nicommons = RegExp(/(sm|im|nc)[0-9]+/).exec(
+                package.pageURL
+              )[0];
+          }
           if (fs.existsSync(v3ListPath)) {
             const oldV3data = await fs.readJSON(v3ListPath);
             for (const newPackageItem of newV3Data.packages) {

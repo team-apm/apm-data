@@ -1,18 +1,20 @@
 // > yarn sri "C:\path\to\some.file"
 
-const ssri = require('ssri');
-const fs = require('fs-extra');
-const chalk = require('chalk');
-const clipboard = require('clipboardy');
+import { fromStream } from 'ssri';
+import fs from 'fs-extra';
+const { createReadStream } = fs;
+import chalk from 'chalk';
+const { yellowBright, green } = chalk;
+import { write } from 'clipboardy';
 
 async function generate(args) {
-  const readStream = fs.createReadStream(args[0]);
-  const str = await ssri.fromStream(readStream, {
+  const readStream = createReadStream(args[0]);
+  const str = await fromStream(readStream, {
     algorithms: ['sha384'],
   });
-  console.log(chalk.yellowBright(str.toString()));
-  clipboard.write(str.toString());
-  console.log(chalk.green('This hash has been copied in the clipboard!'));
+  console.log(yellowBright(str.toString()));
+  write(str.toString());
+  console.log(green('This hash has been copied in the clipboard!'));
   readStream.destroy();
 }
 

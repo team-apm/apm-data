@@ -53,7 +53,7 @@ function sortArray(array, order) {
   return result;
 }
 
-function sortCore(object) {
+export function sortCore(object) {
   for (const program of ['aviutl', 'exedit']) {
     for (const release of object[program].releases) {
       release.integrity.file = sortArray(
@@ -74,10 +74,10 @@ function sortCore(object) {
   return sort(object, coreOrder);
 }
 
-function sortPackages(object) {
-  for (const package of object.packages) {
-    if ('releases' in package) {
-      for (const release of package.releases) {
+export function sortPackages(object) {
+  for (const packageItem of object.packages) {
+    if ('releases' in packageItem) {
+      for (const release of packageItem.releases) {
         release.integrity.file = sortArray(
           release.integrity.file,
           integrityFileOrder
@@ -85,15 +85,13 @@ function sortPackages(object) {
         release.integrity = sort(release.integrity, integrityOrder);
       }
 
-      package.releases = sortArray(package.releases, releaseOrder);
+      packageItem.releases = sortArray(packageItem.releases, releaseOrder);
     }
 
-    package.files = sortArray(package.files, fileOrder);
+    packageItem.files = sortArray(packageItem.files, fileOrder);
   }
 
   object.packages = sortArray(object.packages, packageOrder);
 
   return sort(object, packagesOrder);
 }
-
-module.exports = { sortCore, sortPackages };

@@ -1,10 +1,12 @@
 // > yarn run check-update
 
-const fs = require('fs-extra');
-const chalk = require('chalk');
-const { XMLParser, XMLValidator, XMLBuilder } = require('fast-xml-parser');
-const prettier = require('prettier');
-const { Octokit } = require('@octokit/rest');
+import fs from 'fs-extra';
+const { readFileSync, writeFileSync } = fs;
+import chalk from 'chalk';
+const { whiteBright, green, yellow, cyanBright, red } = chalk;
+import { XMLParser, XMLValidator, XMLBuilder } from 'fast-xml-parser';
+import { format as _format } from 'prettier';
+import { Octokit } from '@octokit/rest';
 
 // Options
 const exclude = ['oov/PSDToolKit']; // IDs that won't be checked
@@ -20,7 +22,7 @@ function format(string) {
     .replaceAll(/-->\r?\n?\t?<package>/g, '-->\r\n\r\n\t<package>') // Add line break between a comment and `<package>`
     .replaceAll(/<\/package>\r?\n?\t?</g, '</package>\r\n\r\n\t<') // Add line break between `<package>`
     .replaceAll(/\r?\n?\t?<\/packages>/g, '</packages>'); // Remove line break before `</package>`
-  return prettier.format(xml, { parser: 'xml', useTabs: true });
+  return _format(xml, { parser: 'xml', useTabs: true });
 }
 
 const parser = new XMLParser({
@@ -46,7 +48,7 @@ const builder = new XMLBuilder({
 });
 
 async function check() {
-  const packagesXmlData = fs.readFileSync(packagesXmlPath, 'utf-8');
+  const packagesXmlData = readFileSync(packagesXmlPath, 'utf-8');
   if (XMLValidator.validate(packagesXmlData)) {
     const packagesObj = parser.parse(packagesXmlData);
 
@@ -56,10 +58,10 @@ async function check() {
 
     for (const p of packagesObj[2].packages) {
       if ('package' in p) {
-        const package = p.package;
+        const packageItem = p.package;
 
         const getValue = (key) => {
-          return package.find((value) => key in value)[key][0]._;
+          return packageItem.find((value) => key in value)[key][0]._;
         };
 
         const id = getValue('id');
@@ -96,28 +98,24 @@ async function check() {
             }
 
             if (latestTag === currentVersion) {
-              console.log(chalk.whiteBright(id), chalk.green(currentVersion));
+              console.log(whiteBright(id), green(currentVersion));
             } else {
               updateAvailable++;
-              const currentVersionIndex = package.findIndex(
+              const currentVersionIndex = packageItem.findIndex(
                 (value) => 'latestVersion' in value
               );
-              package[currentVersionIndex].latestVersion[0]._ = latestTag;
+              packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
               console.log(
-                chalk.whiteBright(id),
-                chalk.yellow(currentVersion),
-                chalk.cyanBright(latestTag)
+                whiteBright(id),
+                yellow(currentVersion),
+                cyanBright(latestTag)
               );
             }
           } catch (e) {
             if (e.status === 404) {
-              console.error(
-                chalk.whiteBright(id),
-                currentVersion,
-                chalk.red('Not Found')
-              );
+              console.error(whiteBright(id), currentVersion, red('Not Found'));
             } else {
-              console.error(chalk.red(e.message));
+              console.error(red(e.message));
             }
           }
         }
@@ -126,11 +124,11 @@ async function check() {
 
     if (updateAvailable >= 1) {
       const newPackagesXml = builder.build(packagesObj);
-      fs.writeFileSync(packagesXmlPath, format(newPackagesXml), 'utf-8');
+      writeFileSync(packagesXmlPath, format(newPackagesXml), 'utf-8');
 
-      console.log(chalk.green('Updated packages.xml'));
+      console.log(green('Updated packages.xml'));
 
-      const modXmlData = fs.readFileSync(modXmlPath, 'utf-8');
+      const modXmlData = readFileSync(modXmlPath, 'utf-8');
       if (XMLValidator.validate(modXmlData)) {
         const modObj = parser.parse(modXmlData);
 
@@ -152,9 +150,9 @@ async function check() {
         modObj[2].mod[1].packages[0]._ = newModDate;
 
         const newModXml = builder.build(modObj);
-        fs.writeFileSync(modXmlPath, format(newModXml), 'utf-8');
+        writeFileSync(modXmlPath, format(newModXml), 'utf-8');
 
-        console.log(chalk.green('Updated mod.xml'));
+        console.log(green('Updated mod.xml'));
       }
     }
   }

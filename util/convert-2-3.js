@@ -1,12 +1,16 @@
 // > yarn run convert-2-3
 
-const path = require('path');
-const fs = require('fs-extra');
-const { XMLParser, XMLValidator } = require('fast-xml-parser');
-const compareVersions = require('compare-versions');
-const chalk = require('chalk');
-const prettier = require('prettier');
-const sort = require('./sort');
+import { dirname, extname, resolve } from 'path';
+import fs from 'fs-extra';
+const { existsSync, readFile, writeFile, readJSON } = fs;
+import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import compareVersions from 'compare-versions';
+import chalk from 'chalk';
+const { greenBright, red } = chalk;
+import { format } from 'prettier';
+import { sortCore, sortPackages } from './sort.js';
+
+const __dirname = dirname(new URL(import.meta.url).pathname).slice(1);
 
 function compareVersion(firstVersion, secondVersion) {
   if (firstVersion === secondVersion) return 0;
@@ -215,7 +219,7 @@ class PackageInfo {
       }
     }
     const types = this.files.flatMap((f) => {
-      const extention = path.extname(f.filename);
+      const extention = extname(f.filename);
       if (extention in typeForExtention) {
         return [typeForExtention[extention]];
       } else {
@@ -227,8 +231,8 @@ class PackageInfo {
 }
 
 async function convertCore(v2ListPath, v3ListPath) {
-  if (fs.existsSync(v2ListPath)) {
-    const xmlData = await fs.readFile(v2ListPath, 'utf-8');
+  if (existsSync(v2ListPath)) {
+    const xmlData = await readFile(v2ListPath, 'utf-8');
     const valid = XMLValidator.validate(xmlData);
     if (valid === true) {
       const coreInfo = parser.parse(xmlData);
@@ -273,19 +277,19 @@ async function convertCore(v2ListPath, v3ListPath) {
           }
 
           newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
-          newV3Data = sort.sortCore(newV3Data);
+          newV3Data = sortCore(newV3Data);
 
-          await fs.writeFile(
+          await writeFile(
             v3ListPath,
-            prettier.format(JSON.stringify(newV3Data), {
+            format(JSON.stringify(newV3Data), {
               parser: 'json',
               singleQuote: false,
             })
           );
 
-          console.log(chalk.greenBright('Converted core.xml to core.json.'));
+          console.log(greenBright('Converted core.xml to core.json.'));
         } catch (e) {
-          console.error(chalk.red(e));
+          console.error(red(e));
         }
       } else {
         throw new Error('The list is invalid.');
@@ -299,8 +303,8 @@ async function convertCore(v2ListPath, v3ListPath) {
 }
 
 async function convertPackages(v2ListPath, v3ListPath) {
-  if (fs.existsSync(v2ListPath)) {
-    const xmlData = await fs.readFile(v2ListPath, 'utf-8');
+  if (existsSync(v2ListPath)) {
+    const xmlData = await readFile(v2ListPath, 'utf-8');
     const valid = XMLValidator.validate(xmlData);
     if (valid === true) {
       const packagesInfo = parser.parse(xmlData);
@@ -365,14 +369,16 @@ async function convertPackages(v2ListPath, v3ListPath) {
           newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
 
           // For work in progress
-          for (const package of newV3Data.packages) {
-            if (package.pageURL.startsWith('https://www.nicovideo.jp/watch/'))
-              package.nicommons = RegExp(/(sm|im|nc)[0-9]+/).exec(
-                package.pageURL
+          for (const packageItem of newV3Data.packages) {
+            if (
+              packageItem.pageURL.startsWith('https://www.nicovideo.jp/watch/')
+            )
+              packageItem.nicommons = RegExp(/(sm|im|nc)[0-9]+/).exec(
+                packageItem.pageURL
               )[0];
           }
-          if (fs.existsSync(v3ListPath)) {
-            const oldV3data = await fs.readJSON(v3ListPath);
+          if (existsSync(v3ListPath)) {
+            const oldV3data = await readJSON(v3ListPath);
             for (const newPackageItem of newV3Data.packages) {
               const oldPackageItem = oldV3data.packages.find(
                 (p) => p.id === newPackageItem.id
@@ -383,21 +389,19 @@ async function convertPackages(v2ListPath, v3ListPath) {
             }
           }
 
-          newV3Data = sort.sortPackages(newV3Data);
+          newV3Data = sortPackages(newV3Data);
 
-          await fs.writeFile(
+          await writeFile(
             v3ListPath,
-            prettier.format(JSON.stringify(newV3Data), {
+            format(JSON.stringify(newV3Data), {
               parser: 'json',
               singleQuote: false,
             })
           );
 
-          console.log(
-            chalk.greenBright('Converted packages.xml to packages.json.')
-          );
+          console.log(greenBright('Converted packages.xml to packages.json.'));
         } catch (e) {
-          console.error(chalk.red(e));
+          console.error(red(e));
         }
       } else {
         throw new Error('The list is invalid.');
@@ -413,13 +417,13 @@ async function convertPackages(v2ListPath, v3ListPath) {
 const args = process.argv.slice(2);
 
 if (args[0] === '--core') {
-  const input = path.resolve(__dirname, '../v2/data/core.xml');
-  const output = path.resolve(__dirname, '../v3/core.json');
+  const input = resolve(__dirname, '../v2/data/core.xml');
+  const output = resolve(__dirname, '../v3/core.json');
   convertCore(input, output);
 } else if (args[0] === '--packages') {
-  const input = path.resolve(__dirname, '../v2/data/packages.xml');
-  const output = path.resolve(__dirname, '../v3/packages.json');
+  const input = resolve(__dirname, '../v2/data/packages.xml');
+  const output = resolve(__dirname, '../v3/packages.json');
   convertPackages(input, output);
 } else {
-  console.error(chalk.red('There is no args.'));
+  console.error(red('There is no args.'));
 }

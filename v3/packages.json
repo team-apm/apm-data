@@ -15,6 +15,7 @@
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
       "latestVersion": "v1.8",
+      "nicommons": "sm35585310",
       "files": [
         {
           "filename": "plugins/InputPipeMain.exe",
@@ -73,6 +74,7 @@
         "https://github.com/amate/PropertyWindowFixerPlugin/releases/latest"
       ],
       "latestVersion": "v2.6",
+      "nicommons": "sm36085428",
       "files": [
         {
           "filename": "plugins/PropertyWindowFixerPlugin.auf",
@@ -719,6 +721,7 @@
       "pageURL": "https://scrapbox.io/ePi5131/patch.aul",
       "downloadURLs": ["https://github.com/ePi5131/patch.aul/releases/latest"],
       "latestVersion": "r24",
+      "nicommons": "sm39491708",
       "files": [
         { "filename": "patch.aul" },
         { "filename": "patch.aul.json", "isUninstallOnly": true },
@@ -1041,6 +1044,7 @@
         "https://github.com/karoterra/aviutl_WaveformPreview/releases/latest"
       ],
       "latestVersion": "v0.3.0",
+      "nicommons": "sm39258128",
       "files": [
         {
           "filename": "plugins/WaveformPreview.auf",
@@ -1063,6 +1067,7 @@
         "https://github.com/karoterra/aviutl-Bend/releases/latest"
       ],
       "latestVersion": "v1.0.0",
+      "nicommons": "sm39711773",
       "files": [
         { "filename": "script/karoterra/@曲げKR.anm" },
         { "filename": "script/karoterra/KaroterraBend.lua" }
@@ -1097,6 +1102,7 @@
         "https://github.com/karoterra/aviutl-DynamicPolygon/releases/latest"
       ],
       "latestVersion": "v1.0.2",
+      "nicommons": "sm38752367",
       "files": [
         { "filename": "script/karoterra/KaroterraDynamicPolygon.dll" },
         { "filename": "script/karoterra/動く多角形ベース.obj" },
@@ -1136,6 +1142,7 @@
         "https://github.com/karoterra/aviutl-OilPainting/releases/latest"
       ],
       "latestVersion": "v1.0.1",
+      "nicommons": "sm39051118",
       "files": [
         { "filename": "script/karoterra/KaroterraOilPainting.dll" },
         { "filename": "script/karoterra/油絵.anm" }
@@ -1171,6 +1178,7 @@
         "https://github.com/karoterra/aviutl-markdownex/releases/latest"
       ],
       "latestVersion": "v0.2.0",
+      "nicommons": "sm38814110",
       "files": [
         {
           "filename": "script/browser/MarkdownEX.anm",
@@ -1258,6 +1266,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm24236552",
       "downloadURLs": ["https://onedrive.live.com/?id=26840CDF9818EB8E%21391"],
       "latestVersion": "v0.51 beta",
+      "nicommons": "sm24236552",
       "files": [
         { "filename": "AForge.dll", "archivePath": "AGifExportPack" },
         { "filename": "AForge.Imaging.dll", "archivePath": "AGifExportPack" },
@@ -1303,6 +1312,7 @@
       "pageURL": "https://aviutl.info/motiontracking/",
       "downloadURLs": ["https://onedrive.live.com/?id=26840CDF9818EB8E%21434"],
       "latestVersion": "2014/11/17",
+      "nicommons": "sm24953465",
       "files": [
         {
           "filename": "plugins/haarcascade_profileface.xml",
@@ -1472,6 +1482,7 @@
         "https://drive.google.com/drive/folders/11whtRpnaNEzp-_VkORZpmHoqj5yfPrgD"
       ],
       "latestVersion": "v2.7",
+      "nicommons": "sm39263447",
       "files": [{ "filename": "plugins/Redo.auf" }],
       "releases": [
         {
@@ -1500,6 +1511,7 @@
         "https://drive.google.com/drive/folders/1tg-kZSw6m3d5MLeKuA95UB8Kv_H2uoT5"
       ],
       "latestVersion": "v2.7rt",
+      "nicommons": "sm39263447",
       "files": [{ "filename": "plugins/Redo.auf" }],
       "releases": [
         {
@@ -1553,6 +1565,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm38772089",
       "downloadURLs": ["https://github.com/oov/aviutl_browser/releases/latest"],
       "latestVersion": "v0.4.1",
+      "nicommons": "sm38772089",
       "files": [
         {
           "filename": "script/browser/exe",
@@ -1632,6 +1645,7 @@
         "https://github.com/oov/aviutl_browser_minecraft_skin/releases/latest"
       ],
       "latestVersion": "v1.0",
+      "nicommons": "sm38836771",
       "files": [
         {
           "filename": "script/browser/@マイクラスキン.anm",
@@ -1669,6 +1683,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm37598954",
       "downloadURLs": ["https://github.com/oov/aviutl_cachetext/releases"],
       "latestVersion": "v0.8",
+      "nicommons": "sm37598954",
       "files": [
         { "filename": "キャッシュテキスト.exa" },
         { "filename": "script/CacheText.lua", "archivePath": "script" },
@@ -1686,6 +1701,7 @@
         "https://github.com/oov/aviutl_gcmzdrops/releases/latest"
       ],
       "latestVersion": "v0.3.25",
+      "nicommons": "sm33020019",
       "files": [
         { "filename": "GCMZDrops", "isDirectory": true },
         { "filename": "GCMZDrops.auf" }
@@ -1713,6 +1729,7 @@
         "https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing"
       ],
       "latestVersion": "v0.1",
+      "nicommons": "sm34877728",
       "files": [{ "filename": "plugins/loudness.auf" }]
     },
     {
@@ -1735,6 +1752,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm32904901",
       "downloadURLs": ["https://github.com/oov/aviutl_psdtoolkit/releases"],
       "latestVersion": "v0.2beta56",
+      "nicommons": "sm32904901",
       "files": [
         { "filename": "PSDToolKit.auf" },
         { "filename": "AudioMixer.auf" },
@@ -1822,6 +1840,7 @@
         "https://github.com/oov/aviutl_relmoviehandle/releases/latest"
       ],
       "latestVersion": "v1.1",
+      "nicommons": "sm32989880",
       "files": [{ "filename": "RelMovieHandle.auf" }]
     },
     {
@@ -1835,6 +1854,7 @@
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
       "latestVersion": "v0.3.4",
+      "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }]
     },
     {
@@ -1846,6 +1866,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm32668490",
       "downloadURLs": ["https://github.com/oov/aviutl_rampreview/releases"],
       "latestVersion": "v0.3rc7",
+      "nicommons": "sm32668490",
       "files": [
         { "filename": "ZRamPreview.auf" },
         { "filename": "ZRamPreview.auo" },
@@ -2507,6 +2528,7 @@
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
       "latestVersion": "3.05",
+      "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x264guiEx.ini", "archivePath": "plugins" },
@@ -2628,6 +2650,7 @@
       "pageURL": "https://hazumurhythm.com/a/s1BS/",
       "downloadURLs": ["https://hazumurhythm.com/a/s1BS/"],
       "latestVersion": "ver 1.1",
+      "nicommons": "sm36182329",
       "files": [
         {
           "filename": "plugins/auls_plugins_by_rikky.auf",
@@ -2658,6 +2681,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290590",
       "downloadURLs": ["https://hazumurhythm.com/a/Y3c/"],
       "latestVersion": "v2.2",
+      "nicommons": "sm30290590",
       "files": [
         {
           "filename": "color_palette_edit",
@@ -2694,6 +2718,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290590",
       "downloadURLs": ["https://hazumurhythm.com/a/Y3c/"],
       "latestVersion": "v2.2a",
+      "nicommons": "sm30290590",
       "files": [
         {
           "filename": "color_palette_edit",
@@ -2729,6 +2754,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm26625892",
       "downloadURLs": ["https://hazumurhythm.com/a/3Os/"],
       "latestVersion": "ver3",
+      "nicommons": "sm26625892",
       "files": [
         { "filename": "script/扇クリッピングR/fan_clipping.lua" },
         { "filename": "script/扇クリッピングR/扇クリッピングR.anm" }
@@ -2744,6 +2770,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm34781714",
       "downloadURLs": ["https://hazumurhythm.com/a/0bS/"],
       "latestVersion": "1.1",
+      "nicommons": "sm34781714",
       "files": [
         {
           "filename": "plugins/objectsound.auf",
@@ -2773,6 +2800,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm29432469",
       "downloadURLs": ["https://hazumurhythm.com/a/qP6/"],
       "latestVersion": "v01(補助), v02",
+      "nicommons": "sm29432469",
       "files": [{ "filename": "pitch.auf" }],
       "releases": [
         {
@@ -2798,6 +2826,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm31884370",
       "downloadURLs": ["https://hazumurhythm.com/a/3Av/"],
       "latestVersion": "v0.9b",
+      "nicommons": "sm31884370",
       "files": [
         {
           "filename": "plugins/relative_path.auf",
@@ -2828,6 +2857,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm31884370",
       "downloadURLs": ["https://hazumurhythm.com/a/3Av/"],
       "latestVersion": "v0.9a",
+      "nicommons": "sm31884370",
       "files": [
         {
           "filename": "plugins/relative_path.auf",
@@ -2858,6 +2888,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290486",
       "downloadURLs": ["https://hazumurhythm.com/a/G8o/"],
       "latestVersion": "v0.9",
+      "nicommons": "sm30290486",
       "files": [
         {
           "filename": "plugins/rename_plugin.auf",
@@ -2888,6 +2919,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290486",
       "downloadURLs": ["https://hazumurhythm.com/a/G8o/"],
       "latestVersion": "0.9b",
+      "nicommons": "sm30290486",
       "files": [
         {
           "filename": "plugins/rename_plugin.auf",
@@ -2918,6 +2950,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm34389463",
       "downloadURLs": ["https://hazumurhythm.com/a/tZl0/"],
       "latestVersion": "1.0",
+      "nicommons": "sm34389463",
       "files": [
         {
           "filename": "KeyFrameEasing",
@@ -2962,6 +2995,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm34389463",
       "downloadURLs": ["https://hazumurhythm.com/a/tZl0/"],
       "latestVersion": "1.0a",
+      "nicommons": "sm34389463",
       "files": [
         {
           "filename": "KeyFrameEasing",
@@ -3006,6 +3040,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm34776162",
       "downloadURLs": ["https://hazumurhythm.com/a/a2Z/"],
       "latestVersion": "1.4b",
+      "nicommons": "sm34776162",
       "files": [
         { "filename": "rikky_module.dll", "archivePath": "dll_v_12" },
         { "filename": "rikky_memory.auf", "archivePath": "dll_v_12" }
@@ -3038,6 +3073,7 @@
       "pageURL": "https://hazumurhythm.com/a/q9Q/",
       "downloadURLs": ["https://hazumurhythm.com/a/q9Q/"],
       "latestVersion": "v2_0.1d",
+      "nicommons": "sm34776162",
       "files": [
         { "filename": "rikky_module.auf", "archivePath": "modulev2_0.1d" }
       ],
@@ -3064,6 +3100,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm27678925",
       "downloadURLs": ["https://hazumurhythm.com/a/Y2n/"],
       "latestVersion": "v4",
+      "nicommons": "sm27678925",
       "files": [
         {
           "filename": "script/rollv4/ロール巻取(ページめくり).anm",
@@ -3085,6 +3122,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290540",
       "downloadURLs": ["https://hazumurhythm.com/a/Di0/"],
       "latestVersion": "v1.5",
+      "nicommons": "sm30290540",
       "files": [
         {
           "filename": "script_sort.auf",
@@ -3115,6 +3153,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290540",
       "downloadURLs": ["https://hazumurhythm.com/a/Di0/"],
       "latestVersion": "v1.5a",
+      "nicommons": "sm30290540",
       "files": [
         {
           "filename": "script_sort.auf",
@@ -3145,6 +3184,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm34776228",
       "downloadURLs": ["https://hazumurhythm.com/a/pA2/"],
       "latestVersion": "5",
+      "nicommons": "sm34776228",
       "files": [
         {
           "filename": "script/パーツ分割/パーツ分割(ライト版).anm",
@@ -3166,6 +3206,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm34776228",
       "downloadURLs": ["https://hazumurhythm.com/a/pA2/"],
       "latestVersion": "5",
+      "nicommons": "sm34776228",
       "files": [
         {
           "filename": "script/パーツ分割/パーツ分割(ライト版).anm",
@@ -3186,6 +3227,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm30290443",
       "downloadURLs": ["https://hazumurhythm.com/a/5Kf/"],
       "latestVersion": "alpha.kai2.A",
+      "nicommons": "sm30290443",
       "files": [
         { "filename": "plugins/small_play.auf", "archivePath": "少し音再生" }
       ],
@@ -3212,6 +3254,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm32113857",
       "downloadURLs": ["https://hazumurhythm.com/a/Ow8/"],
       "latestVersion": "v0.1",
+      "nicommons": "sm32113857",
       "files": [
         { "filename": "pthreadGC2.dll", "archivePath": "TempMeasure_alpha" },
         { "filename": "temp_measure.auf", "archivePath": "TempMeasure_alpha" }
@@ -3239,6 +3282,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm37721332",
       "downloadURLs": ["https://www.nicovideo.jp/watch/sm37721332"],
       "latestVersion": "2020版",
+      "nicommons": "sm37721332",
       "files": [
         { "filename": "script/easing_tra_2020/@uf_easing.anm" },
         { "filename": "script/easing_tra_2020/@uf_easing.tra" },
@@ -3351,6 +3395,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm29926034",
       "downloadURLs": ["https://github.com/Aios-Ciao/VSThost4aviutl"],
       "latestVersion": "ver.001",
+      "nicommons": "sm29926034",
       "files": [
         {
           "filename": "plugins/vsthost_1.auf",
@@ -3424,6 +3469,7 @@
         "https://github.com/suzune25254649/bakusoku_aviutl_plugin/releases/latest"
       ],
       "latestVersion": "v1.06",
+      "nicommons": "sm39679253",
       "files": [
         {
           "filename": "plugins/bakusoku.auf",
@@ -3455,6 +3501,7 @@
         "https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest"
       ],
       "latestVersion": "v1.03",
+      "nicommons": "sm39708120",
       "files": [
         {
           "filename": "plugins/WideDialog.auf",

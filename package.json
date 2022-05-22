@@ -20,7 +20,10 @@
     "mod-packages": "node util/update-mod.js --packages",
     "mod-convert": "node util/update-mod.js --convert",
     "mod-scripts": "node util/update-mod.js --scripts",
-    "sri": "node util/sri.js"
+    "sri": "node util/sri.js",
+    "convert-2-3": "run-p convert-2-3:*",
+    "convert-2-3:core": "node util/convert-2-3.js --core",
+    "convert-2-3:packages": "node util/convert-2-3.js --packages"
   },
   "devDependencies": {
     "@octokit/rest": "^18.12.0",

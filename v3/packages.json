@@ -1234,7 +1234,7 @@
       "id": "khsk/LocalFontPlugin",
       "name": "LocalFontPlugin",
       "overview": "AviUtlにフォントを追加する",
-      "description": "AviUtlのFontsディレクトリ内のフォントを一時的に追加するプラグインです。AviUtlをショートカットから起動した場合、このプラグインは機能しません。",
+      "description": "AviUtlのFontsディレクトリ内のフォントを一時的に追加するプラグインです。",
       "developer": "khsk",
       "pageURL": "https://qiita.com/khsk/items/997adf671dfae94bb455",
       "downloadURLs": [
@@ -1243,6 +1243,18 @@
       "latestVersion": "v3.0",
       "files": [{ "filename": "plugins/localfont.aul" }],
       "releases": [
+        {
+          "version": "v3.0",
+          "integrity": {
+            "archive": "sha384-W+EjT7hUHVNr+qKyzbn5AB2AoM+0oUIOekR0m4faIk7khqDj2RFoVV/D1Ag3EomW",
+            "file": [
+              {
+                "target": "plugins/localfont.aul",
+                "hash": "sha384-5mDVuexCiP98ap0hRxLJ99DHMbCQEDOEueJy1BhZSc+Z9EggXzCYsq0HDrIchIck"
+              }
+            ]
+          }
+        },
         {
           "version": "v2.0",
           "integrity": {
@@ -1460,7 +1472,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1086_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1086_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

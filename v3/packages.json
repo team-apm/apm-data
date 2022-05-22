@@ -205,13 +205,13 @@
         {
           "version": "v0.1.1",
           "integrity": {
+            "archive": "sha384-GTJj01R8s/hVG98mFN3GTAYH4iRkOq3/5jwhcxpk4OG3tG7G7o2fC1bfyKljs6Jx",
             "file": [
               {
                 "target": "plugins/easymp4.auo",
                 "hash": "sha384-KqP7FgXutVgItDDzUI7iGiqR/scffirppUcToFdU5MAB2QCKYTda7suNNzaiuwB5"
               }
-            ],
-            "archive": "sha384-GTJj01R8s/hVG98mFN3GTAYH4iRkOq3/5jwhcxpk4OG3tG7G7o2fC1bfyKljs6Jx"
+            ]
           }
         },
         {
@@ -275,8 +275,8 @@
         { "filename": "plugins/extoolbar.ini", "isUninstallOnly": true },
         {
           "filename": "plugins/extoolbar/",
-          "isUninstallOnly": true,
-          "isDirectory": true
+          "isDirectory": true,
+          "isUninstallOnly": true
         }
       ]
     },
@@ -698,13 +698,13 @@
         {
           "version": "2.1.0-beta3",
           "integrity": {
+            "archive": "sha384-hfvjNiRmpKd+MbPaJANABNkbqtE2Z/w+V3k3wWXUX8I2w9vQn9DtLYout4up1RAQ",
             "file": [
               {
                 "target": "lua51.dll",
                 "hash": "sha384-Tyx0ziJxtuafsPaBhg6OLWnKyJKE/cpfY5E+ixylKFsXeduy5j4b4AUhp3GtLuP4"
               }
-            ],
-            "archive": "sha384-hfvjNiRmpKd+MbPaJANABNkbqtE2Z/w+V3k3wWXUX8I2w9vQn9DtLYout4up1RAQ"
+            ]
           }
         }
       ]
@@ -717,36 +717,49 @@
       "developer": "ePi",
       "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://scrapbox.io/ePi5131/patch.aul",
-      "downloadURLs": ["https://scrapbox.io/ePi5131/patch.aul"],
-      "latestVersion": "r14",
+      "downloadURLs": ["https://github.com/ePi5131/patch.aul/releases/latest"],
+      "latestVersion": "r24",
       "files": [
         { "filename": "patch.aul" },
+        { "filename": "patch.aul.json", "isUninstallOnly": true },
         { "filename": "plugins/patch.aul", "isObsolete": true },
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
         {
-          "version": "r14",
+          "version": "r19",
           "integrity": {
+            "archive": "sha384-5+jMRlIpcax35H+fO4LOiCGT9Aul9ojWmAwe/Dlx/1rCNxRHD+/EQl+2Va4MmG6/",
             "file": [
               {
-                "target": "plugins/patch.aul",
+                "target": "patch.aul",
+                "hash": "sha384-CbHLDY6VKlgWNQPE04LkX0DeyMJBiD/Q+Ma744JSanagv8439iURG/Ldvu050ul5"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r14",
+          "integrity": {
+            "archive": "sha384-F12wUu5o4f0Q4x7j86plKB7v1xNxB8EOKPXdJnHLnr+liunQN2CN8ViLvSUR6ohZ",
+            "file": [
+              {
+                "target": "patch.aul",
                 "hash": "sha384-tPCOyr4p2z/P+/eiuCz2ItcGoMGhBQRM43+jCheRLNzse9P4VCYz7TJiCGl1IaZX"
               }
-            ],
-            "archive": "sha384-F12wUu5o4f0Q4x7j86plKB7v1xNxB8EOKPXdJnHLnr+liunQN2CN8ViLvSUR6ohZ"
+            ]
           }
         },
         {
           "version": "r11",
           "integrity": {
+            "archive": "sha384-7cWPCn0miWYLWiAcIEVyDkZFidAPTZQQzMPRHsgaoUWIL7v2x3N+L96L+tjm4BAO",
             "file": [
               {
-                "target": "plugins/patch.aul",
+                "target": "patch.aul",
                 "hash": "sha384-6W9VOV37w21UVMqBX2ItjSbTWarxkXg/DoQUjJpQaLpJRtIt8+itur5Vm3Q6wwOu"
               }
-            ],
-            "archive": "sha384-7cWPCn0miWYLWiAcIEVyDkZFidAPTZQQzMPRHsgaoUWIL7v2x3N+L96L+tjm4BAO"
+            ]
           }
         },
         {
@@ -754,7 +767,7 @@
           "integrity": {
             "file": [
               {
-                "target": "plugins/patch.aul",
+                "target": "patch.aul",
                 "hash": "sha384-Y5+kwXflyU0gp355bol79vADMCZVIZz0yV8mcPXB0lLxNRLxEzqfOJM8BpU1Td9Y"
               }
             ]
@@ -773,7 +786,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-AdjustLastFrame/releases/latest"
       ],
-      "latestVersion": "1.0.3",
+      "latestVersion": "2.0.1",
       "files": [
         { "filename": "plugins/AdjustLastFrame.auf" },
         { "filename": "plugins/auls_memref.ini" }
@@ -782,6 +795,7 @@
         {
           "version": "1.0.3",
           "integrity": {
+            "archive": "sha384-VNVpEF3UJfsE7dpTPZQmzr1sDgN++IhbBel3oDkxl0JfFRBK2mtp5/8+nxb/iBav",
             "file": [
               {
                 "target": "plugins/AdjustLastFrame.auf",
@@ -791,8 +805,7 @@
                 "target": "plugins/auls_memref.ini",
                 "hash": "sha384-1DXw0EeHlfmvoflmwcohG3gHRAO9CH72t0rHtj4hcA8lhGEmyjHeKbafmxgQmkjr"
               }
-            ],
-            "archive": "sha384-VNVpEF3UJfsE7dpTPZQmzr1sDgN++IhbBel3oDkxl0JfFRBK2mtp5/8+nxb/iBav"
+            ]
           }
         }
       ]
@@ -808,7 +821,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "3.1.0",
+      "latestVersion": "5.4.1",
       "files": [
         { "filename": "aviutl_dark.exe.manifest" },
         { "filename": "plugins/DarkenWindow.aul" },
@@ -818,6 +831,7 @@
         {
           "version": "1.1.2",
           "integrity": {
+            "archive": "sha384-jYeggq6yZYhQ2zAJkhbYNR81dzTH2DmePBn1pgamb//UtUcMJpJuPc1u1jBk3EZ2",
             "file": [
               {
                 "target": "aviutl_dark.exe.manifest",
@@ -827,8 +841,7 @@
                 "target": "plugins/DarkenWindow.aul",
                 "hash": "sha384-ZGqBxDYXqeo9+VrSGeq150A6ELmd9itFXYydu3oe7mz9C44s/rdm5ZwNdecr3RWr"
               }
-            ],
-            "archive": "sha384-jYeggq6yZYhQ2zAJkhbYNR81dzTH2DmePBn1pgamb//UtUcMJpJuPc1u1jBk3EZ2"
+            ]
           }
         }
       ]
@@ -844,19 +857,22 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest"
       ],
-      "latestVersion": "8.0.0",
-      "files": [{ "filename": "plugins/DragFilter.auf" }],
+      "latestVersion": "9.0.0",
+      "files": [
+        { "filename": "plugins/DragFilter.auf" },
+        { "filename": "plugins/DragFilter.ini" }
+      ],
       "releases": [
         {
           "version": "1.0.0",
           "integrity": {
+            "archive": "sha384-cC+vsryk+9F4LP32nAB+3ljqQRd3r8PvR7ESThP7YV8ZPJ+/K67d0gH+Nq2F7jpl",
             "file": [
               {
                 "target": "plugins/DragFilter.auf",
                 "hash": "sha384-UyWbNedy6Yyr+PFYQKfvKFmtKlQdXZftY6p/ONTwwBITRA24jB/qZJl9/yAJZJAp"
               }
-            ],
-            "archive": "sha384-cC+vsryk+9F4LP32nAB+3ljqQRd3r8PvR7ESThP7YV8ZPJ+/K67d0gH+Nq2F7jpl"
+            ]
           }
         }
       ]
@@ -872,7 +888,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-OptimizeEditBox/releases/latest"
       ],
-      "latestVersion": "7.1.0",
+      "latestVersion": "7.1.1",
       "files": [
         { "filename": "plugins/OptimizeEditBox.auf" },
         { "filename": "plugins/OptimizeEditBox.ini" }
@@ -881,6 +897,7 @@
         {
           "version": "2.1.1",
           "integrity": {
+            "archive": "sha384-AVDqBYAciHjnsTmGhv4FBT+yCQ7dnHEfiBSm9k/H2jkCnieTOLzUGtI0MIxEfOZ1",
             "file": [
               {
                 "target": "plugins/OptimizeEditBox.auf",
@@ -890,8 +907,7 @@
                 "target": "plugins/OptimizeEditBox.ini",
                 "hash": "sha384-3HEfWTxWmAHkHGrGLRdzhxa+cV9e+Xfwhgc3dD+1/LiiBjrxmReR2SAwj95Sivvl"
               }
-            ],
-            "archive": "sha384-AVDqBYAciHjnsTmGhv4FBT+yCQ7dnHEfiBSm9k/H2jkCnieTOLzUGtI0MIxEfOZ1"
+            ]
           }
         }
       ]
@@ -913,13 +929,13 @@
         {
           "version": "1.0.0",
           "integrity": {
+            "archive": "sha384-ZbCesHBFc6k9C+cHAtSxknv+qGfIG+x4jkOYQ+Qek3py3vrNRmaqb3t/7NlEQ63q",
             "file": [
               {
                 "target": "plugins/SelectAliasFolder.auf",
                 "hash": "sha384-bE4xxQxErK6izZLYfTrnIxTG0Y9rbFl7VbDrYxOdpU15Wjx7QviZ7ta3NSkCr64G"
               }
-            ],
-            "archive": "sha384-ZbCesHBFc6k9C+cHAtSxknv+qGfIG+x4jkOYQ+Qek3py3vrNRmaqb3t/7NlEQ63q"
+            ]
           }
         }
       ]
@@ -944,6 +960,7 @@
         {
           "version": "5.1.2",
           "integrity": {
+            "archive": "sha384-OnscpLHWlkzmqkVmIRWE5hMjh95+MlKS7pzdNo0EFXnM1/cEpE6uhB8xZ/X31yUg",
             "file": [
               {
                 "target": "plugins/SelectFavoriteFont.auf",
@@ -953,8 +970,7 @@
                 "target": "plugins/SelectFavoriteFont.xml",
                 "hash": "sha384-wqIkwu+BCXfIe3Twd+Grs77IfhVzeMBMAB+HFDXSbrKc53w66W/Ty5Ouh5HW4EKg"
               }
-            ],
-            "archive": "sha384-OnscpLHWlkzmqkVmIRWE5hMjh95+MlKS7pzdNo0EFXnM1/cEpE6uhB8xZ/X31yUg"
+            ]
           }
         }
       ]
@@ -979,6 +995,7 @@
         {
           "version": "1.0.1",
           "integrity": {
+            "archive": "sha384-tY9lZrNmLRXlRvJ5fY3FLPkSz4aidtSSSjM2bhRL6dhWZzFOqu8c69EswJx+Z105",
             "file": [
               {
                 "target": "SwitchSettings.exe",
@@ -988,8 +1005,7 @@
                 "target": "SwitchSettings.dll",
                 "hash": "sha384-muThntkEjBGn2t5/Yv7bqbZ8i69ffl0WkEP9eoBTJ+OPP9GEpGXSDaaJPJVq/2Zg"
               }
-            ],
-            "archive": "sha384-tY9lZrNmLRXlRvJ5fY3FLPkSz4aidtSSSjM2bhRL6dhWZzFOqu8c69EswJx+Z105"
+            ]
           }
         }
       ]
@@ -1055,6 +1071,7 @@
         {
           "version": "v1.0.0",
           "integrity": {
+            "archive": "sha384-kQZEZuH0rR6desFAEPGef04zoc8yu/m1T4P7Jw8SgLJp7eY61m/I+Dy+Ep6DxjMe",
             "file": [
               {
                 "target": "script/karoterra/@曲げKR.anm",
@@ -1064,8 +1081,7 @@
                 "target": "script/karoterra/KaroterraBend.lua",
                 "hash": "sha384-g0AopPBYkSYI8T/Vk+Pz/fsK8bzoCNGGUfSx3ghDN/vcP8GhIyX2FJqrxWLAldIg"
               }
-            ],
-            "archive": "sha384-kQZEZuH0rR6desFAEPGef04zoc8yu/m1T4P7Jw8SgLJp7eY61m/I+Dy+Ep6DxjMe"
+            ]
           }
         }
       ]
@@ -1090,6 +1106,7 @@
         {
           "version": "v1.0.2",
           "integrity": {
+            "archive": "sha384-v8baIFOdmqDd7oe/WOQLH0e8j6ni4YcJmGrJ74/zUtViIafFb0C1ql27s3qD7O2w",
             "file": [
               {
                 "target": "script/karoterra/KaroterraDynamicPolygon.dll",
@@ -1103,8 +1120,7 @@
                 "target": "script/karoterra/@動く多角形.anm",
                 "hash": "sha384-Bnyi2kh0K/eDYbuiyKwCZi8nVSxFbOr5nl6lB132Wl9mNJvMiclAh7pHNK7G/Ykz"
               }
-            ],
-            "archive": "sha384-v8baIFOdmqDd7oe/WOQLH0e8j6ni4YcJmGrJ74/zUtViIafFb0C1ql27s3qD7O2w"
+            ]
           }
         }
       ]
@@ -1128,6 +1144,7 @@
         {
           "version": "v1.0.1",
           "integrity": {
+            "archive": "sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy",
             "file": [
               {
                 "target": "script/karoterra/KaroterraOilPainting.dll",
@@ -1137,8 +1154,7 @@
                 "target": "script/karoterra/油絵.anm",
                 "hash": "sha384-2Ns5FaSZaP/EZCZd3js91FKPBHR8AwU/Vhf32riHw7xo086Knn0ToQaZ8Cr92lwp"
               }
-            ],
-            "archive": "sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy"
+            ]
           }
         }
       ]
@@ -1154,28 +1170,28 @@
       "downloadURLs": [
         "https://github.com/karoterra/aviutl-markdownex/releases/latest"
       ],
-      "latestVersion": "v0.1.0",
+      "latestVersion": "v0.2.0",
       "files": [
         {
           "filename": "script/browser/MarkdownEX.anm",
-          "archivePath": "aviutl-markdownex-v0.1.0/script/browser"
+          "archivePath": "script/browser"
         },
         {
           "filename": "script/browser/MarkdownEX.exa",
-          "archivePath": "aviutl-markdownex-v0.1.0/script/browser"
+          "archivePath": "script/browser"
         },
         {
           "filename": "script/browser/MarkdownEX.obj",
-          "archivePath": "aviutl-markdownex-v0.1.0/script/browser"
+          "archivePath": "script/browser"
         },
         {
           "filename": "script/browser/contents/MarkdownEX-emoji-list.html",
-          "archivePath": "aviutl-markdownex-v0.1.0/script/browser/contents"
+          "archivePath": "script/browser/contents"
         },
         {
           "filename": "script/browser/contents/MarkdownEX",
-          "isDirectory": true,
-          "archivePath": "aviutl-markdownex-v0.1.0/script/browser/contents"
+          "archivePath": "script/browser/contents",
+          "isDirectory": true
         }
       ]
     },
@@ -1189,19 +1205,46 @@
       "downloadURLs": [
         "https://github.com/karoterra/aviutl_ShowLimit/releases/latest"
       ],
-      "latestVersion": "v0.1.0",
+      "latestVersion": "v0.2.0",
       "files": [{ "filename": "plugins/ShowLimit.auf" }],
       "releases": [
         {
           "version": "v0.1.0",
           "integrity": {
+            "archive": "sha384-fcerL9dZNDObOM+U1IRXOY+cUOijqbOxIl37nUhwLqLAK+yW2NhbY7pFhMxhdrx8",
             "file": [
               {
                 "target": "plugins/ShowLimit.auf",
                 "hash": "sha384-BAeuliq8jhmSJK3sMc+NzTeZhyyo+moZkl+06N1AiXGOO5l8IHD+gDbkw2RC3ums"
               }
-            ],
-            "archive": "sha384-fcerL9dZNDObOM+U1IRXOY+cUOijqbOxIl37nUhwLqLAK+yW2NhbY7pFhMxhdrx8"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "khsk/LocalFontPlugin",
+      "name": "LocalFontPlugin",
+      "overview": "AviUtlにフォントを追加する",
+      "description": "AviUtlのFontsディレクトリ内のフォントを一時的に追加するプラグインです。AviUtlをショートカットから起動した場合、このプラグインは機能しません。",
+      "developer": "khsk",
+      "pageURL": "https://qiita.com/khsk/items/997adf671dfae94bb455",
+      "downloadURLs": [
+        "https://github.com/khsk/AviUtl-LocalFontPlugin/releases/latest"
+      ],
+      "latestVersion": "v3.0",
+      "files": [{ "filename": "plugins/localfont.aul" }],
+      "releases": [
+        {
+          "version": "v2.0",
+          "integrity": {
+            "archive": "sha384-X0ntO0/ijbouHneUkp7/Uy9LUXb2Ytob29vyxahUrRYK2mAO8M2Sr50RRREe+5U8",
+            "file": [
+              {
+                "target": "plugins/localfont.aul",
+                "hash": "sha384-MKcUHw90iVYraS2f7a41NRva/ua44zCFgJH9lg5ja5jOGGwKgmSWzNX51sd8hX76"
+              }
+            ]
           }
         }
       ]
@@ -1407,6 +1450,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1086_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -1433,13 +1477,13 @@
         {
           "version": "v2.7",
           "integrity": {
+            "archive": "sha384-2r0hL+qtRjQCQyc0dogmR/Q3ZjdDr13IYGttudAc3We2H3Wv0zmsS9ydy5ik5r02",
             "file": [
               {
                 "target": "plugins/Redo.auf",
                 "hash": "sha384-ddEOS42sd1gqLqSoTx/pP19EfSBO9RDshyYILzaqnenkYk/DxoTx/gHf2q9DTkg0"
               }
-            ],
-            "archive": "sha384-2r0hL+qtRjQCQyc0dogmR/Q3ZjdDr13IYGttudAc3We2H3Wv0zmsS9ydy5ik5r02"
+            ]
           }
         }
       ]
@@ -1461,13 +1505,13 @@
         {
           "version": "v2.7rt",
           "integrity": {
+            "archive": "sha384-hSHKjKjQwy1XTpuGuORffr7MDjzYTQqBy2gcHsdMFlcOqYrorflZRg/vIZ6rUgH9",
             "file": [
               {
                 "target": "plugins/Redo.auf",
                 "hash": "sha384-0s8DAzZIdJvw0aSKbMIALM3O1ddY414jbKj02ZrlMoncLppMN8Rd52FIuZKI71bE"
               }
-            ],
-            "archive": "sha384-hSHKjKjQwy1XTpuGuORffr7MDjzYTQqBy2gcHsdMFlcOqYrorflZRg/vIZ6rUgH9"
+            ]
           }
         }
       ]
@@ -1488,13 +1532,13 @@
         {
           "version": "2018/9/19",
           "integrity": {
+            "archive": "sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D",
             "file": [
               {
                 "target": "script/nure500/VHS風.anm",
                 "hash": "sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D"
               }
-            ],
-            "archive": "sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D"
+            ]
           }
         }
       ]
@@ -1512,13 +1556,13 @@
       "files": [
         {
           "filename": "script/browser/exe",
-          "isDirectory": true,
-          "archivePath": "script/browser"
+          "archivePath": "script/browser",
+          "isDirectory": true
         },
         {
           "filename": "script/browser/contents/絵文字セレクター",
-          "isDirectory": true,
-          "archivePath": "script/browser/contents"
+          "archivePath": "script/browser/contents",
+          "isDirectory": true
         },
         {
           "filename": "script/browser/browser.lua",
@@ -1526,8 +1570,8 @@
         },
         {
           "filename": "script/browser/glTF表示デモ.obj",
-          "isObsolete": true,
-          "archivePath": "script/browser"
+          "archivePath": "script/browser",
+          "isObsolete": true
         },
         {
           "filename": "script/browser/Markdown.anm",
@@ -1539,13 +1583,13 @@
         },
         {
           "filename": "script/browser/SVGアニメ.obj",
-          "isObsolete": true,
-          "archivePath": "script/browser"
+          "archivePath": "script/browser",
+          "isObsolete": true
         },
         {
           "filename": "script/browser/ファイル参照デモ.obj",
-          "isObsolete": true,
-          "archivePath": "script/browser"
+          "archivePath": "script/browser",
+          "isObsolete": true
         },
         {
           "filename": "script/browser/絵文字.obj",
@@ -1553,8 +1597,8 @@
         },
         {
           "filename": "script/browser/contents/glTF表示デモ.abc",
-          "isObsolete": true,
-          "archivePath": "script/browser/contents"
+          "archivePath": "script/browser/contents",
+          "isObsolete": true
         },
         {
           "filename": "script/browser/contents/Markdown.abc",
@@ -1562,13 +1606,13 @@
         },
         {
           "filename": "script/browser/contents/SVGアニメ.abc",
-          "isObsolete": true,
-          "archivePath": "script/browser/contents"
+          "archivePath": "script/browser/contents",
+          "isObsolete": true
         },
         {
           "filename": "script/browser/contents/ファイル参照デモ.abc",
-          "isObsolete": true,
-          "archivePath": "script/browser/contents"
+          "archivePath": "script/browser/contents",
+          "isObsolete": true
         },
         {
           "filename": "script/browser/contents/絵文字.abc",
@@ -1708,14 +1752,15 @@
         { "filename": "script/PSDToolKit.lua", "archivePath": "script" },
         {
           "filename": "script/PSDToolKit",
-          "isDirectory": true,
-          "archivePath": "script"
+          "archivePath": "script",
+          "isDirectory": true
         }
       ],
       "releases": [
         {
           "version": "v0.2beta56",
           "integrity": {
+            "archive": "sha384-bBzTq2Mp+Vnp8ZDsgKCAmJ77yMas3kzP1RxzJr5kP/DqNl1tldVQaCEiTZiL4CW2",
             "file": [
               {
                 "target": "PSDToolKit.auf",
@@ -1761,8 +1806,7 @@
                 "target": "script/PSDToolKit.lua",
                 "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
               }
-            ],
-            "archive": "sha384-bBzTq2Mp+Vnp8ZDsgKCAmJ77yMas3kzP1RxzJr5kP/DqNl1tldVQaCEiTZiL4CW2"
+            ]
           }
         }
       ]
@@ -1790,7 +1834,7 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.3",
+      "latestVersion": "v0.3.4",
       "files": [{ "filename": "textassist.auf" }]
     },
     {
@@ -1876,6 +1920,7 @@
         {
           "version": "2017/12/25",
           "integrity": {
+            "archive": "sha384-tQlS6JbeKz+/SuTf+70pUv5hU28b4hvCjHITlfdJjCKlXd+FFpgrYGzc2KGcn/6y",
             "file": [
               {
                 "target": "script/respectrum93_old/@DelayMove.anm",
@@ -2049,8 +2094,7 @@
                 "target": "script/respectrum93_old/@GetColor-V2_old.zip",
                 "hash": "sha384-JF6lgGPQKk037zaAVf21/X0F6Ug+oMvPAN1uof5ahdmZa5VVjqgsGfwqb0da9FIk"
               }
-            ],
-            "archive": "sha384-tQlS6JbeKz+/SuTf+70pUv5hU28b4hvCjHITlfdJjCKlXd+FFpgrYGzc2KGcn/6y"
+            ]
           }
         }
       ]
@@ -2062,10 +2106,7 @@
       "description": "Aviutlの色空間変換プラグインです。",
       "developer": "rigaya",
       "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-25.html",
-      "downloadURLs": [
-        "https://1drv.ms/f/s!AsYziax1Q91rpA_zeixfUoylnZ9K",
-        "https://drive.google.com/drive/folders/0BzA4dIFteM2dQjgwZkhtWUN6Zjg?usp=sharing"
-      ],
+      "downloadURLs": ["https://1drv.ms/f/s!AsYziax1Q91rpA_zeixfUoylnZ9K"],
       "latestVersion": "0.02",
       "files": [
         {
@@ -2130,38 +2171,47 @@
       "overview": "ffmpeg.exeやavconv.exeを使用したエンコード",
       "description": "ffmpeg.exeやavconv.exeを使用してエンコードを行うAviutlの出力プラグインです。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-13.html",
-      "downloadURLs": [
-        "https://1drv.ms/f/s!AsYziax1Q91rgxZaOQeLAW2MZeZF",
-        "https://drive.google.com/folderview?id=0BzA4dIFteM2dQzFoTUlNR2xiaTg&usp=sharing"
-      ],
-      "latestVersion": "0.10",
+      "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
+      "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
+      "latestVersion": "1.00",
       "files": [
+        { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
+        { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
         {
-          "filename": "plugins/ffmpegOut.auo",
-          "archivePath": "ffmpegOut_0.10/auo"
-        },
-        {
-          "filename": "plugins/ffmpegOut.ini",
-          "archivePath": "ffmpegOut_0.10/auo"
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
         },
         {
           "filename": "plugins/ffmpegOut_stg",
-          "isDirectory": true,
-          "archivePath": "ffmpegOut_0.10/auo"
-        }
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true }
       ],
       "releases": [
         {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-7kfgxgORTvI+EA+HFlxPpGcC94yZKvLfHBHv8HDyBQ3zaLRhYKVSFSk2JoA++H2A",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-xsm3y7kOYBJ7W9Uuv+gsIcEUaf+dtm2UKqyZ/h2YA5LBYzMVZlY25mqJBwfQFOGl"
+              }
+            ]
+          }
+        },
+        {
           "version": "0.10",
           "integrity": {
+            "archive": "sha384-pvAZnNFLcnZVAdC1kpydIpZtSq76Gr+M5qgnVONee+J5FpkDkXbxQUtTBTwQchWd",
             "file": [
               {
                 "target": "plugins/ffmpegOut.auo",
                 "hash": "sha384-wOUpuUYb6Rh0HPi3ycpFaNwKxCEgfoQYgg9z3fNZ1LdDrr9MVcg47T5B0iqQiui9"
               }
-            ],
-            "archive": "sha384-pvAZnNFLcnZVAdC1kpydIpZtSq76Gr+M5qgnVONee+J5FpkDkXbxQUtTBTwQchWd"
+            ]
           }
         }
       ]
@@ -2172,32 +2222,57 @@
       "overview": "NVIDIAのNVEncを使用したエンコード",
       "description": "NVIDIAのNVEncを使用してエンコードを行うAviutlの出力プラグインです。NVEncによるハードウェア高速エンコードを目指します。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-17.html",
-      "downloadURLs": [
-        "https://1drv.ms/f/s!AsYziax1Q91rkXXAkmy0xayDLSFY",
-        "https://drive.google.com/folderview?id=0BzA4dIFteM2dS1ZUT1FjTnF3Q0E&usp=sharing"
-      ],
-      "latestVersion": "5.42",
+      "pageURL": "https://github.com/rigaya/NVEnc#readme",
+      "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
+      "latestVersion": "6.02",
       "files": [
-        { "filename": "exe_files/NVEncC", "isDirectory": true },
-        { "filename": "plugins/NVEnc_stg", "isDirectory": true },
-        { "filename": "plugins/NVEnc.auo" },
-        { "filename": "plugins/NVEnc.conf" },
-        { "filename": "plugins/NVEnc.ini" }
+        { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
+        { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
+        {
+          "filename": "plugins/NVEnc.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/NVEnc_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true },
+        {
+          "filename": "exe_files/NVEncC",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        }
       ],
-      "installer": "auo_setup.exe",
-      "installArg": "-dir \"$instpath\" -autorun",
       "releases": [
+        {
+          "version": "6.00",
+          "integrity": {
+            "archive": "sha384-wST4X1zHU0nocsTJolZ5BkS87AogU4jsQuWpw1WjmcfVNWYngCg73WE2zjodznRH",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-DCTCTINHSqic1Er/hwBdGjr+93W5kTK5VQl3ZexKLdtZLETRwDVh3KwNqefo2WNC"
+              }
+            ]
+          }
+        },
         {
           "version": "5.42",
           "integrity": {
+            "archive": "sha384-a9l8bRigK2w2OzlETnr3rD+t0Gsshtn4MbNi1L8VhctvrNc4cW12KVrYk9PhPAzI",
             "file": [
               {
                 "target": "plugins/NVEnc.auo",
                 "hash": "sha384-ACFEiDl87pYv1VGq2gvKtL3izDBFHvY878WtMJjsdtrLpCqoXYWbbaXXZGlnvqmz"
               }
-            ],
-            "archive": "sha384-a9l8bRigK2w2OzlETnr3rD+t0Gsshtn4MbNi1L8VhctvrNc4cW12KVrYk9PhPAzI"
+            ]
           }
         }
       ]
@@ -2208,32 +2283,57 @@
       "overview": "Intel Media SDKを使用したエンコード",
       "description": "Intel Media SDKを使用してエンコードを行うAviutlの出力プラグインです。QuickSyncVideoによるハードウェア高速エンコードを目指します。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-10.html",
-      "downloadURLs": [
-        "https://1drv.ms/f/s!AsYziax1Q91rg2IR1eU0eCrzar_a",
-        "https://drive.google.com/folderview?id=0BzA4dIFteM2dVGZ5dE5lSE5mYVk&usp=sharing"
-      ],
-      "latestVersion": "6.08",
+      "pageURL": "https://github.com/rigaya/QSVEnc#readme",
+      "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
+      "latestVersion": "7.01",
       "files": [
-        { "filename": "exe_files/QSVEncC", "isDirectory": true },
-        { "filename": "plugins/QSVEnc_stg", "isDirectory": true },
-        { "filename": "plugins/QSVEnc.auo" },
-        { "filename": "plugins/QSVEnc.conf" },
-        { "filename": "plugins/QSVEnc.ini" }
+        { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
+        { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
+        {
+          "filename": "plugins/QSVEnc.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/QSVEnc_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true },
+        {
+          "filename": "exe_files/QSVEncC",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        }
       ],
-      "installer": "auo_setup.exe",
-      "installArg": "-dir \"$instpath\" -autorun",
       "releases": [
+        {
+          "version": "7.01",
+          "integrity": {
+            "archive": "sha384-C9yVRBCKrJrXZMffnO0KmncUIsnIEQfGb9w3/pHHc17wGCMvfzYPcwbPwlT2AERR",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-caZN/aFwpQJW/jkNjlmIQLUEN+HXxQoxYziOiXeWyzaIIjCQz+145q5t9WXPaVSy"
+              }
+            ]
+          }
+        },
         {
           "version": "6.08",
           "integrity": {
+            "archive": "sha384-5FMrX54f6s1eThdjN80tLgyxjQPTGR7JMB/mbiBqOTMgID30hKF2RV4PWY6OAARz",
             "file": [
               {
-                "target": "Fplugins/QSVEnc.auo",
+                "target": "plugins/QSVEnc.auo",
                 "hash": "sha384-0CPgLel6+2S9RQKc+KlDi8KletchmooZURxqvW10HMgaGaHtWcAQnlVJFvE0C492"
               }
-            ],
-            "archive": "sha384-5FMrX54f6s1eThdjN80tLgyxjQPTGR7JMB/mbiBqOTMgID30hKF2RV4PWY6OAARz"
+            ]
           }
         }
       ]
@@ -2280,13 +2380,24 @@
       "description": "PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。",
       "developer": "rigaya",
       "originalDeveloper": "エモリ, スレ48≫989",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-18.html",
-      "downloadURLs": [
-        "https://drive.google.com/folderview?id=0BzA4dIFteM2dd2NtMWhCTVlLVlE&usp=sharing",
-        "https://1drv.ms/f/s!AsYziax1Q91rkk8-E-D2vnTHf2nx"
-      ],
-      "latestVersion": "+6",
-      "files": [{ "filename": "plugins/pmd_mt.auf", "archivePath": "pmd_mt+6" }]
+      "pageURL": "https://github.com/rigaya/pmd_mt#readme",
+      "downloadURLs": ["https://github.com/rigaya/pmd_mt/releases/latest"],
+      "latestVersion": "+7",
+      "files": [{ "filename": "plugins/pmd_mt.auf" }],
+      "releases": [
+        {
+          "version": "+7",
+          "integrity": {
+            "archive": "sha384-NUyICEn5FRm8uff1IgAL2IS6W8Q8hf72cykclDllCuEcrM+V8Nr1uvR7oQ8xfAmU",
+            "file": [
+              {
+                "target": "plugins/pmd_mt.auf",
+                "hash": "sha384-RsWp5Y2AEvBlc4sXbZurdJt22PS5GonAbz2bRWMnKYjG/xUhhdTM2cp7FtGglH33"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "rigaya/svtAV1guiEx",
@@ -2294,24 +2405,47 @@
       "overview": "SVT-AV1を使用してエンコードを行う",
       "description": "SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-28.html",
-      "downloadURLs": [
-        "https://drive.google.com/drive/folders/1G3vOBXVrL9H7a2M5cvqTC09C6LfMdglF?usp=sharing",
-        "https://1drv.ms/u/s!AsYziax1Q91rtm3SrZNkNI1RGfZW?e=49ueTU"
-      ],
-      "latestVersion": "0.05",
+      "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
+      "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
+      "latestVersion": "1.02",
       "files": [
+        { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
+        { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
         {
-          "filename": "exe_files/SvtAv1EncApp_0.8.7+11.exe",
-          "archivePath": "svtAV1guiEx_0.05/exe_files"
+          "filename": "plugins/svtAV1guiEx.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
         },
         {
-          "filename": "plugins/svtAV1guiEx.auo",
-          "archivePath": "svtAV1guiEx_0.05/auo"
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
         },
         {
-          "filename": "plugins/svtAV1guiEx.ini",
-          "archivePath": "svtAV1guiEx_0.05/auo"
+          "filename": "plugins/svtAV1guiEx_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true },
+        {
+          "filename": "exe_files/SvtAv1EncApp_1.0.0-rc2-1_x64.exe",
+          "isUninstallOnly": true
+        },
+        { "filename": "exe_files/ffmpeg_audenc.exe", "isUninstallOnly": true },
+        { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
+      ],
+      "releases": [
+        {
+          "version": "1.01",
+          "integrity": {
+            "archive": "sha384-DrmlvGM0YCIDy4ZJQFtZ3nDO/VAiOIDeTcwODKuqVWAeUD/fo1re3QUFg5Xlqmxi",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw"
+              }
+            ]
+          }
         }
       ]
     },
@@ -2321,32 +2455,45 @@
       "overview": "AMDのVCEを使用してエンコードを行う",
       "description": "AMDのVCE(VideoCodecEngine)を使用してエンコードを行うAviutlの出力プラグインです。VCEによるハードウェア高速エンコードを目指します。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-12.html",
-      "downloadURLs": [
-        "https://drive.google.com/folderview?id=0BzA4dIFteM2dazcxNnYwRXpvNFU&usp=sharing",
-        "https://1drv.ms/f/s!AsYziax1Q91rhASqkmMeOq-DWHD_"
-      ],
-      "latestVersion": "6.17",
+      "pageURL": "https://github.com/rigaya/VCEEnc#readme",
+      "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
+      "latestVersion": "7.00",
       "files": [
-        { "filename": "exe_files/VCEEncC", "isDirectory": true },
-        { "filename": "plugins/VCEEnc_stg", "isDirectory": true },
-        { "filename": "plugins/VCEEnc.auo" },
-        { "filename": "plugins/VCEEnc.conf" },
-        { "filename": "plugins/VCEEnc.ini" }
+        { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
+        { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
+        {
+          "filename": "plugins/VCEEnc.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/VCEEnc_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true },
+        {
+          "filename": "exe_files/VCEEncC",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        }
       ],
-      "installer": "auo_setup.exe",
-      "installArg": "-dir \"$instpath\" -autorun",
       "releases": [
         {
           "version": "6.17",
           "integrity": {
+            "archive": "sha384-eET4ztZyPR5OTD4XxNfZMB1NMnqCAtWMBvx1xH/rkZVLHKqy0FjhZq8CcFYussxs",
             "file": [
               {
                 "target": "plugins/VCEEnc.auo",
                 "hash": "sha384-Nw+jRqn07dpSir9+3SAcBqiGfe2jFL22TiivDPbQZ8ZJOiSOzXDy85JFs1GHlWTW"
               }
-            ],
-            "archive": "sha384-eET4ztZyPR5OTD4XxNfZMB1NMnqCAtWMBvx1xH/rkZVLHKqy0FjhZq8CcFYussxs"
+            ]
           }
         }
       ]
@@ -2357,38 +2504,54 @@
       "overview": "x264を使用したH264出力",
       "description": "拡張x264出力(GUI)Ex(x264guiEx)は、x264を使用してエンコードを行うAviutlの出力プラグインです。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-5.html",
-      "downloadURLs": [
-        "https://1drv.ms/f/s!AsYziax1Q91rgwli2WZ_vq8YjCdI",
-        "https://drive.google.com/drive/folders/0BzA4dIFteM2dOWhmTXA3bE9WaWs?usp=sharing"
-      ],
-      "latestVersion": "2.68",
+      "pageURL": "https://github.com/rigaya/x264guiEx#readme",
+      "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
+      "latestVersion": "3.05",
       "files": [
-        { "filename": "plugins/x264guiEx.auo" },
-        { "filename": "plugins/x264guiEx.conf" },
-        { "filename": "plugins/x264guiEx.ini" },
-        { "filename": "exe_files/boxdumper.exe" },
-        { "filename": "exe_files/ffmpeg_audenc.exe" },
-        { "filename": "exe_files/muxer.exe" },
-        { "filename": "exe_files/remuxer.exe" },
-        { "filename": "exe_files/timelineeditor.exe" },
-        { "filename": "exe_files/x264_3065_x64.exe", "isUninstallOnly": true },
-        { "filename": "exe_files/x264_3075_x64.exe", "isUninstallOnly": true },
-        { "filename": "plugins/x264guiEx_stg", "isDirectory": true }
+        { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
+        { "filename": "plugins/x264guiEx.ini", "archivePath": "plugins" },
+        {
+          "filename": "plugins/x264guiEx.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/x264guiEx_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true },
+        { "filename": "exe_files/x264_3094_x64.exe", "isUninstallOnly": true },
+        { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
-      "installer": "auo_setup.exe",
-      "installArg": "-dir \"$instpath\" -autorun",
       "releases": [
+        {
+          "version": "3.05",
+          "integrity": {
+            "archive": "sha384-bYoAdHLaf+q1m773ViDztm1dwGSA/xom6glR9fffy0oOOODyqCgYDcmyM7ufD6oF",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-SsxtQ5w05TZFi+d3Hz0DEM0bx5NQK9B94IcrOstg4bqBXRbzU3bBzdci6Ism2owx"
+              }
+            ]
+          }
+        },
         {
           "version": "2.68",
           "integrity": {
+            "archive": "sha384-4MABKkhryz3fmUUi+ufUIGueC5iZbQk3hod0gxYM0BxWdRDDqXsc5dd729BlLL7e",
             "file": [
               {
                 "target": "plugins/x264guiEx.auo",
                 "hash": "sha384-grUy4QgOBHxblkxgnkHGXiyYbLjJjMyXgny4jrGN81vCzX/Fdvuwe8C2np2nsZGQ"
               }
-            ],
-            "archive": "sha384-4MABKkhryz3fmUUi+ufUIGueC5iZbQk3hod0gxYM0BxWdRDDqXsc5dd729BlLL7e"
+            ]
           }
         }
       ]
@@ -2399,44 +2562,57 @@
       "overview": "x264/x265を使用したエンコード",
       "description": "拡張x265出力(GUI)Ex(x265guiEx)は、x265を使用してエンコードを行うAviutlの出力プラグインです。",
       "developer": "rigaya",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-19.html",
-      "downloadURLs": [
-        "https://drive.google.com/drive/folders/0BzA4dIFteM2dRkRzWXZMT0lkM2M?usp=sharing",
-        "https://1drv.ms/f/s!AsYziax1Q91rhiHTWVMtfNFgG9GQ"
-      ],
-      "latestVersion": "3.102",
+      "pageURL": "https://github.com/rigaya/x265guiEx#readme",
+      "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
+      "latestVersion": "4.01",
       "files": [
-        { "filename": "plugins/x265guiEx.auo" },
-        { "filename": "plugins/x265guiEx.conf" },
-        { "filename": "plugins/x265guiEx.ini" },
-        { "filename": "exe_files/boxdumper.exe" },
-        { "filename": "exe_files/ffmpeg_audenc.exe" },
-        { "filename": "exe_files/muxer.exe" },
-        { "filename": "exe_files/remuxer.exe" },
-        { "filename": "exe_files/timelineeditor.exe" },
+        { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
+        { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
         {
-          "filename": "exe_files/x265_3.4+19_x64.exe",
+          "filename": "plugins/x265guiEx.conf",
+          "archivePath": "plugins",
           "isUninstallOnly": true
         },
         {
-          "filename": "exe_files/x265_3.5+13_x64.exe",
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/x265guiEx_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true },
+        {
+          "filename": "exe_files/x265_3.5+35_x64.exe",
           "isUninstallOnly": true
         },
-        { "filename": "plugins/x265guiEx_stg", "isDirectory": true }
+        { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
-      "installer": "auo_setup.exe",
-      "installArg": "-dir \"$instpath\" -autorun",
       "releases": [
+        {
+          "version": "4.00",
+          "integrity": {
+            "archive": "sha384-90hBDCSF2RAfMyPUk75kpuLvpd2obVU1ArUUxOkQuNSvIfu1ewXrP9btS+70XRtH",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-AucRj3yrJG7BQayf6xUaHF1J/COk4ceuegXUxXSxbfVx8BcXAL1JHrDAjaHw0USH"
+              }
+            ]
+          }
+        },
         {
           "version": "3.102",
           "integrity": {
+            "archive": "sha384-nvZwsKJXWbrsc6eCoM98LFyTIx2gUrtzsi0X3AYTWEb5nrknHBkKTxWrXo4VuhRI",
             "file": [
               {
                 "target": "plugins/x265guiEx.auo",
                 "hash": "sha384-vHylrjLn+kqGKRpMS8k28RrvJ4LKFZrOanXdgpiB5xPIgq47V+GBbrKy9YJ+EPa9"
               }
-            ],
-            "archive": "sha384-nvZwsKJXWbrsc6eCoM98LFyTIx2gUrtzsi0X3AYTWEb5nrknHBkKTxWrXo4VuhRI"
+            ]
           }
         }
       ]
@@ -2485,8 +2661,8 @@
       "files": [
         {
           "filename": "color_palette_edit",
-          "isDirectory": true,
-          "archivePath": "からぱれ"
+          "archivePath": "からぱれ",
+          "isDirectory": true
         },
         {
           "filename": "color_palette.auf",
@@ -2521,8 +2697,8 @@
       "files": [
         {
           "filename": "color_palette_edit",
-          "isDirectory": true,
-          "archivePath": "からぱれ"
+          "archivePath": "からぱれ",
+          "isDirectory": true
         },
         {
           "filename": "color_palette.auf",
@@ -2745,13 +2921,13 @@
       "files": [
         {
           "filename": "KeyFrameEasing",
-          "isDirectory": true,
-          "archivePath": "rikkkkkkyframe_2"
+          "archivePath": "rikkkkkkyframe_2",
+          "isDirectory": true
         },
         {
           "filename": "KeyFrameScript",
-          "isDirectory": true,
-          "archivePath": "rikkkkkkyframe_2"
+          "archivePath": "rikkkkkkyframe_2",
+          "isDirectory": true
         },
         {
           "filename": "rikkeyframe.auf",
@@ -2789,13 +2965,13 @@
       "files": [
         {
           "filename": "KeyFrameEasing",
-          "isDirectory": true,
-          "archivePath": "rikkkkkkyframe_2"
+          "archivePath": "rikkkkkkyframe_2",
+          "isDirectory": true
         },
         {
           "filename": "KeyFrameScript",
-          "isDirectory": true,
-          "archivePath": "rikkkkkkyframe_2"
+          "archivePath": "rikkkkkkyframe_2",
+          "isDirectory": true
         },
         {
           "filename": "rikkeyframe.auf",
@@ -3156,13 +3332,13 @@
         },
         {
           "filename": "script/ANM_ssd/",
-          "isDirectory": true,
-          "archivePath": "script_20160828/"
+          "archivePath": "script_20160828/",
+          "isDirectory": true
         },
         {
           "filename": "script/TA_ssd/",
-          "isDirectory": true,
-          "archivePath": "script_20160828/"
+          "archivePath": "script_20160828/",
+          "isDirectory": true
         }
       ]
     },
@@ -3215,13 +3391,13 @@
         {
           "version": "r940 release1",
           "integrity": {
+            "archive": "sha384-yBDA/RFCozGCQc6tcPa+Vsm4B0J82skJXN4ZrVRegCgQFTJW8N8eLlWXy55LiFRX",
             "file": [
               {
                 "target": "plugins/lwinput.aui",
                 "hash": "sha384-11Bixku/iJUz6SgrABVClbVYcP4yM1D14eS52/HwQA60yYI1UMAoabnjLsIo+o3J"
               }
-            ],
-            "archive": "sha384-yBDA/RFCozGCQc6tcPa+Vsm4B0J82skJXN4ZrVRegCgQFTJW8N8eLlWXy55LiFRX"
+            ]
           }
         },
         {

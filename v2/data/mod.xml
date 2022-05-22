@@ -2,7 +2,7 @@
 <?xml-model href="../schema/mod.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <mod version="2">
 	<core>2022-04-04T18:12:00+09:00</core>
-	<packages>2022-05-20T05:49:00+09:00</packages>
+	<packages>2022-05-22T05:49:00+09:00</packages>
 	<convert>2021-12-11T16:03:00+09:00</convert>
 	<scripts>2022-02-19T14:28:00+09:00</scripts>
 </mod>

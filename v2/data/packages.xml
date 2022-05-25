@@ -809,7 +809,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r25</latestVersion>
+		<latestVersion>r26</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -902,7 +902,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>5.4.2</latestVersion>
+		<latestVersion>5.5.0</latestVersion>
 		<files>
 			<file>aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -2435,7 +2435,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x264guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
-		<latestVersion>3.06</latestVersion>
+		<latestVersion>3.07</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x264guiEx.auo</file>
 			<file archivePath="plugins">plugins/x264guiEx.ini</file>

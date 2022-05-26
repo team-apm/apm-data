@@ -5,7 +5,8 @@ import fs from 'fs-extra';
 const { createReadStream } = fs;
 import chalk from 'chalk';
 const { yellowBright, green } = chalk;
-import { write } from 'clipboardy';
+import clipboardy from 'clipboardy';
+const { write } = clipboardy;
 
 async function generate(args) {
   const readStream = createReadStream(args[0]);

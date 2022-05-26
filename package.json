@@ -24,7 +24,8 @@
     "sri": "node util/sri.js",
     "convert-2-3": "run-p convert-2-3:*",
     "convert-2-3:core": "node util/convert-2-3.js --core",
-    "convert-2-3:packages": "node util/convert-2-3.js --packages"
+    "convert-2-3:packages": "node util/convert-2-3.js --packages",
+    "convert-2-3:mod": "node util/convert-2-3.js --mod"
   },
   "devDependencies": {
     "@octokit/rest": "^18.12.0",

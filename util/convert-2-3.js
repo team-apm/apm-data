@@ -414,6 +414,63 @@ async function convertPackages(v2ListPath, v3ListPath) {
   }
 }
 
+async function convertMod(v2ListPath, v3ListPath) {
+  if (existsSync(v2ListPath)) {
+    const xmlData = await readFile(v2ListPath, 'utf-8');
+    const valid = XMLValidator.validate(xmlData);
+    if (valid === true) {
+      const modInfo = parser.parse(xmlData);
+      if (modInfo.mod) {
+        const v2Data = {};
+        for (const filename of ['core', 'convert', 'packages', 'scripts']) {
+          v2Data[filename] = modInfo.mod[0][filename][0];
+        }
+
+        try {
+          const v3Data = await readJSON(v3ListPath);
+
+          for (const filename of ['core', 'convert']) {
+            const oldModDate = new Date(v3Data[filename].modified);
+            const newModDate = new Date(v2Data[filename]);
+            if (newModDate.getTime() > oldModDate.getTime())
+              v3Data[filename].modified = v2Data[filename];
+          }
+
+          for (const filename of ['packages', 'scripts']) {
+            const temp = v3Data[filename].find(
+              (value) => value.path === filename + '.json'
+            );
+
+            const oldModDate = new Date(temp.modified);
+            const newModDate = new Date(v2Data[filename]);
+            if (newModDate.getTime() > oldModDate.getTime())
+              temp.modified = v2Data[filename];
+          }
+
+          await writeFile(
+            v3ListPath,
+            format(JSON.stringify(v3Data), {
+              parser: 'json',
+              singleQuote: false,
+              printWidth: 60,
+            })
+          );
+
+          console.log(greenBright('Converted core.xml to core.json.'));
+        } catch (e) {
+          console.error(red(e));
+        }
+      } else {
+        throw new Error('The list is invalid.');
+      }
+    } else {
+      throw valid;
+    }
+  } else {
+    throw new Error('The version file does not exist.');
+  }
+}
+
 const args = process.argv.slice(2);
 
 if (args[0] === '--core') {
@@ -424,6 +481,10 @@ if (args[0] === '--core') {
   const input = resolve(__dirname, '../v2/data/packages.xml');
   const output = resolve(__dirname, '../v3/packages.json');
   convertPackages(input, output);
+} else if (args[0] === '--mod') {
+  const input = resolve(__dirname, '../v2/data/mod.xml');
+  const output = resolve(__dirname, '../v3/list.json');
+  convertMod(input, output);
 } else {
   console.error(red('There is no args.'));
 }

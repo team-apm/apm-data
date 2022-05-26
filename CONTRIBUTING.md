@@ -19,8 +19,8 @@ The languages used are:
 
 A template is provided for the following issues. You can use either English or Japanese.
 
-- Plugin request [English](https://github.com/hal-shu-sato/apm-data/issues/new?labels=plugin&template=plugin_request.md) [日本語](https://github.com/hal-shu-sato/apm-data/issues/new?labels=plugin&template=plugin_request_ja.md)
-- Script Request [English](https://github.com/hal-shu-sato/apm-data/issues/new?labels=script&template=script_request.md) [日本語](https://github.com/hal-shu-sato/apm-data/issues/new?labels=script&template=script_request_ja.md)
+- Plugin request [English](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request.md) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request_ja.md)
+- Script Request [English](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request.md) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request_ja.md)
 
 Other Issues are also welcome.
 
@@ -35,11 +35,11 @@ If you have a question about a new feature, improvement, or fix, or if the impac
 - Adding a new plugin/script
 - Changing the data format
 
-When the pull request is merged, your contribution will be added to the [Contributors list](https://github.com/hal-shu-sato/apm/graphs/contributors) and the code content will be [CC BY-NC -SA 4.0](./LICENSE).
+When the pull request is merged, your contribution will be added to the [Contributors list](https://github.com/team-apm/apm/graphs/contributors) and the code content will be [CC BY-NC -SA 4.0](./LICENSE).
 
 ## Confirmation of Modifications
 
-Try installing and uninstalling the added package by specifying the XML file you edited as the destination to get the additional data from the `Setting` tab of [AviUtl Package Manager](https://github.com/hal-shu-sato/apm).
+Try installing and uninstalling the added package by specifying the XML file you edited as the destination to get the additional data from the `Setting` tab of [AviUtl Package Manager](https://github.com/team-apm/apm).
 
 ## Directory Structure
 

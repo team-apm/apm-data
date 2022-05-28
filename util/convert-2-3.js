@@ -231,243 +231,223 @@ class PackageInfo {
 }
 
 async function convertCore(v2ListPath, v3ListPath) {
-  if (existsSync(v2ListPath)) {
-    const xmlData = await readFile(v2ListPath, 'utf-8');
-    const valid = XMLValidator.validate(xmlData);
-    if (valid === true) {
-      const coreInfo = parser.parse(xmlData);
-      if (coreInfo.core) {
-        const v2Data = {};
-        for (const program of ['aviutl', 'exedit']) {
-          v2Data[program] = new CoreInfo(coreInfo.core[0][program][0]);
-        }
+  if (!existsSync(v2ListPath))
+    throw new Error('The version file does not exist.');
 
-        try {
-          let newV3Data = {
-            version: 3,
-            ...JSON.parse(
-              JSON.stringify(v2Data).replaceAll('isOptional', 'isUninstallOnly')
-            ),
-          };
-          for (const program of [newV3Data.aviutl, newV3Data.exedit]) {
-            if (program.releases) {
-              program.releases = Object.entries(program.releases).map(
-                ([k, v]) => {
-                  return { ...v, version: k };
-                }
-              );
-              program.releases = program.releases
-                .sort((r1, r2) => compareVersion(r1.version, r2.version))
-                .reverse();
-              for (const release of program.releases) {
-                if (release.integrities) {
-                  release.integrity = { file: release.integrities };
-                  delete release.integrities;
-                  for (const file of release.integrity.file) {
-                    file.hash = file.targetIntegrity;
-                    delete file.targetIntegrity;
-                  }
-                }
-                if (release.archiveIntegrity) {
-                  release.integrity.archive = release.archiveIntegrity;
-                  delete release.archiveIntegrity;
-                }
-              }
+  const xmlData = await readFile(v2ListPath, 'utf-8');
+  const valid = XMLValidator.validate(xmlData);
+  if (valid !== true) throw valid;
+
+  const coreInfo = parser.parse(xmlData);
+  if (!coreInfo.core) throw new Error('The list is invalid.');
+
+  const v2Data = {};
+  for (const program of ['aviutl', 'exedit']) {
+    v2Data[program] = new CoreInfo(coreInfo.core[0][program][0]);
+  }
+
+  try {
+    let newV3Data = {
+      version: 3,
+      ...JSON.parse(
+        JSON.stringify(v2Data).replaceAll('isOptional', 'isUninstallOnly')
+      ),
+    };
+    for (const program of [newV3Data.aviutl, newV3Data.exedit]) {
+      if (program.releases) {
+        program.releases = Object.entries(program.releases).map(([k, v]) => {
+          return { ...v, version: k };
+        });
+        program.releases = program.releases
+          .sort((r1, r2) => compareVersion(r1.version, r2.version))
+          .reverse();
+        for (const release of program.releases) {
+          if (release.integrities) {
+            release.integrity = { file: release.integrities };
+            delete release.integrities;
+            for (const file of release.integrity.file) {
+              file.hash = file.targetIntegrity;
+              delete file.targetIntegrity;
             }
           }
-
-          newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
-          newV3Data = sortCore(newV3Data);
-
-          await writeFile(
-            v3ListPath,
-            format(JSON.stringify(newV3Data), {
-              parser: 'json',
-              singleQuote: false,
-            })
-          );
-
-          console.log(greenBright('Converted core.xml to core.json.'));
-        } catch (e) {
-          console.error(red(e));
+          if (release.archiveIntegrity) {
+            release.integrity.archive = release.archiveIntegrity;
+            delete release.archiveIntegrity;
+          }
         }
-      } else {
-        throw new Error('The list is invalid.');
       }
-    } else {
-      throw valid;
     }
-  } else {
-    throw new Error('The version file does not exist.');
+
+    newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
+    newV3Data = sortCore(newV3Data);
+
+    await writeFile(
+      v3ListPath,
+      format(JSON.stringify(newV3Data), {
+        parser: 'json',
+        singleQuote: false,
+      })
+    );
+
+    console.log(greenBright('Converted core.xml to core.json.'));
+  } catch (e) {
+    console.error(red(e));
   }
 }
 
 async function convertPackages(v2ListPath, v3ListPath) {
-  if (existsSync(v2ListPath)) {
-    const xmlData = await readFile(v2ListPath, 'utf-8');
-    const valid = XMLValidator.validate(xmlData);
-    if (valid === true) {
-      const packagesInfo = parser.parse(xmlData);
-      if (packagesInfo.packages) {
-        const v2Data = {};
-        for (const packageItem of packagesInfo.packages[0].package) {
-          v2Data[packageItem.id[0]] = new PackageInfo(packageItem);
-        }
-
-        try {
-          let newV3Packages = JSON.parse(
-            JSON.stringify(Object.values(v2Data)).replaceAll(
-              'isOptional',
-              'isUninstallOnly'
-            )
-          );
-
-          newV3Packages = newV3Packages.map((p) => {
-            if (p?.dependencies?.dependency)
-              p.dependencies = p.dependencies.dependency;
-            if (p?.releases)
-              p.releases = Object.entries(p.releases).map(([k, v]) => {
-                return { ...v, version: k };
-              });
-            delete p.type;
-            return p;
-          });
-
-          newV3Packages = newV3Packages.map((p) => {
-            if (p.releases) {
-              p.releases = p.releases
-                .sort((r1, r2) => compareVersion(r1.version, r2.version))
-                .reverse();
-              for (const release of p.releases) {
-                if (release.integrities) {
-                  release.integrity = { file: release.integrities };
-                  delete release.integrities;
-                  for (const file of release.integrity.file) {
-                    file.hash = file.targetIntegrity;
-                    delete file.targetIntegrity;
-                  }
-                }
-                if (release.archiveIntegrity) {
-                  release.integrity.archive = release.archiveIntegrity;
-                  delete release.archiveIntegrity;
-                }
-              }
-            }
-
-            p.downloadURLs = [p.downloadURL];
-            delete p.downloadURL;
-            if (p.downloadMirrorURL) {
-              p.downloadURLs.push(p.downloadMirrorURL);
-              delete p.downloadMirrorURL;
-            }
-
-            return p;
-          });
-
-          let newV3Data = { version: 3, packages: newV3Packages };
-
-          newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
-
-          // For work in progress
-          for (const packageItem of newV3Data.packages) {
-            if (
-              packageItem.pageURL.startsWith('https://www.nicovideo.jp/watch/')
-            )
-              packageItem.nicommons = RegExp(/(sm|im|nc)[0-9]+/).exec(
-                packageItem.pageURL
-              )[0];
-          }
-          if (existsSync(v3ListPath)) {
-            const oldV3data = await readJSON(v3ListPath);
-            for (const newPackageItem of newV3Data.packages) {
-              const oldPackageItem = oldV3data.packages.find(
-                (p) => p.id === newPackageItem.id
-              );
-
-              if (oldPackageItem && 'nicommons' in oldPackageItem)
-                newPackageItem.nicommons = oldPackageItem.nicommons;
-            }
-          }
-
-          newV3Data = sortPackages(newV3Data);
-
-          await writeFile(
-            v3ListPath,
-            format(JSON.stringify(newV3Data), {
-              parser: 'json',
-              singleQuote: false,
-            })
-          );
-
-          console.log(greenBright('Converted packages.xml to packages.json.'));
-        } catch (e) {
-          console.error(red(e));
-        }
-      } else {
-        throw new Error('The list is invalid.');
-      }
-    } else {
-      throw valid;
-    }
-  } else {
+  if (!existsSync(v2ListPath))
     throw new Error('The version file does not exist.');
+
+  const xmlData = await readFile(v2ListPath, 'utf-8');
+  const valid = XMLValidator.validate(xmlData);
+  if (valid !== true) throw valid;
+
+  const packagesInfo = parser.parse(xmlData);
+  if (!packagesInfo.packages) throw new Error('The list is invalid.');
+
+  const v2Data = {};
+  for (const packageItem of packagesInfo.packages[0].package) {
+    v2Data[packageItem.id[0]] = new PackageInfo(packageItem);
+  }
+
+  try {
+    let newV3Packages = JSON.parse(
+      JSON.stringify(Object.values(v2Data)).replaceAll(
+        'isOptional',
+        'isUninstallOnly'
+      )
+    );
+
+    newV3Packages = newV3Packages.map((p) => {
+      if (p?.dependencies?.dependency)
+        p.dependencies = p.dependencies.dependency;
+      if (p?.releases)
+        p.releases = Object.entries(p.releases).map(([k, v]) => {
+          return { ...v, version: k };
+        });
+      delete p.type;
+      return p;
+    });
+
+    newV3Packages = newV3Packages.map((p) => {
+      if (p.releases) {
+        p.releases = p.releases
+          .sort((r1, r2) => compareVersion(r1.version, r2.version))
+          .reverse();
+        for (const release of p.releases) {
+          if (release.integrities) {
+            release.integrity = { file: release.integrities };
+            delete release.integrities;
+            for (const file of release.integrity.file) {
+              file.hash = file.targetIntegrity;
+              delete file.targetIntegrity;
+            }
+          }
+          if (release.archiveIntegrity) {
+            release.integrity.archive = release.archiveIntegrity;
+            delete release.archiveIntegrity;
+          }
+        }
+      }
+
+      p.downloadURLs = [p.downloadURL];
+      delete p.downloadURL;
+      if (p.downloadMirrorURL) {
+        p.downloadURLs.push(p.downloadMirrorURL);
+        delete p.downloadMirrorURL;
+      }
+
+      return p;
+    });
+
+    let newV3Data = { version: 3, packages: newV3Packages };
+
+    newV3Data = JSON.parse(JSON.stringify(newV3Data, replacer));
+
+    // For work in progress
+    for (const packageItem of newV3Data.packages) {
+      if (packageItem.pageURL.startsWith('https://www.nicovideo.jp/watch/'))
+        packageItem.nicommons = RegExp(/(sm|im|nc)[0-9]+/).exec(
+          packageItem.pageURL
+        )[0];
+    }
+    if (existsSync(v3ListPath)) {
+      const oldV3data = await readJSON(v3ListPath);
+      for (const newPackageItem of newV3Data.packages) {
+        const oldPackageItem = oldV3data.packages.find(
+          (p) => p.id === newPackageItem.id
+        );
+
+        if (oldPackageItem && 'nicommons' in oldPackageItem)
+          newPackageItem.nicommons = oldPackageItem.nicommons;
+      }
+    }
+
+    newV3Data = sortPackages(newV3Data);
+
+    await writeFile(
+      v3ListPath,
+      format(JSON.stringify(newV3Data), {
+        parser: 'json',
+        singleQuote: false,
+      })
+    );
+
+    console.log(greenBright('Converted packages.xml to packages.json.'));
+  } catch (e) {
+    console.error(red(e));
   }
 }
 
+function updateModifiedDate(targetData, newDate) {
+  const oldModDate = new Date(targetData.modified);
+  const newModDate = new Date(newDate);
+  if (newModDate.getTime() > oldModDate.getTime())
+    targetData.modified = newDate;
+}
+
 async function convertMod(v2ListPath, v3ListPath) {
-  if (existsSync(v2ListPath)) {
-    const xmlData = await readFile(v2ListPath, 'utf-8');
-    const valid = XMLValidator.validate(xmlData);
-    if (valid === true) {
-      const modInfo = parser.parse(xmlData);
-      if (modInfo.mod) {
-        const v2Data = {};
-        for (const filename of ['core', 'convert', 'packages', 'scripts']) {
-          v2Data[filename] = modInfo.mod[0][filename][0];
-        }
-
-        try {
-          const v3Data = await readJSON(v3ListPath);
-
-          for (const filename of ['core', 'convert']) {
-            const oldModDate = new Date(v3Data[filename].modified);
-            const newModDate = new Date(v2Data[filename]);
-            if (newModDate.getTime() > oldModDate.getTime())
-              v3Data[filename].modified = v2Data[filename];
-          }
-
-          for (const filename of ['packages', 'scripts']) {
-            const temp = v3Data[filename].find(
-              (value) => value.path === filename + '.json'
-            );
-
-            const oldModDate = new Date(temp.modified);
-            const newModDate = new Date(v2Data[filename]);
-            if (newModDate.getTime() > oldModDate.getTime())
-              temp.modified = v2Data[filename];
-          }
-
-          await writeFile(
-            v3ListPath,
-            format(JSON.stringify(v3Data), {
-              parser: 'json',
-              singleQuote: false,
-              printWidth: 60,
-            })
-          );
-
-          console.log(greenBright('Converted core.xml to core.json.'));
-        } catch (e) {
-          console.error(red(e));
-        }
-      } else {
-        throw new Error('The list is invalid.');
-      }
-    } else {
-      throw valid;
-    }
-  } else {
+  if (!existsSync(v2ListPath))
     throw new Error('The version file does not exist.');
+
+  const xmlData = await readFile(v2ListPath, 'utf-8');
+  const valid = XMLValidator.validate(xmlData);
+  if (valid !== true) throw valid;
+
+  const modInfo = parser.parse(xmlData);
+  if (!modInfo.mod) throw new Error('The list is invalid.');
+
+  const v2Data = {};
+  for (const filename of ['core', 'convert', 'packages', 'scripts']) {
+    v2Data[filename] = modInfo.mod[0][filename][0];
+  }
+
+  try {
+    const v3Data = await readJSON(v3ListPath);
+
+    ['core', 'convert'].forEach((filename) =>
+      updateModifiedDate(v3Data[filename], v2Data[filename])
+    );
+    ['packages', 'scripts'].forEach((filename) =>
+      updateModifiedDate(
+        v3Data[filename].find((value) => value.path === filename + '.json'),
+        v2Data[filename]
+      )
+    );
+
+    await writeFile(
+      v3ListPath,
+      format(JSON.stringify(v3Data), {
+        parser: 'json',
+        singleQuote: false,
+        printWidth: 60,
+      })
+    );
+
+    console.log(greenBright('Converted core.xml to core.json.'));
+  } catch (e) {
+    console.error(red(e));
   }
 }
 

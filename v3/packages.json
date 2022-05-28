@@ -720,7 +720,7 @@
       "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://scrapbox.io/ePi5131/patch.aul",
       "downloadURLs": ["https://github.com/ePi5131/patch.aul/releases/latest"],
-      "latestVersion": "r24",
+      "latestVersion": "r27",
       "nicommons": "sm39491708",
       "files": [
         { "filename": "patch.aul" },
@@ -817,14 +817,14 @@
       "id": "hebiiro/DarkenWindow",
       "name": "黒窓",
       "overview": "AviUtl の見た目をダークモードにします",
-      "description": "AviUtl の見た目をダークモードにします。",
+      "description": "AviUtl の見た目をダークモードにします。インストール後、「ダウンロードフォルダを開く」からダウンロードフォルダを開き、CreateDark.exeを実行してください。",
       "developer": "hebiiro",
       "dependencies": ["exedit0.92"],
       "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow",
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "5.4.1",
+      "latestVersion": "5.5.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest" },
         { "filename": "plugins/DarkenWindow.aul" },
@@ -2206,7 +2206,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
       "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
-      "latestVersion": "1.00",
+      "latestVersion": "1.01",
       "files": [
         { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
         { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
@@ -2539,7 +2539,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.05",
+      "latestVersion": "3.07",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },

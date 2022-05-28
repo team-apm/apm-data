@@ -1,14 +1,14 @@
 // > yarn run convert-2-3
 
-import { dirname, extname, resolve } from 'path';
-import fs from 'fs-extra';
-const { existsSync, readFile, writeFile, readJSON } = fs;
-import { XMLParser, XMLValidator } from 'fast-xml-parser';
-import compareVersions from 'compare-versions';
 import chalk from 'chalk';
-const { greenBright, red } = chalk;
+import compareVersions from 'compare-versions';
+import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
+import { basename, dirname, extname, resolve } from 'path';
 import { format } from 'prettier';
 import { sortCore, sortPackages } from './sort.js';
+const { existsSync, readFile, writeFile, readJSON } = fs;
+const { greenBright, red } = chalk;
 
 const __dirname = dirname(new URL(import.meta.url).pathname).slice(1);
 
@@ -230,6 +230,19 @@ class PackageInfo {
   }
 }
 
+const prettierOptions = {
+  parser: 'json',
+  singleQuote: false,
+};
+
+function successLog(v2ListPath, v3ListPath) {
+  console.log(
+    greenBright(
+      'Converted ' + basename(v2ListPath) + ' to ' + basename(v3ListPath)
+    )
+  );
+}
+
 async function convertCore(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error('The version file does not exist.');
@@ -283,13 +296,10 @@ async function convertCore(v2ListPath, v3ListPath) {
 
     await writeFile(
       v3ListPath,
-      format(JSON.stringify(newV3Data), {
-        parser: 'json',
-        singleQuote: false,
-      })
+      format(JSON.stringify(newV3Data), prettierOptions)
     );
 
-    console.log(greenBright('Converted core.xml to core.json.'));
+    successLog(v2ListPath, v3ListPath);
   } catch (e) {
     console.error(red(e));
   }
@@ -388,13 +398,10 @@ async function convertPackages(v2ListPath, v3ListPath) {
 
     await writeFile(
       v3ListPath,
-      format(JSON.stringify(newV3Data), {
-        parser: 'json',
-        singleQuote: false,
-      })
+      format(JSON.stringify(newV3Data), prettierOptions)
     );
 
-    console.log(greenBright('Converted packages.xml to packages.json.'));
+    successLog(v2ListPath, v3ListPath);
   } catch (e) {
     console.error(red(e));
   }
@@ -436,16 +443,10 @@ async function convertMod(v2ListPath, v3ListPath) {
       )
     );
 
-    await writeFile(
-      v3ListPath,
-      format(JSON.stringify(v3Data), {
-        parser: 'json',
-        singleQuote: false,
-        printWidth: 60,
-      })
-    );
+    const options = { ...prettierOptions, printWidth: 60 };
+    await writeFile(v3ListPath, format(JSON.stringify(v3Data), options));
 
-    console.log(greenBright('Converted core.xml to core.json.'));
+    successLog(v2ListPath, v3ListPath);
   } catch (e) {
     console.error(red(e));
   }

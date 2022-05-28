@@ -809,7 +809,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r26</latestVersion>
+		<latestVersion>r27</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -2185,7 +2185,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/ffmpegOut#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/ffmpegOut/releases/latest</downloadURL>
-		<latestVersion>1.00</latestVersion>
+		<latestVersion>1.01</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/ffmpegOut.auo</file>
 			<file archivePath="plugins">plugins/ffmpegOut.ini</file>

@@ -899,6 +899,7 @@
 		<developer>hebiiro</developer>
 		<dependencies>
 			<dependency>exedit0.92</dependency>
+			<dependency>ePi/patch</dependency>
 		</dependencies>
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL

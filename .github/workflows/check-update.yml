@@ -3,6 +3,7 @@ name: Check Update
 on:
   schedule:
     - cron: '43 20 * * *'
+  workflow_dispatch:
 
 jobs:
   check:
@@ -19,6 +20,7 @@ jobs:
           cache: yarn
       - run: yarn install --frozen-lockfile
       - run: yarn run check-update
+      - run: yarn run convert-2-3
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:

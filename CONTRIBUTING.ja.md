@@ -19,8 +19,8 @@ AviUtl Package Managerデータへのコントリビュートに興味を持っ�
 
 以下のIssueは、テンプレートを用意しています。日本語でも英語でも構いません。
 
-- プラグインリクエスト (Plugin request) [日本語](https://github.com/hal-shu-sato/apm-data/issues/new?labels=plugin&template=plugin_request_ja.md) [English](https://github.com/hal-shu-sato/apm-data/issues/new?labels=plugin&template=plugin_request.md)
-- スクリプトリクエスト (Script request) [日本語](https://github.com/hal-shu-sato/apm-data/issues/new?labels=script&template=script_request_ja.md) [English](https://github.com/hal-shu-sato/apm-data/issues/new?labels=script&template=script_request.md)
+- プラグインリクエスト (Plugin request) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request_ja.md) [English](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request.md)
+- スクリプトリクエスト (Script request) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request_ja.md) [English](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request.md)
 
 その他のIssueも大歓迎です。
 
@@ -35,13 +35,13 @@ Pull Requestも大歓迎です。
 - パッケージデータの追加
 - データ形式の変更
 
-Pull Requestがマージされた時点で、あなたの貢献が[Contributorsリスト](https://github.com/hal-shu-sato/apm-data/graphs/contributors)に追加され、コードの内容には[CC BY-NC-SA 4.0](./LICENSE)が適用されます。
+Pull Requestがマージされた時点で、あなたの貢献が[Contributorsリスト](https://github.com/team-apm/apm-data/graphs/contributors)に追加され、コードの内容には[CC BY-NC-SA 4.0](./LICENSE)が適用されます。
 
 <!--[CODE OF CONDUCT](./CODE_OF_CONDUCT.md)に反する内容を含むものは受け付けません。-->
 
 ## 修正の確認
 
-[AviUtl Package Manager](https://github.com/hal-shu-sato/apm)の`Setting`タブから追加データ取得先に編集したXMLファイルを指定して、追加したパッケージのインストールとアンインストールを試してください。
+[AviUtl Package Manager](https://github.com/team-apm/apm)の`Setting`タブから追加データ取得先に編集したXMLファイルを指定して、追加したパッケージのインストールとアンインストールを試してください。
 
 ## ディレクトリ構造
 

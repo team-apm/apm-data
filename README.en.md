@@ -1,9 +1,9 @@
 # apm-data
 
-[![Node CI](https://github.com/hal-shu-sato/apm-data/actions/workflows/nodejs.yml/badge.svg)](https://github.com/hal-shu-sato/apm-data/actions/workflows/nodejs.yml)
-[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/hal-shu-sato/apm-data/badge?style=rounded)](https://www.jsdelivr.com/package/gh/hal-shu-sato/apm-data)
+[![Node CI](https://github.com/team-apm/apm-data/actions/workflows/nodejs.yml/badge.svg)](https://github.com/team-apm/apm-data/actions/workflows/nodejs.yml)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/team-apm/apm-data/badge?style=rounded)](https://www.jsdelivr.com/package/gh/team-apm/apm-data)
 
-Data repository for [AviUtl Package Manager](https://github.com/hal-shu-sato/apm)
+Data repository for [AviUtl Package Manager](https://github.com/team-apm/apm)
 
 ## Data Structure
 

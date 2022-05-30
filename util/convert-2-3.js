@@ -245,7 +245,12 @@ function successLog(v2ListPath, v3ListPath) {
 
 async function convertCore(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
-    throw new Error('The version file does not exist.');
+    throw new Error(
+      'The version file does not exist. ' +
+        normalize(v2ListPath) +
+        ' ' +
+        normalize(v3ListPath)
+    );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
   const valid = XMLValidator.validate(xmlData);
@@ -307,7 +312,12 @@ async function convertCore(v2ListPath, v3ListPath) {
 
 async function convertPackages(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
-    throw new Error('The version file does not exist.');
+    throw new Error(
+      'The version file does not exist. ' +
+        normalize(v2ListPath) +
+        ' ' +
+        normalize(v3ListPath)
+    );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
   const valid = XMLValidator.validate(xmlData);
@@ -416,7 +426,12 @@ function updateModifiedDate(targetData, newDate) {
 
 async function convertMod(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
-    throw new Error('The version file does not exist.');
+    throw new Error(
+      'The version file does not exist. ' +
+        normalize(v2ListPath) +
+        ' ' +
+        normalize(v3ListPath)
+    );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
   const valid = XMLValidator.validate(xmlData);

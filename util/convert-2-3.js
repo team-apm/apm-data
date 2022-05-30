@@ -4,13 +4,11 @@ import chalk from 'chalk';
 import compareVersions from 'compare-versions';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import fs from 'fs-extra';
-import { dirname, extname, normalize, resolve } from 'path';
+import { extname, resolve } from 'path';
 import { format } from 'prettier';
 import { sortCore, sortPackages } from './sort.js';
 const { existsSync, readFile, writeFile, readJSON } = fs;
 const { greenBright, red } = chalk;
-
-const __dirname = dirname(new URL(import.meta.url).pathname).slice(1);
 
 function compareVersion(firstVersion, secondVersion) {
   if (firstVersion === secondVersion) return 0;
@@ -236,20 +234,13 @@ const prettierOptions = {
 };
 
 function successLog(v2ListPath, v3ListPath) {
-  console.log(
-    greenBright(
-      'Converted ' + normalize(v2ListPath) + ' to ' + normalize(v3ListPath)
-    )
-  );
+  console.log(greenBright('Converted ' + v2ListPath + ' to ' + v3ListPath));
 }
 
 async function convertCore(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error(
-      'The version file does not exist. ' +
-        normalize(v2ListPath) +
-        ' ' +
-        normalize(v3ListPath)
+      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath
     );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
@@ -306,17 +297,14 @@ async function convertCore(v2ListPath, v3ListPath) {
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {
-    console.error(red(e), normalize(v2ListPath), normalize(v3ListPath));
+    console.error(red(e), v2ListPath, v3ListPath);
   }
 }
 
 async function convertPackages(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error(
-      'The version file does not exist. ' +
-        normalize(v2ListPath) +
-        ' ' +
-        normalize(v3ListPath)
+      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath
     );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
@@ -413,7 +401,7 @@ async function convertPackages(v2ListPath, v3ListPath) {
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {
-    console.error(red(e), normalize(v2ListPath), normalize(v3ListPath));
+    console.error(red(e), v2ListPath, v3ListPath);
   }
 }
 
@@ -427,10 +415,7 @@ function updateModifiedDate(targetData, newDate) {
 async function convertMod(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error(
-      'The version file does not exist. ' +
-        normalize(v2ListPath) +
-        ' ' +
-        normalize(v3ListPath)
+      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath
     );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
@@ -463,23 +448,23 @@ async function convertMod(v2ListPath, v3ListPath) {
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {
-    console.error(red(e), normalize(v2ListPath), normalize(v3ListPath));
+    console.error(red(e), v2ListPath, v3ListPath);
   }
 }
 
 const args = process.argv.slice(2);
 
 if (args[0] === '--core') {
-  const input = resolve(__dirname, '../v2/data/core.xml');
-  const output = resolve(__dirname, '../v3/core.json');
+  const input = resolve('v2/data/core.xml');
+  const output = resolve('v3/core.json');
   convertCore(input, output);
 } else if (args[0] === '--packages') {
-  const input = resolve(__dirname, '../v2/data/packages.xml');
-  const output = resolve(__dirname, '../v3/packages.json');
+  const input = resolve('v2/data/packages.xml');
+  const output = resolve('v3/packages.json');
   convertPackages(input, output);
 } else if (args[0] === '--mod') {
-  const input = resolve(__dirname, '../v2/data/mod.xml');
-  const output = resolve(__dirname, '../v3/list.json');
+  const input = resolve('v2/data/mod.xml');
+  const output = resolve('v3/list.json');
   convertMod(input, output);
 } else {
   console.error(red('There is no args.'));

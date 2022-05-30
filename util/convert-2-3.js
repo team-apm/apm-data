@@ -301,7 +301,7 @@ async function convertCore(v2ListPath, v3ListPath) {
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {
-    console.error(red(e));
+    console.error(red(e), normalize(v2ListPath), normalize(v3ListPath));
   }
 }
 
@@ -403,7 +403,7 @@ async function convertPackages(v2ListPath, v3ListPath) {
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {
-    console.error(red(e));
+    console.error(red(e), normalize(v2ListPath), normalize(v3ListPath));
   }
 }
 
@@ -448,7 +448,7 @@ async function convertMod(v2ListPath, v3ListPath) {
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {
-    console.error(red(e));
+    console.error(red(e), normalize(v2ListPath), normalize(v3ListPath));
   }
 }
 

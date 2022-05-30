@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import compareVersions from 'compare-versions';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import fs from 'fs-extra';
-import { basename, dirname, extname, resolve } from 'path';
+import { dirname, extname, normalize, resolve } from 'path';
 import { format } from 'prettier';
 import { sortCore, sortPackages } from './sort.js';
 const { existsSync, readFile, writeFile, readJSON } = fs;
@@ -238,7 +238,7 @@ const prettierOptions = {
 function successLog(v2ListPath, v3ListPath) {
   console.log(
     greenBright(
-      'Converted ' + basename(v2ListPath) + ' to ' + basename(v3ListPath)
+      'Converted ' + normalize(v2ListPath) + ' to ' + normalize(v3ListPath)
     )
   );
 }

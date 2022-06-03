@@ -824,7 +824,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.1.3",
+      "latestVersion": "6.2.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest" },
         { "filename": "plugins/DarkenWindow.aul" },
@@ -2539,7 +2539,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.08",
+      "latestVersion": "3.09",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },

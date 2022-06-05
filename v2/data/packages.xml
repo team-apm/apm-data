@@ -2437,7 +2437,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x264guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
-		<latestVersion>3.09</latestVersion>
+		<latestVersion>3.10</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x264guiEx.auo</file>
 			<file archivePath="plugins">plugins/x264guiEx.ini</file>

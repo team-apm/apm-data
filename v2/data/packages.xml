@@ -809,7 +809,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r29</latestVersion>
+		<latestVersion>r30</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -904,7 +904,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.2.0</latestVersion>
+		<latestVersion>6.2.1</latestVersion>
 		<files>
 			<file>aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -2225,7 +2225,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.02</latestVersion>
+		<latestVersion>6.03</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>

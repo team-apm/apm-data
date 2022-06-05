@@ -720,7 +720,7 @@
       "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://scrapbox.io/ePi5131/patch.aul",
       "downloadURLs": ["https://github.com/ePi5131/patch.aul/releases/latest"],
-      "latestVersion": "r29",
+      "latestVersion": "r30",
       "nicommons": "sm39491708",
       "files": [
         { "filename": "patch.aul" },
@@ -824,7 +824,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.2.0",
+      "latestVersion": "6.2.1",
       "files": [
         { "filename": "aviutl_dark.exe.manifest" },
         { "filename": "plugins/DarkenWindow.aul" },
@@ -2257,7 +2257,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "6.02",
+      "latestVersion": "6.03",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },

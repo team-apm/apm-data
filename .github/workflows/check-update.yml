@@ -19,8 +19,8 @@ jobs:
           node-version: '16'
           cache: yarn
       - run: yarn install --frozen-lockfile
-      - run: mr_ojii_file=`curl -s 'https://api.github.com/repos/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest' | jq -r '.assets[] | select(.name|test("Mr-Ojii_Mr-Ojii")).name'`
-      - run: sed -i "s/L-SMASH-Works_rev[0-9]*_Mr-Ojii_Mr-Ojii_AviUtl\.zip/$mr_ojii_file/g" v2/data/packages.xml
+      - run: mr_ojii_file=`curl -s 'https://api.github.com/repos/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest' | jq -r '.assets[] | select(.name|test("Mr-Ojii_Mr-Ojii")).name'` && echo "mr_ojii_file=$mr_ojii_file" >> $GITHUB_ENV
+      - run: sed -i "s/L-SMASH-Works_rev[0-9]*_Mr-Ojii_Mr-Ojii_AviUtl\.zip/${{ env.mr_ojii_file }}/g" v2/data/packages.xml
       - run: yarn run check-update
       - run: yarn run convert-2-3
       - name: Create Pull Request

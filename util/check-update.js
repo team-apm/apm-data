@@ -7,6 +7,7 @@ const { whiteBright, green, yellow, cyanBright, red } = chalk;
 import { XMLParser, XMLValidator, XMLBuilder } from 'fast-xml-parser';
 import { format as _format } from 'prettier';
 import { Octokit } from '@octokit/rest';
+import { execSync } from 'child_process';
 
 // Options
 const exclude = ['oov/PSDToolKit']; // IDs that won't be checked
@@ -127,7 +128,12 @@ async function check() {
       writeFileSync(packagesXmlPath, format(newPackagesXml), 'utf-8');
 
       console.log(green('Updated packages.xml'));
-
+    }
+    try {
+      // Throws an error if changes in the file
+      execSync('git diff --exit-code -- ' + packagesXmlPath);
+      console.log('No updates available');
+    } catch {
       const modXmlData = readFileSync(modXmlPath, 'utf-8');
       if (XMLValidator.validate(modXmlData)) {
         const modObj = parser.parse(modXmlData);

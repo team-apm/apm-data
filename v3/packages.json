@@ -824,7 +824,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.2.1",
+      "latestVersion": "6.2.2",
       "files": [
         { "filename": "aviutl_dark.exe.manifest" },
         { "filename": "plugins/DarkenWindow.aul" },

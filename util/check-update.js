@@ -57,71 +57,84 @@ async function check() {
 
     const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
-    for (const p of packagesObj[2].packages) {
-      if ('package' in p) {
-        const packageItem = p.package;
+    const checkPackageUpdate = async (p) => {
+      const packageItem = p.package;
 
-        const getValue = (key) => {
-          return packageItem.find((value) => key in value)[key][0]._;
-        };
+      const getValue = (key) => {
+        return packageItem.find((value) => key in value)[key][0]._;
+      };
 
-        const id = getValue('id');
-        const downloadURL = new URL(getValue('downloadURL'));
-        const currentVersion = getValue('latestVersion');
+      const id = getValue('id');
+      const downloadURL = new URL(getValue('downloadURL'));
+      const currentVersion = getValue('latestVersion');
 
-        const dirs = downloadURL.pathname.split('/');
-        dirs.shift();
+      const dirs = downloadURL.pathname.split('/');
+      dirs.shift();
 
-        if (
-          !exclude.includes(id) &&
-          downloadURL.hostname === 'github.com' &&
-          dirs[2] === 'releases' &&
-          currentVersion !== '最新'
-        ) {
-          try {
-            const res = await octokit.rest.repos.getLatestRelease({
-              owner: dirs[0],
-              repo: dirs[1],
-            });
+      if (
+        !exclude.includes(id) &&
+        downloadURL.hostname === 'github.com' &&
+        dirs[2] === 'releases' &&
+        currentVersion !== '最新'
+      ) {
+        try {
+          const res = await octokit.rest.repos.getLatestRelease({
+            owner: dirs[0],
+            repo: dirs[1],
+          });
 
-            let latestTag = res.data.tag_name;
+          let latestTag = res.data.tag_name;
 
-            // only for hebiiro's packages
-            if (dirs[0] === 'hebiiro') {
-              const versionArray = latestTag
-                .split('.')
-                .filter((value) => /[0-9]+/.test(value));
-              if (versionArray.length >= 1) {
-                latestTag = versionArray.join('.');
-              } else {
-                throw new Error('A version-like string is not found.');
-              }
-            }
-
-            if (latestTag === currentVersion) {
-              console.log(whiteBright(id), green(currentVersion));
+          // only for hebiiro's packages
+          if (dirs[0] === 'hebiiro') {
+            const versionArray = latestTag
+              .split('.')
+              .filter((value) => /[0-9]+/.test(value));
+            if (versionArray.length >= 1) {
+              latestTag = versionArray.join('.');
             } else {
-              updateAvailable++;
-              const currentVersionIndex = packageItem.findIndex(
-                (value) => 'latestVersion' in value
-              );
-              packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
-              console.log(
-                whiteBright(id),
-                yellow(currentVersion),
-                cyanBright(latestTag)
-              );
+              throw new Error('A version-like string is not found.');
             }
-          } catch (e) {
-            if (e.status === 404) {
-              console.error(whiteBright(id), currentVersion, red('Not Found'));
-            } else {
-              console.error(red(e.message));
-            }
+          }
+
+          if (latestTag === currentVersion) {
+            return whiteBright(id) + ' ' + green(currentVersion);
+          } else {
+            updateAvailable++;
+            const currentVersionIndex = packageItem.findIndex(
+              (value) => 'latestVersion' in value
+            );
+            packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
+
+            return (
+              whiteBright(id) +
+              ' ' +
+              yellow(currentVersion) +
+              ' ' +
+              cyanBright(latestTag)
+            );
+          }
+        } catch (e) {
+          if (e.status === 404) {
+            return (
+              whiteBright(id) + ' ' + currentVersion + ' ' + red('Not Found')
+            );
+          } else {
+            return red(e.message);
           }
         }
       }
+    };
+
+    const promisesInWaiting = [];
+    for (const p of packagesObj[2].packages) {
+      if ('package' in p) {
+        promisesInWaiting.push(checkPackageUpdate(p));
+      }
     }
+    (await Promise.all(promisesInWaiting))
+      .filter((m) => m)
+      .forEach((m) => console.log(m));
 
     if (updateAvailable >= 1) {
       const newPackagesXml = builder.build(packagesObj);

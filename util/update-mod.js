@@ -2,12 +2,12 @@
 // > yarn run mod-packages
 // > yarn run mod-convert
 
-import fs from 'fs-extra';
-const { readFileSync, writeFileSync } = fs;
 import chalk from 'chalk';
-const { green, red } = chalk;
-import { XMLParser, XMLValidator, XMLBuilder } from 'fast-xml-parser';
+import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
 import { format as _format } from 'prettier';
+const { readFileSync, writeFileSync } = fs;
+const { green, red } = chalk;
 
 // options
 const modXmlPath = 'v2/data/mod.xml';

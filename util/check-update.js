@@ -1,13 +1,13 @@
 // > yarn run check-update
 
-import fs from 'fs-extra';
-const { readFileSync, writeFileSync } = fs;
-import chalk from 'chalk';
-const { whiteBright, green, yellow, cyanBright, red } = chalk;
-import { XMLParser, XMLValidator, XMLBuilder } from 'fast-xml-parser';
-import { format as _format } from 'prettier';
 import { Octokit } from '@octokit/rest';
+import chalk from 'chalk';
 import { execSync } from 'child_process';
+import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
+import { format as _format } from 'prettier';
+const { readFileSync, writeFileSync } = fs;
+const { whiteBright, green, yellow, cyanBright, red } = chalk;
 
 // Options
 const exclude = ['oov/PSDToolKit']; // IDs that won't be checked

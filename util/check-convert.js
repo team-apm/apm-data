@@ -1,11 +1,11 @@
 // > yarn check-convert convertJson/dir/ old/packages.xml new/packages.xml
 
-import { join } from 'path';
-import fs from 'fs-extra';
-const { readJsonSync, readFileSync } = fs;
 import chalk from 'chalk';
-const { cyan, cyanBright, green, redBright, red } = chalk;
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
+import { join } from 'path';
+const { readJsonSync, readFileSync } = fs;
+const { cyan, cyanBright, green, redBright, red } = chalk;
 
 function check(args) {
   const convertJson = readJsonSync(join(args[0], 'convert.json'));

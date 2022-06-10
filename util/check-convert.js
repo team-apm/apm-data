@@ -1,17 +1,19 @@
 // > yarn check-convert convertJson/dir/ old/packages.xml new/packages.xml
 
-import { join } from 'path';
-import fs from 'fs-extra';
-const { readJsonSync, readFileSync } = fs;
 import chalk from 'chalk';
-const { cyan, cyanBright, green, redBright, red } = chalk;
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
+import { join } from 'path';
+const { readJson, readFile } = fs;
+const { cyan, cyanBright, green, redBright, red } = chalk;
 
-function check(args) {
-  const convertJson = readJsonSync(join(args[0], 'convert.json'));
+async function check(args) {
+  const [convertJson, oldXmlData, newXmlData] = await Promise.all([
+    readJson(join(args[0], 'convert.json')),
+    readFile(args[1], 'utf-8'),
+    readFile(args[2], 'utf-8'),
+  ]);
 
-  const oldXmlData = readFileSync(args[1], 'utf-8');
-  const newXmlData = readFileSync(args[2], 'utf-8');
   if (XMLValidator.validate(oldXmlData) && XMLValidator.validate(newXmlData)) {
     const parser = new XMLParser({ parseAttributeValue: false });
     const oldJsonObj = parser.parse(oldXmlData);

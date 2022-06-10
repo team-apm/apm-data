@@ -1,11 +1,11 @@
 // > yarn sri "C:\path\to\some.file"
 
-import { fromStream } from 'ssri';
-import fs from 'fs-extra';
-const { createReadStream } = fs;
 import chalk from 'chalk';
-const { yellowBright, green } = chalk;
 import clipboardy from 'clipboardy';
+import fs from 'fs-extra';
+import { fromStream } from 'ssri';
+const { createReadStream } = fs;
+const { yellowBright, green } = chalk;
 const { write } = clipboardy;
 
 async function generate(args) {

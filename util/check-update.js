@@ -1,13 +1,13 @@
 // > yarn run check-update
 
-import fs from 'fs-extra';
-const { readFileSync, writeFileSync } = fs;
-import chalk from 'chalk';
-const { whiteBright, green, yellow, cyanBright, red } = chalk;
-import { XMLParser, XMLValidator, XMLBuilder } from 'fast-xml-parser';
-import { format as _format } from 'prettier';
 import { Octokit } from '@octokit/rest';
+import chalk from 'chalk';
 import { execSync } from 'child_process';
+import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
+import { format as _format } from 'prettier';
+const { readFile, writeFile } = fs;
+const { whiteBright, green, yellow, cyanBright, red } = chalk;
 
 // Options
 const exclude = ['oov/PSDToolKit']; // IDs that won't be checked
@@ -49,7 +49,7 @@ const builder = new XMLBuilder({
 });
 
 async function check() {
-  const packagesXmlData = readFileSync(packagesXmlPath, 'utf-8');
+  const packagesXmlData = await readFile(packagesXmlPath, 'utf-8');
   if (XMLValidator.validate(packagesXmlData)) {
     const packagesObj = parser.parse(packagesXmlData);
 
@@ -57,75 +57,88 @@ async function check() {
 
     const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
-    for (const p of packagesObj[2].packages) {
-      if ('package' in p) {
-        const packageItem = p.package;
+    const checkPackageUpdate = async (p) => {
+      const packageItem = p.package;
 
-        const getValue = (key) => {
-          return packageItem.find((value) => key in value)[key][0]._;
-        };
+      const getValue = (key) => {
+        return packageItem.find((value) => key in value)[key][0]._;
+      };
 
-        const id = getValue('id');
-        const downloadURL = new URL(getValue('downloadURL'));
-        const currentVersion = getValue('latestVersion');
+      const id = getValue('id');
+      const downloadURL = new URL(getValue('downloadURL'));
+      const currentVersion = getValue('latestVersion');
 
-        const dirs = downloadURL.pathname.split('/');
-        dirs.shift();
+      const dirs = downloadURL.pathname.split('/');
+      dirs.shift();
 
-        if (
-          !exclude.includes(id) &&
-          downloadURL.hostname === 'github.com' &&
-          dirs[2] === 'releases' &&
-          currentVersion !== '最新'
-        ) {
-          try {
-            const res = await octokit.rest.repos.getLatestRelease({
-              owner: dirs[0],
-              repo: dirs[1],
-            });
+      if (
+        !exclude.includes(id) &&
+        downloadURL.hostname === 'github.com' &&
+        dirs[2] === 'releases' &&
+        currentVersion !== '最新'
+      ) {
+        try {
+          const res = await octokit.rest.repos.getLatestRelease({
+            owner: dirs[0],
+            repo: dirs[1],
+          });
 
-            let latestTag = res.data.tag_name;
+          let latestTag = res.data.tag_name;
 
-            // only for hebiiro's packages
-            if (dirs[0] === 'hebiiro') {
-              const versionArray = latestTag
-                .split('.')
-                .filter((value) => /[0-9]+/.test(value));
-              if (versionArray.length >= 1) {
-                latestTag = versionArray.join('.');
-              } else {
-                throw new Error('A version-like string is not found.');
-              }
-            }
-
-            if (latestTag === currentVersion) {
-              console.log(whiteBright(id), green(currentVersion));
+          // only for hebiiro's packages
+          if (dirs[0] === 'hebiiro') {
+            const versionArray = latestTag
+              .split('.')
+              .filter((value) => /[0-9]+/.test(value));
+            if (versionArray.length >= 1) {
+              latestTag = versionArray.join('.');
             } else {
-              updateAvailable++;
-              const currentVersionIndex = packageItem.findIndex(
-                (value) => 'latestVersion' in value
-              );
-              packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
-              console.log(
-                whiteBright(id),
-                yellow(currentVersion),
-                cyanBright(latestTag)
-              );
+              throw new Error('A version-like string is not found.');
             }
-          } catch (e) {
-            if (e.status === 404) {
-              console.error(whiteBright(id), currentVersion, red('Not Found'));
-            } else {
-              console.error(red(e.message));
-            }
+          }
+
+          if (latestTag === currentVersion) {
+            return whiteBright(id) + ' ' + green(currentVersion);
+          } else {
+            updateAvailable++;
+            const currentVersionIndex = packageItem.findIndex(
+              (value) => 'latestVersion' in value
+            );
+            packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
+
+            return (
+              whiteBright(id) +
+              ' ' +
+              yellow(currentVersion) +
+              ' ' +
+              cyanBright(latestTag)
+            );
+          }
+        } catch (e) {
+          if (e.status === 404) {
+            return (
+              whiteBright(id) + ' ' + currentVersion + ' ' + red('Not Found')
+            );
+          } else {
+            return red(e.message);
           }
         }
       }
+    };
+
+    const promisesInWaiting = [];
+    for (const p of packagesObj[2].packages) {
+      if ('package' in p) {
+        promisesInWaiting.push(checkPackageUpdate(p));
+      }
     }
+    (await Promise.all(promisesInWaiting))
+      .filter((m) => m)
+      .forEach((m) => console.log(m));
 
     if (updateAvailable >= 1) {
       const newPackagesXml = builder.build(packagesObj);
-      writeFileSync(packagesXmlPath, format(newPackagesXml), 'utf-8');
+      await writeFile(packagesXmlPath, format(newPackagesXml), 'utf-8');
 
       console.log(green('Updated packages.xml'));
     }
@@ -134,7 +147,7 @@ async function check() {
       execSync('git diff --exit-code -- ' + packagesXmlPath);
       console.log('No updates available');
     } catch {
-      const modXmlData = readFileSync(modXmlPath, 'utf-8');
+      const modXmlData = await readFile(modXmlPath, 'utf-8');
       if (XMLValidator.validate(modXmlData)) {
         const modObj = parser.parse(modXmlData);
 
@@ -156,7 +169,7 @@ async function check() {
         modObj[2].mod[1].packages[0]._ = newModDate;
 
         const newModXml = builder.build(modObj);
-        writeFileSync(modXmlPath, format(newModXml), 'utf-8');
+        await writeFile(modXmlPath, format(newModXml), 'utf-8');
 
         console.log(green('Updated mod.xml'));
       }

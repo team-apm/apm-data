@@ -2,12 +2,12 @@
 // > yarn run mod-packages
 // > yarn run mod-convert
 
-import fs from 'fs-extra';
-const { readFileSync, writeFileSync } = fs;
 import chalk from 'chalk';
-const { green, red } = chalk;
-import { XMLParser, XMLValidator, XMLBuilder } from 'fast-xml-parser';
+import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
+import fs from 'fs-extra';
 import { format as _format } from 'prettier';
+const { readFile, writeFile } = fs;
+const { green, red } = chalk;
 
 // options
 const modXmlPath = 'v2/data/mod.xml';
@@ -49,7 +49,7 @@ async function update(args) {
   const newDate = new Date();
   newDate.setSeconds(0, 0);
 
-  const modXmlData = readFileSync(modXmlPath, 'utf-8');
+  const modXmlData = await readFile(modXmlPath, 'utf-8');
   if (XMLValidator.validate(modXmlData)) {
     const modObj = parser.parse(modXmlData);
 
@@ -82,7 +82,7 @@ async function update(args) {
     if (update) {
       targetObj._ = toISODate(newDate);
       const newModXml = builder.build(modObj);
-      writeFileSync(modXmlPath, format(newModXml), 'utf-8');
+      await writeFile(modXmlPath, format(newModXml), 'utf-8');
 
       console.log(green('Updated mod.xml'));
     }

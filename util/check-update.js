@@ -148,11 +148,14 @@ async function checkPackageUpdate(p) {
     );
     packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
 
+    result.updateAvailable = true;
+
     // Create integrity
     if (Object.keys(archiveNamePattern).includes(id)) {
       const matchPattern = new RegExp('^' + archiveNamePattern[id] + '\\.zip$');
       const assets = res.data.assets;
       const archiveData = assets.find((value) => matchPattern.test(value.name));
+
       if (archiveData && extname(archiveData.name) === '.zip') {
         const url = archiveData.browser_download_url;
 
@@ -176,7 +179,6 @@ async function checkPackageUpdate(p) {
               }
             });
           });
-
         await download(url, outArchive);
 
         const unzippedPath = await unzip(archivePath);
@@ -189,32 +191,33 @@ async function checkPackageUpdate(p) {
           targetFileArchivePath,
           basename(targetFile)
         );
-        const fileHash = await generateHash(targetPath);
-        const archiveHash = await generateHash(archivePath);
-        packageItem
-          .find((value) => 'releases' in value)
-          .releases.push({
-            release: [
-              {
-                archiveIntegrity: [{ _: archiveHash }],
-              },
-              {
-                integrities: [
-                  {
-                    integrity: [{ _: fileHash }],
-                    ':@': { $target: targetFile },
-                  },
-                ],
-              },
-            ],
-            ':@': { $version: latestTag },
-          });
-
-        await Promise.all([remove(archivePath), remove(unzippedPath)]);
+        try {
+          const fileHash = await generateHash(targetPath);
+          const archiveHash = await generateHash(archivePath);
+          packageItem
+            .find((value) => 'releases' in value)
+            .releases.push({
+              release: [
+                {
+                  archiveIntegrity: [{ _: archiveHash }],
+                },
+                {
+                  integrities: [
+                    {
+                      integrity: [{ _: fileHash }],
+                      ':@': { $target: targetFile },
+                    },
+                  ],
+                },
+              ],
+              ':@': { $version: latestTag },
+            });
+        } finally {
+          await Promise.all([remove(archivePath), remove(unzippedPath)]);
+        }
       }
     }
 
-    result.updateAvailable = true;
     result.message =
       whiteBright(id) +
       ' ' +

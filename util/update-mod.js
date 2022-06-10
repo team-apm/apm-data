@@ -6,7 +6,7 @@ import chalk from 'chalk';
 import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
 import fs from 'fs-extra';
 import { format as _format } from 'prettier';
-const { readFileSync, writeFileSync } = fs;
+const { readFile, writeFile } = fs;
 const { green, red } = chalk;
 
 // options
@@ -49,7 +49,7 @@ async function update(args) {
   const newDate = new Date();
   newDate.setSeconds(0, 0);
 
-  const modXmlData = readFileSync(modXmlPath, 'utf-8');
+  const modXmlData = await readFile(modXmlPath, 'utf-8');
   if (XMLValidator.validate(modXmlData)) {
     const modObj = parser.parse(modXmlData);
 
@@ -82,7 +82,7 @@ async function update(args) {
     if (update) {
       targetObj._ = toISODate(newDate);
       const newModXml = builder.build(modObj);
-      writeFileSync(modXmlPath, format(newModXml), 'utf-8');
+      await writeFile(modXmlPath, format(newModXml), 'utf-8');
 
       console.log(green('Updated mod.xml'));
     }

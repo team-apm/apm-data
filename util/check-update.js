@@ -6,7 +6,7 @@ import { execSync } from 'child_process';
 import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
 import fs from 'fs-extra';
 import { format as _format } from 'prettier';
-const { readFileSync, writeFileSync } = fs;
+const { readFile, writeFile } = fs;
 const { whiteBright, green, yellow, cyanBright, red } = chalk;
 
 // Options
@@ -49,7 +49,7 @@ const builder = new XMLBuilder({
 });
 
 async function check() {
-  const packagesXmlData = readFileSync(packagesXmlPath, 'utf-8');
+  const packagesXmlData = await readFile(packagesXmlPath, 'utf-8');
   if (XMLValidator.validate(packagesXmlData)) {
     const packagesObj = parser.parse(packagesXmlData);
 
@@ -125,7 +125,7 @@ async function check() {
 
     if (updateAvailable >= 1) {
       const newPackagesXml = builder.build(packagesObj);
-      writeFileSync(packagesXmlPath, format(newPackagesXml), 'utf-8');
+      await writeFile(packagesXmlPath, format(newPackagesXml), 'utf-8');
 
       console.log(green('Updated packages.xml'));
     }
@@ -134,7 +134,7 @@ async function check() {
       execSync('git diff --exit-code -- ' + packagesXmlPath);
       console.log('No updates available');
     } catch {
-      const modXmlData = readFileSync(modXmlPath, 'utf-8');
+      const modXmlData = await readFile(modXmlPath, 'utf-8');
       if (XMLValidator.validate(modXmlData)) {
         const modObj = parser.parse(modXmlData);
 
@@ -156,7 +156,7 @@ async function check() {
         modObj[2].mod[1].packages[0]._ = newModDate;
 
         const newModXml = builder.build(modObj);
-        writeFileSync(modXmlPath, format(newModXml), 'utf-8');
+        await writeFile(modXmlPath, format(newModXml), 'utf-8');
 
         console.log(green('Updated mod.xml'));
       }

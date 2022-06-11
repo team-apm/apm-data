@@ -15,6 +15,7 @@ const {
   createReadStream,
   createWriteStream,
   ensureDir,
+  existsSync,
   readFile,
   readJsonSync,
   remove,
@@ -149,14 +150,39 @@ async function checkPackageUpdate(p) {
     packageItem[currentVersionIndex].latestVersion[0]._ = latestTag;
 
     result.updateAvailable = true;
+    result.message =
+      whiteBright(id) +
+      ' ' +
+      yellow(currentVersion) +
+      ' ' +
+      cyanBright(latestTag);
 
     // Create integrity
-    if (Object.keys(archiveNamePattern).includes(id)) {
-      const matchPattern = new RegExp('^' + archiveNamePattern[id] + '\\.zip$');
-      const assets = res.data.assets;
-      const archiveData = assets.find((value) => matchPattern.test(value.name));
+    const oldReleaseObj = packageItem
+      .find((value) => 'releases' in value)
+      ?.releases?.at(-1);
+    if (oldReleaseObj?.release) {
+      if (oldReleaseObj[':@'].$version === latestTag)
+        throw new Error('The release data of the same version exist.');
 
-      if (archiveData && extname(archiveData.name) === '.zip') {
+      const assets = res.data.assets;
+      let archiveData = {
+        name: dirs[0] + '-' + dirs[1] + '-' + latestTag + '.zip',
+        browser_download_url: `https://github.com/${dirs[0]}/${dirs[1]}/archive/refs/tags/${res.data.tag_name}.zip`,
+      };
+      if (assets.length >= 1) {
+        archiveData =
+          assets.length >= 2
+            ? assets.find((value) => {
+                const matchPattern = new RegExp(
+                  '^' + archiveNamePattern[id] + '\\.zip$'
+                );
+                return matchPattern.test(value.name);
+              })
+            : assets[0];
+      }
+
+      if (extname(archiveData.name) === '.zip') {
         const url = archiveData.browser_download_url;
 
         const archivePath = resolve('util/temp/archive', archiveData.name);
@@ -180,50 +206,58 @@ async function checkPackageUpdate(p) {
             });
           });
         await download(url, outArchive);
-
         const unzippedPath = await unzip(archivePath);
-        const targetFileObj = packageItem.find((value) => 'files' in value)
-          .files[0];
-        const targetFile = targetFileObj.file[0]._;
-        const targetFileArchivePath = targetFileObj?.[':@']?.$archivePath ?? '';
-        const targetPath = resolve(
-          unzippedPath,
-          targetFileArchivePath,
-          basename(targetFile)
-        );
-        try {
-          const fileHash = await generateHash(targetPath);
-          const archiveHash = await generateHash(archivePath);
-          packageItem
-            .find((value) => 'releases' in value)
-            .releases.push({
-              release: [
-                {
-                  archiveIntegrity: [{ _: archiveHash }],
-                },
-                {
-                  integrities: [
-                    {
-                      integrity: [{ _: fileHash }],
-                      ':@': { $target: targetFile },
-                    },
-                  ],
-                },
-              ],
-              ':@': { $version: latestTag },
+
+        const archiveHash = await generateHash(archivePath);
+
+        const oldIntegritesArray = oldReleaseObj.release.find(
+          (value) => 'integrities' in value
+        )?.integrities;
+        const newIntegritiesArray = [];
+        if (oldIntegritesArray) {
+          const filesArray = packageItem.find(
+            (value) => 'files' in value
+          ).files;
+          for (const integrity of oldIntegritesArray) {
+            const targetFilename = integrity?.[':@']?.$target;
+            const targetFileArchivePath =
+              filesArray.find((value) => value.file[0]._ === targetFilename)?.[
+                ':@'
+              ]?.$archivePath ?? '';
+            const targetPath = resolve(
+              unzippedPath,
+              targetFileArchivePath,
+              basename(targetFilename)
+            );
+
+            if (!existsSync(targetPath)) continue;
+
+            const fileHash = await generateHash(targetPath);
+            newIntegritiesArray.push({
+              integrity: [{ _: fileHash }],
+              ':@': { $target: targetFilename },
             });
-        } finally {
-          await Promise.all([remove(archivePath), remove(unzippedPath)]);
+          }
         }
+
+        const newReleaseObj = {
+          release: [
+            {
+              archiveIntegrity: [{ _: archiveHash }],
+            },
+          ],
+          ':@': { $version: latestTag },
+        };
+        if (newIntegritiesArray.length >= 1)
+          newReleaseObj.release.push({
+            integrities: newIntegritiesArray,
+          });
+
+        packageItem
+          .find((value) => 'releases' in value)
+          .releases.push(newReleaseObj);
       }
     }
-
-    result.message =
-      whiteBright(id) +
-      ' ' +
-      yellow(currentVersion) +
-      ' ' +
-      cyanBright(latestTag);
   } catch (e) {
     if (e.status === 404) {
       result.message =

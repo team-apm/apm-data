@@ -817,20 +817,36 @@
       "id": "hebiiro/DarkenWindow",
       "name": "黒窓",
       "overview": "AviUtl の見た目をダークモードにします",
-      "description": "AviUtl の見た目をダークモードにします。インストール後、「ダウンロードフォルダを開く」からダウンロードフォルダを開き、CreateDark.exeを実行してください。",
+      "description": "AviUtl の見た目をダークモードにします。インストール時にインストーラが起動します。ダークモードを使用する場合はAviUtlを`aviutl.exe`ではなく`aviutl_dark.exe`から起動してください。",
       "developer": "hebiiro",
-      "dependencies": ["exedit0.92", "ePi/patch"],
+      "dependencies": [
+        "exedit0.92",
+        "ePi/patch",
+        "hebiiro/DarkenWindowInstaller"
+      ],
       "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow",
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.2.2",
+      "latestVersion": "6.3.0",
       "files": [
-        { "filename": "aviutl_dark.exe.manifest" },
+        { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "6.3.0",
+          "integrity": {
+            "archive": "sha384-g0w2TLLfiXegN8Efpks4hkdNs7ESSznCRZ4XK3tLKfe3uWqvfguyi2PzOPyxKEiv",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-CDLl7NMHQoUde4YQh4jOQ+BSE5AAX9y0GFxHbPwcRLsc4a0ABYXr6/7RTVbKCFih"
+              }
+            ]
+          }
+        },
         {
           "version": "1.1.2",
           "integrity": {
@@ -848,6 +864,21 @@
           }
         }
       ]
+    },
+    {
+      "id": "hebiiro/DarkenWindowInstaller",
+      "name": "自動インストーラ(黒窓)",
+      "overview": "黒窓の自動インストール",
+      "description": "【このパッケージより先に「黒窓」をインストールする必要があります】apmから黒窓をインストールするためのパッケージです。インストール時にインストーラが起動します。",
+      "developer": "hebiiro",
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
+      ],
+      "latestVersion": "6.3.0",
+      "installer": "CreateDark.exe",
+      "installArg": "/a\"$instpath\" /f /x",
+      "files": [{ "filename": "placeholder", "isObsolete": true }]
     },
     {
       "id": "hebiiro/DragFilter",
@@ -991,8 +1022,9 @@
       ],
       "latestVersion": "1.0.1",
       "files": [
-        { "filename": "SwitchSettings.exe" },
-        { "filename": "SwitchSettings.dll" }
+        { "filename": "SwitchSettings", "isDirectory": true },
+        { "filename": "SwitchSettings.dll" },
+        { "filename": "SwitchSettings.exe" }
       ],
       "releases": [
         {
@@ -1001,12 +1033,12 @@
             "archive": "sha384-tY9lZrNmLRXlRvJ5fY3FLPkSz4aidtSSSjM2bhRL6dhWZzFOqu8c69EswJx+Z105",
             "file": [
               {
-                "target": "SwitchSettings.exe",
-                "hash": "sha384-HJ5PFgi/yEdxfxfvCXYey6I3q34OAFYG7Ji8vkrjVd9TsG7RMWAuFBbJY/xwU3o8"
-              },
-              {
                 "target": "SwitchSettings.dll",
                 "hash": "sha384-muThntkEjBGn2t5/Yv7bqbZ8i69ffl0WkEP9eoBTJ+OPP9GEpGXSDaaJPJVq/2Zg"
+              },
+              {
+                "target": "SwitchSettings.exe",
+                "hash": "sha384-HJ5PFgi/yEdxfxfvCXYey6I3q34OAFYG7Ji8vkrjVd9TsG7RMWAuFBbJY/xwU3o8"
               }
             ]
           }

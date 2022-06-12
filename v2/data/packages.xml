@@ -895,18 +895,19 @@
 		<name>黒窓</name>
 		<overview>AviUtl の見た目をダークモードにします</overview>
 		<description
-		>AviUtl の見た目をダークモードにします。インストール後、「ダウンロードフォルダを開く」からダウンロードフォルダを開き、CreateDark.exeを実行してください。</description>
+		>AviUtl の見た目をダークモードにします。インストール時にインストーラが起動します。ダークモードを使用する場合はAviUtlを`aviutl.exe`ではなく`aviutl_dark.exe`から起動してください。</description>
 		<developer>hebiiro</developer>
 		<dependencies>
 			<dependency>exedit0.92</dependency>
 			<dependency>ePi/patch</dependency>
+			<dependency>hebiiro/DarkenWindowInstaller</dependency>
 		</dependencies>
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.2.2</latestVersion>
+		<latestVersion>6.3.0</latestVersion>
 		<files>
-			<file>aviutl_dark.exe.manifest</file>
+			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
 			<file directory="true">plugins/DarkenWindow</file>
 		</files>
@@ -923,7 +924,34 @@
 					>sha384-ZGqBxDYXqeo9+VrSGeq150A6ELmd9itFXYydu3oe7mz9C44s/rdm5ZwNdecr3RWr</integrity>
 				</integrities>
 			</release>
+			<release version="6.3.0">
+				<archiveIntegrity
+				>sha384-g0w2TLLfiXegN8Efpks4hkdNs7ESSznCRZ4XK3tLKfe3uWqvfguyi2PzOPyxKEiv</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-CDLl7NMHQoUde4YQh4jOQ+BSE5AAX9y0GFxHbPwcRLsc4a0ABYXr6/7RTVbKCFih</integrity>
+				</integrities>
+			</release>
 		</releases>
+	</package>
+
+	<package>
+		<id>hebiiro/DarkenWindowInstaller</id>
+		<name>自動インストーラ(黒窓)</name>
+		<overview>黒窓の自動インストール</overview>
+		<description
+		>【このパッケージより先に「黒窓」をインストールする必要があります】apmから黒窓をインストールするためのパッケージです。インストール時にインストーラが起動します。</description>
+		<developer>hebiiro</developer>
+		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
+		<downloadURL
+		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
+		<latestVersion>6.3.0</latestVersion>
+		<installer>CreateDark.exe</installer>
+		<installArg>/a"$instpath" /f /x</installArg>
+		<files>
+			<file obsolete="true">placeholder</file>
+		</files>
 	</package>
 
 	<package>
@@ -1069,8 +1097,9 @@
 		>https://github.com/hebiiro/AviUtl-Plugin-SwitchSettings/releases/latest</downloadURL>
 		<latestVersion>1.0.1</latestVersion>
 		<files>
-			<file>SwitchSettings.exe</file>
+			<file directory="true">SwitchSettings</file>
 			<file>SwitchSettings.dll</file>
+			<file>SwitchSettings.exe</file>
 		</files>
 		<releases>
 			<release version="1.0.1">
@@ -1078,11 +1107,11 @@
 				>sha384-tY9lZrNmLRXlRvJ5fY3FLPkSz4aidtSSSjM2bhRL6dhWZzFOqu8c69EswJx+Z105</archiveIntegrity>
 				<integrities>
 					<integrity
-						target="SwitchSettings.exe"
-					>sha384-HJ5PFgi/yEdxfxfvCXYey6I3q34OAFYG7Ji8vkrjVd9TsG7RMWAuFBbJY/xwU3o8</integrity>
-					<integrity
 						target="SwitchSettings.dll"
 					>sha384-muThntkEjBGn2t5/Yv7bqbZ8i69ffl0WkEP9eoBTJ+OPP9GEpGXSDaaJPJVq/2Zg</integrity>
+					<integrity
+						target="SwitchSettings.exe"
+					>sha384-HJ5PFgi/yEdxfxfvCXYey6I3q34OAFYG7Ji8vkrjVd9TsG7RMWAuFBbJY/xwU3o8</integrity>
 				</integrities>
 			</release>
 		</releases>

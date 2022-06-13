@@ -809,7 +809,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r33</latestVersion>
+		<latestVersion>r34</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -849,6 +849,15 @@
 					<integrity
 						target="patch.aul"
 					>sha384-CbHLDY6VKlgWNQPE04LkX0DeyMJBiD/Q+Ma744JSanagv8439iURG/Ldvu050ul5</integrity>
+				</integrities>
+			</release>
+			<release version="r34">
+				<archiveIntegrity
+				>sha384-MOG/Y53HMEOjSGr4mUEyIIgmhrMSvnNvZ3of5c4veFLNSOxSy57RW9RotEt+UqYn</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-mxrkq3sI3GVv+qp0m4VNl35EQz6T57jY1VPxy6HWAAVkhfv9SHFV9CByYRPrvCuU</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2215,7 +2224,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/ffmpegOut#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/ffmpegOut/releases/latest</downloadURL>
-		<latestVersion>1.01</latestVersion>
+		<latestVersion>1.02</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/ffmpegOut.auo</file>
 			<file archivePath="plugins">plugins/ffmpegOut.ini</file>
@@ -2240,6 +2249,15 @@
 					<integrity
 						target="plugins/ffmpegOut.auo"
 					>sha384-xsm3y7kOYBJ7W9Uuv+gsIcEUaf+dtm2UKqyZ/h2YA5LBYzMVZlY25mqJBwfQFOGl</integrity>
+				</integrities>
+			</release>
+			<release version="1.02">
+				<archiveIntegrity
+				>sha384-yu0EXLGoo8+dqXekyyXr3vBReYXmSjam3OU4hIcVhKJJAZ97bKBGxJkPuQJNJ/bf</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ffmpegOut.auo"
+					>sha384-SNCmGCbsegkL4LLKWjr3oVLQBPzAc4ONQgj3aGSnv5h9ht55WYKa7h1nonXYOlHg</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2400,7 +2418,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/svtAV1guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
-		<latestVersion>1.02</latestVersion>
+		<latestVersion>1.03</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/svtAV1guiEx.auo</file>
 			<file archivePath="plugins">plugins/svtAV1guiEx.ini</file>
@@ -2420,6 +2438,15 @@
 					<integrity
 						target="plugins/svtAV1guiEx.auo"
 					>sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw</integrity>
+				</integrities>
+			</release>
+			<release version="1.03">
+				<archiveIntegrity
+				>sha384-IV1NHbi5vlt7IcYbTtzywCOss7R//+Eimtc3y3sv+0osfTn1yYAEUKes0yXEdagr</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-DqFuE0ZIwHpgd+Rvu/0RuvVNYXv/LA5RkuTMRfi8kQ17Fs8HGwT9qRoIOlGMJFWQ</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2466,7 +2493,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x264guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
-		<latestVersion>3.11</latestVersion>
+		<latestVersion>3.12</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x264guiEx.auo</file>
 			<file archivePath="plugins">plugins/x264guiEx.ini</file>
@@ -2496,6 +2523,15 @@
 					>sha384-SsxtQ5w05TZFi+d3Hz0DEM0bx5NQK9B94IcrOstg4bqBXRbzU3bBzdci6Ism2owx</integrity>
 				</integrities>
 			</release>
+			<release version="3.12">
+				<archiveIntegrity
+				>sha384-X+e2B3kBodppr+Du4EAJxs/g6EeL2SlyAVSTkltTCKZ/nNZE/yuQresRu6fFcDIM</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-Pp+kD6H896+Ii6iaz83IBp5dTr/VqYddIn6uxRcr/i6nqS2NV2E1Nw0QsSACc5Uy</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -2508,7 +2544,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x265guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x265guiEx/releases/latest</downloadURL>
-		<latestVersion>4.01</latestVersion>
+		<latestVersion>4.02</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x265guiEx.auo</file>
 			<file archivePath="plugins">plugins/x265guiEx.ini</file>
@@ -2536,6 +2572,15 @@
 					<integrity
 						target="plugins/x265guiEx.auo"
 					>sha384-AucRj3yrJG7BQayf6xUaHF1J/COk4ceuegXUxXSxbfVx8BcXAL1JHrDAjaHw0USH</integrity>
+				</integrities>
+			</release>
+			<release version="4.02">
+				<archiveIntegrity
+				>sha384-4uVjholoE89n3hS6WuPNaeviM2ZBCEqE5QlCIlw8VIK5p/dEvoi9dXauV4X9AJBb</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x265guiEx.auo"
+					>sha384-jJ1jvUex054qi5Sbpsvkpuo6U7xMM9ch5cuG0bR/yT1zn+eJiEJ4m0gxcm6QhnN8</integrity>
 				</integrities>
 			</release>
 		</releases>

@@ -14,7 +14,7 @@
       "downloadURLs": [
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
-      "latestVersion": "v1.8",
+      "latestVersion": "v1.9",
       "nicommons": "sm35585310",
       "files": [
         {
@@ -28,6 +28,18 @@
         { "filename": "plugins/InputPipePlugin.log", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "v1.9",
+          "integrity": {
+            "archive": "sha384-dMF6xsJF97Ic0/+pN49XAH8J9H+h/M/f9mirxvBKQpTZdixyuwj0ibR8p41q6cJq",
+            "file": [
+              {
+                "target": "plugins/InputPipePlugin.aui",
+                "hash": "sha384-P7MQRYjMPPAq3Xvo4AUcXTgKdf7821FN8eiEzdVVG7y+i5HX31Kdj81ljrPQwF+A"
+              }
+            ]
+          }
+        },
         {
           "version": "v1.8",
           "integrity": {
@@ -2313,7 +2325,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "6.03",
+      "latestVersion": "6.04",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -2340,6 +2352,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "6.04",
+          "integrity": {
+            "archive": "sha384-D7SfeuHEieZ3hZT52n59JYUly12VCoJ8Im/QXHob3jQSwfs6ktD/AlHYNbQkydDT",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-8LjwH5RVsirbtyY6i7rwGzHS0JZ/3SYrxaobZOs+4uJT32xxGCy8uyhjm03r9QNb"
+              }
+            ]
+          }
+        },
         {
           "version": "6.00",
           "integrity": {

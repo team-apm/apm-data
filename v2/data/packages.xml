@@ -17,7 +17,7 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm35585310</pageURL>
 		<downloadURL
 		>https://github.com/amate/InputPipePlugin/releases/latest</downloadURL>
-		<latestVersion>v1.8</latestVersion>
+		<latestVersion>v1.9</latestVersion>
 		<files>
 			<file archivePath="InputPipePlugin/">plugins/InputPipeMain.exe</file>
 			<file archivePath="InputPipePlugin/">plugins/InputPipePlugin.aui</file>
@@ -29,6 +29,15 @@
 					<integrity
 						target="plugins/InputPipePlugin.aui"
 					>sha384-ujWRvgLYdr/2XKYMuzfkHSttfgJPXtXsH+StEkpPXj6cXTlJy2F3tha0sr0/lD14</integrity>
+				</integrities>
+			</release>
+			<release version="v1.9">
+				<archiveIntegrity
+				>sha384-dMF6xsJF97Ic0/+pN49XAH8J9H+h/M/f9mirxvBKQpTZdixyuwj0ibR8p41q6cJq</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-P7MQRYjMPPAq3Xvo4AUcXTgKdf7821FN8eiEzdVVG7y+i5HX31Kdj81ljrPQwF+A</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2272,7 +2281,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.03</latestVersion>
+		<latestVersion>6.04</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>
@@ -2299,6 +2308,15 @@
 					<integrity
 						target="plugins/NVEnc.auo"
 					>sha384-DCTCTINHSqic1Er/hwBdGjr+93W5kTK5VQl3ZexKLdtZLETRwDVh3KwNqefo2WNC</integrity>
+				</integrities>
+			</release>
+			<release version="6.04">
+				<archiveIntegrity
+				>sha384-D7SfeuHEieZ3hZT52n59JYUly12VCoJ8Im/QXHob3jQSwfs6ktD/AlHYNbQkydDT</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/NVEnc.auo"
+					>sha384-8LjwH5RVsirbtyY6i7rwGzHS0JZ/3SYrxaobZOs+4uJT32xxGCy8uyhjm03r9QNb</integrity>
 				</integrities>
 			</release>
 		</releases>

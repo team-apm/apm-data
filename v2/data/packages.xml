@@ -818,7 +818,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r34</latestVersion>
+		<latestVersion>r35</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -867,6 +867,15 @@
 					<integrity
 						target="patch.aul"
 					>sha384-mxrkq3sI3GVv+qp0m4VNl35EQz6T57jY1VPxy6HWAAVkhfv9SHFV9CByYRPrvCuU</integrity>
+				</integrities>
+			</release>
+			<release version="r35">
+				<archiveIntegrity
+				>sha384-6a9Io+Vgp5a0HHOazPWzIGtt9UCHLQwiqC9ZV5qKtqi2VhaMxbTCshAVlpDuGBhH</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-IH4DIr29gbJDDBC/XeGhc9qjJzq6y+xchfxT1brBQndF//QWh4TifhiNQGlBWIcL</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2331,7 +2340,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
-		<latestVersion>7.01</latestVersion>
+		<latestVersion>7.02</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/QSVEnc.auo</file>
 			<file archivePath="plugins">plugins/QSVEnc.ini</file>
@@ -2358,6 +2367,15 @@
 					<integrity
 						target="plugins/QSVEnc.auo"
 					>sha384-caZN/aFwpQJW/jkNjlmIQLUEN+HXxQoxYziOiXeWyzaIIjCQz+145q5t9WXPaVSy</integrity>
+				</integrities>
+			</release>
+			<release version="7.02">
+				<archiveIntegrity
+				>sha384-ag3KJkaJY0GMGR8TxSDD3u2YXdLDh4z3Z6um20YwNTwJBtgt9i5OmZ5mh1YiNLwd</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-r8sE76YFYlxtSAfeaYUtbtxD4wWe2gHhHUYbWyuoTKK8ShWhvWNxeWcJbNp0ZWVc</integrity>
 				</integrities>
 			</release>
 		</releases>

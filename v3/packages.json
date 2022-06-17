@@ -732,7 +732,7 @@
       "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://scrapbox.io/ePi5131/patch.aul",
       "downloadURLs": ["https://github.com/ePi5131/patch.aul/releases/latest"],
-      "latestVersion": "r38",
+      "latestVersion": "r40",
       "nicommons": "sm39491708",
       "files": [
         { "filename": "patch.aul" },
@@ -741,6 +741,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r40",
+          "integrity": {
+            "archive": "sha384-A13LDgDe7U3VISw4aynyS0n6J0IwvBTJYRXQrEIR1w2L8NB5NIJOjnz9e+hRmJik",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-ZtX8Lo/9jHPPb4pWBNC7l2E9206hmzeU6vE0mXDXR2JcuHwKlWXmTVv3hPVVWUOF"
+              }
+            ]
+          }
+        },
         {
           "version": "r38",
           "integrity": {
@@ -2361,7 +2373,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "6.04",
+      "latestVersion": "6.05",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -2388,6 +2400,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "6.05",
+          "integrity": {
+            "archive": "sha384-b6eKKPaUf1r8fBjSsO9Wp3jguKvMeLOr57Ucg50xAhKG4U4k2DUuALxoPymI3nCh",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-MVQGoHRPvSST5qPGg4Hye5qdMyFaRd4NHZe6Op8CvgQc2Du5VtpY3lV/j4/DmhsD"
+              }
+            ]
+          }
+        },
         {
           "version": "6.04",
           "integrity": {
@@ -2434,7 +2458,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.02",
+      "latestVersion": "7.03",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -2461,6 +2485,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.03",
+          "integrity": {
+            "archive": "sha384-PgGu51wUVmx5+v5Kog4YPjzo3q9gYGmkAp73CpPJg1UoyeEFANqvSSCt1K3z5PAs",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TccX4/c0Zck5IfV2sdXw2sZ1u/n44W93XjKFcxZRqqwBbi/fMwHEmhzkP04aegvQ"
+              }
+            ]
+          }
+        },
         {
           "version": "7.02",
           "integrity": {
@@ -2568,7 +2604,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.03",
+      "latestVersion": "1.04",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -2596,6 +2632,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.04",
+          "integrity": {
+            "archive": "sha384-Wf4pz/Sqgl+KENg19dF08X+SJDUGuNnmS/I2YIH99gNSWWKk1BU+PrHk2JvuxdKF",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-LLgJ/OafLcCakK3/sPsDasqIsbwKG5Mh63DhlzbpX0bB3O6TSnj4HNJScQjURCnN"
+              }
+            ]
+          }
+        },
         {
           "version": "1.03",
           "integrity": {

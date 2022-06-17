@@ -818,7 +818,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r38</latestVersion>
+		<latestVersion>r40</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -885,6 +885,15 @@
 					<integrity
 						target="patch.aul"
 					>sha384-vfGWEVoW/wc+49pxu8YIw8XRRgOgiYvZMWB9SgQ2IaSgtJX8aYV6u30wAFGlON62</integrity>
+				</integrities>
+			</release>
+			<release version="r40">
+				<archiveIntegrity
+				>sha384-A13LDgDe7U3VISw4aynyS0n6J0IwvBTJYRXQrEIR1w2L8NB5NIJOjnz9e+hRmJik</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-ZtX8Lo/9jHPPb4pWBNC7l2E9206hmzeU6vE0mXDXR2JcuHwKlWXmTVv3hPVVWUOF</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2308,7 +2317,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.04</latestVersion>
+		<latestVersion>6.05</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>
@@ -2346,6 +2355,15 @@
 					>sha384-8LjwH5RVsirbtyY6i7rwGzHS0JZ/3SYrxaobZOs+4uJT32xxGCy8uyhjm03r9QNb</integrity>
 				</integrities>
 			</release>
+			<release version="6.05">
+				<archiveIntegrity
+				>sha384-b6eKKPaUf1r8fBjSsO9Wp3jguKvMeLOr57Ucg50xAhKG4U4k2DUuALxoPymI3nCh</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/NVEnc.auo"
+					>sha384-MVQGoHRPvSST5qPGg4Hye5qdMyFaRd4NHZe6Op8CvgQc2Du5VtpY3lV/j4/DmhsD</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -2358,7 +2376,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
-		<latestVersion>7.02</latestVersion>
+		<latestVersion>7.03</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/QSVEnc.auo</file>
 			<file archivePath="plugins">plugins/QSVEnc.ini</file>
@@ -2394,6 +2412,15 @@
 					<integrity
 						target="plugins/QSVEnc.auo"
 					>sha384-r8sE76YFYlxtSAfeaYUtbtxD4wWe2gHhHUYbWyuoTKK8ShWhvWNxeWcJbNp0ZWVc</integrity>
+				</integrities>
+			</release>
+			<release version="7.03">
+				<archiveIntegrity
+				>sha384-PgGu51wUVmx5+v5Kog4YPjzo3q9gYGmkAp73CpPJg1UoyeEFANqvSSCt1K3z5PAs</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-TccX4/c0Zck5IfV2sdXw2sZ1u/n44W93XjKFcxZRqqwBbi/fMwHEmhzkP04aegvQ</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -2472,7 +2499,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/svtAV1guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
-		<latestVersion>1.03</latestVersion>
+		<latestVersion>1.04</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/svtAV1guiEx.auo</file>
 			<file archivePath="plugins">plugins/svtAV1guiEx.ini</file>
@@ -2501,6 +2528,15 @@
 					<integrity
 						target="plugins/svtAV1guiEx.auo"
 					>sha384-DqFuE0ZIwHpgd+Rvu/0RuvVNYXv/LA5RkuTMRfi8kQ17Fs8HGwT9qRoIOlGMJFWQ</integrity>
+				</integrities>
+			</release>
+			<release version="1.04">
+				<archiveIntegrity
+				>sha384-Wf4pz/Sqgl+KENg19dF08X+SJDUGuNnmS/I2YIH99gNSWWKk1BU+PrHk2JvuxdKF</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-LLgJ/OafLcCakK3/sPsDasqIsbwKG5Mh63DhlzbpX0bB3O6TSnj4HNJScQjURCnN</integrity>
 				</integrities>
 			</release>
 		</releases>

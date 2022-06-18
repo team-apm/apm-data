@@ -917,7 +917,7 @@
 		<latestVersion>2.1.0</latestVersion>
 		<files>
 			<file>plugins/AdjustLastFrame.auf</file>
-			<file>plugins/auls_memref.ini</file>
+			<file obsolete="true">plugins/auls_memref.ini</file>
 		</files>
 		<releases>
 			<release version="1.0.3">
@@ -1131,6 +1131,42 @@
 					<integrity
 						target="plugins/SelectFavoriteFont.xml"
 					>sha384-wqIkwu+BCXfIe3Twd+Grs77IfhVzeMBMAB+HFDXSbrKc53w66W/Ty5Ouh5HW4EKg</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>hebiiro/ShowWaveform</id>
+		<name>アイテム内音声波形</name>
+		<overview>拡張編集ウインドウに音声波形を表示する</overview>
+		<description
+		>拡張編集ウィンドウの音声アイテム内に音声波形を表示します。</description>
+		<developer>hebiiro</developer>
+		<dependencies>
+			<dependency>aviutl1.10</dependency>
+			<dependency>exedit0.92</dependency>
+			<dependency>ePi/patch</dependency>
+		</dependencies>
+		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform#readme</pageURL>
+		<downloadURL
+		>https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest</downloadURL>
+		<latestVersion>2.1.0</latestVersion>
+		<files>
+			<file>plugins/ShowWaveform.auf</file>
+			<file>plugins/ShowWaveform.ini</file>
+		</files>
+		<releases>
+			<release version="2.1.0">
+				<archiveIntegrity
+				>sha384-eU1+6fvIadJ2GD7n7TFZaWdRFDkzMwfzCJ2A3+TC1t5/kBE5jwxikJanvFKdrRbp</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ShowWaveform.auf"
+					>sha384-6eh8NrzZzmGcZTgQiPJzqVY1AtJ5ppmU9W0H2CnRZLGyvaWrGOfrkkJIKTWmJfVH</integrity>
+					<integrity
+						target="plugins/ShowWaveform.ini"
+					>sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -3342,7 +3378,8 @@
 		>aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。</description>
 		<developer>しし/りっちゃん</developer>
 		<pageURL>https://www.nicovideo.jp/watch/sm29926034</pageURL>
-		<downloadURL>https://github.com/Aios-Ciao/VSThost4aviutl</downloadURL>
+		<downloadURL
+		>https://github.com/Aios-Ciao/VSThost4aviutl/raw/master/VSThost4aviutl.zip</downloadURL>
 		<latestVersion>ver.001</latestVersion>
 		<files>
 			<file archivePath="VSThost4aviutl/">plugins/vsthost_1.auf</file>

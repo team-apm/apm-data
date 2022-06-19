@@ -818,7 +818,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r40</latestVersion>
+		<latestVersion>r41</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -896,6 +896,15 @@
 					>sha384-ZtX8Lo/9jHPPb4pWBNC7l2E9206hmzeU6vE0mXDXR2JcuHwKlWXmTVv3hPVVWUOF</integrity>
 				</integrities>
 			</release>
+			<release version="r41">
+				<archiveIntegrity
+				>sha384-FLUNw993qwuxr14M6D8i6hJGkyUBinK9MV7yI1JNb1SOvofq+DpyTNxa2tRQggMM</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-qKiatKWsSq/EMGVe0jTCH4RQrW1JKFMtk6ih6Al762PXj1YB8e6FOagZmNrCBgci</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -950,7 +959,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.4.0</latestVersion>
+		<latestVersion>6.5.0</latestVersion>
 		<files>
 			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -987,6 +996,15 @@
 					>sha384-1UWv3Ycc05NyySa3IX0uFi7J2QG3Bh8o/tEvwjOr7fmtm+p8qCvlGOTRbd4CHAzs</integrity>
 				</integrities>
 			</release>
+			<release version="6.5.0">
+				<archiveIntegrity
+				>sha384-vDETSXF/Y6r9FItBaTqBxJ882hYKh+/wX1Opz0GVRluhD8IZW7h+ntau1ZeI7oLc</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-KCyOLnJviw9HGC4cXs3lf3fgFPwDDXxgofp07Lb43uLGwBpt+hHjD/f1Hznr5UZO</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -1000,7 +1018,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.4.0</latestVersion>
+		<latestVersion>6.5.0</latestVersion>
 		<installer>CreateDark.exe</installer>
 		<installArg>/a"$instpath" /f /x</installArg>
 		<files>

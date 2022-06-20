@@ -732,7 +732,7 @@
       "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://scrapbox.io/ePi5131/patch.aul",
       "downloadURLs": ["https://github.com/ePi5131/patch.aul/releases/latest"],
-      "latestVersion": "r40",
+      "latestVersion": "r41",
       "nicommons": "sm39491708",
       "files": [
         { "filename": "patch.aul" },
@@ -741,6 +741,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r41",
+          "integrity": {
+            "archive": "sha384-FLUNw993qwuxr14M6D8i6hJGkyUBinK9MV7yI1JNb1SOvofq+DpyTNxa2tRQggMM",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-qKiatKWsSq/EMGVe0jTCH4RQrW1JKFMtk6ih6Al762PXj1YB8e6FOagZmNrCBgci"
+              }
+            ]
+          }
+        },
         {
           "version": "r40",
           "integrity": {
@@ -888,13 +900,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.4.0",
+      "latestVersion": "6.5.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "6.5.0",
+          "integrity": {
+            "archive": "sha384-vDETSXF/Y6r9FItBaTqBxJ882hYKh+/wX1Opz0GVRluhD8IZW7h+ntau1ZeI7oLc",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-KCyOLnJviw9HGC4cXs3lf3fgFPwDDXxgofp07Lb43uLGwBpt+hHjD/f1Hznr5UZO"
+              }
+            ]
+          }
+        },
         {
           "version": "6.4.0",
           "integrity": {
@@ -947,7 +971,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.4.0",
+      "latestVersion": "6.5.0",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]

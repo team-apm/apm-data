@@ -1177,6 +1177,42 @@
       ]
     },
     {
+      "id": "hebiiro/UniteWindow",
+      "name": "UniteWindow",
+      "overview": "シングルウィンドウ化",
+      "description": "AviUtl のウィンドウを結合してシングルウィンドウにまとめます。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-UniteWindow#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-UniteWindow/releases/latest"
+      ],
+      "latestVersion": "3.4.0",
+      "files": [
+        { "filename": "plugins/UniteWindow.aul" },
+        { "filename": "plugins/UniteWindow.xml" },
+        { "filename": "plugins/UniteWindow", "isDirectory": true }
+      ],
+      "releases": [
+        {
+          "version": "3.4.0",
+          "integrity": {
+            "archive": "sha384-wRMdtkUEZ+/9ZosPSj2l7MG9njZrGKF/djRcT3Fo7jOtPgSPmq4+cQW44uLKMWoQ",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-9MtPxNaVGMAQdeG+k+pCHgL7n7DcUcrkaluqiH9BS9i59Z8kSf5CLxJMxah5Rql4"
+              },
+              {
+                "target": "plugins/UniteWindow.xml",
+                "hash": "sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "HolyWu/LSMASHWorks",
       "name": "L-SMASH Works",
       "overview": "様々な形式の動画・音楽ファイルを読み込む",

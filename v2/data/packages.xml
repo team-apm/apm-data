@@ -1225,6 +1225,42 @@
 		</releases>
 	</package>
 
+	<package>
+		<id>hebiiro/UniteWindow</id>
+		<name>UniteWindow</name>
+		<overview>シングルウィンドウ化</overview>
+		<description
+		>AviUtl のウィンドウを結合してシングルウィンドウにまとめます。</description>
+		<developer>hebiiro</developer>
+		<dependencies>
+			<dependency>aviutl1.10</dependency>
+			<dependency>exedit0.92</dependency>
+		</dependencies>
+		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-UniteWindow#readme</pageURL>
+		<downloadURL
+		>https://github.com/hebiiro/AviUtl-Plugin-UniteWindow/releases/latest</downloadURL>
+		<latestVersion>3.4.0</latestVersion>
+		<files>
+			<file>plugins/UniteWindow.aul</file>
+			<file>plugins/UniteWindow.xml</file>
+			<file directory="true">plugins/UniteWindow</file>
+		</files>
+		<releases>
+			<release version="3.4.0">
+				<archiveIntegrity
+				>sha384-wRMdtkUEZ+/9ZosPSj2l7MG9njZrGKF/djRcT3Fo7jOtPgSPmq4+cQW44uLKMWoQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-9MtPxNaVGMAQdeG+k+pCHgL7n7DcUcrkaluqiH9BS9i59Z8kSf5CLxJMxah5Rql4</integrity>
+					<integrity
+						target="plugins/UniteWindow.xml"
+					>sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
 	<!-- HolyWu ID:HolyWu -->
 
 	<package>

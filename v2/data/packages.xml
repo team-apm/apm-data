@@ -959,7 +959,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.5.0</latestVersion>
+		<latestVersion>6.5.1</latestVersion>
 		<files>
 			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -1005,6 +1005,15 @@
 					>sha384-KCyOLnJviw9HGC4cXs3lf3fgFPwDDXxgofp07Lb43uLGwBpt+hHjD/f1Hznr5UZO</integrity>
 				</integrities>
 			</release>
+			<release version="6.5.1">
+				<archiveIntegrity
+				>sha384-wHkuu/8SDLDdir77eR8CgkOZuBJOZktBQ2GBaQO4glfEt1rbCDmgycl/J6uf1KQl</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-KCyOLnJviw9HGC4cXs3lf3fgFPwDDXxgofp07Lb43uLGwBpt+hHjD/f1Hznr5UZO</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -1018,7 +1027,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.5.0</latestVersion>
+		<latestVersion>6.5.1</latestVersion>
 		<installer>CreateDark.exe</installer>
 		<installArg>/a"$instpath" /f /x</installArg>
 		<files>
@@ -1239,7 +1248,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-UniteWindow#readme</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-UniteWindow/releases/latest</downloadURL>
-		<latestVersion>3.4.0</latestVersion>
+		<latestVersion>3.5.0</latestVersion>
 		<files>
 			<file>plugins/UniteWindow.aul</file>
 			<file>plugins/UniteWindow.xml</file>
@@ -1253,6 +1262,18 @@
 					<integrity
 						target="plugins/UniteWindow.aul"
 					>sha384-9MtPxNaVGMAQdeG+k+pCHgL7n7DcUcrkaluqiH9BS9i59Z8kSf5CLxJMxah5Rql4</integrity>
+					<integrity
+						target="plugins/UniteWindow.xml"
+					>sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii</integrity>
+				</integrities>
+			</release>
+			<release version="3.5.0">
+				<archiveIntegrity
+				>sha384-Be6y8WAjcJYl99EasZDmLDBOfiLjtbdDgBxSmNbfnjk6nj7DP4MjlNzp7heBPIVz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-zVtcZd6BRLjoP9HQSJixXtXq0XWSlhU8qFXnlEl7hHbBewvAsUXywfKgZ9vqwj9r</integrity>
 					<integrity
 						target="plugins/UniteWindow.xml"
 					>sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii</integrity>
@@ -2673,7 +2694,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x264guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
-		<latestVersion>3.12</latestVersion>
+		<latestVersion>3.13</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x264guiEx.auo</file>
 			<file archivePath="plugins">plugins/x264guiEx.ini</file>
@@ -2710,6 +2731,15 @@
 					<integrity
 						target="plugins/x264guiEx.auo"
 					>sha384-Pp+kD6H896+Ii6iaz83IBp5dTr/VqYddIn6uxRcr/i6nqS2NV2E1Nw0QsSACc5Uy</integrity>
+				</integrities>
+			</release>
+			<release version="3.13">
+				<archiveIntegrity
+				>sha384-kv34mSl9q16k4eYg782gEDSaoMm4nF0eeKkNSJtda3v3AUR8pT7qrxPx3eSWfuWB</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-La1PtzKmqL094tiLRlUUyZk2q17dCPQaUJQ9WQ/wo4j58cBhoZJNI5eLt95D/8Zw</integrity>
 				</integrities>
 			</release>
 		</releases>

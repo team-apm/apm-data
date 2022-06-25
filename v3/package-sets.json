@@ -5,7 +5,7 @@
       "id": "sets/scrapboxAviUtl",
       "name": "scrapbox/AviUtl 推奨環境",
       "overview": "scrapbox.io/aviutl推奨のAviUtl環境",
-      "description": "https://scrapbox.io/aviutl/ にて紹介されている推奨環境です。導入するパッケージの一覧: AviUtl 1.10 + 拡張編集 0.92 + L-SMASH Works MrOjii版 + InputPipePlugin + かんたんMP4出力 + patch.aul",
+      "description": "https://scrapbox.io/aviutl/ にて紹介されている推奨環境です。",
       "developer": "scrapbox.io/aviutl",
       "dependencies": [
         "aviutl1.10",
@@ -26,7 +26,7 @@
       "id": "sets/aviutlTweaks",
       "name": "AviUtl効率化 パッケージセット",
       "overview": "AviUtlをより使いやすくするためのパッケージセット",
-      "description": "AviUtlの機能を調整してより使いやすくするためのパッケージを追加できます。導入するパッケージの一覧: シークバー＋ + 最終フレーム自動調整 + フィルタドラッグ移動 + エディットボックス最適化 + アイテム内音声波形 + LuaJIT",
+      "description": "AviUtlの機能を調整してより使いやすくするためのパッケージを追加できます。",
       "developer": "apm",
       "dependencies": [
         "aoytsk/seekbarx",
@@ -47,7 +47,7 @@
       "id": "sets/aviutlSound",
       "name": "音声編集 パッケージセット",
       "overview": "AviUtlでより良く音声を扱うためのパッケージセット",
-      "description": "AviUtlでより良く音声を扱うためのパッケージを追加できます。導入するパッケージの一覧: VSTホストプラグイン＋α + 少し音確認再生 + アイテム内音声波形",
+      "description": "AviUtlでより良く音声を扱うためのパッケージを追加できます。",
       "developer": "apm",
       "dependencies": [
         "AiosCiao/VSThost4aviutl",

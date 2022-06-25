@@ -184,7 +184,7 @@
     {
       "match": ["https://shummg.work/downloads/*"],
       "folder": "shummg",
-      "developer": "shummg",
+      "developer": "しゅう",
       "dependencies": [
         "rikky/rikkyModuleMemory|rikky/rikkyModule2",
         "shummg/textmodule",
@@ -194,7 +194,7 @@
     {
       "match": ["*AviUtl-Othello*", "*AviUtl-MineSweeper*"],
       "folder": "shummg",
-      "developer": "shummg",
+      "developer": "しゅう",
       "dependencies": [
         "rikky/rikkyModuleMemory|rikky/rikkyModule2",
         "shummg/textmodule",
@@ -205,7 +205,7 @@
     {
       "match": ["*@Winアイコン*"],
       "folder": "shummg",
-      "developer": "shummg",
+      "developer": "しゅう",
       "dependencies": [
         "rikky/rikkyModuleMemory|rikky/rikkyModule2",
         "shummg/textmodule",

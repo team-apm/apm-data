@@ -20,25 +20,11 @@ const {
   remove,
   writeFile,
 } = fs;
-const { whiteBright, green, yellow, red, cyanBright } = chalk;
+const { whiteBright, green, red, cyanBright } = chalk;
 const { extractFull } = Seven;
 
 // Options
-const exclude = [
-  'ePi/patch',
-  'hebiiro/DarkenWindow',
-  'hebiiro/DragFilter',
-  'hebiiro/OptimizeEditBox',
-  'rigaya/ffmpegOut',
-  'rigaya/NVEnc',
-  'rigaya/QSVEnc',
-  'rigaya/svtAV1guiEx',
-  'rigaya/VCEEnc',
-  'rigaya/x264guiEx',
-  'rigaya/x265guiEx',
-  'suzune/bakusoku',
-  'suzune/WideDialog',
-];
+const exclude = ['suzune/bakusoku', 'suzune/WideDialog'];
 const packagesXmlPath = 'v2/data/packages.xml';
 const modXmlPath = 'v2/data/mod.xml';
 
@@ -222,10 +208,7 @@ async function generateReleases(args) {
         const assets = release.assets.filter(
           (asset) => extname(asset.name) === '.zip'
         );
-        let archiveData = {
-          name: dirs[0] + '-' + dirs[1] + '-' + tag + '.zip',
-          browser_download_url: `https://github.com/${dirs[0]}/${dirs[1]}/archive/refs/tags/${res.data.tag_name}.zip`,
-        };
+        let archiveData = {};
         if (assets.length === 1) {
           archiveData = assets[0];
         } else if (assets.length >= 2) {
@@ -246,10 +229,8 @@ async function generateReleases(args) {
             );
           }
         } else {
-          result.message.push(
-            yellow(
-              'There seem to be no assets. So use an archive file of the source code.'
-            )
+          throw new Error(
+            'There seem to be no assets. An archive file of the source code is not supported.'
           );
         }
 

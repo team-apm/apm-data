@@ -900,13 +900,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.5.1",
+      "latestVersion": "6.5.3",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "6.5.3",
+          "integrity": {
+            "archive": "sha384-4EV1Gp/tpPgWvO0mniY/Zxc0QrDcusYfWCJ0SFklpIt+c1kv8oAup9jT4Z73LS9C",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-aErLhcBsdHK2epUoprs6wTgPD8EzP2IZteLFkFHJVSYpSgEXMTN2/JFf0g+6QFwc"
+              }
+            ]
+          }
+        },
         {
           "version": "6.5.1",
           "integrity": {
@@ -983,7 +995,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.5.1",
+      "latestVersion": "6.5.3",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]

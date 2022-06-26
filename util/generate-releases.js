@@ -77,7 +77,7 @@ function compareVersion(firstVersion, secondVersion) {
 }
 
 async function unzip(zipPath, folderName = null) {
-  const outputPath = resolve(dirname(zipPath));
+  const outputPath = resolve(dirname(zipPath), '../');
 
   const zipStream = extractFull(zipPath, outputPath, {
     $bin: path7za,
@@ -238,8 +238,9 @@ async function generateReleases(args) {
 
         const archivePath = resolve(
           'util/temp',
+          id,
           tag,
-          'archive',
+          '.archive',
           archiveData.name
         );
         await ensureDir(dirname(archivePath));

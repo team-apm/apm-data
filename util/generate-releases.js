@@ -91,10 +91,7 @@ function compareVersion(firstVersion, secondVersion) {
 }
 
 async function unzip(zipPath, folderName = null) {
-  const outputPath = resolve(
-    'util/temp',
-    folderName ?? basename(zipPath, extname(zipPath))
-  );
+  const outputPath = resolve(dirname(zipPath));
 
   const zipStream = extractFull(zipPath, outputPath, {
     $bin: path7za,
@@ -258,7 +255,12 @@ async function generateReleases(args) {
 
         const url = archiveData.browser_download_url;
 
-        const archivePath = resolve('util/temp/archive', archiveData.name);
+        const archivePath = resolve(
+          'util/temp',
+          tag,
+          'archive',
+          archiveData.name
+        );
         await ensureDir(dirname(archivePath));
         const outArchive = createWriteStream(archivePath, 'binary');
 
@@ -393,7 +395,7 @@ async function generateReleases(args) {
     }
 
     try {
-      remove('util/temp');
+      await remove('util/temp');
     } catch (e) {
       console.error(e);
     }

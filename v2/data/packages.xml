@@ -1569,6 +1569,64 @@
 	</package>
 
 	<package>
+		<id>MaverickTse/AviUtlSvg</id>
+		<name>AviUtl用SVG カスタムオブジェクト</name>
+		<overview>SVG画像を表示することのできるカスタムオブジェクト</overview>
+		<description
+		>カスタムオブジェクトとしてSVGを読み込むことができます。SVG画像は拡大しても、ボケません。Visual Studio 2013 C++再頒布可能パッケージが必要です。https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 から32bit版をダウンロードしてください。</description>
+		<developer>Maverick Tse</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm23347189</pageURL>
+		<downloadURL
+		>https://onedrive.live.com/?authkey=%21ABNo3i9YR5%5FdnT8&amp;id=26840CDF9818EB8E%21349&amp;cid=26840CDF9818EB8E</downloadURL>
+		<latestVersion>1.6</latestVersion>
+		<files>
+			<file archivePath="AviUtlSvg/script">script/MaverickTse/@svgrender-JP.obj</file>
+			<file archivePath="AviUtlSvg/script">script/MaverickTse/svgrenderーJP.obj</file>
+			<file archivePath="AviUtlSvg/script">script/MaverickTse/svgrender.dll</file>
+			<file archivePath="AviUtlSvg">libcairo-2.dll</file>
+			<file archivePath="AviUtlSvg">libcroco-0.6-3.dll</file>
+			<file archivePath="AviUtlSvg">libffi-6.dll</file>
+			<file archivePath="AviUtlSvg">libfontconfig-1.dll</file>
+			<file archivePath="AviUtlSvg">libfreetype-6.dll</file>
+			<file archivePath="AviUtlSvg">libgdk_pixbuf-2.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libgio-2.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libglib-2.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libgmodule-2.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libgobject-2.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libiconv-2.dll</file>
+			<file archivePath="AviUtlSvg">libintl-8.dll</file>
+			<file archivePath="AviUtlSvg">liblzma-5.dll</file>
+			<file archivePath="AviUtlSvg">libpango-1.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libpangocairo-1.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libpangoft2-1.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libpangowin32-1.0-0.dll</file>
+			<file archivePath="AviUtlSvg">libpixman-1-0.dll</file>
+			<file archivePath="AviUtlSvg">libpng15-15.dll</file>
+			<file archivePath="AviUtlSvg">librsvg-2-2.dll</file>
+			<file archivePath="AviUtlSvg">libxml2-2.dll</file>
+			<file archivePath="AviUtlSvg">pthreadGC2.dll</file>
+			<file archivePath="AviUtlSvg">zlib1.dll</file>
+		</files>
+		<releases>
+			<release version="1.6">
+				<archiveIntegrity
+				>sha384-JR5E8ssS7UbhcGkU1MMmFrqQ4dKFcqCk9l0Pgh3G6ht9kNKIGU2T8upXe2Q99SKz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/MaverickTse/@svgrender-JP.obj"
+					>sha384-xxpyPP5dLGrVwrMyWbL0G+xrhHD32muiyDmf26M4t0++dlxQe9QQuQz881TRQeOx</integrity>
+					<integrity
+						target="script/MaverickTse/svgrenderーJP.obj"
+					>sha384-Vew96ssVMtI9+epmygF/XtRlwtBFoj3jKti4QQh5vwNHerEmPNSgV5CY6vRlLapN</integrity>
+					<integrity
+						target="script/MaverickTse/svgrender.dll"
+					>sha384-1MtGv6v9QQXC8jhgnJaZUnoyB66SpwM1DwvVzG7oImptH1lDMbMfMTQGhyzA+Cn2</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
 		<id>MaverickTse/MotionTrackingMK2</id>
 		<name>Motion Tracking MK-II</name>
 		<overview>モーショントラッキング機能を追加する</overview>

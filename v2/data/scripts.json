@@ -51,6 +51,11 @@
       "description": "スクリプトの例: AviUtlスクリプト一式"
     },
     {
+      "url": "https://shummg.work/downloads/",
+      "developer": "しゅう",
+      "description": "スクリプトの例: @Square-Advanced, @DisplaySizeオセロ, @球座標回転, @任意関数図形, @媒介変数図形, @年月日カウンター, @等間隔に配置, @カメラ座標, @座標制御, @RadialPosition, @SphericalRadialPosition, @十字, @角丸十字, @放射線, PercentageClipping, @QR, @角丸吹き出し, @カラオケテキスト, @心電図, @カラーバー, @Winアイコン, @TA交互移動, オセロ, マインスイーパ, 明度着色, 一括画像編集, @ZoomLine, @ScreenCapture, @テキスト遷移, @モザイクとノイズ, @MathTrack, @BufferMask, トリミングS, WaveRing"
+    },
+    {
       "url": "https://www.nicovideo.jp/user/26576669/mylist/37628454",
       "developer": "UndoFish",
       "description": "スクリプトの例: トラックバー対応イージングスクリプト 2020版, イージング対応動画オブジェクト, 可変移動量指定, 動画ループ, カウントアップテキストもどき, 移動軌跡マスク, 最終フレームを描画, EXO作成＿顔追跡入り, EXO生成スクリプト（輪郭Trackingラインなど）, 曲げスクリプト, クレヨン, 文字用 輪郭追跡, 9grid(四辺の枠を保って拡大), Eなし位置固定_拡大クリッピング"
@@ -175,6 +180,38 @@
       "folder": "undofish",
       "developer": "UndoFish",
       "dependencies": []
+    },
+    {
+      "match": ["https://shummg.work/downloads/*"],
+      "folder": "shummg",
+      "developer": "しゅう",
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2",
+        "shummg/textmodule",
+        "ePi/LuaJIT"
+      ]
+    },
+    {
+      "match": ["*AviUtl-Othello*", "*AviUtl-MineSweeper*"],
+      "folder": "shummg",
+      "developer": "しゅう",
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2",
+        "shummg/textmodule",
+        "ePi/LuaJIT",
+        "shummg/shuGame"
+      ]
+    },
+    {
+      "match": ["*@Winアイコン*"],
+      "folder": "shummg",
+      "developer": "しゅう",
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2",
+        "shummg/textmodule",
+        "ePi/LuaJIT",
+        "shummg/dotdrawer"
+      ]
     },
     {
       "match": ["*easing_tra_2020*.zip*"],

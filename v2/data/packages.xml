@@ -3582,6 +3582,57 @@
 		</releases>
 	</package>
 
+	<!-- てつ(XIAO) ID:tetsuXIAO -->
+
+	<package>
+		<id>tetsuXIAO/opencv</id>
+		<name>OpenCVアニメーションスクリプト</name>
+		<overview>OpenCVを使用した画像処理を行うスクリプト</overview>
+		<description
+		>画像処理ライブラリであるOpenCVをAviUtlで動かしたスクリプト群です。環境によっては Visual Studio 2013のC++再頒布可能パッケージが必要かもしれません。https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 から32bit版(ダメなら64bit版)をインストールしてみてください。</description>
+		<developer>てつ(XIAO)</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm32520048</pageURL>
+		<downloadURL
+		>https://drive.google.com/open?id=1qhvFFI0eTPdnqDh3BoOgVEBN6jtFdPA-</downloadURL>
+		<downloadMirrorURL
+		>https://1drv.ms/u/s!AtlkGLmQo-xyplvayN9XmZl3LjV1?e=5BvlIT</downloadMirrorURL>
+		<latestVersion>v2</latestVersion>
+		<files>
+			<file archivePath="opencv_anm_v2">opencv_core300.dll</file>
+			<file archivePath="opencv_anm_v2">opencv_imgcodecs300.dll</file>
+			<file archivePath="opencv_anm_v2">opencv_photo300.dll</file>
+			<file archivePath="opencv_anm_v2">opencv_imgproc300.dll</file>
+			<file archivePath="opencv_anm_v2">script/tetsu_xiao/@opencv.anm</file>
+			<file archivePath="opencv_anm_v2">script/tetsu_xiao/ocv_module.dll</file>
+		</files>
+		<releases>
+			<release version="v2">
+				<archiveIntegrity
+				>sha384-Lu9y86FvQCGjThCLWo4ubjTV5zEDE1n08ULe9AXdFH5SnrKpttdKqLjYlBUadQMh</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="opencv_core300.dll"
+					>sha384-QIBD+WvQlF9gFiEVsF/tBW6/7Zozf4WrWEld3ibrjd1xZkIjsWWMcO44F7t+rpu0</integrity>
+					<integrity
+						target="opencv_imgcodecs300.dll"
+					>sha384-BfoGJ7o7aNb4ogh5IOWkEKsXqLS1hNDlkKKjz5UPuguxLJqjvFdI7B1FWQeI4cq5</integrity>
+					<integrity
+						target="opencv_photo300.dll"
+					>sha384-8T+v1MV/mAA6BgtXMq7b1BkVIoDiwwt81mc9Bflwcfc7/i2gRx6kv5iATYhjb15s</integrity>
+					<integrity
+						target="opencv_imgproc300.dll"
+					>sha384-08CNlzMdvMgnHjKDcq77zipY6XdeWbEm3luTfQIXptKy4xbVwBNeFVS0yU65a9LY</integrity>
+					<integrity
+						target="script/tetsu_xiao/@opencv.anm"
+					>sha384-3p9FSPRsM7WsmwQsVHHRY1TEBh6LyR/ac1feJewL5GhgoDxlXUmKPMhNVaOMrh3T</integrity>
+					<integrity
+						target="script/tetsu_xiao/ocv_module.dll"
+					>sha384-9g0T6VK4Sa718AkxBNw3iGXY0dJBOa2NHaySnanEg1lhg06W14RbJwBbG4tSy6er</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
 	<!-- UndoFish ID:UndoFish -->
 
 	<package>

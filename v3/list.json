@@ -15,6 +15,10 @@
     {
       "path": "package-sets.json",
       "modified": "2022-06-25T17:15:00+09:00"
+    },
+    {
+      "path": "packages/tim.json",
+      "modified": "2022-06-25T17:15:00+09:00"
     }
   ],
   "scripts": [

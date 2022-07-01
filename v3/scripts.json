@@ -138,6 +138,10 @@
       "dependencies": []
     },
     {
+      "match": ["https://tim3.web.fc2.com/script/*BriWipe*.zip"],
+      "redirect": "tim/briwipe"
+    },
+    {
       "match": [
         "https://www.dropbox.com/sh/u73uud29hcxlply/AABH9ZhzL1P1kX-bWrL4asdDa*"
       ],

@@ -699,6 +699,65 @@
       ]
     },
     {
+      "id": "ePi/discordrp",
+      "name": "Discord Rich Presence",
+      "overview": "Discordに「AviUtlをプレイ中」と表示する",
+      "description": "AviUtlを起動すると、DiscordのRich Presenceを適用するプラグイン。\nプロフィール上に「AviUtlをプレイ中」と表示される。",
+      "developer": "ePi",
+      "pageURL": "https://scrapbox.io/ePi5131/%E3%80%90AviUtl%E3%80%91Discord_Rich_Presence_Plugin",
+      "downloadURLs": [
+        "https://scrapbox.io/ePi5131/%E3%80%90AviUtl%E3%80%91Discord_Rich_Presence_Plugin"
+      ],
+      "latestVersion": "2021/01/21",
+      "files": [
+        { "filename": "plugins/discord_game_sdk.dll" },
+        { "filename": "plugins/discord_rp.auf" }
+      ],
+      "releases": [
+        {
+          "version": "2021/01/21",
+          "integrity": {
+            "archive": "sha384-vlwD8Lp3MpZhkwIcpw5uBlktWpJtHf3s0roz9D6JIGq3dtRgT69nJNCUXoSNCOok",
+            "file": [
+              {
+                "target": "plugins/discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              },
+              {
+                "target": "plugins/discord_rp.auf",
+                "hash": "sha384-cVUCmAvkfdEuIsAdiAk35lq5Xg/xj8+tkPX+lOykPGUgQ3FQUrElZw+LW1aTrP5R"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ePi/export2clipboard",
+      "name": "export2clipboard",
+      "overview": "クリップボードに出力画像を転送する",
+      "description": "ファイルに出力するのと等価なイメージをクリップボードに転送する。\nショートカットキーを設定することが可能。",
+      "developer": "ePi",
+      "pageURL": "https://scrapbox.io/ePi5131/export2clipboard",
+      "downloadURLs": ["https://scrapbox.io/ePi5131/export2clipboard"],
+      "latestVersion": "2020/09/04",
+      "files": [{ "filename": "plugins/export2clipboard.auf" }],
+      "releases": [
+        {
+          "version": "2020/09/04",
+          "integrity": {
+            "archive": "sha384-e+P1yzycQzZ3BA0j4tD+EOTDZNTsZ+7Ey+Bh2GwgWWh5C8clKUwGgtdjzbGBW8ha",
+            "file": [
+              {
+                "target": "plugins/export2clipboard.auf",
+                "hash": "sha384-e+P1yzycQzZ3BA0j4tD+EOTDZNTsZ+7Ey+Bh2GwgWWh5C8clKUwGgtdjzbGBW8ha"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "ePi/LuaJIT",
       "name": "LuaJIT",
       "overview": "スクリプトエンジン「Lua」の高速版です",
@@ -717,6 +776,34 @@
               {
                 "target": "lua51.dll",
                 "hash": "sha384-Tyx0ziJxtuafsPaBhg6OLWnKyJKE/cpfY5E+ixylKFsXeduy5j4b4AUhp3GtLuP4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ePi/outputpngfix",
+      "name": "PNG出力（バグ修正版）",
+      "overview": "現在フレームの画像をPNG形式で出力",
+      "description": "現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。\n出力画像の幅が4の倍数でないと正しく出力できない問題が修正されています。",
+      "developer": "ePi",
+      "originalDeveloper": "yu_noimage_",
+      "pageURL": "https://scrapbox.io/ePi5131/AulsPNG%E5%87%BA%E5%8A%9B_%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3",
+      "downloadURLs": [
+        "https://scrapbox.io/ePi5131/AulsPNG%E5%87%BA%E5%8A%9B_%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3"
+      ],
+      "latestVersion": "2021/11/29",
+      "files": [{ "filename": "plugins/auls_outputpng.auf" }],
+      "releases": [
+        {
+          "version": "2021/11/29",
+          "integrity": {
+            "archive": "sha384-6fjC375MZlzU00wqH5fz+kIy7HmW6IuLqoGC9M7IaocxwvV3pR3z3Qm/DpuyYwSx",
+            "file": [
+              {
+                "target": "plugins/auls_outputpng.auf",
+                "hash": "sha384-7CyKZcMeGdlqGsYMM5GLc7Daqja30Xyj8BXy0+rI9KQlpdSx3Hl3OaAIyNWuIX2Z"
               }
             ]
           }

@@ -1881,6 +1881,40 @@
       ]
     },
     {
+      "id": "mtripg6666tdr/aviutlrpc",
+      "name": "AviUtl-RPC",
+      "overview": "Discord上にAviUtlのステータスを表示する",
+      "description": "AviUtlで編集時などに、Discordにステータスを表示するプラグイン。\nアイドル時、編集時、エンコード時にDiscordのユーザーの欄のところに現在のステータスを表示します。",
+      "developer": "mtripg6666tdr",
+      "pageURL": "https://github.com/mtripg6666tdr/AviUtl-RPC#readme",
+      "downloadURLs": [
+        "https://github.com/mtripg6666tdr/AviUtl-RPC/releases/latest"
+      ],
+      "latestVersion": "v1.0",
+      "files": [
+        { "filename": "aviutl_rpc.auf" },
+        { "filename": "discord_game_sdk.dll" }
+      ],
+      "releases": [
+        {
+          "version": "v1.0",
+          "integrity": {
+            "archive": "sha384-n5Lzs/RGSkUr0SnnLqK7oWOyU5cBtNK4BFUXn/WYlJIQXZ6hLafO/6/zckAEGtAK",
+            "file": [
+              {
+                "target": "aviutl_rpc.auf",
+                "hash": "sha384-0h6sw2KdXe9HaeoRp6t3K4W3tFLLBUMgklGmfEqtL//XMf2v21sWqAJdU3xSVrk5"
+              },
+              {
+                "target": "discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "nazono/redoNoRuntime",
       "name": "Redoプラグイン(ランタイム不要・非推奨)",
       "overview": "Ctrl+Yキーでのやり直し機能を追加する",

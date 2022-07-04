@@ -3497,64 +3497,6 @@
 	<!-- しゅう ID:shummg -->
 
 	<package>
-		<id>shummg/dotdrawer</id>
-		<name>dotdrawer</name>
-		<overview>ドット絵を描画するためのライブラリ</overview>
-		<description
-		>dotdrawerは、ドット絵を描画するだけのシンプルなライブラリです。</description>
-		<developer>しゅう</developer>
-		<pageURL>https://shummg.work/archives/1231</pageURL>
-		<downloadURL
-		>https://github.com/shumm7/AviUtl-dotdrawer.lua/releases/latest</downloadURL>
-		<latestVersion>1.1</latestVersion>
-		<files>
-			<file>script/shummg/dotdrawer.lua</file>
-		</files>
-		<releases>
-			<release version="1.1">
-				<archiveIntegrity
-				>sha384-pg/9VD7ZZLOcenlC/NIprGYlgMrxuzxcB7h75IEbYcuEepY5ZRMc/3yfxynoqk0X</archiveIntegrity>
-				<integrities>
-					<integrity
-						target="script/shummg/dotdrawer.lua"
-					>sha384-kfm/wnRgGySW1tr7F0kX7vD91VtnR+58s1Hyabvge6PoZZswVnFjoiqVAz55z9kL</integrity>
-				</integrities>
-			</release>
-		</releases>
-	</package>
-
-	<package>
-		<id>shummg/shuGame</id>
-		<name>shu_game</name>
-		<overview>「オセロ」や「マインスイーパ」の動作に必要</overview>
-		<description
-		>「オセロ」や「マインスイーパ」などに要求されるスクリプトです。</description>
-		<developer>しゅう</developer>
-		<dependencies>
-			<dependency>rikky/rikkyModuleMemory|rikky/rikkyModule2</dependency>
-		</dependencies>
-		<pageURL
-		>https://shummg.work/downloads/#%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA</pageURL>
-		<downloadURL
-		>https://github.com/shumm7/AviUtl-shu_game.lua/releases/latest</downloadURL>
-		<latestVersion>1.1</latestVersion>
-		<files>
-			<file>script/shummg/shu_game.lua</file>
-		</files>
-		<releases>
-			<release version="1.1">
-				<archiveIntegrity
-				>sha384-soXtIGntr1QO/jvsrUcIvPvv6YjrfI45qS1tRF7nlv0B5t8HcyMPS1/jK8xBa2OD</archiveIntegrity>
-				<integrities>
-					<integrity
-						target="script/shummg/shu_game.lua"
-					>sha384-qFXsL73G/vC9lo4sUqqtkqqIG/TP8ZGcKrbCylto/YJeWw1BibUPkS4tnNQZ/6vC</integrity>
-				</integrities>
-			</release>
-		</releases>
-	</package>
-
-	<package>
 		<id>shummg/textmodule</id>
 		<name>textmodule</name>
 		<overview>AviUtl用の様々な関数を提供する汎用モジュール</overview>

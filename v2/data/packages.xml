@@ -2594,7 +2594,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
-		<latestVersion>7.05</latestVersion>
+		<latestVersion>7.06</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/QSVEnc.auo</file>
 			<file archivePath="plugins">plugins/QSVEnc.ini</file>
@@ -2657,6 +2657,15 @@
 					<integrity
 						target="plugins/QSVEnc.auo"
 					>sha384-lmgIrqEMari4OGy0YwY+r3PXay5siksj/nl1VYCtiU04xDPqGkwjHPcIY1fsLBxa</integrity>
+				</integrities>
+			</release>
+			<release version="7.06">
+				<archiveIntegrity
+				>sha384-Nk39oWn4eV89wPC40gxej0SxHhadRqM+Y1+3uUJQgkmxk3HxsZ1V6WBKUYZj4afZ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-UW85egovXzzJ87UT/kN2yHQlea47h1ca05cLNVnnfLhYSnh1p1VD+Z1gYGHYgybg</integrity>
 				</integrities>
 			</release>
 		</releases>

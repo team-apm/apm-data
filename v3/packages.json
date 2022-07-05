@@ -1935,7 +1935,7 @@
       "downloadURLs": [
         "https://github.com/mtripg6666tdr/AviUtl-RPC/releases/latest"
       ],
-      "latestVersion": "v1.0",
+      "latestVersion": "1.0",
       "files": [
         { "filename": "aviutl_rpc.auf" },
         { "filename": "discord_game_sdk.dll" }

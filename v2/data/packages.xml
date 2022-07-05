@@ -1940,7 +1940,7 @@
 		<pageURL>https://github.com/mtripg6666tdr/AviUtl-RPC#readme</pageURL>
 		<downloadURL
 		>https://github.com/mtripg6666tdr/AviUtl-RPC/releases/latest</downloadURL>
-		<latestVersion>v1.0</latestVersion>
+		<latestVersion>1.0</latestVersion>
 		<files>
 			<file>aviutl_rpc.auf</file>
 			<file>discord_game_sdk.dll</file>

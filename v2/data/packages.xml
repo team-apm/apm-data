@@ -780,6 +780,64 @@
 	</package>
 
 	<package>
+		<id>ePi/discordrp</id>
+		<name>Discord Rich Presence</name>
+		<overview>Discordに「AviUtlをプレイ中」と表示する</overview>
+		<description>AviUtlを起動すると、DiscordのRich Presenceを適用するプラグイン。
+プロフィール上に「AviUtlをプレイ中」と表示される。</description>
+		<developer>ePi</developer>
+		<pageURL
+		>https://scrapbox.io/ePi5131/%E3%80%90AviUtl%E3%80%91Discord_Rich_Presence_Plugin</pageURL>
+		<downloadURL
+		>https://scrapbox.io/ePi5131/%E3%80%90AviUtl%E3%80%91Discord_Rich_Presence_Plugin</downloadURL>
+		<latestVersion>2021/01/21</latestVersion>
+		<files>
+			<file>plugins/discord_game_sdk.dll</file>
+			<file>plugins/discord_rp.auf</file>
+		</files>
+		<releases>
+			<release version="2021/01/21">
+				<archiveIntegrity
+				>sha384-vlwD8Lp3MpZhkwIcpw5uBlktWpJtHf3s0roz9D6JIGq3dtRgT69nJNCUXoSNCOok</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/discord_game_sdk.dll"
+					>sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk</integrity>
+					<integrity
+						target="plugins/discord_rp.auf"
+					>sha384-cVUCmAvkfdEuIsAdiAk35lq5Xg/xj8+tkPX+lOykPGUgQ3FQUrElZw+LW1aTrP5R</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>ePi/export2clipboard</id>
+		<name>export2clipboard</name>
+		<overview>クリップボードに出力画像を転送する</overview>
+		<description>ファイルに出力するのと等価なイメージをクリップボードに転送する。
+ショートカットキーを設定することが可能。</description>
+		<developer>ePi</developer>
+		<pageURL>https://scrapbox.io/ePi5131/export2clipboard</pageURL>
+		<downloadURL>https://scrapbox.io/ePi5131/export2clipboard</downloadURL>
+		<latestVersion>2020/09/04</latestVersion>
+		<files>
+			<file>plugins/export2clipboard.auf</file>
+		</files>
+		<releases>
+			<release version="2020/09/04">
+				<archiveIntegrity
+				>sha384-e+P1yzycQzZ3BA0j4tD+EOTDZNTsZ+7Ey+Bh2GwgWWh5C8clKUwGgtdjzbGBW8ha</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/export2clipboard.auf"
+					>sha384-e+P1yzycQzZ3BA0j4tD+EOTDZNTsZ+7Ey+Bh2GwgWWh5C8clKUwGgtdjzbGBW8ha</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
 		<id>ePi/LuaJIT</id>
 		<name>LuaJIT</name>
 		<overview>スクリプトエンジン「Lua」の高速版です</overview>
@@ -800,6 +858,36 @@
 					<integrity
 						target="lua51.dll"
 					>sha384-Tyx0ziJxtuafsPaBhg6OLWnKyJKE/cpfY5E+ixylKFsXeduy5j4b4AUhp3GtLuP4</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
+		<id>ePi/outputpngfix</id>
+		<name>PNG出力（バグ修正版）</name>
+		<overview>現在フレームの画像をPNG形式で出力</overview>
+		<description
+		>現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。
+出力画像の幅が4の倍数でないと正しく出力できない問題が修正されています。</description>
+		<developer>ePi</developer>
+		<originalDeveloper>yu_noimage_</originalDeveloper>
+		<pageURL
+		>https://scrapbox.io/ePi5131/AulsPNG%E5%87%BA%E5%8A%9B_%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3</pageURL>
+		<downloadURL
+		>https://scrapbox.io/ePi5131/AulsPNG%E5%87%BA%E5%8A%9B_%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3</downloadURL>
+		<latestVersion>2021/11/29</latestVersion>
+		<files>
+			<file>plugins/auls_outputpng.auf</file>
+		</files>
+		<releases>
+			<release version="2021/11/29">
+				<archiveIntegrity
+				>sha384-6fjC375MZlzU00wqH5fz+kIy7HmW6IuLqoGC9M7IaocxwvV3pR3z3Qm/DpuyYwSx</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/auls_outputpng.auf"
+					>sha384-7CyKZcMeGdlqGsYMM5GLc7Daqja30Xyj8BXy0+rI9KQlpdSx3Hl3OaAIyNWuIX2Z</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -1838,6 +1926,39 @@
 			<file>plugins/lwinput.aui</file>
 			<file>plugins/lwmuxer.auf</file>
 		</files>
+	</package>
+
+	<!-- mtripg6666tdr ID:mtripg6666tdr -->
+
+	<package>
+		<id>mtripg6666tdr/aviutlrpc</id>
+		<name>AviUtl-RPC</name>
+		<overview>Discord上にAviUtlのステータスを表示する</overview>
+		<description>AviUtlで編集時などに、Discordにステータスを表示するプラグイン。
+アイドル時、編集時、エンコード時にDiscordのユーザーの欄のところに現在のステータスを表示します。</description>
+		<developer>mtripg6666tdr</developer>
+		<pageURL>https://github.com/mtripg6666tdr/AviUtl-RPC#readme</pageURL>
+		<downloadURL
+		>https://github.com/mtripg6666tdr/AviUtl-RPC/releases/latest</downloadURL>
+		<latestVersion>v1.0</latestVersion>
+		<files>
+			<file>aviutl_rpc.auf</file>
+			<file>discord_game_sdk.dll</file>
+		</files>
+		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-n5Lzs/RGSkUr0SnnLqK7oWOyU5cBtNK4BFUXn/WYlJIQXZ6hLafO/6/zckAEGtAK</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="aviutl_rpc.auf"
+					>sha384-0h6sw2KdXe9HaeoRp6t3K4W3tFLLBUMgklGmfEqtL//XMf2v21sWqAJdU3xSVrk5</integrity>
+					<integrity
+						target="discord_game_sdk.dll"
+					>sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<!-- 謎の生物 ID:nazono -->

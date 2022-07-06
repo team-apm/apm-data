@@ -71,7 +71,10 @@
       "latestVersion": "2012/08/07",
       "nicommons": "sm16297007",
       "files": [
-        { "filename": "satsuki/@onsei.anm", "archivePath": "時系列音声波形" }
+        {
+          "filename": "script/satsuki/@onsei.anm",
+          "archivePath": "時系列音声波形"
+        }
       ],
       "releases": [
         {
@@ -80,7 +83,7 @@
             "archive": "sha384-xbZmgeAArDSSIEDj6rySMORq9MYDWFx5ZmQ/Iu9FnsoaNUO+ZtH1NY0if5fdK5Q6",
             "file": [
               {
-                "target": "satsuki/@onsei.anm",
+                "target": "script/satsuki/@onsei.anm",
                 "hash": "sha384-NNfwINDAZNCAKDzXIfJAoroPNkt8X4hCS1iIXWegLQcElUYUwSFJOe80wZ16n8WK"
               }
             ]
@@ -1279,10 +1282,10 @@
       "nicommons": "sm19425542",
       "files": [
         {
-          "filename": "script/虹色グラデーション.anm",
+          "filename": "script/tim/虹色グラデーション.anm",
           "archivePath": "RbwGra"
         },
-        { "filename": "script/T_R_gradation.dll", "archivePath": "RbwGra" }
+        { "filename": "script/tim/T_R_gradation.dll", "archivePath": "RbwGra" }
       ],
       "releases": [
         {
@@ -1291,11 +1294,11 @@
             "archive": "sha384-mcJpga5zaSPk/85UpC+oCEJMyGFBO42c3nSOqggd4uXYor/5rpDvCZyNAF0m2Nlz",
             "file": [
               {
-                "target": "script/虹色グラデーション.anm",
+                "target": "script/tim/虹色グラデーション.anm",
                 "hash": "sha384-7xA6u7qetCFxM+RVLliyhvfMIAmNedWk6NhU1/E+v79GOLGp7uWdLziPMWAw3ynL"
               },
               {
-                "target": "script/T_R_gradation.dll",
+                "target": "script/tim/T_R_gradation.dll",
                 "hash": "sha384-4aZ6Rh3Dtaoa4mjtdB5MND8cLLDkFw1+76wiTBobUSdt0mG2DrO/knW0uV4cV044"
               }
             ]
@@ -2120,13 +2123,13 @@
       ]
     },
     {
-      "id": "tim/vanishP1",
+      "id": "tim/vanishP",
       "name": "バニシングポイント",
       "overview": "自動で擬似3D変換するスクリプト",
       "description": "４辺形で囲まれた領域を３Ｄであるとみなし、オブジェクトを移動させると、自動で３Ｄ的に変形します。",
       "developer": "ティム",
       "pageURL": "https://timnoheya.fc2.net/blog-entry-8.html",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#VanishP1"],
+      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#VanishP"],
       "latestVersion": "V2",
       "files": [{ "filename": "script/tim/バニシングポイント.anm" }],
       "releases": [
@@ -2491,7 +2494,7 @@
       "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#SimWrp2"],
       "latestVersion": "2012/11/10",
       "nicommons": "sm19322218",
-      "files": [{ "filename": "tim/簡易ワープV2.anm" }],
+      "files": [{ "filename": "script/tim/簡易ワープV2.anm" }],
       "releases": [
         {
           "version": "2012/11/10",
@@ -2499,7 +2502,7 @@
             "archive": "sha384-bUHNWtc9SH0L7bcqbRwfMgZBGT+STuXPmjLocx8RtLe+DuMnVglFkWwVAMIQX04t",
             "file": [
               {
-                "target": "tim/簡易ワープV2.anm",
+                "target": "script/tim/簡易ワープV2.anm",
                 "hash": "sha384-TkFn3lV6CWkRaNSpQ9R56HmJdujWLeVdSnW2APGsab6Uw7FxObAt8O/K5WAUukhJ"
               }
             ]

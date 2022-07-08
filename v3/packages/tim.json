@@ -1679,14 +1679,6 @@
             "archive": "sha384-9h1P7PkEJ1DvigkF8jTW6uuqfpYrDpaE5DYViF99RahqlUDhClJt10P+8ymPwjV4",
             "file": [
               {
-                "target": "script/tim/split1.txt",
-                "hash": "sha384-AfqU6YriWKpxd+rMm2iPNmD1BL6i3uOTKVE0rB6EPxvZyKCqQsoXEOesFzTtDHwq"
-              },
-              {
-                "target": "script/tim/split2.txt",
-                "hash": "sha384-F6m9zfBsFY0bENbpo7mdoZkHlNxdMRIG/BvGGl8YuqFITqCE+cp/bB2uJqHUYqgk"
-              },
-              {
                 "target": "script/tim/@スプリット.anm",
                 "hash": "sha384-MEjqCCk5/QT8fK3Z591SAeIxMxCTbVAb6i/dxaeyU0ZWhZONbUBM8baPYpTuiraI"
               }

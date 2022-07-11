@@ -9,6 +9,7 @@
   "hebiiro/OptimizeEditBox": "OptimizeEditBox[0-9\\.]+",
   "#hebiiro/SelectAliasFolder": "SelectAliasFolder[0-9\\.]+",
   "#hebiiro/SelectFavoriteFont": "SelectFavoriteFont[0-9\\.]+",
+  "hebiiro/SplitWindow": "SplitWindow[0-9\\.]+",
   "#hebiiro/SwitchSettings": "SwitchSettings[0-9\\.]+",
   "karoterra/aviutlWaveformPreview": "aviutl_WaveformPreview_v[0-9\\.]+",
   "karoterra/bend": "aviutl-Bend_v[0-9\\.]+",

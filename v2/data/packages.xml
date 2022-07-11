@@ -1346,6 +1346,165 @@
 	</package>
 
 	<package>
+		<id>hebiiro/SplitWindow</id>
+		<name>SplitWindow</name>
+		<overview>AviUtl のウィンドウを再帰分割可能なペインに分割します</overview>
+		<description
+		>AviUtl のウィンドウを再帰分割可能なペインに貼り付けられるようにします。</description>
+		<developer>hebiiro</developer>
+		<dependencies>
+			<dependency>aviutl1.10</dependency>
+			<dependency>exedit0.92</dependency>
+		</dependencies>
+		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-SplitWindow#readme</pageURL>
+		<downloadURL
+		>https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest</downloadURL>
+		<latestVersion>3.0.0</latestVersion>
+		<files>
+			<file>plugins/SplitWindow.aul</file>
+			<file>plugins/SplitWindow.xml</file>
+			<file directory="true">plugins/SplitWindow</file>
+		</files>
+		<releases>
+			<release version="1.0.0">
+				<archiveIntegrity
+				>sha384-sytgUV683q8JFgFBEY+FS6Lp37YQlbQ1pUAfq4H3XGr+VgB5UWCZQi+kah7BIz8k</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-h2YMvsnBqbS08dDHeuXFfds0ahL23BXQ3awDuJHMAYzMH3BjOuXoLRhuGSIsorek</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.1">
+				<archiveIntegrity
+				>sha384-Zh4RcM/VcYnobKkikhge4YEvOS86TxKVc1KlQXhHFzPdL5a5jfK42B2kgCUsRW05</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-pX/12AMuur0YVQDCqRdprQZlB0XEVk33ptQUtfXJi8ynV8CZewK4wqSlD7VwCq6S</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.2">
+				<archiveIntegrity
+				>sha384-3cViMhlnQETEzSWQDZcgaQAMkF/HRKxE0IqrbAn2X8hkcStlTDjRA0DVtRQtqmR6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-yeZzabFS/4ts6jtBEwi+CnGvV2F73cuoYrYM6A8Poxrpgd/k8j5gD5nMkrG/Enyj</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.3">
+				<archiveIntegrity
+				>sha384-uMfKvm2gbX9iG/1y+Ml33K2Lfns94q2lIKp5dKnwkkiCbZf0E7ncKoIQY5DJ5sMs</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-F0u3M3eEMTZyqzO5oQF5UhHv6LG7Oc8Q3sChKNo7pdC2mMv3yH5pKnRq/X2wVFKI</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.4">
+				<archiveIntegrity
+				>sha384-amGM8Fn47EkC3DxN8C4y3gkTCdYwVuniujFZ6q2bCUVgOXm+GgATsHFF4ox/Hc93</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-sJjqTMfFJuwDeHGhFadYt8cB2be5mmqTb+jPq4DzqISgJWbBwpqZX4UiGM2Xr7PM</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.5">
+				<archiveIntegrity
+				>sha384-VsGlZF7mIfWl28TlHVdgopZSQMrIBZufoW8sVgwiN2QQo0K+Yn1sJmF7cF2xwYz8</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-5SJf293ZBHtJcTpWOcG3uA3rqvDHeeUXRq7Msw6Xq9O3YYT/iqoeaMMbElwgaRka</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.6">
+				<archiveIntegrity
+				>sha384-DvJzuY2Ka9ueZ+hCICuoRwin1T9hDt6XQiObzEzGb6CLPiotz1CZnAgOeNbdAGdi</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-/YQ04EvZbA5/NosvfpwC99ZNsCryli4kJ8VMiGYvcuuES/IpPrHQvWrapYMVkK4+</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.7">
+				<archiveIntegrity
+				>sha384-thLJvBBGsnj4VKwjT1sxR+jadloBLq99mSQI0NGYI9lh7XFo4ncNU7jbipcXeaBz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-FCU+6oEfF4UVreJvRNV49YL1/XGBdrjwH8d23V4m0nSggewZkJhkgdPiFSYfGvkG</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.8">
+				<archiveIntegrity
+				>sha384-NVx/Cyae1qo9J8kaT7Rr/X7+P7Q3Rz7kFANJbWAkXMJQI9bHA34bUxrmA/3FouD/</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-GRYD3xGVi6sTT0MT95FL2fEclTz0G9HOOYaQ88titczGk0Od8YCRpvKEn1fAeVnd</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.9">
+				<archiveIntegrity
+				>sha384-qkyFtPl0mjCbiC8TjczKAiq6vQH2p7HsVtCHLugEWs/tazVw/xXzSFkyPcC3v47O</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-m4A+Os0YlFyqSbAySsTIl0N7pCW9QstS7m6TyRe5Xr+8s4rx7ckyHeA0mx4hSfea</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.0">
+				<archiveIntegrity
+				>sha384-BWpUZmTu3eJAgKqc+FmqOE/nY2dvdzyuCmzfDRE0FH5yHY7rGxB9qhswo7mw5eD6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-BULE8gcKLjB3i+EmYob+KXeU7V+szkl3Npbg3qf4vLHDHZaqQrzjMEnvLthHVDbE</integrity>
+				</integrities>
+			</release>
+			<release version="2.0.0">
+				<archiveIntegrity
+				>sha384-mITQJ9W68MNSBcSey3K3JFopel5phSyfdhORCOMNX+QS/4sKKZBRSYstRNuZsvVT</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-STsLTWQ4RFFFGoRF22kRamI+G6PVrvNmuE161maGjl9lWwJiseN8nyuL4U94v6V4</integrity>
+				</integrities>
+			</release>
+			<release version="2.1.0">
+				<archiveIntegrity
+				>sha384-4BfMX0Y5BKDGh98XH/A/JzRP0IBAZLgKPTAYs0vp0BVYQCzNuTjjAhP+iIiWyI6n</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-krPwwbrQq8KVa1aBtbl12KUVa/EOmU6ddcKjUNC8ChDIUEy94eckg4wT/V8BirKR</integrity>
+				</integrities>
+			</release>
+			<release version="2.2.0">
+				<archiveIntegrity
+				>sha384-/rjv9x1uaIhu4ad47UOa7NNfGEP+H/aYZlYb+XlLEkVm7n5Tmx8Jd17kCHz9chtz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-tXVOpjGovf64VdzZ/repp3gQjOz4AsskGUQEDiScAoQMdkW7egZawCyvn4dFppGs</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.0">
+				<archiveIntegrity
+				>sha384-F8p0Pl7gKdF7NL1yIZNGdKz+u+tIJcUP5elksO8h8ovv5dcAFNkH+PkKPOCSuUs5</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-FWMQezlrVEM+Sw3cczyN4BmYR3zlhv4BYex43i+1B1ImNyC4VpltVUXMnztHny+X</integrity>
+				</integrities>
+			</release>
+		</releases>
+	</package>
+
+	<package>
 		<id>hebiiro/SwitchSettings</id>
 		<name>設定切り替え</name>
 		<overview>起動時に設定ファイルを選択できるようにする</overview>

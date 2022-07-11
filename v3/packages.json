@@ -1032,13 +1032,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.5.4",
+      "latestVersion": "6.5.5",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "6.5.5",
+          "integrity": {
+            "archive": "sha384-f+dQ5T9hr9nU1JiLQBitUjM/xiOK0Wo1j3mPlmU23Sr+/kICzjAJ2YogOa5aDzAP",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-/4vnbVjgnKg74ZZ70XbWFVFUgAZUQh/CvwPTTJNHerwhomICvjikwIKnRovC0iGW"
+              }
+            ]
+          }
+        },
         {
           "version": "6.5.4",
           "integrity": {
@@ -1139,7 +1151,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.5.4",
+      "latestVersion": "6.5.5",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]
@@ -1249,12 +1261,28 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont/releases/latest"
       ],
-      "latestVersion": "5.2.1",
+      "latestVersion": "6.0.0",
       "files": [
         { "filename": "plugins/SelectFavoriteFont.auf" },
         { "filename": "plugins/SelectFavoriteFont.xml" }
       ],
       "releases": [
+        {
+          "version": "6.0.0",
+          "integrity": {
+            "archive": "sha384-Yk3DtdiHL1jYPYyjDawPHu2FBHLXgkdEp+cNxlKw6l8wgmDmob49L+WOfFWiCCRl",
+            "file": [
+              {
+                "target": "plugins/SelectFavoriteFont.auf",
+                "hash": "sha384-suF/1rbFcPD7NxpJSRqNnnb+Dx/ymzg6ViMuyxq2Ce/sJe7MMopU32TJtvKxP0o7"
+              },
+              {
+                "target": "plugins/SelectFavoriteFont.xml",
+                "hash": "sha384-Y8adIX/c6x7Z1dwKgdWLOgX97Yywi8OM+htxVZh6WKZdN6LDzD2zgEBWCqEb8drD"
+              }
+            ]
+          }
+        },
         {
           "version": "5.1.2",
           "integrity": {

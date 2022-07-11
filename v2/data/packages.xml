@@ -1087,7 +1087,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.5.4</latestVersion>
+		<latestVersion>6.5.5</latestVersion>
 		<files>
 			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -1160,6 +1160,15 @@
 					>sha384-/zwWMO3BoSf7feGzQgLvVPcBwbi2nJpOhNkX/Itvr4ZyJhdZMTwuarUMzsMB+DX4</integrity>
 				</integrities>
 			</release>
+			<release version="6.5.5">
+				<archiveIntegrity
+				>sha384-f+dQ5T9hr9nU1JiLQBitUjM/xiOK0Wo1j3mPlmU23Sr+/kICzjAJ2YogOa5aDzAP</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-/4vnbVjgnKg74ZZ70XbWFVFUgAZUQh/CvwPTTJNHerwhomICvjikwIKnRovC0iGW</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -1173,7 +1182,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.5.4</latestVersion>
+		<latestVersion>6.5.5</latestVersion>
 		<installer>CreateDark.exe</installer>
 		<installArg>/a"$instpath" /f /x</installArg>
 		<files>
@@ -1288,7 +1297,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont/releases/latest</downloadURL>
-		<latestVersion>5.2.1</latestVersion>
+		<latestVersion>6.0.0</latestVersion>
 		<files>
 			<file>plugins/SelectFavoriteFont.auf</file>
 			<file>plugins/SelectFavoriteFont.xml</file>
@@ -1304,6 +1313,18 @@
 					<integrity
 						target="plugins/SelectFavoriteFont.xml"
 					>sha384-wqIkwu+BCXfIe3Twd+Grs77IfhVzeMBMAB+HFDXSbrKc53w66W/Ty5Ouh5HW4EKg</integrity>
+				</integrities>
+			</release>
+			<release version="6.0.0">
+				<archiveIntegrity
+				>sha384-Yk3DtdiHL1jYPYyjDawPHu2FBHLXgkdEp+cNxlKw6l8wgmDmob49L+WOfFWiCCRl</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SelectFavoriteFont.auf"
+					>sha384-suF/1rbFcPD7NxpJSRqNnnb+Dx/ymzg6ViMuyxq2Ce/sJe7MMopU32TJtvKxP0o7</integrity>
+					<integrity
+						target="plugins/SelectFavoriteFont.xml"
+					>sha384-Y8adIX/c6x7Z1dwKgdWLOgX97Yywi8OM+htxVZh6WKZdN6LDzD2zgEBWCqEb8drD</integrity>
 				</integrities>
 			</release>
 		</releases>

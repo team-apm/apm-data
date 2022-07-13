@@ -1297,7 +1297,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont/releases/latest</downloadURL>
-		<latestVersion>6.0.0</latestVersion>
+		<latestVersion>6.0.2</latestVersion>
 		<files>
 			<file>plugins/SelectFavoriteFont.auf</file>
 			<file>plugins/SelectFavoriteFont.xml</file>
@@ -1325,6 +1325,18 @@
 					<integrity
 						target="plugins/SelectFavoriteFont.xml"
 					>sha384-Y8adIX/c6x7Z1dwKgdWLOgX97Yywi8OM+htxVZh6WKZdN6LDzD2zgEBWCqEb8drD</integrity>
+				</integrities>
+			</release>
+			<release version="6.0.2">
+				<archiveIntegrity
+				>sha384-4H85XB5NayQ77lWddYctSDxIwbeED55G7WUI49w+Fax4A0WT2NFwAsQoSZCCIA2w</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SelectFavoriteFont.auf"
+					>sha384-hEpO8xh7rqpx8kk5R9EYEw/ZAQYatfFRYMrMzZ7hLOIgkTpixyq1r/zfstMzbnYV</integrity>
+					<integrity
+						target="plugins/SelectFavoriteFont.xml"
+					>sha384-z+lvip8SbgbRkGPEjkT7byqvBD4aFd9Vtz1xsWZyF2N7kmSMy8yJq2FpDeBBFQ1S</integrity>
 				</integrities>
 			</release>
 		</releases>

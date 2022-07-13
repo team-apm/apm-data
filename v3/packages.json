@@ -1261,12 +1261,28 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont/releases/latest"
       ],
-      "latestVersion": "6.0.0",
+      "latestVersion": "6.0.2",
       "files": [
         { "filename": "plugins/SelectFavoriteFont.auf" },
         { "filename": "plugins/SelectFavoriteFont.xml" }
       ],
       "releases": [
+        {
+          "version": "6.0.2",
+          "integrity": {
+            "archive": "sha384-4H85XB5NayQ77lWddYctSDxIwbeED55G7WUI49w+Fax4A0WT2NFwAsQoSZCCIA2w",
+            "file": [
+              {
+                "target": "plugins/SelectFavoriteFont.auf",
+                "hash": "sha384-hEpO8xh7rqpx8kk5R9EYEw/ZAQYatfFRYMrMzZ7hLOIgkTpixyq1r/zfstMzbnYV"
+              },
+              {
+                "target": "plugins/SelectFavoriteFont.xml",
+                "hash": "sha384-z+lvip8SbgbRkGPEjkT7byqvBD4aFd9Vtz1xsWZyF2N7kmSMy8yJq2FpDeBBFQ1S"
+              }
+            ]
+          }
+        },
         {
           "version": "6.0.0",
           "integrity": {

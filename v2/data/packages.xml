@@ -1203,7 +1203,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DragFilter</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest</downloadURL>
-		<latestVersion>9.0.0</latestVersion>
+		<latestVersion>9.1.0</latestVersion>
 		<files>
 			<file>plugins/DragFilter.auf</file>
 			<file>plugins/DragFilter.ini</file>
@@ -1216,6 +1216,15 @@
 					<integrity
 						target="plugins/DragFilter.auf"
 					>sha384-UyWbNedy6Yyr+PFYQKfvKFmtKlQdXZftY6p/ONTwwBITRA24jB/qZJl9/yAJZJAp</integrity>
+				</integrities>
+			</release>
+			<release version="9.1.0">
+				<archiveIntegrity
+				>sha384-jpcn+g/x5H1oyFUZMYFTZ6bej8zep8Oxp62/f6Z23/dPvrDMi0V0m/5cvsyrA2cw</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DragFilter.auf"
+					>sha384-roFvsQB8i8t05f0aoStSc2IQUYqnjepYO7zcQqBj/wgU/CoGbfe2S2ydOu8POT59</integrity>
 				</integrities>
 			</release>
 		</releases>

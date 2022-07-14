@@ -1167,12 +1167,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest"
       ],
-      "latestVersion": "9.0.0",
+      "latestVersion": "9.1.0",
       "files": [
         { "filename": "plugins/DragFilter.auf" },
         { "filename": "plugins/DragFilter.ini" }
       ],
       "releases": [
+        {
+          "version": "9.1.0",
+          "integrity": {
+            "archive": "sha384-jpcn+g/x5H1oyFUZMYFTZ6bej8zep8Oxp62/f6Z23/dPvrDMi0V0m/5cvsyrA2cw",
+            "file": [
+              {
+                "target": "plugins/DragFilter.auf",
+                "hash": "sha384-roFvsQB8i8t05f0aoStSc2IQUYqnjepYO7zcQqBj/wgU/CoGbfe2S2ydOu8POT59"
+              }
+            ]
+          }
+        },
         {
           "version": "1.0.0",
           "integrity": {

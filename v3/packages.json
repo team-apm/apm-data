@@ -1864,9 +1864,21 @@
       "downloadURLs": [
         "https://github.com/karoterra/aviutl_ShowLimit/releases/latest"
       ],
-      "latestVersion": "v0.2.0",
+      "latestVersion": "v0.2.1",
       "files": [{ "filename": "plugins/ShowLimit.auf" }],
       "releases": [
+        {
+          "version": "v0.2.1",
+          "integrity": {
+            "archive": "sha384-XZrP9sNNBgzC2SWfisuCB5uLsTuSLxVcfZc0vOJ+MeFQ0iVVoMTah+cBbuv5+V2l",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-4luJCqrt2eJhbNtcJF/1jDLwP8nehb+ztAuSIO1f4JHxgEnD6AIPjqnyEgs26cQP"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.1.0",
           "integrity": {

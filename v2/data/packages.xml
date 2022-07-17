@@ -1818,7 +1818,7 @@
 		<pageURL>https://github.com/karoterra/aviutl_ShowLimit</pageURL>
 		<downloadURL
 		>https://github.com/karoterra/aviutl_ShowLimit/releases/latest</downloadURL>
-		<latestVersion>v0.2.0</latestVersion>
+		<latestVersion>v0.2.1</latestVersion>
 		<files>
 			<file>plugins/ShowLimit.auf</file>
 		</files>
@@ -1830,6 +1830,15 @@
 					<integrity
 						target="plugins/ShowLimit.auf"
 					>sha384-BAeuliq8jhmSJK3sMc+NzTeZhyyo+moZkl+06N1AiXGOO5l8IHD+gDbkw2RC3ums</integrity>
+				</integrities>
+			</release>
+			<release version="v0.2.1">
+				<archiveIntegrity
+				>sha384-XZrP9sNNBgzC2SWfisuCB5uLsTuSLxVcfZc0vOJ+MeFQ0iVVoMTah+cBbuv5+V2l</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ShowLimit.auf"
+					>sha384-4luJCqrt2eJhbNtcJF/1jDLwP8nehb+ztAuSIO1f4JHxgEnD6AIPjqnyEgs26cQP</integrity>
 				</integrities>
 			</release>
 		</releases>

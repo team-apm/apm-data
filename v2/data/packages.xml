@@ -3255,7 +3255,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x265guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x265guiEx/releases/latest</downloadURL>
-		<latestVersion>4.02</latestVersion>
+		<latestVersion>4.03</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x265guiEx.auo</file>
 			<file archivePath="plugins">plugins/x265guiEx.ini</file>
@@ -3292,6 +3292,15 @@
 					<integrity
 						target="plugins/x265guiEx.auo"
 					>sha384-jJ1jvUex054qi5Sbpsvkpuo6U7xMM9ch5cuG0bR/yT1zn+eJiEJ4m0gxcm6QhnN8</integrity>
+				</integrities>
+			</release>
+			<release version="4.03">
+				<archiveIntegrity
+				>sha384-NIOEh0IOu6eouuIQvI1DGbBGKYiU1TFNZoK+W7WQVuGuIa7QIMkWuJaoyPTOAJCS</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x265guiEx.auo"
+					>sha384-z77ZNyZEaxDzUX+MBQNPzkr8yWuK36EzXSpWVApl9ZX0aLfa9gHTqfKDR7OH+sRo</integrity>
 				</integrities>
 			</release>
 		</releases>

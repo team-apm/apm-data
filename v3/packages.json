@@ -3535,7 +3535,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.02",
+      "latestVersion": "4.03",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -3562,6 +3562,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.03",
+          "integrity": {
+            "archive": "sha384-NIOEh0IOu6eouuIQvI1DGbBGKYiU1TFNZoK+W7WQVuGuIa7QIMkWuJaoyPTOAJCS",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-z77ZNyZEaxDzUX+MBQNPzkr8yWuK36EzXSpWVApl9ZX0aLfa9gHTqfKDR7OH+sRo"
+              }
+            ]
+          }
+        },
         {
           "version": "4.02",
           "integrity": {

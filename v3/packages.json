@@ -1460,6 +1460,66 @@
       ],
       "releases": [
         {
+          "version": "2.2.1",
+          "integrity": {
+            "archive": "sha384-VNZcthm805RBE5ESZfRe4UNy+asEuNRF6rEcs0XclApusIGMorKQnp0DtEVwVmHK",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-/fn0xUi0i3IcvGHm3ghQKAVgCCrNZPb4yDfPyKivA1Irtyumetv4hv3gr9+dkTJ/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.2.0",
+          "integrity": {
+            "archive": "sha384-rXHUp0TJQKCcGMUW0FHsvNQa+VIm3XFqwqiTF0ZLXH6UsL/ZcokzBX2OSbH32lLB",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-YIKcJcJReKVGXkS9KcnnoPxBOfX36M8AWrTjbrPIWfBt7a95vSQ93ffhX1dEy4d/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.1.0",
+          "integrity": {
+            "archive": "sha384-s/RfwSsO6lGED0bj9waZinWQJnuXKgaI+pLFYkCvFvUUr/msJOGUNfxh3nEK6h4j",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-rRzmagpXBbooaPmoV4+on34eN3WCTpqrV9P2QdRYUSOaWi+sPlKnaY8cYYcQxOVA"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.0.1",
+          "integrity": {
+            "archive": "sha384-OtWYmYoEEKmZh6fl1Eur3R+Y6LV2GfT3jDUhz/dku1WKExdlW+9SnRYF/iF4a7QP",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-W9HMlW5SoV3eA6xLnbTEspquzStGKquUpcFZQj0/g+D5knetzcEuNUeRbTk3kmZ9"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.0.0",
+          "integrity": {
+            "archive": "sha384-fmIiMyAdo8mkcQgxD7c3LUyrT6Us6AXtY1GZGAZK17RLtGEd3XqEd+DeCFFZkU3L",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-0Tfrhp5NAr4y8tHwILbFMRckJABteoonYzTxlVhvyUI15+iAyIPM07nxQB13BUhQ"
+              }
+            ]
+          }
+        },
+        {
           "version": "1.0.3",
           "integrity": {
             "archive": "sha384-VNVpEF3UJfsE7dpTPZQmzr1sDgN++IhbBel3oDkxl0JfFRBK2mtp5/8+nxb/iBav",
@@ -1467,10 +1527,6 @@
               {
                 "target": "plugins/AdjustLastFrame.auf",
                 "hash": "sha384-FQ6X6IakV1rYqKzQ6CdEPqcg8Nr8CQQ7f9okkeCrXIAKG3Y5kzXBbT4xjBEYZmAY"
-              },
-              {
-                "target": "plugins/auls_memref.ini",
-                "hash": "sha384-1DXw0EeHlfmvoflmwcohG3gHRAO9CH72t0rHtj4hcA8lhGEmyjHeKbafmxgQmkjr"
               }
             ]
           }

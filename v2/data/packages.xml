@@ -1410,9 +1410,51 @@
 					<integrity
 						target="plugins/AdjustLastFrame.auf"
 					>sha384-FQ6X6IakV1rYqKzQ6CdEPqcg8Nr8CQQ7f9okkeCrXIAKG3Y5kzXBbT4xjBEYZmAY</integrity>
+				</integrities>
+			</release>
+			<release version="2.0.0">
+				<archiveIntegrity
+				>sha384-fmIiMyAdo8mkcQgxD7c3LUyrT6Us6AXtY1GZGAZK17RLtGEd3XqEd+DeCFFZkU3L</archiveIntegrity>
+				<integrities>
 					<integrity
-						target="plugins/auls_memref.ini"
-					>sha384-1DXw0EeHlfmvoflmwcohG3gHRAO9CH72t0rHtj4hcA8lhGEmyjHeKbafmxgQmkjr</integrity>
+						target="plugins/AdjustLastFrame.auf"
+					>sha384-0Tfrhp5NAr4y8tHwILbFMRckJABteoonYzTxlVhvyUI15+iAyIPM07nxQB13BUhQ</integrity>
+				</integrities>
+			</release>
+			<release version="2.0.1">
+				<archiveIntegrity
+				>sha384-OtWYmYoEEKmZh6fl1Eur3R+Y6LV2GfT3jDUhz/dku1WKExdlW+9SnRYF/iF4a7QP</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/AdjustLastFrame.auf"
+					>sha384-W9HMlW5SoV3eA6xLnbTEspquzStGKquUpcFZQj0/g+D5knetzcEuNUeRbTk3kmZ9</integrity>
+				</integrities>
+			</release>
+			<release version="2.1.0">
+				<archiveIntegrity
+				>sha384-s/RfwSsO6lGED0bj9waZinWQJnuXKgaI+pLFYkCvFvUUr/msJOGUNfxh3nEK6h4j</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/AdjustLastFrame.auf"
+					>sha384-rRzmagpXBbooaPmoV4+on34eN3WCTpqrV9P2QdRYUSOaWi+sPlKnaY8cYYcQxOVA</integrity>
+				</integrities>
+			</release>
+			<release version="2.2.0">
+				<archiveIntegrity
+				>sha384-rXHUp0TJQKCcGMUW0FHsvNQa+VIm3XFqwqiTF0ZLXH6UsL/ZcokzBX2OSbH32lLB</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/AdjustLastFrame.auf"
+					>sha384-YIKcJcJReKVGXkS9KcnnoPxBOfX36M8AWrTjbrPIWfBt7a95vSQ93ffhX1dEy4d/</integrity>
+				</integrities>
+			</release>
+			<release version="2.2.1">
+				<archiveIntegrity
+				>sha384-VNZcthm805RBE5ESZfRe4UNy+asEuNRF6rEcs0XclApusIGMorKQnp0DtEVwVmHK</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/AdjustLastFrame.auf"
+					>sha384-/fn0xUi0i3IcvGHm3ghQKAVgCCrNZPb4yDfPyKivA1Irtyumetv4hv3gr9+dkTJ/</integrity>
 				</integrities>
 			</release>
 		</releases>

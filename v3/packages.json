@@ -169,6 +169,20 @@
           "filename": "plugins/MFVideoReaderPlugin.aui",
           "archivePath": "MFVideoReader/"
         }
+      ],
+      "releases": [
+        {
+          "version": "v1.0",
+          "integrity": {
+            "archive": "sha384-0tqAjYTNhvoQqi3aMqJtqzeLV+3QunCdcxbVIVyWpSSfeHnPjbNnSqMLoV/fSSEQ",
+            "file": [
+              {
+                "target": "plugins/MFVideoReaderPlugin.aui",
+                "hash": "sha384-yv+DMCLzY7ZuLqY16MqIniq5M+f/LXJC6JSkQqmmnbKhMJV75nvqFrr3A6DGMGFr"
+              }
+            ]
+          }
+        }
       ]
     },
     {

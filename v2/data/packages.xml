@@ -130,6 +130,17 @@
 			<file archivePath="MFVideoReader/">plugins/MFVideoReader.exe</file>
 			<file archivePath="MFVideoReader/">plugins/MFVideoReaderPlugin.aui</file>
 		</files>
+		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-0tqAjYTNhvoQqi3aMqJtqzeLV+3QunCdcxbVIVyWpSSfeHnPjbNnSqMLoV/fSSEQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/MFVideoReaderPlugin.aui"
+					>sha384-yv+DMCLzY7ZuLqY16MqIniq5M+f/LXJC6JSkQqmmnbKhMJV75nvqFrr3A6DGMGFr</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

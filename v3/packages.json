@@ -1387,13 +1387,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.0.1",
+      "latestVersion": "3.0.2",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.0.2",
+          "integrity": {
+            "archive": "sha384-KQKBNp1ubNRN/egpCdu+P2Fy8Zb8W5ajduCAtjngaUa2C+T/lbwhETY5ya4uPCxz",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-UT59zZ/U/2Dy7e5MC0Ibc/zEugrww4YFKoAo7XVCh7mmGZUeA9oprkCPiWtjOvaL"
+              }
+            ]
+          }
+        },
         {
           "version": "3.0.1",
           "integrity": {
@@ -3329,7 +3341,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.04",
+      "latestVersion": "1.05",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -3357,6 +3369,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.05",
+          "integrity": {
+            "archive": "sha384-pVYRqKdoWF3lVo2iZdm4lWcCuE8P0FK/iwINu4ikZG8UXVyahfbteDhsbnng24hc",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-8AAwAgxLYI7T1TK9Cl6m1X5RP1wpxswFRazUFa1kIfWsO1FxbxBGajZZwqmwLDMu"
+              }
+            ]
+          }
+        },
         {
           "version": "1.04",
           "integrity": {
@@ -3535,7 +3559,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.03",
+      "latestVersion": "4.04",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -3562,6 +3586,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.04",
+          "integrity": {
+            "archive": "sha384-w9T+dDm35W6Z+WCJO2RtVlS4tcbklhA2D+h1cfNmQlvr7WeuqYI2cBdymgMLaeAy",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-5CyYPLsCCAPYwZd/rWhAKaib0buRdxYZGiaVwjExLkNk8Ahl0wBWmgsgc9QwmoBp"
+              }
+            ]
+          }
+        },
         {
           "version": "4.03",
           "integrity": {

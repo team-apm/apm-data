@@ -2106,6 +2106,30 @@
           }
         },
         {
+          "version": "9.0.0",
+          "integrity": {
+            "archive": "sha384-FcdP6AlbiiD46uqe+BeCna7VYgDZxWrlTbDXxGv8LAjMC8tUF0QFMk7d8YSpKkvM",
+            "file": [
+              {
+                "target": "plugins/DragFilter.auf",
+                "hash": "sha384-BdJmkN7hWY85hhB+5Js+JdhE0AzHku9DNttShHIt9WEjYmLn1xvXLsFbSXVHBbuA"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.0.0",
+          "integrity": {
+            "archive": "sha384-OOqFH26gO+3GtcUm+yOAbK6s80lg02i8IFey/2CEVR+2Ld9Od5RSq5k+B4aexG+N",
+            "file": [
+              {
+                "target": "plugins/DragFilter.auf",
+                "hash": "sha384-hqQV1fyQnVHwpB4kFxNW5B47O7TJwTkJu08zMJ6l2CL9wxe40piHKodQamybG/V6"
+              }
+            ]
+          }
+        },
+        {
           "version": "1.0.0",
           "integrity": {
             "archive": "sha384-cC+vsryk+9F4LP32nAB+3ljqQRd3r8PvR7ESThP7YV8ZPJ+/K67d0gH+Nq2F7jpl",

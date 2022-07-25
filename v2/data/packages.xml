@@ -1909,6 +1909,24 @@
 					>sha384-UyWbNedy6Yyr+PFYQKfvKFmtKlQdXZftY6p/ONTwwBITRA24jB/qZJl9/yAJZJAp</integrity>
 				</integrities>
 			</release>
+			<release version="8.0.0">
+				<archiveIntegrity
+				>sha384-OOqFH26gO+3GtcUm+yOAbK6s80lg02i8IFey/2CEVR+2Ld9Od5RSq5k+B4aexG+N</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DragFilter.auf"
+					>sha384-hqQV1fyQnVHwpB4kFxNW5B47O7TJwTkJu08zMJ6l2CL9wxe40piHKodQamybG/V6</integrity>
+				</integrities>
+			</release>
+			<release version="9.0.0">
+				<archiveIntegrity
+				>sha384-FcdP6AlbiiD46uqe+BeCna7VYgDZxWrlTbDXxGv8LAjMC8tUF0QFMk7d8YSpKkvM</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DragFilter.auf"
+					>sha384-BdJmkN7hWY85hhB+5Js+JdhE0AzHku9DNttShHIt9WEjYmLn1xvXLsFbSXVHBbuA</integrity>
+				</integrities>
+			</release>
 			<release version="9.1.0">
 				<archiveIntegrity
 				>sha384-jpcn+g/x5H1oyFUZMYFTZ6bej8zep8Oxp62/f6Z23/dPvrDMi0V0m/5cvsyrA2cw</archiveIntegrity>

@@ -162,6 +162,98 @@
 				archivePath="PropertyWindowFixerPlugin/"
 			>plugins/PropertyWindowFixerPluginConfig.ini</file>
 		</files>
+		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-ScdDlSakq+3uPFd7O64CwX/xDBApdhHRnTGqnonZX7e/qTE6Zb8pJD9S4A/GjaZK</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-mYRh6J8/U6Pv+htRqo7YqjM3HkJVAPDPJF+pSK3rgaRyoUo45je4DzfZNRy6Mj05</integrity>
+				</integrities>
+			</release>
+			<release version="v1.1">
+				<archiveIntegrity
+				>sha384-a1WFnSbjdKkhP7BZ0bzC9p2qcwLthwUqgDTNaz4MaQ1croAQdvvu6P+gMX4yu5fB</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-ZbN25Mt4klMj6b3FZbPAcxx6G456mpYKNal3dOzBarDuzvXvPVSEfhgjtb/nb6OY</integrity>
+				</integrities>
+			</release>
+			<release version="v1.2">
+				<archiveIntegrity
+				>sha384-s7bPqjnx+ASakmbyqlzYlOKYz0mbztwNZXYIDB3gZ/jH6e8V8H+lLuArRGutSbuc</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-ZbN25Mt4klMj6b3FZbPAcxx6G456mpYKNal3dOzBarDuzvXvPVSEfhgjtb/nb6OY</integrity>
+				</integrities>
+			</release>
+			<release version="v2.0">
+				<archiveIntegrity
+				>sha384-gzf0ReQK3zOtT8E6DLVyMWOn9XwmC9kJjg2HIZ4gVtViEwhAyZNtvTUrbI8xTE0h</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-4fPhjcACV58nTY6nMnorFeHvZ+go2jt4sHj4K8ShfqPQIEs2Ck6v+JH07lQ/oN8B</integrity>
+				</integrities>
+			</release>
+			<release version="v2.1">
+				<archiveIntegrity
+				>sha384-c8M5PolUI03MQnmvYMw92b/8D/uReZIDkPqPcKOp6x/TuivSLzzbkrs7B1nQbR3q</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-oCwXgCBKUBWCYmk/oD8d0tOEJcSqpFrhSCYlEgHCOqafHfRrfpab8KkLsvv9gojT</integrity>
+				</integrities>
+			</release>
+			<release version="v2.2">
+				<archiveIntegrity
+				>sha384-yKw2W3sJ5kBwBekakzdPAFiKDJqiMR5myWysm9kaBjnfRpN5TTNdQTQIbMxSZBcl</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-7CmDHovRuWDeZYzqrZaqjrDz6xaHdicy3iorg9Qh3pBFqjjGa8m2Mw936mTR36G3</integrity>
+				</integrities>
+			</release>
+			<release version="v2.3">
+				<archiveIntegrity
+				>sha384-BftSzR8tsS5HwtgqS04KyIxPYsOways4hVqOM+APQ5XiQDnwb2hldvGyykzQ3Vdg</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-qPvrztRGvpg0JqcaL4XrH5tNkC9JPtcg5s2xEk3oHR3TQjwje6Mjmh+kpxzueHdD</integrity>
+				</integrities>
+			</release>
+			<release version="v2.4">
+				<archiveIntegrity
+				>sha384-wfjwIoZK+ZissY86R0KkQKv4EPGSuO5kihQxYSZ7TC4sqmblJ3w0s3zFgCF/n40P</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-yzKrr9e2Mg/qKMbZWEU/3xj4QzKy0czv/SebETCGVT+mYm7HsKH0+j7ONMFFvEKi</integrity>
+				</integrities>
+			</release>
+			<release version="v2.5">
+				<archiveIntegrity
+				>sha384-n9dPTPI0Dyy/t0qbgNeXUEw9Ia4iokcPZ4eP3E8vWR86EMfKQiU7iBZbt/AsCRB1</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-5UlGm9x1LziOiDnLv1RMVlYLZPdNrkKZ5S7YvEerTHi4zXEA7uc8Rdi8uYHhvYr5</integrity>
+				</integrities>
+			</release>
+			<release version="v2.6">
+				<archiveIntegrity
+				>sha384-UMWM3/X7wX2vRKdRVBhMsWKgK5slNYGVLXiRXW43g1/Yh8rlG4y+Ih+Naya6iEvB</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/PropertyWindowFixerPlugin.auf"
+					>sha384-zOTgCZ/xUxXVfdT7HxeQ4J0cJO7d32rJKdpzqLwrsdVmhLOBYkvlycco12s8Ct2A</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<!-- aoytsk ID:aoytsk -->

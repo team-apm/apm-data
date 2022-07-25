@@ -24,6 +24,78 @@
 			<file optional="true">plugins/InputPipePlugin.log</file>
 		</files>
 		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-T38a9PFYFM3cLR1syEJREnEqSRFumLHAoay1jyMgvcVaA6s+51nMY0AxvvwW2gmr</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-aPQd+nCsXYKv4r4wAz11vyRcj2PZRW/UzPxDKPerYjPUVFrYcEUOOL05w//dY2fe</integrity>
+				</integrities>
+			</release>
+			<release version="v1.1">
+				<archiveIntegrity
+				>sha384-rLSpls2gZVXq9c6QwI1gDWBDV+kMW3uBIzzfqPjUtIluaLrQUOxJqYATIqajD+0q</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-Hmn9qqq5bOWJprQJr7yEuu/y1k5dg+o30GphRG66h4uxwLGct0POCyN4Hs6XkrRM</integrity>
+				</integrities>
+			</release>
+			<release version="v1.2">
+				<archiveIntegrity
+				>sha384-cHP6IZwQhnj4wjcdFTxDFi7wFX3qNfaEO/9YMAWkNWyirDCjOnoRvEqBfJDGzfnS</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-eqXeQarXb6S7LQ+XGY6LP3A2hdPoSJKYCxQdcmzuam9o0TFAOljezxbCyq7k6IWJ</integrity>
+				</integrities>
+			</release>
+			<release version="v1.3">
+				<archiveIntegrity
+				>sha384-79XShEGl5CcN6A1leP0LNn12UdNgTdS4Glk71wQ30hqPBZ9BUpQmqD1Q6fM2J8RS</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-s0lSdB3uLnWdAiOYCUy5CsOvj8IiFCYLzhpR/CZtOFTJqtLDUX+Xu6GalFmvCL+V</integrity>
+				</integrities>
+			</release>
+			<release version="v1.4">
+				<archiveIntegrity
+				>sha384-s8yetAvrGKankoodcIigkfcT+Ui7ShhskUo1M09iL1WoB4BOK3zYRs8d6T/fZdgc</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-m3LrqdXTho/fhmmMsDLsWJMDa6HCPtGx52iMCvu4JpgKUQ7kpsntB0FY7bi/HZ03</integrity>
+				</integrities>
+			</release>
+			<release version="v1.5">
+				<archiveIntegrity
+				>sha384-rQf507vQ5Mj63Yrj14cNmGwn4Kz14PSESlbZQf5behwAhy3hS6uKKCgj5tdXaICz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-SeKRgHcx+WjyQfE52KGrDa8T5VpBda+/Omdci0yYSRkDDMrdBDo+espwsA3Qf0Mw</integrity>
+				</integrities>
+			</release>
+			<release version="v1.6">
+				<archiveIntegrity
+				>sha384-SgRSGgYFe6E5hEz6JJxYiiTKuLtK0Sr/3BLTlg2c2lxj803ogj3Mm4AZPY5+e1+6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-trWK8xHJGzFHnWeOqYC9bYRVvYNstvwRf1ywFozZPvsIt83CCrXBRkkNzzprxrFp</integrity>
+				</integrities>
+			</release>
+			<release version="v1.7">
+				<archiveIntegrity
+				>sha384-k1YS5h2fJ27qiQKvSGMOZWKcWPJ2KqwhxizNzigQhqP5/Obrc119IH+Lypjr4KKB</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/InputPipePlugin.aui"
+					>sha384-SdWLV9pXKU4i0Wil9wG/WZTuifKlnhYgEqTokTWYUTWngMNtQ0k5QQQpEIU7psof</integrity>
+				</integrities>
+			</release>
 			<release version="v1.8">
 				<integrities>
 					<integrity

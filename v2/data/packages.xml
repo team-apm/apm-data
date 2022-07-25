@@ -1964,9 +1964,60 @@
 					<integrity
 						target="plugins/OptimizeEditBox.auf"
 					>sha384-K0NjhzyhuC0zz5ni7wVp5fN88hjq51T6nXKFaxcYAD07spHFL8GlybUpdTZnjt61</integrity>
+				</integrities>
+			</release>
+			<release version="6.0.0">
+				<archiveIntegrity
+				>sha384-OKEmb91ul2dDJZQf6JcYq+5DUHLgwreOXFlWq7tIZYe8D+sl8HgjxPC1vF41NC7y</archiveIntegrity>
+				<integrities>
 					<integrity
-						target="plugins/OptimizeEditBox.ini"
-					>sha384-3HEfWTxWmAHkHGrGLRdzhxa+cV9e+Xfwhgc3dD+1/LiiBjrxmReR2SAwj95Sivvl</integrity>
+						target="plugins/OptimizeEditBox.auf"
+					>sha384-StAVyZVrU7+UoIKjA2Q5y8WLSCdKW24ul88qYs2nx6JJ7if70nFQa0zJN84418wb</integrity>
+				</integrities>
+			</release>
+			<release version="6.1.0">
+				<archiveIntegrity
+				>sha384-WU1YMMCoodUzpEtKr6Jnnuu4zVXHlGE1tqqwiufyWuxlL9GSxc1NhhU2QoigBY+Y</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/OptimizeEditBox.auf"
+					>sha384-vzdn7n0VW+kOUKE4ugcZcwIIxuV94k7E7zKbqTvfKEhwpU2EC2oTNaWV3jBq01Fx</integrity>
+				</integrities>
+			</release>
+			<release version="7.0.0">
+				<archiveIntegrity
+				>sha384-neZA8z5cIBiGPDpuguSoQNH0AV8gaS9derXR8RPgUWTZaYnYo+c0ADNJm36l6m7G</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/OptimizeEditBox.auf"
+					>sha384-TcilwJeBIdY1dTBciXyob6PGT2Z7FtoaAm2hB6NdIQCDbkbi6ZIRtJ+cWewbNXGx</integrity>
+				</integrities>
+			</release>
+			<release version="7.0.1">
+				<archiveIntegrity
+				>sha384-zyKnzW/S/o9Vio5FomverrETOFVVuJ6NbCpI6hTio24bnntwYAwhRPqhQMGMz3/+</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/OptimizeEditBox.auf"
+					>sha384-OZVsjDmN5qyDXWgsapX/QLv4/+lYXrJQ/Ahzo+zntYCpfGM7O9pxAedJx1SzsUGt</integrity>
+				</integrities>
+			</release>
+			<release version="7.1.0">
+				<archiveIntegrity
+				>sha384-CdauosY2q+Kh5/D+l/gE1nt6wVj1bAsq1aggfcBinPlvItXryAvLKlipcggmkY3U</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/OptimizeEditBox.auf"
+					>sha384-EyidWNdM0AESrxRsh8yJcqHFGqvxZD6cYeVCUWoy6IiZbUkSpT/1UdhDFlJmOwnr</integrity>
+				</integrities>
+			</release>
+			<release version="7.1.1">
+				<archiveIntegrity
+				>sha384-WtaCjkLPB9KfpC1CPjUdp8a64r29f1ZF6aEYJnapRsvS5iUi+KtI2KhWmlThg4au</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/OptimizeEditBox.auf"
+					>sha384-oDi4dyRe9gPOuxG+LCqjwKr5Z/uN2IPGMgSf+W2GFpUnweUHiPa6uRa1ohhAHafJ</integrity>
 				</integrities>
 			</release>
 		</releases>

@@ -2161,6 +2161,78 @@
       ],
       "releases": [
         {
+          "version": "7.1.1",
+          "integrity": {
+            "archive": "sha384-WtaCjkLPB9KfpC1CPjUdp8a64r29f1ZF6aEYJnapRsvS5iUi+KtI2KhWmlThg4au",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-oDi4dyRe9gPOuxG+LCqjwKr5Z/uN2IPGMgSf+W2GFpUnweUHiPa6uRa1ohhAHafJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.1.0",
+          "integrity": {
+            "archive": "sha384-CdauosY2q+Kh5/D+l/gE1nt6wVj1bAsq1aggfcBinPlvItXryAvLKlipcggmkY3U",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-EyidWNdM0AESrxRsh8yJcqHFGqvxZD6cYeVCUWoy6IiZbUkSpT/1UdhDFlJmOwnr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.0.1",
+          "integrity": {
+            "archive": "sha384-zyKnzW/S/o9Vio5FomverrETOFVVuJ6NbCpI6hTio24bnntwYAwhRPqhQMGMz3/+",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-OZVsjDmN5qyDXWgsapX/QLv4/+lYXrJQ/Ahzo+zntYCpfGM7O9pxAedJx1SzsUGt"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.0.0",
+          "integrity": {
+            "archive": "sha384-neZA8z5cIBiGPDpuguSoQNH0AV8gaS9derXR8RPgUWTZaYnYo+c0ADNJm36l6m7G",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-TcilwJeBIdY1dTBciXyob6PGT2Z7FtoaAm2hB6NdIQCDbkbi6ZIRtJ+cWewbNXGx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.1.0",
+          "integrity": {
+            "archive": "sha384-WU1YMMCoodUzpEtKr6Jnnuu4zVXHlGE1tqqwiufyWuxlL9GSxc1NhhU2QoigBY+Y",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-vzdn7n0VW+kOUKE4ugcZcwIIxuV94k7E7zKbqTvfKEhwpU2EC2oTNaWV3jBq01Fx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.0.0",
+          "integrity": {
+            "archive": "sha384-OKEmb91ul2dDJZQf6JcYq+5DUHLgwreOXFlWq7tIZYe8D+sl8HgjxPC1vF41NC7y",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-StAVyZVrU7+UoIKjA2Q5y8WLSCdKW24ul88qYs2nx6JJ7if70nFQa0zJN84418wb"
+              }
+            ]
+          }
+        },
+        {
           "version": "2.1.1",
           "integrity": {
             "archive": "sha384-AVDqBYAciHjnsTmGhv4FBT+yCQ7dnHEfiBSm9k/H2jkCnieTOLzUGtI0MIxEfOZ1",
@@ -2168,10 +2240,6 @@
               {
                 "target": "plugins/OptimizeEditBox.auf",
                 "hash": "sha384-K0NjhzyhuC0zz5ni7wVp5fN88hjq51T6nXKFaxcYAD07spHFL8GlybUpdTZnjt61"
-              },
-              {
-                "target": "plugins/OptimizeEditBox.ini",
-                "hash": "sha384-3HEfWTxWmAHkHGrGLRdzhxa+cV9e+Xfwhgc3dD+1/LiiBjrxmReR2SAwj95Sivvl"
               }
             ]
           }

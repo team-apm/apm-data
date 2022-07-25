@@ -1114,6 +1114,24 @@
 					>sha384-tPCOyr4p2z/P+/eiuCz2ItcGoMGhBQRM43+jCheRLNzse9P4VCYz7TJiCGl1IaZX</integrity>
 				</integrities>
 			</release>
+			<release version="r17">
+				<archiveIntegrity
+				>sha384-EwxxnvUys0oT27JCtLglBfQcb2PaVuHKc5dYG5xMp17NGLqZEyQ2Px/xddWStBfO</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-0Pu2RDTMRB0D6j+Y4V8V1Ui1fz90XFGJThxvEfOGC3F/52NMV1WevRP8bq5Ky6H+</integrity>
+				</integrities>
+			</release>
+			<release version="r18">
+				<archiveIntegrity
+				>sha384-DWlZ/6e/EzYWR5CLOoPcxhOdDgayd8vvV6+cQ2bH4VkYzChvsRFSBSgMKouYS84J</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-gLFA2WC4y5iS2nPbuu1xCgvhApxVWMkB7ieex2vprK1BbOF4shzQ+f/toyFKW/+N</integrity>
+				</integrities>
+			</release>
 			<release version="r19">
 				<archiveIntegrity
 				>sha384-5+jMRlIpcax35H+fO4LOiCGT9Aul9ojWmAwe/Dlx/1rCNxRHD+/EQl+2Va4MmG6/</archiveIntegrity>
@@ -1121,6 +1139,132 @@
 					<integrity
 						target="patch.aul"
 					>sha384-CbHLDY6VKlgWNQPE04LkX0DeyMJBiD/Q+Ma744JSanagv8439iURG/Ldvu050ul5</integrity>
+				</integrities>
+			</release>
+			<release version="r20">
+				<archiveIntegrity
+				>sha384-QVT2Tk2MJWbbYgxrYYP/NMFhshlh+rIlDyQuD7iOJed7HAWSytrch0vwWp0+wODG</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-uwy1GdmOQJk90QSLz/9TcMzPCXk4KWlN+Pnbu27QBeel1xeBVwKBOSea/UHC5K1X</integrity>
+				</integrities>
+			</release>
+			<release version="r21">
+				<archiveIntegrity
+				>sha384-e+ncEOFFohmPQW7lXbB6FEhN2ndPosHWEnuYgB4EIK6ilxKMuempHxvCY8wLzMS9</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-qFlcNnZJgBycyhjELZRNtejlElhK5AwxGLZnqspMCjUXpxc+duVgBtws3HI/36iq</integrity>
+				</integrities>
+			</release>
+			<release version="r22">
+				<archiveIntegrity
+				>sha384-ZrWTR1MZhsO7Z+sLGy07MBmAM3blqjQRG7vESsK0fNDCoorOkfOP1I75c44sWM1U</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-dshqd6YS6QDzrkovMhB8gJNsIuVs8bQTIpzo4NguOluvcKSp/pEx0f++hLgRPncE</integrity>
+				</integrities>
+			</release>
+			<release version="r23">
+				<archiveIntegrity
+				>sha384-xS7nBPZKTymGoFV1Xi8BbqC7QCsd15O0VmnaYj3KXCQxR91L0cTbh/iFayKmdpsR</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-jwkoghMA3N4riudvr47ajHdHm5G6pvJvFnczXWCNRBh9F/9eoO2HBOl+2Pndij5O</integrity>
+				</integrities>
+			</release>
+			<release version="r24">
+				<archiveIntegrity
+				>sha384-qu79DDFkB/7wJ7rhhDBSd1UEUplEd5WXhiIEuZUBkwBQn86rVmMTaUkbjyA9SmgS</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-S7u5l7ZY41+3Ix5DfvRCEZbXSuMeAEDXgnaf2BI4vc+p4JQUb5hsFno0m5uq4OJ9</integrity>
+				</integrities>
+			</release>
+			<release version="r25">
+				<archiveIntegrity
+				>sha384-1OLPSFXJSYyWziYkklr9WiBh/nxE5baNajSx0yHPZlWqwnMw2QaqkWwwYQEtot8w</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-NgvKIy0ffAP864acW7CX9Uaj+ma/fmHVrELRppHVFGABmXZdHDqkPOZ6a6hcrwGD</integrity>
+				</integrities>
+			</release>
+			<release version="r26">
+				<archiveIntegrity
+				>sha384-onUPGoK1zrVHEweUzLws4ZifbxDd7Zhn6YFWJ6Y+zVWoopaiNOSwiG/VQkaw98im</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-0h2QiffmEsq2MyQkaDMgvdx+EYKbdHhLJejfNom21BzUE3Kkg2fsdM1vZ7mrQc69</integrity>
+				</integrities>
+			</release>
+			<release version="r27">
+				<archiveIntegrity
+				>sha384-Se7PWIbPe8Lqt2y2zkNH7M3gNH6bTfw9sy8B1bZB/HDgFbV7rpVZlQeitCFgjwIG</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-4Ec7q/hnwVSlog4ErQjbq7Y6v8zw9kEmgFk3Nb6bZOl+sx6A0Ba+IWBAU+KCY8oE</integrity>
+				</integrities>
+			</release>
+			<release version="r28">
+				<archiveIntegrity
+				>sha384-5hqwY1MKKC7CHvMPncIg/2wwJKonG+DhE6nql1Ri+D/OfrivhEHkzrzVmBWz0thm</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-4J/MXO2dikDAuqhKsKxI3PO9juKvX2VEcgsl2nyJVMMPijzCgLNyFmiCAaJcNoEL</integrity>
+				</integrities>
+			</release>
+			<release version="r29">
+				<archiveIntegrity
+				>sha384-6irsNZtXbuGA38wmb0OY9tioo3v5lwxmZvrwV9UEC0334Tq9e88nDT0r1XSClx1Y</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-bxX8gVC5fQ2mww84zTs1Na9ehDBOQ5E1noikjUcspkRsSSjwjdaZiyc8lppMRToL</integrity>
+				</integrities>
+			</release>
+			<release version="r30">
+				<archiveIntegrity
+				>sha384-Z4cU4wkZsnZs++f6sfNN1pWS4YmQVTvS6N/awd7KXULvbDxVkuES2WCGHnoXwaH7</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-JUpk8MybgdlQWuJPDFjv5X2c0CksgPDisM2jF1UU5ljQt8h9YpJ6OHNRcAVAu2UQ</integrity>
+				</integrities>
+			</release>
+			<release version="r31">
+				<archiveIntegrity
+				>sha384-dFeD7afP1c7bQyM5XucT+1gUFzl/StCJHmm7NK8zfFafSw3LKmTyAw65HicT6OKK</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-7b7PA6iU+HhfsfOlI4n20gWg6A2gV7Zx/OXikmdrOMzZcmRFvYGYtpdv0oTOpl34</integrity>
+				</integrities>
+			</release>
+			<release version="r32">
+				<archiveIntegrity
+				>sha384-pMSjH2TIgNdbQuL3fvB67fFHIWCCljyHhLLNEaRhRweFthMRM3xfEY+oVCKFbIqN</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-tFo5eCiuP2r45MEnSveDX+1bbial9I7XRRbxBYdE0Hur2vqSRq7VQVcojtjSKCEK</integrity>
+				</integrities>
+			</release>
+			<release version="r33">
+				<archiveIntegrity
+				>sha384-zGiUsrF6ryPeibl0+XSHHGcM09dsI2lVZOjTM19ojmZMYAiKCmzYqUo/EsL6mGxJ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-tFooaV3b1EnZt+rTcZ5nxtFRQDs+y5UbDvxfjFbnXXTi3WMdMVGTeWBU65c2B7HX</integrity>
 				</integrities>
 			</release>
 			<release version="r34">
@@ -1141,6 +1285,24 @@
 					>sha384-IH4DIr29gbJDDBC/XeGhc9qjJzq6y+xchfxT1brBQndF//QWh4TifhiNQGlBWIcL</integrity>
 				</integrities>
 			</release>
+			<release version="r36">
+				<archiveIntegrity
+				>sha384-E6ojEYFcV0VSHMs+MFOUpXU7r39DOLmD0kdXZYEnmbLw1P6bB2Toe3FHmX2i1bxI</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-Wyf7pdnb2wfATVreZ8H/Q+6HV+GE5zrIBYcn+LXn4KT4cN6tmKblqVu+j+XfmLWj</integrity>
+				</integrities>
+			</release>
+			<release version="r37">
+				<archiveIntegrity
+				>sha384-YAKPJfW5vX5UkOgSJWnBE71v4aQd0kpdmRyQ8pe1WFZwU6mNqga/IQOMgGydHXQG</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-MrSZ1zSpTQqG6sISOKGym6GQDefQ02bmFFE0niI0SFsOs8znQzUliA5jl2rIHCle</integrity>
+				</integrities>
+			</release>
 			<release version="r38">
 				<archiveIntegrity
 				>sha384-DlSScpdsjseqyzh9kK3JPv0ia3xgXo3Q9UdvwoFaxoqcZ9+b4XCXcPS/9U+xHl8n</archiveIntegrity>
@@ -1148,6 +1310,15 @@
 					<integrity
 						target="patch.aul"
 					>sha384-vfGWEVoW/wc+49pxu8YIw8XRRgOgiYvZMWB9SgQ2IaSgtJX8aYV6u30wAFGlON62</integrity>
+				</integrities>
+			</release>
+			<release version="r39">
+				<archiveIntegrity
+				>sha384-19fA00HDL+AQN0JYW4zn9jACel7wvlkM2dS9Lm1lfbItOyrJqxrEJjU4zEPCiNS6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-eH7y28hVln8BpM9BOd74cxi2DMWMtvoRk9GAMwGSbEdGYXT0cKsZ1766NudSkIDf</integrity>
 				</integrities>
 			</release>
 			<release version="r40">

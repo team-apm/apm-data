@@ -3341,7 +3341,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.05",
+      "latestVersion": "1.07",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -3369,6 +3369,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.07",
+          "integrity": {
+            "archive": "sha384-Bh8i0fS9jey3R5RgLugcp/bVqJkL9Sp4wI0navODY9EAeKjG/ypuQgNVFUAFUwlG",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-THUg8tg3AFNnF+VKcAnmQjHBgkOBPuGUwlR+Ggt0iPXMXwf4+EigjMtmwt91ovnV"
+              }
+            ]
+          }
+        },
         {
           "version": "1.05",
           "integrity": {

@@ -3120,7 +3120,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/svtAV1guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
-		<latestVersion>1.05</latestVersion>
+		<latestVersion>1.07</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/svtAV1guiEx.auo</file>
 			<file archivePath="plugins">plugins/svtAV1guiEx.ini</file>
@@ -3167,6 +3167,15 @@
 					<integrity
 						target="plugins/svtAV1guiEx.auo"
 					>sha384-8AAwAgxLYI7T1TK9Cl6m1X5RP1wpxswFRazUFa1kIfWsO1FxbxBGajZZwqmwLDMu</integrity>
+				</integrities>
+			</release>
+			<release version="1.07">
+				<archiveIntegrity
+				>sha384-Bh8i0fS9jey3R5RgLugcp/bVqJkL9Sp4wI0navODY9EAeKjG/ypuQgNVFUAFUwlG</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-THUg8tg3AFNnF+VKcAnmQjHBgkOBPuGUwlR+Ggt0iPXMXwf4+EigjMtmwt91ovnV</integrity>
 				</integrities>
 			</release>
 		</releases>

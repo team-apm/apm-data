@@ -3089,6 +3089,20 @@
           "filename": "plugins/WaveformPreview.exe",
           "archivePath": "aviutl_WaveformPreview_v0.3.0"
         }
+      ],
+      "releases": [
+        {
+          "version": "v0.3.0",
+          "integrity": {
+            "archive": "sha384-Tfp/IauRVYxxkFlysy48dzp8cZWpe/oMj6JX5WoR5oDFVdmAEvPLJFYBlj7YAiIz",
+            "file": [
+              {
+                "target": "plugins/WaveformPreview.auf",
+                "hash": "sha384-E3+gILdgkLampjNX6EGxWXQ3+na6dYdO1af667x8tOSEQUxY0J0PVcKbm967zCHT"
+              }
+            ]
+          }
+        }
       ]
     },
     {

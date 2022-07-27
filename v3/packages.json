@@ -2299,10 +2299,18 @@
               {
                 "target": "plugins/SelectFavoriteFont.auf",
                 "hash": "sha384-hEpO8xh7rqpx8kk5R9EYEw/ZAQYatfFRYMrMzZ7hLOIgkTpixyq1r/zfstMzbnYV"
-              },
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.0.1",
+          "integrity": {
+            "archive": "sha384-qVzQbBCquNZTMP0Dx1WzbFmDO4kPNPG2xLgvGQv5yjwx40luT+wkemvY8XghXdT6",
+            "file": [
               {
-                "target": "plugins/SelectFavoriteFont.xml",
-                "hash": "sha384-z+lvip8SbgbRkGPEjkT7byqvBD4aFd9Vtz1xsWZyF2N7kmSMy8yJq2FpDeBBFQ1S"
+                "target": "plugins/SelectFavoriteFont.auf",
+                "hash": "sha384-xCqZD1SwwrvKlmUd0Jtdx/8z70vsc62kW6VrOVhjt1lprVBIzbqwYJoX2h+Z5tZu"
               }
             ]
           }
@@ -2315,10 +2323,6 @@
               {
                 "target": "plugins/SelectFavoriteFont.auf",
                 "hash": "sha384-suF/1rbFcPD7NxpJSRqNnnb+Dx/ymzg6ViMuyxq2Ce/sJe7MMopU32TJtvKxP0o7"
-              },
-              {
-                "target": "plugins/SelectFavoriteFont.xml",
-                "hash": "sha384-Y8adIX/c6x7Z1dwKgdWLOgX97Yywi8OM+htxVZh6WKZdN6LDzD2zgEBWCqEb8drD"
               }
             ]
           }
@@ -2331,10 +2335,6 @@
               {
                 "target": "plugins/SelectFavoriteFont.auf",
                 "hash": "sha384-iZ23/fJUGHue/f6CikFxYWQ6rzcOt7+S3weRnhzDKZLsqYFOv6mgEq64SR+fYVgp"
-              },
-              {
-                "target": "plugins/SelectFavoriteFont.xml",
-                "hash": "sha384-wqIkwu+BCXfIe3Twd+Grs77IfhVzeMBMAB+HFDXSbrKc53w66W/Ty5Ouh5HW4EKg"
               }
             ]
           }

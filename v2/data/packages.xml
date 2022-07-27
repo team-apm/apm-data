@@ -2079,9 +2079,6 @@
 					<integrity
 						target="plugins/SelectFavoriteFont.auf"
 					>sha384-iZ23/fJUGHue/f6CikFxYWQ6rzcOt7+S3weRnhzDKZLsqYFOv6mgEq64SR+fYVgp</integrity>
-					<integrity
-						target="plugins/SelectFavoriteFont.xml"
-					>sha384-wqIkwu+BCXfIe3Twd+Grs77IfhVzeMBMAB+HFDXSbrKc53w66W/Ty5Ouh5HW4EKg</integrity>
 				</integrities>
 			</release>
 			<release version="6.0.0">
@@ -2091,9 +2088,15 @@
 					<integrity
 						target="plugins/SelectFavoriteFont.auf"
 					>sha384-suF/1rbFcPD7NxpJSRqNnnb+Dx/ymzg6ViMuyxq2Ce/sJe7MMopU32TJtvKxP0o7</integrity>
+				</integrities>
+			</release>
+			<release version="6.0.1">
+				<archiveIntegrity
+				>sha384-qVzQbBCquNZTMP0Dx1WzbFmDO4kPNPG2xLgvGQv5yjwx40luT+wkemvY8XghXdT6</archiveIntegrity>
+				<integrities>
 					<integrity
-						target="plugins/SelectFavoriteFont.xml"
-					>sha384-Y8adIX/c6x7Z1dwKgdWLOgX97Yywi8OM+htxVZh6WKZdN6LDzD2zgEBWCqEb8drD</integrity>
+						target="plugins/SelectFavoriteFont.auf"
+					>sha384-xCqZD1SwwrvKlmUd0Jtdx/8z70vsc62kW6VrOVhjt1lprVBIzbqwYJoX2h+Z5tZu</integrity>
 				</integrities>
 			</release>
 			<release version="6.0.2">
@@ -2103,9 +2106,6 @@
 					<integrity
 						target="plugins/SelectFavoriteFont.auf"
 					>sha384-hEpO8xh7rqpx8kk5R9EYEw/ZAQYatfFRYMrMzZ7hLOIgkTpixyq1r/zfstMzbnYV</integrity>
-					<integrity
-						target="plugins/SelectFavoriteFont.xml"
-					>sha384-z+lvip8SbgbRkGPEjkT7byqvBD4aFd9Vtz1xsWZyF2N7kmSMy8yJq2FpDeBBFQ1S</integrity>
 				</integrities>
 			</release>
 		</releases>

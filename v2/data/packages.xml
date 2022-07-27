@@ -2440,6 +2440,222 @@
 			<file directory="true">plugins/UniteWindow</file>
 		</files>
 		<releases>
+			<release version="1.0.0">
+				<archiveIntegrity
+				>sha384-LIyJu6OcDOUYTP0QBo4HvYjfPudBonNMrsCDR0DzDAQ1cD2MLE5qC6cpOjY/2Lb+</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-tUnXYeozSEVO4FKiEPqOQyGNcif+h4xgaFkuLRoYQ4MKCZ2JQRb1tO3x3BAIg/t9</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.1">
+				<archiveIntegrity
+				>sha384-pzpB373aMEriNQuzJuBhnI7Dd287At2kKM13CGIU3YtVlpR9W9IwYWYSe4BZoTxA</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-b22Y7LqCY/FKETUOgTkYk703o1UBjCXW3bb6LvIY+UBmXTH4KzsokNmYU7n+jqGZ</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.2">
+				<archiveIntegrity
+				>sha384-acIy1OhDH5sjIGqnQv7AdQ09WudaFS0daZaaGgYL+TE8B+YuLbbeUrjMZlEdG2KX</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-zO7VWr/vEWNV1E04mgsUJmZ8ZpShvQDxQT8yBkdbb+vBSuC24JNmQJQCRK48rGSw</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.3">
+				<archiveIntegrity
+				>sha384-QoA04m2oY7+VwE36/Cm53WnYldEjq8blDp3hs7qK00k8Vn/ICpcPmWnuX3Wywa16</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-6wROCN7+DfWzXn7F5agDu0kR1sapGOy8Ofg5fntCKMqFBG39c/igAzlq+7IrTyGR</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.4">
+				<archiveIntegrity
+				>sha384-He4KiQ3PD8VTJHbUov7DpKe/nt2WtGq/NajrnRhnsXfHJ3N0HQyvGLeyZLHeZtZV</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-+Ws2VMdgTTFsHXi6uOp6NwuQ9zFq6NUlu4t5PVfAM18I2tsTILKqdN2q+lIsJ995</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.5">
+				<archiveIntegrity
+				>sha384-lpVNqlpO09oY5o84Gjnitdgxvq5AXeB2/V/yaXglUMURBY/f/SbKvq7ze3SbSnKf</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-ek1GmBUKnpkxny36nhfu4w0TYO/sFzVrDLPtPtBV9zJEzI6rCQiG6tkRz3+q/iDp</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.6">
+				<archiveIntegrity
+				>sha384-iWC++HbzHrQ8vpvrll2DMsusqhaJbbtAFao94SGXtrHhw9T1viKVWOxh72ZFu/9p</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-jWhMgpG/3K9pmlhUhz82N0HOHanhtFn8DR10TRapQ4z9QJu+Xd0bjWaciHUcsu1J</integrity>
+				</integrities>
+			</release>
+			<release version="1.0.7">
+				<archiveIntegrity
+				>sha384-gau83XpV1TYoASveFPY54AIYRs6AuYDQNsatKgX6/bTGzNifZ8CcqLa6Ypdk4CfS</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-3L2SalMFOClmOUPzr9JBya6kBTz4jr+okcfR411TMRtBGeBjZAcix3osHyFb0V+x</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.0">
+				<archiveIntegrity
+				>sha384-wpafXTDhUUFx2XtU7vv4PhNynaIK5FOQRzE3tLRIwwp2ziDr1vzWvvVO7zRJrmDM</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-TV+ftI64M21zwiXfujrNp8W4uhzSYpb1kz/8/UhrlTZPXXOyqha28DImcQqXgGBE</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.1">
+				<archiveIntegrity
+				>sha384-zSkNyuzhiXF+e96ttfzhW4eKWRTxRqNbSZ+L38qEEypnaTlFVaGY0e8I6af3Okim</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-3SiR9m7Qw/EacmD+FnL9aPKPpEErRm3r/e2HM3RzmtZFSBb6HA0Uja5bOpgLtKDX</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.2">
+				<archiveIntegrity
+				>sha384-tx4ovVuIVjKGLt5XdDbWs85cJbidlCOjsqjSCOGifsdx1tK3hfefkFh7c9JyUze4</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-6Z2hxYwrGaeFSFYbNmGhQKSqKnK6rwMmkiqh/Bi8/FyaHCQ9Y7QJvVbF5absXBj/</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.3">
+				<archiveIntegrity
+				>sha384-k3nHkQ002dot4fwTtBbdEN/c0F3AvyZlFHc2IRRY5T3CXm5IT1SagR2mKWyjv2d2</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-uYp2ZeiBU1TIWiCdMs+u/sGbGbuPECfJkDBNdzmqFPVeUBHXIyNhHh4ZQEI+Qqaw</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.4">
+				<archiveIntegrity
+				>sha384-tttOFO2UkcQ+lRxK9VxcZuupY1L/RRYLRaAD184fDsO187mR0yfIPLAMpgGpiQVy</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-2B+o5WR7BcFwtkyCc9LRF2dO2ASXc1goYmy6oeoEInGBTshGDQoUiAOHQMNOuW/y</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.5">
+				<archiveIntegrity
+				>sha384-0v95V5Nu/yV4IWPLTmORTZW71Ry3Upa4CQLxvsLhujnPNq8o6SJStO2VdNqGDjiA</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-yC1MzzPeMlDRsr5NMnd5QWxehNoaC43zIvqq1AofiLxHHRQmPojjzIFLmWza+qXw</integrity>
+				</integrities>
+			</release>
+			<release version="1.1.6">
+				<archiveIntegrity
+				>sha384-CvjaPDJMAupO4wqrJ7Zc2QiJuMGe+sExJ+F87ZA7mzoxjPsNDWvlDq8jFbNJsgZX</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-eTzhD9KIpDmdJHOwUiPh9ohcPZXe3ihg0OQScpjAKCnbIKqbBp2vu/bkh1HUPgft</integrity>
+				</integrities>
+			</release>
+			<release version="2.0.0">
+				<archiveIntegrity
+				>sha384-0DGvWYbCZDn1WrvQqz9qkt05suAqm+CCUDjY+0EmcjYi6k02WR1h/gRZe1ZyQ0cx</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-w/c8JFGQ6/5Xjz2C72DmRFj8BlS5dgguXaZM/3vpAO/J3ShwjyqJ4rrF36QB8hj2</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.0">
+				<archiveIntegrity
+				>sha384-ydSyWX2XY0Q3/gFHLpmvPu4PnPAKRfG6v9j/8yvs3tpQlaWGatUHi2UAPx1EV31e</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-AH5+0c5Wn/flVxoPlz9tqYDAwSD0lYG0iehR5gx2N7AR89wgJFrVvHkOYboEa4lM</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.1">
+				<archiveIntegrity
+				>sha384-WU2Yxnjf+CqppdsS1sH4eEtlKBtqzwrWqDb/ygHuE6BpuDDvmgGaRmS2y5PUDoos</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-Tw825SvWKSREjAij2UUxtUT9x2jxFhvbDr3RLESoISVqlc4jdSYcowtYz9Ksypyc</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.2">
+				<archiveIntegrity
+				>sha384-1QXi+D6ClEdhg5sgKZ+btFVz+bCN0AI4AlXHqz/K/7KQlDD7P+lZ9nbtekO+YNnZ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-QfnzdxtPsdEyT2Girf+1QXGki/HVYCGAJZLg0sXos8khq5ydF7KxQH/dUlMhFRXW</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.3">
+				<archiveIntegrity
+				>sha384-V3Swra3TgALxQwupOg/PxS/cdyvQrVzoTGHntPIPn4g+UNjGPD8n1gZTAqTOysW7</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-/YkEV4vqNCxzPQO7tIpMnk6cgV84Vk+XANhF8CdGrGLN/84YJvDqYD3ZA+krvN5V</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.4">
+				<archiveIntegrity
+				>sha384-bS+KlhJircYyndFO/H6J0rsthf5Sesac3yN/pI6sUrYyQ97q2BvO+XK3Lg9ooTT6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-ZLe/oMIEjxa1s6L4+nmds6N3zYr8T5vH99c5ZpXDFs7FmXyoiCaeLYlxzgBiV8NQ</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.5">
+				<archiveIntegrity
+				>sha384-deT424aJ7NhqOOAZ4SsqeoFYvRFPodqYA2ZAOjmijA2HGMw+EGg7iqJ/F8wSK+Wy</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-/3Tbd4ZXiKMV4U8EIPceNi1NGL2osU3w5O0WEZEdsv+4psU44UybTpdlXC7bLbaw</integrity>
+				</integrities>
+			</release>
+			<release version="3.3.0">
+				<archiveIntegrity
+				>sha384-CU5gut8ipWSRnxFadVTPRjIPl75Qxrphk2K4gQscsR1m2e9ndmWX//SbziQckvOT</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-bw5X+PDlNEIFFLARjP9crtw+IBqPnQBYHbT7MTsZHJb9ySbSC/5IVetKSt36OOOi</integrity>
+				</integrities>
+			</release>
+			<release version="3.3.1">
+				<archiveIntegrity
+				>sha384-2Ku3iP3sG5ShiY3C7E3BXh9W0zdJ06kcfOoVpi+eoSHJ4XjzrFveFg1nRSiMpv3/</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/UniteWindow.aul"
+					>sha384-gYKTnIwvqYIPxaAi4sl5UNALt/R6h54w6b/+vye9A+MSnUMLnIUIBRZvCJ25J9/q</integrity>
+				</integrities>
+			</release>
 			<release version="3.4.0">
 				<archiveIntegrity
 				>sha384-wRMdtkUEZ+/9ZosPSj2l7MG9njZrGKF/djRcT3Fo7jOtPgSPmq4+cQW44uLKMWoQ</archiveIntegrity>
@@ -2447,9 +2663,6 @@
 					<integrity
 						target="plugins/UniteWindow.aul"
 					>sha384-9MtPxNaVGMAQdeG+k+pCHgL7n7DcUcrkaluqiH9BS9i59Z8kSf5CLxJMxah5Rql4</integrity>
-					<integrity
-						target="plugins/UniteWindow.xml"
-					>sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii</integrity>
 				</integrities>
 			</release>
 			<release version="3.5.0">
@@ -2459,9 +2672,6 @@
 					<integrity
 						target="plugins/UniteWindow.aul"
 					>sha384-zVtcZd6BRLjoP9HQSJixXtXq0XWSlhU8qFXnlEl7hHbBewvAsUXywfKgZ9vqwj9r</integrity>
-					<integrity
-						target="plugins/UniteWindow.xml"
-					>sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii</integrity>
 				</integrities>
 			</release>
 		</releases>

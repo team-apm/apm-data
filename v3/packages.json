@@ -2742,10 +2742,6 @@
               {
                 "target": "plugins/UniteWindow.aul",
                 "hash": "sha384-zVtcZd6BRLjoP9HQSJixXtXq0XWSlhU8qFXnlEl7hHbBewvAsUXywfKgZ9vqwj9r"
-              },
-              {
-                "target": "plugins/UniteWindow.xml",
-                "hash": "sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii"
               }
             ]
           }
@@ -2758,10 +2754,294 @@
               {
                 "target": "plugins/UniteWindow.aul",
                 "hash": "sha384-9MtPxNaVGMAQdeG+k+pCHgL7n7DcUcrkaluqiH9BS9i59Z8kSf5CLxJMxah5Rql4"
-              },
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.3.1",
+          "integrity": {
+            "archive": "sha384-2Ku3iP3sG5ShiY3C7E3BXh9W0zdJ06kcfOoVpi+eoSHJ4XjzrFveFg1nRSiMpv3/",
+            "file": [
               {
-                "target": "plugins/UniteWindow.xml",
-                "hash": "sha384-hmBbtpVcBxU2ozzalJURA0mG77EQfZvclvCjllT2o6BjAbX/lmQKEhCAtKa4+2ii"
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-gYKTnIwvqYIPxaAi4sl5UNALt/R6h54w6b/+vye9A+MSnUMLnIUIBRZvCJ25J9/q"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.3.0",
+          "integrity": {
+            "archive": "sha384-CU5gut8ipWSRnxFadVTPRjIPl75Qxrphk2K4gQscsR1m2e9ndmWX//SbziQckvOT",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-bw5X+PDlNEIFFLARjP9crtw+IBqPnQBYHbT7MTsZHJb9ySbSC/5IVetKSt36OOOi"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.5",
+          "integrity": {
+            "archive": "sha384-deT424aJ7NhqOOAZ4SsqeoFYvRFPodqYA2ZAOjmijA2HGMw+EGg7iqJ/F8wSK+Wy",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-/3Tbd4ZXiKMV4U8EIPceNi1NGL2osU3w5O0WEZEdsv+4psU44UybTpdlXC7bLbaw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.4",
+          "integrity": {
+            "archive": "sha384-bS+KlhJircYyndFO/H6J0rsthf5Sesac3yN/pI6sUrYyQ97q2BvO+XK3Lg9ooTT6",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-ZLe/oMIEjxa1s6L4+nmds6N3zYr8T5vH99c5ZpXDFs7FmXyoiCaeLYlxzgBiV8NQ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.3",
+          "integrity": {
+            "archive": "sha384-V3Swra3TgALxQwupOg/PxS/cdyvQrVzoTGHntPIPn4g+UNjGPD8n1gZTAqTOysW7",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-/YkEV4vqNCxzPQO7tIpMnk6cgV84Vk+XANhF8CdGrGLN/84YJvDqYD3ZA+krvN5V"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.2",
+          "integrity": {
+            "archive": "sha384-1QXi+D6ClEdhg5sgKZ+btFVz+bCN0AI4AlXHqz/K/7KQlDD7P+lZ9nbtekO+YNnZ",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-QfnzdxtPsdEyT2Girf+1QXGki/HVYCGAJZLg0sXos8khq5ydF7KxQH/dUlMhFRXW"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.1",
+          "integrity": {
+            "archive": "sha384-WU2Yxnjf+CqppdsS1sH4eEtlKBtqzwrWqDb/ygHuE6BpuDDvmgGaRmS2y5PUDoos",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-Tw825SvWKSREjAij2UUxtUT9x2jxFhvbDr3RLESoISVqlc4jdSYcowtYz9Ksypyc"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.0",
+          "integrity": {
+            "archive": "sha384-ydSyWX2XY0Q3/gFHLpmvPu4PnPAKRfG6v9j/8yvs3tpQlaWGatUHi2UAPx1EV31e",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-AH5+0c5Wn/flVxoPlz9tqYDAwSD0lYG0iehR5gx2N7AR89wgJFrVvHkOYboEa4lM"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.0.0",
+          "integrity": {
+            "archive": "sha384-0DGvWYbCZDn1WrvQqz9qkt05suAqm+CCUDjY+0EmcjYi6k02WR1h/gRZe1ZyQ0cx",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-w/c8JFGQ6/5Xjz2C72DmRFj8BlS5dgguXaZM/3vpAO/J3ShwjyqJ4rrF36QB8hj2"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.6",
+          "integrity": {
+            "archive": "sha384-CvjaPDJMAupO4wqrJ7Zc2QiJuMGe+sExJ+F87ZA7mzoxjPsNDWvlDq8jFbNJsgZX",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-eTzhD9KIpDmdJHOwUiPh9ohcPZXe3ihg0OQScpjAKCnbIKqbBp2vu/bkh1HUPgft"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.5",
+          "integrity": {
+            "archive": "sha384-0v95V5Nu/yV4IWPLTmORTZW71Ry3Upa4CQLxvsLhujnPNq8o6SJStO2VdNqGDjiA",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-yC1MzzPeMlDRsr5NMnd5QWxehNoaC43zIvqq1AofiLxHHRQmPojjzIFLmWza+qXw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.4",
+          "integrity": {
+            "archive": "sha384-tttOFO2UkcQ+lRxK9VxcZuupY1L/RRYLRaAD184fDsO187mR0yfIPLAMpgGpiQVy",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-2B+o5WR7BcFwtkyCc9LRF2dO2ASXc1goYmy6oeoEInGBTshGDQoUiAOHQMNOuW/y"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.3",
+          "integrity": {
+            "archive": "sha384-k3nHkQ002dot4fwTtBbdEN/c0F3AvyZlFHc2IRRY5T3CXm5IT1SagR2mKWyjv2d2",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-uYp2ZeiBU1TIWiCdMs+u/sGbGbuPECfJkDBNdzmqFPVeUBHXIyNhHh4ZQEI+Qqaw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.2",
+          "integrity": {
+            "archive": "sha384-tx4ovVuIVjKGLt5XdDbWs85cJbidlCOjsqjSCOGifsdx1tK3hfefkFh7c9JyUze4",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-6Z2hxYwrGaeFSFYbNmGhQKSqKnK6rwMmkiqh/Bi8/FyaHCQ9Y7QJvVbF5absXBj/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.1",
+          "integrity": {
+            "archive": "sha384-zSkNyuzhiXF+e96ttfzhW4eKWRTxRqNbSZ+L38qEEypnaTlFVaGY0e8I6af3Okim",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-3SiR9m7Qw/EacmD+FnL9aPKPpEErRm3r/e2HM3RzmtZFSBb6HA0Uja5bOpgLtKDX"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1.0",
+          "integrity": {
+            "archive": "sha384-wpafXTDhUUFx2XtU7vv4PhNynaIK5FOQRzE3tLRIwwp2ziDr1vzWvvVO7zRJrmDM",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-TV+ftI64M21zwiXfujrNp8W4uhzSYpb1kz/8/UhrlTZPXXOyqha28DImcQqXgGBE"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.7",
+          "integrity": {
+            "archive": "sha384-gau83XpV1TYoASveFPY54AIYRs6AuYDQNsatKgX6/bTGzNifZ8CcqLa6Ypdk4CfS",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-3L2SalMFOClmOUPzr9JBya6kBTz4jr+okcfR411TMRtBGeBjZAcix3osHyFb0V+x"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.6",
+          "integrity": {
+            "archive": "sha384-iWC++HbzHrQ8vpvrll2DMsusqhaJbbtAFao94SGXtrHhw9T1viKVWOxh72ZFu/9p",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-jWhMgpG/3K9pmlhUhz82N0HOHanhtFn8DR10TRapQ4z9QJu+Xd0bjWaciHUcsu1J"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.5",
+          "integrity": {
+            "archive": "sha384-lpVNqlpO09oY5o84Gjnitdgxvq5AXeB2/V/yaXglUMURBY/f/SbKvq7ze3SbSnKf",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-ek1GmBUKnpkxny36nhfu4w0TYO/sFzVrDLPtPtBV9zJEzI6rCQiG6tkRz3+q/iDp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.4",
+          "integrity": {
+            "archive": "sha384-He4KiQ3PD8VTJHbUov7DpKe/nt2WtGq/NajrnRhnsXfHJ3N0HQyvGLeyZLHeZtZV",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-+Ws2VMdgTTFsHXi6uOp6NwuQ9zFq6NUlu4t5PVfAM18I2tsTILKqdN2q+lIsJ995"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.3",
+          "integrity": {
+            "archive": "sha384-QoA04m2oY7+VwE36/Cm53WnYldEjq8blDp3hs7qK00k8Vn/ICpcPmWnuX3Wywa16",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-6wROCN7+DfWzXn7F5agDu0kR1sapGOy8Ofg5fntCKMqFBG39c/igAzlq+7IrTyGR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.2",
+          "integrity": {
+            "archive": "sha384-acIy1OhDH5sjIGqnQv7AdQ09WudaFS0daZaaGgYL+TE8B+YuLbbeUrjMZlEdG2KX",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-zO7VWr/vEWNV1E04mgsUJmZ8ZpShvQDxQT8yBkdbb+vBSuC24JNmQJQCRK48rGSw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.1",
+          "integrity": {
+            "archive": "sha384-pzpB373aMEriNQuzJuBhnI7Dd287At2kKM13CGIU3YtVlpR9W9IwYWYSe4BZoTxA",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-b22Y7LqCY/FKETUOgTkYk703o1UBjCXW3bb6LvIY+UBmXTH4KzsokNmYU7n+jqGZ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.0",
+          "integrity": {
+            "archive": "sha384-LIyJu6OcDOUYTP0QBo4HvYjfPudBonNMrsCDR0DzDAQ1cD2MLE5qC6cpOjY/2Lb+",
+            "file": [
+              {
+                "target": "plugins/UniteWindow.aul",
+                "hash": "sha384-tUnXYeozSEVO4FKiEPqOQyGNcif+h4xgaFkuLRoYQ4MKCZ2JQRb1tO3x3BAIg/t9"
               }
             ]
           }

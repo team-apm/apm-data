@@ -1032,13 +1032,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.5.6",
+      "latestVersion": "6.6.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "6.6.0",
+          "integrity": {
+            "archive": "sha384-d3FwYjrg6ZHvR20ksiePXxY8oBiZSJ8tI2n2wXnYceRyv87YGB6oTQD2BXbCDZI2",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-XoYhWM6cvSxqpo9PBlnCdfPFUXbyV7tksNM8ZVvY1sDdTAAr3W6Vjd5hDqH8yc50"
+              }
+            ]
+          }
+        },
         {
           "version": "6.5.6",
           "integrity": {
@@ -1163,7 +1175,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "6.5.6",
+      "latestVersion": "6.6.0",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]
@@ -3439,7 +3451,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.00",
+      "latestVersion": "7.01",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -3466,6 +3478,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.01",
+          "integrity": {
+            "archive": "sha384-YOB9fuRCLkHjx5AnZxquF22FfMgcyw69ypk1onXetU14tAmW5u6k9DgFsA9c0vih",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-7eK87bff3nXpSekqmRPYMmgDhIf0bF+MjdUAA3puOGi5lWB98D5k+wHmfg+aijWo"
+              }
+            ]
+          }
+        },
         {
           "version": "6.17",
           "integrity": {

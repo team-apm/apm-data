@@ -1087,7 +1087,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.5.6</latestVersion>
+		<latestVersion>6.6.0</latestVersion>
 		<files>
 			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -1178,6 +1178,15 @@
 					>sha384-DeWKBm3mWqGsLDj9Ej+MqefITuV+HFdx8xK8xhtemp7LxpHs+AOr0Vi8f8g7qTEt</integrity>
 				</integrities>
 			</release>
+			<release version="6.6.0">
+				<archiveIntegrity
+				>sha384-d3FwYjrg6ZHvR20ksiePXxY8oBiZSJ8tI2n2wXnYceRyv87YGB6oTQD2BXbCDZI2</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-XoYhWM6cvSxqpo9PBlnCdfPFUXbyV7tksNM8ZVvY1sDdTAAr3W6Vjd5hDqH8yc50</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -1191,7 +1200,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.5.6</latestVersion>
+		<latestVersion>6.6.0</latestVersion>
 		<installer>CreateDark.exe</installer>
 		<installArg>/a"$instpath" /f /x</installArg>
 		<files>
@@ -3190,7 +3199,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/VCEEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/VCEEnc/releases/latest</downloadURL>
-		<latestVersion>7.00</latestVersion>
+		<latestVersion>7.01</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/VCEEnc.auo</file>
 			<file archivePath="plugins">plugins/VCEEnc.ini</file>
@@ -3208,6 +3217,15 @@
 					<integrity
 						target="plugins/VCEEnc.auo"
 					>sha384-Nw+jRqn07dpSir9+3SAcBqiGfe2jFL22TiivDPbQZ8ZJOiSOzXDy85JFs1GHlWTW</integrity>
+				</integrities>
+			</release>
+			<release version="7.01">
+				<archiveIntegrity
+				>sha384-YOB9fuRCLkHjx5AnZxquF22FfMgcyw69ypk1onXetU14tAmW5u6k9DgFsA9c0vih</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/VCEEnc.auo"
+					>sha384-7eK87bff3nXpSekqmRPYMmgDhIf0bF+MjdUAA3puOGi5lWB98D5k+wHmfg+aijWo</integrity>
 				</integrities>
 			</release>
 		</releases>

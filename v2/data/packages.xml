@@ -1384,7 +1384,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform#readme</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest</downloadURL>
-		<latestVersion>2.1.0</latestVersion>
+		<latestVersion>2.2.0</latestVersion>
 		<files>
 			<file>plugins/ShowWaveform.auf</file>
 			<file>plugins/ShowWaveform.ini</file>
@@ -1397,6 +1397,18 @@
 					<integrity
 						target="plugins/ShowWaveform.auf"
 					>sha384-6eh8NrzZzmGcZTgQiPJzqVY1AtJ5ppmU9W0H2CnRZLGyvaWrGOfrkkJIKTWmJfVH</integrity>
+					<integrity
+						target="plugins/ShowWaveform.ini"
+					>sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB</integrity>
+				</integrities>
+			</release>
+			<release version="2.2.0">
+				<archiveIntegrity
+				>sha384-pl2KK1b7s+EA5NJnrneemFBBkT+C3BpjmQI6DwxRg5JWWOdZFpKPPdoj0iC7v0xr</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ShowWaveform.auf"
+					>sha384-yfX613MNEGP8R3gW91mdUO3nnJy4tp6QynOSAtDFpRDwj9+aBiw1CSa7Ih0Ovqdv</integrity>
 					<integrity
 						target="plugins/ShowWaveform.ini"
 					>sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB</integrity>

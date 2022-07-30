@@ -1364,12 +1364,28 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "2.1.0",
+      "latestVersion": "2.2.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini" }
       ],
       "releases": [
+        {
+          "version": "2.2.0",
+          "integrity": {
+            "archive": "sha384-pl2KK1b7s+EA5NJnrneemFBBkT+C3BpjmQI6DwxRg5JWWOdZFpKPPdoj0iC7v0xr",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-yfX613MNEGP8R3gW91mdUO3nnJy4tp6QynOSAtDFpRDwj9+aBiw1CSa7Ih0Ovqdv"
+              },
+              {
+                "target": "plugins/ShowWaveform.ini",
+                "hash": "sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB"
+              }
+            ]
+          }
+        },
         {
           "version": "2.1.0",
           "integrity": {

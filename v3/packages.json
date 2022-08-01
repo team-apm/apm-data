@@ -3211,7 +3211,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.06",
+      "latestVersion": "7.07",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -3238,6 +3238,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.07",
+          "integrity": {
+            "archive": "sha384-P+/Os88+1RHRR8iYDm5YobLY77iwgu+RTGSXs172PUXVPBPPE3VOVD3RGvFQ097F",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-KnvrLHc02hU3of+PXP0UocvVdZMEydKC55RQKVlwmR6D4MHwPjFT6ylmUpTMLpb2"
+              }
+            ]
+          }
+        },
         {
           "version": "7.06",
           "integrity": {
@@ -3393,7 +3405,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.07",
+      "latestVersion": "1.08",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -3421,6 +3433,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.08",
+          "integrity": {
+            "archive": "sha384-iRT1FRvy9E+TPyhhwSwgtVqUO5RNHdAphn1CSpuXhI2qA8mcz2NGldnKn7nKtB/E",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-7Gl87HuUick4zengqGMlzn/7SObZOR15ZbAp4dd2yJ21+nkHgesdYyBx2HYOsHPg"
+              }
+            ]
+          }
+        },
         {
           "version": "1.07",
           "integrity": {
@@ -3635,7 +3659,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.04",
+      "latestVersion": "4.05",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -3662,6 +3686,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.05",
+          "integrity": {
+            "archive": "sha384-GLFxT+hYWahCAOV2Ujey2yjzpvlwYxDmKccnA6cwRuPtESsNMz7uTXk4fFtSS6+5",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-DG1OFZeZuWHE6gryhFM4/YSLbTfbcJgR7VMGfbl5YbOOpPw+FlRDBjsOCamUNudX"
+              }
+            ]
+          }
+        },
         {
           "version": "4.04",
           "integrity": {

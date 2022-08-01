@@ -3009,7 +3009,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
-		<latestVersion>7.06</latestVersion>
+		<latestVersion>7.07</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/QSVEnc.auo</file>
 			<file archivePath="plugins">plugins/QSVEnc.ini</file>
@@ -3081,6 +3081,15 @@
 					<integrity
 						target="plugins/QSVEnc.auo"
 					>sha384-UW85egovXzzJ87UT/kN2yHQlea47h1ca05cLNVnnfLhYSnh1p1VD+Z1gYGHYgybg</integrity>
+				</integrities>
+			</release>
+			<release version="7.07">
+				<archiveIntegrity
+				>sha384-P+/Os88+1RHRR8iYDm5YobLY77iwgu+RTGSXs172PUXVPBPPE3VOVD3RGvFQ097F</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-KnvrLHc02hU3of+PXP0UocvVdZMEydKC55RQKVlwmR6D4MHwPjFT6ylmUpTMLpb2</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -3159,7 +3168,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/svtAV1guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/svtAV1guiEx/releases/latest</downloadURL>
-		<latestVersion>1.07</latestVersion>
+		<latestVersion>1.08</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/svtAV1guiEx.auo</file>
 			<file archivePath="plugins">plugins/svtAV1guiEx.ini</file>
@@ -3215,6 +3224,15 @@
 					<integrity
 						target="plugins/svtAV1guiEx.auo"
 					>sha384-THUg8tg3AFNnF+VKcAnmQjHBgkOBPuGUwlR+Ggt0iPXMXwf4+EigjMtmwt91ovnV</integrity>
+				</integrities>
+			</release>
+			<release version="1.08">
+				<archiveIntegrity
+				>sha384-iRT1FRvy9E+TPyhhwSwgtVqUO5RNHdAphn1CSpuXhI2qA8mcz2NGldnKn7nKtB/E</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-7Gl87HuUick4zengqGMlzn/7SObZOR15ZbAp4dd2yJ21+nkHgesdYyBx2HYOsHPg</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -3330,7 +3348,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x265guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x265guiEx/releases/latest</downloadURL>
-		<latestVersion>4.04</latestVersion>
+		<latestVersion>4.05</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x265guiEx.auo</file>
 			<file archivePath="plugins">plugins/x265guiEx.ini</file>
@@ -3385,6 +3403,15 @@
 					<integrity
 						target="plugins/x265guiEx.auo"
 					>sha384-5CyYPLsCCAPYwZd/rWhAKaib0buRdxYZGiaVwjExLkNk8Ahl0wBWmgsgc9QwmoBp</integrity>
+				</integrities>
+			</release>
+			<release version="4.05">
+				<archiveIntegrity
+				>sha384-GLFxT+hYWahCAOV2Ujey2yjzpvlwYxDmKccnA6cwRuPtESsNMz7uTXk4fFtSS6+5</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x265guiEx.auo"
+					>sha384-DG1OFZeZuWHE6gryhFM4/YSLbTfbcJgR7VMGfbl5YbOOpPw+FlRDBjsOCamUNudX</integrity>
 				</integrities>
 			</release>
 		</releases>

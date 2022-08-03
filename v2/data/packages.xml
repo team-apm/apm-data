@@ -1087,7 +1087,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.8.0</latestVersion>
+		<latestVersion>6.9.0</latestVersion>
 		<files>
 			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -1205,6 +1205,15 @@
 					>sha384-eq3Y9x2XS0gliTHaZ/gMfe2bQUTP/g2sHlscyiOYDTBS1wb/jaNdo/etJd7YRkzM</integrity>
 				</integrities>
 			</release>
+			<release version="6.9.0">
+				<archiveIntegrity
+				>sha384-N8U5AqPsH6t7Okv8WWflMei2LOzIjQLE+ifnFL0IhkyfnP7cbFYKf3oR7qtwSHsP</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-+31P0OD9YgnbkdjQGuGKVCFiF9KOUpDaf6Fi87/CrRo+fFKryClEbveQvyyhhBpi</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -1218,7 +1227,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>6.8.0</latestVersion>
+		<latestVersion>6.9.0</latestVersion>
 		<installer>CreateDark.exe</installer>
 		<installArg>/a"$instpath" /f /x</installArg>
 		<files>

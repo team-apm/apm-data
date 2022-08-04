@@ -3265,7 +3265,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/VCEEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/VCEEnc/releases/latest</downloadURL>
-		<latestVersion>7.01</latestVersion>
+		<latestVersion>7.02</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/VCEEnc.auo</file>
 			<file archivePath="plugins">plugins/VCEEnc.ini</file>
@@ -3292,6 +3292,15 @@
 					<integrity
 						target="plugins/VCEEnc.auo"
 					>sha384-7eK87bff3nXpSekqmRPYMmgDhIf0bF+MjdUAA3puOGi5lWB98D5k+wHmfg+aijWo</integrity>
+				</integrities>
+			</release>
+			<release version="7.02">
+				<archiveIntegrity
+				>sha384-Td2lWaV9JDbyt+dApDxGv9HWXBH/6n1oRZ70ckXVKyi8fH7kC2AuHbam4Qc1Xj2e</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/VCEEnc.auo"
+					>sha384-3/Zmr0tpDUIUOnYhpzKVrV45AmNrcUwBIgiY9PtCqkNZZAxl85dgalI6qZTZgtWR</integrity>
 				</integrities>
 			</release>
 		</releases>

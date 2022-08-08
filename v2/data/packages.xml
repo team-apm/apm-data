@@ -4697,6 +4697,26 @@
 		<files>
 			<file>RelMovieHandle.auf</file>
 		</files>
+		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-wrAmA9WiPuonR5YksUKrNUHNcvRsq9erL1ghDpq7AvyfgbjEboxPm5cNU2N8XoaZ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="RelMovieHandle.auf"
+					>sha384-pZc/kgGhKb+K4dOhUErvXOOXXR50skcbKhgjEmD3XBmMSwEvgrnCS3MI+dOUoX1A</integrity>
+				</integrities>
+			</release>
+			<release version="v1.1">
+				<archiveIntegrity
+				>sha384-IQlUxWDJE23O3Lh0dKvMZcG3cKvS6pQF7lQshcROfMHRyn//AnSz2IBP7cZ6OclG</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="RelMovieHandle.auf"
+					>sha384-U049dMV3i3cDklOCvD/tAJH4/cdtreZ/zITH0W6/Lz7qvjOaPskyD8xoYM63LHkR</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

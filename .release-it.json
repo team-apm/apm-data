@@ -1,9 +1,10 @@
 {
   "git": {
     "requireCleanWorkingDir": false,
+    "requireUpstream": false,
     "commit": false,
     "tagAnnotation": "v${version}",
     "push": false
   },
-  "npm": { "publish": false, "ignoreVersion": true, "allowSameVersion": true }
+  "npm": false
 }

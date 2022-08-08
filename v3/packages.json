@@ -3690,13 +3690,93 @@
       ],
       "releases": [
         {
-          "version": "v1.0",
+          "version": "1.0",
           "integrity": {
             "archive": "sha384-n5Lzs/RGSkUr0SnnLqK7oWOyU5cBtNK4BFUXn/WYlJIQXZ6hLafO/6/zckAEGtAK",
             "file": [
               {
                 "target": "aviutl_rpc.auf",
                 "hash": "sha384-0h6sw2KdXe9HaeoRp6t3K4W3tFLLBUMgklGmfEqtL//XMf2v21sWqAJdU3xSVrk5"
+              },
+              {
+                "target": "discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "0.99f",
+          "integrity": {
+            "archive": "sha384-aUMrMF61sWW2U6r9C8apTkXNWL14ivUAZFk7ZOo90LuLESr6YFhVFjLgCExz9sB7",
+            "file": [
+              {
+                "target": "aviutl_rpc.auf",
+                "hash": "sha384-NdLdhwSS3X6onjN5jVrRYxXSoe94OWhhBr+pEnM7jUdw6eKCB4emwbvEr2GVtWER"
+              },
+              {
+                "target": "discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "0.99e",
+          "integrity": {
+            "archive": "sha384-8SO5UiHYAMogNCudDhrg+ikiq7F53SaumTUT1AS0o0hGAzSyj+jJFU29OVfgbbK8",
+            "file": [
+              {
+                "target": "aviutl_rpc.auf",
+                "hash": "sha384-ofvT5fv01nvKZYuM8T0PAMEI6MVuKMMP7wu1szZZjviQZTDxLuMWxTi5gZ56yZCD"
+              },
+              {
+                "target": "discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "0.99d",
+          "integrity": {
+            "archive": "sha384-ycFNK4vSoQ08d9Dm6m56aRbiRQIoR0dLsJJ+ZLBClTpaWUan0ZIhQe91v7Vegg/R",
+            "file": [
+              {
+                "target": "aviutl_rpc.auf",
+                "hash": "sha384-gYadGRKtkroj3ni5hXAaaS4L/gyG3fH3ErnkE6P/5ObyM+TR2sCNuTDsKtXBzplG"
+              },
+              {
+                "target": "discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "0.99c",
+          "integrity": {
+            "archive": "sha384-aGumiP/azs7H8jtjdgRMp9apDqN8dRlDFkoqdu5a+/lDTx+ISDNunWr9kU6JZTV7",
+            "file": [
+              {
+                "target": "aviutl_rpc.auf",
+                "hash": "sha384-qrRsv8w+/yvcDeQ7wrOvwE1zCCP/MqGqrbvEknJlFY/4KuKKPn+9yK58CkNDHaru"
+              },
+              {
+                "target": "discord_game_sdk.dll",
+                "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.99b",
+          "integrity": {
+            "archive": "sha384-/R+tetIMCjPwLkoo7fh71bwxHKw5t7FcpLv5JYu0Lr1eW/+WkFY4z5vqxmHt88B+",
+            "file": [
+              {
+                "target": "aviutl_rpc.auf",
+                "hash": "sha384-S0B3yrKSXkmhem5SEoYLcqS93SIefcXiuKohz2xHOo0+o4//lpgWs12pGLSRVOhr"
               },
               {
                 "target": "discord_game_sdk.dll",

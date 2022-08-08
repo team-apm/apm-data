@@ -6462,6 +6462,15 @@
 			<file>script/shummg/dotdrawer.lua</file>
 		</files>
 		<releases>
+			<release version="1.0">
+				<archiveIntegrity
+				>sha384-3bpsQGsoP3NNspeeYEexwqwlnClncpIxVGGabhosK20myQPBtc8QhnDg25j5TZX9</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/shummg/dotdrawer.lua"
+					>sha384-7f20fHDyPT4/1joe9vSYI15qwUD+j8X5GSOg3YEi9ToaVdptxRvxNbPiciX3D+wh</integrity>
+				</integrities>
+			</release>
 			<release version="1.1">
 				<archiveIntegrity
 				>sha384-pg/9VD7ZZLOcenlC/NIprGYlgMrxuzxcB7h75IEbYcuEepY5ZRMc/3yfxynoqk0X</archiveIntegrity>

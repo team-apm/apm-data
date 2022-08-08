@@ -7696,6 +7696,18 @@
               }
             ]
           }
+        },
+        {
+          "version": "1.0",
+          "integrity": {
+            "archive": "sha384-3bpsQGsoP3NNspeeYEexwqwlnClncpIxVGGabhosK20myQPBtc8QhnDg25j5TZX9",
+            "file": [
+              {
+                "target": "script/shummg/dotdrawer.lua",
+                "hash": "sha384-7f20fHDyPT4/1joe9vSYI15qwUD+j8X5GSOg3YEi9ToaVdptxRvxNbPiciX3D+wh"
+              }
+            ]
+          }
         }
       ]
     },

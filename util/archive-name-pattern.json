@@ -37,6 +37,7 @@
   "rigaya/VCEEnc": "Aviutl_VCEEnc_[0-9\\.]+",
   "rigaya/x264guiEx": "x264guiEx_[0-9\\.]+",
   "rigaya/x265guiEx": "x265guiEx_[0-9\\.]+",
+  "shummg/dotdrawer": "dotdrawer-[0-9\\.]+",
   "yumetodo/SigContrastFastAviUtl": "SigColorFastAviUtl",
   "suzune/bakusoku": "v[0-9\\.]+",
   "suzune/WideDialog": "v[0-9\\.]+"

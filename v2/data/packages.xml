@@ -3491,6 +3491,53 @@
 				archivePath="script/browser/contents"
 			>script/browser/contents/絵文字.abc</file>
 		</files>
+		<releases>
+			<release version="v0.1">
+				<archiveIntegrity
+				>sha384-XqR6AT4V2z2sy6jz/QaYvKzGyvaWftP1PXW0iQ+cBmaMekIHca429u3k1vT9mLpp</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/browser.lua"
+					>sha384-vmBlC5Ut3AhZ3i57hTOHtbuS5WBOgT9Uy8rj7LzGwpfr2NNmk7GxIyEcTF113LiJ</integrity>
+				</integrities>
+			</release>
+			<release version="v0.2">
+				<archiveIntegrity
+				>sha384-OZ7ATVUwXeljiWrhoCiRixhxl88x078BLIl8VU8oYFFvmsCibWYgyMUu/9l/9AIf</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/browser.lua"
+					>sha384-vmBlC5Ut3AhZ3i57hTOHtbuS5WBOgT9Uy8rj7LzGwpfr2NNmk7GxIyEcTF113LiJ</integrity>
+				</integrities>
+			</release>
+			<release version="v0.3">
+				<archiveIntegrity
+				>sha384-kJGEa3eVTbrC8Vb7JCOlCwYxyxSCRWfhpMySxiZpLPttT+CXq7yBTQISUCJVizOw</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/browser.lua"
+					>sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R</integrity>
+				</integrities>
+			</release>
+			<release version="v0.4.0">
+				<archiveIntegrity
+				>sha384-0vQ0YrV7EwAsWhGy6NwWvCy5BfKZ43uy0i2z5FnbAbKaJMKAmCnz8+IyI0tPbR6l</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/browser.lua"
+					>sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R</integrity>
+				</integrities>
+			</release>
+			<release version="v0.4.1">
+				<archiveIntegrity
+				>sha384-tHyJvY0K6l3QIIC03oe/NwD6/rM4Ye/p5UB9Bnm6YoQkzjUswlQy9mQApS5wjf1U</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/browser.lua"
+					>sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

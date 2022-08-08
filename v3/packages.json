@@ -3948,6 +3948,68 @@
           "filename": "script/browser/contents/絵文字.abc",
           "archivePath": "script/browser/contents"
         }
+      ],
+      "releases": [
+        {
+          "version": "v0.4.1",
+          "integrity": {
+            "archive": "sha384-tHyJvY0K6l3QIIC03oe/NwD6/rM4Ye/p5UB9Bnm6YoQkzjUswlQy9mQApS5wjf1U",
+            "file": [
+              {
+                "target": "script/browser/browser.lua",
+                "hash": "sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.4.0",
+          "integrity": {
+            "archive": "sha384-0vQ0YrV7EwAsWhGy6NwWvCy5BfKZ43uy0i2z5FnbAbKaJMKAmCnz8+IyI0tPbR6l",
+            "file": [
+              {
+                "target": "script/browser/browser.lua",
+                "hash": "sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3",
+          "integrity": {
+            "archive": "sha384-kJGEa3eVTbrC8Vb7JCOlCwYxyxSCRWfhpMySxiZpLPttT+CXq7yBTQISUCJVizOw",
+            "file": [
+              {
+                "target": "script/browser/browser.lua",
+                "hash": "sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2",
+          "integrity": {
+            "archive": "sha384-OZ7ATVUwXeljiWrhoCiRixhxl88x078BLIl8VU8oYFFvmsCibWYgyMUu/9l/9AIf",
+            "file": [
+              {
+                "target": "script/browser/browser.lua",
+                "hash": "sha384-vmBlC5Ut3AhZ3i57hTOHtbuS5WBOgT9Uy8rj7LzGwpfr2NNmk7GxIyEcTF113LiJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.1",
+          "integrity": {
+            "archive": "sha384-XqR6AT4V2z2sy6jz/QaYvKzGyvaWftP1PXW0iQ+cBmaMekIHca429u3k1vT9mLpp",
+            "file": [
+              {
+                "target": "script/browser/browser.lua",
+                "hash": "sha384-vmBlC5Ut3AhZ3i57hTOHtbuS5WBOgT9Uy8rj7LzGwpfr2NNmk7GxIyEcTF113LiJ"
+              }
+            ]
+          }
+        }
       ]
     },
     {

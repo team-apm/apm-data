@@ -5999,6 +5999,18 @@
           }
         },
         {
+          "version": "1.01",
+          "integrity": {
+            "archive": "sha384-wJLke9oEcQOKiZ3I55Id0VXRRihs+9D1uEh5cx/Iuoo/+gmT1TWr9RK32S+5L+xM",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-EdV6RfI9/8Kdm1s0hBTvXxIowMtX0uugbCIpHhqz307nFAU1B38LThXUasBK6Aot"
+              }
+            ]
+          }
+        },
+        {
           "version": "1.00",
           "integrity": {
             "archive": "sha384-7kfgxgORTvI+EA+HFlxPpGcC94yZKvLfHBHv8HDyBQ3zaLRhYKVSFSk2JoA++H2A",

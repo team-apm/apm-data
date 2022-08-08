@@ -5114,6 +5114,15 @@
 					>sha384-xsm3y7kOYBJ7W9Uuv+gsIcEUaf+dtm2UKqyZ/h2YA5LBYzMVZlY25mqJBwfQFOGl</integrity>
 				</integrities>
 			</release>
+			<release version="1.01">
+				<archiveIntegrity
+				>sha384-wJLke9oEcQOKiZ3I55Id0VXRRihs+9D1uEh5cx/Iuoo/+gmT1TWr9RK32S+5L+xM</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ffmpegOut.auo"
+					>sha384-EdV6RfI9/8Kdm1s0hBTvXxIowMtX0uugbCIpHhqz307nFAU1B38LThXUasBK6Aot</integrity>
+				</integrities>
+			</release>
 			<release version="1.02">
 				<archiveIntegrity
 				>sha384-yu0EXLGoo8+dqXekyyXr3vBReYXmSjam3OU4hIcVhKJJAZ97bKBGxJkPuQJNJ/bf</archiveIntegrity>

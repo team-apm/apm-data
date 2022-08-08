@@ -5833,6 +5833,15 @@
 					>sha384-AucRj3yrJG7BQayf6xUaHF1J/COk4ceuegXUxXSxbfVx8BcXAL1JHrDAjaHw0USH</integrity>
 				</integrities>
 			</release>
+			<release version="4.01">
+				<archiveIntegrity
+				>sha384-k4dgWghy4msFSPNrq/MMMcSl9B/MYBuRd4+2gAkH9U8GlzCNlbMV7RuxhnBldieT</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x265guiEx.auo"
+					>sha384-r+Jt78SJU/Xx3hTeI18Y4srMtve/PU3XA260sNsgF29Rw4clFlsx4kdIlbo5BGfL</integrity>
+				</integrities>
+			</release>
 			<release version="4.02">
 				<archiveIntegrity
 				>sha384-4uVjholoE89n3hS6WuPNaeviM2ZBCEqE5QlCIlw8VIK5p/dEvoi9dXauV4X9AJBb</archiveIntegrity>

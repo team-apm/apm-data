@@ -7001,6 +7001,18 @@
           }
         },
         {
+          "version": "4.01",
+          "integrity": {
+            "archive": "sha384-k4dgWghy4msFSPNrq/MMMcSl9B/MYBuRd4+2gAkH9U8GlzCNlbMV7RuxhnBldieT",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-r+Jt78SJU/Xx3hTeI18Y4srMtve/PU3XA260sNsgF29Rw4clFlsx4kdIlbo5BGfL"
+              }
+            ]
+          }
+        },
+        {
           "version": "4.00",
           "integrity": {
             "archive": "sha384-90hBDCSF2RAfMyPUk75kpuLvpd2obVU1ArUUxOkQuNSvIfu1ewXrP9btS+70XRtH",

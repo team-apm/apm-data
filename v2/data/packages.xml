@@ -5578,6 +5578,15 @@
 					>sha384-Nw+jRqn07dpSir9+3SAcBqiGfe2jFL22TiivDPbQZ8ZJOiSOzXDy85JFs1GHlWTW</integrity>
 				</integrities>
 			</release>
+			<release version="7.00">
+				<archiveIntegrity
+				>sha384-MoV6uktyg1dmf0ZldsetV/E+pruHLi9QxPVDbaJ84D6WaouzElR2sYpks4SoILkJ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/VCEEnc.auo"
+					>sha384-OwkPhPf2hBcSjgR3vjuMOBZnKfK7tIEoWAfGITCLnQKYg+8H337L0XWClWNK1mb3</integrity>
+				</integrities>
+			</release>
 			<release version="7.01">
 				<archiveIntegrity
 				>sha384-YOB9fuRCLkHjx5AnZxquF22FfMgcyw69ypk1onXetU14tAmW5u6k9DgFsA9c0vih</archiveIntegrity>

@@ -6665,6 +6665,18 @@
           }
         },
         {
+          "version": "7.00",
+          "integrity": {
+            "archive": "sha384-MoV6uktyg1dmf0ZldsetV/E+pruHLi9QxPVDbaJ84D6WaouzElR2sYpks4SoILkJ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-OwkPhPf2hBcSjgR3vjuMOBZnKfK7tIEoWAfGITCLnQKYg+8H337L0XWClWNK1mb3"
+              }
+            ]
+          }
+        },
+        {
           "version": "6.17",
           "integrity": {
             "archive": "sha384-eET4ztZyPR5OTD4XxNfZMB1NMnqCAtWMBvx1xH/rkZVLHKqy0FjhZq8CcFYussxs",

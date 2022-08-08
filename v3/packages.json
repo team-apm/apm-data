@@ -1412,12 +1412,28 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "2.2.0",
+      "latestVersion": "2.3.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini" }
       ],
       "releases": [
+        {
+          "version": "2.3.0",
+          "integrity": {
+            "archive": "sha384-M9jcnNKLy6/49led5TkiRsLGSIKtb8MijTqED6LWT5A1PATOaaZP/KfSzTXlXIPa",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-uEzIvRD9KKoWwUHkm3x+p1G19WddvY2VjDRN0F7EHFiZIaGBkZQXoEx+9+yvRWma"
+              },
+              {
+                "target": "plugins/ShowWaveform.ini",
+                "hash": "sha384-CskzSGzgG9Uzz66fvBxyl4FTTHXZPCKRglPlGJKPSd+0EKxvUEZKgjsMEZjIfq0f"
+              }
+            ]
+          }
+        },
         {
           "version": "2.2.0",
           "integrity": {
@@ -3247,7 +3263,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.07",
+      "latestVersion": "7.08",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -3274,6 +3290,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.08",
+          "integrity": {
+            "archive": "sha384-Os6a+d3MEyC1MLCJx+XGssqdLFEd2n6rEz5agFveDN+MNzgjX/MUas3rcZfTNKd7",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-qmIggpfBoBGsnCbkMDwlK+jRQTZUBrTBoXhAExF9KzVN6wUBjeOSgPsP9NM01Avn"
+              }
+            ]
+          }
+        },
         {
           "version": "7.07",
           "integrity": {

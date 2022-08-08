@@ -3250,6 +3250,28 @@
           "archivePath": "script/browser/contents",
           "isDirectory": true
         }
+      ],
+      "releases": [
+        {
+          "version": "v0.2.0",
+          "integrity": {
+            "archive": "sha384-XB94igkLIBojr70+WotxZr626j9o1jgDLDa4Lz5qmYfa6J8EDXjhYiAKQ/+XkFIE",
+            "file": [
+              {
+                "target": "script/browser/MarkdownEX.anm",
+                "hash": "sha384-SNyciswKxUkYhfrruMRMwR4dj/yIuTgwilLZAY4HxtKaeV1Bl9fKO4orufuifmWp"
+              },
+              {
+                "target": "script/browser/MarkdownEX.exa",
+                "hash": "sha384-CvG1pLTqPlD1kH4rauPpDnNzPFCLFJJooa/GMx+z628USeoW4JtMNHub6OeZ8xFe"
+              },
+              {
+                "target": "script/browser/MarkdownEX.obj",
+                "hash": "sha384-iaSbAz0039EpK759RBhmF22mOmtvvNIOVJFtfPlWXtD1hUyane+NuKlr4ouc3SOX"
+              }
+            ]
+          }
+        }
       ]
     },
     {

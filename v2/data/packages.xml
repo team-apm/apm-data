@@ -2856,6 +2856,23 @@
 				directory="true"
 			>script/browser/contents/MarkdownEX</file>
 		</files>
+		<releases>
+			<release version="v0.2.0">
+				<archiveIntegrity
+				>sha384-XB94igkLIBojr70+WotxZr626j9o1jgDLDa4Lz5qmYfa6J8EDXjhYiAKQ/+XkFIE</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/MarkdownEX.anm"
+					>sha384-SNyciswKxUkYhfrruMRMwR4dj/yIuTgwilLZAY4HxtKaeV1Bl9fKO4orufuifmWp</integrity>
+					<integrity
+						target="script/browser/MarkdownEX.exa"
+					>sha384-CvG1pLTqPlD1kH4rauPpDnNzPFCLFJJooa/GMx+z628USeoW4JtMNHub6OeZ8xFe</integrity>
+					<integrity
+						target="script/browser/MarkdownEX.obj"
+					>sha384-iaSbAz0039EpK759RBhmF22mOmtvvNIOVJFtfPlWXtD1hUyane+NuKlr4ouc3SOX</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

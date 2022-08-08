@@ -5544,7 +5544,93 @@
       ],
       "latestVersion": "v0.3.4",
       "nicommons": "sm37598954",
-      "files": [{ "filename": "textassist.auf" }]
+      "files": [{ "filename": "textassist.auf" }],
+      "releases": [
+        {
+          "version": "v0.3.4",
+          "integrity": {
+            "archive": "sha384-DUxiabvX/hmE8gxZW4jLqxnCsnrAXuaVvPZrDGdeJYr1qkIkpH23E2eluVQ0Hzvb",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-On6dm/MeI93WYSFR5oxLSDUxtz3rbPp9S/p3L5ahHnexLC+BLVv4dQ0WFLAlLTxe"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3.3",
+          "integrity": {
+            "archive": "sha384-fGyadT6Us3IdpdRd8Pm94Zf/eioJe+FZhCaugLDa/6JGkfEGal70LuwrsAaAMYo6",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-vYhKVm6Y8ILxv/LtkYmxTuXdaXGq70DBz4pXKaQ8moN6yS6N+b2w1xUB0lGMPcIU"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3.2",
+          "integrity": {
+            "archive": "sha384-R/x/AAWkPuI/wKZboB9rDHrNQbh5B6tSJ8JpBcGYtsSYc+O3l/B6l95YAPyz3UqK",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-RDkmpPWDC4eYGl8VI50F5CDT4opO+J0vbF99fuC62wKHyJySgr9NAYjvHUGJ3Ip0"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3.1",
+          "integrity": {
+            "archive": "sha384-dWhRzc2lto5OzKj0YOsqKktKJ8Kxaiur/CpJu+v33ePdcrOjuYT5aS2FzJq4C6rh",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-EBPapFjP7fgZjFS5WNKqEwBR3POeonSHZ3Luk82jlneOhiPwh8YI7nqdwGN9oMPc"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3",
+          "integrity": {
+            "archive": "sha384-lfeuCpfHXLfRMrVYYoe2iq2A7A4kqMV8dJIjLTrLSjRglkCJ7eK0I6GKyFKZyvDp",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-K8nmKK7QwW0vzLXYvg1WudF3CfklWtjaG40v3v9vj2UXQLdTylWPsXpkCh+nSTlP"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2",
+          "integrity": {
+            "archive": "sha384-97a4T9QuPVOOTMyhxIf7rzeEonmwWkm9wilZMkTYFvgDDUsp2RsjhrWS6uoz0VvP",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-5q6FkogtxMByaEi0vFTQMzPIu+jjO58r/ug4jL/ooUoq2vXIaOIOC4sDjs+sU2yT"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.1",
+          "integrity": {
+            "archive": "sha384-9phNGZdAA2xou1gvAbjbNu62dckskvJmIq8ZS9p2qWX3HSSKu5xwCMuvRMpuwqu2",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-venvXTToMvCkG4kwEFcVgkmIOZ2MkSunHXK4ZtHntb8+zrwyUF/FTkr4PaaIAWPS"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "oov/ZRamPreview",

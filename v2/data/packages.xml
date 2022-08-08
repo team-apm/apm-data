@@ -4733,6 +4733,71 @@
 		<files>
 			<file>textassist.auf</file>
 		</files>
+		<releases>
+			<release version="v0.1">
+				<archiveIntegrity
+				>sha384-9phNGZdAA2xou1gvAbjbNu62dckskvJmIq8ZS9p2qWX3HSSKu5xwCMuvRMpuwqu2</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-venvXTToMvCkG4kwEFcVgkmIOZ2MkSunHXK4ZtHntb8+zrwyUF/FTkr4PaaIAWPS</integrity>
+				</integrities>
+			</release>
+			<release version="v0.2">
+				<archiveIntegrity
+				>sha384-97a4T9QuPVOOTMyhxIf7rzeEonmwWkm9wilZMkTYFvgDDUsp2RsjhrWS6uoz0VvP</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-5q6FkogtxMByaEi0vFTQMzPIu+jjO58r/ug4jL/ooUoq2vXIaOIOC4sDjs+sU2yT</integrity>
+				</integrities>
+			</release>
+			<release version="v0.3">
+				<archiveIntegrity
+				>sha384-lfeuCpfHXLfRMrVYYoe2iq2A7A4kqMV8dJIjLTrLSjRglkCJ7eK0I6GKyFKZyvDp</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-K8nmKK7QwW0vzLXYvg1WudF3CfklWtjaG40v3v9vj2UXQLdTylWPsXpkCh+nSTlP</integrity>
+				</integrities>
+			</release>
+			<release version="v0.3.1">
+				<archiveIntegrity
+				>sha384-dWhRzc2lto5OzKj0YOsqKktKJ8Kxaiur/CpJu+v33ePdcrOjuYT5aS2FzJq4C6rh</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-EBPapFjP7fgZjFS5WNKqEwBR3POeonSHZ3Luk82jlneOhiPwh8YI7nqdwGN9oMPc</integrity>
+				</integrities>
+			</release>
+			<release version="v0.3.2">
+				<archiveIntegrity
+				>sha384-R/x/AAWkPuI/wKZboB9rDHrNQbh5B6tSJ8JpBcGYtsSYc+O3l/B6l95YAPyz3UqK</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-RDkmpPWDC4eYGl8VI50F5CDT4opO+J0vbF99fuC62wKHyJySgr9NAYjvHUGJ3Ip0</integrity>
+				</integrities>
+			</release>
+			<release version="v0.3.3">
+				<archiveIntegrity
+				>sha384-fGyadT6Us3IdpdRd8Pm94Zf/eioJe+FZhCaugLDa/6JGkfEGal70LuwrsAaAMYo6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-vYhKVm6Y8ILxv/LtkYmxTuXdaXGq70DBz4pXKaQ8moN6yS6N+b2w1xUB0lGMPcIU</integrity>
+				</integrities>
+			</release>
+			<release version="v0.3.4">
+				<archiveIntegrity
+				>sha384-DUxiabvX/hmE8gxZW4jLqxnCsnrAXuaVvPZrDGdeJYr1qkIkpH23E2eluVQ0Hzvb</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textassist.auf"
+					>sha384-On6dm/MeI93WYSFR5oxLSDUxtz3rbPp9S/p3L5ahHnexLC+BLVv4dQ0WFLAlLTxe</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

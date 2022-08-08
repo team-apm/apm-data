@@ -6132,6 +6132,42 @@
           }
         },
         {
+          "version": "6.03",
+          "integrity": {
+            "archive": "sha384-2GuJRil8IxmAdFg4C0RRXqtp0PnNHQGHG3yq8T/XxYlHGS4ZyQiYx1h6LbuxJNDv",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-eI7Uv/mCh0hkqHq5ad2DFPv6gpg6ecIQrPkzBaF8eTJJuqsWbBaMllOqhwK5aQXK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.02",
+          "integrity": {
+            "archive": "sha384-xOrHmZmaNrWl9lHcxlHWZb17KwX8hQpQpbiUWeC0c6oGdQ9sy80xYIyFFP1q8hlg",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-mG1AtkHFcfF14Q9sjwbPu+8DDoX6az6xZLAusYP9Act/5j+t0QBqnsRsmiTPbkXh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.01",
+          "integrity": {
+            "archive": "sha384-WUqpf9rkuU6H92GP3aAXsjjWT1TYxHRSgeNctaYt5Os+o/arC/NRJJggEN0yXn1K",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-2QkOABXpaH4Nm7WEo9Mfn7PKxnkQ0Miixbh8DND/1yEUv/N/ZZE1Sqt4metjqbXp"
+              }
+            ]
+          }
+        },
+        {
           "version": "6.00",
           "integrity": {
             "archive": "sha384-wST4X1zHU0nocsTJolZ5BkS87AogU4jsQuWpw1WjmcfVNWYngCg73WE2zjodznRH",

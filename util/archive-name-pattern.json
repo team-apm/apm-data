@@ -23,7 +23,7 @@
   "mtripg6666tdr/aviutlrpc": "aviutl_rpc_v[0-9\\.]+",
   "oov/aviutlBrowser": "aviutl_browser_v[0-9\\.]+",
   "oov/aviutlBrowserMinecraftSkin": "aviutl_browser_minecraft_skin_[0-9\\.]+",
-  "oov/GCMZDrops": "gcmzdrops_v[0-9\\.]+",
+  "oov/GCMZDrops": "gcmzdrops_v[0-9\\.]+(beta[0-9]+)?",
   "oov/bridge": "aviutl_bridge_v[0-9\\.]+",
   "oov/prima": "aviutl_prima_v[0-9\\.]+",
   "oov/RelMovieHandle": "relmoviehandle_v[0-9\\.]+",

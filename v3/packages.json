@@ -6496,6 +6496,18 @@
           }
         },
         {
+          "version": "1.06",
+          "integrity": {
+            "archive": "sha384-6/JT1TP+NHOmjxZajqooezkqGRngwADKll0Php61Vx9OyIhr96clI5jL86h3voRh",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-5B0rBzh/a4Zj/Q4ofPCuM11eG+8CLVAAhq2cKE8oMoE8moUNyVAv+j0AFUZ8e4bF"
+              }
+            ]
+          }
+        },
+        {
           "version": "1.05",
           "integrity": {
             "archive": "sha384-pVYRqKdoWF3lVo2iZdm4lWcCuE8P0FK/iwINu4ikZG8UXVyahfbteDhsbnng24hc",
@@ -6532,6 +6544,18 @@
           }
         },
         {
+          "version": "1.02",
+          "integrity": {
+            "archive": "sha384-DnoArhyBtVbOLPRDNCM5bj20IoB9CiqqniHDmAjzdxNGM0JyOeJamcIy/7T9Bcdc",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-zn5b/X9Of1hlJmaGOsAhKJq9ocVFwRAlVbUP+qtUsCQ/mQa1SIbvX13yD3FFo5EJ"
+              }
+            ]
+          }
+        },
+        {
           "version": "1.01",
           "integrity": {
             "archive": "sha384-DrmlvGM0YCIDy4ZJQFtZ3nDO/VAiOIDeTcwODKuqVWAeUD/fo1re3QUFg5Xlqmxi",
@@ -6539,6 +6563,18 @@
               {
                 "target": "plugins/svtAV1guiEx.auo",
                 "hash": "sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-ZkbNljW9ryqEzn8yq+ZbUfh2onI5SN7vi1BeszJzg8QR2tCX0Dpm3MzoEKxTpKeB",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-2OqNWFABv/ZTs+ZpnkAUuhe/utJlFLx4rY2TXW8FaOeQuOF4jT0Qdy8OXe5vEkf4"
               }
             ]
           }

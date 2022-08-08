@@ -5465,6 +5465,15 @@
 			<file optional="true">exe_files/mp4box.exe</file>
 		</files>
 		<releases>
+			<release version="1.00">
+				<archiveIntegrity
+				>sha384-ZkbNljW9ryqEzn8yq+ZbUfh2onI5SN7vi1BeszJzg8QR2tCX0Dpm3MzoEKxTpKeB</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-2OqNWFABv/ZTs+ZpnkAUuhe/utJlFLx4rY2TXW8FaOeQuOF4jT0Qdy8OXe5vEkf4</integrity>
+				</integrities>
+			</release>
 			<release version="1.01">
 				<archiveIntegrity
 				>sha384-DrmlvGM0YCIDy4ZJQFtZ3nDO/VAiOIDeTcwODKuqVWAeUD/fo1re3QUFg5Xlqmxi</archiveIntegrity>
@@ -5472,6 +5481,15 @@
 					<integrity
 						target="plugins/svtAV1guiEx.auo"
 					>sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw</integrity>
+				</integrities>
+			</release>
+			<release version="1.02">
+				<archiveIntegrity
+				>sha384-DnoArhyBtVbOLPRDNCM5bj20IoB9CiqqniHDmAjzdxNGM0JyOeJamcIy/7T9Bcdc</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-zn5b/X9Of1hlJmaGOsAhKJq9ocVFwRAlVbUP+qtUsCQ/mQa1SIbvX13yD3FFo5EJ</integrity>
 				</integrities>
 			</release>
 			<release version="1.03">
@@ -5499,6 +5517,15 @@
 					<integrity
 						target="plugins/svtAV1guiEx.auo"
 					>sha384-8AAwAgxLYI7T1TK9Cl6m1X5RP1wpxswFRazUFa1kIfWsO1FxbxBGajZZwqmwLDMu</integrity>
+				</integrities>
+			</release>
+			<release version="1.06">
+				<archiveIntegrity
+				>sha384-6/JT1TP+NHOmjxZajqooezkqGRngwADKll0Php61Vx9OyIhr96clI5jL86h3voRh</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/svtAV1guiEx.auo"
+					>sha384-5B0rBzh/a4Zj/Q4ofPCuM11eG+8CLVAAhq2cKE8oMoE8moUNyVAv+j0AFUZ8e4bF</integrity>
 				</integrities>
 			</release>
 			<release version="1.07">

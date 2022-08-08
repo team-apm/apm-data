@@ -167,6 +167,7 @@ async function generateReleases(args) {
     const res = await octokit.rest.repos.listReleases({
       owner: dirs[0],
       repo: dirs[1],
+      per_page: 100,
     });
 
     const generateRelease = async (release) => {

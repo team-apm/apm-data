@@ -2946,6 +2946,15 @@
 			<file>plugins/localfont.aul</file>
 		</files>
 		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-ldAFh0fBUDxqqaZuraDD7xFixn3Yxhbhi37FKMXjgONCMU76QppMY50riDxysXKc</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/localfont.aul"
+					>sha384-c+ohJBDf8XL4t/eCU/91crBefABynhhrIoB8CwkZqvv3wyxsZL49Hyxg+Hj2VMyI</integrity>
+				</integrities>
+			</release>
 			<release version="v2.0">
 				<archiveIntegrity
 				>sha384-X0ntO0/ijbouHneUkp7/Uy9LUXb2Ytob29vyxahUrRYK2mAO8M2Sr50RRREe+5U8</archiveIntegrity>

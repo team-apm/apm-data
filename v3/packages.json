@@ -3373,6 +3373,18 @@
               }
             ]
           }
+        },
+        {
+          "version": "v1.0",
+          "integrity": {
+            "archive": "sha384-ldAFh0fBUDxqqaZuraDD7xFixn3Yxhbhi37FKMXjgONCMU76QppMY50riDxysXKc",
+            "file": [
+              {
+                "target": "plugins/localfont.aul",
+                "hash": "sha384-c+ohJBDf8XL4t/eCU/91crBefABynhhrIoB8CwkZqvv3wyxsZL49Hyxg+Hj2VMyI"
+              }
+            ]
+          }
         }
       ]
     },

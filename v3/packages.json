@@ -1628,6 +1628,18 @@
           }
         },
         {
+          "version": "6.5.7",
+          "integrity": {
+            "archive": "sha384-WarEU1aJxsme1Iyc8Xk8x1TqZbov+R46Y3KDbjfXgeCp3X1ttvw17hjXqD2HPJ+j",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-ClzYW+X/De1wBb5sjhZ7vnLn+ZQ2TzMUnAToZBUc2is0unVjYy3XnpFkMyzLsumJ"
+              }
+            ]
+          }
+        },
+        {
           "version": "6.5.6",
           "integrity": {
             "archive": "sha384-ScnznPmH98m2y1dB1RQkYd9BbYw9MK4Uixv4hfhGDpuoSvp7imokj2fl7Bze7/nR",
@@ -1671,6 +1683,18 @@
               {
                 "target": "plugins/DarkenWindow.aul",
                 "hash": "sha384-aErLhcBsdHK2epUoprs6wTgPD8EzP2IZteLFkFHJVSYpSgEXMTN2/JFf0g+6QFwc"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.5.2",
+          "integrity": {
+            "archive": "sha384-T+bMrR7kmaZ8qtjHWZEBLq5mZPPLC+fvk97pTDtht3XinRREVtREDlPlOUuxJaoQ",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-YUkAf1w5BRBIAcs+bkROQkIXgWCXHHU/yoUEqxrLwLZDHB/jbYHLH0Fu1OruJJPN"
               }
             ]
           }
@@ -1724,14 +1748,310 @@
           }
         },
         {
+          "version": "6.2.2",
+          "integrity": {
+            "archive": "sha384-PWdhdi7YHWIDtrecEGO893vollJozB8w44BH0uUA84ZNbUGo6GaTKVTPf9V3A6Pz",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-DDQcKUbxIP46YAiS1SKH0lvahq/+84O8dvPovofYQ85BHNqS7IN7uUN8tuLYoemD"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.2.1",
+          "integrity": {
+            "archive": "sha384-vXt9a02oZWghVrifv/ozzk7T3NxfepAi1bTCuNdKMD8AN7T5K1CkXY9nB4PaZjH4",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-YwBWyHTYmI+ngnr+Yb/Pgh53TGDBRYl+BdWliikDv0+1wX+9rVO1tGHGPGYpQid6"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.2.0",
+          "integrity": {
+            "archive": "sha384-o3LnCBXbsCG/eIc5TJT9ioMxhSl+nZ+FLWWlp+O+aBZCUm90eFK/Fe7v79I2QfqQ",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-S8rTJyc20ETFQ2JNFqTMefXtG6jEodgtbFdiqaeMgNV+WfdPYvoFgvM4QL8A4ZG4"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.1.3",
+          "integrity": {
+            "archive": "sha384-dQKI2eiKGjip5lg1nEUXW6i5+5wHZu9QGHSSWty7+ExmFqcevZKeUiajd4aiKehp",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-F5Nc3trbnfIcDxt8MjWjBvD563cC3l3UgAPPHaXJH0+6WKsndcSPGUiIOUa6jesY"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.1.2",
+          "integrity": {
+            "archive": "sha384-o0rrH/RLxt+VI2FLt+nc9ziX9umYGa+IGIQaU2h1K0O55qscx4SWbb6LypjID6Z8",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-guhUUBRWZ/gUzos1WzSh+mnLjw28NUhXWlGA9zxBsi2gC6tXxB4VVPkqHzEv7t9T"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.1.1",
+          "integrity": {
+            "archive": "sha384-RHfrEW7SPOxDqCVIlMdTDFu1PkM9+OnK61YyttzN6KGYoiTCRvtacMmCPumnuFz1",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-azg2v4PoFmzI3GmlAOCXOz/N+OCXNpwYW/+0be4E/JlJVqnbigr0+T9fvrh1Cr65"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.1.0",
+          "integrity": {
+            "archive": "sha384-dBDTaxZOp+uQZxlkNFAkwnPVG9xJgMBnMIuZClEhKaHKV+q2Adqcbw/x2J0TM2Um",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-0MAzoX+A1Q8yZg5vrx80ZhyDGmBPGGPVz20ts9pKl1yds6NSlZMzmgcMeY9xzMnn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.0.0",
+          "integrity": {
+            "archive": "sha384-n5b2PlXxTKP6WG/wSGkDX1CtSHeSY653bcQH/4FGN/FhM1YwiF0M84PQGYxq6ucS",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-Il6qqO2CPZW0qMGROamQvG+hpfHxTGrzLPPNuOz+TPfDEhTyFclr1mUwkCC9aFYt"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.5.0",
+          "integrity": {
+            "archive": "sha384-VuVlTlwLDbzUJTu/2A/3L2qZBPHSRUG6wyD/sy4ZCNWW08nba/8eAtmGOuSzDlHh",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-UH9VOa90fqbxl3E++vQYxk3HmcvdnHbgZHDmao8IedhgFO7JjXgIp3Kp1+2LB1Z4"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.4.2",
+          "integrity": {
+            "archive": "sha384-k1cFmU3cN3W5gNS314SxGPa6cJHubna9LnpNzJKeSMS7qCea4oh5ZK6pfsSQo7lr",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-UH9VOa90fqbxl3E++vQYxk3HmcvdnHbgZHDmao8IedhgFO7JjXgIp3Kp1+2LB1Z4"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.4.1",
+          "integrity": {
+            "archive": "sha384-74QqSIOpGc5BTfaOkoQQu628xxfREJ3GL9SnCtV31nlOEaR0xYn7Gc88GiDDL8qt",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-JxaPtOdLt5ayhpk8n6sd+eNXYJRln0GnDKz0v39wB7zKrx5q6/EMuA3vDnXPXN9J"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.4.0",
+          "integrity": {
+            "archive": "sha384-8GfZ3aeC5ZJxpfvEbxpZsFQHDlOcrPdjIeHaHz4yydk2tl9Prr2qllBdYa5lcUXd",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-tnxmWxfB/P6UaTgrAiLEhPmUkSCthBqtbKEFPIglWlYClZxub9Yz7zVUl6yDV5dk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.3.0",
+          "integrity": {
+            "archive": "sha384-IgzKAUM3ZhzaDdKpInTlEtutRyV+uNakt1Ij4kGtnATv/bfH7pQAuAToSAlKdQ53",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-tnxmWxfB/P6UaTgrAiLEhPmUkSCthBqtbKEFPIglWlYClZxub9Yz7zVUl6yDV5dk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.2.0",
+          "integrity": {
+            "archive": "sha384-WQG4KK7YFRsYnO2WdzDNIFI5inyMdc36zjnSnpzmDqlpFwHnPI+6O+Slwhg+ffRX",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-sCde0B5WLXxDLMTYaANS2Me0IET05SZw/xA0KhKiiL/ITELLiUCa6MYRJbHaSz2W"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.1.0",
+          "integrity": {
+            "archive": "sha384-mjB9uB/DpPz8uNkF4RQhi/s4cR1DUfOOXThLMW6+4xwduPehVG0EVFUEaUzNDwbA",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-QIgWJhzKje1DWU8xv6tCA0KDgJZ+eGRtSkWcHE+FIOna5ZM1y5ssQmNrnxUJlLsd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.0.0",
+          "integrity": {
+            "archive": "sha384-FGsijtOZcM8LsYp69vHYmK+o8uBaJX2bKxlPWcZyAqo4+jTbWWiluKtLI7jkDW9Q",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-c9GKzbdIMkR+Vr9Cgo3Br1p0a1xD09ttXXx1RI9u0/sCMj77z9FDPtr+bUOe5EMw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.2.0",
+          "integrity": {
+            "archive": "sha384-NV6mHnmqehr6/omPjXMR5R1RnaUmased5tERz+4ZXZE6sxskq3FItG7kyZcPhEZE",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-iqn1PzuS2jmfx2KaUds34VPdzYFJp0YP/t33aUp3Z2rThbIy7oHCn794xp76Eq3n"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.1.1",
+          "integrity": {
+            "archive": "sha384-Xv3anZ1kabK5hHqnbdDDsx9SmrHK9eSzMiwDTbUcCSQ8MxEbe9i2zNKrkqnRMTQQ",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-YiNjXepf161foUVKd68wYN7uEafvnWVxrs3LNTTARQFh8qtdWloMuTN99N4Ee0Uu"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.1.0",
+          "integrity": {
+            "archive": "sha384-Ue66waoywrIg/GRyKh/aBfJZx8i8NqqSVVF7eHSzHqTQzal9S853va3UDlyGnltx",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-QaYqmv5DzTcsb/SDVmZpZQsMC3gFu2rwYFec7AMEqMXY8vselOWwdajOXw7jBPFE"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.0.0",
+          "integrity": {
+            "archive": "sha384-IQXTXAmaOU6xVIhZY+O2nyw9Z2l2JVcMvyA9daGpRuyQpK39u4+yVqLFGTDlFnU7",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-AEG2HN/lGxo8mm02uNDLdsqjiQfPqQv3It80OYml+SxlC5yEU34ZfNouuy6W5RAx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.2.1",
+          "integrity": {
+            "archive": "sha384-wE2MSOXq9qoMKl3pwqqouNL5/OSF+8BMPTSA4CAk122dBwx/+rCR8bNt9v/x4ucz",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-Jw2vQi98xMujxd7LzsdrS44cFvg6eBVlQeyQe0W/cSXzwDR+sql2kzy9Vc33GTP7"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.2.0",
+          "integrity": {
+            "archive": "sha384-MjIcNDcllaLSMzb99BJAwowQq8T00+tTFwz0xABbRAoX+c7cCtck7+UqixZLti6+",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-EFpI/syvSdkvvJzb1uhiiGofgWa1eGcnDdytptT8P3bNp0Lkx0b37FteVEPyyLJO"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.1.0",
+          "integrity": {
+            "archive": "sha384-FSEMtZBGwJ6escRMjaHKIPm69ns3wNjYTRFmMZWnSlMQ5hLfnf9mdX0BnYdxBL/T",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-Dd08YJOaEpbZJR5Nuk0ViwxhRS7OimMEFnW7rOcJLzAJMml6Km49oqazMXikXUfz"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.0",
+          "integrity": {
+            "archive": "sha384-EoUNTMJHQa8Tzm+a7Uf6HIMi+U6aroipjALbV/7we6Aiwe1Rzi8MSZDN7tRaomhR",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-sVdIh5G2gVW1KTkuttr8yhUOI8fEGSpn2hJ3C+YhyQU6OsLOh7eKcltTab5fsPaY"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.0.4",
+          "integrity": {
+            "archive": "sha384-Dct043yQCL6hCXRi9rNEzyqkEvYGu2hQQf4pE8t8r0iwJQtTdhYrP7oyKSe5O0mR",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-jYVhDSUMsgqvhKDCYD3tEYMlaC3VjphIjTYbRGpqxcg3Ei7oa+yczTlFk15c7EtZ"
+              }
+            ]
+          }
+        },
+        {
           "version": "1.1.2",
           "integrity": {
             "archive": "sha384-jYeggq6yZYhQ2zAJkhbYNR81dzTH2DmePBn1pgamb//UtUcMJpJuPc1u1jBk3EZ2",
             "file": [
-              {
-                "target": "aviutl_dark.exe.manifest",
-                "hash": "sha384-ZmLzdhiDpGEkMWRMvJOlwbsQXYJBFzk5SqKfSBTGO6NyGmtLtcLYQ1D8LW4EpSDW"
-              },
               {
                 "target": "plugins/DarkenWindow.aul",
                 "hash": "sha384-ZGqBxDYXqeo9+VrSGeq150A6ELmd9itFXYydu3oe7mz9C44s/rdm5ZwNdecr3RWr"

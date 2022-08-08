@@ -1487,11 +1487,233 @@
 				>sha384-jYeggq6yZYhQ2zAJkhbYNR81dzTH2DmePBn1pgamb//UtUcMJpJuPc1u1jBk3EZ2</archiveIntegrity>
 				<integrities>
 					<integrity
-						target="aviutl_dark.exe.manifest"
-					>sha384-ZmLzdhiDpGEkMWRMvJOlwbsQXYJBFzk5SqKfSBTGO6NyGmtLtcLYQ1D8LW4EpSDW</integrity>
-					<integrity
 						target="plugins/DarkenWindow.aul"
 					>sha384-ZGqBxDYXqeo9+VrSGeq150A6ELmd9itFXYydu3oe7mz9C44s/rdm5ZwNdecr3RWr</integrity>
+				</integrities>
+			</release>
+			<release version="2.0.4">
+				<archiveIntegrity
+				>sha384-Dct043yQCL6hCXRi9rNEzyqkEvYGu2hQQf4pE8t8r0iwJQtTdhYrP7oyKSe5O0mR</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-jYVhDSUMsgqvhKDCYD3tEYMlaC3VjphIjTYbRGpqxcg3Ei7oa+yczTlFk15c7EtZ</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.0">
+				<archiveIntegrity
+				>sha384-EoUNTMJHQa8Tzm+a7Uf6HIMi+U6aroipjALbV/7we6Aiwe1Rzi8MSZDN7tRaomhR</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-sVdIh5G2gVW1KTkuttr8yhUOI8fEGSpn2hJ3C+YhyQU6OsLOh7eKcltTab5fsPaY</integrity>
+				</integrities>
+			</release>
+			<release version="3.1.0">
+				<archiveIntegrity
+				>sha384-FSEMtZBGwJ6escRMjaHKIPm69ns3wNjYTRFmMZWnSlMQ5hLfnf9mdX0BnYdxBL/T</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-Dd08YJOaEpbZJR5Nuk0ViwxhRS7OimMEFnW7rOcJLzAJMml6Km49oqazMXikXUfz</integrity>
+				</integrities>
+			</release>
+			<release version="3.2.0">
+				<archiveIntegrity
+				>sha384-MjIcNDcllaLSMzb99BJAwowQq8T00+tTFwz0xABbRAoX+c7cCtck7+UqixZLti6+</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-EFpI/syvSdkvvJzb1uhiiGofgWa1eGcnDdytptT8P3bNp0Lkx0b37FteVEPyyLJO</integrity>
+				</integrities>
+			</release>
+			<release version="3.2.1">
+				<archiveIntegrity
+				>sha384-wE2MSOXq9qoMKl3pwqqouNL5/OSF+8BMPTSA4CAk122dBwx/+rCR8bNt9v/x4ucz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-Jw2vQi98xMujxd7LzsdrS44cFvg6eBVlQeyQe0W/cSXzwDR+sql2kzy9Vc33GTP7</integrity>
+				</integrities>
+			</release>
+			<release version="4.0.0">
+				<archiveIntegrity
+				>sha384-IQXTXAmaOU6xVIhZY+O2nyw9Z2l2JVcMvyA9daGpRuyQpK39u4+yVqLFGTDlFnU7</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-AEG2HN/lGxo8mm02uNDLdsqjiQfPqQv3It80OYml+SxlC5yEU34ZfNouuy6W5RAx</integrity>
+				</integrities>
+			</release>
+			<release version="4.1.0">
+				<archiveIntegrity
+				>sha384-Ue66waoywrIg/GRyKh/aBfJZx8i8NqqSVVF7eHSzHqTQzal9S853va3UDlyGnltx</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-QaYqmv5DzTcsb/SDVmZpZQsMC3gFu2rwYFec7AMEqMXY8vselOWwdajOXw7jBPFE</integrity>
+				</integrities>
+			</release>
+			<release version="4.1.1">
+				<archiveIntegrity
+				>sha384-Xv3anZ1kabK5hHqnbdDDsx9SmrHK9eSzMiwDTbUcCSQ8MxEbe9i2zNKrkqnRMTQQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-YiNjXepf161foUVKd68wYN7uEafvnWVxrs3LNTTARQFh8qtdWloMuTN99N4Ee0Uu</integrity>
+				</integrities>
+			</release>
+			<release version="4.2.0">
+				<archiveIntegrity
+				>sha384-NV6mHnmqehr6/omPjXMR5R1RnaUmased5tERz+4ZXZE6sxskq3FItG7kyZcPhEZE</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-iqn1PzuS2jmfx2KaUds34VPdzYFJp0YP/t33aUp3Z2rThbIy7oHCn794xp76Eq3n</integrity>
+				</integrities>
+			</release>
+			<release version="5.0.0">
+				<archiveIntegrity
+				>sha384-FGsijtOZcM8LsYp69vHYmK+o8uBaJX2bKxlPWcZyAqo4+jTbWWiluKtLI7jkDW9Q</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-c9GKzbdIMkR+Vr9Cgo3Br1p0a1xD09ttXXx1RI9u0/sCMj77z9FDPtr+bUOe5EMw</integrity>
+				</integrities>
+			</release>
+			<release version="5.1.0">
+				<archiveIntegrity
+				>sha384-mjB9uB/DpPz8uNkF4RQhi/s4cR1DUfOOXThLMW6+4xwduPehVG0EVFUEaUzNDwbA</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-QIgWJhzKje1DWU8xv6tCA0KDgJZ+eGRtSkWcHE+FIOna5ZM1y5ssQmNrnxUJlLsd</integrity>
+				</integrities>
+			</release>
+			<release version="5.2.0">
+				<archiveIntegrity
+				>sha384-WQG4KK7YFRsYnO2WdzDNIFI5inyMdc36zjnSnpzmDqlpFwHnPI+6O+Slwhg+ffRX</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-sCde0B5WLXxDLMTYaANS2Me0IET05SZw/xA0KhKiiL/ITELLiUCa6MYRJbHaSz2W</integrity>
+				</integrities>
+			</release>
+			<release version="5.3.0">
+				<archiveIntegrity
+				>sha384-IgzKAUM3ZhzaDdKpInTlEtutRyV+uNakt1Ij4kGtnATv/bfH7pQAuAToSAlKdQ53</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-tnxmWxfB/P6UaTgrAiLEhPmUkSCthBqtbKEFPIglWlYClZxub9Yz7zVUl6yDV5dk</integrity>
+				</integrities>
+			</release>
+			<release version="5.4.0">
+				<archiveIntegrity
+				>sha384-8GfZ3aeC5ZJxpfvEbxpZsFQHDlOcrPdjIeHaHz4yydk2tl9Prr2qllBdYa5lcUXd</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-tnxmWxfB/P6UaTgrAiLEhPmUkSCthBqtbKEFPIglWlYClZxub9Yz7zVUl6yDV5dk</integrity>
+				</integrities>
+			</release>
+			<release version="5.4.1">
+				<archiveIntegrity
+				>sha384-74QqSIOpGc5BTfaOkoQQu628xxfREJ3GL9SnCtV31nlOEaR0xYn7Gc88GiDDL8qt</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-JxaPtOdLt5ayhpk8n6sd+eNXYJRln0GnDKz0v39wB7zKrx5q6/EMuA3vDnXPXN9J</integrity>
+				</integrities>
+			</release>
+			<release version="5.4.2">
+				<archiveIntegrity
+				>sha384-k1cFmU3cN3W5gNS314SxGPa6cJHubna9LnpNzJKeSMS7qCea4oh5ZK6pfsSQo7lr</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-UH9VOa90fqbxl3E++vQYxk3HmcvdnHbgZHDmao8IedhgFO7JjXgIp3Kp1+2LB1Z4</integrity>
+				</integrities>
+			</release>
+			<release version="5.5.0">
+				<archiveIntegrity
+				>sha384-VuVlTlwLDbzUJTu/2A/3L2qZBPHSRUG6wyD/sy4ZCNWW08nba/8eAtmGOuSzDlHh</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-UH9VOa90fqbxl3E++vQYxk3HmcvdnHbgZHDmao8IedhgFO7JjXgIp3Kp1+2LB1Z4</integrity>
+				</integrities>
+			</release>
+			<release version="6.0.0">
+				<archiveIntegrity
+				>sha384-n5b2PlXxTKP6WG/wSGkDX1CtSHeSY653bcQH/4FGN/FhM1YwiF0M84PQGYxq6ucS</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-Il6qqO2CPZW0qMGROamQvG+hpfHxTGrzLPPNuOz+TPfDEhTyFclr1mUwkCC9aFYt</integrity>
+				</integrities>
+			</release>
+			<release version="6.1.0">
+				<archiveIntegrity
+				>sha384-dBDTaxZOp+uQZxlkNFAkwnPVG9xJgMBnMIuZClEhKaHKV+q2Adqcbw/x2J0TM2Um</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-0MAzoX+A1Q8yZg5vrx80ZhyDGmBPGGPVz20ts9pKl1yds6NSlZMzmgcMeY9xzMnn</integrity>
+				</integrities>
+			</release>
+			<release version="6.1.1">
+				<archiveIntegrity
+				>sha384-RHfrEW7SPOxDqCVIlMdTDFu1PkM9+OnK61YyttzN6KGYoiTCRvtacMmCPumnuFz1</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-azg2v4PoFmzI3GmlAOCXOz/N+OCXNpwYW/+0be4E/JlJVqnbigr0+T9fvrh1Cr65</integrity>
+				</integrities>
+			</release>
+			<release version="6.1.2">
+				<archiveIntegrity
+				>sha384-o0rrH/RLxt+VI2FLt+nc9ziX9umYGa+IGIQaU2h1K0O55qscx4SWbb6LypjID6Z8</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-guhUUBRWZ/gUzos1WzSh+mnLjw28NUhXWlGA9zxBsi2gC6tXxB4VVPkqHzEv7t9T</integrity>
+				</integrities>
+			</release>
+			<release version="6.1.3">
+				<archiveIntegrity
+				>sha384-dQKI2eiKGjip5lg1nEUXW6i5+5wHZu9QGHSSWty7+ExmFqcevZKeUiajd4aiKehp</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-F5Nc3trbnfIcDxt8MjWjBvD563cC3l3UgAPPHaXJH0+6WKsndcSPGUiIOUa6jesY</integrity>
+				</integrities>
+			</release>
+			<release version="6.2.0">
+				<archiveIntegrity
+				>sha384-o3LnCBXbsCG/eIc5TJT9ioMxhSl+nZ+FLWWlp+O+aBZCUm90eFK/Fe7v79I2QfqQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-S8rTJyc20ETFQ2JNFqTMefXtG6jEodgtbFdiqaeMgNV+WfdPYvoFgvM4QL8A4ZG4</integrity>
+				</integrities>
+			</release>
+			<release version="6.2.1">
+				<archiveIntegrity
+				>sha384-vXt9a02oZWghVrifv/ozzk7T3NxfepAi1bTCuNdKMD8AN7T5K1CkXY9nB4PaZjH4</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-YwBWyHTYmI+ngnr+Yb/Pgh53TGDBRYl+BdWliikDv0+1wX+9rVO1tGHGPGYpQid6</integrity>
+				</integrities>
+			</release>
+			<release version="6.2.2">
+				<archiveIntegrity
+				>sha384-PWdhdi7YHWIDtrecEGO893vollJozB8w44BH0uUA84ZNbUGo6GaTKVTPf9V3A6Pz</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-DDQcKUbxIP46YAiS1SKH0lvahq/+84O8dvPovofYQ85BHNqS7IN7uUN8tuLYoemD</integrity>
 				</integrities>
 			</release>
 			<release version="6.3.0">
@@ -1530,6 +1752,15 @@
 					>sha384-KCyOLnJviw9HGC4cXs3lf3fgFPwDDXxgofp07Lb43uLGwBpt+hHjD/f1Hznr5UZO</integrity>
 				</integrities>
 			</release>
+			<release version="6.5.2">
+				<archiveIntegrity
+				>sha384-T+bMrR7kmaZ8qtjHWZEBLq5mZPPLC+fvk97pTDtht3XinRREVtREDlPlOUuxJaoQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-YUkAf1w5BRBIAcs+bkROQkIXgWCXHHU/yoUEqxrLwLZDHB/jbYHLH0Fu1OruJJPN</integrity>
+				</integrities>
+			</release>
 			<release version="6.5.3">
 				<archiveIntegrity
 				>sha384-4EV1Gp/tpPgWvO0mniY/Zxc0QrDcusYfWCJ0SFklpIt+c1kv8oAup9jT4Z73LS9C</archiveIntegrity>
@@ -1564,6 +1795,15 @@
 					<integrity
 						target="plugins/DarkenWindow.aul"
 					>sha384-DeWKBm3mWqGsLDj9Ej+MqefITuV+HFdx8xK8xhtemp7LxpHs+AOr0Vi8f8g7qTEt</integrity>
+				</integrities>
+			</release>
+			<release version="6.5.7">
+				<archiveIntegrity
+				>sha384-WarEU1aJxsme1Iyc8Xk8x1TqZbov+R46Y3KDbjfXgeCp3X1ttvw17hjXqD2HPJ+j</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-ClzYW+X/De1wBb5sjhZ7vnLn+ZQ2TzMUnAToZBUc2is0unVjYy3XnpFkMyzLsumJ</integrity>
 				</integrities>
 			</release>
 			<release version="6.6.0">

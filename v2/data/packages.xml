@@ -6781,6 +6781,17 @@
 		<files>
 			<file archivePath="SigColorFastAviUtl/">SigColorFastAviUtl.auf</file>
 		</files>
+		<releases>
+			<release version="1.0.0">
+				<archiveIntegrity
+				>sha384-WvcdxcG5Zng9dvtD30/hmvQbBwLpWhgXXTk7l3Xo3UW2/xqX9+bmB0qtSf/4QhxZ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="SigColorFastAviUtl.auf"
+					>sha384-LJ0USQIgiXWcN/qpFAfRiefmbI974ZfOnUSjAK7Rc5mGIrK20PDr5vikXHV29+8O</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<!-- さつき ID:satsuki -->

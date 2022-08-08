@@ -6529,6 +6529,15 @@
 			<file directory="true">textmodule</file>
 		</files>
 		<releases>
+			<release version="1.2.2">
+				<archiveIntegrity
+				>sha384-LgOYbn38El7a+BfceCe3xj7kGKYRvxLYrwL+/rhIHAQ2/0lZMwgR3mfE7jXfZ3zp</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="textmodule.dll"
+					>sha384-snFWx3pP01Vi4XPQNmhXdsNNXBOGegkPjSBsUAVfuIQJxF9O5k7c1VQl636rAlsM</integrity>
+				</integrities>
+			</release>
 			<release version="1.2.3">
 				<archiveIntegrity
 				>sha384-eOpfab6KSI3sNQxFLQD3uhNHE1AklcEs/nYpGvM+TVp1O6Kto7olV2zLUPvxhccn</archiveIntegrity>

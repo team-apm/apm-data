@@ -1420,7 +1420,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform#readme</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest</downloadURL>
-		<latestVersion>2.2.0</latestVersion>
+		<latestVersion>2.3.0</latestVersion>
 		<files>
 			<file>plugins/ShowWaveform.auf</file>
 			<file>plugins/ShowWaveform.ini</file>
@@ -1448,6 +1448,18 @@
 					<integrity
 						target="plugins/ShowWaveform.ini"
 					>sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB</integrity>
+				</integrities>
+			</release>
+			<release version="2.3.0">
+				<archiveIntegrity
+				>sha384-M9jcnNKLy6/49led5TkiRsLGSIKtb8MijTqED6LWT5A1PATOaaZP/KfSzTXlXIPa</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ShowWaveform.auf"
+					>sha384-uEzIvRD9KKoWwUHkm3x+p1G19WddvY2VjDRN0F7EHFiZIaGBkZQXoEx+9+yvRWma</integrity>
+					<integrity
+						target="plugins/ShowWaveform.ini"
+					>sha384-CskzSGzgG9Uzz66fvBxyl4FTTHXZPCKRglPlGJKPSd+0EKxvUEZKgjsMEZjIfq0f</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -3036,7 +3048,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
-		<latestVersion>7.07</latestVersion>
+		<latestVersion>7.08</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/QSVEnc.auo</file>
 			<file archivePath="plugins">plugins/QSVEnc.ini</file>
@@ -3117,6 +3129,15 @@
 					<integrity
 						target="plugins/QSVEnc.auo"
 					>sha384-KnvrLHc02hU3of+PXP0UocvVdZMEydKC55RQKVlwmR6D4MHwPjFT6ylmUpTMLpb2</integrity>
+				</integrities>
+			</release>
+			<release version="7.08">
+				<archiveIntegrity
+				>sha384-Os6a+d3MEyC1MLCJx+XGssqdLFEd2n6rEz5agFveDN+MNzgjX/MUas3rcZfTNKd7</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-qmIggpfBoBGsnCbkMDwlK+jRQTZUBrTBoXhAExF9KzVN6wUBjeOSgPsP9NM01Avn</integrity>
 				</integrities>
 			</release>
 		</releases>

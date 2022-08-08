@@ -4815,6 +4815,318 @@
       ],
       "releases": [
         {
+          "version": "v0.2.0beta62",
+          "integrity": {
+            "archive": "sha384-qiLIsXUKqCxJjCC/+GA+kLYyEOSAl427vs4pjtBdARE2e+bAHawgPEBz39FOlqp1",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-Agi5Hiff3tnZy8CDqXPHJFiKpdjuMWlMG4DkLqAwK6m/OLewtbtsx2A5F94ReHlf"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-bNICs2YpM5haJMJN23o4XjsMGCCYP3U3nbC2AMPdvlYkpDXjxq95IENTmDwLr95i"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-LB9aQUOuLTIWKszShqN9DFXHcMDLo6Ox5Frt0KayFE779hKvy24gMllQY183uV1c"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.0beta61",
+          "integrity": {
+            "archive": "sha384-3elFAZSItcNDkH0mbcd2ctpZ8De9srEWgaRa5LHCQkqJp65lyTXsZkmGcbtjEuOd",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-YmrY/Z8BUm9p/jIKUuPHvPQe9TYUZOp26FLQe/ddSindz3qIaeGew0dwm/o1NJSh"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-qKcVHOw2M7iRgfuhFhUr0QZ0BFVr4PqzJtaTLoYUVPB79tDGw2Vc+nYVrFxezAhc"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-LB9aQUOuLTIWKszShqN9DFXHcMDLo6Ox5Frt0KayFE779hKvy24gMllQY183uV1c"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.0beta60",
+          "integrity": {
+            "archive": "sha384-KBIRuRmcNfpFN1L0WgkD6Qx64wJn+Zq3c3cpbw2pc8rEzW2RyOLgUxtIuiy7lz7V",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-L7WiIIWm4F5BDwyiiXW+8DzfriH9S93BFtOtYMZWYGrqPq51F7OuUp/oAoXecRMH"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-qKcVHOw2M7iRgfuhFhUr0QZ0BFVr4PqzJtaTLoYUVPB79tDGw2Vc+nYVrFxezAhc"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-DT+3yCobV1bBqVxYCggi8EuEKOrtXLJMM8fKZDlFEOqdwQetB1WPlmeqfRpxIZvg"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.0beta59",
+          "integrity": {
+            "archive": "sha384-0wpZm53tZya5uhu1UInbQcGsTBg3Gu5NajWyQ057jJe766tujddt00J/w+OIoT/k",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-bSjgkyiVmKsluJiCEKt1HKj65UAVx8FIhzNKH+KBU8mk4bjWkfRn0ZqMaMiWIIbo"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-qKcVHOw2M7iRgfuhFhUr0QZ0BFVr4PqzJtaTLoYUVPB79tDGw2Vc+nYVrFxezAhc"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-DT+3yCobV1bBqVxYCggi8EuEKOrtXLJMM8fKZDlFEOqdwQetB1WPlmeqfRpxIZvg"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.0beta58",
+          "integrity": {
+            "archive": "sha384-k8RgSA61BWwD26IFSr6iXjYppmjHKxBd7HjdtB2mdeMrVg24BqmDzBjzWUMosY+u",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-+CI8ysB2jwZY1NFpNCbEBkZZtTlyV/jS4lnEyYYypBcRBGxEuZ3F80XcQoxVdm2s"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-qKcVHOw2M7iRgfuhFhUr0QZ0BFVr4PqzJtaTLoYUVPB79tDGw2Vc+nYVrFxezAhc"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-dtY8ZjoEH3NxgFFILPZjHIKgqo4rjV8ZbHub4qdWXsDB0CaO1PmTcsU3PuEUZRN8"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.0beta57",
+          "integrity": {
+            "archive": "sha384-ygxauGJ8BeOznbYPYYDaxcFBKFwVkAs4YKY7tZ+km2vtcDYnqp8LdY1400nMcBq6",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-H3InzuBgjkmtTfWEx2rSzQAURak/mg6ms745o7DTjP/tdN0YRHgWBlbBSwlRCnX9"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-qKcVHOw2M7iRgfuhFhUr0QZ0BFVr4PqzJtaTLoYUVPB79tDGw2Vc+nYVrFxezAhc"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-dtY8ZjoEH3NxgFFILPZjHIKgqo4rjV8ZbHub4qdWXsDB0CaO1PmTcsU3PuEUZRN8"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
           "version": "v0.2beta56",
           "integrity": {
             "archive": "sha384-bBzTq2Mp+Vnp8ZDsgKCAmJ77yMas3kzP1RxzJr5kP/DqNl1tldVQaCEiTZiL4CW2",
@@ -4858,6 +5170,318 @@
               {
                 "target": "script/CacheText.lua",
                 "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2beta55",
+          "integrity": {
+            "archive": "sha384-yR/b6O/IP9ruzC191W9K0GaA5wjmUHm2kaIhw8vQrPC7uvNo7TLuOQdDbPozqvso",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-E+K9nG/VSWcvwDYJcZkcqHJ9G+xNDUMzV0C45O1Qnfl+2Osf/uHLuhin6LR1im9V"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-FK/RSlMdH1gctsuOmzVhl/DPwiuaZsk3TDvNU6UexknKiSCXSMvE6bTzcaKYjaxx"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-yliKW077iF+UXevk5+1CDd+HkKeQWYTw2TxNNlWSTM/9AdyCx/VHc17lFxgE9Len"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2beta54",
+          "integrity": {
+            "archive": "sha384-SyoVdnKaDwWtOKXWhm8exIzsEJhP3slSZ/amOugFz3rVGpEP+g0snbnR6VlGRTHk",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-Gdp1P+gLtDzKJCMN4rcEPcrK87SVHJuhuCpR/tOvobYudWIKZ/QAQkUBkZmnwmxN"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-DD7gfPIeBXpHXqDaC1GbzUL4oH9f6UgUxe52xxSPQmIjgj1iN+tYIkvWXMGjD/IP"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-yliKW077iF+UXevk5+1CDd+HkKeQWYTw2TxNNlWSTM/9AdyCx/VHc17lFxgE9Len"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2beta53",
+          "integrity": {
+            "archive": "sha384-hTJ5oaHzxmk7pTUiZkO810xjoOnWWccHlmXD8QwhrlR1QFVdwdxbsKbt5c7S2+VL",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-cCP1EH6tda+tYuX6GI9u4IlvgDSNQ0/ZTcU7VOCAVm9lvwBCrns2hlRvqK9pdM9T"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-h4tIs5qP0fK6pAd5ydRzLG68/6PhoL9Y56pcF7aUmu8dv+vPpdj6VWwuyqNEcEKM"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-yliKW077iF+UXevk5+1CDd+HkKeQWYTw2TxNNlWSTM/9AdyCx/VHc17lFxgE9Len"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2beta52",
+          "integrity": {
+            "archive": "sha384-RhPi10QEUtSi1eABUMLWGx8aXXTavGysjpfRI22jHV44J3wkNDmO2GgiHux2muW1",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-F2S5NdugYSIeuxCosvV8gN8+EEkPtXlG8eZ9cUGO47vLzhEwKqEeknevydOc9ia5"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-N7293mqrf/iRhcGOve9DJUOirXNzFE6/JM2GWO5RXH79L7aOXrOPiOSLZ6bt+zw/"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-PRb/2oyruYUMoBSkZAP0c01k5s+Be5x0gWPOwAh7I0I6zfBNlU+MMOxfJNvg2Cn9"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2beta51",
+          "integrity": {
+            "archive": "sha384-YK3gFs/ney0cxuYI1X+w8jDhzo26eq2RFIYFWLoctPPZaO+hBgbUeQcOERpRzHqB",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-HGnS6v99F4y6YqU76hZYAsOThbCjHP/N5Ba8dVAO1b4R9f+I/i9kshtxhvYmX+Qa"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-TrHrnDF+y8lvb5vNRA1M3EeldcDt+2pPscfD/0EK1WXdnRV19hRbwJK7NTb1irqy"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-PRb/2oyruYUMoBSkZAP0c01k5s+Be5x0gWPOwAh7I0I6zfBNlU+MMOxfJNvg2Cn9"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-fC1iQK2BDPJ6zszrsGOJxeYww0YiW6JnqTmjn2Mw1mQb0vJBCbJjyTKxx11yYTb9"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-6Z4jJlbf9XjV7dGtrZRPv1PzoGJvcH8y+T5BcoFpwct/FpUDJtL6T0VQvrkq3CkU"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-Q5seW/alhy+c/WJsWtn0nw2x3b7hr2wL5xSZ8JHgd9U+xphIgUVlDXopq8lVYAnZ"
+              },
+              {
+                "target": "script/PSDToolKit.lua",
+                "hash": "sha384-b8HtzFRUqvsTTQHpvfmcG68UYcsw/72d3FL3oHVdNATKiazsxWQoZyFRYeQEXvpx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2beta50",
+          "integrity": {
+            "archive": "sha384-Er9RbVOiThisM6lMFczVaHxN0IwZRb9SSroFGo5NnmAOTCaQzzQkq08E2XBl2l+b",
+            "file": [
+              {
+                "target": "PSDToolKit.auf",
+                "hash": "sha384-snOvoFzgks6Qd8yL7eY6uWuDC2HTGsF7gH/UMOuyum6ptl5VZ5r3pDkuy7tk+X18"
+              },
+              {
+                "target": "AudioMixer.auf",
+                "hash": "sha384-bX7kk33L1QObLd0q+OkNkELOVLVyM8XmjqVDNlaNX4q1uv9prjoRigUXVHOnpFvh"
+              },
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-PRb/2oyruYUMoBSkZAP0c01k5s+Be5x0gWPOwAh7I0I6zfBNlU+MMOxfJNvg2Cn9"
+              },
+              {
+                "target": "ZRamPreview.auf",
+                "hash": "sha384-JMuIrlKz0EYfr4DhOBD8IdpeR8LPLlDSnWCJEZ5TmCp1Si/eucxqODgxlgj9gjvD"
+              },
+              {
+                "target": "ZRamPreview.auo",
+                "hash": "sha384-GZ0smPTeiasqYnd9jOFWYJaXh0Ddk4mm2xpboum9M0X/uUUEf3TXhm/Hr9rh+CSl"
+              },
+              {
+                "target": "ZRamPreview.exe",
+                "hash": "sha384-+YG8xNcshj9Ya9xEf9AVcO/ANc8Wk1YilskVkFS5I4//TakLwBmLBwSYfgFmAiDj"
+              },
+              {
+                "target": "キャッシュテキスト.exa",
+                "hash": "sha384-I5R+bIQHCYFev8MKMH/QazaFQDv6Kyp+M582QR5HjoAsYDijA/g+rHJ2R3oAHZww"
+              },
+              {
+                "target": "script/Extram.dll",
+                "hash": "sha384-k6Cc43ADV131Qy+vshk0pu7JSCbCMLt6XgiHzRLdEbwevq05rx7RBO49WG6R+9vU"
+              },
+              {
+                "target": "script/CacheText.anm",
+                "hash": "sha384-0YYzNCpJtWJiWO/7mIhn8jsetCYK/bsGNeZGQ54uSvtsE9EIYiheMf6MFZNCSJTZ"
+              },
+              {
+                "target": "script/CacheText.lua",
+                "hash": "sha384-i2Opzn+QB+TH8B8of6r6aLHkVcgRQuxDem0yKDJzJQ7QkZQt4mHwyxOwKJ8XOsRx"
               },
               {
                 "target": "script/PSDToolKit.lua",

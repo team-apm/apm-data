@@ -26,6 +26,7 @@
   "oov/GCMZDrops": "gcmzdrops_v[0-9\\.]+(beta[0-9]+)?",
   "oov/bridge": "aviutl_bridge_v[0-9\\.]+",
   "oov/prima": "aviutl_prima_v[0-9\\.]+",
+  "oov/PSDToolKit": "psdtoolkit_v[0-9\\.]+(beta[0-9]+)?",
   "oov/RelMovieHandle": "relmoviehandle_v[0-9\\.]+",
   "oov/textassist": "aviutl_textassist_v[0-9\\.]+",
   "rigaya/ffmpegOut": "ffmpegOut_[0-9\\.]+",

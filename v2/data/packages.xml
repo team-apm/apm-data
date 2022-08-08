@@ -5656,6 +5656,51 @@
 					>sha384-grUy4QgOBHxblkxgnkHGXiyYbLjJjMyXgny4jrGN81vCzX/Fdvuwe8C2np2nsZGQ</integrity>
 				</integrities>
 			</release>
+			<release version="3.00">
+				<archiveIntegrity
+				>sha384-g7Wf30OlG0gXfCtv7C8VMvIVedToSOqnTFO6t1n8BfkA8/M9Rz12s1VY00ks5BD/</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-Uw+14A03o0WDfxWhWDEyGi627rq8kS423y1JUT1pT1979LlpQs4yOKOThVHwintE</integrity>
+				</integrities>
+			</release>
+			<release version="3.01">
+				<archiveIntegrity
+				>sha384-Gi7RkmZIG7j3Fo6zk0Y/1fqFKdJwlsae+q3+PgNIoT2eX2qmODTMUU981CPZVbNn</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-b9k2wvfStnxgu7Up+Pbq8zP1YoYja4to5zK9QebHZr736YI/9YITYrbHHKANFdRe</integrity>
+				</integrities>
+			</release>
+			<release version="3.02">
+				<archiveIntegrity
+				>sha384-WxeCJi0jZjm2I5sRMYianpx624uqJk3GRI7mZ1yXN94adsOXgNs9SBAMaF4KOlpi</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-QejRMk50Mcl1RxNQ9s41Z94tOeO9/QD6ARYd39JwBqickxZNFSBaxh11SB9vZJbS</integrity>
+				</integrities>
+			</release>
+			<release version="3.03">
+				<archiveIntegrity
+				>sha384-42QMqkNYhMetIE9Ftmx3g7/OSz8JFfYSebDkDc0iTboO/G5cGYmbOh7LR3Z0pB8M</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-ZkJcYoMA+OuJRIh6EoerJlpnfhttpOs8tQmdUTkmPkxeROfmSygrq4ZVRa4767lf</integrity>
+				</integrities>
+			</release>
+			<release version="3.04">
+				<archiveIntegrity
+				>sha384-tyOQZQ03tSTEcSbuXk/urpv1mRsY9R/+TXu2wMfXtKChKzpJcivekrVifvkmq4hJ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-kcwH1qnro4aSD1Op5gt66PKKH499QZ0b7i7SZhxAgjTMsHh23HnVu/Va5YkNNzvm</integrity>
+				</integrities>
+			</release>
 			<release version="3.05">
 				<archiveIntegrity
 				>sha384-bYoAdHLaf+q1m773ViDztm1dwGSA/xom6glR9fffy0oOOODyqCgYDcmyM7ufD6oF</archiveIntegrity>
@@ -5663,6 +5708,60 @@
 					<integrity
 						target="plugins/x264guiEx.auo"
 					>sha384-SsxtQ5w05TZFi+d3Hz0DEM0bx5NQK9B94IcrOstg4bqBXRbzU3bBzdci6Ism2owx</integrity>
+				</integrities>
+			</release>
+			<release version="3.06">
+				<archiveIntegrity
+				>sha384-EalrRSDX62QSY56DSRIawe19j2EfHULj5HdwTYGVM8F/V5dfiRfAr2yKd4umMl79</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-OtNWrLqSpLEjsngdx0CLuZw03oEcyXPjeyVy4nRQML0MQI7kjtw7XpTs3fsGjBck</integrity>
+				</integrities>
+			</release>
+			<release version="3.07">
+				<archiveIntegrity
+				>sha384-mQXzsmjZ6ZdR5GWTWHNthMuMoAc6KNLaN63PAOjNHG4s7NGcHyl2Jq+Yu7wIc53C</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-qy4jpe7MplFYcVvSBdytbGIbZy/4Jf2duLlzJ5cSYTPLRXRQbZWH98KAmvrNF62f</integrity>
+				</integrities>
+			</release>
+			<release version="3.08">
+				<archiveIntegrity
+				>sha384-Z5AFRNKo2IJDVMZ1H1RmUc9VYwdWd4lC8xd4F4XJf2XFwXZKcA+Ynh0ZaGzWJ5u4</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-nfGzuxi3vaQOow8ced2ujIhtRFdve4DVEHFAAr3YkHgGEFuMVhnWsYzXIbJQam4J</integrity>
+				</integrities>
+			</release>
+			<release version="3.09">
+				<archiveIntegrity
+				>sha384-is7i0ZnnmWtXUOmWD7aPzhnJUpwX0CZIbC0rLmi0Eobb2MZEFKC5mQQJEq24AR1b</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-i3PL3Y0s5LnLpBb4frDeEkMjiYdK9PY6IGkOgrJVWsLNx8X1DFAOYnmUvwx6xPwh</integrity>
+				</integrities>
+			</release>
+			<release version="3.10">
+				<archiveIntegrity
+				>sha384-IPW/Abvum089vC9ZQVxlQwNGVhHhacmVIhGC1s/QJF/9MX/elpHYppQVlvpXK/x6</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-edxoY0w//MFy7Ydg3Gik6rSF2XRLOh0KE1jcC6T8yVYqoClhedrPxE7RQZ9PEGsm</integrity>
+				</integrities>
+			</release>
+			<release version="3.11">
+				<archiveIntegrity
+				>sha384-CqajQHHKM/NmScGbMMR2i469G1ybRbRXhs2WWIFqy7sU7c821auiXjPYhjEy3Jks</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-6AkrGJ4rFx4/0KCTyZhk1aX+jSed6D2fndYHiqiIghM68weOz3iITzEM9rtPyi7G</integrity>
 				</integrities>
 			</release>
 			<release version="3.12">

@@ -3312,6 +3312,18 @@
           }
         },
         {
+          "version": "v0.2.0",
+          "integrity": {
+            "archive": "sha384-leaAx7/D9ewe2vqE3dwC9ZyxwKc2J7jr7WK9wcWdA9LOHN0i6n6W96BHuQWdb7R3",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-yHabypMNaAmY+nS4Jw/+t0D9xluCPOodXrFcBVOOA5otytMEz9n5TejcrBrQFSJr"
+              }
+            ]
+          }
+        },
+        {
           "version": "v0.1.0",
           "integrity": {
             "archive": "sha384-fcerL9dZNDObOM+U1IRXOY+cUOijqbOxIl37nUhwLqLAK+yW2NhbY7pFhMxhdrx8",

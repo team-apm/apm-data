@@ -2899,6 +2899,15 @@
 					>sha384-BAeuliq8jhmSJK3sMc+NzTeZhyyo+moZkl+06N1AiXGOO5l8IHD+gDbkw2RC3ums</integrity>
 				</integrities>
 			</release>
+			<release version="v0.2.0">
+				<archiveIntegrity
+				>sha384-leaAx7/D9ewe2vqE3dwC9ZyxwKc2J7jr7WK9wcWdA9LOHN0i6n6W96BHuQWdb7R3</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/ShowLimit.auf"
+					>sha384-yHabypMNaAmY+nS4Jw/+t0D9xluCPOodXrFcBVOOA5otytMEz9n5TejcrBrQFSJr</integrity>
+				</integrities>
+			</release>
 			<release version="v0.2.1">
 				<archiveIntegrity
 				>sha384-XZrP9sNNBgzC2SWfisuCB5uLsTuSLxVcfZc0vOJ+MeFQ0iVVoMTah+cBbuv5+V2l</archiveIntegrity>

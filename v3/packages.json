@@ -4766,7 +4766,21 @@
       "pageURL": "https://github.com/oov/aviutl_prima",
       "downloadURLs": ["https://github.com/oov/aviutl_prima/releases/latest"],
       "latestVersion": "v0.1",
-      "files": [{ "filename": "prima.aui" }]
+      "files": [{ "filename": "prima.aui" }],
+      "releases": [
+        {
+          "version": "v0.1",
+          "integrity": {
+            "archive": "sha384-VMwnNzDguYIefiRDh0yASY5iQ0u8E4W8/InmepnsenBWLrj1ARuIYpcc9DBC8XPf",
+            "file": [
+              {
+                "target": "prima.aui",
+                "hash": "sha384-L2Dj2rkqxv2UMIvnhlSx33szBGK566GVGOSFCd7Bnob9HyNaLZkt2Pf1a815IkaB"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "oov/PSDToolKit",

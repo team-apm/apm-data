@@ -4132,6 +4132,17 @@
 		<files>
 			<file>prima.aui</file>
 		</files>
+		<releases>
+			<release version="v0.1">
+				<archiveIntegrity
+				>sha384-VMwnNzDguYIefiRDh0yASY5iQ0u8E4W8/InmepnsenBWLrj1ARuIYpcc9DBC8XPf</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="prima.aui"
+					>sha384-L2Dj2rkqxv2UMIvnhlSx33szBGK566GVGOSFCd7Bnob9HyNaLZkt2Pf1a815IkaB</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

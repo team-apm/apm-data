@@ -6349,6 +6349,18 @@
           }
         },
         {
+          "version": "7.00",
+          "integrity": {
+            "archive": "sha384-FZNQED39/AYxu+9txQDBUqacohZxvlMiSO+2i/eaCROO/Tvwey7AwYWbG9KX4ENh",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-HjXxDS29noUJMEkb0wR8aRFda7LgwDDn1npHe13peYagNrZri9LuKFUfdB96DPiy"
+              }
+            ]
+          }
+        },
+        {
           "version": "6.08",
           "integrity": {
             "archive": "sha384-5FMrX54f6s1eThdjN80tLgyxjQPTGR7JMB/mbiBqOTMgID30hKF2RV4PWY6OAARz",

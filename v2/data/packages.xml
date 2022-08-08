@@ -5277,6 +5277,15 @@
 					>sha384-0CPgLel6+2S9RQKc+KlDi8KletchmooZURxqvW10HMgaGaHtWcAQnlVJFvE0C492</integrity>
 				</integrities>
 			</release>
+			<release version="7.00">
+				<archiveIntegrity
+				>sha384-FZNQED39/AYxu+9txQDBUqacohZxvlMiSO+2i/eaCROO/Tvwey7AwYWbG9KX4ENh</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-HjXxDS29noUJMEkb0wR8aRFda7LgwDDn1npHe13peYagNrZri9LuKFUfdB96DPiy</integrity>
+				</integrities>
+			</release>
 			<release version="7.01">
 				<archiveIntegrity
 				>sha384-C9yVRBCKrJrXZMffnO0KmncUIsnIEQfGb9w3/pHHc17wGCMvfzYPcwbPwlT2AERR</archiveIntegrity>

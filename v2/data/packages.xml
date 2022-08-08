@@ -4082,6 +4082,26 @@
 		<files>
 			<file>bridge.dll</file>
 		</files>
+		<releases>
+			<release version="v0.13">
+				<archiveIntegrity
+				>sha384-ctbtwlj/LWdgUPTebvTPXw27GSlf1av1VgTIcQ0jdKWq0xil2B8JxGDk0JYMz4Ak</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="bridge.dll"
+					>sha384-sroOD6MUty/pSAsv66c9Q8iIH0CFr2uHaD3djL18AhsWvtOfjI1fZxDcKPQap6Ph</integrity>
+				</integrities>
+			</release>
+			<release version="v0.14.0">
+				<archiveIntegrity
+				>sha384-1m4f3/cUkN2QaUjDhrgeajaA/Q1ucT/kS2EyZkXPNrystRr4ndCqmlRgrfvG+Mnd</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="bridge.dll"
+					>sha384-/C2QYLXsqWYpGSufI78N+dAwtOqjUsA79VL5gWQGtcBQFopiWBPjF97gLHqWisp3</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

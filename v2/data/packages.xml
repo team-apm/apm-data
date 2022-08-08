@@ -3564,6 +3564,20 @@
 				archivePath="script/browser/contents"
 			>script/browser/contents/マイクラスキン.abc</file>
 		</files>
+		<releases>
+			<release version="v1.0">
+				<archiveIntegrity
+				>sha384-xo7xw1Ps6sfp7hd7cAaSWdu2IVFzErwoPf9GKzY0IHqg6IrXIdtq+jY09S5lBeqM</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="script/browser/@マイクラスキン.anm"
+					>sha384-C1rfgmQDr/3t6+P5tnJufs8MRbPz8ArKKW3LLrDgvEEfpm6ZCaLFjT4DXc/XpOmf</integrity>
+					<integrity
+						target="script/browser/@マイクラスキン.obj"
+					>sha384-zhkobUsdgjcPDkVMcmNU05oG1kuf7Ch4ksmuJudJEkl1A3jbrPTktrF9lwEyBcdv</integrity>
+				</integrities>
+			</release>
+		</releases>
 	</package>
 
 	<package>

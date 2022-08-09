@@ -2366,10 +2366,6 @@
               {
                 "target": "plugins/ShowWaveform.auf",
                 "hash": "sha384-uEzIvRD9KKoWwUHkm3x+p1G19WddvY2VjDRN0F7EHFiZIaGBkZQXoEx+9+yvRWma"
-              },
-              {
-                "target": "plugins/ShowWaveform.ini",
-                "hash": "sha384-CskzSGzgG9Uzz66fvBxyl4FTTHXZPCKRglPlGJKPSd+0EKxvUEZKgjsMEZjIfq0f"
               }
             ]
           }
@@ -2382,10 +2378,6 @@
               {
                 "target": "plugins/ShowWaveform.auf",
                 "hash": "sha384-yfX613MNEGP8R3gW91mdUO3nnJy4tp6QynOSAtDFpRDwj9+aBiw1CSa7Ih0Ovqdv"
-              },
-              {
-                "target": "plugins/ShowWaveform.ini",
-                "hash": "sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB"
               }
             ]
           }
@@ -2398,10 +2390,42 @@
               {
                 "target": "plugins/ShowWaveform.auf",
                 "hash": "sha384-6eh8NrzZzmGcZTgQiPJzqVY1AtJ5ppmU9W0H2CnRZLGyvaWrGOfrkkJIKTWmJfVH"
-              },
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.0.0",
+          "integrity": {
+            "archive": "sha384-lqqTqRZoZCcgjiMQKFNwE03kDH+jbiY2mNX7zGs365KbstssoIMmpeGhUjcvsQoJ",
+            "file": [
               {
-                "target": "plugins/ShowWaveform.ini",
-                "hash": "sha384-B7Ka/iYsdSLPL3Et5NQdF24eesCJq2LQ3M+RsGehZPg58sC0Lr47Uii+Rfq60qSB"
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-euxIP3xaVSWkiL2ujV55yFDHChW7LjH8wYxHQzL0UEYyVLoxX02E821PdSM7cD3L"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.1",
+          "integrity": {
+            "archive": "sha384-suQX2aJdmVCoWhoFIaNG0P8+C1uwGuW1z3R4I9yQRMNWT5d0PzyJcbCiiveL/zmH",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-GOSiwfpxgtO2EgvaevFJXNKxQJhefjLmiOP5SEeSD3twK039uRuS3dY1IXeHtxJl"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0.0",
+          "integrity": {
+            "archive": "sha384-RubAM8HLXEgC9l7GWIDXAzCU4SauEFWSZzYVO6TMw+IWTvtESVBFmHRsdcVakDFP",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-gH1I7KSHrRVhyYGzANetaWDGbl+v54qqMx2HX8kBIMNqxooef8VcgcIi0swj0GJX"
               }
             ]
           }

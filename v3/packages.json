@@ -3166,7 +3166,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "6.06",
+      "latestVersion": "6.07",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -3193,6 +3193,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "6.07",
+          "integrity": {
+            "archive": "sha384-xZ7+2QO2NdKTtCB9zIWH7VsCA/GqfZBdR1+rLUP72R+rMtN0oAyACtFaMjAfsAZW",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-4og63jP8DY5/+bsChZ976k5sNZlREH80sjle1kn4ljwu/8dfdk2e/4vXVLSSsF31"
+              }
+            ]
+          }
+        },
         {
           "version": "6.06",
           "integrity": {
@@ -3579,7 +3591,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.02",
+      "latestVersion": "7.03",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -3606,6 +3618,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.03",
+          "integrity": {
+            "archive": "sha384-/GWBhrGRoAmCE2cnIpgx3aXJTt1qzUH+09/6LaySC0Xhy7z+KQbXxNfev3tcOm1k",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-KmOxy7HiZioPlvjcobxNclVdMtUpychK9ZTmwsd3BN1pTVdeAHb6xvUMSbgWGW+q"
+              }
+            ]
+          }
+        },
         {
           "version": "7.02",
           "integrity": {

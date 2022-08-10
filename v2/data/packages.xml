@@ -2980,7 +2980,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.06</latestVersion>
+		<latestVersion>6.07</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>
@@ -3034,6 +3034,15 @@
 					<integrity
 						target="plugins/NVEnc.auo"
 					>sha384-2UScWmHTNpvKx7gW7xwbU40gIXLqiTnTptY3w3eDuJlR4i6G9L6ObFlxFRzIFhzh</integrity>
+				</integrities>
+			</release>
+			<release version="6.07">
+				<archiveIntegrity
+				>sha384-xZ7+2QO2NdKTtCB9zIWH7VsCA/GqfZBdR1+rLUP72R+rMtN0oAyACtFaMjAfsAZW</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/NVEnc.auo"
+					>sha384-4og63jP8DY5/+bsChZ976k5sNZlREH80sjle1kn4ljwu/8dfdk2e/4vXVLSSsF31</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -3295,7 +3304,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/VCEEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/VCEEnc/releases/latest</downloadURL>
-		<latestVersion>7.02</latestVersion>
+		<latestVersion>7.03</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/VCEEnc.auo</file>
 			<file archivePath="plugins">plugins/VCEEnc.ini</file>
@@ -3331,6 +3340,15 @@
 					<integrity
 						target="plugins/VCEEnc.auo"
 					>sha384-3/Zmr0tpDUIUOnYhpzKVrV45AmNrcUwBIgiY9PtCqkNZZAxl85dgalI6qZTZgtWR</integrity>
+				</integrities>
+			</release>
+			<release version="7.03">
+				<archiveIntegrity
+				>sha384-/GWBhrGRoAmCE2cnIpgx3aXJTt1qzUH+09/6LaySC0Xhy7z+KQbXxNfev3tcOm1k</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/VCEEnc.auo"
+					>sha384-KmOxy7HiZioPlvjcobxNclVdMtUpychK9ZTmwsd3BN1pTVdeAHb6xvUMSbgWGW+q</integrity>
 				</integrities>
 			</release>
 		</releases>

@@ -1087,7 +1087,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>7.0.0</latestVersion>
+		<latestVersion>7.1.0</latestVersion>
 		<files>
 			<file obsolete="true">aviutl_dark.exe.manifest</file>
 			<file>plugins/DarkenWindow.aul</file>
@@ -1223,6 +1223,15 @@
 					>sha384-OTMFD7GH1+ZtUcmiMST8XonjgsbHp552/D+AZqF57Ox16H8hXYMX2YZlsH/s+GT4</integrity>
 				</integrities>
 			</release>
+			<release version="7.1.0">
+				<archiveIntegrity
+				>sha384-eT9sx8m/dgNK8Fcf+d6CuJgJTKcju2/7+qkW7/NQ3VPrq5QSSt6yfjcyyCFdP3VY</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/DarkenWindow.aul"
+					>sha384-2gnB7a0xStSi/d1QnetWCtTAIDZ5m5C/YyMlFy9saSufpZVnymDz2SJfdHjGEsLn</integrity>
+				</integrities>
+			</release>
 		</releases>
 	</package>
 
@@ -1236,7 +1245,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest</downloadURL>
-		<latestVersion>7.0.0</latestVersion>
+		<latestVersion>7.1.0</latestVersion>
 		<installer>CreateDark.exe</installer>
 		<installArg>/a"$instpath" /f /x</installArg>
 		<files>
@@ -1479,7 +1488,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-SplitWindow#readme</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest</downloadURL>
-		<latestVersion>3.0.2</latestVersion>
+		<latestVersion>3.0.4</latestVersion>
 		<files>
 			<file>plugins/SplitWindow.aul</file>
 			<file>plugins/SplitWindow.xml</file>
@@ -1637,6 +1646,15 @@
 					<integrity
 						target="plugins/SplitWindow.aul"
 					>sha384-UT59zZ/U/2Dy7e5MC0Ibc/zEugrww4YFKoAo7XVCh7mmGZUeA9oprkCPiWtjOvaL</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.4">
+				<archiveIntegrity
+				>sha384-J7ljR2+/HS0DrXIvLxI0ivQ7L3+P6X1BzLBFSLFCkiW2nZjYdhDcPx63CjKlGiTp</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-a7BaFjM8hHp5crw6VUg9+incWALWrKBFmGKm6Cp9MDx7KnKe3PHbJjYoRjanirof</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -3363,7 +3381,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/x264guiEx#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/x264guiEx/releases/latest</downloadURL>
-		<latestVersion>3.13</latestVersion>
+		<latestVersion>3.14</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/x264guiEx.auo</file>
 			<file archivePath="plugins">plugins/x264guiEx.ini</file>
@@ -3409,6 +3427,15 @@
 					<integrity
 						target="plugins/x264guiEx.auo"
 					>sha384-La1PtzKmqL094tiLRlUUyZk2q17dCPQaUJQ9WQ/wo4j58cBhoZJNI5eLt95D/8Zw</integrity>
+				</integrities>
+			</release>
+			<release version="3.14">
+				<archiveIntegrity
+				>sha384-pGdHU0Znmr/VORKgUK9istNecniT2rQn4w/Gkq8tY2GzuTeTR3DXOooTVyWcHoc2</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/x264guiEx.auo"
+					>sha384-38fyHpqZcVlvRXAl6jlyblDuog/IjvNqpkakjw4m7hzU9q4YKEBkBMUCrOpfoRz3</integrity>
 				</integrities>
 			</release>
 		</releases>

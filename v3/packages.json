@@ -1032,13 +1032,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.0.0",
+      "latestVersion": "7.1.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.1.0",
+          "integrity": {
+            "archive": "sha384-eT9sx8m/dgNK8Fcf+d6CuJgJTKcju2/7+qkW7/NQ3VPrq5QSSt6yfjcyyCFdP3VY",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-2gnB7a0xStSi/d1QnetWCtTAIDZ5m5C/YyMlFy9saSufpZVnymDz2SJfdHjGEsLn"
+              }
+            ]
+          }
+        },
         {
           "version": "7.0.0",
           "integrity": {
@@ -1223,7 +1235,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.0.0",
+      "latestVersion": "7.1.0",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]
@@ -1479,13 +1491,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.0.2",
+      "latestVersion": "3.0.4",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.0.4",
+          "integrity": {
+            "archive": "sha384-J7ljR2+/HS0DrXIvLxI0ivQ7L3+P6X1BzLBFSLFCkiW2nZjYdhDcPx63CjKlGiTp",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-a7BaFjM8hHp5crw6VUg9+incWALWrKBFmGKm6Cp9MDx7KnKe3PHbJjYoRjanirof"
+              }
+            ]
+          }
+        },
         {
           "version": "3.0.2",
           "integrity": {
@@ -3676,7 +3700,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.13",
+      "latestVersion": "3.14",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -3701,6 +3725,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.14",
+          "integrity": {
+            "archive": "sha384-pGdHU0Znmr/VORKgUK9istNecniT2rQn4w/Gkq8tY2GzuTeTR3DXOooTVyWcHoc2",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-38fyHpqZcVlvRXAl6jlyblDuog/IjvNqpkakjw4m7hzU9q4YKEBkBMUCrOpfoRz3"
+              }
+            ]
+          }
+        },
         {
           "version": "3.13",
           "integrity": {

@@ -3075,7 +3075,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/QSVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/QSVEnc/releases/latest</downloadURL>
-		<latestVersion>7.08</latestVersion>
+		<latestVersion>7.09</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/QSVEnc.auo</file>
 			<file archivePath="plugins">plugins/QSVEnc.ini</file>
@@ -3165,6 +3165,15 @@
 					<integrity
 						target="plugins/QSVEnc.auo"
 					>sha384-qmIggpfBoBGsnCbkMDwlK+jRQTZUBrTBoXhAExF9KzVN6wUBjeOSgPsP9NM01Avn</integrity>
+				</integrities>
+			</release>
+			<release version="7.09">
+				<archiveIntegrity
+				>sha384-+PnBWqXqhq8l2dZIV1N9x6pS2aQMH0YvN/cTZYPUrjxeeCff7up43wJdbXRLXmG4</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/QSVEnc.auo"
+					>sha384-0vxpcZ1nxdbWx68j5idtBT1mx930y0hIyTCYBIZFYO4Kpv1J87YEyv+zaHjtPFR0</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -4526,7 +4535,7 @@
 		<pageURL>https://www.nicovideo.jp/watch/sm39708120</pageURL>
 		<downloadURL
 		>https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest</downloadURL>
-		<latestVersion>v1.03</latestVersion>
+		<latestVersion>v1.04</latestVersion>
 		<files>
 			<file archivePath="WideDialog_aviutl_plugin-1.02/">plugins/WideDialog.auf</file>
 		</files>

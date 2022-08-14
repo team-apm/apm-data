@@ -3299,7 +3299,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.08",
+      "latestVersion": "7.09",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -3326,6 +3326,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.09",
+          "integrity": {
+            "archive": "sha384-+PnBWqXqhq8l2dZIV1N9x6pS2aQMH0YvN/cTZYPUrjxeeCff7up43wJdbXRLXmG4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-0vxpcZ1nxdbWx68j5idtBT1mx930y0hIyTCYBIZFYO4Kpv1J87YEyv+zaHjtPFR0"
+              }
+            ]
+          }
+        },
         {
           "version": "7.08",
           "integrity": {
@@ -5064,7 +5076,7 @@
       "downloadURLs": [
         "https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest"
       ],
-      "latestVersion": "v1.03",
+      "latestVersion": "v1.04",
       "nicommons": "sm39708120",
       "files": [
         {

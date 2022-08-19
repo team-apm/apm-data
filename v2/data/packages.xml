@@ -1488,7 +1488,7 @@
 		<pageURL>https://github.com/hebiiro/AviUtl-Plugin-SplitWindow#readme</pageURL>
 		<downloadURL
 		>https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest</downloadURL>
-		<latestVersion>3.0.4</latestVersion>
+		<latestVersion>3.0.5</latestVersion>
 		<files>
 			<file>plugins/SplitWindow.aul</file>
 			<file>plugins/SplitWindow.xml</file>
@@ -1655,6 +1655,15 @@
 					<integrity
 						target="plugins/SplitWindow.aul"
 					>sha384-a7BaFjM8hHp5crw6VUg9+incWALWrKBFmGKm6Cp9MDx7KnKe3PHbJjYoRjanirof</integrity>
+				</integrities>
+			</release>
+			<release version="3.0.5">
+				<archiveIntegrity
+				>sha384-uVmUohKKZiyYKa/mD52B9qmugOh43Vspt4yDlQEcxCBMW7kFNbN2ZGQP9Olx2tDY</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/SplitWindow.aul"
+					>sha384-h+VotXWGnTvIWOrIhfU3N8iytn5VW2z8nEV4d3HMjfNrO73IL+5Nv+ZSvI65sNYG</integrity>
 				</integrities>
 			</release>
 		</releases>

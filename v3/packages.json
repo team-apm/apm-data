@@ -3079,7 +3079,12 @@
         "https://takeshima.halfmoon.jp/room/aviutl/#pointlinetext_obj"
       ],
       "latestVersion": "ver.001",
-      "files": [{ "filename": "script/kame/丸付折線テキスト.obj" }]
+      "files": [
+        {
+          "filename": "script/kame/丸付折線テキスト.obj",
+          "archivePath": "pointlinetext_obj_001/"
+        }
+      ]
     },
     {
       "id": "karoterra/aviutlWaveformPreview",
@@ -3865,116 +3870,118 @@
       "description": "スクロール有りの縦長エフェクトメニューを整理するプラグインです。",
       "developer": "謎の生物",
       "pageURL": "https://www.nicovideo.jp/watch/sm40952636",
-      "downloadURLs": ["https://github.com/nazonoSAUNA/SortEffect/releases/latest"],
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/SortEffect/releases/latest"
+      ],
       "latestVersion": "v1.0",
       "files": [
         {
           "filename": "plugins/SortEffect.auf",
-          "archivePath": "plugins/"
+          "archivePath": "SortEffect_version/plugins/"
         },
         {
           "filename": "plugins/SortEffect_Setting.txt",
-          "archivePath": "plugins/"
+          "archivePath": "SortEffect_version/plugins/"
         },
         {
           "filename": "exa/ランダム間隔で落ちながら登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/ランダム配置.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/ランダム方向から登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/リール回転.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/円形配置.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/何処からともなく登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/画面外から登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/拡大縮小して登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/簡易変形(カメラ制御).exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/簡易変形.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/起き上がって登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/球体(カメラ制御).exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/広がって登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/座標の回転(個別オブジェクト).exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/座標の拡大縮小(個別オブジェクト).exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/砕け散る.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/振り子.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/震える.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/弾む.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/弾んで登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/点滅.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/点滅して登場.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/反復移動.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/万華鏡.exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         },
         {
           "filename": "exa/立方体(カメラ制御).exa",
-          "archivePath": "exa/"
+          "archivePath": "SortEffect_version/exa/"
         }
       ]
     },
@@ -8143,7 +8150,9 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm32870150",
       "downloadURLs": ["https://1drv.ms/u/s!ApBRDdKWwHOHa-y7KbDuPFVpQMY"],
       "latestVersion": "v1.2",
-      "files": [{ "filename": "script/coord/coord.anm" }]
+      "files": [
+        { "filename": "script/coord/coord.anm", "archivePath": "coord/" }
+      ]
     },
     {
       "id": "UndoFish/easingTra2020",
@@ -8477,9 +8486,16 @@
       "description": "動画に含まれる各種コンテンツをリスト化したHTMLを出力するプラグインです。ニコニ・コモンズIDが一覧できます。",
       "developer": "柳",
       "pageURL": "https://www.nicovideo.jp/watch/sm40465457",
-      "downloadURLs": ["https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html"],
+      "downloadURLs": [
+        "https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html"
+      ],
       "latestVersion": "ver0.2",
-      "files": [{ "filename": "ContentsTree.auf" }]
+      "files": [
+        {
+          "filename": "ContentsTree.auf",
+          "archivePath": "ContentsTree_ver0.2"
+        }
+      ]
     }
   ]
 }

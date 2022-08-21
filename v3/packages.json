@@ -3079,7 +3079,7 @@
         "https://takeshima.halfmoon.jp/room/aviutl/#pointlinetext_obj"
       ],
       "latestVersion": "ver.001",
-      "files": [{ "filename": "script/丸付折線テキスト.obj" }]
+      "files": [{ "filename": "script/kame/丸付折線テキスト.obj" }]
     },
     {
       "id": "karoterra/aviutlWaveformPreview",

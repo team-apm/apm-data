@@ -8477,7 +8477,7 @@
       "description": "動画に含まれる各種コンテンツをリスト化したHTMLを出力するプラグインです。ニコニ・コモンズIDが一覧できます。",
       "developer": "柳",
       "pageURL": "https://www.nicovideo.jp/watch/sm40465457",
-      "downloadURLs": ["https://www.nicovideo.jp/watch/sm40465457"],
+      "downloadURLs": ["https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html"],
       "latestVersion": "ver0.2",
       "files": [{ "filename": "ContentsTree.auf" }]
     }

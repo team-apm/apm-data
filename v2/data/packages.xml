@@ -1081,7 +1081,7 @@
 		</dependencies>
 		<pageURL>https://scrapbox.io/ePi5131/patch.aul</pageURL>
 		<downloadURL>https://github.com/ePi5131/patch.aul/releases/latest</downloadURL>
-		<latestVersion>r41</latestVersion>
+		<latestVersion>r42</latestVersion>
 		<files>
 			<file>patch.aul</file>
 			<file optional="true">patch.aul.json</file>
@@ -1337,6 +1337,15 @@
 					<integrity
 						target="patch.aul"
 					>sha384-qKiatKWsSq/EMGVe0jTCH4RQrW1JKFMtk6ih6Al762PXj1YB8e6FOagZmNrCBgci</integrity>
+				</integrities>
+			</release>
+			<release version="r42">
+				<archiveIntegrity
+				>sha384-NzhqC3mHg7CU9nKahrrS2gNCM1pHIo1pYDX0lTRmxr+am56PfwJk6z0kHbSFxCVL</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="patch.aul"
+					>sha384-mgsj+YkVkZksJCMglAKmljaLqb/1Dw6x6BP2fVvBCdElIjxgqNh/VA5zCNFd01Y9</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -5144,7 +5153,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/NVEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/NVEnc/releases/latest</downloadURL>
-		<latestVersion>6.08</latestVersion>
+		<latestVersion>6.09</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/NVEnc.auo</file>
 			<file archivePath="plugins">plugins/NVEnc.ini</file>
@@ -5243,6 +5252,15 @@
 					<integrity
 						target="plugins/NVEnc.auo"
 					>sha384-spF99vA2C8uXFNnkPpJhfS7CKFbl9S2T4K2fqYjOtkdsYjPQhTZDqEFEUdH5eKm/</integrity>
+				</integrities>
+			</release>
+			<release version="6.09">
+				<archiveIntegrity
+				>sha384-4Q+Tj4k4t2KVzIDk6tDcwAtJPjMwDIGDYyCckl73xp/C4L3JHM/W7E3nZa9C6WeQ</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/NVEnc.auo"
+					>sha384-6tqDngSiYlKR8r5ecYjUvdKfsJxJ1Wpfcqz2HP9ogwXBMQct+wH1YG6BSN44x5kY</integrity>
 				</integrities>
 			</release>
 		</releases>
@@ -5558,7 +5576,7 @@
 		<developer>rigaya</developer>
 		<pageURL>https://github.com/rigaya/VCEEnc#readme</pageURL>
 		<downloadURL>https://github.com/rigaya/VCEEnc/releases/latest</downloadURL>
-		<latestVersion>7.04</latestVersion>
+		<latestVersion>7.05</latestVersion>
 		<files>
 			<file archivePath="plugins">plugins/VCEEnc.auo</file>
 			<file archivePath="plugins">plugins/VCEEnc.ini</file>
@@ -5621,6 +5639,15 @@
 					<integrity
 						target="plugins/VCEEnc.auo"
 					>sha384-fBRIC5BOxjTWW8onV2AZ3RnNf92nCIpb7n+/IB+IYEULbsKWo+AJ3axejIDV790r</integrity>
+				</integrities>
+			</release>
+			<release version="7.05">
+				<archiveIntegrity
+				>sha384-F/bfwYdPu9PPMit1h4fDf0Pn7u29wFTxsKEcXlI2q+sHefdfgD4Ud854EbMekHjt</archiveIntegrity>
+				<integrities>
+					<integrity
+						target="plugins/VCEEnc.auo"
+					>sha384-mf1d+AvdQ6oEHhPAk0dGnaTYeHovdVGGxiDpstjmcdsqtavs4YH6Z4eTy40Mz2FG</integrity>
 				</integrities>
 			</release>
 		</releases>

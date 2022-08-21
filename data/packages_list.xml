@@ -1588,4 +1588,18 @@
 			<file>plugins/lwmuxer.auf</file>
 		</files>
 	</package>
+
+	<package>
+		<id>ContentsTree</id>
+		<name>ContentsTree</name>
+		<overview>動画内コンテンツを自動リストアップ</overview>
+		<description>動画に含まれる各種コンテンツをリスト化したHTMLを出力するプラグインです。ニコニ・コモンズIDが一覧できます。</description>
+		<developer>柳</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm40465457</pageURL>
+		<downloadURL>https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html</downloadURL>
+		<latestVersion>ver0.2</latestVersion>
+		<files>
+			<file>ContentsTree.auf</file>
+		</files>
+	</package>
 </packages>

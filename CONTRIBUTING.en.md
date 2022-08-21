@@ -1,6 +1,6 @@
 # Contribution
 
-[日本語](./CONTRIBUTING.ja.md)
+[日本語](./CONTRIBUTING.md)
 
 Thank you for your interest in contributing to the data for AviUtl Package Manager!
 
@@ -8,12 +8,11 @@ Here is a guide on how to contribute.
 
 ## Language Used
 
-This data has been created using XML.
+This data has been created using JSON.
 
 The languages used are:
 
-- XML
-- XML Scheme
+- JSON
 
 ## Issues
 
@@ -39,22 +38,23 @@ When the pull request is merged, your contribution will be added to the [Contrib
 
 ## Confirmation of Modifications
 
-Try installing and uninstalling the added package by specifying the XML file you edited as the destination to get the additional data from the `Setting` tab of [AviUtl Package Manager](https://github.com/team-apm/apm).
+Try installing and uninstalling the added package by specifying the `v3` directory as the destination to get the data or the JSON file you edited as the destination to get the additional data from the `設定` tab of [AviUtl Package Manager](https://github.com/team-apm/apm).
 
 ## Directory Structure
 
-Place data XML under `data` and XML Schema under `schema`.
+Place data JSON under `v3`.
 
 ```text
-├── data
-│   ├── core.xml
-│   ├── mod.xml
-│   └── packages_list.xml
-└── schema
-    ├── au.xsd
-    ├── core.xsd
-    ├── mod.xsd
-    └── packages_list.xsd
+└── v3
+    ├── packages
+    │   ├── xxxx.json
+    │   └── yyyy.json
+    ├── convert.json
+    ├── core.json
+    ├── list.json
+    ├── package-sets.json
+    ├── packages.json
+    └── scripts.json
 ```
 
 ## Commit Message Convention
@@ -63,7 +63,17 @@ Currently, we don't have a clear specification because we don't output the updat
 
 - [conventional-changelog/packages/conventional-changelog-angular/README.md](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md)
 
-## Code Writing Style/Rules
+## Data Writing Style/Rules
+
+First, check the [SPECIFICATION](./v3/SPECIFICATION.md).
+
+Other things that are conventionally done are noted.
+
+- Packages are sorted alphabetically by ID.
+- For placement in the AviUtl folder, for plugins, we follow the developer's specifications in the README, etc. For scripts, place them in a separate folder for each author in the `script` folder.
+- If you specify GitHub Releases as `downloadURLs`, specify that the latest version (`releases/latest`) should be displayed.
+- For packages from developers with a large number of packages, separate the list.
+- The file to be the `target` of `integrity` is a file that is not to be edited. Files that are supposed to be edited, such as configuration files, are not specified.
 
 ### Formatting
 

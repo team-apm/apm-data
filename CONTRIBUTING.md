@@ -1,6 +1,6 @@
 # Contribution
 
-[English](./CONTRIBUTING.md)
+[English](./CONTRIBUTING.en.md)
 
 AviUtl Package Managerデータへのコントリビュートに興味を持っていただきありがとうございます！！
 
@@ -8,12 +8,11 @@ AviUtl Package Managerデータへのコントリビュートに興味を持っ�
 
 ## 使用言語
 
-このデータは、XML形式で提供されています。
+このデータは、JSON形式で提供されています。
 
 使用言語:
 
-- XML
-- XML Scheme
+- JSON
 
 ## Issues
 
@@ -41,22 +40,23 @@ Pull Requestがマージされた時点で、あなたの貢献が[Contributors�
 
 ## 修正の確認
 
-[AviUtl Package Manager](https://github.com/team-apm/apm)の`Setting`タブから追加データ取得先に編集したXMLファイルを指定して、追加したパッケージのインストールとアンインストールを試してください。
+[AviUtl Package Manager](https://github.com/team-apm/apm)の`設定`タブから、データ取得先に`v3`フォルダを指定するか、追加データ取得先に編集したJSONファイルを指定して、追加したパッケージのインストールとアンインストールを試してください。
 
 ## ディレクトリ構造
 
-`data`下にデータXML、`schema`下にXML Schemaを配置します。
+`v3`下にデータJSONを配置します。
 
 ```text
-├── data
-│   ├── core.xml
-│   ├── mod.xml
-│   └── packages_list.xml
-└── schema
-    ├── au.xsd
-    ├── core.xsd
-    ├── mod.xsd
-    └── packages_list.xsd
+└── v3
+    ├── packages
+    │   ├── xxxx.json
+    │   └── yyyy.json
+    ├── convert.json
+    ├── core.json
+    ├── list.json
+    ├── package-sets.json
+    ├── packages.json
+    └── scripts.json
 ```
 
 ## コミットメッセージ規約
@@ -65,7 +65,17 @@ Pull Requestがマージされた時点で、あなたの貢献が[Contributors�
 
 - [conventional-changelog/packages/conventional-changelog-angular/README.md](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md)
 
-## コードの書き方・ルール
+## データの書き方・ルール
+
+まずは、[仕様書](./v3/SPECIFICATION.md)を確認します。
+
+その他、慣例的に行っていることを記します。
+
+- パッケージは、IDでアルファベット順にソートします。
+- AviUtlフォルダ内の配置は、プラグインの場合、README等に記載の開発者の指定に従います。スクリプトの場合、`script`フォルダ内で作者ごとにフォルダを分けて配置します。
+- `downloadURLs`として、GitHubのReleasesを指定する場合、`releases/latest`の最新バージョンを表示するように指定します。
+- パッケージ数が多い開発者のパッケージは、リストを切り分けます。
+- `integrity`の`target`とするファイルは、編集しないファイルを指定します。設定ファイルなどの編集を前提としたファイルは指定しません。
 
 ### フォーマット
 

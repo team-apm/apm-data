@@ -8143,7 +8143,7 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm32870150",
       "downloadURLs": ["https://1drv.ms/u/s!ApBRDdKWwHOHa-y7KbDuPFVpQMY"],
       "latestVersion": "v1.2",
-      "files": [{ "filename": "script/coord.anm" }]
+      "files": [{ "filename": "script/coord/coord.anm" }]
     },
     {
       "id": "UndoFish/easingTra2020",

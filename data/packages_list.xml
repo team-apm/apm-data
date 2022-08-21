@@ -1656,4 +1656,18 @@
 			<file>coord.anm</file>
 		</files>
 	</package>
+
+	<package>
+		<id>pointlinetext</id>
+		<name>丸付き折れ線テキスト</name>
+		<overview>丸付折線テキスト カスタムオブジェクトスクリプト</overview>
+		<description>丸付き引き出し線とテキストがセットになったカスタムオブジェクトのスクリプトです。</description>
+		<developer>ウサギ</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm22558183</pageURL>
+		<downloadURL>https://takeshima.halfmoon.jp/room/aviutl/#pointlinetext_obj</downloadURL>
+		<latestVersion>ver.001</latestVersion>
+		<files>
+			<file>丸付折線テキスト.obj</file>
+		</files>
+	</package>
 </packages>

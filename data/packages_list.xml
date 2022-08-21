@@ -1642,4 +1642,18 @@
 			<file>exa/立方体(カメラ制御).exa</file>
 		</files>
 	</package>
+
+	<package>
+		<id>coord</id>
+		<name>coord</name>
+		<overview>中心座標移動スクリプト</overview>
+		<description>オブジェクトの中心点を動かすスクリプトです。</description>
+		<developer>はち</developer>
+		<pageURL>https://www.nicovideo.jp/watch/sm32870150</pageURL>
+		<downloadURL>https://1drv.ms/u/s!ApBRDdKWwHOHa-y7KbDuPFVpQMY</downloadURL>
+		<latestVersion>v1.2</latestVersion>
+		<files>
+			<file>coord.anm</file>
+		</files>
+	</package>
 </packages>

@@ -40,7 +40,7 @@ AviUtlと拡張編集Pluginのデータファイル
       - **FileIntegrityData.target**: ハッシュの該当ファイル（String）
       - **FileIntegrityData.hash**: ハッシュ（`sha384-`などから始まるString）
 
-## [packages_list.xml](./data/packages_list.xml)
+## [packages.json](./packages.json)
 
 プラグインとスクリプトのデータファイル
 
@@ -78,7 +78,7 @@ AviUtlと拡張編集Pluginのデータファイル
       - **FileIntegrityData.target**: ハッシュの該当ファイル（String）
       - **FileIntegrityData.hash**: ハッシュ（`sha384-`などから始まるString）
 
-## [scripts.json](./data/scripts.json)
+## [scripts.json](./scripts.json)
 
 スクリプト配布サイトのデータファイル
 
@@ -95,7 +95,7 @@ AviUtlと拡張編集Pluginのデータファイル
   - `packages.xml`に登録済みの場合
     - **scripts\[number\].redirect**: リダイレクトするパッケージのID（String）
 
-## [convert.json](./data/convert.json)
+## [convert.json](./convert.json)
 
 ID変換の対応のファイル
 

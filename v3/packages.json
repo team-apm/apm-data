@@ -3079,6 +3079,7 @@
         "https://takeshima.halfmoon.jp/room/aviutl/#pointlinetext_obj"
       ],
       "latestVersion": "ver.001",
+      "nicommons": "sm22558183",
       "files": [
         {
           "filename": "script/kame/丸付折線テキスト.obj",
@@ -3874,6 +3875,7 @@
         "https://github.com/nazonoSAUNA/SortEffect/releases/latest"
       ],
       "latestVersion": "v1.0",
+      "nicommons": "sm40952636",
       "files": [
         {
           "filename": "plugins/SortEffect.auf",
@@ -8150,8 +8152,12 @@
       "pageURL": "https://www.nicovideo.jp/watch/sm32870150",
       "downloadURLs": ["https://1drv.ms/u/s!ApBRDdKWwHOHa-y7KbDuPFVpQMY"],
       "latestVersion": "v1.2",
+      "nicommons": "sm32870150",
       "files": [
-        { "filename": "script/coord/coord.anm", "archivePath": "coord/" }
+        {
+          "filename": "script/coord/coord.anm",
+          "archivePath": "coord/"
+        }
       ]
     },
     {
@@ -8490,6 +8496,7 @@
         "https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html"
       ],
       "latestVersion": "ver0.2",
+      "nicommons": "sm40465457",
       "files": [
         {
           "filename": "ContentsTree.auf",

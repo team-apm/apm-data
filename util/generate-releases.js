@@ -1,44 +1,21 @@
 // > yarn run generate-releases <package_id>
 
-import { path7za } from '7zip-bin';
 import { Octokit } from '@octokit/rest';
 import chalk from 'chalk';
 import compareVersions from 'compare-versions';
-import { XMLBuilder, XMLParser, XMLValidator } from 'fast-xml-parser';
 import fs from 'fs-extra';
-import https from 'https';
-import Seven from 'node-7z';
 import { basename, dirname, extname, resolve } from 'path';
-import { format as _format } from 'prettier';
-import { fromStream } from 'ssri';
-const {
-  createReadStream,
-  createWriteStream,
-  ensureDir,
-  readFile,
-  readJsonSync,
-  remove,
-  writeFile,
-} = fs;
+import { format } from 'prettier';
+import download from './lib/download.js';
+import generateHash from './lib/generateHash.js';
+import unzip from './lib/unzip.js';
+const { readJson, readJsonSync, remove, writeFile } = fs;
 const { whiteBright, green, red, cyanBright } = chalk;
-const { extractFull } = Seven;
 
 // Options
 const exclude = ['suzune/bakusoku', 'suzune/WideDialog'];
-const packagesXmlPath = 'v2/data/packages.xml';
-const modXmlPath = 'v2/data/mod.xml';
-
-function format(string) {
-  const xml = string
-    .trim()
-    .replace(/<\?xml-model +/, '<?xml-model ') // Fix `<?xml-model   `
-    .replaceAll('&quot;', '"') // Convert `&quot` to `"`
-    .replaceAll(/<(.+?)>\r?\n?\t+([^<>\t]+?)\r?\n?\t+<\/(.+?)>/g, '<$1>$2</$3>') // Adjust line-breaking
-    .replaceAll(/-->\r?\n?\t?<package>/g, '-->\r\n\r\n\t<package>') // Add line break between a comment and `<package>`
-    .replaceAll(/<\/package>\r?\n?\t?</g, '</package>\r\n\r\n\t<') // Add line break between `<package>`
-    .replaceAll(/\r?\n?\t?<\/packages>/g, '</packages>'); // Remove line break before `</package>`
-  return _format(xml, { parser: 'xml', useTabs: true });
-}
+const packagesJsonPath = 'v3/packages.json';
+const listJsonPath = 'v3/list.json';
 
 function compareVersion(firstVersion, secondVersion) {
   if (firstVersion === secondVersion) return 0;
@@ -76,51 +53,6 @@ function compareVersion(firstVersion, secondVersion) {
   }
 }
 
-async function unzip(zipPath, folderName = null) {
-  const outputPath = resolve(dirname(zipPath), '../');
-
-  const zipStream = extractFull(zipPath, outputPath, {
-    $bin: path7za,
-    overwrite: 'a',
-  });
-  return new Promise((resolve) => {
-    zipStream.once('end', () => {
-      resolve(outputPath);
-    });
-  });
-}
-
-async function generateHash(path) {
-  const readStream = createReadStream(path);
-  const str = await fromStream(readStream, {
-    algorithms: ['sha384'],
-  });
-  readStream.destroy();
-  return str.toString();
-}
-
-const parser = new XMLParser({
-  attributeNamePrefix: '$',
-  commentPropName: '#comment',
-  ignoreAttributes: false,
-  parseAttributeValue: false,
-  parseTagValue: false,
-  preserveOrder: true,
-  textNodeName: '_',
-  trimValues: true,
-});
-
-const builder = new XMLBuilder({
-  attributeNamePrefix: '$',
-  commentPropName: '#comment',
-  format: true,
-  ignoreAttributes: false,
-  indentBy: '\t',
-  preserveOrder: true,
-  suppressEmptyNode: true,
-  textNodeName: '_',
-});
-
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const archiveNamePattern = readJsonSync('util/archive-name-pattern.json');
 
@@ -131,24 +63,11 @@ async function generateReleases(args) {
     return;
   }
 
-  const packagesXmlData = await readFile(packagesXmlPath, 'utf-8');
-  if (!XMLValidator.validate(packagesXmlData)) {
-    console.error(red('The xml file is invalid.'));
-    return;
-  }
+  const packagesObj = await readJson(packagesJsonPath, 'utf-8');
+  const packageItem = packagesObj.packages.find((p) => p.id === id);
 
-  const packagesObj = parser.parse(packagesXmlData);
-  const packageItem = packagesObj[2].packages.find(
-    (p) =>
-      'package' in p && p.package.find((value) => 'id' in value).id[0]._ === id
-  ).package;
-
-  const getValue = (key) => {
-    return packageItem.find((value) => key in value)[key][0]._;
-  };
-
-  const downloadURL = new URL(getValue('downloadURL'));
-  const currentVersion = getValue('latestVersion');
+  const downloadURL = new URL(packageItem.downloadURLs[0]);
+  const currentVersion = packageItem.latestVersion;
 
   const dirs = downloadURL.pathname.split('/');
   dirs.shift();
@@ -193,17 +112,11 @@ async function generateReleases(args) {
         result.message.push(whiteBright(`[${tag}]`));
 
         // Create integrity
-        const oldReleaseObj = packageItem
-          .find((value) => 'releases' in value)
-          ?.releases?.at(-1);
-        if (!oldReleaseObj?.release) {
+        const oldReleaseObj = packageItem?.releases?.[0];
+        if (!oldReleaseObj) {
           throw new Error('The old release data does not exist.');
         }
-        if (
-          packageItem
-            .find((value) => 'releases' in value)
-            ?.releases.some((p) => p[':@'].$version === tag)
-        )
+        if (packageItem?.releases.some((p) => p.version === tag))
           throw new Error('The release data of the same version exist.');
 
         const assets = release.assets.filter(
@@ -244,44 +157,21 @@ async function generateReleases(args) {
           '.archive',
           archiveData.name
         );
-        await ensureDir(dirname(archivePath));
-        const outArchive = createWriteStream(archivePath, 'binary');
-
-        const download = (url, destination) =>
-          new Promise((resolve, reject) => {
-            https.get(url, async (res) => {
-              if (res.statusCode === 200) {
-                res
-                  .pipe(destination)
-                  .on('close', () => {
-                    destination.close(resolve);
-                  })
-                  .on('error', reject);
-              } else if (res.statusCode === 302) {
-                await download(res.headers.location, destination);
-                resolve();
-              }
-            });
-          });
-        await download(url, outArchive);
-        const unzippedPath = await unzip(archivePath);
+        await download(url, archivePath);
+        const unzippedPath = resolve(dirname(archivePath), '../');
+        await unzip(archivePath, unzippedPath);
 
         const archiveHash = await generateHash(archivePath);
 
-        const oldIntegritesArray = oldReleaseObj.release.find(
-          (value) => 'integrities' in value
-        )?.integrities;
-        const newIntegritiesArray = [];
-        if (oldIntegritesArray) {
-          const filesArray = packageItem.find(
-            (value) => 'files' in value
-          ).files;
-          for (const integrity of oldIntegritesArray) {
-            const targetFilename = integrity?.[':@']?.$target;
+        const oldIntegrityFileArray = oldReleaseObj?.integrity?.file;
+        const newIntegrityFileArray = [];
+        if (oldIntegrityFileArray) {
+          const filesArray = packageItem.files;
+          for (const integrityFileData of oldIntegrityFileArray) {
+            const targetFilename = integrityFileData.target;
             const targetFileArchivePath =
-              filesArray.find((value) => value.file[0]._ === targetFilename)?.[
-                ':@'
-              ]?.$archivePath ?? '';
+              filesArray.find((value) => value.filename === targetFilename)
+                ?.archivePath ?? '';
             const targetPath = resolve(
               unzippedPath,
               targetFileArchivePath,
@@ -289,27 +179,17 @@ async function generateReleases(args) {
             );
 
             const fileHash = await generateHash(targetPath);
-            newIntegritiesArray.push({
-              integrity: [{ _: fileHash }],
-              ':@': { $target: targetFilename },
+            newIntegrityFileArray.push({
+              target: targetFilename,
+              hash: fileHash,
             });
           }
         }
 
-        const newReleaseObj = {
-          release: [
-            {
-              archiveIntegrity: [{ _: archiveHash }],
-            },
-          ],
-          ':@': { $version: tag },
+        result.newReleaseObj = {
+          version: tag,
+          integrity: { archive: archiveHash, file: newIntegrityFileArray },
         };
-        if (newIntegritiesArray.length >= 1)
-          newReleaseObj.release.push({
-            integrities: newIntegritiesArray,
-          });
-
-        result.newReleaseObj = newReleaseObj;
         result.message.push(green('Successful.'));
       } catch (e) {
         result.message.push(red(e.message));
@@ -318,24 +198,22 @@ async function generateReleases(args) {
       return result;
     };
 
-    const promisesInWaiting = res.data
-      .reverse()
-      .map((release) => generateRelease(release));
+    const promisesInWaiting = res.data.map((release) =>
+      generateRelease(release)
+    );
     const result = await Promise.all(promisesInWaiting);
 
-    const releases = packageItem.find((value) => 'releases' in value);
     result.forEach(({ message, newReleaseObj }) => {
       console.log(message.join('\n'));
       if (newReleaseObj) {
-        packageItem
-          .find((value) => 'releases' in value)
-          .releases.push(newReleaseObj);
+        packageItem.releases.unshift(newReleaseObj);
         releasesAvailable = true;
       }
     });
-    releases.releases = releases.releases.sort((r1, r2) =>
-      compareVersion(r1[':@'].$version, r2[':@'].$version)
-    );
+    if (packageItem.releases)
+      packageItem.releases = packageItem.releases.sort((r1, r2) =>
+        compareVersion(r1.version, r2.version)
+      );
   } catch (e) {
     if (e.status === 404) {
       console.log(whiteBright(id) + ' ' + red('Not Found'));
@@ -345,43 +223,47 @@ async function generateReleases(args) {
   }
 
   if (releasesAvailable) {
-    const newPackagesXml = builder.build(packagesObj);
-    await writeFile(packagesXmlPath, format(newPackagesXml), 'utf-8');
+    await writeFile(
+      packagesJsonPath,
+      format(JSON.stringify(packagesObj), { parser: 'json' }),
+      'utf-8'
+    );
 
-    console.log(green('Updated packages.xml'));
+    console.log(green('Updated ' + basename(packagesJsonPath)));
 
-    const modXmlData = await readFile(modXmlPath, 'utf-8');
-    if (XMLValidator.validate(modXmlData)) {
-      const modObj = parser.parse(modXmlData);
+    const listObj = await readJson(listJsonPath, 'utf-8');
 
-      const padNumber = (number) => number.toString().padStart(2, '0');
-      const toISODate = (date) =>
-        date.getFullYear() +
-        '-' +
-        padNumber(date.getMonth() + 1) +
-        '-' +
-        padNumber(date.getDate()) +
-        'T' +
-        padNumber(date.getHours()) +
-        ':' +
-        padNumber(date.getMinutes()) +
-        ':00+09:00';
+    const padNumber = (number) => number.toString().padStart(2, '0');
+    const toISODate = (date) =>
+      date.getFullYear() +
+      '-' +
+      padNumber(date.getMonth() + 1) +
+      '-' +
+      padNumber(date.getDate()) +
+      'T' +
+      padNumber(date.getHours()) +
+      ':' +
+      padNumber(date.getMinutes()) +
+      ':00+09:00';
 
-      const now = new Date();
-      const newModDate = toISODate(now);
-      modObj[2].mod[1].packages[0]._ = newModDate;
+    const now = new Date();
+    listObj.packages.find(
+      (value) => value.path === basename(packagesJsonPath)
+    ).modified = toISODate(now);
 
-      const newModXml = builder.build(modObj);
-      await writeFile(modXmlPath, format(newModXml), 'utf-8');
+    await writeFile(
+      listJsonPath,
+      format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
+      'utf-8'
+    );
 
-      console.log(green('Updated mod.xml'));
-    }
+    console.log(green('Updated ' + basename(listJsonPath)));
+  }
 
-    try {
-      await remove('util/temp');
-    } catch (e) {
-      console.error(e);
-    }
+  try {
+    await remove('util/temp');
+  } catch (e) {
+    console.error(e);
   }
 
   console.log('Generate complete.');

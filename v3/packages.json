@@ -3081,6 +3081,25 @@
       ]
     },
     {
+      "id": "kame/pointlinetext",
+      "name": "丸付き折れ線テキスト",
+      "overview": "丸付折線テキスト カスタムオブジェクトスクリプト",
+      "description": "丸付き引き出し線とテキストがセットになったカスタムオブジェクトのスクリプトです。",
+      "developer": "カメ",
+      "pageURL": "https://www.nicovideo.jp/watch/sm22558183",
+      "downloadURLs": [
+        "https://takeshima.halfmoon.jp/room/aviutl/#pointlinetext_obj"
+      ],
+      "latestVersion": "ver.001",
+      "nicommons": "sm22558183",
+      "files": [
+        {
+          "filename": "script/kame/丸付折線テキスト.obj",
+          "archivePath": "pointlinetext_obj_001/"
+        }
+      ]
+    },
+    {
       "id": "karoterra/aviutlWaveformPreview",
       "name": "aviutl_WaveformPreview",
       "overview": "編集中の音声波形を確認する",
@@ -3854,6 +3873,129 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "id": "nazono/SortEffect",
+      "name": "エフェクト並び替え",
+      "overview": "拡張編集のエフェクトメニューを並び替え",
+      "description": "スクロール有りの縦長エフェクトメニューを整理するプラグインです。",
+      "developer": "謎の生物",
+      "pageURL": "https://www.nicovideo.jp/watch/sm40952636",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/SortEffect/releases/latest"
+      ],
+      "latestVersion": "v1.0",
+      "nicommons": "sm40952636",
+      "files": [
+        {
+          "filename": "plugins/SortEffect.auf",
+          "archivePath": "plugins/"
+        },
+        {
+          "filename": "plugins/SortEffect_Setting.txt",
+          "archivePath": "plugins/"
+        },
+        {
+          "filename": "exa/ランダム間隔で落ちながら登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/ランダム配置.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/ランダム方向から登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/リール回転.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/円形配置.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/何処からともなく登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/画面外から登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/拡大縮小して登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/簡易変形(カメラ制御).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/簡易変形.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/起き上がって登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/球体(カメラ制御).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/広がって登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/座標の回転(個別オブジェクト).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/座標の拡大縮小(個別オブジェクト).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/砕け散る.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/振り子.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/震える.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/弾む.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/弾んで登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/点滅.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/点滅して登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/反復移動.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/万華鏡.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/立方体(カメラ制御).exa",
+          "archivePath": "exa/"
         }
       ]
     },
@@ -8038,6 +8180,23 @@
       ]
     },
     {
+      "id": "tihagura/coord",
+      "name": "coord",
+      "overview": "中心座標移動スクリプト",
+      "description": "オブジェクトの中心点を動かすスクリプトです。",
+      "developer": "はち",
+      "pageURL": "https://www.nicovideo.jp/watch/sm32870150",
+      "downloadURLs": ["https://1drv.ms/u/s!ApBRDdKWwHOHa-y7KbDuPFVpQMY"],
+      "latestVersion": "v1.2",
+      "nicommons": "sm32870150",
+      "files": [
+        {
+          "filename": "script/coord/coord.anm",
+          "archivePath": "coord/"
+        }
+      ]
+    },
+    {
       "id": "UndoFish/easingTra2020",
       "name": "トラックバー対応イージングスクリプト",
       "overview": "オブジェクトの動きに緩急をつける",
@@ -8360,6 +8519,25 @@
         { "filename": "transition/縦ブラインド(左から右へ).png" },
         { "filename": "transition/縦ブラインド.png" },
         { "filename": "transition/虫食い.png" }
+      ]
+    },
+    {
+      "id": "yanagi/ContentsTree",
+      "name": "ContentsTree",
+      "overview": "動画内コンテンツを自動リストアップ",
+      "description": "動画に含まれる各種コンテンツをリスト化したHTMLを出力するプラグインです。ニコニ・コモンズIDが一覧できます。",
+      "developer": "柳",
+      "pageURL": "https://www.nicovideo.jp/watch/sm40465457",
+      "downloadURLs": [
+        "https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html"
+      ],
+      "latestVersion": "ver0.2",
+      "nicommons": "sm40465457",
+      "files": [
+        {
+          "filename": "ContentsTree.auf",
+          "archivePath": "ContentsTree_ver0.2"
+        }
       ]
     }
   ]

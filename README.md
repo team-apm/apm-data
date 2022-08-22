@@ -15,7 +15,7 @@
 
 ## コントリビューション
 
-[CONTRIBUTING.ja.md](./CONTRIBUTING.ja.md)をご覧ください。
+[CONTRIBUTING.md](./CONTRIBUTING.md)をご覧ください。
 
 ## ライセンス
 

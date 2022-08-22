@@ -61,9 +61,8 @@ AviUtlと拡張編集Pluginのデータファイル
   - _/packages/package/files/file/@directory_: ディレクトリかどうか（デフォルト: false）
   - _/packages/package/files/file/@archivePath_: ファイルのアーカイブ内相対パス（デフォルト: null）
   - _/packages/package/files/file/@obsolete_: 最新バージョンに存在しないかどうか（デフォルト: false）
-- **/packages/package/releases/release**: プログラムのリリース
+- _/packages/package/releases/release_: パッケージのリリース
   - **/packages/package/releases/release/@version**: そのリリースのバージョン
-  - **/packages/package/releases/release/url**: リリースされたアーカイブのURL
   - _/packages/package/releases/release/archiveIntegrity_: アーカイブのハッシュ
     - _/packages/package/releases/release/integrities/integrity_: ファイルのハッシュ
       - _/packages/package/releases/release/integrities/integrity/@target_: 対象のファイル名

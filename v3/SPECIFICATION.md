@@ -70,7 +70,7 @@ AviUtlと拡張編集Pluginのデータファイル
   - _FileInfo.isDirectory_: ディレクトリかどうか（デフォルト: false）
   - _FileInfo.archivePath_: ファイルのアーカイブ内相対パス（String）
   - _FileInfo.isObsolete_: 最新バージョンに存在しないかどうか（デフォルト: false）
-- **packages\[number\].releases**: プログラムのリリース一覧（ReleaseData[]）
+- _packages\[number\].releases_: パッケージのリリース一覧（ReleaseData[]）
   - **ReleaseData.version**: そのリリースのバージョン（String）
   - **ReleaseData.integrity**: ハッシュの一覧（Array）
     - **ReleaseData.integrity.archive**: アーカイブファイルのハッシュ（String）

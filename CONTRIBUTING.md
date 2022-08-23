@@ -77,8 +77,24 @@ Pull Requestがマージされた時点で、あなたの貢献が[Contributors�
 - パッケージ数が多い開発者のパッケージは、リストを切り分けます。
 - `integrity`の`target`とするファイルは、編集しないファイルを指定します。設定ファイルなどの編集を前提としたファイルは指定しません。
 
+### リント
+
+リントに[ESLint](https://eslint.org/)を使用しており、[Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)をベースに設定しています。内容は以下の通りです。
+
+- ECMAScript 2020を使用できます。
+- 変数の宣言には、基本的に`const` / `let`を使用します。
+- モジュールに関してには、`import` / `export`を使用します。
+
 ### フォーマット
 
 フォーマッターとして、[Prettier](https://prettier.io/)を使用しており、コミット時に自動実行されます。
 
 適用される設定は、[.editorconfig](./.editorconfig)に書かれた内容です。
+
+### Visual Studio Codeを利用している方へ
+
+以上の機能をエディタ上で使うために、以下の拡張機能をインストールすることをおすすめします。
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)

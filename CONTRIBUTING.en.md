@@ -75,8 +75,24 @@ Other things that are conventionally done are noted.
 - For packages from developers with a large number of packages, separate the list.
 - The file to be the `target` of `integrity` is a file that is not to be edited. Files that are supposed to be edited, such as configuration files, are not specified.
 
+### Linting
+
+We are using [ESLint](https://eslint.org/) for linting, and the settings are based on the [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html). The contents are as follows.
+
+- ECMAScript 2020 can be used.
+- Basically, use `const` / `let` to declare variables.
+- Use `import` / `export` regarding modules.
+
 ### Formatting
 
 We are using [Prettier](https://prettier.io/) as the formatter, which is automatically executed at commit time.
 
 The settings to be applied are those written in [.editorconfig](./.editorconfig).
+
+### For Users of Visual Studio Code
+
+To use the above features on the editor, we recommend installing the following extensions:
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)

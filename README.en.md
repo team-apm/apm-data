@@ -15,7 +15,7 @@ See the specification document for each version.
 
 ## Contribution
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
+See [CONTRIBUTING.en.md](./CONTRIBUTING.en.md).
 
 ## License
 

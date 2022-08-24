@@ -6298,7 +6298,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.10",
+      "latestVersion": "7.11",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -6325,6 +6325,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.11",
+          "integrity": {
+            "archive": "sha384-PJ8EQ88J76lqxWN+V93MG9SZe0L7wdyYwZq+qcGl1kWRpZLUsoB87mwK6myRBVHN",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-8JwRufxTuds7CTHL+fAzQjeBg3xDQnqx4OLpChGq0RqXP3M8HQ6UaDaMHq8v4zA/"
+              }
+            ]
+          }
+        },
         {
           "version": "7.10",
           "integrity": {
@@ -6686,7 +6698,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.05",
+      "latestVersion": "7.06",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -6713,6 +6725,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.06",
+          "integrity": {
+            "archive": "sha384-hG45AyHmDBzLNk7e4g08SIxuN67EXUKmj5aYq4QKL9XxJb/NnRcywziK9qyYWHW7",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-AGSjGCa7WoFBNuoam7mvgxRRIEdgUFu5x2a6YJkkbnmmXP9+pAs8Zwb5ivuK8c6W"
+              }
+            ]
+          }
+        },
         {
           "version": "7.05",
           "integrity": {
@@ -6807,7 +6831,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.14",
+      "latestVersion": "3.15",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -6832,6 +6856,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.15",
+          "integrity": {
+            "archive": "sha384-IVev4vSU+Kr+RSdF2599W978PyPxf2lwrbSIOnSPTCFkEib5oQ0sBmvfdqKKLNF1",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-7p+kaxRsGz0xm+7lsRbKaWeHMjTm6TP2HAXsoXpnxZNzyZe1k6cCy/O9VeMoLjhJ"
+              }
+            ]
+          }
+        },
         {
           "version": "3.14",
           "integrity": {
@@ -7034,7 +7070,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.05",
+      "latestVersion": "4.06",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -7061,6 +7097,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.06",
+          "integrity": {
+            "archive": "sha384-XIkNb2hFthUtIC/haZvfKLbf84tWChHRmgF1edKdukx6TyizABftXHyDpTgCYcAb",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-XzzHlSNODf8+K1e5Rb8WYW28Fe6443pSJX+Tmt9AL/v4kZHdzmwBEpIF05vKLvQx"
+              }
+            ]
+          }
+        },
         {
           "version": "4.05",
           "integrity": {

@@ -62,7 +62,7 @@
     },
     {
       "url": "https://www.nicovideo.jp/series/138505",
-      "developer": "ウサギ",
+      "developer": "カメ/ウサギ",
       "description": "スクリプトの例: カバー付ワイプ, 展開for出力プラグイン, シャッフルレター, 角付き丸吹き出し, 簡易水玉, 丸付折線テキスト, カバー画像付ワイプ"
     }
   ],
@@ -227,7 +227,7 @@
         "http://takeshima.halfmoon.jp/room/aviutl*"
       ],
       "folder": "usagi",
-      "developer": "ウサギ",
+      "developer": "カメ/ウサギ",
       "dependencies": []
     }
   ]

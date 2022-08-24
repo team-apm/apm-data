@@ -15,7 +15,7 @@
 
 ## コントリビューション
 
-[CONTRIBUTING.ja.md](./CONTRIBUTING.ja.md)をご覧ください。
+[CONTRIBUTING.md](./CONTRIBUTING.md)をご覧ください。
 
 ## ライセンス
 
@@ -32,3 +32,4 @@
 [@mitosagi](https://github.com/mitosagi)
 [@yumetodo](https://github.com/yumetodo)
 [@karoterra](https://github.com/karoterra)
+[@glyzinieh](https://github.com/glyzinieh)

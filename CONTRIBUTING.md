@@ -1,72 +1,100 @@
 # Contribution
 
-[日本語](./CONTRIBUTING.ja.md)
+[English](./CONTRIBUTING.en.md)
 
-Thank you for your interest in contributing to the data for AviUtl Package Manager!
+AviUtl Package Managerデータへのコントリビュートに興味を持っていただきありがとうございます！！
 
-Here is a guide on how to contribute.
+コントリビュートの仕方についてガイドします。
 
-## Language Used
+## 使用言語
 
-This data has been created using XML.
+このデータは、JSON形式で提供されています。
 
-The languages used are:
+使用言語:
 
-- XML
-- XML Scheme
+- JSON
 
 ## Issues
 
-A template is provided for the following issues. You can use either English or Japanese.
+以下のIssueは、テンプレートを用意しています。日本語でも英語でも構いません。
 
-- Plugin request [English](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request.md) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request_ja.md)
-- Script Request [English](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request.md) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request_ja.md)
+- プラグインリクエスト (Plugin request) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request_ja.md) [English](https://github.com/team-apm/apm-data/issues/new?labels=plugin&template=plugin_request.md)
+- スクリプトリクエスト (Script request) [日本語](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request_ja.md) [English](https://github.com/team-apm/apm-data/issues/new?labels=script&template=script_request.md)
 
-Other Issues are also welcome.
+その他のIssueも大歓迎です。
 
 ## Pull Requests
 
-Pull Requests are also welcome.
+Pull Requestも大歓迎です。
 
-We accept the following types of pull requests. You don't need to make an Issue for basic Pull Requests.
+以下のようなPull Requestを受け付けています。基本的なPull Requestは、Issueを立てなくても問題ありません。
 
-If you have a question about a new feature, improvement, or fix, or if the impact of a major new feature or change is significant, please make an Issue to discuss it.
+新機能や改善、修正について、疑問がある場合や、大きな新機能や変更の影響が大きい場合は、一度Issueを立てて相談してください。
 
-- Adding a new plugin/script
-- Changing the data format
+- パッケージデータの追加
+- データ形式の変更
 
-When the pull request is merged, your contribution will be added to the [Contributors list](https://github.com/team-apm/apm/graphs/contributors) and the code content will be [CC BY-NC -SA 4.0](./LICENSE).
+Pull Requestがマージされた時点で、あなたの貢献が[Contributorsリスト](https://github.com/team-apm/apm-data/graphs/contributors)に追加され、コードの内容には[CC BY-NC-SA 4.0](./LICENSE)が適用されます。
 
-## Confirmation of Modifications
+<!--[CODE OF CONDUCT](./CODE_OF_CONDUCT.md)に反する内容を含むものは受け付けません。-->
 
-Try installing and uninstalling the added package by specifying the XML file you edited as the destination to get the additional data from the `Setting` tab of [AviUtl Package Manager](https://github.com/team-apm/apm).
+## 修正の確認
 
-## Directory Structure
+[AviUtl Package Manager](https://github.com/team-apm/apm)の`設定`タブから、データ取得先に`v3`フォルダを指定するか、追加データ取得先に編集したJSONファイルを指定して、追加したパッケージのインストールとアンインストールを試してください。
 
-Place data XML under `data` and XML Schema under `schema`.
+## ディレクトリ構造
+
+`v3`下にデータJSONを配置します。
 
 ```text
-├── data
-│   ├── core.xml
-│   ├── mod.xml
-│   └── packages_list.xml
-└── schema
-    ├── au.xsd
-    ├── core.xsd
-    ├── mod.xsd
-    └── packages_list.xsd
+└── v3
+    ├── packages
+    │   ├── xxxx.json
+    │   └── yyyy.json
+    ├── convert.json
+    ├── core.json
+    ├── list.json
+    ├── package-sets.json
+    ├── packages.json
+    └── scripts.json
 ```
 
-## Commit Message Convention
+## コミットメッセージ規約
 
-Currently, we don't have a clear specification because we don't output the update history, but you can follow Angular's Commit Message Format.
+現状、更新履歴を出力することが無いので明確に規定していませんが、AngularのCommit Message Formatに従うとよいでしょう。
 
 - [conventional-changelog/packages/conventional-changelog-angular/README.md](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/README.md)
 
-## Code Writing Style/Rules
+## データの書き方・ルール
 
-### Formatting
+まずは、[仕様書](./v3/SPECIFICATION.md)を確認します。
 
-We are using [Prettier](https://prettier.io/) as the formatter, which is automatically executed at commit time.
+その他、慣例的に行っていることを記します。
 
-The settings to be applied are those written in [.editorconfig](./.editorconfig).
+- パッケージは、IDでアルファベット順にソートします。
+- AviUtlフォルダ内の配置は、プラグインの場合、README等に記載の開発者の指定に従います。スクリプトの場合、`script`フォルダ内で作者ごとにフォルダを分けて配置します。
+- `downloadURLs`として、GitHubのReleasesを指定する場合、`releases/latest`の最新バージョンを表示するように指定します。
+- パッケージ数が多い開発者のパッケージは、リストを切り分けます。
+- `integrity`の`target`とするファイルは、編集しないファイルを指定します。設定ファイルなどの編集を前提としたファイルは指定しません。
+
+### リント
+
+リントに[ESLint](https://eslint.org/)を使用しており、[Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)をベースに設定しています。内容は以下の通りです。
+
+- ECMAScript 2020を使用できます。
+- 変数の宣言には、基本的に`const` / `let`を使用します。
+- モジュールに関してには、`import` / `export`を使用します。
+
+### フォーマット
+
+フォーマッターとして、[Prettier](https://prettier.io/)を使用しており、コミット時に自動実行されます。
+
+適用される設定は、[.editorconfig](./.editorconfig)に書かれた内容です。
+
+### Visual Studio Codeを利用している方へ
+
+以上の機能をエディタ上で使うために、以下の拡張機能をインストールすることをおすすめします。
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)

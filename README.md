@@ -13,6 +13,10 @@
 - [v2](./v2/SPECIFICATION.md)
 - [v3](./v3/SPECIFICATION.md)
 
+## 開発者ID
+
+Team apmが付与した開発者IDは、[developer-id.md](./developer-id.md)をご覧ください。
+
 ## コントリビューション
 
 [CONTRIBUTING.md](./CONTRIBUTING.md)をご覧ください。

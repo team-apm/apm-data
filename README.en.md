@@ -13,6 +13,10 @@ See the specification document for each version.
 - [v2](./v2/SPECIFICATION.md)
 - [v3](./v3/SPECIFICATION.md)
 
+## Developer ID
+
+The developer ID assigned by Team apm can be found in [developer-id.md](./developer-id.md) (Japanese).
+
 ## Contribution
 
 See [CONTRIBUTING.en.md](./CONTRIBUTING.en.md).

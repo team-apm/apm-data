@@ -3315,9 +3315,21 @@
       "downloadURLs": [
         "https://github.com/karoterra/aviutl_ShowLimit/releases/latest"
       ],
-      "latestVersion": "v0.3.0",
+      "latestVersion": "v0.4.0",
       "files": [{ "filename": "plugins/ShowLimit.auf" }],
       "releases": [
+        {
+          "version": "v0.4.0",
+          "integrity": {
+            "archive": "sha384-tpieaGZ/9yacfspLjMS6/IvwMYwwvKH/jRvbM/zWJ78rX4lwZKwHNrLAP9zhpMSa",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-+2Wgwi70ELIGQ4wr9OKSfiu7zF11Jp+v4SPNdOGsTGuN+L0oTS1Qa8zh223qqcWt"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.0",
           "integrity": {
@@ -6129,7 +6141,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "6.09",
+      "latestVersion": "6.10",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -6156,6 +6168,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "6.10",
+          "integrity": {
+            "archive": "sha384-9y3Cq/Fu8l+LWemO4AUmukoy6wg8Uc28gcUEcpUuZvqozM7HqY+kn8LGx3jBGH0G",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-eK0X1LUXpmfBarVmStHxd99ttyK8kmdlWFIv+8QG9LIi1/nleMsXNDhbPtG4nqvZ"
+              }
+            ]
+          }
+        },
         {
           "version": "6.09",
           "integrity": {
@@ -6298,7 +6322,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.11",
+      "latestVersion": "7.13",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -6325,6 +6349,30 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.13",
+          "integrity": {
+            "archive": "sha384-rOrKQxwCF1TzyQaWgXuGvgLHgaBUMRO+bn0bMZP8fHvuwmFR7Uts7C2+Fqqavanj",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-OV9eGQKzC3rat7/jQei1pd82me0ECbu5mc2LMiVGo4vTCJhNsNr3M9w0B6haKLXK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.12",
+          "integrity": {
+            "archive": "sha384-viUhzJs5GvQUSDMciL36xGeB++AnJwkM5WVKJr+nZODaANo3VNTsRD4NQkTdjg7L",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-xVP4o5RPt8dooKnU+j7rblmVDhzdqCsYEbAiRUVGwdd5cP0UySvU02209ljkoUYr"
+              }
+            ]
+          }
+        },
         {
           "version": "7.11",
           "integrity": {
@@ -6552,7 +6600,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.08",
+      "latestVersion": "1.09",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -6580,6 +6628,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.09",
+          "integrity": {
+            "archive": "sha384-14ZzURFgS9O3vq3rls1xXtYkouLAFtyNRLkaVnNuVlAN/JQ5FEfkrpKXnlTHejPJ",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-oWh8YyErreMx2GzHSG4igYftYNKBGyOm8v66tI0gDviPXlJE3Z38n9iB/5GcCwQR"
+              }
+            ]
+          }
+        },
         {
           "version": "1.08",
           "integrity": {
@@ -6698,7 +6758,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.06",
+      "latestVersion": "7.08",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -6725,6 +6785,30 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.08",
+          "integrity": {
+            "archive": "sha384-VunNZoFgz7dslfyfNT3Gqm1IL3gesGy3DVWwAuknbgPfuReu9pIH3lJCKJV1t1t6",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-pUcIkbZ0+vxUz7U7m2CBI3mi/n7E49zdY3EZlXRFbdXJWD1tnt/4rFD3SWo6zFrd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.07",
+          "integrity": {
+            "archive": "sha384-TT/9neqKHL4iwo6QZJeUfSE1vanrLX+1Qx/ljZPSwPwuAyB4rOIp8Ht/IKMplGas",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-uRown4XgUJjQPT99oFloflko8cbENqlbbuQArI3kfhM7SZnxttRA2dHDVCtSaXGI"
+              }
+            ]
+          }
+        },
         {
           "version": "7.06",
           "integrity": {

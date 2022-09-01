@@ -8586,6 +8586,7 @@
       "name": "Boost",
       "overview": "AviutlをGPU動作化して超高速化",
       "description": "フィルタ処理・画像合成にGPUを使用し、AviUtlの動作を高速化するプラグイン",
+      "developer": "柳",
       "pageURL": "https://www.nicovideo.jp/watch/sm40499092",
       "downloadURLs": [
         "https://aviutl.techblog.jp/archives/aviutl_plugin_boost.html"

@@ -2,7 +2,7 @@
 
 import { Octokit } from '@octokit/rest';
 import chalk from 'chalk';
-import compareVersions from 'compare-versions';
+import { compareVersions } from 'compare-versions';
 import fs from 'fs-extra';
 import { basename, dirname, extname, resolve } from 'path';
 import { format } from 'prettier';

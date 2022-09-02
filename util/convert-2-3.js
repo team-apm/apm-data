@@ -1,7 +1,7 @@
 // > yarn run convert-2-3
 
 import chalk from 'chalk';
-import compareVersions from 'compare-versions';
+import { compareVersions } from 'compare-versions';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import fs from 'fs-extra';
 import { extname, resolve } from 'path';

@@ -2455,13 +2455,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.1.0",
+      "latestVersion": "3.2.0",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.2.0",
+          "integrity": {
+            "archive": "sha384-0EqJHijXHxlZzhcr/Kpv9MP2y15NF1XSUuwQj3WWogxh+/3rTJfHV2Y75CEhXjdT",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-LvUvYEBMH5W3C5XKYealDQpl/mjlIt8a6uZ5I8GRbWTj/nOppKv3PqdNEY4cVX3H"
+              }
+            ]
+          }
+        },
         {
           "version": "3.1.0",
           "integrity": {
@@ -6334,7 +6346,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.13",
+      "latestVersion": "7.14",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -6361,6 +6373,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.14",
+          "integrity": {
+            "archive": "sha384-yRYWA/G4ryXcHTOIx7ppelUidSJAmzwhcWHb2/x1JyJc8s0qdCqnqM87ooHrukDq",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-fdmODzRMcYoT2tyqmN0XgMhhnXmYLFEZ8qM+JdkdYevSLFp5akz+IzMeLiEQIGFg"
+              }
+            ]
+          }
+        },
         {
           "version": "7.13",
           "integrity": {

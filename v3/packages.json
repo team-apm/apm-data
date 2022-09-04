@@ -2455,13 +2455,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.2.0",
+      "latestVersion": "3.2.1",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.2.1",
+          "integrity": {
+            "archive": "sha384-VWbwGGv/5BLXv3ygjzH8hYuAOqETe1nKL0xeNefL2bTmohq/mrD7uCE3wU307CCa",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-yYyO3meCKnnpFKL1+24qK+JJcfBaLXcrZvAG5PsTW8Ys5XWsjbiIK12bynK+l6fb"
+              }
+            ]
+          }
+        },
         {
           "version": "3.2.0",
           "integrity": {
@@ -6794,7 +6806,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.08",
+      "latestVersion": "7.09",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -6821,6 +6833,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.09",
+          "integrity": {
+            "archive": "sha384-vOtfug/f1QwINOBiPuR70jtKOITEpdxxSZZTozxgdTdW3AKYty5/fN7pj4i3JQ05",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-20nfFDEyTNR1Z2Vu0SBXEkBphae4zmoyKn/EP+1C8b2OcC4Xkzg0EauSZhclEkhJ"
+              }
+            ]
+          }
+        },
         {
           "version": "7.08",
           "integrity": {

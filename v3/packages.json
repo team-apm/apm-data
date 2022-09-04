@@ -3922,7 +3922,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/SortEffect/releases/latest"
       ],
-      "latestVersion": "1.0",
+      "latestVersion": "1.1",
       "nicommons": "sm40952636",
       "files": [
         { "filename": "plugins/SortEffect.auf", "archivePath": "plugins/" },
@@ -8629,12 +8629,7 @@
       ],
       "latestVersion": "ver0.7",
       "nicommons": "sm40499092",
-      "files": [
-        {
-          "filename": "Boost.auf",
-          "archivePath": "Boost_ver0.7"
-        }
-      ]
+      "files": [{ "filename": "Boost.auf", "archivePath": "Boost_ver0.7" }]
     },
     {
       "id": "yanagi/ContentsTree",

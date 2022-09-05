@@ -6358,7 +6358,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.14",
+      "latestVersion": "7.15",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -6385,6 +6385,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.15",
+          "integrity": {
+            "archive": "sha384-29a/Z3ed4Or/RMOFjjjjU1rJi8QjhwFR1V8h2Czk9UiwXtXncqX0bok2ydrraDF5",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-7eq0R8yu0HpQ4NRpmDl3FqQIhBgTMrhneAjuclCfdHtC1fupd8ngcYSIdzEj9l7w"
+              }
+            ]
+          }
+        },
         {
           "version": "7.14",
           "integrity": {

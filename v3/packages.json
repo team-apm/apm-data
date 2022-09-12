@@ -2156,6 +2156,43 @@
       ]
     },
     {
+      "id": "hebiiro/ObjectExplorer",
+      "name": "オブジェクトエクスプローラ",
+      "overview": "エイリアスの管理を効率化する",
+      "description": "「オブジェクトエクスプローラプラグイン」はAviUtl内に簡易エクスプローラを表示させ、エイリアスの管理を効率化するAviUtlプラグインです。",
+      "developer": "hebiiro",
+      "pageURL": "https://www.nicovideo.jp/watch/sm41048473",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
+      ],
+      "latestVersion": "3.3.0",
+      "nicommons": "sm41048473",
+      "files": [
+        { "filename": "plugins/ObjectExplorer.auf" },
+        { "filename": "plugins/セカンドエクスプローラ.auf" },
+        { "filename": "plugins/ObjectExplorer", "isDirectory": true },
+        { "filename": "plugins/セカンドエクスプローラ", "isDirectory": true }
+      ],
+      "releases": [
+        {
+          "version": "3.3.0",
+          "integrity": {
+            "archive": "sha384-FHc3N/9RDhINvriKIXkgaiIS4qMWPafUpXlUAIQgoOxFhja8e1LqqO7KKjTj9flq",
+            "file": [
+              {
+                "target": "plugins/ObjectExplorer.auf",
+                "hash": "sha384-jjBFXuXoFTePdZZAFZJ2dctooo0y0ynNP7ApUG046dgeMd9Yx4OhvqWYLY1GH5l+"
+              },
+              {
+                "target": "plugins/セカンドエクスプローラ.auf",
+                "hash": "sha384-jjBFXuXoFTePdZZAFZJ2dctooo0y0ynNP7ApUG046dgeMd9Yx4OhvqWYLY1GH5l+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "hebiiro/OptimizeEditBox",
       "name": "エディットボックス最適化",
       "overview": "拡張編集の冗長なフレームの更新処理を抑制します",

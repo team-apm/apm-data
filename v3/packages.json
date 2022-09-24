@@ -7132,7 +7132,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.15",
+      "latestVersion": "3.16",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -7157,6 +7157,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.16",
+          "integrity": {
+            "archive": "sha384-6LfWRBB9K8vPTvDJmjSB2x5eD7Teh4NX8IufA1c7ZIW0e/xeKNCihR0v551DR4wq",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-ocTnooIaJpl6EJnRw8Is+5y3iQ6KUNTQ7x4a1ei3+4e9d6cR+Qc1+MTpCrUnW3wg"
+              }
+            ]
+          }
+        },
         {
           "version": "3.15",
           "integrity": {

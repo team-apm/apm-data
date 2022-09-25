@@ -6781,7 +6781,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.09",
+      "latestVersion": "1.10",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -6809,6 +6809,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-nd0nMP8dALgGmC16AtBd4yV0BE+/H929MFn7CCEMqo/cF7kq6jA3xdEbRQcQCHNW",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-L4SeGy60CmkOFx8jbaFLb4MurwOtFUQGez5YwRcdSc7ilWqe9d+g6VgzTbabM/7x"
+              }
+            ]
+          }
+        },
         {
           "version": "1.09",
           "integrity": {
@@ -7383,7 +7395,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.06",
+      "latestVersion": "4.07",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -7410,6 +7422,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.07",
+          "integrity": {
+            "archive": "sha384-588powa97wMQhkzZIC66TbVL+0pKlCY8XFAyR30ZsXmDGxGxXlY/xbSNdDrfMKP7",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-qhNf3tKL/9i58mUfON4tDnJokzu/QcTNKnkdZgm8z2zDpaJge5Jl6kaoAUWIUIUy"
+              }
+            ]
+          }
+        },
         {
           "version": "4.06",
           "integrity": {

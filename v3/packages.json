@@ -2504,13 +2504,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.2.1",
+      "latestVersion": "3.2.2",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.2.2",
+          "integrity": {
+            "archive": "sha384-UFfzOKWhtshaRwywT87QaKWPCX4Q0YTeUX5s+RS+CXY6/Ca2sLsMElUeBYJS8/FE",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-GCwTgftx8UF/iQv1+YOTQV1C//HBmxGIsJ+FLY7fn96m4wt8NPJv9bx4aHUUrmD5"
+              }
+            ]
+          }
+        },
         {
           "version": "3.2.1",
           "integrity": {

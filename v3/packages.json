@@ -6479,7 +6479,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.21",
+      "latestVersion": "7.22",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -6506,6 +6506,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.22",
+          "integrity": {
+            "archive": "sha384-xgxi5jq+mx/JRzD7G+CJ7rTCBcsrvmBJ59XcJsaiGUaqltMMVJLHRBhd3HKvVV0u",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TjU74OLPTknfaLvnxdiFN9O4c0Rps6rdrs2oQEeYxfLx9AzFRq4X9eQbqPOk08j4"
+              }
+            ]
+          }
+        },
         {
           "version": "7.21",
           "integrity": {
@@ -6853,7 +6865,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.10",
+      "latestVersion": "1.11",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -6881,6 +6893,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.11",
+          "integrity": {
+            "archive": "sha384-2h+eWmR3lHRnY6fiV2+tr1zicgbReED4Y0h+9YAfgpCfLntHsW/I2LptYh8BaHED",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-5tL0n3LA/S768La0YUpIKV95yxKa7oBY1uW5+j7WqpJ+bOtK8zeCb11CiUl4QXKM"
+              }
+            ]
+          }
+        },
         {
           "version": "1.10",
           "integrity": {

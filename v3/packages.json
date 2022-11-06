@@ -6238,7 +6238,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.02",
+      "latestVersion": "7.03",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -6265,6 +6265,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.03",
+          "integrity": {
+            "archive": "sha384-fNZonSmI8TiNkBODSPzs89Qs02YsLuG3dTLqNXzmKQgYSg14ixZhfQmJtI4DU2vI",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-XyrRqOnImN+xrlF/xoACE+7fbXF4/mdgaXW9AE+ecAoz7g6O5ar7qzoI09gy/M3b"
+              }
+            ]
+          }
+        },
         {
           "version": "7.02",
           "integrity": {

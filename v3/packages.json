@@ -970,7 +970,6 @@
       "overview": "よりスマートに書き直されたイージングスクリプト",
       "description": "undofish版イージングをより扱いやすくすることを目的としたスクリプト。\nカスタムオブジェクトのベジエ曲線を配置せず、数値指定でグラフを表現することが可能。",
       "developer": "ePi",
-      "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://scrapbox.io/ePi5131/ease",
       "downloadURLs": ["https://scrapbox.io/ePi5131/ease"],
       "latestVersion": "1.0",
@@ -2561,6 +2560,7 @@
       "overview": "シーンを簡単に切り替えられるようにします",
       "description": "Aviutl拡張編集内部のシーンを簡単に切り替えられるウィジェットを表示します。",
       "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-SelectScene#readme",
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SelectScene/releases/latest"
@@ -3806,7 +3806,7 @@
       "overview": "AviUtl拡張編集メインウィンドウ上での編集操作を強化するプラグイン",
       "description": "メインウィンドウ上での編集操作としてマウスコマンドを追加",
       "developer": "蝙蝠の目",
-      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "dependencies": ["exedit0.92"],
       "pageURL": "https://github.com/kumrnm/aviutl-advanced-mouse-operation#readme",
       "downloadURLs": [
         "https://github.com/kumrnm/aviutl-advanced-mouse-operation/releases/latest"
@@ -3862,7 +3862,6 @@
       "overview": "AviUtl 拡張編集のイージング設定を補助するプラグイン",
       "description": "パラメーター付きのイージングが選択された場合、パラメーター設定ダイアログをその場で表示します",
       "developer": "蝙蝠の目",
-      "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://github.com/kumrnm/aviutl-easing-quick-setup#readme",
       "downloadURLs": [
         "https://github.com/kumrnm/aviutl-easing-quick-setup/releases/latest"
@@ -4289,7 +4288,6 @@
       "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
       "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
       "developer": "謎の生物",
-      "dependencies": ["aviutl1.10", "exedit0.92"],
       "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
       "downloadURLs": [
         "https://drive.google.com/u/0/uc?id=1Hyh1f6kpblxwI7-eESj-Kxd_FU4Abpb0&export=download"

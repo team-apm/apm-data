@@ -3400,11 +3400,7 @@
       "pageURL": "http://onomirukust.blog.fc2.com/blog-entry-221.html",
       "downloadURLs": ["https://www.axfc.net/u/4022952"],
       "latestVersion": "2020/06/03",
-      "files": [
-        {
-          "filename": "script/jigno/架空デュエル_01.anm"
-        }
-      ],
+      "files": [{ "filename": "script/jigno/架空デュエル_01.anm" }],
       "releases": [
         {
           "version": "2020/06/03",
@@ -3429,11 +3425,7 @@
       "pageURL": "http://onomirukust.blog.fc2.com/blog-entry-172.html",
       "downloadURLs": ["https://www.axfc.net/u/3822110.zip"],
       "latestVersion": "2017/07/06",
-      "files": [
-        {
-          "filename": "script/jigno/001_Tap-Untap_02.anm"
-        }
-      ],
+      "files": [{ "filename": "script/jigno/001_Tap-Untap_02.anm" }],
       "releases": [
         {
           "version": "2017/07/06",
@@ -3811,11 +3803,11 @@
       "downloadURLs": [
         "https://github.com/kumrnm/aviutl-advanced-mouse-operation/releases/latest"
       ],
-      "latestVersion": "1.0.0",
+      "latestVersion": "v1.0.0",
       "files": [{ "filename": "plugins/AdvancedMouseOperation.auf" }],
       "releases": [
         {
-          "version": "1.0.0",
+          "version": "v1.0.0",
           "integrity": {
             "archive": "sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d",
             "file": [
@@ -3839,11 +3831,11 @@
       "downloadURLs": [
         "https://github.com/kumrnm/aviutl-authentic-grouping/releases/latest"
       ],
-      "latestVersion": "1.1.0",
+      "latestVersion": "v1.1.0",
       "files": [{ "filename": "plugins/authentic_grouping.auf" }],
       "releases": [
         {
-          "version": "1.1.0",
+          "version": "v1.1.0",
           "integrity": {
             "archive": "sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3",
             "file": [
@@ -3866,11 +3858,11 @@
       "downloadURLs": [
         "https://github.com/kumrnm/aviutl-easing-quick-setup/releases/latest"
       ],
-      "latestVersion": "1.1.0",
+      "latestVersion": "v1.1.0",
       "files": [{ "filename": "plugins/easing_quick_setup.auf" }],
       "releases": [
         {
-          "version": "1.1.0",
+          "version": "v1.1.0",
           "integrity": {
             "archive": "sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO",
             "file": [
@@ -6685,7 +6677,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.03",
+      "latestVersion": "7.04",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -6712,6 +6704,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.04",
+          "integrity": {
+            "archive": "sha384-2u9VVouxXarjffbHdFDfNfqnEp1WkQN95yd2Qhd4+qVQdzbK9/4PT3xG1mGnhXxz",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-nRZ0+5aSzeJiWhl2UH4y8KUGAo9/UEcdgyiNA9N/oMrtV+UQxmBXIzZP+gCMQzTp"
+              }
+            ]
+          }
+        },
         {
           "version": "7.03",
           "integrity": {
@@ -6938,7 +6942,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.23",
+      "latestVersion": "7.24",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -6965,6 +6969,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.24",
+          "integrity": {
+            "archive": "sha384-mdSwQCiuAYNMlAsS5lP/InFPYd2DK6/Fbnopy0gnnkVoU6XGoeSehbpd4ls1fIT3",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-I++GmRDJgMp2pmULSFppyYHwuJFRsSxTOouW0bVW5Twn8XWHV1gdUfNQMNgBpGvm"
+              }
+            ]
+          }
+        },
         {
           "version": "7.23",
           "integrity": {
@@ -7336,7 +7352,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.11",
+      "latestVersion": "1.12",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -7364,6 +7380,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.12",
+          "integrity": {
+            "archive": "sha384-lQhXv2TlRnXkJRwqVuHVFzMG/L+8tSXEtwF2A9nl4Zx+IJErFDTJn95ARX3eLU+l",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-TBnM8qSvqcgTemG/T5sXVQqofL88eRLSvmm0yfqvdA94C80+JbjDadTjPmTWwLPn"
+              }
+            ]
+          }
+        },
         {
           "version": "1.11",
           "integrity": {
@@ -8229,10 +8257,7 @@
       "latestVersion": "2020/09/05",
       "nicommons": "sm26877964",
       "files": [
-        {
-          "filename": "script/rikky/立体化(R).anm",
-          "archivePath": "立体化"
-        },
+        { "filename": "script/rikky/立体化(R).anm", "archivePath": "立体化" },
         {
           "filename": "script/rikky/dimensionize.dll",
           "archivePath": "立体化/rikky_module ver1用"
@@ -8269,10 +8294,7 @@
       "latestVersion": "2020/09/05",
       "nicommons": "sm26877964",
       "files": [
-        {
-          "filename": "script/rikky/立体化(R).anm",
-          "archivePath": "立体化"
-        },
+        { "filename": "script/rikky/立体化(R).anm", "archivePath": "立体化" },
         {
           "filename": "script/rikky/dimensionize.dll",
           "archivePath": "立体化/rikky_module ver2用"

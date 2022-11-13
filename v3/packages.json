@@ -3807,7 +3807,7 @@
       "files": [{ "filename": "plugins/AdvancedMouseOperation.auf" }],
       "releases": [
         {
-          "version": "1.0.0",
+          "version": "v1.0.0",
           "integrity": {
             "archive": "sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d",
             "file": [
@@ -3835,7 +3835,7 @@
       "files": [{ "filename": "plugins/authentic_grouping.auf" }],
       "releases": [
         {
-          "version": "1.1.0",
+          "version": "v1.1.0",
           "integrity": {
             "archive": "sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3",
             "file": [
@@ -3862,7 +3862,7 @@
       "files": [{ "filename": "plugins/easing_quick_setup.auf" }],
       "releases": [
         {
-          "version": "1.1.0",
+          "version": "v1.1.0",
           "integrity": {
             "archive": "sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO",
             "file": [

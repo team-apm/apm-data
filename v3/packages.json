@@ -965,6 +965,43 @@
       ]
     },
     {
+      "id": "ePi/ease",
+      "name": "ease",
+      "overview": "よりスマートに書き直されたイージングスクリプト",
+      "description": "undofish版イージングをより扱いやすくすることを目的としたスクリプト。\nカスタムオブジェクトのベジエ曲線を配置せず、数値指定でグラフを表現することが可能。",
+      "developer": "ePi",
+      "pageURL": "https://scrapbox.io/ePi5131/ease",
+      "downloadURLs": ["https://scrapbox.io/ePi5131/ease"],
+      "latestVersion": "1.0",
+      "files": [
+        { "filename": "ease.dll" },
+        { "filename": "script/epi/ease_common.lua" },
+        { "filename": "script/epi/@ease.tra" }
+      ],
+      "releases": [
+        {
+          "version": "1.0",
+          "integrity": {
+            "archive": "sha384-6h3mWXA+B8uVw6WfePzDUleCDV6yTwtziSASH0n3xByI1i/CkRbKGVxOA6ROfv1C",
+            "file": [
+              {
+                "target": "ease.dll",
+                "hash": "sha384-928LaRvK77QLMFPc5nRCxhzc/oilvmmLcLoYIQg9J6lGJINN0S8C99Jt7+RBY/0F"
+              },
+              {
+                "target": "script/epi/ease_common.lua",
+                "hash": "sha384-MLIPqtTkqNHlyz8LWFF9+IwVbdNkXiEv41NicZrIdwbrUnx43iya/PBHMRLqXazX"
+              },
+              {
+                "target": "script/epi/@ease.tra",
+                "hash": "sha384-rHpTS4Admu7jOfM0Jucs16hY30S8jZdB/Y5/s6+qdjjD0CVMl8fP9I849nmrjute"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "ePi/export2clipboard",
       "name": "export2clipboard",
       "overview": "クリップボードに出力画像を転送する",
@@ -1564,6 +1601,37 @@
               {
                 "target": "plugins/AdjustLastFrame.auf",
                 "hash": "sha384-FQ6X6IakV1rYqKzQ6CdEPqcg8Nr8CQQ7f9okkeCrXIAKG3Y5kzXBbT4xjBEYZmAY"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/BuildStairs",
+      "name": "アイテムずらし",
+      "overview": "タイムラインのアイテムをずらしたり整列したりする",
+      "description": "タイムライン上のアイテムを一定フレーム感覚でずらしたり、一括で整列したりできます。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
+      ],
+      "latestVersion": "2.1.0",
+      "files": [
+        { "filename": "plugins/BuildStairs", "isDirectory": true },
+        { "filename": "plugins/BuildStairs.auf" }
+      ],
+      "releases": [
+        {
+          "version": "2.1.0",
+          "integrity": {
+            "archive": "sha384-2TjkrJw5PEtt7z0ph8P3UXqWC3TUQS8JtaZ9A23m/vmFpqM/+77a2JAPDxieIuOZ",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-RjjM4H9Zxr9n4chL7KZUOElpcTxJuLLzAh3oZsKZ/svW+dzxrKB07peYrQI9J44x"
               }
             ]
           }
@@ -2333,6 +2401,34 @@
       ]
     },
     {
+      "id": "hebiiro/ScriptSortPatch",
+      "name": "スクリプト並び替えパッチ",
+      "overview": "スクリプト並び替えプラグインの不具合を解消します",
+      "description": "スクリプト並び替えプラグインの不具合を解消します。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92", "rikky/scriptSort1"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-script_sort_patch#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-script_sort_patch/releases/latest"
+      ],
+      "latestVersion": "2.0.0",
+      "files": [{ "filename": "plugins/script_sort_patch.auf" }],
+      "releases": [
+        {
+          "version": "2.0.0",
+          "integrity": {
+            "archive": "sha384-lpBZGjLfnl/SonKmu7+Rebu36FYdNR++g4ii257nsfTqYfbkIlMGwY+5/rCtVOOY",
+            "file": [
+              {
+                "target": "plugins/script_sort_patch.auf",
+                "hash": "sha384-2+4BAqQBLPPo6KBC5vyFtZAJ6DWpeymp0FkuBayW1jA0YjeVMku/2S/AbACwRzPE"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "hebiiro/SelectAliasFolder",
       "name": "エイリアスフォルダ選択",
       "overview": "エイリアスフォルダを選択できるようにする",
@@ -2354,6 +2450,37 @@
               {
                 "target": "plugins/SelectAliasFolder.auf",
                 "hash": "sha384-bE4xxQxErK6izZLYfTrnIxTG0Y9rbFl7VbDrYxOdpU15Wjx7QviZ7ta3NSkCr64G"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/SelectEasing",
+      "name": "イージング簡単選択",
+      "overview": "イージング番号を画像から選択できるようにします。",
+      "description": "イージング番号の選択時にイージング番号の表示と、easeモードの場合はベジエ曲線の表示を行います。\nease.dllの利用を推奨します。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-SelectEasing#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-SelectEasing/releases/latest"
+      ],
+      "latestVersion": "4.5.0",
+      "files": [
+        { "filename": "plugins/SelectEasing", "isDirectory": true },
+        { "filename": "plugins/SelectEasing.auf" }
+      ],
+      "releases": [
+        {
+          "version": "4.5.0",
+          "integrity": {
+            "archive": "sha384-rktAcO6vo2Oki55xX5qIuYthzcdZFpXz1xkLCa7mejKSbT/k0wLtTBFUoVwBNW82",
+            "file": [
+              {
+                "target": "plugins/SelectEasing.auf",
+                "hash": "sha384-+N3+N2foDURoTvcpwaKy9847iu0A2pqF491amO/p54pD3uk3Ok6+uda3sX7Iys7g"
               }
             ]
           }
@@ -2421,6 +2548,37 @@
               {
                 "target": "plugins/SelectFavoriteFont.auf",
                 "hash": "sha384-iZ23/fJUGHue/f6CikFxYWQ6rzcOt7+S3weRnhzDKZLsqYFOv6mgEq64SR+fYVgp"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/SelectScene",
+      "name": "シーン簡単選択",
+      "overview": "シーンを簡単に切り替えられるようにします",
+      "description": "Aviutl拡張編集内部のシーンを簡単に切り替えられるウィジェットを表示します。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-SelectScene#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-SelectScene/releases/latest"
+      ],
+      "latestVersion": "2.0.0",
+      "files": [
+        { "filename": "plugins/SelectScene.auf" },
+        { "filename": "plugins/SelectScene", "isDirectory": true }
+      ],
+      "releases": [
+        {
+          "version": "2.0.0",
+          "integrity": {
+            "archive": "sha384-MGBJTDi58ph04aXW1Z27Ed2o8/j0udcVwwiAm55Qpr20D43L9AERzbPjInO9y+Ob",
+            "file": [
+              {
+                "target": "plugins/SelectScene.auf",
+                "hash": "sha384-W/ZqdKzatgw+fD73PWep63ClXMN/+O2n38EoxcpHByx7tAFocYx2thoMi8xxD9bS"
               }
             ]
           }
@@ -2512,6 +2670,37 @@
               {
                 "target": "plugins/ShowWaveform.auf",
                 "hash": "sha384-gH1I7KSHrRVhyYGzANetaWDGbl+v54qqMx2HX8kBIMNqxooef8VcgcIi0swj0GJX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/SplitText",
+      "name": "テキスト分解",
+      "overview": "テキストオブジェクトをバラバラに分解します",
+      "description": "Aviutl拡張編集上のテキストオブジェクトを一文字ごとに別オブジェクトとして新たに生成します。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-SplitText#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-SplitText/releases/latest"
+      ],
+      "latestVersion": "1.7.0",
+      "files": [
+        { "filename": "plugins/SplitText", "isDirectory": true },
+        { "filename": "plugins/SplitText.auf" }
+      ],
+      "releases": [
+        {
+          "version": "1.7.0",
+          "integrity": {
+            "archive": "sha384-R5uqW0sHLT+pePJhXbM5IDUFCB9UNPvUYV2M2TUr+AysMYyRZEcU5R8ye+CqveYy",
+            "file": [
+              {
+                "target": "plugins/SplitText.auf",
+                "hash": "sha384-yokIL3bAf4lXtA0DqBLdh61ErbxOXOqwYOT4HljXBmn+MiQTrZR0uv5qsIcKrOhX"
               }
             ]
           }
@@ -3612,6 +3801,89 @@
       ]
     },
     {
+      "id": "kumrnm/AdvancedMouseOperation",
+      "name": "マウスオペレーション改",
+      "overview": "AviUtl拡張編集メインウィンドウ上での編集操作を強化するプラグイン",
+      "description": "メインウィンドウ上での編集操作としてマウスコマンドを追加",
+      "developer": "蝙蝠の目",
+      "dependencies": ["exedit0.92"],
+      "pageURL": "https://github.com/kumrnm/aviutl-advanced-mouse-operation#readme",
+      "downloadURLs": [
+        "https://github.com/kumrnm/aviutl-advanced-mouse-operation/releases/latest"
+      ],
+      "latestVersion": "1.0.0",
+      "files": [{ "filename": "plugins/AdvancedMouseOperation.auf" }],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "integrity": {
+            "archive": "sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d",
+            "file": [
+              {
+                "target": "plugins/AdvancedMouseOperation.auf",
+                "hash": "sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kumrnm/AuthenticGrouping",
+      "name": "真・グループ制御",
+      "overview": "AviUtl 拡張編集のグループ制御の機能を改善するプラグイン",
+      "description": "グループ制御を入れ子にした際の親グループの制御範囲を変更し、グループ制御が複数のグループ制御を制御できるようにする。",
+      "developer": "蝙蝠の目",
+      "dependencies": ["exedit0.92"],
+      "pageURL": "https://github.com/kumrnm/aviutl-authentic-grouping#readme",
+      "downloadURLs": [
+        "https://github.com/kumrnm/aviutl-authentic-grouping/releases/latest"
+      ],
+      "latestVersion": "1.1.0",
+      "files": [{ "filename": "plugins/authentic_grouping.auf" }],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "integrity": {
+            "archive": "sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3",
+            "file": [
+              {
+                "target": "plugins/authentic_grouping.auf",
+                "hash": "sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kumrnm/EasingQuickSetup",
+      "name": "イージング設定時短プラグイン",
+      "overview": "AviUtl 拡張編集のイージング設定を補助するプラグイン",
+      "description": "パラメーター付きのイージングが選択された場合、パラメーター設定ダイアログをその場で表示します",
+      "developer": "蝙蝠の目",
+      "pageURL": "https://github.com/kumrnm/aviutl-easing-quick-setup#readme",
+      "downloadURLs": [
+        "https://github.com/kumrnm/aviutl-easing-quick-setup/releases/latest"
+      ],
+      "latestVersion": "1.1.0",
+      "files": [{ "filename": "plugins/easing_quick_setup.auf" }],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "integrity": {
+            "archive": "sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO",
+            "file": [
+              {
+                "target": "plugins/easing_quick_setup.auf",
+                "hash": "sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "MaverickTse/AGifExport",
       "name": "Animated Gif Export",
       "overview": "アニメーションGIFを出力する",
@@ -4004,6 +4276,98 @@
               {
                 "target": "discord_game_sdk.dll",
                 "hash": "sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/CameraAssistNoRuntime",
+      "name": "カメラ補助プラグイン(ランタイム不要・非推奨)",
+      "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
+      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。",
+      "developer": "謎の生物",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
+      "downloadURLs": [
+        "https://drive.google.com/drive/folders/1VcrWV_HF1fL2V_FfoV5wo5QBxzQuycMB"
+      ],
+      "latestVersion": "1.7",
+      "nicommons": "sm39701988",
+      "files": [
+        {
+          "filename": "カメラ制御",
+          "archivePath": "CameraAssist一式",
+          "isDirectory": true
+        },
+        {
+          "filename": "plugins/xCameraAssist.auf",
+          "archivePath": "CameraAssist一式/plugins"
+        },
+        {
+          "filename": "script/上方向ベクトル.cam",
+          "archivePath": "CameraAssist一式/script"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.7",
+          "integrity": {
+            "archive": "sha384-7Tvy194XtCxrJFV1V+DNTazFgKIjDbO0r1jBGH+2HvhDVYZanN4DROUxRwFh8zo7",
+            "file": [
+              {
+                "target": "plugins/xCameraAssist.auf",
+                "hash": "sha384-8gKIvQAIsvptoWoyKCFBChN39MV0oRfONwwCzDre2gfeAb7gw9e8ZneKoaLJl/Xf"
+              },
+              {
+                "target": "script/上方向ベクトル.cam",
+                "hash": "sha384-/RKqup7p1doYQTjB31kYDSUzo41vShlbU8CvYtjVNse1SonxpW5OdiAxpmtbUExq"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/CameraAssistRuntime",
+      "name": "カメラ補助プラグイン(要ランタイム・省メモリ)",
+      "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
+      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。【動作にはVisual C++ 再頒布可能パッケージの2022 x86(32bit)対応の物がインストールされている必要があります】",
+      "developer": "謎の生物",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
+      "downloadURLs": [
+        "https://drive.google.com/drive/folders/1VcrWV_HF1fL2V_FfoV5wo5QBxzQuycMB"
+      ],
+      "latestVersion": "1.7",
+      "nicommons": "sm39701988",
+      "files": [
+        {
+          "filename": "カメラ制御",
+          "archivePath": "CameraAssist一式",
+          "isDirectory": true
+        },
+        {
+          "filename": "plugins/xCameraAssist.auf",
+          "archivePath": "CameraAssist一式/plugins"
+        },
+        {
+          "filename": "script/上方向ベクトル.cam",
+          "archivePath": "CameraAssist一式/script"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.7",
+          "integrity": {
+            "archive": "sha384-r0LgY3xtc8EAhQw853HrfjCDtXzD/Eqb4sFihx7a7kUG4evlE+kqT2D1WKZkEWFz",
+            "file": [
+              {
+                "target": "plugins/xCameraAssist.auf",
+                "hash": "sha384-dw8X8XD9AnZdIYcZCYbZZ9Vs+wVsdoFkentZpN8EUd3q4l/EnsiUar1O4E961QKv"
+              },
+              {
+                "target": "script/上方向ベクトル.cam",
+                "hash": "sha384-/RKqup7p1doYQTjB31kYDSUzo41vShlbU8CvYtjVNse1SonxpW5OdiAxpmtbUExq"
               }
             ]
           }

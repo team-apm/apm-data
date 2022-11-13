@@ -7546,7 +7546,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.12",
+      "latestVersion": "7.13",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -7573,6 +7573,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.13",
+          "integrity": {
+            "archive": "sha384-6Gt84Bc2nNNFygehRlEbIXTTJZalTm7DHWyphMsLK0ix/cvl/TcQ/jgB3qzaLqIa",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-T2m/Qk0qTvz1mJwF12V9MICRUG3eMlNqD6o8Ss8AoiWcPowBzW/24KU/alLac8wD"
+              }
+            ]
+          }
+        },
         {
           "version": "7.12",
           "integrity": {

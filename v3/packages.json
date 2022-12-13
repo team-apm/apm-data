@@ -6602,7 +6602,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
       "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
-      "latestVersion": "1.02",
+      "latestVersion": "1.05",
       "files": [
         { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
         { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
@@ -6619,6 +6619,18 @@
         { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.05",
+          "integrity": {
+            "archive": "sha384-e0pvv2nWcV49flFniB6GrgrsVHZUarVCNNJr9niPtsO86lujRXqOaQn8M+G6fcqN",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-XD/6J/ZLPmBhLL49nI62soRYPY7Cfcbo86d5zGEWL6KBQUw2AiaW8PCaL9Hl+bjM"
+              }
+            ]
+          }
+        },
         {
           "version": "1.02",
           "integrity": {
@@ -6677,7 +6689,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.04",
+      "latestVersion": "7.06",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -6704,6 +6716,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.06",
+          "integrity": {
+            "archive": "sha384-OvUuXad+6bLuu/iaJ37Lwst61q9n8Kxco6+oJ94JZLenMpCfe0I2UKPoT7yofXym",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-ann32WsX7a+W+q4Owm3Rx3YHN4URQAcSfNO4BbSbYbmhLuu/G5GkQqP04Apd0Jc9"
+              }
+            ]
+          }
+        },
         {
           "version": "7.04",
           "integrity": {
@@ -7352,7 +7376,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.12",
+      "latestVersion": "1.13",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -7380,6 +7404,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.13",
+          "integrity": {
+            "archive": "sha384-3VAqNeNincgrjCuTspbi+wewzkR1KIkC+9D8WrbmjTYjrXs8qDU/dvNbQ1jAB/lz",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-lo7BDnQGSFGeo4UJSI5FeOffG28fWJx3pa2ozb5/vDerAEiQECJvF8Ba4GJRFcYF"
+              }
+            ]
+          }
+        },
         {
           "version": "1.12",
           "integrity": {
@@ -7546,7 +7582,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.13",
+      "latestVersion": "7.14",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -7573,6 +7609,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.14",
+          "integrity": {
+            "archive": "sha384-hDfSEJjFwRQ8Ep8YydgoBUAwKLIUQGIc+8TFgjHtVQLg2dnTxchIIoiYhtNtIrep",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-oZsZA91/sJoNxP/x6sYQWKBTY2nb3Vz4vHP4uLDFS3C3SWYbko4HDQiWkMpdUssP"
+              }
+            ]
+          }
+        },
         {
           "version": "7.13",
           "integrity": {
@@ -8934,13 +8982,25 @@
       "developer": "しゅう",
       "pageURL": "https://shummg.work/archives/1157",
       "downloadURLs": ["https://github.com/shumm7/textmodule/releases/latest"],
-      "latestVersion": "1.4.0",
+      "latestVersion": "1.4.2",
       "files": [
         { "filename": "textmodule.dll" },
         { "filename": "cpprest142_2_10.dll" },
         { "filename": "textmodule", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "1.4.2",
+          "integrity": {
+            "archive": "sha384-XMiC3EyMrp5VpMh4DuiJG+IaGuKJkv8xV7pIecQbut8uRCmgVZzDyEnMSYIvWrbJ",
+            "file": [
+              {
+                "target": "textmodule.dll",
+                "hash": "sha384-Zsa7FjVxTExOHj8tn2b4kb0RlX8EG+9b3D+4A37vJF4KmwnzQdKIQ4UH0/2WNcmy"
+              }
+            ]
+          }
+        },
         {
           "version": "1.4.0",
           "integrity": {

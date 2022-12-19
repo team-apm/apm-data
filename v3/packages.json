@@ -2204,12 +2204,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest"
       ],
-      "latestVersion": "9.1.0",
+      "latestVersion": "9.2.0",
       "files": [
         { "filename": "plugins/DragFilter.auf" },
         { "filename": "plugins/DragFilter.ini" }
       ],
       "releases": [
+        {
+          "version": "9.2.0",
+          "integrity": {
+            "archive": "sha384-IPqzpFQugu/vJv9rVjsvltcz6URZvmf4fN7wIelEeRJebNQBkXyxzJe2v6aBi5ID",
+            "file": [
+              {
+                "target": "plugins/DragFilter.auf",
+                "hash": "sha384-hvHxldRgnZLrd3EiKbxNu+7E6y2PF5yoX3SV+Xn3voi/X6HSNbmAGhP5y+0catOA"
+              }
+            ]
+          }
+        },
         {
           "version": "9.1.0",
           "integrity": {
@@ -4150,7 +4162,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1099_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1100_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -7582,7 +7594,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.14",
+      "latestVersion": "7.15",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -7609,6 +7621,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.15",
+          "integrity": {
+            "archive": "sha384-G3l5Pzy7n3VpfuujF33NZBnNjP9bdTSDN+WJQsBcZQmMh9H8tHfYrJ6OSN3GAIs+",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-58/4Q+s4vV0dEv8nI1DWyoYJ/T2Pm9IWQMWtew6R03tqZ2pSMXV7XLbmJuXZiEyA"
+              }
+            ]
+          }
+        },
         {
           "version": "7.14",
           "integrity": {

@@ -2204,12 +2204,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DragFilter/releases/latest"
       ],
-      "latestVersion": "9.2.0",
+      "latestVersion": "9.3.0",
       "files": [
         { "filename": "plugins/DragFilter.auf" },
         { "filename": "plugins/DragFilter.ini" }
       ],
       "releases": [
+        {
+          "version": "9.3.0",
+          "integrity": {
+            "archive": "sha384-nGYfLqwXG3IdzSyiJ5of6xIe0DpBIpfXjlHJxvsaLT0/4sa9rLkOWsYz/Hwkip2n",
+            "file": [
+              {
+                "target": "plugins/DragFilter.auf",
+                "hash": "sha384-Pqf1rjv9YIs4sBoGBhwfcLRZce8uXGeYcXKFLgb4VcXZoeD+tlunKSy7A0pG60Xg"
+              }
+            ]
+          }
+        },
         {
           "version": "9.2.0",
           "integrity": {
@@ -2730,13 +2742,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.2.2",
+      "latestVersion": "3.2.3",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.2.3",
+          "integrity": {
+            "archive": "sha384-buE2spo3RwMGADSiI9sYgxJoxlqrDAoC+6nNn52iVPCCf0zq6LdqUdjSgET6BW7b",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-0CSvEESTK7u4EVHQDT+oqb4Y9ujbp/AVyiCJZ9jMSA/kqfc35rccnIenKnx+6evB"
+              }
+            ]
+          }
+        },
         {
           "version": "3.2.2",
           "integrity": {
@@ -7594,7 +7618,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.15",
+      "latestVersion": "7.18",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -7621,6 +7645,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.18",
+          "integrity": {
+            "archive": "sha384-nVujnDtKOmeHF20Y4V07/bCOvTEECTQ4+qryRNlP+/ZprsBF+oBsAFjNwGZioU30",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-xVp6yvVdzKsjI+qzBtFUVYedjjhDBxqAQ0zitbxs+Y6sQd97vGEyeL6BUlDt+uuL"
+              }
+            ]
+          }
+        },
         {
           "version": "7.15",
           "integrity": {

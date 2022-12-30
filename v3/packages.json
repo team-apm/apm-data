@@ -3511,11 +3511,11 @@
       "files": [
         {
           "filename": "plugins/WaveformPreview.auf",
-          "archivePath": "aviutl_WaveformPreview_v0.3.0"
+          "archivePath": "aviutl_WaveformPreview_v0.3.1"
         },
         {
           "filename": "plugins/WaveformPreview.exe",
-          "archivePath": "aviutl_WaveformPreview_v0.3.0"
+          "archivePath": "aviutl_WaveformPreview_v0.3.1"
         }
       ],
       "releases": [

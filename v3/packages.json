@@ -2742,13 +2742,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.2.3",
+      "latestVersion": "3.3.0",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.3.0",
+          "integrity": {
+            "archive": "sha384-N+7jRmGZuRE1nnpdJW/9N8vVF0aMkbEDbjTTc2c4e+7+aW0iq6n/8RNnPziPee8v",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-TJq48wTMnATYM6zMEhYUnrIRRA53Urtuj+wheg/lnMe39pucsRQnPAmwbIp8/z3Y"
+              }
+            ]
+          }
+        },
         {
           "version": "3.2.3",
           "integrity": {
@@ -3506,7 +3518,7 @@
       "downloadURLs": [
         "https://github.com/karoterra/aviutl_WaveformPreview/releases/latest"
       ],
-      "latestVersion": "v0.3.0",
+      "latestVersion": "v0.3.1",
       "nicommons": "sm39258128",
       "files": [
         {
@@ -6725,7 +6737,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.06",
+      "latestVersion": "7.08",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -6752,6 +6764,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.08",
+          "integrity": {
+            "archive": "sha384-2sW9bsC78IjZTS9td19zKXEmmSAKEXYzZqG/8P6Asaf8hsZ6PGENGhQRX23OAA8A",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-C7+hQLiESltMWaFXpNCOx670Kg8+aDuwDPSw/kD3FioPBMWBO/c599Rpqr1WJJVn"
+              }
+            ]
+          }
+        },
         {
           "version": "7.06",
           "integrity": {

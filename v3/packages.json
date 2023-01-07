@@ -2711,12 +2711,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitText/releases/latest"
       ],
-      "latestVersion": "1.7.0",
+      "latestVersion": "1.8.0",
       "files": [
         { "filename": "plugins/SplitText", "isDirectory": true },
         { "filename": "plugins/SplitText.auf" }
       ],
       "releases": [
+        {
+          "version": "1.8.0",
+          "integrity": {
+            "archive": "sha384-iBE4KyDwoe+7uOTccJnTTMz3669EsQuGgUZzeW/3+Zve4mH2gUS5iP3AjtN5y48O",
+            "file": [
+              {
+                "target": "plugins/SplitText.auf",
+                "hash": "sha384-kiUdYBguPGLG8JEtxrLZ2P68MLFRjyl1KJ9tqGESu0tdsFND8CtO2LG3LRyXkLPR"
+              }
+            ]
+          }
+        },
         {
           "version": "1.7.0",
           "integrity": {

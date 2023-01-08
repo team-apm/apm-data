@@ -1527,12 +1527,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-AdjustLastFrame/releases/latest"
       ],
-      "latestVersion": "2.2.1",
+      "latestVersion": "2.3.0",
       "files": [
         { "filename": "plugins/AdjustLastFrame.auf" },
         { "filename": "plugins/auls_memref.ini", "isObsolete": true }
       ],
       "releases": [
+        {
+          "version": "2.3.0",
+          "integrity": {
+            "archive": "sha384-Y/Y814xvyRzOu3oSHGwq4mJaAiWroNmurXSj8bTOYQaWZgkbkGds/LkLM5N1ZBiG",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-DqngJjpYSGpmyhb/18owItvvm0HUXNVU6A5tsVBsa9LUR+ei8VqzlIrF8EhD0qon"
+              }
+            ]
+          }
+        },
         {
           "version": "2.2.1",
           "integrity": {
@@ -1618,12 +1630,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
       ],
-      "latestVersion": "2.1.0",
+      "latestVersion": "2.2.0",
       "files": [
         { "filename": "plugins/BuildStairs", "isDirectory": true },
         { "filename": "plugins/BuildStairs.auf" }
       ],
       "releases": [
+        {
+          "version": "2.2.0",
+          "integrity": {
+            "archive": "sha384-SeTaVFo8qwU6TXOBCFz1kTt6K+Gg8ICr7G0I+ANL7ts44EzRtkWgvfvC7wIV8zSd",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-wOwx9IZJCOHURorN0LWK+OC9aqoerHSngtsMtT22NLJyhuJNvDPAb9MuPxC7c9os"
+              }
+            ]
+          }
+        },
         {
           "version": "2.1.0",
           "integrity": {
@@ -2294,7 +2318,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.3.0",
+      "latestVersion": "3.4.0",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },
@@ -2589,12 +2613,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SelectScene/releases/latest"
       ],
-      "latestVersion": "2.0.0",
+      "latestVersion": "2.1.0",
       "files": [
         { "filename": "plugins/SelectScene.auf" },
         { "filename": "plugins/SelectScene", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "2.1.0",
+          "integrity": {
+            "archive": "sha384-bKwzymnidSBtJj8uuCHtcUrD48OEb2WMkW6szru9wxKulPcbyCBwyn90qCDedrw+",
+            "file": [
+              {
+                "target": "plugins/SelectScene.auf",
+                "hash": "sha384-hgCkVBbjeye/Q4sxnop5mgfuhUxakQVNtB8OVQyA6HxJ7EQvnbZ4M3gf8o4a++qG"
+              }
+            ]
+          }
+        },
         {
           "version": "2.0.0",
           "integrity": {
@@ -2711,12 +2747,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitText/releases/latest"
       ],
-      "latestVersion": "1.8.0",
+      "latestVersion": "2.0.0",
       "files": [
         { "filename": "plugins/SplitText", "isDirectory": true },
         { "filename": "plugins/SplitText.auf" }
       ],
       "releases": [
+        {
+          "version": "2.0.0",
+          "integrity": {
+            "archive": "sha384-FfXsBLW9aBRsFY8BzlORX9Su0qbk9+X5+rMQIw1m3qElDNrLOMnloOItP/Y9GpH+",
+            "file": [
+              {
+                "target": "plugins/SplitText.auf",
+                "hash": "sha384-wJszLDjzfnwhLTDv8TrHLOKR3zucweuh6EodYXWh14DdkR6IW5PRw/1CZ58pYCSJ"
+              }
+            ]
+          }
+        },
         {
           "version": "1.8.0",
           "integrity": {
@@ -2754,13 +2802,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.3.0",
+      "latestVersion": "3.4.0",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.4.0",
+          "integrity": {
+            "archive": "sha384-9QcLfTvVnkCo2dctrtAQEf84jGsUwa7pNcIqMG3CF8uEggaUv4F8hhRe32RjUhW+",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-bjtzWsHigj5G5Bp77N3s1V4r7pyvIkyiRXJ9zK1WbL2sfka9d5SjSjppSSAVMnKl"
+              }
+            ]
+          }
+        },
         {
           "version": "3.3.0",
           "integrity": {

@@ -27,7 +27,8 @@
     "convert-2-3:core": "node util/convert-2-3.js --core",
     "convert-2-3:packages": "node util/convert-2-3.js --packages",
     "convert-2-3:mod": "node util/convert-2-3.js --mod",
-    "generate-releases": "node util/generate-releases.js"
+    "generate-releases": "node util/generate-releases.js",
+    "format": "node util/format-json.js"
   },
   "devDependencies": {
     "7zip-bin": "^5.2.0",

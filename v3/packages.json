@@ -2342,6 +2342,22 @@
               }
             ]
           }
+        },
+        {
+          "version": "3.4.0",
+          "integrity": {
+            "archive": "sha384-MdP7quHXr89dlWOo/r+0zIp2W4G0vD9OOs/+dcRXO2LuQDKEmkqAG+qWJUqaJbfy",
+            "file": [
+              {
+                "hash": "sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE",
+                "target": "ObjectExplorer.auf"
+              },
+              {
+                "hash": "sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE",
+                "target": "セカンドエクスプローラ.auf"
+              }
+            ]
+          }
         }
       ]
     },
@@ -3593,16 +3609,22 @@
       "latestVersion": "v0.3.1",
       "nicommons": "sm39258128",
       "files": [
-        {
-          "filename": "plugins/WaveformPreview.auf",
-          "archivePath": "aviutl_WaveformPreview_v0.3.1"
-        },
-        {
-          "filename": "plugins/WaveformPreview.exe",
-          "archivePath": "aviutl_WaveformPreview_v0.3.1"
-        }
+        { "filename": "plugins/WaveformPreview.auf" },
+        { "filename": "plugins/WaveformPreview.exe" }
       ],
       "releases": [
+        {
+          "version": "v0.3.1",
+          "integrity": {
+            "archive": "sha384-OWNthWW2qFCYKRqFhZ2A+O4mEBd2FSkRlk9ClNVmED3cKDjKpOvuTJdNqTkffJjW",
+            "file": [
+              {
+                "target": "plugins/WaveformPreview.auf",
+                "hash": "sha384-w+uCXEBESFko0vTkhA8xqG6HEfqXG8ouvp3ovNrTzkhDJ1ypR6cj4qM/Mw+SXP98"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.0",
           "integrity": {

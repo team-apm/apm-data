@@ -9,7 +9,7 @@ import { format } from 'prettier';
 import download from './lib/download.js';
 import generateHash from './lib/generateHash.js';
 import unzip from './lib/unzip.js';
-const { readJson, readJsonSync, remove, writeFile } = fs;
+const { readJson, readJsonSync, writeFile } = fs;
 const { whiteBright, green, yellow, cyanBright, red } = chalk;
 
 // Options
@@ -202,7 +202,7 @@ async function check() {
 
       console.log(green('Updated ' + basename(jsonInfo.path) + '.'));
       try {
-        remove('util/temp');
+        // remove('util/temp');
       } catch (e) {
         console.error(e);
       }

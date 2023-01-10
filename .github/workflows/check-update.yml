@@ -23,6 +23,7 @@ jobs:
       - run: sed -i "s/L-SMASH-Works_rev[0-9]*_Mr-Ojii_Mr-Ojii_AviUtl\.zip/${{ env.mr_ojii_file }}/g" v3/packages.json
       - run: sudo chmod -R u+x /home/runner/work/apm-data/apm-data/node_modules/7zip-bin
       - run: yarn run check-update
+      - run: ls util/temp
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:

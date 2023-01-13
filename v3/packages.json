@@ -2318,7 +2318,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.5.0",
+      "latestVersion": "3.4.0",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },

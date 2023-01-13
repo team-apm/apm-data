@@ -2318,7 +2318,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.4.0",
+      "latestVersion": "3.5.0",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },
@@ -2818,13 +2818,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "3.4.0",
+      "latestVersion": "4.0.2",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.0.2",
+          "integrity": {
+            "archive": "sha384-/g424pizYDa1BNHfMQaCLyySLP0d+hBwuud7mU8SduXLyjWb111K62Y+ahJrnMXP",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-01UZCtknfliDnCbw+jBYHESQag3oAQHqoVzVnCMR9c0V1eltfyf3kSzKPUfvC/Gg"
+              }
+            ]
+          }
+        },
         {
           "version": "3.4.0",
           "integrity": {
@@ -4292,7 +4304,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1100_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest/download/L-SMASH-Works_rev1102_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -7120,7 +7132,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.24",
+      "latestVersion": "7.25",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -7147,6 +7159,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.25",
+          "integrity": {
+            "archive": "sha384-IMCcCpvgRBuVn4on6P3RXnNARXew4dJA1TeZVm03m023fCwdxoNVPMDn/kqeFNU+",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-YO++oxtUHwRtdp2Mz+YWraZYROOmC6FFS1qigvot9Ng1HKa0OKOOOpGKdeCB2gk2"
+              }
+            ]
+          }
+        },
         {
           "version": "7.24",
           "integrity": {

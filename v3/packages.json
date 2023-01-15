@@ -4127,7 +4127,7 @@
       "id": "MaverickTse/AviUtlSvg",
       "name": "AviUtl用SVG カスタムオブジェクト",
       "overview": "SVG画像を表示することのできるカスタムオブジェクト",
-      "description": "カスタムオブジェクトとしてSVGを読み込むことができます。SVG画像は拡大しても、ボケません。Visual Studio 2013 C++再頒布可能パッケージが必要です。https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 から32bit版をダウンロードしてください。",
+      "description": "カスタムオブジェクトとしてSVGを読み込むことができます。SVG画像は拡大しても、ボケません。【動作にはVisual C++ 再頒布可能パッケージ 2013 x86(32bit)のインストールが必要です  https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 】",
       "developer": "Maverick Tse",
       "pageURL": "https://www.nicovideo.jp/watch/sm23347189",
       "downloadURLs": [
@@ -4526,7 +4526,7 @@
       "id": "nazono/CameraAssistRuntime",
       "name": "カメラ補助プラグイン(要ランタイム・省メモリ)",
       "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
-      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。【動作にはVisual C++ 再頒布可能パッケージの2022 x86(32bit)対応の物がインストールされている必要があります】",
+      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。【動作にはVisual C++ 再頒布可能パッケージ 2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
       "developer": "謎の生物",
       "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
       "downloadURLs": [
@@ -4601,7 +4601,7 @@
       "id": "nazono/redoRuntime",
       "name": "Redoプラグイン(要ランタイム・省メモリ)",
       "overview": "Ctrl+Yキーでのやり直し機能を追加する",
-      "description": "AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。【動作にはVisual C++ 再頒布可能パッケージの2022 x86(32bit)対応の物がインストールされている必要があります】",
+      "description": "AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。【動作にはVisual C++ 再頒布可能パッケージ 2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
       "developer": "謎の生物",
       "dependencies": ["exedit0.92"],
       "pageURL": "https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY",
@@ -9597,7 +9597,7 @@
       "id": "tetsuXIAO/opencv",
       "name": "OpenCVアニメーションスクリプト",
       "overview": "OpenCVを使用した画像処理を行うスクリプト",
-      "description": "画像処理ライブラリであるOpenCVをAviUtlで動かしたスクリプト群です。環境によっては Visual Studio 2013のC++再頒布可能パッケージが必要かもしれません。https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 から32bit版(ダメなら64bit版)をインストールしてみてください。",
+      "description": "画像処理ライブラリであるOpenCVをAviUtlで動かしたスクリプト群です。【動作にはVisual C++ 再頒布可能パッケージ 2013 x86(32bit)のインストールが必要です  https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 】",
       "developer": "てつ(XIAO)",
       "pageURL": "https://www.nicovideo.jp/watch/sm32520048",
       "downloadURLs": [

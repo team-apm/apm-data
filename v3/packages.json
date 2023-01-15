@@ -2318,7 +2318,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.4.0",
+      "latestVersion": "3.5.0",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },
@@ -2327,6 +2327,22 @@
         { "filename": "plugins/セカンドエクスプローラ", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.5.0",
+          "integrity": {
+            "archive": "sha384-xqC6VW8l3klsUz5MSvI8jaURCN+Ad3N//0nYK8p3ZA5yCHZJDaJcRSCSl8NVxcKW",
+            "file": [
+              {
+                "target": "plugins/ObjectExplorer.auf",
+                "hash": "sha384-x0dxKWTunQqoada2LS8qh+XyWEfK1Fs4b78IYHKupHt9rp8I+TY05yj3CKMz47J/"
+              },
+              {
+                "target": "plugins/セカンドエクスプローラ.auf",
+                "hash": "sha384-x0dxKWTunQqoada2LS8qh+XyWEfK1Fs4b78IYHKupHt9rp8I+TY05yj3CKMz47J/"
+              }
+            ]
+          }
+        },
         {
           "version": "3.3.0",
           "integrity": {

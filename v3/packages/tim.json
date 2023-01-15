@@ -1253,6 +1253,37 @@
       ]
     },
     {
+      "id": "tim/hevbunr",
+      "name": "ヘブバン風音声波形T",
+      "overview": "ヘブンバーンズレッド風の音声波形",
+      "description": "ヘブンバーンズレッド風の音声波形スクリプトです。",
+      "developer": "ティム",
+      "pageURL": "https://www.nicovideo.jp/watch/sm40816069",
+      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#HevBunR"],
+      "latestVersion": "2022/07/24",
+      "nicommons": "sm40816069",
+      "files": [
+        {
+          "filename": "script/tim/ヘブバン風音声波形T.obj",
+          "archivePath": "HevBunR"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2022/07/24",
+          "integrity": {
+            "archive": "sha384-BXCm7JHLUxyNmyX1TXrHWQr1NqYqpDU2gnH5m00Yp++psuSd/qz3QMa5cBEzPmif",
+            "file": [
+              {
+                "target": "script/tim/ヘブバン風音声波形T.obj",
+                "hash": "sha384-DQgAxLeA2Z3Z0vCNXC09MvU2Bw9tK34Qpubp64eB0zGSHbkN1plHy4vYo4MpG0OC"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "tim/hexahead",
       "name": "直方体展開",
       "overview": "直方体を展開するスクリプト",
@@ -2148,6 +2179,42 @@
               {
                 "target": "script/tim/リール回転T.anm",
                 "hash": "sha384-RdwOZYcSYV+WHT16Ng9j5yB8RuGDmMFqk0fllM9l95AniH9JGeJBxtWBgTEHLxVd"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tim/rgline",
+      "name": "ラフ画線T",
+      "overview": "画像を線画風に加工",
+      "description": "画像を特定角度の画線の集合に変換するスクリプトです。",
+      "developer": "ティム",
+      "pageURL": "https://www.nicovideo.jp/watch/sm41257973",
+      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RgLine"],
+      "latestVersion": "2022/10/20",
+      "nicommons": "sm41257973",
+      "files": [
+        {
+          "filename": "script/tim/T_RoughLine_Module.dll",
+          "archivePath": "RgLine"
+        },
+        { "filename": "script/tim/ラフ画線T.anm", "archivePath": "RgLine" }
+      ],
+      "releases": [
+        {
+          "version": "2022/10/20",
+          "integrity": {
+            "archive": "sha384-5pqglvQcmP+yDv+98ohsXwHg+jmQ8PtN5g6QCkFhIkPVcgaXuCFgz0EeJNepFOzc",
+            "file": [
+              {
+                "target": "script/tim/T_RoughLine_Module.dll",
+                "hash": "sha384-7+TDmtIneUOoFV40gMMHQ90GrOeDZOmj/ZhXjJu2gi1TsXF43ftux8vT/4RRSbAx"
+              },
+              {
+                "target": "script/tim/ラフ画線T.anm",
+                "hash": "sha384-Rshyvt/1FnJeHfXntj8LJVg2UIiTVm6ICUv2T6Ao8hoUEMR6SbqxO/00d7FCmE2I"
               }
             ]
           }

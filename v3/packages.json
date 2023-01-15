@@ -2,6 +2,38 @@
   "version": 3,
   "packages": [
     {
+      "id": "AiosCiao/VSThost4aviutl",
+      "name": "VSTホストプラグイン＋α",
+      "overview": "aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる",
+      "description": "aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。",
+      "developer": "しし/りっちゃん",
+      "pageURL": "https://www.nicovideo.jp/watch/sm29926034",
+      "downloadURLs": [
+        "https://github.com/Aios-Ciao/VSThost4aviutl/raw/master/VSThost4aviutl.zip"
+      ],
+      "latestVersion": "ver.001",
+      "nicommons": "sm29926034",
+      "files": [
+        {
+          "filename": "plugins/vsthost_1.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/vsthost_2.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/vsthost_3.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/vsthost_4.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        { "filename": "plugins/wavpatch.auf", "archivePath": "VSThost4aviutl/" }
+      ]
+    },
+    {
       "id": "amate/InputPipePlugin",
       "name": "InputPipePlugin",
       "overview": "AviUtlのメモリ使用量を減らす",
@@ -345,62 +377,6 @@
       ]
     },
     {
-      "id": "aoytsk/dummy",
-      "name": "ダミーファイル入力",
-      "overview": "指定した設定で空の動画を読み込む",
-      "description": "「ダミーファイル入力」はテキストファイルで指定した設定で空の動画を読み込む入力プラグインです。",
-      "developer": "aoytsk",
-      "pageURL": "https://aoytsk.blog.jp/aviutl/1559137.html",
-      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1559137.html"],
-      "latestVersion": "Ver 0.1",
-      "files": [{ "filename": "plugins/dummy.aui" }]
-    },
-    {
-      "id": "aoytsk/misc",
-      "name": "小物詰め合わせ",
-      "overview": "小物プラグイン色々",
-      "description": "小物プラグイン色々。「音声プレビュー」「黒塗り」「編集＋」「タイムライン拡大率」「メモ」「ポイントミュート」「選択範囲編集」「タイムスタンプ合わせ」",
-      "developer": "aoytsk",
-      "pageURL": "https://aoytsk.blog.jp/aviutl/1607088.html",
-      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1607088.html"],
-      "latestVersion": "Ver 0.1",
-      "files": [
-        { "filename": "plugins/audiopreview.auf" },
-        { "filename": "plugins/blacken.auf" },
-        { "filename": "plugins/editx.auf" },
-        { "filename": "plugins/exlayerjump.auf" },
-        { "filename": "plugins/exlayerswitch.auf" },
-        { "filename": "plugins/exscale.auf" },
-        { "filename": "plugins/exsceneswitch.auf" },
-        { "filename": "plugins/memo.auf" },
-        { "filename": "plugins/pointmute.auf" },
-        { "filename": "plugins/selector.auf" },
-        { "filename": "plugins/timestamp.auf" }
-      ]
-    },
-    {
-      "id": "aoytsk/rec",
-      "name": "簡易録音",
-      "overview": "Aviutlで録音をするプラグイン",
-      "description": "簡易録音はAviutlで録音をするプラグインです。プレビューを再生しながら録音したり、拡張編集のタイムラインに自動で追加することができます。",
-      "developer": "aoytsk",
-      "pageURL": "https://aoytsk.blog.jp/aviutl/1677824.html",
-      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1677824.html"],
-      "latestVersion": "Ver 0.2",
-      "files": [{ "filename": "plugins/rec.auf" }]
-    },
-    {
-      "id": "aoytsk/recovery",
-      "name": "リカバリ",
-      "overview": "AviUtlが落ちた時の編集状態を復元し、再起動する",
-      "description": "「リカバリ」はAviUtlが落ちた時の編集状態を復元し、再起動するプラグインです。",
-      "developer": "aoytsk",
-      "pageURL": "https://aoytsk.blog.jp/aviutl/34739355.html",
-      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/34739355.html"],
-      "latestVersion": "Ver 0.1.0",
-      "files": [{ "filename": "plugins/recovery.auf" }]
-    },
-    {
       "id": "aoytsk/autoloader",
       "name": "オートローダー",
       "overview": "ファイルを開いたときに追加で他のファイルを読み込みます",
@@ -435,6 +411,17 @@
       "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1545310.html"],
       "latestVersion": "Ver 0.1",
       "files": [{ "filename": "plugins/dbgwnd.auf" }]
+    },
+    {
+      "id": "aoytsk/dummy",
+      "name": "ダミーファイル入力",
+      "overview": "指定した設定で空の動画を読み込む",
+      "description": "「ダミーファイル入力」はテキストファイルで指定した設定で空の動画を読み込む入力プラグインです。",
+      "developer": "aoytsk",
+      "pageURL": "https://aoytsk.blog.jp/aviutl/1559137.html",
+      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1559137.html"],
+      "latestVersion": "Ver 0.1",
+      "files": [{ "filename": "plugins/dummy.aui" }]
     },
     {
       "id": "aoytsk/easymp4",
@@ -571,6 +558,29 @@
       "files": [{ "filename": "plugins/jumpdlg32.auf" }]
     },
     {
+      "id": "aoytsk/misc",
+      "name": "小物詰め合わせ",
+      "overview": "小物プラグイン色々",
+      "description": "小物プラグイン色々。「音声プレビュー」「黒塗り」「編集＋」「タイムライン拡大率」「メモ」「ポイントミュート」「選択範囲編集」「タイムスタンプ合わせ」",
+      "developer": "aoytsk",
+      "pageURL": "https://aoytsk.blog.jp/aviutl/1607088.html",
+      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1607088.html"],
+      "latestVersion": "Ver 0.1",
+      "files": [
+        { "filename": "plugins/audiopreview.auf" },
+        { "filename": "plugins/blacken.auf" },
+        { "filename": "plugins/editx.auf" },
+        { "filename": "plugins/exlayerjump.auf" },
+        { "filename": "plugins/exlayerswitch.auf" },
+        { "filename": "plugins/exscale.auf" },
+        { "filename": "plugins/exsceneswitch.auf" },
+        { "filename": "plugins/memo.auf" },
+        { "filename": "plugins/pointmute.auf" },
+        { "filename": "plugins/selector.auf" },
+        { "filename": "plugins/timestamp.auf" }
+      ]
+    },
+    {
       "id": "aoytsk/pluginlist",
       "name": "プラグインリスト",
       "overview": "プラグインとスクリプトの一覧をファイルに保存",
@@ -591,6 +601,28 @@
       "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1347719.html"],
       "latestVersion": "Ver 0.1",
       "files": [{ "filename": "plugins/quickopen.auf" }]
+    },
+    {
+      "id": "aoytsk/rec",
+      "name": "簡易録音",
+      "overview": "Aviutlで録音をするプラグイン",
+      "description": "簡易録音はAviutlで録音をするプラグインです。プレビューを再生しながら録音したり、拡張編集のタイムラインに自動で追加することができます。",
+      "developer": "aoytsk",
+      "pageURL": "https://aoytsk.blog.jp/aviutl/1677824.html",
+      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/1677824.html"],
+      "latestVersion": "Ver 0.2",
+      "files": [{ "filename": "plugins/rec.auf" }]
+    },
+    {
+      "id": "aoytsk/recovery",
+      "name": "リカバリ",
+      "overview": "AviUtlが落ちた時の編集状態を復元し、再起動する",
+      "description": "「リカバリ」はAviUtlが落ちた時の編集状態を復元し、再起動するプラグインです。",
+      "developer": "aoytsk",
+      "pageURL": "https://aoytsk.blog.jp/aviutl/34739355.html",
+      "downloadURLs": ["https://aoytsk.blog.jp/aviutl/34739355.html"],
+      "latestVersion": "Ver 0.1.0",
+      "files": [{ "filename": "plugins/recovery.auf" }]
     },
     {
       "id": "aoytsk/seekbarx",
@@ -691,6 +723,19 @@
       ]
     },
     {
+      "id": "auls/framesound",
+      "name": "フレーム移動時に音を鳴らす",
+      "overview": "現在フレームを移動させた時に、そのフレームの音を鳴らす",
+      "description": "編集中、現在フレームの音を鳴らすプラグインです。",
+      "developer": "yu_noimage_",
+      "pageURL": "https://auls.client.jp/",
+      "downloadURLs": ["https://auls.client.jp/"],
+      "latestVersion": "2012/09/10",
+      "files": [
+        { "filename": "plugins/framesound.auf", "archivePath": "framesound" }
+      ]
+    },
+    {
       "id": "auls/outputpng",
       "name": "PNG出力",
       "overview": "現在フレームの画像をPNG形式で出力",
@@ -739,19 +784,6 @@
       ]
     },
     {
-      "id": "auls/framesound",
-      "name": "フレーム移動時に音を鳴らす",
-      "overview": "現在フレームを移動させた時に、そのフレームの音を鳴らす",
-      "description": "編集中、現在フレームの音を鳴らすプラグインです。",
-      "developer": "yu_noimage_",
-      "pageURL": "https://auls.client.jp/",
-      "downloadURLs": ["https://auls.client.jp/"],
-      "latestVersion": "2012/09/10",
-      "files": [
-        { "filename": "plugins/framesound.auf", "archivePath": "framesound" }
-      ]
-    },
-    {
       "id": "AviUtlLab/animate",
       "name": "アニメーション編集 for AviUtl",
       "overview": "スクリプトを読み込んで動画を編集する",
@@ -783,19 +815,6 @@
       ]
     },
     {
-      "id": "AviUtlLab/croma",
-      "name": "クロマキー画像作成プラグイン",
-      "overview": "クロマキー合成用の画像またはマスク画像を作る",
-      "description": "指定範囲内、または範囲外の色を塗り潰してクロマキー合成用の画像またはマスク画像を作るプラグインです。また、マウスクリックした場所の座標と色をポップアップダイアログで表示できます。",
-      "developer": "AviUtl実験室",
-      "pageURL": "http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792",
-      "downloadURLs": [
-        "http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792"
-      ],
-      "latestVersion": "ver0.1",
-      "files": [{ "filename": "plugins/croma.auf", "archivePath": "croma/" }]
-    },
-    {
       "id": "AviUtlLab/cmdex",
       "name": "コマンド実行 for AviUtl",
       "overview": "バッチ処理にコマンドラインによる処理を組み込む",
@@ -811,6 +830,19 @@
         { "filename": "plugins/cmdex.txt", "archivePath": "cmdex/" },
         { "filename": "plugins/powerctl.exe", "archivePath": "cmdex/" }
       ]
+    },
+    {
+      "id": "AviUtlLab/croma",
+      "name": "クロマキー画像作成プラグイン",
+      "overview": "クロマキー合成用の画像またはマスク画像を作る",
+      "description": "指定範囲内、または範囲外の色を塗り潰してクロマキー合成用の画像またはマスク画像を作るプラグインです。また、マウスクリックした場所の座標と色をポップアップダイアログで表示できます。",
+      "developer": "AviUtl実験室",
+      "pageURL": "http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792",
+      "downloadURLs": [
+        "http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792"
+      ],
+      "latestVersion": "ver0.1",
+      "files": [{ "filename": "plugins/croma.auf", "archivePath": "croma/" }]
     },
     {
       "id": "AviUtlLab/dsinput",
@@ -1465,51 +1497,6 @@
               {
                 "target": "script/gometh/@SLG風味.anm",
                 "hash": "sha384-lZTm71GlDdlluaeY0ftABy4fQx/Hocz1agsX03QTEO/ZUd5EsxxKapVW12Eo4cIE"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "hksy/hksy",
-      "name": "@hksy",
-      "overview": "白水氏が公開していたスクリプトの詰め合わせ",
-      "description": "白水氏が自身のサイトで公開していたスクリプトの詰め合わせ。スクリプトの一覧：【通常】ランダム配置, 通常弾, ％位置指定2, 画像ループ 透明度ランダム, 画面フィット, それらしき角度に傾ける, ピクセル拡大, 拡散, 境界ノイズぼかし, 斜めラスター, フレームバッファ上書き, エンボス, 擬似3D, 部分グラデーション, ノイズ, 頂点指定モザイク, AeroGrass風, RGBストレート, 領域内ぼかし, 領域内モザイク 【テキスト】字間調整, 背景, グラデーション, 擦りガラス風 【カスタムオブジェクト】連番画像読み込み, 直線, チェッカー, チェッカー 複数色版, 菱形, 角丸四角形, アクアボタン, 雷, 4:3端埋め, 音声波形表示（過去参照）, ラベル, ブレード, ノイズ, ライン（アンカー指定）, グリッドシーンチェンジ, ブラインド, ワイプ（方向）, 輝度ワイプ（方向）",
-      "developer": "白水",
-      "pageURL": "https://aviutl.info/hksy-11/",
-      "downloadURLs": ["https://purinka.work/download/hksy.html"],
-      "latestVersion": "2014/10/20",
-      "files": [
-        { "filename": "script/hksy/@hksy.anm", "archivePath": "@hksy" },
-        { "filename": "script/hksy/@hksy.obj", "archivePath": "@hksy" },
-        { "filename": "script/hksy/@hksy.scn", "archivePath": "@hksy" },
-        {
-          "filename": "script/hksy/QED「495年の波紋」.anm",
-          "archivePath": "@hksy"
-        }
-      ],
-      "releases": [
-        {
-          "version": "2014/10/20",
-          "integrity": {
-            "archive": "sha384-blKbycwTvqXK5MLvFvqqS4nVAFyJ93b9lYn4GTrsb4vX76EpikOavLzxllI+MRGF",
-            "file": [
-              {
-                "target": "script/hksy/@hksy.anm",
-                "hash": "sha384-MvEBUjxMsf8ibSZW4zCr9kL7SjZ5FMFRGspOMbcJujv6awb1QB9BqA/MHTZH4XAc"
-              },
-              {
-                "target": "script/hksy/@hksy.obj",
-                "hash": "sha384-IDpoGnBilLb5Li9/Im2aDR35WAktiD6SYxnroSBWul7Z4LFqlylcXIg4VQndcXTD"
-              },
-              {
-                "target": "script/hksy/@hksy.scn",
-                "hash": "sha384-FZEJmXiZrTxyeX6K64Kj0WxrPvnz04Ncr5/udAgteaFQHalOhkLCbjmY3P2eCgzS"
-              },
-              {
-                "target": "script/hksy/QED「495年の波紋」.anm",
-                "hash": "sha384-CBGB8YHMHTjw6FSzqf6effLu5gMwrGS5+Cb8aCwG6Uu0MAdvvzbjdnUmS3ZnW3Dk"
               }
             ]
           }
@@ -2365,12 +2352,12 @@
             "archive": "sha384-MdP7quHXr89dlWOo/r+0zIp2W4G0vD9OOs/+dcRXO2LuQDKEmkqAG+qWJUqaJbfy",
             "file": [
               {
-                "hash": "sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE",
-                "target": "ObjectExplorer.auf"
+                "target": "ObjectExplorer.auf",
+                "hash": "sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE"
               },
               {
-                "hash": "sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE",
-                "target": "セカンドエクスプローラ.auf"
+                "target": "セカンドエクスプローラ.auf",
+                "hash": "sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE"
               }
             ]
           }
@@ -3536,6 +3523,51 @@
       ]
     },
     {
+      "id": "hksy/hksy",
+      "name": "@hksy",
+      "overview": "白水氏が公開していたスクリプトの詰め合わせ",
+      "description": "白水氏が自身のサイトで公開していたスクリプトの詰め合わせ。スクリプトの一覧：【通常】ランダム配置, 通常弾, ％位置指定2, 画像ループ 透明度ランダム, 画面フィット, それらしき角度に傾ける, ピクセル拡大, 拡散, 境界ノイズぼかし, 斜めラスター, フレームバッファ上書き, エンボス, 擬似3D, 部分グラデーション, ノイズ, 頂点指定モザイク, AeroGrass風, RGBストレート, 領域内ぼかし, 領域内モザイク 【テキスト】字間調整, 背景, グラデーション, 擦りガラス風 【カスタムオブジェクト】連番画像読み込み, 直線, チェッカー, チェッカー 複数色版, 菱形, 角丸四角形, アクアボタン, 雷, 4:3端埋め, 音声波形表示（過去参照）, ラベル, ブレード, ノイズ, ライン（アンカー指定）, グリッドシーンチェンジ, ブラインド, ワイプ（方向）, 輝度ワイプ（方向）",
+      "developer": "白水",
+      "pageURL": "https://aviutl.info/hksy-11/",
+      "downloadURLs": ["https://purinka.work/download/hksy.html"],
+      "latestVersion": "2014/10/20",
+      "files": [
+        { "filename": "script/hksy/@hksy.anm", "archivePath": "@hksy" },
+        { "filename": "script/hksy/@hksy.obj", "archivePath": "@hksy" },
+        { "filename": "script/hksy/@hksy.scn", "archivePath": "@hksy" },
+        {
+          "filename": "script/hksy/QED「495年の波紋」.anm",
+          "archivePath": "@hksy"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2014/10/20",
+          "integrity": {
+            "archive": "sha384-blKbycwTvqXK5MLvFvqqS4nVAFyJ93b9lYn4GTrsb4vX76EpikOavLzxllI+MRGF",
+            "file": [
+              {
+                "target": "script/hksy/@hksy.anm",
+                "hash": "sha384-MvEBUjxMsf8ibSZW4zCr9kL7SjZ5FMFRGspOMbcJujv6awb1QB9BqA/MHTZH4XAc"
+              },
+              {
+                "target": "script/hksy/@hksy.obj",
+                "hash": "sha384-IDpoGnBilLb5Li9/Im2aDR35WAktiD6SYxnroSBWul7Z4LFqlylcXIg4VQndcXTD"
+              },
+              {
+                "target": "script/hksy/@hksy.scn",
+                "hash": "sha384-FZEJmXiZrTxyeX6K64Kj0WxrPvnz04Ncr5/udAgteaFQHalOhkLCbjmY3P2eCgzS"
+              },
+              {
+                "target": "script/hksy/QED「495年の波紋」.anm",
+                "hash": "sha384-CBGB8YHMHTjw6FSzqf6effLu5gMwrGS5+Cb8aCwG6Uu0MAdvvzbjdnUmS3ZnW3Dk"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "HolyWu/LSMASHWorks",
       "name": "L-SMASH Works",
       "overview": "様々な形式の動画・音楽ファイルを読み込む",
@@ -3743,41 +3775,6 @@
       ]
     },
     {
-      "id": "karoterra/OilPainting",
-      "name": "油絵",
-      "overview": "油絵風の加工を施すアニメーション効果",
-      "description": "Kuwahara filter により油絵風の加工を施す AviUtl スクリプトです。高橋直哉氏の油絵スクリプトの処理速度を向上させたものです。",
-      "developer": "karoterra",
-      "pageURL": "https://github.com/karoterra/aviutl-OilPainting",
-      "downloadURLs": [
-        "https://github.com/karoterra/aviutl-OilPainting/releases/latest"
-      ],
-      "latestVersion": "v1.0.1",
-      "nicommons": "sm39051118",
-      "files": [
-        { "filename": "script/karoterra/KaroterraOilPainting.dll" },
-        { "filename": "script/karoterra/油絵.anm" }
-      ],
-      "releases": [
-        {
-          "version": "v1.0.1",
-          "integrity": {
-            "archive": "sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy",
-            "file": [
-              {
-                "target": "script/karoterra/KaroterraOilPainting.dll",
-                "hash": "sha384-OIbc00TOruQRt24IojLBbnApEVOsaVgzoHZBVcUINk8nwoLrtHbowX9TOsKRCyhM"
-              },
-              {
-                "target": "script/karoterra/油絵.anm",
-                "hash": "sha384-2Ns5FaSZaP/EZCZd3js91FKPBHR8AwU/Vhf32riHw7xo086Knn0ToQaZ8Cr92lwp"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "karoterra/MarkdownEX",
       "name": "AviUtl MarkdownEX",
       "overview": "aviutl_browserを利用してMarkdownを表示する",
@@ -3830,6 +3827,41 @@
               {
                 "target": "script/browser/MarkdownEX.obj",
                 "hash": "sha384-iaSbAz0039EpK759RBhmF22mOmtvvNIOVJFtfPlWXtD1hUyane+NuKlr4ouc3SOX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/OilPainting",
+      "name": "油絵",
+      "overview": "油絵風の加工を施すアニメーション効果",
+      "description": "Kuwahara filter により油絵風の加工を施す AviUtl スクリプトです。高橋直哉氏の油絵スクリプトの処理速度を向上させたものです。",
+      "developer": "karoterra",
+      "pageURL": "https://github.com/karoterra/aviutl-OilPainting",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl-OilPainting/releases/latest"
+      ],
+      "latestVersion": "v1.0.1",
+      "nicommons": "sm39051118",
+      "files": [
+        { "filename": "script/karoterra/KaroterraOilPainting.dll" },
+        { "filename": "script/karoterra/油絵.anm" }
+      ],
+      "releases": [
+        {
+          "version": "v1.0.1",
+          "integrity": {
+            "archive": "sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy",
+            "file": [
+              {
+                "target": "script/karoterra/KaroterraOilPainting.dll",
+                "hash": "sha384-OIbc00TOruQRt24IojLBbnApEVOsaVgzoHZBVcUINk8nwoLrtHbowX9TOsKRCyhM"
+              },
+              {
+                "target": "script/karoterra/油絵.anm",
+                "hash": "sha384-2Ns5FaSZaP/EZCZd3js91FKPBHR8AwU/Vhf32riHw7xo086Knn0ToQaZ8Cr92lwp"
               }
             ]
           }
@@ -4874,6 +4906,43 @@
       ]
     },
     {
+      "id": "oov/bridge",
+      "name": "bridge.dll",
+      "overview": "Luaから外部プログラムを使った処理をしやすくする",
+      "description": "拡張編集で Lua から外部プログラムを使って処理をしやすくするためのプラグインです。外部プログラムは stdin / stdout を使って通信するものを作成する必要があります。",
+      "developer": "oov",
+      "pageURL": "https://github.com/oov/aviutl_bridge",
+      "downloadURLs": ["https://github.com/oov/aviutl_bridge/releases/latest"],
+      "latestVersion": "v0.14.0",
+      "files": [{ "filename": "bridge.dll" }],
+      "releases": [
+        {
+          "version": "v0.14.0",
+          "integrity": {
+            "archive": "sha384-1m4f3/cUkN2QaUjDhrgeajaA/Q1ucT/kS2EyZkXPNrystRr4ndCqmlRgrfvG+Mnd",
+            "file": [
+              {
+                "target": "bridge.dll",
+                "hash": "sha384-/C2QYLXsqWYpGSufI78N+dAwtOqjUsA79VL5gWQGtcBQFopiWBPjF97gLHqWisp3"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.13",
+          "integrity": {
+            "archive": "sha384-ctbtwlj/LWdgUPTebvTPXw27GSlf1av1VgTIcQ0jdKWq0xil2B8JxGDk0JYMz4Ak",
+            "file": [
+              {
+                "target": "bridge.dll",
+                "hash": "sha384-sroOD6MUty/pSAsv66c9Q8iIH0CFr2uHaD3djL18AhsWvtOfjI1fZxDcKPQap6Ph"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "oov/CacheText",
       "name": "キャッシュテキスト",
       "overview": "テキストをキャッシュすることで描画処理を効率化する",
@@ -5503,43 +5572,6 @@
               {
                 "target": "GCMZDrops.auf",
                 "hash": "sha384-PYU/02Q4Cw+UY4KgoQMgDeCzd1apmRJpGn5ToA0ijAywF/D1BjXUPQ3jjOYRhh8t"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "oov/bridge",
-      "name": "bridge.dll",
-      "overview": "Luaから外部プログラムを使った処理をしやすくする",
-      "description": "拡張編集で Lua から外部プログラムを使って処理をしやすくするためのプラグインです。外部プログラムは stdin / stdout を使って通信するものを作成する必要があります。",
-      "developer": "oov",
-      "pageURL": "https://github.com/oov/aviutl_bridge",
-      "downloadURLs": ["https://github.com/oov/aviutl_bridge/releases/latest"],
-      "latestVersion": "v0.14.0",
-      "files": [{ "filename": "bridge.dll" }],
-      "releases": [
-        {
-          "version": "v0.14.0",
-          "integrity": {
-            "archive": "sha384-1m4f3/cUkN2QaUjDhrgeajaA/Q1ucT/kS2EyZkXPNrystRr4ndCqmlRgrfvG+Mnd",
-            "file": [
-              {
-                "target": "bridge.dll",
-                "hash": "sha384-/C2QYLXsqWYpGSufI78N+dAwtOqjUsA79VL5gWQGtcBQFopiWBPjF97gLHqWisp3"
-              }
-            ]
-          }
-        },
-        {
-          "version": "v0.13",
-          "integrity": {
-            "archive": "sha384-ctbtwlj/LWdgUPTebvTPXw27GSlf1av1VgTIcQ0jdKWq0xil2B8JxGDk0JYMz4Ak",
-            "file": [
-              {
-                "target": "bridge.dll",
-                "hash": "sha384-sroOD6MUty/pSAsv66c9Q8iIH0CFr2uHaD3djL18AhsWvtOfjI1fZxDcKPQap6Ph"
               }
             ]
           }
@@ -6453,6 +6485,48 @@
       ]
     },
     {
+      "id": "pop4bit/LSMASHWorks",
+      "name": "L-SMASH Works",
+      "overview": "様々な形式の動画・音楽ファイルを読み込む",
+      "description": "様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS のぽっぷん氏ビルドです。ffmpegのバージョン4.2.2を使用しています。海外からはダウンロードできません。",
+      "developer": "ぽっぷん",
+      "originalDeveloper": "VFR-maniac",
+      "pageURL": "https://pop.4-bit.jp/?page_id=7929",
+      "downloadURLs": ["https://pop.4-bit.jp/?page_id=7929"],
+      "latestVersion": "r940 release1",
+      "files": [
+        { "filename": "plugins/lwcolor.auc" },
+        { "filename": "plugins/lwdumper.auf" },
+        { "filename": "plugins/lwinput.aui" },
+        { "filename": "plugins/lwmuxer.auf" }
+      ],
+      "releases": [
+        {
+          "version": "r940 release1",
+          "integrity": {
+            "archive": "sha384-yBDA/RFCozGCQc6tcPa+Vsm4B0J82skJXN4ZrVRegCgQFTJW8N8eLlWXy55LiFRX",
+            "file": [
+              {
+                "target": "plugins/lwinput.aui",
+                "hash": "sha384-11Bixku/iJUz6SgrABVClbVYcP4yM1D14eS52/HwQA60yYI1UMAoabnjLsIo+o3J"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r940 mod1",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/lwinput.aui",
+                "hash": "sha384-G+do1l9i5JW6y18m/C/OzPnKEq667EWIk/PenITnH3ymEYQf+H9lfHlkDhtJHv5C"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "respectrum93/oldScripts",
       "name": "Respectrum93 Old Scripts",
       "overview": "Respectrum93氏の古いスクリプトをまとめたパッケージ",
@@ -6699,6 +6773,21 @@
       ]
     },
     {
+      "id": "rigaya/afs",
+      "name": "自動フィールドシフト 高速化版",
+      "overview": "自動フィールドシフトの高速化版",
+      "description": "aji氏作「自動フィールドシフト インタレース解除プラグイン」の高速化版",
+      "developer": "rigaya",
+      "originalDeveloper": "aji",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-14.html",
+      "downloadURLs": [
+        "https://1drv.ms/f/s!AsYziax1Q91rhBs2o7PMtyiEP8gC",
+        "https://drive.google.com/folderview?id=0BzA4dIFteM2dSXduMXdPMXBjeFk&usp=sharing"
+      ],
+      "latestVersion": "7.5a+22",
+      "files": [{ "filename": "afsvf.auf", "archivePath": "afs_7.5a+22" }]
+    },
+    {
       "id": "rigaya/AviutlColor",
       "name": "AviutlColor",
       "overview": "Aviutlの色空間変換プラグインです",
@@ -6762,6 +6851,26 @@
       "files": [
         { "filename": "plugins/delogo.auf", "archivePath": "delogoSIMD_r17" },
         { "filename": "plugins/logoscan.auf", "archivePath": "delogoSIMD_r17" }
+      ]
+    },
+    {
+      "id": "rigaya/edgelevelMT",
+      "name": "エッジレベル調整MT",
+      "overview": "エッジレベル調整をMT化(並列化)",
+      "description": "がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のエッジレベル調整を勝手にMT化(並列化)したものです。オリジナルと同様に動くはずです。",
+      "developer": "rigaya",
+      "originalDeveloper": "flash3kyuu",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-11.html",
+      "downloadURLs": [
+        "https://1drv.ms/u/s!AsYziax1Q91rgjecLz36N1c41syz?e=7BeQTq",
+        "https://drive.google.com/drive/folders/0BzA4dIFteM2dSEZZbmdOWDNuSHM?usp=sharing"
+      ],
+      "latestVersion": "v9",
+      "files": [
+        {
+          "filename": "plugins/edgelevelMT.auf",
+          "archivePath": "edgelevelMTv9"
+        }
       ]
     },
     {
@@ -7141,6 +7250,32 @@
       ]
     },
     {
+      "id": "rigaya/pmdMt",
+      "name": "PMD_MT 高速化版",
+      "overview": "PMD_MTの高速化版",
+      "description": "PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。",
+      "developer": "rigaya",
+      "originalDeveloper": "エモリ, スレ48≫989",
+      "pageURL": "https://github.com/rigaya/pmd_mt#readme",
+      "downloadURLs": ["https://github.com/rigaya/pmd_mt/releases/latest"],
+      "latestVersion": "+7",
+      "files": [{ "filename": "plugins/pmd_mt.auf" }],
+      "releases": [
+        {
+          "version": "+7",
+          "integrity": {
+            "archive": "sha384-NUyICEn5FRm8uff1IgAL2IS6W8Q8hf72cykclDllCuEcrM+V8Nr1uvR7oQ8xfAmU",
+            "file": [
+              {
+                "target": "plugins/pmd_mt.auf",
+                "hash": "sha384-RsWp5Y2AEvBlc4sXbZurdJt22PS5GonAbz2bRWMnKYjG/xUhhdTM2cp7FtGglH33"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "rigaya/QSVEnc",
       "name": "QSVEnc",
       "overview": "Intel Media SDKを使用したエンコード",
@@ -7495,67 +7630,6 @@
               {
                 "target": "plugins/QSVEnc.auo",
                 "hash": "sha384-0CPgLel6+2S9RQKc+KlDi8KletchmooZURxqvW10HMgaGaHtWcAQnlVJFvE0C492"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "rigaya/afs",
-      "name": "自動フィールドシフト 高速化版",
-      "overview": "自動フィールドシフトの高速化版",
-      "description": "aji氏作「自動フィールドシフト インタレース解除プラグイン」の高速化版",
-      "developer": "rigaya",
-      "originalDeveloper": "aji",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-14.html",
-      "downloadURLs": [
-        "https://1drv.ms/f/s!AsYziax1Q91rhBs2o7PMtyiEP8gC",
-        "https://drive.google.com/folderview?id=0BzA4dIFteM2dSXduMXdPMXBjeFk&usp=sharing"
-      ],
-      "latestVersion": "7.5a+22",
-      "files": [{ "filename": "afsvf.auf", "archivePath": "afs_7.5a+22" }]
-    },
-    {
-      "id": "rigaya/edgelevelMT",
-      "name": "エッジレベル調整MT",
-      "overview": "エッジレベル調整をMT化(並列化)",
-      "description": "がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のエッジレベル調整を勝手にMT化(並列化)したものです。オリジナルと同様に動くはずです。",
-      "developer": "rigaya",
-      "originalDeveloper": "flash3kyuu",
-      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-11.html",
-      "downloadURLs": [
-        "https://1drv.ms/u/s!AsYziax1Q91rgjecLz36N1c41syz?e=7BeQTq",
-        "https://drive.google.com/drive/folders/0BzA4dIFteM2dSEZZbmdOWDNuSHM?usp=sharing"
-      ],
-      "latestVersion": "v9",
-      "files": [
-        {
-          "filename": "plugins/edgelevelMT.auf",
-          "archivePath": "edgelevelMTv9"
-        }
-      ]
-    },
-    {
-      "id": "rigaya/pmdMt",
-      "name": "PMD_MT 高速化版",
-      "overview": "PMD_MTの高速化版",
-      "description": "PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。",
-      "developer": "rigaya",
-      "originalDeveloper": "エモリ, スレ48≫989",
-      "pageURL": "https://github.com/rigaya/pmd_mt#readme",
-      "downloadURLs": ["https://github.com/rigaya/pmd_mt/releases/latest"],
-      "latestVersion": "+7",
-      "files": [{ "filename": "plugins/pmd_mt.auf" }],
-      "releases": [
-        {
-          "version": "+7",
-          "integrity": {
-            "archive": "sha384-NUyICEn5FRm8uff1IgAL2IS6W8Q8hf72cykclDllCuEcrM+V8Nr1uvR7oQ8xfAmU",
-            "file": [
-              {
-                "target": "plugins/pmd_mt.auf",
-                "hash": "sha384-RsWp5Y2AEvBlc4sXbZurdJt22PS5GonAbz2bRWMnKYjG/xUhhdTM2cp7FtGglH33"
               }
             ]
           }
@@ -8883,6 +8957,34 @@
       ]
     },
     {
+      "id": "rikky/rikkyModule2",
+      "name": "rikkymodule(version2)",
+      "overview": "スクリプト製作の役に立つプラグイン",
+      "description": "スクリプト製作に役に立つかもしれないプラグインです 20/01/11現在対応しているAviUtlは1.10のみ 対応している拡張編集は0.93rc1のみ",
+      "developer": "rikky",
+      "dependencies": ["exedit0.93rc1"],
+      "pageURL": "https://hazumurhythm.com/a/q9Q/",
+      "downloadURLs": ["https://hazumurhythm.com/a/q9Q/"],
+      "latestVersion": "v2_0.1d",
+      "nicommons": "sm34776162",
+      "files": [
+        { "filename": "rikky_module.auf", "archivePath": "modulev2_0.1d" }
+      ],
+      "releases": [
+        {
+          "version": "v2_0.1d",
+          "integrity": {
+            "file": [
+              {
+                "target": "rikky_module.auf",
+                "hash": "sha384-BMz0JmZND+d73mda5UiangRaPMYJPWV9cQJBfLTUgLowP9ZZnvEOZRapd0KlNPjv"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "rikky/rikkyModuleMemory",
       "name": "rikkymodule memory",
       "overview": "スクリプト製作の役に立つプラグイン",
@@ -8909,34 +9011,6 @@
               {
                 "target": "rikky_memory.auf",
                 "hash": "sha384-Fx0g0aXkoonki1Ql0057tsztntM1fFftxMfRR5hsoya/J1Ou4vEoPFihGQ231lsj"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "rikky/rikkyModule2",
-      "name": "rikkymodule(version2)",
-      "overview": "スクリプト製作の役に立つプラグイン",
-      "description": "スクリプト製作に役に立つかもしれないプラグインです 20/01/11現在対応しているAviUtlは1.10のみ 対応している拡張編集は0.93rc1のみ",
-      "developer": "rikky",
-      "dependencies": ["exedit0.93rc1"],
-      "pageURL": "https://hazumurhythm.com/a/q9Q/",
-      "downloadURLs": ["https://hazumurhythm.com/a/q9Q/"],
-      "latestVersion": "v2_0.1d",
-      "nicommons": "sm34776162",
-      "files": [
-        { "filename": "rikky_module.auf", "archivePath": "modulev2_0.1d" }
-      ],
-      "releases": [
-        {
-          "version": "v2_0.1d",
-          "integrity": {
-            "file": [
-              {
-                "target": "rikky_module.auf",
-                "hash": "sha384-BMz0JmZND+d73mda5UiangRaPMYJPWV9cQJBfLTUgLowP9ZZnvEOZRapd0KlNPjv"
               }
             ]
           }
@@ -9122,6 +9196,60 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "id": "satsuki/satsuki",
+      "name": "AviUtlスクリプト一式",
+      "overview": "AviUtlを使うなら必須のスクリプト",
+      "description": "画像の配置や色やさまざまなエフェクトに関するアニメーション効果、なめらかな加減速が可能なフィルタ効果、連番画像の配置、音声に同期したアニメーション、テキストに対するアニメーション効果、ノイズや模様や図形のカスタムオブジェクトなどのたくさんのスクリプトが含まれています。",
+      "developer": "さつき",
+      "pageURL": "https://dic.nicovideo.jp/u/2787743#script",
+      "downloadURLs": ["https://bowlroll.net/file/3777"],
+      "latestVersion": "20160828",
+      "files": [
+        {
+          "filename": "script/さつき/@ANM1.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@ANM2.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@FIGURE.obj",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@LOAD.obj",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@TA.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@音声.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@加減速.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@連番.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/ANM_ssd/",
+          "archivePath": "script_20160828/",
+          "isDirectory": true
+        },
+        {
+          "filename": "script/TA_ssd/",
+          "archivePath": "script_20160828/",
+          "isDirectory": true
         }
       ]
     },
@@ -9402,6 +9530,70 @@
       ]
     },
     {
+      "id": "suzune/bakusoku",
+      "name": "bakusoku.auf",
+      "overview": "AviUtlを爆速化するプラグイン",
+      "description": "ウィンドウの描画処理を変更して、動作を軽くします。",
+      "developer": "鈴音",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39679253",
+      "downloadURLs": [
+        "https://github.com/suzune25254649/bakusoku_aviutl_plugin/releases/latest"
+      ],
+      "latestVersion": "v1.06",
+      "nicommons": "sm39679253",
+      "files": [
+        {
+          "filename": "plugins/bakusoku.auf",
+          "archivePath": "bakusoku_aviutl_plugin-1.06/"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.06",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/bakusoku.auf",
+                "hash": "sha384-R88BgBkWqGyNV7k17Rs1pdSExz5BvYpAjezWiQLL3xalz4LabnEKcZhBx2pSt7EB"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "suzune/WideDialog",
+      "name": "WideDialog.auf",
+      "overview": "AviUtlの設定ダイアログを幅広にする",
+      "description": "AviUtlの設定ダイアログの幅を広くします。",
+      "developer": "鈴音",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39708120",
+      "downloadURLs": [
+        "https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest"
+      ],
+      "latestVersion": "v1.04",
+      "nicommons": "sm39708120",
+      "files": [
+        {
+          "filename": "plugins/WideDialog.auf",
+          "archivePath": "WideDialog_aviutl_plugin-1.02/"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.02",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/WideDialog.auf",
+                "hash": "sha384-esDTZQT6MIC5ZUDz9kqohy1VAfi0XgQrOhC8Yk0KYLs04/jXZOgTtCRcPp0Eu2N6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "tetsuXIAO/opencv",
       "name": "OpenCVアニメーションスクリプト",
       "overview": "OpenCVを使用した画像処理を行うスクリプト",
@@ -9519,233 +9711,6 @@
       ]
     },
     {
-      "id": "yumetodo/SigContrastFastAviUtl",
-      "name": "SigContrastFastAviUtl",
-      "overview": "シグモイド関数に基づくコントラスト調整",
-      "description": "コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。",
-      "developer": "yumetodo",
-      "dependencies": [
-        "MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks"
-      ],
-      "pageURL": "https://github.com/yumetodo/SigContrastFastAviUtl",
-      "downloadURLs": [
-        "https://github.com/yumetodo/SigContrastFastAviUtl/releases/latest"
-      ],
-      "latestVersion": "1.0.0",
-      "files": [
-        {
-          "filename": "SigColorFastAviUtl.auf",
-          "archivePath": "SigColorFastAviUtl/"
-        }
-      ],
-      "releases": [
-        {
-          "version": "1.0.0",
-          "integrity": {
-            "archive": "sha384-WvcdxcG5Zng9dvtD30/hmvQbBwLpWhgXXTk7l3Xo3UW2/xqX9+bmB0qtSf/4QhxZ",
-            "file": [
-              {
-                "target": "SigColorFastAviUtl.auf",
-                "hash": "sha384-LJ0USQIgiXWcN/qpFAfRiefmbI974ZfOnUSjAK7Rc5mGIrK20PDr5vikXHV29+8O"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "satsuki/satsuki",
-      "name": "AviUtlスクリプト一式",
-      "overview": "AviUtlを使うなら必須のスクリプト",
-      "description": "画像の配置や色やさまざまなエフェクトに関するアニメーション効果、なめらかな加減速が可能なフィルタ効果、連番画像の配置、音声に同期したアニメーション、テキストに対するアニメーション効果、ノイズや模様や図形のカスタムオブジェクトなどのたくさんのスクリプトが含まれています。",
-      "developer": "さつき",
-      "pageURL": "https://dic.nicovideo.jp/u/2787743#script",
-      "downloadURLs": ["https://bowlroll.net/file/3777"],
-      "latestVersion": "20160828",
-      "files": [
-        {
-          "filename": "script/さつき/@ANM1.anm",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@ANM2.anm",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@FIGURE.obj",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@LOAD.obj",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@TA.anm",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@音声.anm",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@加減速.anm",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/さつき/@連番.anm",
-          "archivePath": "script_20160828/"
-        },
-        {
-          "filename": "script/ANM_ssd/",
-          "archivePath": "script_20160828/",
-          "isDirectory": true
-        },
-        {
-          "filename": "script/TA_ssd/",
-          "archivePath": "script_20160828/",
-          "isDirectory": true
-        }
-      ]
-    },
-    {
-      "id": "AiosCiao/VSThost4aviutl",
-      "name": "VSTホストプラグイン＋α",
-      "overview": "aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる",
-      "description": "aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。",
-      "developer": "しし/りっちゃん",
-      "pageURL": "https://www.nicovideo.jp/watch/sm29926034",
-      "downloadURLs": [
-        "https://github.com/Aios-Ciao/VSThost4aviutl/raw/master/VSThost4aviutl.zip"
-      ],
-      "latestVersion": "ver.001",
-      "nicommons": "sm29926034",
-      "files": [
-        {
-          "filename": "plugins/vsthost_1.auf",
-          "archivePath": "VSThost4aviutl/"
-        },
-        {
-          "filename": "plugins/vsthost_2.auf",
-          "archivePath": "VSThost4aviutl/"
-        },
-        {
-          "filename": "plugins/vsthost_3.auf",
-          "archivePath": "VSThost4aviutl/"
-        },
-        {
-          "filename": "plugins/vsthost_4.auf",
-          "archivePath": "VSThost4aviutl/"
-        },
-        { "filename": "plugins/wavpatch.auf", "archivePath": "VSThost4aviutl/" }
-      ]
-    },
-    {
-      "id": "pop4bit/LSMASHWorks",
-      "name": "L-SMASH Works",
-      "overview": "様々な形式の動画・音楽ファイルを読み込む",
-      "description": "様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS のぽっぷん氏ビルドです。ffmpegのバージョン4.2.2を使用しています。海外からはダウンロードできません。",
-      "developer": "ぽっぷん",
-      "originalDeveloper": "VFR-maniac",
-      "pageURL": "https://pop.4-bit.jp/?page_id=7929",
-      "downloadURLs": ["https://pop.4-bit.jp/?page_id=7929"],
-      "latestVersion": "r940 release1",
-      "files": [
-        { "filename": "plugins/lwcolor.auc" },
-        { "filename": "plugins/lwdumper.auf" },
-        { "filename": "plugins/lwinput.aui" },
-        { "filename": "plugins/lwmuxer.auf" }
-      ],
-      "releases": [
-        {
-          "version": "r940 release1",
-          "integrity": {
-            "archive": "sha384-yBDA/RFCozGCQc6tcPa+Vsm4B0J82skJXN4ZrVRegCgQFTJW8N8eLlWXy55LiFRX",
-            "file": [
-              {
-                "target": "plugins/lwinput.aui",
-                "hash": "sha384-11Bixku/iJUz6SgrABVClbVYcP4yM1D14eS52/HwQA60yYI1UMAoabnjLsIo+o3J"
-              }
-            ]
-          }
-        },
-        {
-          "version": "r940 mod1",
-          "integrity": {
-            "file": [
-              {
-                "target": "plugins/lwinput.aui",
-                "hash": "sha384-G+do1l9i5JW6y18m/C/OzPnKEq667EWIk/PenITnH3ymEYQf+H9lfHlkDhtJHv5C"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "suzune/bakusoku",
-      "name": "bakusoku.auf",
-      "overview": "AviUtlを爆速化するプラグイン",
-      "description": "ウィンドウの描画処理を変更して、動作を軽くします。",
-      "developer": "鈴音",
-      "pageURL": "https://www.nicovideo.jp/watch/sm39679253",
-      "downloadURLs": [
-        "https://github.com/suzune25254649/bakusoku_aviutl_plugin/releases/latest"
-      ],
-      "latestVersion": "v1.06",
-      "nicommons": "sm39679253",
-      "files": [
-        {
-          "filename": "plugins/bakusoku.auf",
-          "archivePath": "bakusoku_aviutl_plugin-1.06/"
-        }
-      ],
-      "releases": [
-        {
-          "version": "v1.06",
-          "integrity": {
-            "file": [
-              {
-                "target": "plugins/bakusoku.auf",
-                "hash": "sha384-R88BgBkWqGyNV7k17Rs1pdSExz5BvYpAjezWiQLL3xalz4LabnEKcZhBx2pSt7EB"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "suzune/WideDialog",
-      "name": "WideDialog.auf",
-      "overview": "AviUtlの設定ダイアログを幅広にする",
-      "description": "AviUtlの設定ダイアログの幅を広くします。",
-      "developer": "鈴音",
-      "pageURL": "https://www.nicovideo.jp/watch/sm39708120",
-      "downloadURLs": [
-        "https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest"
-      ],
-      "latestVersion": "v1.04",
-      "nicommons": "sm39708120",
-      "files": [
-        {
-          "filename": "plugins/WideDialog.auf",
-          "archivePath": "WideDialog_aviutl_plugin-1.02/"
-        }
-      ],
-      "releases": [
-        {
-          "version": "v1.02",
-          "integrity": {
-            "file": [
-              {
-                "target": "plugins/WideDialog.auf",
-                "hash": "sha384-esDTZQT6MIC5ZUDz9kqohy1VAfi0XgQrOhC8Yk0KYLs04/jXZOgTtCRcPp0Eu2N6"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "WDee/translib2",
       "name": "吉里吉里２トランジションライブラリ",
       "overview": "トランジション素材として使用できるPNG画像",
@@ -9833,6 +9798,41 @@
       "nicommons": "sm40465457",
       "files": [
         { "filename": "ContentsTree.auf", "archivePath": "ContentsTree_ver0.2" }
+      ]
+    },
+    {
+      "id": "yumetodo/SigContrastFastAviUtl",
+      "name": "SigContrastFastAviUtl",
+      "overview": "シグモイド関数に基づくコントラスト調整",
+      "description": "コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。",
+      "developer": "yumetodo",
+      "dependencies": [
+        "MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks"
+      ],
+      "pageURL": "https://github.com/yumetodo/SigContrastFastAviUtl",
+      "downloadURLs": [
+        "https://github.com/yumetodo/SigContrastFastAviUtl/releases/latest"
+      ],
+      "latestVersion": "1.0.0",
+      "files": [
+        {
+          "filename": "SigColorFastAviUtl.auf",
+          "archivePath": "SigColorFastAviUtl/"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "integrity": {
+            "archive": "sha384-WvcdxcG5Zng9dvtD30/hmvQbBwLpWhgXXTk7l3Xo3UW2/xqX9+bmB0qtSf/4QhxZ",
+            "file": [
+              {
+                "target": "SigColorFastAviUtl.auf",
+                "hash": "sha384-LJ0USQIgiXWcN/qpFAfRiefmbI974ZfOnUSjAK7Rc5mGIrK20PDr5vikXHV29+8O"
+              }
+            ]
+          }
+        }
       ]
     }
   ]

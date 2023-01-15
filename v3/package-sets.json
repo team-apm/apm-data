@@ -2,20 +2,17 @@
   "version": 3,
   "packages": [
     {
-      "id": "sets/scrapboxAviUtl",
-      "name": "scrapbox/AviUtl 推奨環境",
-      "overview": "scrapbox.io/aviutl推奨のAviUtl環境",
-      "description": "https://scrapbox.io/aviutl/ にて紹介されている推奨環境です。",
-      "developer": "scrapbox.io/aviutl",
+      "id": "sets/aviutlSound",
+      "name": "音声編集 パッケージセット",
+      "overview": "AviUtlでより良く音声を扱うためのパッケージセット",
+      "description": "AviUtlでより良く音声を扱うためのパッケージを追加できます。",
+      "developer": "apm",
       "dependencies": [
-        "aviutl1.10",
-        "exedit0.92",
-        "MrOjii/LSMASHWorks",
-        "amate/InputPipePlugin",
-        "aoytsk/easymp4",
-        "ePi/patch"
+        "AiosCiao/VSThost4aviutl",
+        "rikky/smallPlay",
+        "hebiiro/ShowWaveform"
       ],
-      "pageURL": "https://scrapbox.io/aviutl/セットアップ",
+      "pageURL": "https://github.com/team-apm/apm-data",
       "downloadURLs": [
         "https://team-apm.github.io/apm-data/package-sets-description.html"
       ],
@@ -44,17 +41,20 @@
       "files": [{ "filename": "placeholder.pkgset", "isObsolete": true }]
     },
     {
-      "id": "sets/aviutlSound",
-      "name": "音声編集 パッケージセット",
-      "overview": "AviUtlでより良く音声を扱うためのパッケージセット",
-      "description": "AviUtlでより良く音声を扱うためのパッケージを追加できます。",
-      "developer": "apm",
+      "id": "sets/scrapboxAviUtl",
+      "name": "scrapbox/AviUtl 推奨環境",
+      "overview": "scrapbox.io/aviutl推奨のAviUtl環境",
+      "description": "https://scrapbox.io/aviutl/ にて紹介されている推奨環境です。",
+      "developer": "scrapbox.io/aviutl",
       "dependencies": [
-        "AiosCiao/VSThost4aviutl",
-        "rikky/smallPlay",
-        "hebiiro/ShowWaveform"
+        "aviutl1.10",
+        "exedit0.92",
+        "MrOjii/LSMASHWorks",
+        "amate/InputPipePlugin",
+        "aoytsk/easymp4",
+        "ePi/patch"
       ],
-      "pageURL": "https://github.com/team-apm/apm-data",
+      "pageURL": "https://scrapbox.io/aviutl/セットアップ",
       "downloadURLs": [
         "https://team-apm.github.io/apm-data/package-sets-description.html"
       ],

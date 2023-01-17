@@ -36,4 +36,13 @@ Team apmが付与した開発者IDは、[developer-id.md](./developer-id.md)を�
 [@mitosagi](https://github.com/mitosagi)
 [@yumetodo](https://github.com/yumetodo)
 [@karoterra](https://github.com/karoterra)
+[@pklion](https://github.com/pklion)
+**arataku**
+[@shumm7](https://github.com/shumm7)
 [@glyzinieh](https://github.com/glyzinieh)
+**JI**
+[@infoengine1337](https://github.com/infoengine1337)
+**sakana**
+**匿名だれか**
+**みまらか**
+[@staka625](https://github.com/staka625)

@@ -9264,6 +9264,7 @@
         "https://github.com/shumm7/AviUtl-dotdrawer.lua/releases/latest"
       ],
       "latestVersion": "1.1",
+      "isHidden": true,
       "files": [{ "filename": "script/shummg/dotdrawer.lua" }],
       "releases": [
         {
@@ -9304,6 +9305,7 @@
         "https://github.com/shumm7/AviUtl-shu_game.lua/releases/latest"
       ],
       "latestVersion": "1.1",
+      "isHidden": true,
       "files": [{ "filename": "script/shummg/shu_game.lua" }],
       "releases": [
         {

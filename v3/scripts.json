@@ -53,7 +53,7 @@
     {
       "url": "https://shummg.work/downloads/",
       "developer": "しゅう",
-      "description": "スクリプトの例: @Square-Advanced, @DisplaySizeオセロ, @球座標回転, @任意関数図形, @媒介変数図形, @年月日カウンター, @等間隔に配置, @カメラ座標, @座標制御, @RadialPosition, @SphericalRadialPosition, @十字, @角丸十字, @放射線, PercentageClipping, @QR, @角丸吹き出し, @カラオケテキスト, @心電図, @カラーバー, @Winアイコン, @TA交互移動, オセロ, マインスイーパ, 明度着色, 一括画像編集, @ZoomLine, @ScreenCapture, @テキスト遷移, @モザイクとノイズ, @MathTrack, @BufferMask, トリミングS, WaveRing"
+      "description": "スクリプトの例: @Square-Advanced, @DisplaySize, オセロ, @球座標回転, @任意関数図形, @媒介変数図形, @年月日カウンター, @等間隔に配置, @カメラ座標, @座標制御, @RadialPosition, @SphericalRadialPosition, @十字, @角丸十字, @放射線, PercentageClipping, @QR, @角丸吹き出し, @カラオケテキスト, @心電図, @カラーバー, @TA交互移動, オセロ, マインスイーパ, 明度着色, 一括画像編集, @ZoomLine, @ScreenCapture, @テキスト遷移, @モザイクとノイズ, @MathTrack, @BufferMask, トリミングS, WaveRing"
     },
     {
       "url": "https://www.nicovideo.jp/user/26576669/mylist/37628454",
@@ -193,17 +193,6 @@
         "rikky/rikkyModuleMemory|rikky/rikkyModule2",
         "shummg/textmodule",
         "ePi/LuaJIT"
-      ]
-    },
-    {
-      "match": ["*AviUtl-Othello*", "*AviUtl-MineSweeper*"],
-      "folder": "shummg",
-      "developer": "しゅう",
-      "dependencies": [
-        "rikky/rikkyModuleMemory|rikky/rikkyModule2",
-        "shummg/textmodule",
-        "ePi/LuaJIT",
-        "shummg/shuGame"
       ]
     },
     {

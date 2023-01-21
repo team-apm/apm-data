@@ -20,7 +20,7 @@ jobs:
           cache: yarn
       - run: sudo apt update; sudo apt install convmv
       - run: yarn install --frozen-lockfile
-      - run: mr_ojii_file=`curl -s 'https://api.github.com/repos/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest' | jq -r '.assets[] | select(.name|test("Mr-Ojii_Mr-Ojii")).browser_download_url'` && echo "mr_ojii_file=\"$mr_ojii_file\"" >> $GITHUB_ENV
+      - run: mr_ojii_file=`curl -s 'https://api.github.com/repos/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest' | jq -r '.assets[] | select(.name|test("Mr-Ojii_Mr-Ojii")).browser_download_url'` && echo "mr_ojii_file=${mr_ojii_file//'/'/'\/'}" >> $GITHUB_ENV
       - run: sed -i "s/https:\/\/github\.com\/Mr-Ojii\/L-SMASH-Works-Auto-Builds\/releases\/download.*_Mr-Ojii_Mr-Ojii_AviUtl\.zip/${{ env.mr_ojii_file }}/g" v3/packages.json
       - run: sudo chmod -R u+x /home/runner/work/apm-data/apm-data/node_modules/7zip-bin
       - run: LANG=C yarn run check-update

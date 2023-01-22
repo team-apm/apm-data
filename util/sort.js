@@ -33,6 +33,7 @@ const packageOrder = [
   'installer',
   'installArg',
   'nicommons',
+  'isHidden',
   'files',
   'releases',
 ];

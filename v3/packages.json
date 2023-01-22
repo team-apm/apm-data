@@ -4352,7 +4352,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-01-13-13-40-23/L-SMASH-Works_rev1101_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-01-22-01-05-05/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -6968,7 +6968,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.08",
+      "latestVersion": "7.12",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -6995,6 +6995,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.12",
+          "integrity": {
+            "archive": "sha384-X7okhxYKVb9XAG+NwpMbYj+2DAuBj7uwmsr23I8UdsNP8DX4nVgpkwKYhUHMoV1z",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-x3OYWIo+lNp+aEptmhNN96qcknBcugM1eHTfw36Oyhb3Z7IroVBDd87rqBq8q+Ff"
+              }
+            ]
+          }
+        },
         {
           "version": "7.08",
           "integrity": {
@@ -7283,7 +7295,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.25",
+      "latestVersion": "7.26",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -7310,6 +7322,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.26",
+          "integrity": {
+            "archive": "sha384-8fxu6bgjOJ/JaeBpk/iwFyJEfnHEUxpgXn4/bCdf0KGLhZJn97O6TguZaKRRzMz3",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-JlZDTJhJ5DMWDvIgdsR8nD7iMsF9S9LbrPKnM6wOoc9TMVCJhUaazLPYZD9+Z6A9"
+              }
+            ]
+          }
+        },
         {
           "version": "7.25",
           "integrity": {

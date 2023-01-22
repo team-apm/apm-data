@@ -15,16 +15,19 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
   - [aoytsk `aoytsk`](#aoytsk-aoytsk)
   - [yu_noimage\_ `auls`](#yu_noimage_-auls)
   - [AviUtl実験室 `AviUtlLab`](#aviutl実験室-aviutllab)
+  - [微熱 `binetsu`](#微熱-binetsu)
   - [ePi `ePi`](#epi-epi)
   - [gometh `gometh`](#gometh-gometh)
   - [禿げガル `hage`](#禿げガル-hage)
   - [蛇色 `hebiiro`](#蛇色-hebiiro)
   - [白水 `hksy`](#白水-hksy)
   - [HolyWu `HolyWu`](#holywu-holywu)
+  - [jigno `jigno`](#jigno-jigno)
   - [kaisatsu `kaisatsu`](#kaisatsu-kaisatsu)
   - [ウサギ/カメ `kame`](#ウサギカメ-kame)
   - [karoterra `karoterra`](#karoterra-karoterra)
   - [khsk `khsk`](#khsk-khsk)
+  - [蝙蝠の目 `kumrnm`](#蝙蝠の目-kumrnm)
   - [Maverick Tse `MaverickTse`](#maverick-tse-mavericktse)
   - [morgue `morgue`](#morgue-morgue)
   - [Mr-Ojii `MrOjii`](#mr-ojii-mrojii)
@@ -85,6 +88,10 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
 
 - サイト: <http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl>
 
+## 微熱 `binetsu`
+
+- ニコニコ: <https://www.nicovideo.jp/user/16151608>
+
 ## ePi `ePi`
 
 - Scrapbox: <https://scrapbox.io/ePi5131/>
@@ -119,6 +126,12 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
 
 - GitHub: <https://github.com/HolyWu>
 
+## jigno `jigno`
+
+- サイト: <http://onomirukust.blog.fc2.com/>
+- YouTube: <https://www.youtube.com/@jigno9670>
+- Twitter: <https://twitter.com/jigno9670>
+
 ## kaisatsu `kaisatsu`
 
 - ニコニコ: <https://www.nicovideo.jp/user/2153500>
@@ -139,6 +152,12 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
 
 - GitHub: <https://github.com/khsk>
 - Qiita: <https://qiita.com/khsk>
+
+## 蝙蝠の目 `kumrnm`
+
+- GitHub: <https://github.com/kumrnm>
+- ニコニコ: <https://www.nicovideo.jp/user/119196563>
+- Twitter: <https://twitter.com/kumrnm>
 
 ## Maverick Tse `MaverickTse`
 

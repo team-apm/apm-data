@@ -935,6 +935,46 @@
       ]
     },
     {
+      "id": "binetsu/SharpBorder",
+      "name": "角縁取り",
+      "overview": "角をしっかり尖らせて縁取りする",
+      "description": "Adobe Illustratorなどの縁取りみたいに、角をしっかり尖らせて縁取りするスクリプトです。",
+      "developer": "微熱",
+      "pageURL": "https://www.nicovideo.jp/watch/sm41265376",
+      "downloadURLs": [
+        "https://www.dropbox.com/sh/96vgf2p4vji4x9a/AAD4m0XHt9oJKna0aWEWRD79a?dl=0"
+      ],
+      "latestVersion": "2022/10/27",
+      "nicommons": "sm41265376",
+      "files": [
+        { "filename": "opencv_world460.dll" },
+        { "filename": "script/binetsu/角縁取り.anm" },
+        { "filename": "script/binetsu/SharpBorder.dll" }
+      ],
+      "releases": [
+        {
+          "version": "2022/10/27",
+          "integrity": {
+            "archive": "sha384-vrZOlrotjLwSFhc59GD4AibLUI3U8tuy/BqMk/POFEerHSflQdKxVCDBq0lYBTCW",
+            "file": [
+              {
+                "target": "opencv_world460.dll",
+                "hash": "sha384-XM9nIKIhOTW/Lfoi4jEfPNmYyifym4Z3XHkHdIXD6RKtntdpl/xY4fIZ7mZOCRI8"
+              },
+              {
+                "target": "script/binetsu/角縁取り.anm",
+                "hash": "sha384-BrArhuXInFPghUJCKAle0z/W5yrQcG0zpUQ9O2n22/s7XrO/e84NapNU6CZtE03E"
+              },
+              {
+                "target": "script/binetsu/SharpBorder.dll",
+                "hash": "sha384-ez90ymnBFqqIwgVCQjJzMPt7rnmsooKMXiPcMAB8SK9q5Zzah8YdpH8qmtKOLY//"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "ePi/aulsMemref",
       "name": "Aulsメモリ参照プラグイン",
       "overview": "他のメモリを参照するプラグインやDLLで必要",
@@ -1497,6 +1537,34 @@
               {
                 "target": "script/gometh/@SLG風味.anm",
                 "hash": "sha384-lZTm71GlDdlluaeY0ftABy4fQx/Hocz1agsX03QTEO/ZUd5EsxxKapVW12Eo4cIE"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/AddColorCode",
+      "name": "カラーコード追加",
+      "overview": "色の選択ダイアログでカラーコードを使えるようにします。",
+      "description": "色の選択ダイアログでカラーコードを使えるようにします。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-AddColorCode#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-AddColorCode/releases/latest"
+      ],
+      "latestVersion": "1.1.0",
+      "files": [{ "filename": "plugins/AddColorCode.auf" }],
+      "releases": [
+        {
+          "version": "1.1.0",
+          "integrity": {
+            "archive": "sha384-n2z9GeotGy3EuO51QVx9xKS/ryZUKqu5HJNCpRKKInZ20ZqdZfG4kY1ehCPB5Kji",
+            "file": [
+              {
+                "target": "plugins/AddColorCode.auf",
+                "hash": "sha384-0BQxE9x6b+0MYPvUVuMWpSsovckKwuJdcMNgvdy9n21waMvW/TOncH7pmXSdPGa4"
               }
             ]
           }
@@ -2296,6 +2364,57 @@
       ]
     },
     {
+      "id": "hebiiro/LevelMeter",
+      "name": "レベルメーター",
+      "overview": "音声のレベルメーター",
+      "description": "Aviutl内に音声のレベルメーターを表示します。",
+      "developer": "hebiiro",
+      "dependencies": ["exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-LevelMeter#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-LevelMeter/releases/latest"
+      ],
+      "latestVersion": "1.4.0",
+      "files": [
+        { "filename": "plugins/LevelMeter.auf" },
+        { "filename": "plugins/LevelMeter.ini" }
+      ],
+      "releases": [
+        {
+          "version": "1.4.0",
+          "integrity": {
+            "archive": "sha384-LuEF3p+KrkgPPq4nS2vDTiie3eBN+cxGdSBvtOi99yvDV6CThYDfV6/RN1I2tOfi",
+            "file": [
+              {
+                "target": "plugins/LevelMeter.auf",
+                "hash": "sha384-zXBAx2/+zUu/JtxQWulBQIF3N5SidztEsBYQbc0Z08gPQR2rhsjUZvcYYnenR0nM"
+              },
+              {
+                "target": "plugins/LevelMeter.ini",
+                "hash": "sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.3.0",
+          "integrity": {
+            "archive": "sha384-9t4WxpSz8g5tlAmLH+J7jkXfXlu5533r76Xrar+hrdcN1pIuZ3iqbygn8XHgHkja",
+            "file": [
+              {
+                "target": "plugins/LevelMeter.auf",
+                "hash": "sha384-QnxVgpbXI5kArpAY6NgxYde4sSd764NNGjYXHjav08zD3gr9MrYZgGfL9KvTta8A"
+              },
+              {
+                "target": "plugins/LevelMeter.ini",
+                "hash": "sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "hebiiro/ObjectExplorer",
       "name": "オブジェクトエクスプローラ",
       "overview": "エイリアスの管理を効率化する",
@@ -2461,6 +2580,34 @@
               {
                 "target": "plugins/OptimizeEditBox.auf",
                 "hash": "sha384-K0NjhzyhuC0zz5ni7wVp5fN88hjq51T6nXKFaxcYAD07spHFL8GlybUpdTZnjt61"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/SaveImage",
+      "name": "画像保存",
+      "overview": "現在のフレーム、または選択アイテムを画像として保存",
+      "description": "現在のフレーム、または選択アイテムを画像として保存します。",
+      "developer": "hebiiro",
+      "dependencies": ["exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-SaveImage#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-SaveImage/releases/latest"
+      ],
+      "latestVersion": "v1.1.0",
+      "files": [{ "filename": "plugins/SaveImage.auf" }],
+      "releases": [
+        {
+          "version": "v1.1.0",
+          "integrity": {
+            "archive": "sha384-t3MwUro/bXRQ7+bHAafZPUZir3eY5Xfqej7W2YNfor1X8WG1I5cdW/N08oxp46R7",
+            "file": [
+              {
+                "target": "plugins/SaveImage.auf",
+                "hash": "sha384-xE6BCiPOGb36YZS+UtJEKIsEtvHa3DCZso0lEsuEvt3i5TwIZl9x0u0oBAI8p8u6"
               }
             ]
           }
@@ -3735,6 +3882,47 @@
       ]
     },
     {
+      "id": "karoterra/confirmclose",
+      "name": "改変版Auls終了確認",
+      "overview": "プロジェクトを閉じる前に確認メッセージを表示する",
+      "description": "拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。Auls( http://auls.client.jp/ )さんの終了確認プラグインを勝手に改変したものです。",
+      "developer": "karoterra",
+      "originalDeveloper": "yu_noimage_",
+      "dependencies": ["exedit0.92"],
+      "pageURL": "https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D",
+      "downloadURLs": [
+        "https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D"
+      ],
+      "latestVersion": "v1.2",
+      "files": [{ "filename": "plugins/auls_confirmclose.auf" }],
+      "releases": [
+        {
+          "version": "v1.2",
+          "integrity": {
+            "archive": "sha384-xlinFF+FeqB2O6at+csUh/KJGyMoftlLNYpNOpZVkLaMK5udzsQLKrEQkomB64h5",
+            "file": [
+              {
+                "target": "plugins/auls_confirmclose.auf",
+                "hash": "sha384-BMVh2RyCX5juitNTKDY4auoYn8M+K21kCDL+lrr36NecCm+s77gqra/MkkPl1yRI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-gBb6JbNJ8ePaWfSt9MQlj51zaITzq65pKuR+sdWScFyuvsuKUI3nIrNyTk7oMLp+",
+            "file": [
+              {
+                "target": "plugins/auls_confirmclose.auf",
+                "hash": "sha384-E1sBtURbjxmn2yWovjcr0R1nQthQxPrgvDLvdxGi4cK9k8LpIVPDmNgEUqrE69WR"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "karoterra/DynamicPolygon",
       "name": "動く多角形",
       "overview": "トラックバーで指定した頂点座標をもとに多角形を描画するスクリプト",
@@ -4231,6 +4419,76 @@
             ]
           }
         }
+      ]
+    },
+    {
+      "id": "mimaraka/curveeditor",
+      "name": "Curve Editor（カーブエディタ）",
+      "overview": "様々なイージングをウィンドウ上で編集",
+      "description": "様々なイージングをウィンドウ上で編集できるAviUtlプラグイン&スクリプトです。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "みまらか",
+      "pageURL": "https://github.com/mimaraka/aviutl-plugin-curve_editor#readme",
+      "downloadURLs": [
+        "https://github.com/mimaraka/aviutl-plugin-curve_editor/releases/latest"
+      ],
+      "latestVersion": "v1.0.5",
+      "files": [
+        {
+          "filename": "plugins/curve_editor.auf",
+          "archivePath": "curve_editor-v1.0.5"
+        },
+        {
+          "filename": "script/@Curve Editor.tra",
+          "archivePath": "curve_editor-v1.0.5"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.0.5",
+          "integrity": {
+            "archive": "sha384-XFZtyb3E6hQz6/fSs7uRXgaODOVPjMHGgxeIs4NHdoP2WGb6ntTm8y4cR6CgB5EH",
+            "file": [
+              {
+                "target": "plugins/curve_editor.auf",
+                "hash": "sha384-dwj5qtg6ANMI6Ozw1tnjMaCCkWfwx5sKKhdBJCwTABKTHCOJTc4hciagqlxWqpOx"
+              },
+              {
+                "target": "script/@Curve Editor.tra",
+                "hash": "sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v1.0.4",
+          "integrity": {
+            "archive": "sha384-pJnAaRoCTmkkcAnF3mL0kFGUq/l96WBb+GC2bicovFj9Y4CSJ3oaI7RkkNYtMnR0",
+            "file": [
+              {
+                "target": "plugins/curve_editor.auf",
+                "hash": "sha384-fVBG3Hastb5jnmZ1hZwY2OwY32eRdLK16M9vhhhWRub4+MmLwkyVnvAZ2vvOJlpI"
+              },
+              {
+                "target": "script/@Curve Editor.tra",
+                "hash": "sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "miramikaruR/norinori",
+      "name": "ちょっとノリノリスクリプト",
+      "overview": "BPMに合わせたアニメーションが可能",
+      "description": "オブジェクトにBPMに合わせたアニメーションをつけることができます。",
+      "developer": "おばけ大根",
+      "pageURL": "https://www.nicovideo.jp/watch/sm33151219",
+      "downloadURLs": ["https://www.axfc.net/u/3907922.dat"],
+      "latestVersion": "2018/05/03",
+      "nicommons": "sm33151219",
+      "files": [
+        { "filename": "script/miramikaruR/ちょっとノリノリスクリプト.anm" }
       ]
     },
     {

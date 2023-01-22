@@ -37,6 +37,7 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
   - [rigaya `rigaya`](#rigaya-rigaya)
   - [rikky `rikky`](#rikky-rikky)
   - [さつき `satsuki`](#さつき-satsuki)
+  - [星野なたね `SEED264`](#星野なたね-seed264)
   - [パッケージセット用 `sets`](#パッケージセット用-sets)
   - [しゅう `shummg`](#しゅう-shummg)
   - [鈴音 `suzune`](#鈴音-suzune)
@@ -209,6 +210,11 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
 
 - ニコニコ: <https://www.nicovideo.jp/user/2787743>
 - Twitter: <https://twitter.com/satsuki_ssd>
+
+## 星野なたね `SEED264`
+
+- GitHub: <https://github.com/SEED264>
+- Twitter: <https://twitter.com/SEED264>
 
 ## パッケージセット用 `sets`
 

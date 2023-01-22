@@ -7295,7 +7295,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.27",
+      "latestVersion": "7.28",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -7322,6 +7322,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.28",
+          "integrity": {
+            "archive": "sha384-LEBJsUD+xlpLLkvlLdbSp3jxt0KTqa7sUfm+URVSCU5Lh4rn32e/Edavtn0y6gY4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-MfttnYf/QFN1EyHDvV+UInIVwskvHOzM4GqCt7bX2G52AXL1pmAbKjZ29TsGI8qq"
+              }
+            ]
+          }
+        },
         {
           "version": "7.27",
           "integrity": {
@@ -9287,7 +9299,7 @@
       "downloadURLs": [
         "https://github.com/SEED264/DirectionalBlur_s/releases/latest"
       ],
-      "latestVersion": "1.00",
+      "latestVersion": "v1.00",
       "files": [
         {
           "filename": "script/SEED264/DirectionalBlur_s.anm",
@@ -9308,6 +9320,30 @@
         }
       ],
       "releases": [
+        {
+          "version": "v1.00",
+          "integrity": {
+            "archive": "sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz",
+            "file": [
+              {
+                "target": "script/SEED264/DirectionalBlur_s.anm",
+                "hash": "sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_s.dll",
+                "hash": "sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_Direct_s.anm",
+                "hash": "sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
         {
           "version": "1.00",
           "integrity": {
@@ -9345,7 +9381,7 @@
       "downloadURLs": [
         "https://github.com/SEED264/OpticsCompensation_s/releases/latest"
       ],
-      "latestVersion": "1.1",
+      "latestVersion": "v1.1",
       "files": [
         {
           "filename": "script/SEED264/OpticsCompensation_s.anm",
@@ -9357,6 +9393,22 @@
         }
       ],
       "releases": [
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88"
+              }
+            ]
+          }
+        },
         {
           "version": "1.1",
           "integrity": {
@@ -9402,7 +9454,7 @@
       "downloadURLs": [
         "https://github.com/SEED264/OpticsCompensation_s_Old/releases/latest"
       ],
-      "latestVersion": "1.10",
+      "latestVersion": "v1.10",
       "isHidden": true,
       "files": [
         {
@@ -9425,6 +9477,26 @@
         }
       ],
       "releases": [
+        {
+          "version": "v1.10",
+          "integrity": {
+            "archive": "sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
         {
           "version": "1.10",
           "integrity": {
@@ -9553,7 +9625,7 @@
       "downloadURLs": [
         "https://github.com/SEED264/RadialWipe_s/releases/latest"
       ],
-      "latestVersion": "1.1",
+      "latestVersion": "v1.1",
       "files": [
         {
           "filename": "script/SEED264/RadialBlind_s.anm",
@@ -9569,6 +9641,26 @@
         }
       ],
       "releases": [
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8",
+            "file": [
+              {
+                "target": "script/SEED264/RadialBlind_s.anm",
+                "hash": "sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.dll",
+                "hash": "sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.anm",
+                "hash": "sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i"
+              }
+            ]
+          }
+        },
         {
           "version": "1.1",
           "integrity": {

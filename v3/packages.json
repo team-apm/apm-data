@@ -1617,12 +1617,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
       ],
-      "latestVersion": "2.2.0",
+      "latestVersion": "2.3.0",
       "files": [
         { "filename": "plugins/BuildStairs", "isDirectory": true },
         { "filename": "plugins/BuildStairs.auf" }
       ],
       "releases": [
+        {
+          "version": "2.3.0",
+          "integrity": {
+            "archive": "sha384-vgwp7lFQCkKC1ozbvjOMd/7YPAOzSbf+FvBi+SFfeHSj9fohxZLLdrPQ+WqK6+yc",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-B036NklBwyiSlrQcVdYKq6GAMhO3VbKwCaG/MUogBut8A0pR1BfDfDcGSLFk3WG/"
+              }
+            ]
+          }
+        },
         {
           "version": "2.2.0",
           "integrity": {

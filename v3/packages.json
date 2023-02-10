@@ -6425,10 +6425,22 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.4",
+      "latestVersion": "v0.3.5",
       "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }],
       "releases": [
+        {
+          "version": "v0.3.5",
+          "integrity": {
+            "archive": "sha384-jn54hGwFsnRnxo1nqH+g58xI4QELGAVQvKFbumNI7xV1dQfoF5LWRYRi2t5s9xBq",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-64vjupDuVZd1FKOKv9iJrtN+zayGT1Gx3bLBMd1fTEyFPo5h+AviICwZgHKVtwi+"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.4",
           "integrity": {

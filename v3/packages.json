@@ -46,7 +46,7 @@
       "downloadURLs": [
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
-      "latestVersion": "v1.9",
+      "latestVersion": "v1.10",
       "nicommons": "sm35585310",
       "files": [
         {
@@ -60,6 +60,18 @@
         { "filename": "plugins/InputPipePlugin.log", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "v1.10",
+          "integrity": {
+            "archive": "sha384-vmLfFYCx3LUIj6UeldXMJrWhPlOjcMUIR0fZpg1z2iuYuQFLMPCJ964tTmVkqqXI",
+            "file": [
+              {
+                "target": "plugins/InputPipePlugin.aui",
+                "hash": "sha384-gNZCgSweF6AG9S6PoamaUAx31OzBslK9oflQNMj2EYzeaB17B0q0riOkHobT+0ce"
+              }
+            ]
+          }
+        },
         {
           "version": "v1.9",
           "integrity": {
@@ -4400,7 +4412,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-02-09-01-03-40/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-02-12-01-06-38/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

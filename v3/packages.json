@@ -2341,7 +2341,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.5.0",
+      "latestVersion": "3.6.0",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },
@@ -2350,6 +2350,22 @@
         { "filename": "plugins/セカンドエクスプローラ", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.6.0",
+          "integrity": {
+            "archive": "sha384-f+tui+A5rRm52ff5VYIPwe6nTx6czAYRE+GOma9FcnOdPmxHcYlr6tI3qMNri4T/",
+            "file": [
+              {
+                "target": "plugins/ObjectExplorer.auf",
+                "hash": "sha384-UrbL9lvfpebNs3zFR8ezdeUgOxIS9RZq1hZy3r4oquKIY4+Lr/65uKgjv3Jj+Dl0"
+              },
+              {
+                "target": "plugins/セカンドエクスプローラ.auf",
+                "hash": "sha384-UrbL9lvfpebNs3zFR8ezdeUgOxIS9RZq1hZy3r4oquKIY4+Lr/65uKgjv3Jj+Dl0"
+              }
+            ]
+          }
+        },
         {
           "version": "3.5.0",
           "integrity": {
@@ -2857,13 +2873,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.0.4",
+      "latestVersion": "4.1.0",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.1.0",
+          "integrity": {
+            "archive": "sha384-KYJ7/FevE/VDhypy5aVAb/uQaw2FkB/+TP4M8n4MOYh4C46mhm0+7D6PHlmbr27E",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-+elBAQwg+IjsfXy9H2yO8vJdnHJwNolSyxHzpDVxrTfSMskKhH4MiWD/fekdX76B"
+              }
+            ]
+          }
+        },
         {
           "version": "4.0.4",
           "integrity": {
@@ -4412,7 +4440,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-02-12-01-06-38/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-02-16-01-07-26/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

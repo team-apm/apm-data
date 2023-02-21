@@ -1641,12 +1641,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
       ],
-      "latestVersion": "3.0.0",
+      "latestVersion": "3.0.1",
       "files": [
         { "filename": "plugins/BuildStairs", "isDirectory": true },
         { "filename": "plugins/BuildStairs.auf" }
       ],
       "releases": [
+        {
+          "version": "3.0.1",
+          "integrity": {
+            "archive": "sha384-posnouMrlLxgO9MxvteUWfijEx305MPAGt2aMzx9nWZlUNmtG0VzSlm/dxB+HkJk",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-6RckaM91n/Fw/coRkyPbr3RmL08LV+lK2sYMZ0SP/DsElKXIP8o1gJSFg5Xukfhw"
+              }
+            ]
+          }
+        },
         {
           "version": "3.0.0",
           "integrity": {
@@ -2353,7 +2365,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.6.0",
+      "latestVersion": "3.6.1",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },
@@ -2362,6 +2374,22 @@
         { "filename": "plugins/セカンドエクスプローラ", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.6.1",
+          "integrity": {
+            "archive": "sha384-FHTW45tRwgovrHPRoGSMPjWsHQdjop2wk+ISFnA/Q3MgvOHKGxDS4IY3NMgxZPlI",
+            "file": [
+              {
+                "target": "plugins/ObjectExplorer.auf",
+                "hash": "sha384-SEbCYBocurYO0XSZjT3FV6z7OzWI5XFhLmvLp1xR1Knr8ae3p+1Lu6fr9U9W0Ujk"
+              },
+              {
+                "target": "plugins/セカンドエクスプローラ.auf",
+                "hash": "sha384-SEbCYBocurYO0XSZjT3FV6z7OzWI5XFhLmvLp1xR1Knr8ae3p+1Lu6fr9U9W0Ujk"
+              }
+            ]
+          }
+        },
         {
           "version": "3.6.0",
           "integrity": {
@@ -2842,12 +2870,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitText/releases/latest"
       ],
-      "latestVersion": "2.0.0",
+      "latestVersion": "2.0.1",
       "files": [
         { "filename": "plugins/SplitText", "isDirectory": true },
         { "filename": "plugins/SplitText.auf" }
       ],
       "releases": [
+        {
+          "version": "2.0.1",
+          "integrity": {
+            "archive": "sha384-+nK24japhGRMA8Uh1GtPgUCCFEqj1+gYD5iuwthh4aPt8WD0xM6sGTidZ+4EoNFF",
+            "file": [
+              {
+                "target": "plugins/SplitText.auf",
+                "hash": "sha384-faTAsknFLBanVB+6OtXlhEHY8MyOgwUr8Z+k++JUDsnxSQfbMgcVcjDltWHExN90"
+              }
+            ]
+          }
+        },
         {
           "version": "2.0.0",
           "integrity": {
@@ -7092,7 +7132,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.18",
+      "latestVersion": "7.19",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -7119,6 +7159,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.19",
+          "integrity": {
+            "archive": "sha384-3J5KuOKyunPHQ8pxCHtz5JhkNarFfL0Dl3E1kLTL0oIkEDid32hO+4S6CfO7Z6Ir",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-mr9s1X5w6mVHkolcLb92jfGz7DXKkXPq95WF+g0DQth1WmUw7D2FMyaXeMeJ7OGW"
+              }
+            ]
+          }
+        },
         {
           "version": "7.18",
           "integrity": {

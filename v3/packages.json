@@ -1526,12 +1526,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-AdjustLastFrame/releases/latest"
       ],
-      "latestVersion": "2.3.0",
+      "latestVersion": "2.3.1",
       "files": [
         { "filename": "plugins/AdjustLastFrame.auf" },
         { "filename": "plugins/auls_memref.ini", "isObsolete": true }
       ],
       "releases": [
+        {
+          "version": "2.3.1",
+          "integrity": {
+            "archive": "sha384-cH8TGh5+3bWx8gSRorVecWhcl2OQdVwREE0JwmA4chPzkPSQeL4CF0iWxRwdwNvn",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-zCwbnbJB2zmUke8kKWsUWBJVb/V/TIebSVLA+MhQCP1fIEftduUMVfOpM9FVg4bV"
+              }
+            ]
+          }
+        },
         {
           "version": "2.3.0",
           "integrity": {
@@ -2684,12 +2696,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SelectScene/releases/latest"
       ],
-      "latestVersion": "2.1.0",
+      "latestVersion": "2.1.1",
       "files": [
         { "filename": "plugins/SelectScene.auf" },
         { "filename": "plugins/SelectScene", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "2.1.1",
+          "integrity": {
+            "archive": "sha384-6C5K9fqr19f6yF1WNs59IvAShmaRTm9eX76WXfDYEOhxi2y7zT1wyKw4BzN+BHwf",
+            "file": [
+              {
+                "target": "plugins/SelectScene.auf",
+                "hash": "sha384-hLPu2SmGS83zdqqV4UY7DehF1DgR9yfF8m9ydHaGLzEsCoLM48R5YctW5wjvGfvf"
+              }
+            ]
+          }
+        },
         {
           "version": "2.1.0",
           "integrity": {
@@ -4440,7 +4464,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-02-16-01-07-26/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-02-21-01-07-05/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

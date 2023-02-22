@@ -1724,13 +1724,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.1.1",
+      "latestVersion": "7.2.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.2.0",
+          "integrity": {
+            "archive": "sha384-IQPBlC4/ah0DO7PcVNESD7xZPcXBuAf534fnnZ8PdVfC1uG0tsLTxQ8nK3z9ZAiL",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-BKscr+qLYYwmo1midhOUvzpRtOY91MLnMihFpNj0qi4Wop6e0TL/3uHTWX9wWR3q"
+              }
+            ]
+          }
+        },
         {
           "version": "7.1.1",
           "integrity": {
@@ -2259,7 +2271,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.1.1",
+      "latestVersion": "7.2.0",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]
@@ -2937,13 +2949,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.1.0",
+      "latestVersion": "4.1.1",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.1.1",
+          "integrity": {
+            "archive": "sha384-LSX7Rc5Mn1VfWG4htaR8DDkaU171wW7cOeyh7hW3r2ZiL6f4Iva33bQAJWocwjIf",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-9N/oq/tSuCdgOuTK/0nY7YMXQ0/d2x7tN6PEinF3YhDsQ5F4SYj2Ewd4fO37XAwk"
+              }
+            ]
+          }
+        },
         {
           "version": "4.1.0",
           "integrity": {

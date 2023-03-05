@@ -717,8 +717,26 @@
       "latestVersion": "2014/05/06",
       "files": [
         {
-          "filename": "plugins/auls_confirmclose.auf",
+          "filename": "auls_confirmclose.auf",
           "archivePath": "auls_confirmclose"
+        },
+        {
+          "filename": "plugins/auls_confirmclose.auf",
+          "isObsolete": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "2014/05/06",
+          "integrity": {
+            "archive": "sha384-nV+/t3V8xZUJTcMxzD0H8+VsZaHpnOaQ2F2lbDWVA22rFVZwp/v/JLNTSHWhWJ+v",
+            "file": [
+              {
+                "hash": "sha384-YrLMXhOCr4N+Ij5PttIAR9WUMAP2Bc7avWs4XnSL4fWMU0cAjsntm+p0f02uEXKA",
+                "target": "auls_confirmclose.auf"
+              }
+            ]
+          }
         }
       ]
     },
@@ -2374,12 +2392,33 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-LevelMeter/releases/latest"
       ],
-      "latestVersion": "1.4.0",
+      "latestVersion": "2.1.0",
       "files": [
         { "filename": "plugins/LevelMeter.auf" },
-        { "filename": "plugins/LevelMeter.ini" }
+        { "filename": "plugins/LevelMeter.ini", "isObsolete": true },
+        { "filename": "plugins/LevelMeter", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "2.1.0",
+          "integrity": {
+            "archive": "sha384-O8trsPxETzVPHbk1TdAQjui47pj7I+Sxda1InQMe1A91iZXfcURVoCkfJOmLy4us",
+            "file": [
+              {
+                "hash": "sha384-9DHLYSNNeWeYMxY2hHgEX3ZpTk2FCg7jG4hGsa7E8uIa2SkfHXvAm8e7KADOd+WF",
+                "target": "plugins/LevelMeter.auf"
+              },
+              {
+                "hash": "sha384-DQPTbK2mjkCQsHHIHZZvGJ8orlBMm0tPtNoY1hOJHzpHM/nFBfZGHet4atjiF9wj",
+                "target": "plugins/LevelMeter/LevelMeter.exe"
+              },
+              {
+                "hash": "sha384-cKTm0FIHmOolPJHWFc+HVoKC2uazeh3oWBcaFueY1MfwhX8QJErws+4xA+Mrhy23",
+                "target": "plugins/LevelMeter/glew32.dll"
+              }
+            ]
+          }
+        },
         {
           "version": "1.4.0",
           "integrity": {
@@ -2388,10 +2427,6 @@
               {
                 "target": "plugins/LevelMeter.auf",
                 "hash": "sha384-zXBAx2/+zUu/JtxQWulBQIF3N5SidztEsBYQbc0Z08gPQR2rhsjUZvcYYnenR0nM"
-              },
-              {
-                "target": "plugins/LevelMeter.ini",
-                "hash": "sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"
               }
             ]
           }
@@ -2404,10 +2439,6 @@
               {
                 "target": "plugins/LevelMeter.auf",
                 "hash": "sha384-QnxVgpbXI5kArpAY6NgxYde4sSd764NNGjYXHjav08zD3gr9MrYZgGfL9KvTta8A"
-              },
-              {
-                "target": "plugins/LevelMeter.ini",
-                "hash": "sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb"
               }
             ]
           }
@@ -3894,7 +3925,13 @@
         "https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D"
       ],
       "latestVersion": "v1.2",
-      "files": [{ "filename": "plugins/auls_confirmclose.auf" }],
+      "files": [
+        { "filename": "auls_confirmclose.auf" },
+        {
+          "filename": "plugins/auls_confirmclose.auf",
+          "isObsolete": true
+        }
+      ],
       "releases": [
         {
           "version": "v1.2",
@@ -3902,7 +3939,7 @@
             "archive": "sha384-xlinFF+FeqB2O6at+csUh/KJGyMoftlLNYpNOpZVkLaMK5udzsQLKrEQkomB64h5",
             "file": [
               {
-                "target": "plugins/auls_confirmclose.auf",
+                "target": "auls_confirmclose.auf",
                 "hash": "sha384-BMVh2RyCX5juitNTKDY4auoYn8M+K21kCDL+lrr36NecCm+s77gqra/MkkPl1yRI"
               }
             ]
@@ -3914,7 +3951,7 @@
             "archive": "sha384-gBb6JbNJ8ePaWfSt9MQlj51zaITzq65pKuR+sdWScFyuvsuKUI3nIrNyTk7oMLp+",
             "file": [
               {
-                "target": "plugins/auls_confirmclose.auf",
+                "target": "auls_confirmclose.auf",
                 "hash": "sha384-E1sBtURbjxmn2yWovjcr0R1nQthQxPrgvDLvdxGi4cK9k8LpIVPDmNgEUqrE69WR"
               }
             ]

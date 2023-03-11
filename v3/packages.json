@@ -4552,7 +4552,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-03-07-01-10-21/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-03-11-01-01-04/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -8290,7 +8290,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "8.09",
+      "latestVersion": "8.10",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -8317,6 +8317,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.10",
+          "integrity": {
+            "archive": "sha384-zzpMXGxq3HBj2ts2iaaPB8vXHREose7t/8toNBdQnRHHH5BEOq4E0YWH8gGs8wnB",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-tGpEzyMIQfyggyVI3Bx5ApFOFo0/cYmkVKdPAQ71O5ohjSXTcE88Av1IHai7eMxZ"
+              }
+            ]
+          }
+        },
         {
           "version": "8.09",
           "integrity": {

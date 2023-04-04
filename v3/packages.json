@@ -46,7 +46,7 @@
       "downloadURLs": [
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
-      "latestVersion": "v1.9",
+      "latestVersion": "v1.10",
       "nicommons": "sm35585310",
       "files": [
         {
@@ -60,6 +60,18 @@
         { "filename": "plugins/InputPipePlugin.log", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "v1.10",
+          "integrity": {
+            "archive": "sha384-vmLfFYCx3LUIj6UeldXMJrWhPlOjcMUIR0fZpg1z2iuYuQFLMPCJ964tTmVkqqXI",
+            "file": [
+              {
+                "target": "plugins/InputPipePlugin.aui",
+                "hash": "sha384-gNZCgSweF6AG9S6PoamaUAx31OzBslK9oflQNMj2EYzeaB17B0q0riOkHobT+0ce"
+              }
+            ]
+          }
+        },
         {
           "version": "v1.9",
           "integrity": {
@@ -1600,12 +1612,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-AdjustLastFrame/releases/latest"
       ],
-      "latestVersion": "2.3.0",
+      "latestVersion": "2.3.1",
       "files": [
         { "filename": "plugins/AdjustLastFrame.auf" },
         { "filename": "plugins/auls_memref.ini", "isObsolete": true }
       ],
       "releases": [
+        {
+          "version": "2.3.1",
+          "integrity": {
+            "archive": "sha384-cH8TGh5+3bWx8gSRorVecWhcl2OQdVwREE0JwmA4chPzkPSQeL4CF0iWxRwdwNvn",
+            "file": [
+              {
+                "target": "plugins/AdjustLastFrame.auf",
+                "hash": "sha384-zCwbnbJB2zmUke8kKWsUWBJVb/V/TIebSVLA+MhQCP1fIEftduUMVfOpM9FVg4bV"
+              }
+            ]
+          }
+        },
         {
           "version": "2.3.0",
           "integrity": {
@@ -1703,12 +1727,48 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
       ],
-      "latestVersion": "2.2.0",
+      "latestVersion": "3.0.1",
       "files": [
         { "filename": "plugins/BuildStairs", "isDirectory": true },
         { "filename": "plugins/BuildStairs.auf" }
       ],
       "releases": [
+        {
+          "version": "3.0.1",
+          "integrity": {
+            "archive": "sha384-posnouMrlLxgO9MxvteUWfijEx305MPAGt2aMzx9nWZlUNmtG0VzSlm/dxB+HkJk",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-6RckaM91n/Fw/coRkyPbr3RmL08LV+lK2sYMZ0SP/DsElKXIP8o1gJSFg5Xukfhw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.0.0",
+          "integrity": {
+            "archive": "sha384-ZMXMLFX+tWp7stOTMNDOE6wvfEZhYtpI0Ztprxv5CH59M5bF45P1XrGfWLVn4pNh",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-zdwtreD3EUYrazgyWWKHgU49UkUeTXDG7Ol5nwZ7IkSC/3H2QpU6nfIV9hkp0cMF"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.3.0",
+          "integrity": {
+            "archive": "sha384-vgwp7lFQCkKC1ozbvjOMd/7YPAOzSbf+FvBi+SFfeHSj9fohxZLLdrPQ+WqK6+yc",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-B036NklBwyiSlrQcVdYKq6GAMhO3VbKwCaG/MUogBut8A0pR1BfDfDcGSLFk3WG/"
+              }
+            ]
+          }
+        },
         {
           "version": "2.2.0",
           "integrity": {
@@ -1750,13 +1810,37 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.1.1",
+      "latestVersion": "7.3.0",
       "files": [
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.3.0",
+          "integrity": {
+            "archive": "sha384-QDutXJWCWBFUoCAclzvcCdoU2ZKm7kV7SQCjY8/DpzWGexnqRnXe5USdt+U3hNhj",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-5bMab2aZnMXsouLJHtvPopFG/oZi9zbAz0KPmAd0R4tdB1ZlSyKH9QM8D55bHKDu"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.2.0",
+          "integrity": {
+            "archive": "sha384-IQPBlC4/ah0DO7PcVNESD7xZPcXBuAf534fnnZ8PdVfC1uG0tsLTxQ8nK3z9ZAiL",
+            "file": [
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-BKscr+qLYYwmo1midhOUvzpRtOY91MLnMihFpNj0qi4Wop6e0TL/3uHTWX9wWR3q"
+              }
+            ]
+          }
+        },
         {
           "version": "7.1.1",
           "integrity": {
@@ -2285,7 +2369,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.1.1",
+      "latestVersion": "7.3.0",
       "installer": "CreateDark.exe",
       "installArg": "/a\"$instpath\" /f /x",
       "files": [{ "filename": "placeholder", "isObsolete": true }]
@@ -2455,7 +2539,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest"
       ],
-      "latestVersion": "3.5.0",
+      "latestVersion": "3.6.1",
       "nicommons": "sm41048473",
       "files": [
         { "filename": "plugins/ObjectExplorer.auf" },
@@ -2464,6 +2548,38 @@
         { "filename": "plugins/セカンドエクスプローラ", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "3.6.1",
+          "integrity": {
+            "archive": "sha384-FHTW45tRwgovrHPRoGSMPjWsHQdjop2wk+ISFnA/Q3MgvOHKGxDS4IY3NMgxZPlI",
+            "file": [
+              {
+                "target": "plugins/ObjectExplorer.auf",
+                "hash": "sha384-SEbCYBocurYO0XSZjT3FV6z7OzWI5XFhLmvLp1xR1Knr8ae3p+1Lu6fr9U9W0Ujk"
+              },
+              {
+                "target": "plugins/セカンドエクスプローラ.auf",
+                "hash": "sha384-SEbCYBocurYO0XSZjT3FV6z7OzWI5XFhLmvLp1xR1Knr8ae3p+1Lu6fr9U9W0Ujk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.6.0",
+          "integrity": {
+            "archive": "sha384-f+tui+A5rRm52ff5VYIPwe6nTx6czAYRE+GOma9FcnOdPmxHcYlr6tI3qMNri4T/",
+            "file": [
+              {
+                "target": "plugins/ObjectExplorer.auf",
+                "hash": "sha384-UrbL9lvfpebNs3zFR8ezdeUgOxIS9RZq1hZy3r4oquKIY4+Lr/65uKgjv3Jj+Dl0"
+              },
+              {
+                "target": "plugins/セカンドエクスプローラ.auf",
+                "hash": "sha384-UrbL9lvfpebNs3zFR8ezdeUgOxIS9RZq1hZy3r4oquKIY4+Lr/65uKgjv3Jj+Dl0"
+              }
+            ]
+          }
+        },
         {
           "version": "3.5.0",
           "integrity": {
@@ -2810,12 +2926,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SelectScene/releases/latest"
       ],
-      "latestVersion": "2.1.0",
+      "latestVersion": "2.1.1",
       "files": [
         { "filename": "plugins/SelectScene.auf" },
         { "filename": "plugins/SelectScene", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "2.1.1",
+          "integrity": {
+            "archive": "sha384-6C5K9fqr19f6yF1WNs59IvAShmaRTm9eX76WXfDYEOhxi2y7zT1wyKw4BzN+BHwf",
+            "file": [
+              {
+                "target": "plugins/SelectScene.auf",
+                "hash": "sha384-hLPu2SmGS83zdqqV4UY7DehF1DgR9yfF8m9ydHaGLzEsCoLM48R5YctW5wjvGfvf"
+              }
+            ]
+          }
+        },
         {
           "version": "2.1.0",
           "integrity": {
@@ -2944,12 +3072,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitText/releases/latest"
       ],
-      "latestVersion": "2.0.0",
+      "latestVersion": "2.0.1",
       "files": [
         { "filename": "plugins/SplitText", "isDirectory": true },
         { "filename": "plugins/SplitText.auf" }
       ],
       "releases": [
+        {
+          "version": "2.0.1",
+          "integrity": {
+            "archive": "sha384-+nK24japhGRMA8Uh1GtPgUCCFEqj1+gYD5iuwthh4aPt8WD0xM6sGTidZ+4EoNFF",
+            "file": [
+              {
+                "target": "plugins/SplitText.auf",
+                "hash": "sha384-faTAsknFLBanVB+6OtXlhEHY8MyOgwUr8Z+k++JUDsnxSQfbMgcVcjDltWHExN90"
+              }
+            ]
+          }
+        },
         {
           "version": "2.0.0",
           "integrity": {
@@ -2999,13 +3139,73 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.0.2",
+      "latestVersion": "4.2.0",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.2.0",
+          "integrity": {
+            "archive": "sha384-ET7wzd/VcHSb7vsMBwRNlqfwiyxzNPCALIygxhUdwhbORcyT/RAJa6jtMhfcLBra",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-TwxbD1l1JHaKAzOsfqTzICTc9t5QcAcFazRoSzO76TAZRWOAOxCsdF3xkKY2zdLb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.1.1",
+          "integrity": {
+            "archive": "sha384-LSX7Rc5Mn1VfWG4htaR8DDkaU171wW7cOeyh7hW3r2ZiL6f4Iva33bQAJWocwjIf",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-9N/oq/tSuCdgOuTK/0nY7YMXQ0/d2x7tN6PEinF3YhDsQ5F4SYj2Ewd4fO37XAwk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.1.0",
+          "integrity": {
+            "archive": "sha384-KYJ7/FevE/VDhypy5aVAb/uQaw2FkB/+TP4M8n4MOYh4C46mhm0+7D6PHlmbr27E",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-+elBAQwg+IjsfXy9H2yO8vJdnHJwNolSyxHzpDVxrTfSMskKhH4MiWD/fekdX76B"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.0.4",
+          "integrity": {
+            "archive": "sha384-QQ1PGXHn9TeIlVjiTuvH+TBHdYmRwsf9nkDad/BppGZ23jzsylGXCAOzn+l0EGcG",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-gLEhFdnl5zY/O43fu1UilQIt2wZzwgxXtujr22MW9tXrEBFDZoi79n+H4kYuVDsd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.0.3",
+          "integrity": {
+            "archive": "sha384-tFw1X3qlXOpcK2FjOnatng/3EQqPm7bxk2cZcFbz1R6zA1v01CnfQSWhOCPa7xIh",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-vfM3+6FGUB7eWr6EGxnixahWs2iOxeoSGNlwJSEd/LIaCgVocGQYE+PS7+R/iYuc"
+              }
+            ]
+          }
+        },
         {
           "version": "4.0.2",
           "integrity": {
@@ -4647,7 +4847,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-01-13-13-40-23/L-SMASH-Works_rev1101_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-03-11-01-01-04/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -4821,7 +5021,7 @@
       "id": "nazono/CameraAssistRuntime",
       "name": "カメラ補助プラグイン(要ランタイム・省メモリ)",
       "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
-      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。【動作にはVisual C++ 再頒布可能パッケージ 2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
       "developer": "謎の生物",
       "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
       "downloadURLs": [
@@ -4896,7 +5096,7 @@
       "id": "nazono/redoRuntime",
       "name": "Redoプラグイン(要ランタイム・省メモリ)",
       "overview": "Ctrl+Yキーでのやり直し機能を追加する",
-      "description": "AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。【動作にはVisual C++ 再頒布可能パッケージ 2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "description": "AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
       "developer": "謎の生物",
       "dependencies": ["exedit0.92"],
       "pageURL": "https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY",
@@ -6672,10 +6872,22 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.4",
+      "latestVersion": "v0.3.5",
       "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }],
       "releases": [
+        {
+          "version": "v0.3.5",
+          "integrity": {
+            "archive": "sha384-jn54hGwFsnRnxo1nqH+g58xI4QELGAVQvKFbumNI7xV1dQfoF5LWRYRi2t5s9xBq",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-64vjupDuVZd1FKOKv9iJrtN+zayGT1Gx3bLBMd1fTEyFPo5h+AviICwZgHKVtwi+"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.4",
           "integrity": {
@@ -7176,7 +7388,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
       "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
-      "latestVersion": "1.05",
+      "latestVersion": "1.06",
       "files": [
         { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
         { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
@@ -7193,6 +7405,18 @@
         { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.06",
+          "integrity": {
+            "archive": "sha384-tDVw/M3XUkhc/G4hkuDOAeBILgS7C3REYgaN2eY/IXoALzebhb2X+ldSLddku7MN",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-Ps6iXOgBE0WQ2O4YCJpgOxNaubWG0nbpocWONx3+OJbeNqXt+xEravjtn7Ax/+tK"
+              }
+            ]
+          }
+        },
         {
           "version": "1.05",
           "integrity": {
@@ -7263,7 +7487,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.08",
+      "latestVersion": "7.20",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -7290,6 +7514,102 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.20",
+          "integrity": {
+            "archive": "sha384-cdmOMDJvOd54b7rIbRUtvDHJLoRhZ3NiQYNcvcVx/rojr3s7zd//zomhqBqazPiX",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-SJvJ8j9yOZblyRdEBHWvMNBImi9HVUspYQtCvMHj16bo/5S3nwwIPiOP196rLRCU"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.19",
+          "integrity": {
+            "archive": "sha384-3J5KuOKyunPHQ8pxCHtz5JhkNarFfL0Dl3E1kLTL0oIkEDid32hO+4S6CfO7Z6Ir",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-mr9s1X5w6mVHkolcLb92jfGz7DXKkXPq95WF+g0DQth1WmUw7D2FMyaXeMeJ7OGW"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.18",
+          "integrity": {
+            "archive": "sha384-4kRBA3+eDXFcuNi2UVXN7EEqewpW6b4UNNYR0wD1J3+HFkGhApxJh8a2PJbEVOFt",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-iU8pvzW96CU70LNHAKsRZjysrB7UWwyoKvWjVu6eZESuffr/MVGpJiQYQeTWY+Ff"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.17",
+          "integrity": {
+            "archive": "sha384-GHP8X9dR1p40D+X5jbsHBHGVuU8bJEBQjSXay4cK5Kri1xWc2L2wqbFrGJC8nLmt",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-h0JoaUjmui/byYW7H25ELt1f4suQVgsOCy5QcZVGvgyhkipEwubbrrb5I/E+8tnn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.16",
+          "integrity": {
+            "archive": "sha384-CMxok2MUy2ysUt5vbT4xOsgXM9Kon4DK7nLuByIDNs2fOGMx8yd/Zbeb6YCshjxX",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-1hA7l8a37bsGxbr5bgbJ+1PzGE9fjAWPZMwhnifTIUSKEEcH7NgcpGFhd9e2+dMG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.15",
+          "integrity": {
+            "archive": "sha384-mlXUYKKMN1aJJP40t9YjHC3ejUD/7Id1ZY+mt25dYD/SGX51qimLg+5lIxM2SYx0",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-EbM3QS0zioWZtk3bmftshVYIAH9dPd/Apv68HeavLImoMWpaNSSNZ+prO0ggyVYp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.14",
+          "integrity": {
+            "archive": "sha384-xeN5b5jV83OEyOTFPAq5t1/X6QVNL0gQpageiOfL63bC8H2Dt8cq2Mk3EOASZZjw",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-s4TgF4LZGIyi4FXyeijYmJCncpSi9u81eF72gtGXA8PLV0IHpAsof1Dn+Tltytxp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.13",
+          "integrity": {
+            "archive": "sha384-RizhXyBvSihtKTTVfKvls2MbodDH+bVRrvcJDcn33z1FCSgCDDrH05MulOMQ/fYn",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-urK23GWRaW3zrFr0zYze2f3m05hQsbPX9/t09QZQRYnGn/R+pBQbf3dwcFosn4Uh"
+              }
+            ]
+          }
+        },
         {
           "version": "7.08",
           "integrity": {
@@ -7578,7 +7898,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.25",
+      "latestVersion": "7.35",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -7605,6 +7925,114 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.35",
+          "integrity": {
+            "archive": "sha384-RwvzFlebMeVjpIM19VKpaGxbbpnK+UKKr1K7A2iAKQ3C3mCQHCTlFifFR/lqN8L4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-xliTYpoE6XiqE+GpEfswsIVrzwfFHSQWjNRyFUHXZ0lTTSxEX7Yrapltz2851VaM"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.34",
+          "integrity": {
+            "archive": "sha384-oStSp4mDqIxcznfCpYfPdLTAq6tKX8En2FAUO1OoPsSc3rcOB/0YNE7cZpRdTq0i",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-yQxOIE59m4nHfFRll37rBQlilc77TKgCO2Q3wdsSFQy+WCMkvx1Y9e2WvYiva868"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.33",
+          "integrity": {
+            "archive": "sha384-Ss+egNyFxlEYEeCROljxSJ4tI3b+Ht+BrRBsKAag85maOehOLuax8JQ+uG2eGJRo",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-bg/PLta701MCvNlwHkTCFK6O0JzbVl/f3f5L/x3wRPZuHOSpoqNSYYC+8x4A7CuV"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.32",
+          "integrity": {
+            "archive": "sha384-xByBCajg2jTbPo1LGjIGZ6LLiZsRQ5l5ISftC3OHMwtbdb1BqVy4J1yB4/SWvF43",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TfIaxHYwiJs/kJoBCLTjxuPd7nHZzMF4agwPSnhcwGPiKvY9mqqNSuIFed1NBxe1"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.31",
+          "integrity": {
+            "archive": "sha384-G4mVB0YKXKDHmPAyA7CcpEyQDxvkBiXgH5S4KRMgPyjscXXJkmAynr4RHesp/tzu",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-jd0GFIJ+mPb1taMc0H13akIqSMy5+bpIHCZPKXltilT6VI6g6yT1hch2dUzg6h6o"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.30",
+          "integrity": {
+            "archive": "sha384-SxT8F9mRtvNWye2fwaCT60R4yn4qVvg16K2+mesZ7Z+eYc354ue2hdVyhilbyF6S",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-VkcN1410K0EmBJ1WxHxPiXyA5ZLlbiN9iPzgIjarIsIhzyzHOYe7untRlOfAuZKN"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.29",
+          "integrity": {
+            "archive": "sha384-5+3Pux+jIlMjHjfY40wawaAwxX465XOx+wwKh/a0Z2frjpHfI6NGO1bltm+uHcLq",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-HOuBFaWuii+Xskf2Jfi8rRIYIaOlU69CHbYnBPtKhSA61sqp3wSI/7Ssblbf5+18"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.28",
+          "integrity": {
+            "archive": "sha384-LEBJsUD+xlpLLkvlLdbSp3jxt0KTqa7sUfm+URVSCU5Lh4rn32e/Edavtn0y6gY4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-MfttnYf/QFN1EyHDvV+UInIVwskvHOzM4GqCt7bX2G52AXL1pmAbKjZ29TsGI8qq"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.27",
+          "integrity": {
+            "archive": "sha384-3pS5OvNBqpfVydJxWQ9U9orMGNuCuql6UHoIJSPUGzPUBi6zHSNz3joVel3UO4ET",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-uXeuJc54KJsg/Dbg54QklVesQnr0XpQHf+wQRPOHvQUKCVnhUCcYJBp1/i6pPD6K"
+              }
+            ]
+          }
+        },
         {
           "version": "7.25",
           "integrity": {
@@ -7939,7 +8367,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.13",
+      "latestVersion": "1.14",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -7967,6 +8395,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.14",
+          "integrity": {
+            "archive": "sha384-gruBOdvUZE6RsCrkzoskP/5n9Zmd93/PP6pgZEXgFkt1ZCe5ksns3wOIWkID7p2p",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-OoXZKTmIAjnW1Hb97iG9f7uQTFFxJnEGymVZ6IzdKck7yACDpGWB+iMDI9bYrygo"
+              }
+            ]
+          }
+        },
         {
           "version": "1.13",
           "integrity": {
@@ -8145,7 +8585,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "7.18",
+      "latestVersion": "8.10",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -8172,6 +8612,126 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.10",
+          "integrity": {
+            "archive": "sha384-zzpMXGxq3HBj2ts2iaaPB8vXHREose7t/8toNBdQnRHHH5BEOq4E0YWH8gGs8wnB",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-tGpEzyMIQfyggyVI3Bx5ApFOFo0/cYmkVKdPAQ71O5ohjSXTcE88Av1IHai7eMxZ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.09",
+          "integrity": {
+            "archive": "sha384-eN9f6m/ffRJNRLpPkewCJxhjF9kgmtpwkr7DK/zpAyzAK3f9SFAl3e3dq/guaSeR",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-lOyx6wZHNvx56omkcAsrbbvtXxls5cevqj9aHAESV16JSXCelEbJ5kW0xiD2ULGZ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.08",
+          "integrity": {
+            "archive": "sha384-jc8PK6QR6Kz4T0JgmqttTJFdgnxM8vP4/X2U8126bbAu19ZcAzuUD7+99koA/klC",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-3B+3hPaTy/tfM3Fe0vzGfdW7NX9ZKE2J+BYkSqxicJBpUGu69deBF5sqp/mVR68s"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.06",
+          "integrity": {
+            "archive": "sha384-um36qMAWfpY84Dq7Peg0QPWcfTUkNC0DwmrM/r7j0E+quNAEouFhFYr8gUB80Dds",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-eWrNeOEGFYrLtdteh2Sy1ZgS2HPDHqH6dJwolEDqQGb7r9FMSrW5tdXyvr2xHFRd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.05",
+          "integrity": {
+            "archive": "sha384-p2S4WIlPDXEd68kRtSyppIHU2BklbbIR7Zs5T5rcgN3Dr+kUbjpJ6Rd24ZFQ2i02",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-8cJZXs5fGdRx2fdOSoM44uLIJnQWjUvfGIxH+KEMmIJ7kPDmdV+G293z4EMjCH7W"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.04",
+          "integrity": {
+            "archive": "sha384-c5IiTrKOOlQ+VliSFtR4k/po0U12Zm5cZULjJ9MyU1PLwgDmVSjpVyrg/ROLTBdi",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-whz+OS9bCGwb1nrUO0kFvhnQwlns/Z2nsIO5D44YXsW122XLE8DGcWC9dz9uSsLU"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.03",
+          "integrity": {
+            "archive": "sha384-v7IHniHxQM+/Fau3W4GPcV1YvzCCdC/FMETeicl47xkvhAJplr/yBygciE/ri+Gs",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-JgFnxCJ/v1Q9zhznhJZM9Dd8x/EVADL3IB/zmbIKiVF+KzQVoSf+VN9zzGkoxLjr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.02",
+          "integrity": {
+            "archive": "sha384-rgxaxvsMj90AHr7q0bG6XUWm6Z8at3WWcGrAmJsnvK6mLtNKJpQyenUvxN8/5NSJ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-s3PsLhclyGck1quciQHUbwf2hgSyRV0oNUTFToHYtI8WYp81uPZJZTvaujM41v1G"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.01",
+          "integrity": {
+            "archive": "sha384-u7cv1vy2EkrIPsGLk+hUwJAKfWSiyqHog8VQx+TQdF8V4TxxQYc0YSzURYCl/QoJ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-Vog4hCN5b5cqe4bwGK14irCmOPmanFk46QrvPnsQiDAqBDW04pvsnlXUcI//pOTW"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.00",
+          "integrity": {
+            "archive": "sha384-qG6IXh+h+yWy48GToSXbgBpk7zSTtL91UXvk06jnzIZ3c7tSJwVXv7KtdR9M1QgQ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-ZDnP+NVzxUmLcCCzs3hnBs0s5ouLmhBQST8Sn9L3jlSzE4vogKGIJK4/+FshOGxW"
+              }
+            ]
+          }
+        },
         {
           "version": "7.18",
           "integrity": {
@@ -8398,7 +8958,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.16",
+      "latestVersion": "3.17",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -8423,6 +8983,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.17",
+          "integrity": {
+            "archive": "sha384-g4mhJCgOJYfh6gvDA6EaLXkLbk+41AVpxeqyb2COvQy0MtiSGmlVPxkDFfye4gF3",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-FaklTG7+u1bOcD3ErzbjGCXjQclmtrpu+hMKH2XUCg2BLjbhfuFdkF9KeIhCifKt"
+              }
+            ]
+          }
+        },
         {
           "version": "3.16",
           "integrity": {
@@ -8649,7 +9221,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.07",
+      "latestVersion": "4.08",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -8676,6 +9248,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.08",
+          "integrity": {
+            "archive": "sha384-GWtvrVjiMoDxUewz/xUmMbqAU3lPOOEUCZmS34wB5C7okD64ApLFmKQ+9bkPe2ff",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-y5K7xrZ5/oytobSiy+8YeYp5EOsSQnITswPXIm9OUIKQGzuCeeLG/+ouCdR1E/JY"
+              }
+            ]
+          }
+        },
         {
           "version": "4.07",
           "integrity": {
@@ -9545,6 +10129,400 @@
           "filename": "script/TA_ssd/",
           "archivePath": "script_20160828/",
           "isDirectory": true
+        }
+      ]
+    },
+    {
+      "id": "SEED264/directionalblur",
+      "name": "DirectionalBlur_s",
+      "overview": "CUDAを使用した方向ブラー",
+      "description": "CUDAを用いて方向ブラーを行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "pageURL": "https://github.com/SEED264/DirectionalBlur_s",
+      "downloadURLs": [
+        "https://github.com/SEED264/DirectionalBlur_s/releases/latest"
+      ],
+      "latestVersion": "v1.00",
+      "files": [
+        {
+          "filename": "script/SEED264/DirectionalBlur_s.anm",
+          "archivePath": "DirectionalBlur_s"
+        },
+        {
+          "filename": "script/SEED264/DirectionalBlur_Direct_s.anm",
+          "archivePath": "DirectionalBlur_s"
+        },
+        {
+          "filename": "script/SEED264/DirectionalBlur_s.dll",
+          "archivePath": "DirectionalBlur_s"
+        },
+        {
+          "filename": "cudart32_75.dll",
+          "archivePath": "DirectionalBlur_s",
+          "isInstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.00",
+          "integrity": {
+            "archive": "sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz",
+            "file": [
+              {
+                "target": "script/SEED264/DirectionalBlur_s.anm",
+                "hash": "sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_s.dll",
+                "hash": "sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_Direct_s.anm",
+                "hash": "sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz",
+            "file": [
+              {
+                "target": "script/SEED264/DirectionalBlur_s.anm",
+                "hash": "sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_s.dll",
+                "hash": "sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_Direct_s.anm",
+                "hash": "sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/opticscompensation",
+      "name": "OpticsCompensation_s",
+      "overview": "レンズ補正",
+      "description": "いわゆるレンズ補正を行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "conflicts": ["SEED264/opticscompensationold"],
+      "pageURL": "https://twitter.com/SEED264/status/1268646448452657152",
+      "downloadURLs": [
+        "https://github.com/SEED264/OpticsCompensation_s/releases/latest"
+      ],
+      "latestVersion": "v1.1",
+      "files": [
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.anm",
+          "archivePath": "OpticsCompensation_s"
+        },
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.dll",
+          "archivePath": "OpticsCompensation_s"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1",
+          "integrity": {
+            "archive": "sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0",
+          "integrity": {
+            "archive": "sha384-8CPsFz5osMl4KMAi+gPzXsOo88p8XVSxh1nFJTK2TtwN/ORBd48witGYDxJJsQ/b",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-RAiMbdouKoje8UMGjmSTMnIeIN4ECQPO0jkqs/WUvHkgrktlnuQN1nNGGEP45AWd"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/opticscompensationold",
+      "name": "OpticsCompensation_s_Old",
+      "overview": "レンズ補正",
+      "description": "いわゆるレンズ補正を行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "conflicts": ["SEED264/opticscompensation"],
+      "pageURL": "https://github.com/SEED264/OpticsCompensation_s_Old",
+      "downloadURLs": [
+        "https://github.com/SEED264/OpticsCompensation_s_Old/releases/latest"
+      ],
+      "latestVersion": "v1.10",
+      "isHidden": true,
+      "files": [
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.anm",
+          "archivePath": "OpticsCompensation_s"
+        },
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.dll",
+          "archivePath": "OpticsCompensation_s"
+        },
+        {
+          "filename": "script/SEED264/OpticsCompensation_Direct_s.anm",
+          "archivePath": "OpticsCompensation_s",
+          "isObsolete": true
+        },
+        {
+          "filename": "cudart32_75.dll",
+          "archivePath": "OpticsCompensation_s",
+          "isInstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.10",
+          "integrity": {
+            "archive": "sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-CBvodkdAYexqwogMQnRKyIPG049FMuEsKFrzQFECqPIryYCkRuk7cEwXKVYQvUks",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-aFlP2xMAw2OI6NNVmPnz8m0YDLMNC7hcAyFlZJ5wUlUJkRWq1N4kCkCGXIFLmo2P"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_Direct_s.anm",
+                "hash": "sha384-x6VgL94KFJFMVXuPfjxKnlhh83+rOfQum2rI33TZDDAJ0CN0WcG2FyyQiy5Vy3Lm"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-KVWo6M49T1s5eVyceP3ZyRD3tcRkCVEvo2pcqZdd18zxH+6FYSer35uRBNczwqB/"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/pixelsorter",
+      "name": "PixelSorter_s",
+      "overview": "高速なPixelSorter",
+      "description": "Aodaruma氏の「Pixel Sort_A」をDLL化したアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "pageURL": "https://github.com/SEED264/PixelSorter_s",
+      "downloadURLs": [
+        "https://github.com/SEED264/PixelSorter_s/releases/latest"
+      ],
+      "latestVersion": "1.61",
+      "files": [
+        {
+          "filename": "script/SEED264/PixelSorter_s.anm",
+          "archivePath": "PixelSorter_s"
+        },
+        {
+          "filename": "script/SEED264/PixelSorter_s.dll",
+          "archivePath": "PixelSorter_s"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.61",
+          "integrity": {
+            "archive": "sha384-Cez31FFQ7AV1cu1NkS/XEvrSGBfrXmiczHDIqg2cibd4pzOQGl2bqfiXGb4SKLYV",
+            "file": [
+              {
+                "target": "script/SEED264/PixelSorter_s.anm",
+                "hash": "sha384-/AsJG+8gPwzgQgjYuvsyYf/WS4VtUgaIwmQ7UjKWPuQyIGNQYqKha6RxkRi1ZBRL"
+              },
+              {
+                "target": "script/SEED264/PixelSorter_s.dll",
+                "hash": "sha384-C0lZ6qAPIvpWX0wKM1k+yJN0CaHVA8py0synSFWxSKbku5IwqFzRlyHIBKqYsZuK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.61 (Eng)",
+          "integrity": {
+            "archive": "sha384-7ksGhrwIZk+1iwOoMvAoDZMED5649WLJo/ipSih22GvST3AbEjW67LwCqNKmuJur",
+            "file": [
+              {
+                "target": "script/SEED264/PixelSorter_s.anm",
+                "hash": "sha384-9QMlucDkR1PTvulhjKU8A246jMmyOKS7dFSnLNRvDpUCKiF1m7zMt6FAGpNmCBE5"
+              },
+              {
+                "target": "script/SEED264/PixelSorter_s.dll",
+                "hash": "sha384-qHXfXl4dEjXXmPletwsplAEExYgOY6V35NK7jYpx4jScwrkdihesMj4YgbouAlD/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.60",
+          "integrity": {
+            "archive": "sha384-Cez31FFQ7AV1cu1NkS/XEvrSGBfrXmiczHDIqg2cibd4pzOQGl2bqfiXGb4SKLYV",
+            "file": [
+              {
+                "target": "script/SEED264/PixelSorter_s.anm",
+                "hash": "sha384-/AsJG+8gPwzgQgjYuvsyYf/WS4VtUgaIwmQ7UjKWPuQyIGNQYqKha6RxkRi1ZBRL"
+              },
+              {
+                "target": "script/SEED264/PixelSorter_s.dll",
+                "hash": "sha384-MZ15lOJgR2BZYXzJIYzjZzdY19FUY9s0YuSgRSkXfII6AnUDjedMIUUwxoQPOFOT"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/radialwipe",
+      "name": "RadialWipe_s",
+      "overview": "扇状にクリッピング",
+      "description": "扇状にクリッピングを行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "pageURL": "https://twitter.com/SEED264/status/1094665960915488768",
+      "downloadURLs": [
+        "https://github.com/SEED264/RadialWipe_s/releases/latest"
+      ],
+      "latestVersion": "v1.1",
+      "files": [
+        {
+          "filename": "script/SEED264/RadialBlind_s.anm",
+          "archivePath": "RadialWipe_s"
+        },
+        {
+          "filename": "script/SEED264/RadialWipe_s.dll",
+          "archivePath": "RadialWipe_s"
+        },
+        {
+          "filename": "script/SEED264/RadialWipe_s.anm",
+          "archivePath": "RadialWipe_s"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8",
+            "file": [
+              {
+                "target": "script/SEED264/RadialBlind_s.anm",
+                "hash": "sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.dll",
+                "hash": "sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.anm",
+                "hash": "sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1",
+          "integrity": {
+            "archive": "sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8",
+            "file": [
+              {
+                "target": "script/SEED264/RadialBlind_s.anm",
+                "hash": "sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.dll",
+                "hash": "sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.anm",
+                "hash": "sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i"
+              }
+            ]
+          }
         }
       ]
     },

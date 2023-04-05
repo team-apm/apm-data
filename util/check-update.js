@@ -35,8 +35,7 @@ async function checkPackageUpdate(packageItem) {
   if (
     exclude.includes(id) ||
     downloadURL.hostname !== 'github.com' ||
-    dirs[2] !== 'releases' ||
-    currentVersion === '最新'
+    dirs[2] !== 'releases'
   )
     return result;
 
@@ -58,6 +57,24 @@ async function checkPackageUpdate(packageItem) {
       } else {
         throw new Error('A version-like string is not found.');
       }
+    }
+
+    if (id === 'MrOjii/LSMASHWorks' && packageItem.directURL) {
+      const newDownloadUrl = res.data.assets.find((asset) =>
+        asset.name.includes('Mr-Ojii_Mr-Ojii')
+      ).browser_download_url;
+      if (newDownloadUrl && packageItem.directURL !== newDownloadUrl) {
+        packageItem.directURL = newDownloadUrl;
+        result.updateAvailable = true;
+        result.message.push(
+          whiteBright(id) + ' ' + cyanBright('The directURL has been updated.')
+        );
+        return result;
+      } else return result;
+    }
+
+    if (currentVersion === '最新') {
+      return result;
     }
 
     if (latestTag === currentVersion) {

@@ -732,10 +732,7 @@
           "filename": "auls_confirmclose.auf",
           "archivePath": "auls_confirmclose"
         },
-        {
-          "filename": "plugins/auls_confirmclose.auf",
-          "isObsolete": true
-        }
+        { "filename": "plugins/auls_confirmclose.auf", "isObsolete": true }
       ],
       "releases": [
         {
@@ -2476,7 +2473,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-LevelMeter/releases/latest"
       ],
-      "latestVersion": "2.1.0",
+      "latestVersion": "2.1.1",
       "files": [
         { "filename": "plugins/LevelMeter.auf" },
         { "filename": "plugins/LevelMeter.ini", "isObsolete": true },
@@ -2744,9 +2741,21 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SaveImage/releases/latest"
       ],
-      "latestVersion": "v1.1.0",
+      "latestVersion": "1.1.0",
       "files": [{ "filename": "plugins/SaveImage.auf" }],
       "releases": [
+        {
+          "version": "1.1.0",
+          "integrity": {
+            "archive": "sha384-t3MwUro/bXRQ7+bHAafZPUZir3eY5Xfqej7W2YNfor1X8WG1I5cdW/N08oxp46R7",
+            "file": [
+              {
+                "target": "plugins/SaveImage.auf",
+                "hash": "sha384-xE6BCiPOGb36YZS+UtJEKIsEtvHa3DCZso0lEsuEvt3i5TwIZl9x0u0oBAI8p8u6"
+              }
+            ]
+          }
+        },
         {
           "version": "v1.1.0",
           "integrity": {
@@ -2981,12 +2990,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "2.3.0",
+      "latestVersion": "6.4.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini" }
       ],
       "releases": [
+        {
+          "version": "6.4.0",
+          "integrity": {
+            "archive": "sha384-4uFrYUYgV/dpY9qazbmbAoo7sOTkGQK8f1FXa9FY14gcdEgktChJZdskDVBQoo7B",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-5UkCFZRtHN7Gmvbyfpki1P5ZhDjq/Fk/POX8n6TwePDVxtNpBrCWoW4tf9EUOJWb"
+              }
+            ]
+          }
+        },
         {
           "version": "2.3.0",
           "integrity": {
@@ -3139,13 +3160,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.2.0",
+      "latestVersion": "4.3.1",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml" },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.3.1",
+          "integrity": {
+            "archive": "sha384-En/fkHO9XOTfyZiANPHwqN+R7hcqt+kQr0k452MG03/Smj9nQW44R6DG09DWY6WB",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-EJprrfrnBaYzwu2b4svuasbWub0iBAgeKJSXgHTis5gM2hhTUCBII5iQSEOxIKP5"
+              }
+            ]
+          }
+        },
         {
           "version": "4.2.0",
           "integrity": {
@@ -4127,10 +4160,7 @@
       "latestVersion": "v1.2",
       "files": [
         { "filename": "auls_confirmclose.auf" },
-        {
-          "filename": "plugins/auls_confirmclose.auf",
-          "isObsolete": true
-        }
+        { "filename": "plugins/auls_confirmclose.auf", "isObsolete": true }
       ],
       "releases": [
         {
@@ -4668,7 +4698,7 @@
       "downloadURLs": [
         "https://github.com/mimaraka/aviutl-plugin-curve_editor/releases/latest"
       ],
-      "latestVersion": "v1.0.5",
+      "latestVersion": "v1.0.6",
       "files": [
         {
           "filename": "plugins/curve_editor.auf",
@@ -4847,7 +4877,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-03-11-01-01-04/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-04-06-00-58-12/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -7388,7 +7418,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
       "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
-      "latestVersion": "1.06",
+      "latestVersion": "1.07",
       "files": [
         { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
         { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
@@ -7405,6 +7435,18 @@
         { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.07",
+          "integrity": {
+            "archive": "sha384-H5KALINn8ZEk8Y5R+FaT5KxwLXsyGyfbGIVeXRwrq8eIAF2CsIJU5XM+Q1fPc3Og",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-1KXx2tvGUbt/Owj/onyQAKAufJDrzSzYJl1MQVrAMJPCZZRbs8VKb1wVyO0mCIQj"
+              }
+            ]
+          }
+        },
         {
           "version": "1.06",
           "integrity": {
@@ -7487,7 +7529,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.20",
+      "latestVersion": "7.21",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -7514,6 +7556,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.21",
+          "integrity": {
+            "archive": "sha384-CBjnjpVNPN9XyqCL2sGvG9TqsChzbHh9FULehIpQIRGrsWxvr4I4MiT9Sm0sc6xi",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-moRmUC5pqxRR6Oi9tO0sfxWHxuTw3I4POraVF6KB6Po/i0QWjV5XdDxRrJhgC7Q+"
+              }
+            ]
+          }
+        },
         {
           "version": "7.20",
           "integrity": {
@@ -7898,7 +7952,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.35",
+      "latestVersion": "7.36",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -7925,6 +7979,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.36",
+          "integrity": {
+            "archive": "sha384-bueM5bwITEWcdqdHc4egq54d6E7kNFt2AU8D/PtOTbiv2JtagqbqvoHIcHD5Rxtz",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-VKE6yjkodqQzlmZCPYYR+VwdiGYu4HPZzEh0R64UrVjPoO+veOFGMIx06ocvqvrb"
+              }
+            ]
+          }
+        },
         {
           "version": "7.35",
           "integrity": {
@@ -8367,7 +8433,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.14",
+      "latestVersion": "1.15",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -8395,6 +8461,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.15",
+          "integrity": {
+            "archive": "sha384-bRCaHHd1OKldn3QsuUAdpa/Oy+6NlMNjjWeq0k1JXypSvTgv6lSndGar3iP1bIdO",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-8TnyiH5Spd49fKFwoC3shQG1QhKWg0YiVGz/NZHZ0jTEcEBzbMww9q88o61A7CvX"
+              }
+            ]
+          }
+        },
         {
           "version": "1.14",
           "integrity": {
@@ -8585,7 +8663,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "8.10",
+      "latestVersion": "8.11",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -8612,6 +8690,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.11",
+          "integrity": {
+            "archive": "sha384-Ezv1pqkHCVaF0uhLBs20OkL4bi8XupSkTcRpwcmESYcjMtXSfgnbZe8TaHDg2bln",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-aKuX7Ubl5n1xFV+z1Sop+s5gZnO0VmMYyqsoj5YOPWZr8PItcg+QYuR+VhAj+a4l"
+              }
+            ]
+          }
+        },
         {
           "version": "8.10",
           "integrity": {
@@ -8958,7 +9048,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.17",
+      "latestVersion": "3.18",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -8983,6 +9073,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.18",
+          "integrity": {
+            "archive": "sha384-A65dwzixghoriA16pWYxpJPybL740I3oy80oasplQX7qw17HHGembLA2K6FpZfaM",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-EGS2Q0NbpGtoVZBVcUK7uXp6dDK3Iy+4t0d1bmLPKmMIrMOaHd9581X7Lfn3SouL"
+              }
+            ]
+          }
+        },
         {
           "version": "3.17",
           "integrity": {
@@ -9221,7 +9323,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.08",
+      "latestVersion": "4.09",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -9248,6 +9350,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.09",
+          "integrity": {
+            "archive": "sha384-JjxPUUwtzmeegdFWHtxoO+swNuhnATwbmWyuIqv5o1rtBs6duI8ZO2/9L/9tTJ5H",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-yXtutX8FModAGa/DH2mGY+ERuEiNJj+WS1+L78a1mr64u1a+uzJXA5se8sVf9aII"
+              }
+            ]
+          }
+        },
         {
           "version": "4.08",
           "integrity": {

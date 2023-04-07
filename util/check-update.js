@@ -63,7 +63,10 @@ async function checkPackageUpdate(packageItem) {
       const newDownloadUrl = res.data.assets.find((asset) =>
         asset.name.includes('Mr-Ojii_Mr-Ojii')
       ).browser_download_url;
-      if (newDownloadUrl && packageItem.directURL !== newDownloadUrl) {
+      if (
+        newDownloadUrl &&
+        basename(packageItem.directURL) !== basename(newDownloadUrl)
+      ) {
         packageItem.directURL = newDownloadUrl;
         result.updateAvailable = true;
         result.message.push(

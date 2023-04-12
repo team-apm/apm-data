@@ -7999,7 +7999,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.36",
+      "latestVersion": "7.37",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8026,6 +8026,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.37",
+          "integrity": {
+            "archive": "sha384-/AryMlxz5OfGo0xNS3Oo4Mp1bwWxGkRSfzkvKSJwrTe6mehBmV7RmaQgq8pXWEpP",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-rLguOQcQELCP07zZ9NHEUiBLoFfZkxocnSi9J1VSiKSKLGCyKfvRbf984pokii48"
+              }
+            ]
+          }
+        },
         {
           "version": "7.36",
           "integrity": {

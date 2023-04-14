@@ -2990,12 +2990,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "6.4.0",
+      "latestVersion": "6.4.1",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini" }
       ],
       "releases": [
+        {
+          "version": "6.4.1",
+          "integrity": {
+            "archive": "sha384-UF4pUZNu0NWX/CjnaBayHyHDOP+be/toOnM4mr1cwJ5Y3fNmMcaD0GH+3pyLWAhq",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-8octu8LmUwqididpqZWpLcQOTZEh+OkXc6JtX3r7JuQy5kxRx1S51o+g0pPPAUFZ"
+              }
+            ]
+          }
+        },
         {
           "version": "6.4.0",
           "integrity": {
@@ -4877,7 +4889,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-04-11-01-00-59/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-04-13-00-59-34/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

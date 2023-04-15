@@ -98,7 +98,10 @@
       "description": "二十六面体を表示するアニメーション効果及びカスタムオブジェクトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19110075",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#26Poly"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/26Poly.zip",
+        "https://tim3.web.fc2.com/sidx.htm#26Poly"
+      ],
       "latestVersion": "2012/10/13",
       "nicommons": "sm19110075",
       "files": [
@@ -131,7 +134,10 @@
       "description": "いくつかの小物スクリプトの詰め合わせです。\n（カメラデータコピー、サイズ修正T、けいおんグッズ、ミラーT）",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16943422",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Access"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Access.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Access"
+      ],
       "latestVersion": "2012/02/11",
       "nicommons": "sm16943422",
       "files": [
@@ -180,7 +186,10 @@
       "description": "オーラを出すような効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19868761",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#AuraDcg"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/AuraDcg.zip",
+        "https://tim3.web.fc2.com/sidx.htm#AuraDcg"
+      ],
       "latestVersion": "2013/01/19",
       "nicommons": "sm19868761",
       "files": [{ "filename": "script/tim/オーラ放出.anm" }],
@@ -206,7 +215,10 @@
       "description": "オブジェクトの位置と角度にあわせてカメラが自動で移動するカメラ効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16555929",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#AutoTgt"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/AutoTgt.zip",
+        "https://tim3.web.fc2.com/sidx.htm#AutoTgt"
+      ],
       "latestVersion": "2018/12/27",
       "nicommons": "sm16555929",
       "files": [
@@ -255,7 +267,10 @@
       "description": "CODE128のバーコードを作成します。入れた情報はリーダーで読み込めます。",
       "developer": "ティム",
       "pageURL": "https://timnoheya.fc2.net/blog-entry-10.html",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#BarCode"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/BarCode.zip",
+        "https://tim3.web.fc2.com/sidx.htm#BarCode"
+      ],
       "latestVersion": "2020/02/08",
       "files": [
         { "filename": "script/tim/バーコードT.obj", "archivePath": "BarCode" }
@@ -282,7 +297,10 @@
       "description": "画像を六角形のモザイクにします。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17848725",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Beehive"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Beehive.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Beehive"
+      ],
       "latestVersion": "2012/05/17",
       "nicommons": "sm17848725",
       "files": [{ "filename": "script/tim/蜂の巣モザイク.anm" }],
@@ -308,7 +326,10 @@
       "description": "MMD同様、グラフィカルにトラックバーの調整ができます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20632293",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#BezSpe"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/BezSpe.zip",
+        "https://tim3.web.fc2.com/sidx.htm#BezSpe"
+      ],
       "latestVersion": "2013/04/17",
       "nicommons": "sm20632293",
       "files": [
@@ -341,7 +362,10 @@
       "description": "画像にブロック単位でラスターをかけます。本家のラスターより若干多彩な表現ができます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm33598240",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#BloLus"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/BloLus.zip",
+        "https://tim3.web.fc2.com/sidx.htm#BloLus"
+      ],
       "latestVersion": "2018/07/28",
       "nicommons": "sm33598240",
       "files": [
@@ -372,7 +396,10 @@
       "description": "パズルのように分解し、飛散させます。\n飛ばし方や形状にある程度の自由度があります。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm30452741",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#BomPuz"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/BomPuz21.zip",
+        "https://tim3.web.fc2.com/sidx.htm#BomPuz"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm30452741",
       "files": [
@@ -420,7 +447,11 @@
       "developer": "ティム",
       "dependencies": ["tim/coladj"],
       "pageURL": "https://www.nicovideo.jp/watch/sm18581114",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#BriWipe"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/k3-BriWipe.zip",
+        "https://tim3.web.fc2.com/sidx.htm#BriWipe"
+      ],
+
       "latestVersion": "2018/12/28",
       "nicommons": "sm18581114",
       "files": [{ "filename": "script/tim/輝度ワイプ.anm" }],
@@ -446,7 +477,10 @@
       "description": "「砕け散る」を立体化したアニメーション効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15221902",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Broken"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Broken.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Broken"
+      ],
       "latestVersion": "2011/08/05",
       "nicommons": "sm15221902",
       "files": [{ "filename": "script/tim/砕け散るT.anm" }],
@@ -472,7 +506,10 @@
       "description": "平面を球体化したものを飛散させます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15498968",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#BrokenB"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/BrokenB.zip",
+        "https://tim3.web.fc2.com/sidx.htm#BrokenB"
+      ],
       "latestVersion": "2011/09/03",
       "nicommons": "sm15498968",
       "files": [{ "filename": "script/tim/砕け散る球.anm" }],
@@ -498,7 +535,10 @@
       "description": "泡っぽいものを複数生成します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16108745",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Bubble"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Bubble.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Bubble"
+      ],
       "latestVersion": "2011/11/07",
       "nicommons": "sm16108745",
       "files": [{ "filename": "script/tim/泡.obj" }],
@@ -524,7 +564,10 @@
       "description": "簡易的な色収差を表現します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19417956",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Chroma"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/ChromaV2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Chroma"
+      ],
       "latestVersion": "2017/02/26",
       "nicommons": "sm19417956",
       "files": [{ "filename": "script/tim/色収差.anm" }],
@@ -550,7 +593,10 @@
       "description": "画像から立体的な歯車を生成します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm14632269",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#CogWhl"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/CogWhl.zip",
+        "https://tim3.web.fc2.com/sidx.htm#CogWhl"
+      ],
       "latestVersion": "2011/06/02",
       "nicommons": "sm14632269",
       "files": [{ "filename": "script/tim/歯車.anm" }],
@@ -576,7 +622,10 @@
       "description": "色調調整系のスクリプトセットです。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm35722623",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#ColAdj"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/ColAdj6.zip",
+        "https://tim3.web.fc2.com/sidx.htm#ColAdj"
+      ],
       "latestVersion": "V6",
       "nicommons": "sm35722623",
       "files": [
@@ -660,7 +709,10 @@
       "description": "色付きでエッジ抽出します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18348885",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#ColEdge"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/ColEdge.zip",
+        "https://tim3.web.fc2.com/sidx.htm#ColEdge"
+      ],
       "latestVersion": "2012/07/14",
       "nicommons": "sm18348885",
       "files": [{ "filename": "script/tim/色付きエッジ抽出.anm" }],
@@ -686,7 +738,10 @@
       "description": "特定の色を抽出します。逆カラーキーのようなものです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20237800",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#ColExt"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/ColExt.zip",
+        "https://tim3.web.fc2.com/sidx.htm#ColExt"
+      ],
       "latestVersion": "2013/03/03",
       "nicommons": "sm20237800",
       "files": [{ "filename": "script/tim/色抽出T.anm" }],
@@ -712,7 +767,10 @@
       "description": "画像が燃えていくようなエフェクトです。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20042712",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Combst"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Combst2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Combst"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm20042712",
       "files": [
@@ -748,7 +806,10 @@
       "description": "自由度の高い集中線を作ります。線の配置が偏ったものもできます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm26938922",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#ConLine"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/ConLine.zip",
+        "https://tim3.web.fc2.com/sidx.htm#ConLine"
+      ],
       "latestVersion": "2020/07/04",
       "nicommons": "sm26938922",
       "files": [
@@ -776,7 +837,10 @@
       "description": "画像にひび割れたガラス越しに見たような効果を付与します。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm38361197",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#CrkGls"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/CrkGls.zip",
+        "https://tim3.web.fc2.com/sidx.htm#CrkGls"
+      ],
       "latestVersion": "2022/05/05",
       "nicommons": "sm38361197",
       "files": [
@@ -815,7 +879,10 @@
       "description": "ある程度自由にカスタマイズできるフレアです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17476172",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#CstFla"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/CstFlaV3.zip",
+        "https://tim3.web.fc2.com/sidx.htm#CstFla"
+      ],
       "latestVersion": "V3",
       "nicommons": "sm17476172",
       "files": [
@@ -856,7 +923,10 @@
       "description": "きしめんエフェクトセット第5弾。\n3次元的に曲面変形させます。パーティクルのように大量に発生させることもできます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18731596",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#CurTra"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/k5-CurTra.zip",
+        "https://tim3.web.fc2.com/sidx.htm#CurTra"
+      ],
       "latestVersion": "2012/08/27",
       "nicommons": "sm18731596",
       "files": [{ "filename": "script/tim/曲面変形.anm" }],
@@ -883,7 +953,10 @@
       "developer": "ティム",
       "originalDeveloper": "さつき",
       "pageURL": "https://www.nicovideo.jp/watch/sm17155254",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#DiaSha"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/DiaSha.zip",
+        "https://tim3.web.fc2.com/sidx.htm#DiaSha"
+      ],
       "latestVersion": "2012/03/04",
       "nicommons": "sm17155254",
       "files": [{ "filename": "script/tim/斜めブラインド(改).anm" }],
@@ -909,7 +982,10 @@
       "description": "立体感のあるタイル状にします。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15248261",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#EmbTile"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/EmbTile.zip",
+        "https://tim3.web.fc2.com/sidx.htm#EmbTile"
+      ],
       "latestVersion": "2011/08/08",
       "nicommons": "sm15248261",
       "files": [{ "filename": "script/tim/エンボスタイル.anm" }],
@@ -935,7 +1011,10 @@
       "description": "画像を繰り返し配置しますが、画像ループと比較して自由度が高いです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19322190",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#EsyRpt"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/EsyRpt.zip",
+        "https://tim3.web.fc2.com/sidx.htm#EsyRpt"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm19322190",
       "files": [{ "filename": "script/tim/@簡易リピーター.anm" }],
@@ -961,7 +1040,10 @@
       "description": "画像を背景に馴染むように色調を調整します。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm34225787",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Famili"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Famili.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Famili"
+      ],
       "latestVersion": "2020/07/19",
       "nicommons": "sm34225787",
       "files": [
@@ -1000,7 +1082,10 @@
       "description": "物が焦げていく様子に見えなくもない効果。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17192955",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#FilmScr"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/FilmScr.zip",
+        "https://tim3.web.fc2.com/sidx.htm#FilmScr"
+      ],
       "latestVersion": "2012/03/08",
       "nicommons": "sm17192955",
       "files": [{ "filename": "script/tim/フィルム焦げ.anm" }],
@@ -1026,7 +1111,10 @@
       "description": "Photoshopのようなフィルターをかけます。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20550446",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#FltSet"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/FltSet.zip",
+        "https://tim3.web.fc2.com/sidx.htm#FltSet"
+      ],
       "latestVersion": "2013/04/07",
       "nicommons": "sm20550446",
       "files": [
@@ -1065,7 +1153,10 @@
       "description": "画像を立体的にはためかせます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm14441618",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Flutter"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Flutter.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Flutter"
+      ],
       "latestVersion": "2020/06/17",
       "nicommons": "sm14441618",
       "files": [
@@ -1093,7 +1184,10 @@
       "description": "オブジェクトに枠を付けます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19322302",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Frame2"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Frame2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Frame2"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm19322302",
       "files": [{ "filename": "script/tim/@領域枠.anm" }],
@@ -1119,7 +1213,10 @@
       "description": "輪郭から等距離で縁取りをします。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm33598259",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Framing"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Framing.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Framing"
+      ],
       "latestVersion": "2020/07/19",
       "nicommons": "sm33598259",
       "files": [
@@ -1155,7 +1252,10 @@
       "description": "屈折効果を持つガラス破片風のアニメーション効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16763314",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#GlassSd"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/GlassSd.zip",
+        "https://tim3.web.fc2.com/sidx.htm#GlassSd"
+      ],
       "latestVersion": "2012/01/22",
       "nicommons": "sm16763314",
       "files": [{ "filename": "script/tim/@砕けたガラス.anm" }],
@@ -1181,7 +1281,10 @@
       "description": "グループ制御に追加することで、グループ制御を補助します。\n現在は本体に追加された「基本効果」エフェクトで同じことができます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15454862",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#GlpAst"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/GlpAst.zip",
+        "https://tim3.web.fc2.com/sidx.htm#GlpAst"
+      ],
       "latestVersion": "2011/08/29",
       "nicommons": "sm15454862",
       "files": [{ "filename": "script/tim/@グループ補助.anm" }],
@@ -1207,7 +1310,10 @@
       "description": "きしめんエフェクトセット第2弾。\nな～さりい☆らいむでおなじみのグリッドワイプ。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18581033",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#GrdWipe"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/k2-GrdWipe.zip",
+        "https://tim3.web.fc2.com/sidx.htm#GrdWipe"
+      ],
       "latestVersion": "2012/08/10",
       "nicommons": "sm18581033",
       "files": [{ "filename": "script/tim/グリッドワイプ.anm" }],
@@ -1233,7 +1339,10 @@
       "description": "CMY網点分解します。特色分解も可能です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm30453526",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#HalfRes"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/HalfRes.zip",
+        "https://tim3.web.fc2.com/sidx.htm#HalfRes"
+      ],
       "latestVersion": "2017/01/18",
       "nicommons": "sm30453526",
       "files": [{ "filename": "script/tim/@網点分解T.anm" }],
@@ -1259,7 +1368,10 @@
       "description": "ヘブンバーンズレッド風の音声波形スクリプトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm40816069",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#HevBunR"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/HevBunR.zip",
+        "https://tim3.web.fc2.com/sidx.htm#HevBunR"
+      ],
       "latestVersion": "2022/07/24",
       "nicommons": "sm40816069",
       "files": [
@@ -1290,7 +1402,10 @@
       "description": "直方体を展開するスクリプトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm14573964",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Hexahed"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Hexahed.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Hexahed"
+      ],
       "latestVersion": "2011/05/27",
       "nicommons": "sm14573964",
       "files": [{ "filename": "script/tim/直方体展開.anm" }],
@@ -1316,7 +1431,10 @@
       "description": "インクのような形状のカスタムオブジェクトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17999314",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Ink"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/InkV2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Ink"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm17999314",
       "files": [
@@ -1349,7 +1467,10 @@
       "description": "後方から光が差し込む効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16497408",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LBurst"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LBurst.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LBurst"
+      ],
       "latestVersion": "2011/12/23",
       "nicommons": "sm16497408",
       "files": [{ "filename": "script/tim/@ライトバースト.anm" }],
@@ -1375,7 +1496,10 @@
       "description": "レンズフレアを表示する。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm14199347",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LensFla"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LensFla.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LensFla"
+      ],
       "latestVersion": "2011/04/18",
       "nicommons": "sm14199347",
       "files": [
@@ -1403,7 +1527,10 @@
       "description": "稲妻風なカスタムオブジェクトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16931205",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LightNg"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LightNg.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LightNg"
+      ],
       "latestVersion": "2012/02/10",
       "nicommons": "sm16931205",
       "files": [{ "filename": "script/tim/稲妻.obj" }],
@@ -1423,13 +1550,47 @@
       ]
     },
     {
+      "id": "tim/limpFr",
+      "name": "ぐにゃ枠T",
+      "overview": "ぐにゃっと曲がった枠線を作るスクリプト",
+      "description": "ぐにゃっと曲がった枠線を作るスクリプトです。",
+      "developer": "ティム",
+      "pageURL": "https://www.nicovideo.jp/watch/sm41716901",
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LimpFr.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LimpFr"
+      ],
+      "latestVersion": "2012/02/10",
+      "nicommons": "sm41716901",
+      "files": [
+        { "filename": "script/tim/ぐにゃ枠T.obj", "archivePath": "LimpFr" }
+      ],
+      "releases": [
+        {
+          "version": "2012/02/10",
+          "integrity": {
+            "archive": "sha384-RTyK2tUaV8E+IsEExxpBhSFGeW59t1SY4n3S1qWJknwT1aIbswinqP/sw9nGgE2E",
+            "file": [
+              {
+                "target": "script/tim/ぐにゃ枠T.obj",
+                "hash": "sha384-e969ePCV3wsrLsVF8rFeWxhORsQlK55tAldO1Nz2g3jVXvqoB8OiCCnmWymqsKdx"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "tim/lineex",
       "name": "ライン抽出T",
       "overview": "画線を抽出するスクリプト",
       "description": "画像の画線を抽出します。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm38701215",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LineEx"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LineEx.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LineEx"
+      ],
       "latestVersion": "2021/05/07",
       "nicommons": "sm38701215",
       "files": [
@@ -1465,7 +1626,10 @@
       "description": "画像を線で塗りつぶしたり、切り抜いたりします。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm36355165",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LinFil"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LinFil.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LinFil"
+      ],
       "latestVersion": "2020/02/12",
       "nicommons": "sm36355165",
       "files": [
@@ -1504,7 +1668,10 @@
       "description": "画像をハーフトーン・ライントーンにします。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20946264",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LinHal"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LinHal.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LinHal"
+      ],
       "latestVersion": "2013/05/24",
       "nicommons": "sm20946264",
       "files": [
@@ -1537,7 +1704,10 @@
       "description": "アナログチックに低解像度にする効果のスクリプトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm37665554",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#LowRes"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/LowRes.zip",
+        "https://tim3.web.fc2.com/sidx.htm#LowRes"
+      ],
       "latestVersion": "2020/10/13",
       "nicommons": "sm37665554",
       "files": [
@@ -1565,7 +1735,10 @@
       "description": "複数の矢印を同時に作ります。折れ線矢印も可能。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm22974710",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#MltLine"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/MltLine.zip",
+        "https://tim3.web.fc2.com/sidx.htm#MltLine"
+      ],
       "latestVersion": "2014/02/26",
       "nicommons": "sm22974710",
       "files": [{ "filename": "script/tim/マルチラインT.obj" }],
@@ -1591,7 +1764,10 @@
       "description": "MMDのカメラデータにあわせて、AviUtlのカメラが自動で移動するカメラ効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16630776",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#MMDCam"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/MMDCam.zip",
+        "https://tim3.web.fc2.com/sidx.htm#MMDCam"
+      ],
       "latestVersion": "2012/01/07",
       "nicommons": "sm16630776",
       "files": [
@@ -1621,13 +1797,47 @@
       ]
     },
     {
+      "id": "tim/moja2F",
+      "name": "もじゃもじゃT",
+      "overview": "もじゃもじゃした線を作るスクリプト",
+      "description": "もじゃもじゃした線を作るスクリプトです。",
+      "developer": "ティム",
+      "pageURL": "https://www.nicovideo.jp/watch/sm41923988",
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/moja2F.zip",
+        "https://tim3.web.fc2.com/sidx.htm#moja2F"
+      ],
+      "latestVersion": "2023/03/13",
+      "nicommons": "sm41923988",
+      "files": [
+        { "filename": "script/tim/もじゃもじゃT.obj", "archivePath": "moja2F" }
+      ],
+      "releases": [
+        {
+          "version": "2023/03/13",
+          "integrity": {
+            "archive": "sha384-FZyq56Az3YvFZAYy+9/5rsxNwmta+VaKTsKI/9MvY9uss+a/n6BJqhoWot/8xrBi",
+            "file": [
+              {
+                "target": "script/tim/もじゃもじゃT.obj",
+                "hash": "sha384-Sqed1HScrycq0hAc8P3U7YKhkb4KyuH/kBlXzsv4GPVaeQiA568OxkHEoMLPYotN"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "tim/mtile",
       "name": "モーションタイル",
       "overview": "画像ループの多機能版スクリプト",
       "description": "高機能な画像ループを追加するスクリプトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20729858",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#MTile"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/MTile.zip",
+        "https://tim3.web.fc2.com/sidx.htm#MTile"
+      ],
       "latestVersion": "2013/04/29",
       "nicommons": "sm20729858",
       "files": [{ "filename": "script/tim/モーションタイルＴ.anm" }],
@@ -1653,7 +1863,10 @@
       "description": "画像をパスにそって伸ばしていきます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm14647929",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#MtnPas"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/MtnPas.zip",
+        "https://tim3.web.fc2.com/sidx.htm#MtnPas"
+      ],
       "latestVersion": "2011/06/04",
       "nicommons": "sm14647929",
       "files": [
@@ -1692,7 +1905,10 @@
       "description": "画像をパスに沿って伸ばしていきます。\n「簡易モーションパススクリプト」のパス数を無制限にしたもの。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15039124",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#MtnPasI"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/MtnPasI.zip",
+        "https://tim3.web.fc2.com/sidx.htm#MtnPasI"
+      ],
       "latestVersion": "2011/07/17",
       "nicommons": "sm15039124",
       "files": [
@@ -1747,7 +1963,10 @@
       "description": "多角錐を作ります。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20483016",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#MulGim"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/MulGim.zip",
+        "https://tim3.web.fc2.com/sidx.htm#MulGim"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm20483016",
       "files": [{ "filename": "script/tim/錐変形.anm" }],
@@ -1773,7 +1992,10 @@
       "description": "きしめんエフェクトセット第4弾。な～さりい☆らいむ風のTAです。\nオブジェクト分割と併用すれば画像にも使えます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18731552",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#NsLime"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/k4-NsLime.zip",
+        "https://tim3.web.fc2.com/sidx.htm#NsLime"
+      ],
       "latestVersion": "2012/08/27",
       "nicommons": "sm18731552",
       "files": [{ "filename": "script/tim/な～さりい☆らいむ風TA.anm" }],
@@ -1799,7 +2021,10 @@
       "description": "輪郭に沿って動く枠を追加します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18259978",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#OutLPur"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/OutLPur.zip",
+        "https://tim3.web.fc2.com/sidx.htm#OutLPur"
+      ],
       "latestVersion": "V1.1",
       "nicommons": "sm18259978",
       "files": [{ "filename": "script/tim/@輪郭追跡.anm" }],
@@ -1825,7 +2050,10 @@
       "description": "画像をつまんだ感じにします。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18114436",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#PickUp"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/PickUp.zip",
+        "https://tim3.web.fc2.com/sidx.htm#PickUp"
+      ],
       "latestVersion": "2012/06/17",
       "nicommons": "sm18114436",
       "files": [{ "filename": "script/tim/つまむ.anm" }],
@@ -1851,7 +2079,10 @@
       "description": "平面内に色の中心点を複数セットしてグラデーションを表現します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15604220",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#PolCGra"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/PolCGra.zip",
+        "https://tim3.web.fc2.com/sidx.htm#PolCGra"
+      ],
       "latestVersion": "2011/09/14",
       "nicommons": "sm15604220",
       "files": [
@@ -1890,7 +2121,10 @@
       "description": "AviUtl本体のものとは異なる極座標変換。\n「スカイドーム」の背景画像作成にも応用可能です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17154269",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#PolCon"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/PolCon.zip",
+        "https://tim3.web.fc2.com/sidx.htm#PolCon"
+      ],
       "latestVersion": "2012/03/04",
       "nicommons": "sm17154269",
       "files": [
@@ -1931,7 +2165,10 @@
       "description": "任意多角形に切り抜きます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16326102",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#PolyCut"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/PolyCut.zip",
+        "https://tim3.web.fc2.com/sidx.htm#PolyCut"
+      ],
       "latestVersion": "2011/12/02",
       "nicommons": "sm16326102",
       "files": [{ "filename": "script/tim/@任意多角形カット.anm" }],
@@ -1957,7 +2194,10 @@
       "description": "任意多角形のカスタムオブジェクトです。厚みも持たせることができます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16109364",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Polygon"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Polygon.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Polygon"
+      ],
       "latestVersion": "2011/11/08",
       "nicommons": "sm16109364",
       "files": [
@@ -1993,7 +2233,10 @@
       "description": "正4、6、8、12、24面体ができるアニメーション効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17765571",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Polyhed"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Polyhed.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Polyhed"
+      ],
       "latestVersion": "2012/05/07",
       "nicommons": "sm17765571",
       "files": [{ "filename": "script/tim/正多面体.anm" }],
@@ -2019,7 +2262,10 @@
       "description": "オブジェクトに水を注ぐような効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm37665519",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Pour"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Pour.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Pour"
+      ],
       "latestVersion": "2020/10/13",
       "nicommons": "sm37665519",
       "files": [{ "filename": "script/tim/注ぎT.anm", "archivePath": "Pour" }],
@@ -2045,7 +2291,10 @@
       "description": "にょきにょきと突起を出します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm30453564",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#PyoPyo"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/PyoPyo.zip",
+        "https://tim3.web.fc2.com/sidx.htm#PyoPyo"
+      ],
       "latestVersion": "2017/01/18",
       "nicommons": "sm30453564",
       "files": [{ "filename": "script/tim/ぷよぷよT.anm" }],
@@ -2071,7 +2320,10 @@
       "description": "きしめんエフェクトセット第6弾。\nオブジェクトを放射状に分布させるものと、パーティクルの色を発生してから消えるまでの間に変えるものです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19109766",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RadPar"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/k6-RadPar.zip",
+        "https://tim3.web.fc2.com/sidx.htm#RadPar"
+      ],
       "latestVersion": "2012/10/13",
       "nicommons": "sm19109766",
       "files": [
@@ -2104,7 +2356,10 @@
       "description": "画像に虹色のグラデーションをかけます。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19425542",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RbwGra"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/RbwGra.zip",
+        "https://tim3.web.fc2.com/sidx.htm#RbwGra"
+      ],
       "latestVersion": "2012/11/24",
       "nicommons": "sm19425542",
       "files": [
@@ -2140,7 +2395,10 @@
       "description": "ルービックキューブの配置にします。\n配置だけでなく、任意の回転を加えることができます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm14573891",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RCube2"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/RCube2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#RCube2"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm14573891",
       "files": [{ "filename": "script/tim/ルービックキューブ配置V2.anm" }],
@@ -2166,7 +2424,10 @@
       "description": "スロットのような回転をします。斜めにも回せます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm22528296",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#ReelRot"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/ReelRot.zip",
+        "https://tim3.web.fc2.com/sidx.htm#ReelRot"
+      ],
       "latestVersion": "2013/12/25",
       "nicommons": "sm22528296",
       "files": [{ "filename": "script/tim/リール回転T.anm" }],
@@ -2192,7 +2453,10 @@
       "description": "画像を特定角度の画線の集合に変換するスクリプトです。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm41257973",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RgLine"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/RgLine.zip",
+        "https://tim3.web.fc2.com/sidx.htm#RgLine"
+      ],
       "latestVersion": "2022/10/20",
       "nicommons": "sm41257973",
       "files": [
@@ -2228,7 +2492,10 @@
       "description": "境界を侵食するような効果を与えます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20763137",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RoughE"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/RoughE.zip",
+        "https://tim3.web.fc2.com/sidx.htm#RoughE"
+      ],
       "latestVersion": "2013/05/03",
       "nicommons": "sm20763137",
       "files": [{ "filename": "script/tim/ラフエッジ.anm" }],
@@ -2254,7 +2521,10 @@
       "description": "罫線を作るスクリプトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm38304163",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#RuledL"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/RuledL.zip",
+        "https://tim3.web.fc2.com/sidx.htm#RuledL"
+      ],
       "latestVersion": "2021/02/20",
       "nicommons": "sm38304163",
       "files": [
@@ -2282,7 +2552,10 @@
       "description": "シーンチェンジの詰め合わせです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19788901",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#SceChg"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/SceChg.zip",
+        "https://tim3.web.fc2.com/sidx.htm#SceChg"
+      ],
       "latestVersion": "2013/01/09",
       "nicommons": "sm19788901",
       "files": [{ "filename": "script/tim/@シーンチェンジセットT.scn" }],
@@ -2308,7 +2581,10 @@
       "description": "画像をゆらゆらとゆらめかせます。\n海の中の表現とかに使えるかも？",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17156271",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Shake"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Shake.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Shake"
+      ],
       "latestVersion": "2012/03/04",
       "nicommons": "sm17156271",
       "files": [
@@ -2336,7 +2612,10 @@
       "description": "画像を歪ませます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15118219",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#SimWrp"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/SimWrp.zip",
+        "https://tim3.web.fc2.com/sidx.htm#SimWrp"
+      ],
       "latestVersion": "2011/07/25",
       "nicommons": "sm15118219",
       "files": [{ "filename": "script/tim/@簡易ワープ.anm" }],
@@ -2362,7 +2641,10 @@
       "description": "簡易ワープの改良版。画像を歪ませます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19322218",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#SimWrp2"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/SimWrp2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#SimWrp2"
+      ],
       "latestVersion": "2012/11/10",
       "nicommons": "sm19322218",
       "files": [{ "filename": "script/tim/簡易ワープV2.anm" }],
@@ -2388,7 +2670,10 @@
       "description": "画像を点描風に変換します。AEの「点描」と似た効果のスクリプトです。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm40379397",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Sket"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Sket.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Sket"
+      ],
       "latestVersion": "2022/05/11",
       "nicommons": "sm40379397",
       "files": [
@@ -2421,7 +2706,10 @@
       "description": "全天球画像を操作するアニメーション効果。\nAEプラグインのHorizonのようなもので、MMDではスカイドームとも呼ばれている効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19465675",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#SkyDome"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/SkyDome.zip",
+        "https://tim3.web.fc2.com/sidx.htm#SkyDome"
+      ],
       "latestVersion": "2012/11/29",
       "nicommons": "sm19465675",
       "files": [{ "filename": "script/tim/@スカイドーム.anm" }],
@@ -2447,7 +2735,10 @@
       "description": "画像に切れ目を入れて穴を広げる効果です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm17935960",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Split"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Split.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Split"
+      ],
       "latestVersion": "2012/05/27",
       "nicommons": "sm17935960",
       "files": [
@@ -2477,7 +2768,10 @@
       "description": "簡易的なモーフィングと輪郭モーフィングができます。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20358620",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#SplMrp"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/SplMrp.zip",
+        "https://tim3.web.fc2.com/sidx.htm#SplMrp"
+      ],
       "latestVersion": "2013/03/17",
       "nicommons": "sm20358620",
       "files": [{ "filename": "script/tim/@モーフィング.anm" }],
@@ -2503,7 +2797,10 @@
       "description": "画像にスターバースト（暗い所で光が十字に輝く効果）を付与します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm19745635",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#StarBst"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/StarBst.zip",
+        "https://tim3.web.fc2.com/sidx.htm#StarBst"
+      ],
       "latestVersion": "2013/01/03",
       "nicommons": "sm19745635",
       "files": [{ "filename": "script/tim/スターバースト.anm" }],
@@ -2529,7 +2826,10 @@
       "description": "曲線に沿って画像を繰り返します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm21475670",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Stroke"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Stroke.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Stroke"
+      ],
       "latestVersion": "2013/07/30",
       "nicommons": "sm21475670",
       "files": [{ "filename": "script/tim/@ストロークT.anm" }],
@@ -2555,7 +2855,10 @@
       "description": "画像を一時的に保存しますが、相性が悪いスクリプトが多いです。\n現在では他に手段が幾つかありますので、それらを推奨します。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm15784672",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#TmpPre"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/TmpPre.zip",
+        "https://tim3.web.fc2.com/sidx.htm#TmpPre"
+      ],
       "latestVersion": "2011/10/03",
       "nicommons": "sm15784672",
       "files": [
@@ -2584,7 +2887,10 @@
       "developer": "ティム",
       "originalDeveloper": "テツ",
       "pageURL": "https://www.nicovideo.jp/watch/sm19924144",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#TraEasy"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/TraEasy.zip",
+        "https://tim3.web.fc2.com/sidx.htm#TraEasy"
+      ],
       "latestVersion": "2013/01/26",
       "nicommons": "sm19924144",
       "files": [{ "filename": "script/tim/@TrackingラインEasy.anm" }],
@@ -2610,7 +2916,10 @@
       "description": "透明部分を塗りつぶします。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20426178",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#TraPnt"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/TraPnt.zip",
+        "https://tim3.web.fc2.com/sidx.htm#TraPnt"
+      ],
       "latestVersion": "2013/03/24",
       "nicommons": "sm20426178",
       "files": [
@@ -2643,7 +2952,10 @@
       "description": "透明度を指定＆コピーできます。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20729870",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#TraSpe"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/TraSpe.zip",
+        "https://tim3.web.fc2.com/sidx.htm#TraSpe"
+      ],
       "latestVersion": "2013/04/29",
       "nicommons": "sm20729870",
       "files": [
@@ -2676,7 +2988,10 @@
       "description": "きしめんエフェクトセット第1弾。\n画像をくるりとひねります。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm18580953",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Twister"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/k1-TwisterV2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Twister"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm18580953",
       "files": [
@@ -2720,7 +3035,10 @@
       "developer": "ティム",
       "originalDeveloper": "さつき",
       "pageURL": "https://www.nicovideo.jp/watch/sm21060861",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Twitch"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Twitch.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Twitch"
+      ],
       "latestVersion": "2020/06/17",
       "nicommons": "sm21060861",
       "files": [
@@ -2751,7 +3069,10 @@
       "description": "４辺形で囲まれた領域を３Ｄであるとみなし、オブジェクトを移動させると、自動で３Ｄ的に変形します。",
       "developer": "ティム",
       "pageURL": "https://timnoheya.fc2.net/blog-entry-8.html",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#VanishP"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/VanishP1_V2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#VanishP"
+      ],
       "latestVersion": "V2",
       "files": [{ "filename": "script/tim/バニシングポイント.anm" }],
       "releases": [
@@ -2776,7 +3097,10 @@
       "description": "平面画像を3Dに変形させるスクリプトです。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm16461298",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#VanishP2"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/VanishP2_V2.zip",
+        "https://tim3.web.fc2.com/sidx.htm#VanishP2"
+      ],
       "latestVersion": "V2",
       "nicommons": "sm16461298",
       "files": [{ "filename": "script/tim/バニシングポイント2.anm" }],
@@ -2802,7 +3126,10 @@
       "description": "風に吹かれたように揺らめきます。髪の毛などを揺らす時に便利です。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm21864731",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#WindShk"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/WindShk.zip",
+        "https://tim3.web.fc2.com/sidx.htm#WindShk"
+      ],
       "latestVersion": "2020/01/24",
       "nicommons": "sm21864731",
       "files": [
@@ -2830,7 +3157,10 @@
       "description": "平面データから３Dワイヤーを作ります。",
       "developer": "ティム",
       "pageURL": "https://www.nicovideo.jp/watch/sm20001035",
-      "downloadURLs": ["https://tim3.web.fc2.com/sidx.htm#Wire3D"],
+      "downloadURLs": [
+        "https://tim3.web.fc2.com/script/Wire3D.zip",
+        "https://tim3.web.fc2.com/sidx.htm#Wire3D"
+      ],
       "latestVersion": "2013/02/04",
       "nicommons": "sm20001035",
       "files": [{ "filename": "script/tim/@ワイヤー3D.anm" }],

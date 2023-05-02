@@ -4889,7 +4889,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-04-30-01-06-25/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-02-01-01-37/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -8095,7 +8095,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.37",
+      "latestVersion": "7.38",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8122,6 +8122,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.38",
+          "integrity": {
+            "archive": "sha384-Oj3Q4Kh4cMfjuz3RhYXIIYo3sF6Q28Pa3ipyzha86+iAZ93+WoS1PUbDm66sdZYK",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-bR3/szCbPxJgSoJJTXy7VU9klYjeVS6XEIQ3z4p8Mk62k5dL5LOUvUMtJSagVulm"
+              }
+            ]
+          }
+        },
         {
           "version": "7.37",
           "integrity": {

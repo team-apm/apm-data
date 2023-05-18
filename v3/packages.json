@@ -4889,7 +4889,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-14-01-05-04/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-18-01-01-00/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5117,7 +5117,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_22",
+      "latestVersion": "r43_23",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5126,6 +5126,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_23",
+          "integrity": {
+            "archive": "sha384-YIr2+bWUKa5r/6cAYQInsyTySPQzVk6h3JeNOGCpz+D+YVUgVxi/58QNcpCvLXR1",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-1S0yy4MOGP37XeYtuygsMygDiUNCHzqSfPO3uMX5wXVVggfgApZGETnJZf0Y9LXG"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_22",
           "integrity": {
@@ -8143,7 +8155,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.40",
+      "latestVersion": "7.41",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8170,6 +8182,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.41",
+          "integrity": {
+            "archive": "sha384-qZJGbvvjJ55gTS7V+1kJ7tNzfo5C2UMeQ5CADhfFDFya/nVkk6fxaLQY1YPRGLbh",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-pU9SZO/cXyF0csV2RJATLYS/Y845ERRi3KSN3DQuZ9EyzxJf93zxbYswPiN1sBve"
+              }
+            ]
+          }
+        },
         {
           "version": "7.40",
           "integrity": {

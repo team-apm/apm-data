@@ -3172,13 +3172,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.3.1",
+      "latestVersion": "4.3.3",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml", "isUninstallOnly": true },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.3.3",
+          "integrity": {
+            "archive": "sha384-aP3AMloYzOaa0YuiaNIME34sHmWRxwm1hMjE4dJgJPlAydO0dpz33k2DQTek2z2K",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-s1N0t7U0+VLWM61Hznok/hKExBZQVPhUWvpFaLfmzhiJZXxue2nuioJsUTcPWHOt"
+              }
+            ]
+          }
+        },
         {
           "version": "4.3.1",
           "integrity": {
@@ -4889,7 +4901,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-18-01-01-00/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-20-01-00-56/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

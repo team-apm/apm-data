@@ -2993,7 +2993,8 @@
       "latestVersion": "6.4.1",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
-        { "filename": "plugins/ShowWaveform", "isDirectory": true }
+        { "filename": "plugins/ShowWaveform", "isDirectory": true },
+        { "filename": "plugins/ShowWaveform.ini", "isUninstallOnly": true }
       ],
       "releases": [
         {

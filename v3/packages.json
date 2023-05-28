@@ -3184,13 +3184,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.4.0",
+      "latestVersion": "4.4.1",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml", "isUninstallOnly": true },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.4.1",
+          "integrity": {
+            "archive": "sha384-KY8cc119S1I5bWIPfNjRfyRjvydAlL1Tw18iD0704++AYtK+CnjXb3CRTKPNJL+l",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-IcdG0w/xQsf6tjNzAbq7O2WnD25ccAfoU8coiKbE4jKAgbGIboA8q4DSTmvY8gIP"
+              }
+            ]
+          }
+        },
         {
           "version": "4.4.0",
           "integrity": {
@@ -4925,7 +4937,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-25-01-02-47/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-27-01-03-18/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5153,7 +5165,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_24",
+      "latestVersion": "r43_25",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5162,6 +5174,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_25",
+          "integrity": {
+            "archive": "sha384-LIZYIeOwzDSvhk8KZDKCo/luw7beAeQyhzmAucbuaXhugBaxCsOEDPk+2WRJlerK",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-/Z2rJr+Yy0+9dzgPhnTPZ00RpXl/MtHF/iBtPteBLqT1I4PrVfAlTPIyyGrocgSJ"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_24",
           "integrity": {

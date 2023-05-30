@@ -2638,12 +2638,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-OptimizeEditBox/releases/latest"
       ],
-      "latestVersion": "7.1.1",
+      "latestVersion": "8.0.0",
       "files": [
         { "filename": "plugins/OptimizeEditBox.auf" },
         { "filename": "plugins/OptimizeEditBox.ini" }
       ],
       "releases": [
+        {
+          "version": "8.0.0",
+          "integrity": {
+            "archive": "sha384-CDQlwp0pyUMVTgG7clO8UngzgE6/jVs4dj8dRcc7AVjkSA2LhkYRBN3N2WrVwQC/",
+            "file": [
+              {
+                "target": "plugins/OptimizeEditBox.auf",
+                "hash": "sha384-7zNES72KU7ZVR0bMvucLVHv5oo684gGALLeAoV4WpSdx62Wm3aS6FoJ12oPTGXY3"
+              }
+            ]
+          }
+        },
         {
           "version": "7.1.1",
           "integrity": {
@@ -3177,13 +3189,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest"
       ],
-      "latestVersion": "4.4.0",
+      "latestVersion": "4.4.1",
       "files": [
         { "filename": "plugins/SplitWindow.aul" },
         { "filename": "plugins/SplitWindow.xml", "isUninstallOnly": true },
         { "filename": "plugins/SplitWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "4.4.1",
+          "integrity": {
+            "archive": "sha384-KY8cc119S1I5bWIPfNjRfyRjvydAlL1Tw18iD0704++AYtK+CnjXb3CRTKPNJL+l",
+            "file": [
+              {
+                "target": "plugins/SplitWindow.aul",
+                "hash": "sha384-IcdG0w/xQsf6tjNzAbq7O2WnD25ccAfoU8coiKbE4jKAgbGIboA8q4DSTmvY8gIP"
+              }
+            ]
+          }
+        },
         {
           "version": "4.4.0",
           "integrity": {
@@ -4918,7 +4942,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-23-01-23-44/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-27-01-03-18/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5146,7 +5170,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_23",
+      "latestVersion": "r43_25",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5155,6 +5179,30 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_25",
+          "integrity": {
+            "archive": "sha384-LIZYIeOwzDSvhk8KZDKCo/luw7beAeQyhzmAucbuaXhugBaxCsOEDPk+2WRJlerK",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-/Z2rJr+Yy0+9dzgPhnTPZ00RpXl/MtHF/iBtPteBLqT1I4PrVfAlTPIyyGrocgSJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_24",
+          "integrity": {
+            "archive": "sha384-6ianpot0ZqUtbTg2EVh9raPpm6WS6ARzwuYIOiNvLAlOv48uNduVdB3lPHaaIFRu",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-nRRHq91PQurro/AiqGOFogmyoHil3IeOr1jbTcMrIbgAizUlA0p49Iw8NAsJtfPO"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_23",
           "integrity": {
@@ -7713,7 +7761,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.25",
+      "latestVersion": "7.26",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -7740,6 +7788,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.26",
+          "integrity": {
+            "archive": "sha384-oIlXDePPGixFjN+RH9SJ2fL80oVmN+CVC1gEPAfiZ23J3jeqKRkOC2M85+7lMZ1B",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-d7E27sltxQ4mLE3oPPZpfQOObhchV3F+rAQORnU6VZ0CJuFa+J/ZzKzFkNSlltBy"
+              }
+            ]
+          }
+        },
         {
           "version": "7.25",
           "integrity": {

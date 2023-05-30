@@ -2988,7 +2988,7 @@
       "dependencies": [
         "aviutl1.10",
         "exedit0.92",
-        "VFRmaniac/LSMASHWorks|pop4bit/LSMASHWorks|MrOjii/LSMASHWorks|HolyWu/LSMASHWorks"
+        "MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks"
       ],
       "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform#readme",
       "downloadURLs": [

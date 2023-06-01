@@ -1581,9 +1581,21 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-AddColorCode/releases/latest"
       ],
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.2.0",
       "files": [{ "filename": "plugins/AddColorCode.auf" }],
       "releases": [
+        {
+          "version": "1.2.0",
+          "integrity": {
+            "archive": "sha384-eMHbbV0DfGm9VvFc6j61M4Tu6fteZbWrlidmE6uVz9JzsCrOXzYwWIUVYFp1euD0",
+            "file": [
+              {
+                "target": "plugins/AddColorCode.auf",
+                "hash": "sha384-/RDw/K2mgeZzfu9WT9ExZMS4ymSlKPKbXqc/bEQjYEw6HC9F570L5i52tRiDyqC8"
+              }
+            ]
+          }
+        },
         {
           "version": "1.1.0",
           "integrity": {
@@ -4942,7 +4954,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-27-01-03-18/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-05-30-01-04-47/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

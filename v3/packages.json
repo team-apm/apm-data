@@ -4954,7 +4954,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-06-04-01-17-36/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-06-06-01-44-30/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -7785,7 +7785,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.27",
+      "latestVersion": "7.28",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -7812,6 +7812,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.28",
+          "integrity": {
+            "archive": "sha384-Bu4uVmvyZueslbn2RcJjJyAV75BKU/PyjyJ3MmjM09r1wqQxoWsOvGWg8DgtLXWs",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-RqZQDqCwdAjKS1RbQlO5+iZaDAa3BSa+DYETPdaz+huN6MFCYE5IxmmkSAWODT55"
+              }
+            ]
+          }
+        },
         {
           "version": "7.27",
           "integrity": {
@@ -8280,7 +8292,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.43",
+      "latestVersion": "7.44",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8307,6 +8319,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.44",
+          "integrity": {
+            "archive": "sha384-N1rdsKZGKrhZ6YYxClQENqKMQMTpdViihkxUreH1BdiSE5Kc8Xd4GgU9gZw5mqjo",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-q5e4DjwqA36SiNjLjP/hdHysA6zKu1laXZUNcYkZnPanyU7IkfT+rPfyzon2zQ6u"
+              }
+            ]
+          }
+        },
         {
           "version": "7.43",
           "integrity": {
@@ -9087,7 +9111,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "8.13",
+      "latestVersion": "8.14",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -9114,6 +9138,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.14",
+          "integrity": {
+            "archive": "sha384-xWiJiYJr5LmtgmkVD7A3t/blc9DCQwtLpeTycCG/mZ+eXgTfeoGdHYOxsRqAz0xH",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-r0zSXUtVHtMeNTWbW2XAlfbOCYhr8ux5lLy4SMxA2fQVbgxNjeLJNz6WMGEi3Q3B"
+              }
+            ]
+          }
+        },
         {
           "version": "8.13",
           "integrity": {

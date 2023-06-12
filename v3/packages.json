@@ -1736,12 +1736,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
       ],
-      "latestVersion": "3.0.1",
+      "latestVersion": "3.0.2",
       "files": [
         { "filename": "plugins/BuildStairs", "isDirectory": true },
         { "filename": "plugins/BuildStairs.auf" }
       ],
       "releases": [
+        {
+          "version": "3.0.2",
+          "integrity": {
+            "archive": "sha384-0L/KvEWRsxTlU4nSdmLXbiYZ8pd4UPRI/U1tXyGMfUBmtuzd05KW20K7GW9i64OR",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-hUPKoNy7b/sdTyeh4t+Wbqk1aRZrH8oOa6Pc6LSoiTH6vQ4gyfwu+zuyqbz+0GtM"
+              }
+            ]
+          }
+        },
         {
           "version": "3.0.1",
           "integrity": {
@@ -4966,7 +4978,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-06-10-01-06-10/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-06-11-01-14-13/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

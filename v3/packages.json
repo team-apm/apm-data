@@ -46,7 +46,7 @@
       "downloadURLs": [
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
-      "latestVersion": "v1.10",
+      "latestVersion": "v2.0",
       "nicommons": "sm35585310",
       "files": [
         {
@@ -60,6 +60,18 @@
         { "filename": "plugins/InputPipePlugin.log", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "v2.0",
+          "integrity": {
+            "archive": "sha384-xJdDcMcY7Rx2MCwswep776OElZj5drn3qJwcG49B/3HXxhOIJGovMiNvsCIL5cRZ",
+            "file": [
+              {
+                "target": "plugins/InputPipePlugin.aui",
+                "hash": "sha384-GTUAtPssy6EDgtFOzA5te/cY8nzPWYisYFakiSIXCGbm3+TrOB/+xGm7P7zphmzW"
+              }
+            ]
+          }
+        },
         {
           "version": "v1.10",
           "integrity": {
@@ -4990,7 +5002,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-06-22-01-34-07/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-06-25-01-24-55/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -7833,7 +7845,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.29",
+      "latestVersion": "7.30",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -7860,6 +7872,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.30",
+          "integrity": {
+            "archive": "sha384-CpK8GQcdjPtmTCOfdLw8rKRM6kyTJXSdLCNUvNt67wWSD88m3PiIBjnwKob4+TQl",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-Wfo8aNcyVWp59dxuiyjNiwllnLOQ1gTlJdB/Lw7k44Zb924AzZfR8rNS6dmFYiRM"
+              }
+            ]
+          }
+        },
         {
           "version": "7.29",
           "integrity": {
@@ -8352,7 +8376,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.45",
+      "latestVersion": "7.46",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8379,6 +8403,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.46",
+          "integrity": {
+            "archive": "sha384-uS5HZzAlAVJdsXy/g3V3x9vzV7i73Zf9Brr6lcoEbep+MiTCr8nSBfFyGQAyPonJ",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-KpBrOWEQhBcWjTZpGZjlPIyTtXoLLPEoqHs9PN8NUdjUJ0YUni/ldWYN6QWpvL0z"
+              }
+            ]
+          }
+        },
         {
           "version": "7.45",
           "integrity": {
@@ -9219,7 +9255,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "8.15",
+      "latestVersion": "8.16",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -9246,6 +9282,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.16",
+          "integrity": {
+            "archive": "sha384-hYKzhFOm4OE7rqbFzOXk3B1vyt1YiB3HoxWAiOHeSxIv+5s7aZSUQopsdy7aHWjh",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-pyysgrhOAsc/x0C3BpZwvf9V9YVhS01q6WKA+2H9bXUmfvBM8mba7zFjSVrrV5pb"
+              }
+            ]
+          }
+        },
         {
           "version": "8.15",
           "integrity": {

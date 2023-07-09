@@ -3054,13 +3054,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "6.4.1",
+      "latestVersion": "7.0.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini", "isUninstallOnly": true },
         { "filename": "plugins/ShowWaveform", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.0.0",
+          "integrity": {
+            "archive": "sha384-P9YrO9xpns6NF2CPY5uPlpNwZWzYPA7uv6Z94mPK2a7BA/ypvBAbQcuYpEaqHiTV",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-bTwomt4GlF5uEAEen819gANUX6GMOzgTjfiT9nXqMkvvPSpPKvx3v0f9BfBGylh0"
+              }
+            ]
+          }
+        },
         {
           "version": "6.4.1",
           "integrity": {
@@ -5014,7 +5026,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-07-04-01-13-59/L-SMASH-Works_rev1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-07-09-19-53-01/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [

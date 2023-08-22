@@ -27,7 +27,7 @@ async function format(args) {
   ]);
   const relPath = relative(dirname(listJsonPath), targetPath).replaceAll(
     '\\',
-    '/'
+    '/',
   );
 
   const options = {
@@ -37,7 +37,7 @@ async function format(args) {
   if (listJsonObject.core.path === relPath) {
     await writeFile(
       targetPath,
-      prettierFormat(JSON.stringify(sortCore(object)), options)
+      prettierFormat(JSON.stringify(sortCore(object)), options),
     );
   } else if (listJsonObject.packages.some((value) => value.path === relPath)) {
     const packagesObject = sortPackages(object);
@@ -54,7 +54,7 @@ async function format(args) {
     });
     await writeFile(
       targetPath,
-      prettierFormat(JSON.stringify(packagesObject), options)
+      prettierFormat(JSON.stringify(packagesObject), options),
     );
   } else {
     console.log('Nothing done.');

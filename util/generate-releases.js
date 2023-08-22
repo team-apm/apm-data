@@ -25,7 +25,7 @@ function compareVersion(firstVersion, secondVersion) {
   if (isDate1 && isDate2) {
     return compareVersions(
       firstVersion.replaceAll('/', '.'),
-      secondVersion.replaceAll('/', '.')
+      secondVersion.replaceAll('/', '.'),
     ); // 2022/02/02 -> 2022.02.02
   }
 
@@ -120,7 +120,7 @@ async function generateReleases(args) {
           throw new Error('The release data of the same version exist.');
 
         const assets = release.assets.filter(
-          (asset) => extname(asset.name) === '.zip'
+          (asset) => extname(asset.name) === '.zip',
         );
         let archiveData = {};
         if (assets.length === 1) {
@@ -128,7 +128,7 @@ async function generateReleases(args) {
         } else if (assets.length >= 2) {
           const temp = assets.find((value) => {
             const matchPattern = new RegExp(
-              '^' + archiveNamePattern[id] + '\\.zip$'
+              '^' + archiveNamePattern[id] + '\\.zip$',
             );
             return matchPattern.test(value.name);
           });
@@ -139,12 +139,12 @@ async function generateReleases(args) {
               'No assets are found.\n  ID: ' +
                 id +
                 '\n  Pattern: ' +
-                archiveNamePattern[id]
+                archiveNamePattern[id],
             );
           }
         } else {
           throw new Error(
-            'There seem to be no assets. An archive file of the source code is not supported.'
+            'There seem to be no assets. An archive file of the source code is not supported.',
           );
         }
 
@@ -155,7 +155,7 @@ async function generateReleases(args) {
           id,
           tag,
           '.archive',
-          archiveData.name
+          archiveData.name,
         );
         await download(url, archivePath);
         const unzippedPath = resolve(dirname(archivePath), '../');
@@ -175,7 +175,7 @@ async function generateReleases(args) {
             const targetPath = resolve(
               unzippedPath,
               targetFileArchivePath,
-              basename(targetFilename)
+              basename(targetFilename),
             );
 
             const fileHash = await generateHash(targetPath);
@@ -199,7 +199,7 @@ async function generateReleases(args) {
     };
 
     const promisesInWaiting = res.data.map((release) =>
-      generateRelease(release)
+      generateRelease(release),
     );
     const result = await Promise.all(promisesInWaiting);
 
@@ -212,7 +212,7 @@ async function generateReleases(args) {
     });
     if (packageItem.releases)
       packageItem.releases = packageItem.releases.sort((r1, r2) =>
-        compareVersion(r1.version, r2.version)
+        compareVersion(r1.version, r2.version),
       );
   } catch (e) {
     if (e.status === 404) {
@@ -226,7 +226,7 @@ async function generateReleases(args) {
     await writeFile(
       packagesJsonPath,
       format(JSON.stringify(packagesObj), { parser: 'json' }),
-      'utf-8'
+      'utf-8',
     );
 
     console.log(green('Updated ' + basename(packagesJsonPath)));
@@ -248,13 +248,13 @@ async function generateReleases(args) {
 
     const now = new Date();
     listObj.packages.find(
-      (value) => value.path === basename(packagesJsonPath)
+      (value) => value.path === basename(packagesJsonPath),
     ).modified = toISODate(now);
 
     await writeFile(
       listJsonPath,
       format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
-      'utf-8'
+      'utf-8',
     );
 
     console.log(green('Updated ' + basename(listJsonPath)));

@@ -23,7 +23,7 @@ async function check(args) {
       cyan(oldId),
       cyanBright(newId),
       existsInOld ? green('Old ID OK!') : red('Old ID Error'),
-      existsInNew ? green('New ID OK!') : redBright('New ID Error')
+      existsInNew ? green('New ID OK!') : redBright('New ID Error'),
     );
     if (existsInOld && existsInNew) correctNumber++;
   }

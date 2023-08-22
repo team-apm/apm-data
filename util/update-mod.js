@@ -48,7 +48,7 @@ async function update(args) {
     await writeFile(
       listJsonPath,
       format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
-      'utf-8'
+      'utf-8',
     );
 
     console.log(green('Updated ' + basename(listJsonPath)));

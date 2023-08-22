@@ -2521,7 +2521,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-LevelMeter/releases/latest"
       ],
-      "latestVersion": "2.1.1",
+      "latestVersion": "2.2.0",
       "files": [
         { "filename": "plugins/LevelMeter.auf" },
         { "filename": "plugins/LevelMeter.ini", "isObsolete": true },
@@ -2801,9 +2801,21 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-SaveImage/releases/latest"
       ],
-      "latestVersion": "1.1.0",
+      "latestVersion": "1.2.0",
       "files": [{ "filename": "plugins/SaveImage.auf" }],
       "releases": [
+        {
+          "version": "1.2.0",
+          "integrity": {
+            "archive": "sha384-PYKEx8/BCtBf5Oyau7A94M4GcRatQFkS8F+dcSi0FAIvofiLv6SlFXODHRfo25pn",
+            "file": [
+              {
+                "target": "plugins/SaveImage.auf",
+                "hash": "sha384-FT8toqKSyxz8O4nOlT72zie9wkLg3GEudiuwe0ovzFI1ZmoNgmJZtk2tpk9BvStV"
+              }
+            ]
+          }
+        },
         {
           "version": "1.1.0",
           "integrity": {
@@ -5050,7 +5062,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-07-18-13-58-28/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-08-20-05-36-12/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5278,7 +5290,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_29",
+      "latestVersion": "r43_31",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5287,6 +5299,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_31",
+          "integrity": {
+            "archive": "sha384-IuGCJbrXclG1rbdg/+YP/43OLI6+R4bzs18xrM9+tIVY9sGTJhuehe8qnKmoq2mj",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-CLwebkTf82k4amieKrAbsEdj34eGOpZEruIscKx5qNe0k89BpC0ESlGkxlrIGn6G"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_29",
           "integrity": {
@@ -8436,7 +8460,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.46",
+      "latestVersion": "7.48",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8463,6 +8487,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.48",
+          "integrity": {
+            "archive": "sha384-unYcassJ3u/5M6Jd9EmwCNwohEjHA8G46HZDCaUnPzm+VX7QhqbDz+8uDfW5+b9f",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-/A73wSX2XA/ST3XfLuCpQYZ691OtlQgjEd/jnK2dDYQdmNBLcKTQsl3n0DbQ0VbL"
+              }
+            ]
+          }
+        },
         {
           "version": "7.46",
           "integrity": {

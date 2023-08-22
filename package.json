@@ -52,7 +52,7 @@
     "prettier": "^2.8.8",
     "prettier-plugin-md-nocjsp": "^1.5.1",
     "release-it": "^16.1.5",
-    "ssri": "^10.0.4"
+    "ssri": "^10.0.5"
   },
   "lint-staged": {
     "*.js": [

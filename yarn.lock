@@ -367,13 +367,12 @@
     "@pnpm/network.ca-file" "^1.0.1"
     config-chain "^1.1.11"
 
-"@prettier/plugin-xml@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-xml/-/plugin-xml-3.1.0.tgz#dd0cc9750df5fd21728783e3886e5d35db620f29"
-  integrity sha512-0RskvTvwQzTOq3nKXjHT7mnTUs/b8xh1iONC0lEYyWRtSHseE2N8pEvdYSy/7dIKEA34aPHKGrSAmKjK2xPAtQ==
+"@prettier/plugin-xml@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-xml/-/plugin-xml-3.2.0.tgz#4fff675eab134dcfd65dd42491fe8c53e4a22f4f"
+  integrity sha512-1SgnoMIOLjGcKqstr6gmly7J6VoVSXULz0kMDimBE36yj59GrNvaOBPjoeYUmcpU3/IwLiCIJRaCX8qiVSvy/A==
   dependencies:
     "@xml-tools/parser" "^1.0.11"
-    prettier ">=3.0.0"
 
 "@sindresorhus/is@^5.2.0":
   version "5.3.0"
@@ -2872,7 +2871,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@>=3.0.0, prettier@^3.0.2:
+prettier@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.2.tgz#78fcecd6d870551aa5547437cdae39d4701dca5b"
   integrity sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==

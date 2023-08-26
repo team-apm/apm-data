@@ -3066,13 +3066,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "7.1.0",
+      "latestVersion": "7.2.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini", "isUninstallOnly": true },
         { "filename": "plugins/ShowWaveform", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.2.0",
+          "integrity": {
+            "archive": "sha384-SaV6IMJxgRxS5qdOL5yoHh1OhgTozPSXDN7RIuUP6qyiL6smXSDw0/b6XY9jVBhQ",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-NK29FOsDYpOkS5ZCa9dk8nba/Kx/8WAmxEyiee+00/rSBLL1TAR6MMeZAATzlv9/"
+              }
+            ]
+          }
+        },
         {
           "version": "7.1.0",
           "integrity": {
@@ -5062,7 +5074,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-08-20-05-36-12/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-08-24-01-02-22/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5290,7 +5302,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_31",
+      "latestVersion": "r43_32",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5299,6 +5311,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_32",
+          "integrity": {
+            "archive": "sha384-4vCvJqsnnHxiRyw8sO8tXAqNh/uvjAlnJazhdfk8isrHT7jkxZQfqN8lUuagDl4E",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-4XU0nDdkCc4NbJZhrnR+sz4BlL/8UYybbmMzd5ZrfyUXIDa4t8opUwHtpc3xEym2"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_31",
           "integrity": {

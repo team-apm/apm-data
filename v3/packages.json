@@ -5078,7 +5078,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-08-24-01-02-22/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-08-27-01-05-01/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5213,11 +5213,7 @@
       "overview": "図形のサイズを縦と横で指定",
       "description": "四角形などの図形をxyサイズを指定して作成することができます。",
       "latestVersion": "v2.10",
-      "files": [
-        {
-          "filename": "script/Nagomiku/値で図形.obj"
-        }
-      ],
+      "files": [{ "filename": "script/Nagomiku/値で図形.obj" }],
       "releases": [
         {
           "version": "v2.10",

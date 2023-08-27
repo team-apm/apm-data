@@ -4736,7 +4736,9 @@
       "description": "動画のエンコードと同じ要領でアニメーションGIFの出力ができます。",
       "developer": "Maverick Tse",
       "pageURL": "https://www.nicovideo.jp/watch/sm24236552",
-      "downloadURLs": ["https://onedrive.live.com/?id=26840CDF9818EB8E%21391"],
+      "downloadURLs": [
+        "https://onedrive.live.com/?authkey=%21ABNo3i9YR5_dnT8&id=26840CDF9818EB8E%21391&cid=26840CDF9818EB8E"
+      ],
       "latestVersion": "v0.51 beta",
       "nicommons": "sm24236552",
       "files": [
@@ -4854,7 +4856,9 @@
       "description": "動画中の物体の動きに追従するモーショントラッキング機能を追加します。",
       "developer": "Maverick Tse",
       "pageURL": "https://aviutl.info/motiontracking/",
-      "downloadURLs": ["https://onedrive.live.com/?id=26840CDF9818EB8E%21434"],
+      "downloadURLs": [
+        "https://onedrive.live.com/?authkey=%21ABNo3i9YR5_dnT8&id=26840CDF9818EB8E%21434&cid=26840CDF9818EB8E"
+      ],
       "latestVersion": "2014/11/17",
       "nicommons": "sm24953465",
       "files": [

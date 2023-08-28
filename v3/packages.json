@@ -5513,7 +5513,7 @@
       "overview": "AviUtlでGLBファイルを読み込めるようにします",
       "description": "AviUtlでGLB形式の3Dモデルを読み込み&操作できるようにします。",
       "developer": "oov",
-      "dependencies": ["oov/bridge", "oov/aviutlBrowser"],
+      "dependencies": ["oov/aviutlBrowser"],
       "pageURL": "https://www.nicovideo.jp/watch/sm41075836",
       "downloadURLs": [
         "https://github.com/oov/aviutl_browser_glb/releases/latest"

@@ -5303,7 +5303,6 @@
         {
           "filename": "plugins/DLL/xopfilter.dll",
           "archivePath": "ResizeFilter/XOP",
-          "isDirectory": false
         }
       ],
       "releases": [

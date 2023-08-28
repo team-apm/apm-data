@@ -225,7 +225,7 @@ async function generateReleases(args) {
   if (releasesAvailable) {
     await writeFile(
       packagesJsonPath,
-      format(JSON.stringify(packagesObj), { parser: 'json' }),
+      await format(JSON.stringify(packagesObj), { parser: 'json' }),
       'utf-8',
     );
 
@@ -253,7 +253,7 @@ async function generateReleases(args) {
 
     await writeFile(
       listJsonPath,
-      format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
+      await format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
       'utf-8',
     );
 

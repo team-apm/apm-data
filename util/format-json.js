@@ -37,7 +37,7 @@ async function format(args) {
   if (listJsonObject.core.path === relPath) {
     await writeFile(
       targetPath,
-      prettierFormat(JSON.stringify(sortCore(object)), options),
+      await prettierFormat(JSON.stringify(sortCore(object)), options),
     );
   } else if (listJsonObject.packages.some((value) => value.path === relPath)) {
     const packagesObject = sortPackages(object);
@@ -54,7 +54,7 @@ async function format(args) {
     });
     await writeFile(
       targetPath,
-      prettierFormat(JSON.stringify(packagesObject), options),
+      await prettierFormat(JSON.stringify(packagesObject), options),
     );
   } else {
     console.log('Nothing done.');

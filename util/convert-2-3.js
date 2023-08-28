@@ -292,7 +292,7 @@ async function convertCore(v2ListPath, v3ListPath) {
 
     await writeFile(
       v3ListPath,
-      format(JSON.stringify(newV3Data), prettierOptions),
+      await format(JSON.stringify(newV3Data), prettierOptions),
     );
 
     successLog(v2ListPath, v3ListPath);
@@ -396,7 +396,7 @@ async function convertPackages(v2ListPath, v3ListPath) {
 
     await writeFile(
       v3ListPath,
-      format(JSON.stringify(newV3Data), prettierOptions),
+      await format(JSON.stringify(newV3Data), prettierOptions),
     );
 
     successLog(v2ListPath, v3ListPath);
@@ -444,7 +444,7 @@ async function convertMod(v2ListPath, v3ListPath) {
     );
 
     const options = { ...prettierOptions, printWidth: 60 };
-    await writeFile(v3ListPath, format(JSON.stringify(v3Data), options));
+    await writeFile(v3ListPath, await format(JSON.stringify(v3Data), options));
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {

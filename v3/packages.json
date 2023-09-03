@@ -4931,14 +4931,30 @@
       "files": [
         {
           "filename": "plugins/curve_editor.auf",
-          "archivePath": "curve_editor-v1.0.5"
+          "archivePath": "curve_editor-v1.0.6"
         },
         {
           "filename": "script/@Curve Editor.tra",
-          "archivePath": "curve_editor-v1.0.5"
+          "archivePath": "curve_editor-v1.0.6"
         }
       ],
       "releases": [
+        {
+          "version": "v1.0.6",
+          "integrity": {
+            "archive": "sha384-GE5vAcqwYZhI9kBfW2qV8Tl3C7OxaD+tAchdJS1SREfvW/dTD3R5F2lhrUEjTLGj",
+            "file": [
+              {
+                "hash": "sha384-okQGl77kdxFmyuaTZ60pA5IitsunD3V2JhXY1LY/q7Ct7w5g3te8pKbxEc9y82Uh",
+                "target": "plugins/curve_editor.auf"
+              },
+              {
+                "hash": "sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+",
+                "target": "script/@Curve Editor.tra"
+              }
+            ]
+          }
+        },
         {
           "version": "v1.0.5",
           "integrity": {
@@ -12018,7 +12034,7 @@
       "files": [
         {
           "filename": "plugins/WideDialog.auf",
-          "archivePath": "WideDialog_aviutl_plugin-1.02/"
+          "archivePath": "WideDialog_aviutl_plugin-1.04/"
         }
       ],
       "releases": [

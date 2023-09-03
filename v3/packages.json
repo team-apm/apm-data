@@ -1872,24 +1872,38 @@
       "id": "hebiiro/DarkenWindow",
       "name": "黒窓",
       "overview": "AviUtl の見た目をダークモードにします",
-      "description": "AviUtl の見た目をダークモードにします。インストール時にインストーラが起動します。ダークモードを使用する場合はAviUtlを`aviutl.exe`ではなく`aviutl_dark.exe`から起動してください。",
+      "description": "AviUtl の見た目をダークモードにします。【旧版からご使用の方へ】aviutl_dark.exeは廃止されaviutl.exeからの起動に統一されました。",
       "developer": "hebiiro",
-      "dependencies": [
-        "exedit0.92",
-        "ePi/patch|nazono/patch",
-        "hebiiro/DarkenWindowInstaller"
-      ],
+      "dependencies": ["exedit0.92", "ePi/patch|nazono/patch"],
       "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow",
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.3.0",
+      "latestVersion": "8.0.0",
       "files": [
+        { "filename": "aviutl_dark.exe", "isObsolete": true },
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
+        { "filename": "plugins/cc6.manifest" },
         { "filename": "plugins/DarkenWindow.aul" },
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "8.0.0",
+          "integrity": {
+            "archive": "sha384-Z56F2O3JUhruYsIAr+JJF2JLOhWHksnb8MFdJo1Ci0tftlhrBSKvPxvHiIHsHyJ2",
+            "file": [
+              {
+                "hash": "sha384-11n1+bSomxXm3gxNJp4N1im9r7HsJ8wWR1Wk6wuxOpVQNE71XKBuvZEQDHSHeOxi",
+                "target": "plugins/cc6.manifest"
+              },
+              {
+                "hash": "sha384-KYRrtaEYwpdgBFVLN9BlO7p3iTCxC/GMn9upnxNVeCJxuCPEDtAiLgfSEvdRw5Fx",
+                "target": "plugins/DarkenWindow.aul"
+              }
+            ]
+          }
+        },
         {
           "version": "7.3.0",
           "integrity": {
@@ -2434,18 +2448,17 @@
     },
     {
       "id": "hebiiro/DarkenWindowInstaller",
-      "name": "自動インストーラ(黒窓)",
+      "name": "【廃止】自動インストーラ(黒窓)",
       "overview": "黒窓の自動インストール",
-      "description": "【このパッケージより先に「黒窓」をインストールする必要があります】apmから黒窓をインストールするためのパッケージです。インストール時にインストーラが起動します。",
+      "description": "【自動インストーラは不要となりましたのでアンインストールをおすすめします。このパッケージをアンインストールしても黒窓の動作に影響はありません。】apmから黒窓をインストールするためのパッケージです。インストール時にインストーラが起動します。",
       "developer": "hebiiro",
       "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow",
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "7.3.0",
-      "installer": "CreateDark.exe",
-      "installArg": "/a\"$instpath\" /f /x",
-      "files": [{ "filename": "placeholder", "isObsolete": true }]
+      "latestVersion": "8.0.0",
+      "files": [{ "filename": "placeholder", "isObsolete": true }],
+      "isHidden": true
     },
     {
       "id": "hebiiro/DragFilter",

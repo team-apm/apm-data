@@ -4767,11 +4767,11 @@
       "files": [
         {
           "filename": "plugins/curve_editor.auf",
-          "archivePath": "curve_editor-v1.0.5"
+          "archivePath": "curve_editor-v1.0.6"
         },
         {
           "filename": "script/@Curve Editor.tra",
-          "archivePath": "curve_editor-v1.0.5"
+          "archivePath": "curve_editor-v1.0.6"
         }
       ],
       "releases": [

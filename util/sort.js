@@ -59,7 +59,7 @@ export function sortCore(object) {
     for (const release of object[program].releases) {
       release.integrity.file = sortArray(
         release.integrity.file,
-        integrityFileOrder
+        integrityFileOrder,
       );
       release.integrity = sort(release.integrity, integrityOrder);
     }
@@ -81,7 +81,7 @@ export function sortPackages(object) {
       for (const release of packageItem.releases) {
         release.integrity.file = sortArray(
           release.integrity.file,
-          integrityFileOrder
+          integrityFileOrder,
         );
         release.integrity = sort(release.integrity, integrityOrder);
       }

@@ -18,7 +18,7 @@ function compareVersion(firstVersion, secondVersion) {
   if (isDate1 && isDate2) {
     return compareVersions(
       firstVersion.replaceAll('/', '.'),
-      secondVersion.replaceAll('/', '.')
+      secondVersion.replaceAll('/', '.'),
     ); // 2022/02/02 -> 2022.02.02
   }
 
@@ -240,7 +240,7 @@ function successLog(v2ListPath, v3ListPath) {
 async function convertCore(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error(
-      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath
+      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath,
     );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
@@ -259,7 +259,7 @@ async function convertCore(v2ListPath, v3ListPath) {
     let newV3Data = {
       version: 3,
       ...JSON.parse(
-        JSON.stringify(v2Data).replaceAll('isOptional', 'isUninstallOnly')
+        JSON.stringify(v2Data).replaceAll('isOptional', 'isUninstallOnly'),
       ),
     };
     for (const program of [newV3Data.aviutl, newV3Data.exedit]) {
@@ -292,7 +292,7 @@ async function convertCore(v2ListPath, v3ListPath) {
 
     await writeFile(
       v3ListPath,
-      format(JSON.stringify(newV3Data), prettierOptions)
+      await format(JSON.stringify(newV3Data), prettierOptions),
     );
 
     successLog(v2ListPath, v3ListPath);
@@ -304,7 +304,7 @@ async function convertCore(v2ListPath, v3ListPath) {
 async function convertPackages(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error(
-      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath
+      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath,
     );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
@@ -323,8 +323,8 @@ async function convertPackages(v2ListPath, v3ListPath) {
     let newV3Packages = JSON.parse(
       JSON.stringify(Object.values(v2Data)).replaceAll(
         'isOptional',
-        'isUninstallOnly'
-      )
+        'isUninstallOnly',
+      ),
     );
 
     newV3Packages = newV3Packages.map((p) => {
@@ -377,14 +377,14 @@ async function convertPackages(v2ListPath, v3ListPath) {
     for (const packageItem of newV3Data.packages) {
       if (packageItem.pageURL.startsWith('https://www.nicovideo.jp/watch/'))
         packageItem.nicommons = RegExp(/(sm|im|nc)[0-9]+/).exec(
-          packageItem.pageURL
+          packageItem.pageURL,
         )[0];
     }
     if (existsSync(v3ListPath)) {
       const oldV3data = await readJSON(v3ListPath);
       for (const newPackageItem of newV3Data.packages) {
         const oldPackageItem = oldV3data.packages.find(
-          (p) => p.id === newPackageItem.id
+          (p) => p.id === newPackageItem.id,
         );
 
         if (oldPackageItem && 'nicommons' in oldPackageItem)
@@ -396,7 +396,7 @@ async function convertPackages(v2ListPath, v3ListPath) {
 
     await writeFile(
       v3ListPath,
-      format(JSON.stringify(newV3Data), prettierOptions)
+      await format(JSON.stringify(newV3Data), prettierOptions),
     );
 
     successLog(v2ListPath, v3ListPath);
@@ -415,7 +415,7 @@ function updateModifiedDate(targetData, newDate) {
 async function convertMod(v2ListPath, v3ListPath) {
   if (!existsSync(v2ListPath))
     throw new Error(
-      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath
+      'The version file does not exist. ' + v2ListPath + ' ' + v3ListPath,
     );
 
   const xmlData = await readFile(v2ListPath, 'utf-8');
@@ -434,17 +434,17 @@ async function convertMod(v2ListPath, v3ListPath) {
     const v3Data = await readJSON(v3ListPath);
 
     ['core', 'convert'].forEach((filename) =>
-      updateModifiedDate(v3Data[filename], v2Data[filename])
+      updateModifiedDate(v3Data[filename], v2Data[filename]),
     );
     ['packages', 'scripts'].forEach((filename) =>
       updateModifiedDate(
         v3Data[filename].find((value) => value.path === filename + '.json'),
-        v2Data[filename]
-      )
+        v2Data[filename],
+      ),
     );
 
     const options = { ...prettierOptions, printWidth: 60 };
-    await writeFile(v3ListPath, format(JSON.stringify(v3Data), options));
+    await writeFile(v3ListPath, await format(JSON.stringify(v3Data), options));
 
     successLog(v2ListPath, v3ListPath);
   } catch (e) {

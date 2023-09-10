@@ -61,13 +61,13 @@ async function checkPackageUpdate(packageItem) {
 
     if (id === 'MrOjii/LSMASHWorks' && packageItem.directURL) {
       const newDownloadUrl = res.data.assets.find((asset) =>
-        asset.name.includes('Mr-Ojii_Mr-Ojii')
+        asset.name.includes('Mr-Ojii_Mr-Ojii'),
       ).browser_download_url;
       if (newDownloadUrl && packageItem.directURL !== newDownloadUrl) {
         packageItem.directURL = newDownloadUrl;
         result.updateAvailable = true;
         result.message.push(
-          whiteBright(id) + ' ' + cyanBright('The directURL has been updated.')
+          whiteBright(id) + ' ' + cyanBright('The directURL has been updated.'),
         );
         return result;
       } else return result;
@@ -90,7 +90,7 @@ async function checkPackageUpdate(packageItem) {
         ' ' +
         yellow(currentVersion) +
         ' ' +
-        cyanBright(latestTag)
+        cyanBright(latestTag),
     );
 
     // Create integrity
@@ -100,7 +100,7 @@ async function checkPackageUpdate(packageItem) {
         throw new Error('The release data of the same version exist.');
 
       const assets = res.data.assets.filter(
-        (asset) => extname(asset.name) === '.zip'
+        (asset) => extname(asset.name) === '.zip',
       );
       let archiveData = {
         name: dirs[0] + '-' + dirs[1] + '-' + latestTag + '.zip',
@@ -111,7 +111,7 @@ async function checkPackageUpdate(packageItem) {
       } else if (assets.length >= 2) {
         const temp = assets.find((value) => {
           const matchPattern = new RegExp(
-            '^' + archiveNamePattern[id] + '\\.zip$'
+            '^' + archiveNamePattern[id] + '\\.zip$',
           );
           return matchPattern.test(value.name);
         });
@@ -123,16 +123,16 @@ async function checkPackageUpdate(packageItem) {
               'No assets are found.\n  ID: ' +
                 id +
                 '\n  Pattern: ' +
-                archiveNamePattern[id]
-            )
+                archiveNamePattern[id],
+            ),
           );
           return result;
         }
       } else {
         result.message.push(
           yellow(
-            'There seem to be no assets. So use an archive file of the source code.'
-          )
+            'There seem to be no assets. So use an archive file of the source code.',
+          ),
         );
       }
 
@@ -142,7 +142,7 @@ async function checkPackageUpdate(packageItem) {
       await download(url, archivePath);
       const unzippedPath = resolve(
         'util/temp',
-        basename(archivePath, extname(archivePath))
+        basename(archivePath, extname(archivePath)),
       );
       await unzip(archivePath, unzippedPath);
 
@@ -160,7 +160,7 @@ async function checkPackageUpdate(packageItem) {
           const targetPath = resolve(
             unzippedPath,
             targetFileArchivePath,
-            basename(targetFilename)
+            basename(targetFilename),
           );
 
           const fileHash = await generateHash(targetPath);
@@ -179,7 +179,7 @@ async function checkPackageUpdate(packageItem) {
   } catch (e) {
     if (e.status === 404) {
       result.message.push(
-        whiteBright(id) + ' ' + currentVersion + ' ' + red('Not Found')
+        whiteBright(id) + ' ' + currentVersion + ' ' + red('Not Found'),
       );
     } else {
       result.message.push(red(e.message));
@@ -207,14 +207,14 @@ async function check() {
       .forEach((updateResult) => console.log(updateResult.message.join('\n')));
 
     const updateAvailableNum = result.filter(
-      (updateResult) => updateResult.updateAvailable
+      (updateResult) => updateResult.updateAvailable,
     ).length;
 
     if (updateAvailableNum >= 1) {
       await writeFile(
         packagesJsonPath,
-        format(JSON.stringify(packagesObj), { parser: 'json' }),
-        'utf-8'
+        await format(JSON.stringify(packagesObj), { parser: 'json' }),
+        'utf-8',
       );
 
       console.log(green('Updated ' + basename(jsonInfo.path) + '.'));
@@ -250,8 +250,8 @@ async function check() {
 
   await writeFile(
     listJsonPath,
-    format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
-    'utf-8'
+    await format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
+    'utf-8',
   );
   console.log(green('Updated list.json.'));
 

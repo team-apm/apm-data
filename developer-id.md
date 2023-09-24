@@ -48,10 +48,12 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
   - [てつ(XIAO) `tetsuXIAO`](#てつxiao-tetsuxiao)
   - [はち `tihagura`](#はち-tihagura)
   - [ティム `tim`](#ティム-tim)
+  - [うえぽん `uepon`](#うえぽん-uepon)
   - [UndoFish `UndoFish`](#undofish-undofish)
   - [VFR maniac `VFRmaniac`](#vfr-maniac-vfrmaniac)
   - [W.Dee `WDee`](#wdee-wdee)
   - [柳 `yanagi`](#柳-yanagi)
+  - [野生の木屋P `yaseiNoMokuyaP`](#野生の木屋p-yaseinomokuyap)
   - [yumetodo `yumetodo`](#yumetodo-yumetodo)
   - [編集者向け情報](#編集者向け情報)
     - [関連サイトの掲載順](#関連サイトの掲載順)
@@ -274,6 +276,11 @@ apm-dataでは、`<開発者ID>/<ファイル名など>`によって、IDを定�
 - YouTube: <https://www.youtube.com/channel/UCIftxC4T8vqvmIYqbVJGjew>
 - Twitter: <https://twitter.com/TimNoHeya>
 
+## うえぽん `uepon`
+
+- サイト: <http://auf.jpn.xxxxxxxx.jp/>
+- ブログ: <https://wepon.blog.jp/>
+
 ## UndoFish `UndoFish`
 
 - ニコニコ: <https://www.nicovideo.jp/user/26576669>
@@ -297,6 +304,10 @@ mukenというハンドルネームも使う。
 - サイト: <https://aviutl.techblog.jp/>
 - ニコニコ: <https://www.nicovideo.jp/user/124206971>
 - Twitter: <https://twitter.com/yanaginotokoro>
+
+## 野生の木屋P `yaseiNoMokuyaP`
+
+- ニコニコ: <https://www.nicovideo.jp/user/697836>
 
 ## yumetodo `yumetodo`
 

@@ -5135,7 +5135,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-09-23-00-59-21/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-09-24-01-03-50/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5390,7 +5390,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_34",
+      "latestVersion": "r43_35",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5399,6 +5399,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_35",
+          "integrity": {
+            "archive": "sha384-vEOHpOOCr6Sx+MqHcy4zbcXYulqOeJ1ARZGE++BL1aiuEEhWEElTIEFZwrcZzFYR",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-bkaRhCiBNM/+nYA6uLN5cjHB0lQoAXYDfk4Vv5dCbhrx5noI/sntV3MyH2fATOZ8"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_34",
           "integrity": {

@@ -5135,7 +5135,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-09-26-01-01-30/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-10-01-06-16-47/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -8746,7 +8746,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.48",
+      "latestVersion": "7.49",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -8773,6 +8773,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.49",
+          "integrity": {
+            "archive": "sha384-JjPRuH8DlNne7kSrNyyI51y/Hu5rDYLNLORlZpIW2EAFdBEIpD6uP0AoDz2c0dyl",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-yIsbCTVIozNf67KcwlQq7rxqfPVBk1Q3cdMG4RQXXTgyk5+7fobwzykJ7VsCVve/"
+              }
+            ]
+          }
+        },
         {
           "version": "7.48",
           "integrity": {
@@ -9359,7 +9371,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/svtAV1guiEx/releases/latest"],
-      "latestVersion": "1.20",
+      "latestVersion": "1.21",
       "files": [
         { "filename": "plugins/svtAV1guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/svtAV1guiEx.ini", "archivePath": "plugins" },
@@ -9387,6 +9399,18 @@
         { "filename": "exe_files/mp4box.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.21",
+          "integrity": {
+            "archive": "sha384-LjYJdES96Jc4qqMRr+bsSxbX3taLviZTens5hYP26xlWgqk+36BthBDm6sSGsWsM",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-+KeZWYo69IHU0AzI3R7KxBbJ58eUA4pnfnVQFnXwSfQPfHYhgqLe0VBJj4IlzWG1"
+              }
+            ]
+          }
+        },
         {
           "version": "1.20",
           "integrity": {
@@ -10417,7 +10441,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.14",
+      "latestVersion": "4.15",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -10444,6 +10468,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.15",
+          "integrity": {
+            "archive": "sha384-IgwCfywVzAF+WQIHi28/5HjSVUnmijZ6yvIkmnBgBkZD4zOCEENDJg9PpK37jB5i",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-xurWWzOQJhYtHbdbjtC3vGCX3eHNVA0IILkhNyHyMyge5ldPmT17C0u4c8NTnJPd"
+              }
+            ]
+          }
+        },
         {
           "version": "4.14",
           "integrity": {

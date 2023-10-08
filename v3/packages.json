@@ -5135,7 +5135,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-10-01-06-16-47/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-10-05-01-03-07/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5390,7 +5390,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_36",
+      "latestVersion": "r43_37",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5399,6 +5399,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_37",
+          "integrity": {
+            "archive": "sha384-AyF/8u0JoWedMkMC6l2yEM4JklkjZ1teO8u59e0j8XukCVa1WNtMuLjtzWrFKUGE",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-6ih0VHDzKJa9zeeDvZMbuT7u544BMJp004XEEcqvB/DO+w/Bkvk9cGAMu2gjyJsr"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_36",
           "integrity": {
@@ -8203,7 +8215,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.31",
+      "latestVersion": "7.32",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -8230,6 +8242,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.32",
+          "integrity": {
+            "archive": "sha384-7BQEdmE/b92bJ2sAcwtkeFPKmePpby9Q849DpSoKtVRf/46LRRKS4EobC8PBAf3X",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-/0VWWOug3bxO3FNDemaoo4dWeW6h5iQstcvNeFakmiHebgTU9wdpLIAq1oQWQqSK"
+              }
+            ]
+          }
+        },
         {
           "version": "7.31",
           "integrity": {

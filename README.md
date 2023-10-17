@@ -46,3 +46,11 @@ Team apmが付与した開発者IDは、[developer-id.md](./developer-id.md)を�
 **匿名だれか**
 **みまらか**
 [@staka625](https://github.com/staka625)
+**mill-yama**
+**ひがめし**
+**ziaenso**
+**sh0u**
+**SAS新聞**
+**手力男命**
+[@mikan-megane](https://github.com/mikan-megane)
+**ixas**

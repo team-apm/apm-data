@@ -1558,6 +1558,34 @@
       ]
     },
     {
+      "id": "gometh/moyou",
+      "name": "模様スクリプト",
+      "overview": "オブジェクトに模様を重ねるスクリプト",
+      "description": "テキスト等のオブジェクトに縞模様・格子模様・市松模様・水玉模様を合成するスクリプト",
+      "developer": "gometh",
+      "dependencies": ["ePi/LuaJIT"],
+      "pageURL": "https://www.nicovideo.jp/watch/sm41446069",
+      "downloadURLs": [
+        "https://drive.google.com/file/d/1gDjg7omiiDxlKTuwRFopw-ySEjIO1qgE/view?usp=sharing"
+      ],
+      "latestVersion": "2022/12/01",
+      "files": [{ "filename": "script/gometh/模様.anm" }],
+      "releases": [
+        {
+          "version": "2022/12/01",
+          "integrity": {
+            "archive": "sha384-QnGz891ctJWvWoWKD58TekNMCm6LZOTHoqTQtEshmBot5Pq8Dgvnj3HtY+WipuoY",
+            "file": [
+              {
+                "target": "script/gometh/模様.anm",
+                "hash": "sha384-QnGz891ctJWvWoWKD58TekNMCm6LZOTHoqTQtEshmBot5Pq8Dgvnj3HtY+WipuoY"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "gometh/SLGhuumi",
       "name": "SLG風3D戦闘支援スクリプト",
       "overview": "オブジェクトを3Dのマス目に配置する",
@@ -1841,6 +1869,34 @@
       ]
     },
     {
+      "id": "hebiiro/ConfigChecker",
+      "name": "コンフィグチェッカー",
+      "overview": "動画を出力するとき、設定が適正かどうかをチェックします",
+      "description": "動画を出力する際に、設定が適正かどうかをチェックするプラグインです。出力範囲やフレームレートが設定されている場合、最終フレームがアイテムの最終位置と一致しない場合に注意文を表示します。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-ConfigChecker#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-ConfigChecker/releases/latest"
+      ],
+      "latestVersion": "1.2.0",
+      "files": [{ "filename": "plugins/ConfigChecker.auf" }],
+      "releases": [
+        {
+          "version": "1.2.0",
+          "integrity": {
+            "archive": "sha384-DtkQc3EstKeJ+bVZJpaJ1+UV4bgNgLPjfwwG8PI11eCOAnROxtRIlYkWJSYFjbJY",
+            "file": [
+              {
+                "target": "plugins/ConfigChecker.auf",
+                "hash": "sha384-Z0NSEKWkBXGoh/2qi/zDjNaL2b/zXxo5yYIiLekT/VcgmRrWWK5BZNG3KCrJnH9R"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "hebiiro/CopyFilter",
       "name": "フィルタのコピペ",
       "overview": "設定ダイアログのフィルタをコピーアンドペーストできるようにします",
@@ -1894,12 +1950,12 @@
             "archive": "sha384-Z56F2O3JUhruYsIAr+JJF2JLOhWHksnb8MFdJo1Ci0tftlhrBSKvPxvHiIHsHyJ2",
             "file": [
               {
-                "hash": "sha384-11n1+bSomxXm3gxNJp4N1im9r7HsJ8wWR1Wk6wuxOpVQNE71XKBuvZEQDHSHeOxi",
-                "target": "plugins/cc6.manifest"
+                "target": "plugins/cc6.manifest",
+                "hash": "sha384-11n1+bSomxXm3gxNJp4N1im9r7HsJ8wWR1Wk6wuxOpVQNE71XKBuvZEQDHSHeOxi"
               },
               {
-                "hash": "sha384-KYRrtaEYwpdgBFVLN9BlO7p3iTCxC/GMn9upnxNVeCJxuCPEDtAiLgfSEvdRw5Fx",
-                "target": "plugins/DarkenWindow.aul"
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-KYRrtaEYwpdgBFVLN9BlO7p3iTCxC/GMn9upnxNVeCJxuCPEDtAiLgfSEvdRw5Fx"
               }
             ]
           }
@@ -2457,8 +2513,8 @@
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
       "latestVersion": "8.0.0",
-      "files": [{ "filename": "placeholder", "isObsolete": true }],
-      "isHidden": true
+      "isHidden": true,
+      "files": [{ "filename": "placeholder", "isObsolete": true }]
     },
     {
       "id": "hebiiro/DragFilter",
@@ -2609,6 +2665,34 @@
               {
                 "target": "plugins/LevelMeter.auf",
                 "hash": "sha384-QnxVgpbXI5kArpAY6NgxYde4sSd764NNGjYXHjav08zD3gr9MrYZgGfL9KvTta8A"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/NoScrollText",
+      "name": "アイテム名常時表示",
+      "overview": "タイムラインのアイテム名を常に表示する",
+      "description": "タイムラインをスクロールしてもアイテム名が見切れないようになります。「アイテム内音声波形」と同時に使用できません。",
+      "developer": "hebiiro",
+      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "pageURL": "https://github.com/hebiiro/AviUtl-Plugin-NoScrollText#readme",
+      "downloadURLs": [
+        "https://github.com/hebiiro/AviUtl-Plugin-NoScrollText/releases/latest"
+      ],
+      "latestVersion": "1.0.0",
+      "files": [{ "filename": "plugins/NoScrollText.auf" }],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "integrity": {
+            "archive": "sha384-zV5eiglC/ffGP2ruyh0DnoFh1PO4Y1RkqAdgKO0701ROkKkIC9hQnIGeTiBt/jCf",
+            "file": [
+              {
+                "target": "plugins/NoScrollText.auf",
+                "hash": "sha384-83xWutRX5sFhowxJDQzEs9MNGhwWRyueA9tfgDCFaaQlWJ1WHBhuwKAiKFLtCiY3"
               }
             ]
           }
@@ -3096,7 +3180,7 @@
       "id": "hebiiro/ShowWaveform",
       "name": "アイテム内音声波形",
       "overview": "拡張編集ウインドウに音声波形を表示する",
-      "description": "拡張編集ウィンドウの音声アイテム内に音声波形を表示します。",
+      "description": "拡張編集ウィンドウの音声アイテム内に音声波形を表示します。「アイテム名常時表示」と同時に使用できません。",
       "developer": "hebiiro",
       "dependencies": [
         "aviutl1.10",
@@ -4958,12 +5042,12 @@
             "archive": "sha384-GE5vAcqwYZhI9kBfW2qV8Tl3C7OxaD+tAchdJS1SREfvW/dTD3R5F2lhrUEjTLGj",
             "file": [
               {
-                "hash": "sha384-okQGl77kdxFmyuaTZ60pA5IitsunD3V2JhXY1LY/q7Ct7w5g3te8pKbxEc9y82Uh",
-                "target": "plugins/curve_editor.auf"
+                "target": "plugins/curve_editor.auf",
+                "hash": "sha384-okQGl77kdxFmyuaTZ60pA5IitsunD3V2JhXY1LY/q7Ct7w5g3te8pKbxEc9y82Uh"
               },
               {
-                "hash": "sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+",
-                "target": "script/@Curve Editor.tra"
+                "target": "script/@Curve Editor.tra",
+                "hash": "sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+"
               }
             ]
           }
@@ -5261,14 +5345,14 @@
     },
     {
       "id": "nagomiku/paracustomobj",
+      "name": "値で図形",
+      "overview": "図形のサイズを縦と横で指定",
+      "description": "四角形などの図形をxyサイズを指定して作成することができます。",
       "developer": "Nagomiku",
+      "pageURL": "https://scrapbox.io/nanikani-shugo/Nagomiku%E8%87%AA%E4%BD%9C%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88",
       "downloadURLs": [
         "https://drive.google.com/drive/folders/1l9-CCQ3-3umykPS8pqek3PgkZ4RUCkN2?usp=sharing"
       ],
-      "name": "値で図形",
-      "pageURL": "https://scrapbox.io/nanikani-shugo/Nagomiku%E8%87%AA%E4%BD%9C%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88",
-      "overview": "図形のサイズを縦と横で指定",
-      "description": "四角形などの図形をxyサイズを指定して作成することができます。",
       "latestVersion": "v2.10",
       "files": [{ "filename": "script/Nagomiku/値で図形.obj" }],
       "releases": [
@@ -5278,8 +5362,8 @@
             "archive": "sha384-IH+AsiIabSupJuZTL2hUSzNy9bJfL13ExL6fPX9QwgZE8V22yaYEANHB4CxAVBnQ",
             "file": [
               {
-                "hash": "sha384-IH+AsiIabSupJuZTL2hUSzNy9bJfL13ExL6fPX9QwgZE8V22yaYEANHB4CxAVBnQ",
-                "target": "script/Nagomiku/値で図形.obj"
+                "target": "script/Nagomiku/値で図形.obj",
+                "hash": "sha384-IH+AsiIabSupJuZTL2hUSzNy9bJfL13ExL6fPX9QwgZE8V22yaYEANHB4CxAVBnQ"
               }
             ]
           }
@@ -5372,6 +5456,34 @@
               {
                 "target": "script/上方向ベクトル.cam",
                 "hash": "sha384-/RKqup7p1doYQTjB31kYDSUzo41vShlbU8CvYtjVNse1SonxpW5OdiAxpmtbUExq"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/LayerWheel",
+      "name": "LayerWheel",
+      "overview": "拡張編集を縦にスクロール",
+      "description": "拡張編集のレイヤーの部分でマウスホイールを使用すると縦スクロールが可能となるプラグインです。【動作にはVisual C++ 再頒布可能パッケージ 2022 x86(32bit)のインストールが必要です。】",
+      "developer": "謎の生物",
+      "dependencies": ["exedit0.92"],
+      "pageURL": "https://github.com/nazonoSAUNA/LayerWheel",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/LayerWheel/releases/latest"
+      ],
+      "latestVersion": "r1",
+      "files": [{ "filename": "plugins/layerwheel.auf" }],
+      "releases": [
+        {
+          "version": "r1",
+          "integrity": {
+            "archive": "sha384-Lpe0/UfM983QH3xk+pzf8H8lX0Q5H5bRXbXYTeJVQ9kn0bEuEfZBQcobmA7lSR/K",
+            "file": [
+              {
+                "target": "plugins/layerwheel.auf",
+                "hash": "sha384-j5bHdLi9ycUPG+pZbSc4yKeBzbmfvP9hq4NWrWau9krodrMpGdBktZUN8bs/IiSm"
               }
             ]
           }
@@ -5751,6 +5863,34 @@
         { "filename": "exa/反復移動.exa", "archivePath": "exa/" },
         { "filename": "exa/万華鏡.exa", "archivePath": "exa/" },
         { "filename": "exa/立方体(カメラ制御).exa", "archivePath": "exa/" }
+      ]
+    },
+    {
+      "id": "nazono/tlItemcut",
+      "name": "切り取りプラグイン",
+      "overview": "拡張編集の切り取りを改善",
+      "description": "拡張編集での特殊な切り取りをユーザーが期待する動作に変更します。リップル切り取りとグループ分割も実装しています。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "謎の生物",
+      "dependencies": ["exedit0.92", "ePi/patch"],
+      "pageURL": "https://www.nicovideo.jp/watch/sm41787566",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/tl_Item_cut/releases/latest"
+      ],
+      "latestVersion": "5.0",
+      "files": [{ "filename": "plugins/tl_Item_cut.auf" }],
+      "releases": [
+        {
+          "version": "5.0",
+          "integrity": {
+            "archive": "sha384-gQxLz2ui91Gr1cgIXvzU/2TnYs0BabzJRYPSArZcXLlWVwcZqq2BEj78VUJY03Io",
+            "file": [
+              {
+                "target": "plugins/tl_Item_cut.auf",
+                "hash": "sha384-fE5swu6SxYeBkP1u2eA0rnYI8qWEcn3CNipST7sy/v3D/IkAnyfrLsNmFkCxzv/F"
+              }
+            ]
+          }
+        }
       ]
     },
     {
@@ -12312,6 +12452,43 @@
       ]
     },
     {
+      "id": "uepon/JPEG3piece",
+      "name": "JPEG 3点セット",
+      "overview": "JPEGの入力・連番出力・ワンクリック保存",
+      "description": "JPEGの入力・連番出力・ワンクリック保存を行うプラグイン。特徴は、JPEGのYCbCr（フルレンジ）をYC48（の圧縮レンジ）に直接変換して入出力していることです。ワンクリック保存をショートカットキーに割当てることも可能です。他にもYUV444で保存できたりします。",
+      "developer": "うえぽん",
+      "pageURL": "http://auf.jpn.xxxxxxxx.jp/",
+      "downloadURLs": ["http://auf.jpn.xxxxxxxx.jp/#:~:text=%E2%96%A0JPEG"],
+      "latestVersion": "0.3.1",
+      "files": [
+        { "filename": "plugins/jpeg_input.aui" },
+        { "filename": "plugins/jpeg_output.auo" },
+        { "filename": "plugins/jpeg_print.auf" }
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "integrity": {
+            "archive": "sha384-bNi1uWuBipTrshC4yyDAQxdLt20xSjQXWQVYkQw6t83Ihd8fHwWwij1AJAQ8xej+",
+            "file": [
+              {
+                "target": "plugins/jpeg_input.aui",
+                "hash": "sha384-4+eu6lFvloskhVux2gf70V8dNG9HYvMJz/EPyUcNE5vGuOeMXXPvLQw/R1lXBBBk"
+              },
+              {
+                "target": "plugins/jpeg_output.auo",
+                "hash": "sha384-Pu0RsNujkPFy886s2+vlqLcnwhbEkbV2EZ0M/prHfFoA9i+eiw2IZtDSuaF6JY/h"
+              },
+              {
+                "target": "plugins/jpeg_print.auf",
+                "hash": "sha384-+iNM0Uhd3uWvGx2dk1vm9DC0iOgf+QaJ0bjhfa6bP/6mP3llfNwJC82AzdY2BEKm"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "UndoFish/easingTra2020",
       "name": "トラックバー対応イージングスクリプト",
       "overview": "オブジェクトの動きに緩急をつける",
@@ -12498,6 +12675,32 @@
       "nicommons": "sm40465457",
       "files": [
         { "filename": "ContentsTree.auf", "archivePath": "ContentsTree_ver0.2" }
+      ]
+    },
+    {
+      "id": "yaseiNoMokuyaP/HanaBi",
+      "name": "花火",
+      "overview": "花火のアニメーション効果",
+      "description": "画像や図形をもとに花火のようなアニメーション効果をつけることができるスクリプト。",
+      "developer": "野生の木屋P",
+      "dependencies": [],
+      "pageURL": "https://www.nicovideo.jp/watch/sm16915418",
+      "downloadURLs": ["https://ux.getuploader.com/yaseiP/download/123"],
+      "latestVersion": "2012/02/08",
+      "files": [{ "filename": "script/yaseiNoMokuyaP/@花火.anm" }],
+      "releases": [
+        {
+          "version": "2012/02/08",
+          "integrity": {
+            "archive": "sha384-TOIQ2fFZCzAYkISBNkLNZ1g5aVBeF6tGyvFqC4uGhjEHreqrXV1skZzFDnobUkOL",
+            "file": [
+              {
+                "target": "script/yaseiNoMokuyaP/@花火.anm",
+                "hash": "sha384-dhy/Ht5rKRGbXE2fhfossqGDxNNJgTe9kjs+SALlWCDz2dK48JOS2EnZzU1Gj3dy"
+              }
+            ]
+          }
+        }
       ]
     },
     {

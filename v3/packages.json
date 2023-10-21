@@ -5219,7 +5219,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-10-17-01-05-31/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-10-19-01-02-58/L-SMASH-Works_r1103_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -10330,7 +10330,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.24",
+      "latestVersion": "3.25",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -10355,6 +10355,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.25",
+          "integrity": {
+            "archive": "sha384-39SJCYdL84lmpVkpyJS2xNBJrI3EXe0ljt1s0smRmDSiQEff+5xrTjUHL0fIKBwQ",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-AfKk/ZPO+NkhstN39eqlCJth2BWXj3/JzO/ndpgOKcVPXLVZVI38dGyO+ntWzENn"
+              }
+            ]
+          }
+        },
         {
           "version": "3.24",
           "integrity": {

@@ -5871,7 +5871,7 @@
       "overview": "拡張編集の切り取りを改善",
       "description": "拡張編集での特殊な切り取りをユーザーが期待する動作に変更します。リップル切り取りとグループ分割も実装しています。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
       "developer": "謎の生物",
-      "dependencies": ["exedit0.92", "ePi/patch"],
+      "dependencies": ["exedit0.92", "ePi/patch|nazono/patch"],
       "pageURL": "https://www.nicovideo.jp/watch/sm41787566",
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/tl_Item_cut/releases/latest"

@@ -5235,7 +5235,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2023-12-29-14-52-51/L-SMASH-Works_r1107_Mr-Ojii_Mr-Ojii_AviUtl.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-01-02-01-18-33/L-SMASH-Works_r1107_Mr-Ojii_Mr-Ojii_AviUtl.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -7792,10 +7792,22 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.5",
+      "latestVersion": "v0.3.6",
       "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }],
       "releases": [
+        {
+          "version": "v0.3.6",
+          "integrity": {
+            "archive": "sha384-PjuH5cky7mSQ8FEgkUOD6ci2Zm0sao7QWFiYUBMd6d5McH6IeTswtT4/imDLFrBd",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-2PC/J4TmmnNdWqK/HmNPmG6QcbEYmi4yPJl1B9eiXQz8H0wAGOQhunO+fKncRJHK"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.5",
           "integrity": {

@@ -5235,7 +5235,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-01-04-09-41-27/L-SMASH-Works_r1107_Mr-Ojii_Mr-Ojii.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-01-07-01-28-09/L-SMASH-Works_r1107_Mr-Ojii_Mr-Ojii.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -10897,7 +10897,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.16",
+      "latestVersion": "4.17",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -10924,6 +10924,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.17",
+          "integrity": {
+            "archive": "sha384-q1SlW+XvZd3B6/4knXEny3d3ugrOjdGjX/5y7csVpydgc+JiepnR3ODulD8w9p4g",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-R861bzmFHQwYzFJ41xvR868uEB7yvR/8ILwuwnYFAPloXJw0zJHB5HZUBGoHkawX"
+              }
+            ]
+          }
+        },
         {
           "version": "4.16",
           "integrity": {

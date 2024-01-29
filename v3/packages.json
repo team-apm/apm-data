@@ -5235,7 +5235,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-01-20-01-21-10/L-SMASH-Works_r1109_Mr-Ojii_Mr-Ojii.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-01-28-01-20-43/L-SMASH-Works_r1109_Mr-Ojii_Mr-Ojii.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5518,7 +5518,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_47",
+      "latestVersion": "r43_48",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5527,6 +5527,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_48",
+          "integrity": {
+            "archive": "sha384-25sil5wKMYU3CGP+7dAMQXxRPvXUBLXGyuIPUdWodQZr2uwieMRgnTZC4F7Zdrzk",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-Ep6k7Dj2RMT0eU8BrF60n2qDKJ/WGjcy26qwELVAB5YCi5ekkTwoxiShdMgma9yE"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_47",
           "integrity": {
@@ -7804,10 +7816,22 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.6",
+      "latestVersion": "v0.3.7",
       "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }],
       "releases": [
+        {
+          "version": "v0.3.7",
+          "integrity": {
+            "archive": "sha384-17BwLPeKO7uHn18QZOqC9fRCdU8A/ZUaw3mF6DggRsU3ghzv9hM0XuVoHgcWEnL8",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-5/4XknY+YXs65R/kTf1oaheYgDEALW7XPE0+aJN2l6p/oM/PMHoZq8PCs3eXfsct"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.6",
           "integrity": {
@@ -8332,7 +8356,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
       "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
-      "latestVersion": "1.09",
+      "latestVersion": "1.10",
       "files": [
         { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
         { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
@@ -8349,6 +8373,18 @@
         { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-qaqKE8K2O2uuN58Q7NCWm0PZHcvDENW6LEkRm7K1S4+reYtg2IaaA+D8exkwRGWR",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-teMR+/g+0T1C1dBaZP80oh7QiOiDZAQaGjLPyXqR6lWPLMEWg/6v0uv7OssqSRFD"
+              }
+            ]
+          }
+        },
         {
           "version": "1.09",
           "integrity": {
@@ -8467,7 +8503,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.40",
+      "latestVersion": "7.41",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -8494,6 +8530,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.41",
+          "integrity": {
+            "archive": "sha384-PgzXiVnvlxu9/wkxCQOGPJ8aZ5m9MEJleRumwJvcotrOjgWqIwY+0fJgpOhtY7uj",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-NCEXiDIg+BVAPLGJCQQs82k/D26CjnTacdhVFp/0kNcRBfVOAS2X9erCvTRx/18v"
+              }
+            ]
+          }
+        },
         {
           "version": "7.40",
           "integrity": {

@@ -14,7 +14,7 @@
     "fix": "run-s fix:prettier fix:eslint",
     "fix:prettier": "prettier --write .",
     "fix:eslint": "eslint --fix .",
-    "prepare": "husky install",
+    "prepare": "husky",
     "release": "release-it",
     "check-convert": "node util/check-convert.js",
     "check-update": "node util/check-update.js",

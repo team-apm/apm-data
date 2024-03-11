@@ -5235,7 +5235,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-02-29-01-14-54/L-SMASH-Works_r1109_Mr-Ojii_Mr-Ojii.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-03-10-01-19-46/L-SMASH-Works_r1115_Mr-Ojii_Mr-Ojii.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -8527,7 +8527,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.42",
+      "latestVersion": "7.45",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -8554,6 +8554,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.45",
+          "integrity": {
+            "archive": "sha384-LOWxg/X1dtbgvQ7OCi2gIrEOfpFvIoxU5yYjwybp6TxW0vL423w3j/XJnse9iPVp",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-GJ31EmjGrcmB/YeY7bTxwCYW+sNpzrdC9H9XzxwvAxPgaR8eghN1zHdkZi+UG0KO"
+              }
+            ]
+          }
+        },
         {
           "version": "7.42",
           "integrity": {

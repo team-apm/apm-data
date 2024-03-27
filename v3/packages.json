@@ -3219,13 +3219,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "7.2.0",
+      "latestVersion": "7.3.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini", "isUninstallOnly": true },
         { "filename": "plugins/ShowWaveform", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.3.0",
+          "integrity": {
+            "archive": "sha384-qBe/0+t9mUnu0kaZnmM63nTAEO1v48ah9NsM2664ZrPCCNYbzLT3PG36RsB871Qv",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-kZEp6D9fMnRts21e3J9j9B9eyRShohhAqFkyKG0ZZUf1TQn5pIM7j1ZjAT1qpmYu"
+              }
+            ]
+          }
+        },
         {
           "version": "7.2.0",
           "integrity": {
@@ -5247,7 +5259,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-03-14-01-16-08/L-SMASH-Works_r1115_Mr-Ojii_Mr-Ojii.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-03-26-01-16-31/L-SMASH-Works_r1115_Mr-Ojii_Mr-Ojii.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5530,7 +5542,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_52",
+      "latestVersion": "r43_54",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5539,6 +5551,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_54",
+          "integrity": {
+            "archive": "sha384-tD8MKKnrogU1/2L0f1deVrgDB6+AzXZm5RmhEWv1EI43psPYLMvPQ9+BpHlcb70X",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-96EjO+c9a36i4KEw069aKHQZbXnpzq3KEX1RKgrEt7on3zRZ640QuvccneBdVIVY"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_52",
           "integrity": {
@@ -5921,7 +5945,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/SortEffect/releases/latest"
       ],
-      "latestVersion": "1.1",
+      "latestVersion": "1.2",
       "nicommons": "sm40952636",
       "files": [
         { "filename": "plugins/SortEffect.auf", "archivePath": "plugins/" },
@@ -8539,7 +8563,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.46",
+      "latestVersion": "7.47",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -8566,6 +8590,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.47",
+          "integrity": {
+            "archive": "sha384-IRxisEbAp+cKEwXfXz/LqrdCEatxeFT3Z7sTdHhY746NzAiPPhK2YEUN3mBjk/0Z",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-eRzvMi1sajPZgvGrjoez5D4SKfcQ1kLI1HBjl48j4YOpGLbKOmUmukpD50nitd7P"
+              }
+            ]
+          }
+        },
         {
           "version": "7.46",
           "integrity": {
@@ -9190,7 +9226,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.61",
+      "latestVersion": "7.62",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -9217,6 +9253,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.62",
+          "integrity": {
+            "archive": "sha384-vCJTTjYC8fHnKHp9hWVnCEToFABQtKbEOuLb23TXzRjqJU/2J8P5K3WN2GO0VNET",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-zjkdX5hmJ5MhcyzjXbsh1cFrzzP6sKuVKRDZ8dXXv+OHtGOqjlhBTKCNPzXNYMXB"
+              }
+            ]
+          }
+        },
         {
           "version": "7.61",
           "integrity": {
@@ -10670,7 +10718,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.27",
+      "latestVersion": "3.28",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -10695,6 +10743,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.28",
+          "integrity": {
+            "archive": "sha384-vXr8Qc2NOOP2bR83CUEqFMPjx/45SkPC0zOOaspb/P4+dz4nDWFM90FTipSzj5Sd",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-fsluY7SwkEZiHDip0ViKghOkrBVWTs13KuyF003s9aCvOibh36XmJSH7G4Y01K5V"
+              }
+            ]
+          }
+        },
         {
           "version": "3.27",
           "integrity": {

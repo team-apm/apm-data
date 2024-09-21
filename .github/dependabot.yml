@@ -9,6 +9,10 @@ updates:
     directory: '/' # Location of package manifests
     schedule:
       interval: 'daily'
+    groups:
+      eslint:
+        patterns:
+          - 'eslint*'
 
   - package-ecosystem: 'github-actions'
     directory: '/'

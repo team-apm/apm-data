@@ -1788,12 +1788,24 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest"
       ],
-      "latestVersion": "3.0.2",
+      "latestVersion": "3.2.0",
       "files": [
         { "filename": "plugins/BuildStairs", "isDirectory": true },
         { "filename": "plugins/BuildStairs.auf" }
       ],
       "releases": [
+        {
+          "version": "3.2.0",
+          "integrity": {
+            "archive": "sha384-UmeVD46tiK2soGxJuF9n7l6yuqWyA4VAVWIsV4UDEWjr0sPE5E4teoV1Kr2obEak",
+            "file": [
+              {
+                "target": "plugins/BuildStairs.auf",
+                "hash": "sha384-rPjVIcQjoshk9yNwUrie6uoEJqQ0rbnaHguRDbIkSVPqo4AxyEl5SuK4uDZkzBd8"
+              }
+            ]
+          }
+        },
         {
           "version": "3.0.2",
           "integrity": {
@@ -1935,7 +1947,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "8.0.0",
+      "latestVersion": "8.1.0",
       "files": [
         { "filename": "aviutl_dark.exe", "isObsolete": true },
         { "filename": "aviutl_dark.exe.manifest", "isObsolete": true },
@@ -1944,6 +1956,22 @@
         { "filename": "plugins/DarkenWindow", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "8.1.0",
+          "integrity": {
+            "archive": "sha384-ekm6UxlGfrXNsjLM+QqRuik6Vq1FOCuRLCVBCoLBc0a7285dTGhjwLI8lK2UQQCz",
+            "file": [
+              {
+                "target": "plugins/cc6.manifest",
+                "hash": "sha384-11n1+bSomxXm3gxNJp4N1im9r7HsJ8wWR1Wk6wuxOpVQNE71XKBuvZEQDHSHeOxi"
+              },
+              {
+                "target": "plugins/DarkenWindow.aul",
+                "hash": "sha384-kqWrXS2dbUBnEUnc0D/Icfj3swY9itzQqplRs/Un1I/dB/ay1sgnfTzuU0k9g70N"
+              }
+            ]
+          }
+        },
         {
           "version": "8.0.0",
           "integrity": {
@@ -2512,7 +2540,7 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest"
       ],
-      "latestVersion": "8.0.0",
+      "latestVersion": "8.1.0",
       "isHidden": true,
       "files": [{ "filename": "placeholder", "isObsolete": true }]
     },
@@ -5542,7 +5570,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_42",
+      "latestVersion": "r43_52",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5551,6 +5579,66 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_52",
+          "integrity": {
+            "archive": "sha384-RPNipGFkt+KVfSoCPly3sy1OlMThBLWJmmNI5YzurKwXTw90ymeYBho9f0guCDtD",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-JreFG72AerxDhrvXgtH43/hSRZ/93yK1j2WqGMtMJzRciJhaBWZS7le01SlOFRk8"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_48",
+          "integrity": {
+            "archive": "sha384-25sil5wKMYU3CGP+7dAMQXxRPvXUBLXGyuIPUdWodQZr2uwieMRgnTZC4F7Zdrzk",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-Ep6k7Dj2RMT0eU8BrF60n2qDKJ/WGjcy26qwELVAB5YCi5ekkTwoxiShdMgma9yE"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_47",
+          "integrity": {
+            "archive": "sha384-2yE6TlHrzSMRy4uNBmfhx8ETn7fB6X6IZMoo4KmNIq26Xq4VQXB+NRHGEdliJLam",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-28E7eedjabDOEsq8NbQRgi91qFrCUP+PffE648cyel1/hZt860fklS3yLGV9Jmla"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_46",
+          "integrity": {
+            "archive": "sha384-fPBLJdVnvtYtyQN7dje7MyPFZW2FMz71Ku6nR0oUt/SalEyU35fFBFcMGyP2jvn6",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-6tdNKw6A0V0A6AI70ahfdrYSvgS9zKPcFWucgbU8JWwo2kgVv0FRXW0Gzmakw+YG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_45",
+          "integrity": {
+            "archive": "sha384-8bY4jjAI13q+h79n9cTjufjLAPRTneYthzBXzGy90X0sYexs90Fji7zYCOEbJ9J1",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-mLr7Gr0OmWITiKp7+WhbrHIMeXuncnRC5duXnEQnoD4QfGhoEwmtGGn6yUdbUJ2/"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_42",
           "integrity": {
@@ -6372,13 +6460,37 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_gcmzdrops/releases/latest"
       ],
-      "latestVersion": "v0.3.25",
+      "latestVersion": "v0.4.2",
       "nicommons": "sm33020019",
       "files": [
         { "filename": "GCMZDrops", "isDirectory": true },
         { "filename": "GCMZDrops.auf" }
       ],
       "releases": [
+        {
+          "version": "v0.4.2",
+          "integrity": {
+            "archive": "sha384-bCbwNuNMcaTmu4q54fDysHfsH88x4qU1tBSkh0UrLjQgz7c9WACIjsQvenBYZV/l",
+            "file": [
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-KeLITYtHUCiahCwj0AIgc8VtZfZTsXsRGlPAUdvMcFpz87HFq8qnsjIDiKoCwiF7"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.4.1",
+          "integrity": {
+            "archive": "sha384-l9B1kF4nOqu2n36HXdCQRTg04q6yjtEhi3v+BVFHWxeB2NzXqxwc/bdN/6UoXJ4a",
+            "file": [
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-OGicOaA3efddufAH2no67su8XOmPmSPRv2W5jpup/9xIcWTr2CPACEcPQGIE4N9t"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.4.0beta8",
           "integrity": {
@@ -7780,10 +7892,34 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.5",
+      "latestVersion": "v0.3.7",
       "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }],
       "releases": [
+        {
+          "version": "v0.3.7",
+          "integrity": {
+            "archive": "sha384-17BwLPeKO7uHn18QZOqC9fRCdU8A/ZUaw3mF6DggRsU3ghzv9hM0XuVoHgcWEnL8",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-5/4XknY+YXs65R/kTf1oaheYgDEALW7XPE0+aJN2l6p/oM/PMHoZq8PCs3eXfsct"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3.6",
+          "integrity": {
+            "archive": "sha384-PjuH5cky7mSQ8FEgkUOD6ci2Zm0sao7QWFiYUBMd6d5McH6IeTswtT4/imDLFrBd",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-2PC/J4TmmnNdWqK/HmNPmG6QcbEYmi4yPJl1B9eiXQz8H0wAGOQhunO+fKncRJHK"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.5",
           "integrity": {
@@ -8296,7 +8432,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
       "downloadURLs": ["https://github.com/rigaya/ffmpegOut/releases/latest"],
-      "latestVersion": "1.09",
+      "latestVersion": "1.10",
       "files": [
         { "filename": "plugins/ffmpegOut.auo", "archivePath": "plugins" },
         { "filename": "plugins/ffmpegOut.ini", "archivePath": "plugins" },
@@ -8313,6 +8449,18 @@
         { "filename": "exe_files", "isDirectory": true, "isInstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-qaqKE8K2O2uuN58Q7NCWm0PZHcvDENW6LEkRm7K1S4+reYtg2IaaA+D8exkwRGWR",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-teMR+/g+0T1C1dBaZP80oh7QiOiDZAQaGjLPyXqR6lWPLMEWg/6v0uv7OssqSRFD"
+              }
+            ]
+          }
+        },
         {
           "version": "1.09",
           "integrity": {
@@ -8431,7 +8579,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.37",
+      "latestVersion": "7.46",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -8458,6 +8606,66 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.46",
+          "integrity": {
+            "archive": "sha384-ocxI5hjfvirqgrS/6ciaQEfzMB99o+S+fRhxRS21uPJM8BSC/OEy8bXS0Vqish4n",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-dogZI6l0zHErMvBiVe94jdE8G7HTMFoi1pb8Ejf0xEP9hLD5TduL1vaJoujK91EI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.45",
+          "integrity": {
+            "archive": "sha384-LOWxg/X1dtbgvQ7OCi2gIrEOfpFvIoxU5yYjwybp6TxW0vL423w3j/XJnse9iPVp",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-GJ31EmjGrcmB/YeY7bTxwCYW+sNpzrdC9H9XzxwvAxPgaR8eghN1zHdkZi+UG0KO"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.42",
+          "integrity": {
+            "archive": "sha384-MQ4kDhpg4g5QrqtgiRrmTxNrySzAtgGDqytexQWY1Cx13H852tR982CDpcr9RXs6",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-qHMEi+FBKf4JpZvt+rlCDT3u9wdi6IuAK1xM5jbO+Kvo9w6ujen5F7Pn6yKGiGoI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.41",
+          "integrity": {
+            "archive": "sha384-PgzXiVnvlxu9/wkxCQOGPJ8aZ5m9MEJleRumwJvcotrOjgWqIwY+0fJgpOhtY7uj",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-NCEXiDIg+BVAPLGJCQQs82k/D26CjnTacdhVFp/0kNcRBfVOAS2X9erCvTRx/18v"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.40",
+          "integrity": {
+            "archive": "sha384-Z3aIGRRaKhZwTvI9/k3iE/Pnf7NotYqfH8wboKRTVAPRWr6c7bQ7LvG2kW2Q/KvW",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-sIiTM9TsTnbUBkJmrt7JvZdgycVW2iDPFm3RIqmUgcCw+k6aae1HZZZCMm/5WiHB"
+              }
+            ]
+          }
+        },
         {
           "version": "7.37",
           "integrity": {
@@ -9022,7 +9230,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.54",
+      "latestVersion": "7.61",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -9049,6 +9257,42 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.61",
+          "integrity": {
+            "archive": "sha384-mo8WoECNAuLjV8OPRvF/3H8opvU1/YF8RHe/NMWpno5qVmSbVHOqX+OVVcISBQx4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-8CkMlzGPkvZ7Voexsoh1+LaXtEaw0XoUYnfIyUs0FO5VFiEr2WmcufnuJtfYeimh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.58",
+          "integrity": {
+            "archive": "sha384-Q8ZsQLxvvvP9OhkfnhaqJcaQpB8KbqVS0TWc1jLD1l91FuLw+jj/Gms1AmOcmopT",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-1XMl/zzon2J4Kgg1B9cIMFcb4HRHEXfnNOsZZjEMa9D+MqlyiMQmPTxOwvbKzH03"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.57",
+          "integrity": {
+            "archive": "sha384-CThLnhValfhpBJfoZKk8E6uxhFdQ6y0FcS52fHtBJnyY+xG2BTEsh5ABdKrIznHJ",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-OvHiDnppG4KDgaWwitjeU/h56SHefaiRL0p/80iJ74+nLNXHcvqUMRevc1gop1QC"
+              }
+            ]
+          }
+        },
         {
           "version": "7.54",
           "integrity": {
@@ -9985,7 +10229,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "8.20",
+      "latestVersion": "8.22",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -10012,6 +10256,30 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.22",
+          "integrity": {
+            "archive": "sha384-ef8iWLpdBCopPe8HLs7um1m9EKIe0MS63oRSEGUpHiocbZpdsUXZRupNLfXIEhSy",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-p17Cw1GK3Vro4AQFQfGjNM9I9SwJaycHWcIPRQBa4AZEaVppE+7g+UM6V1sRHfjD"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.21",
+          "integrity": {
+            "archive": "sha384-nIMxJdWz7qVCoMQbKfioKScRsxNpzmMDlIm1TN4dnyqBhIy4zCGXd0PzdmxVl7ed",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-boqAOh3wzSqzPxAFMMiPk45g0cOccBfiTc4kY1o4VDLsIxoS2Oz+i/XEqxasmt/e"
+              }
+            ]
+          }
+        },
         {
           "version": "8.20",
           "integrity": {
@@ -10442,7 +10710,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x264guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x264guiEx/releases/latest"],
-      "latestVersion": "3.26",
+      "latestVersion": "3.27",
       "nicommons": "sm40417801",
       "files": [
         { "filename": "plugins/x264guiEx.auo", "archivePath": "plugins" },
@@ -10467,6 +10735,18 @@
         { "filename": "exe_files/x264_3094_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "3.27",
+          "integrity": {
+            "archive": "sha384-qvmyhTrGAXj45glyKz+oaJoX6LGstA6qJfctludxwb98y4byXpdyL8ns1jtri6M/",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-x+yV38FLFiLfABemFV9LO8zRFE50fHAbTftMn7lWhEBllQN96hA1S8XNvfHZr6yH"
+              }
+            ]
+          }
+        },
         {
           "version": "3.26",
           "integrity": {
@@ -10813,7 +11093,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/x265guiEx#readme",
       "downloadURLs": ["https://github.com/rigaya/x265guiEx/releases/latest"],
-      "latestVersion": "4.16",
+      "latestVersion": "4.17",
       "files": [
         { "filename": "plugins/x265guiEx.auo", "archivePath": "plugins" },
         { "filename": "plugins/x265guiEx.ini", "archivePath": "plugins" },
@@ -10840,6 +11120,18 @@
         { "filename": "exe_files/x265_3.5+35_x86.exe", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "4.17",
+          "integrity": {
+            "archive": "sha384-q1SlW+XvZd3B6/4knXEny3d3ugrOjdGjX/5y7csVpydgc+JiepnR3ODulD8w9p4g",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-R861bzmFHQwYzFJ41xvR868uEB7yvR/8ILwuwnYFAPloXJw0zJHB5HZUBGoHkawX"
+              }
+            ]
+          }
+        },
         {
           "version": "4.16",
           "integrity": {

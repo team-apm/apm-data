@@ -3219,13 +3219,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "7.2.0",
+      "latestVersion": "7.3.0",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini", "isUninstallOnly": true },
         { "filename": "plugins/ShowWaveform", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.3.0",
+          "integrity": {
+            "archive": "sha384-qBe/0+t9mUnu0kaZnmM63nTAEO1v48ah9NsM2664ZrPCCNYbzLT3PG36RsB871Qv",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-kZEp6D9fMnRts21e3J9j9B9eyRShohhAqFkyKG0ZZUf1TQn5pIM7j1ZjAT1qpmYu"
+              }
+            ]
+          }
+        },
         {
           "version": "7.2.0",
           "integrity": {
@@ -4683,9 +4695,21 @@
       "downloadURLs": [
         "https://github.com/karoterra/aviutl_ShowLimit/releases/latest"
       ],
-      "latestVersion": "v0.4.0",
+      "latestVersion": "v0.5.1",
       "files": [{ "filename": "plugins/ShowLimit.auf" }],
       "releases": [
+        {
+          "version": "v0.5.1",
+          "integrity": {
+            "archive": "sha384-3Kf8Fewiuy2SE2rF37MBJpfiyKLEuK5DUnZ8g+mG/yeNjGM9P1egGN9EROYLFo3q",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-k9gw+V6e21bmH+2WEzo0cqKm6ttsA6hKiNgT86ubBFtway1txNIS+c62dxFbKyDl"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.4.0",
           "integrity": {
@@ -5247,7 +5271,7 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-03-14-01-16-08/L-SMASH-Works_r1115_Mr-Ojii_Mr-Ojii.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-09-29-01-39-34/L-SMASH-Works_r1145_Mr-Ojii_Mr-Ojii.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
@@ -5530,7 +5554,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_52",
+      "latestVersion": "r43_64",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5539,6 +5563,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_64",
+          "integrity": {
+            "archive": "sha384-GW5mjhOsMbGeDiQ+5ihRT5F9P0yNQR07n0bpNBwD5f790902JqyeQLDVanDxGsGp",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-9Sn/Fh+N1XtpPmutqtT2ZXl5ktt89lOAzoLS3c1KZsy7IlibbWXVRrkHkVut9o4Z"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_52",
           "integrity": {
@@ -7852,10 +7888,22 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_textassist/releases/latest"
       ],
-      "latestVersion": "v0.3.7",
+      "latestVersion": "v0.3.8",
       "nicommons": "sm37598954",
       "files": [{ "filename": "textassist.auf" }],
       "releases": [
+        {
+          "version": "v0.3.8",
+          "integrity": {
+            "archive": "sha384-wiE+zkuGENDVKrl5S9OklI8oKyYNol0NqGHriq675lPCJ0LS9S76Vzcq2kybAWve",
+            "file": [
+              {
+                "target": "textassist.auf",
+                "hash": "sha384-uu4pp3rVXSKvh0nyoPw6ZYVKBoHpE+C5hpnz5qcWGPGgPs2aE3JA4o8OC8+bL2DO"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.3.7",
           "integrity": {

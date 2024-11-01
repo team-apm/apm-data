@@ -4,6 +4,7 @@
     {
       "files": ["*.xsd"],
       "options": {
+        "plugins": ["@prettier/plugin-xml"],
         "xmlWhitespaceSensitivity": "ignore"
       }
     },

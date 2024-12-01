@@ -1,5 +1,6 @@
 {
   "singleQuote": true,
+  "plugins": ["prettier-plugin-packagejson"],
   "overrides": [
     {
       "files": ["*.xsd"],

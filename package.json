@@ -1,10 +1,10 @@
 {
   "name": "apm-data",
   "version": "1.0.0",
-  "repository": "https://github.com/hal-shu-sato/apm-data.git",
-  "author": "ato lash <hal-shu-sato@users.noreply.github.com>",
-  "license": "CC BY-NC-SA 4.0",
   "private": true,
+  "repository": "https://github.com/hal-shu-sato/apm-data.git",
+  "license": "CC BY-NC-SA 4.0",
+  "author": "ato lash <hal-shu-sato@users.noreply.github.com>",
   "type": "module",
   "scripts": {
     "lint": "run-s lint:prettier lint:eslint lint:jsonschema",
@@ -30,6 +30,13 @@
     "generate-releases": "node util/generate-releases.js",
     "format": "node util/format-json.js"
   },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,html,css,md,xml,xsd}": "prettier --write"
+  },
   "devDependencies": {
     "7zip-bin": "^5.2.0",
     "@octokit/rest": "^21.0.2",
@@ -50,14 +57,8 @@
     "node-7z": "^3.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.4.1",
+    "prettier-plugin-packagejson": "^2.5.6",
     "release-it": "^17.10.0",
     "ssri": "^12.0.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "*.{json,html,css,md,xml,xsd}": "prettier --write"
   }
 }

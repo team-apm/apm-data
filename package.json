@@ -52,7 +52,7 @@
     "eslint-config-prettier": "^9.1.0",
     "fast-xml-parser": "^4.5.0",
     "fs-extra": "^11.2.0",
-    "globals": "^15.12.0",
+    "globals": "^15.13.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "node-7z": "^3.0.0",

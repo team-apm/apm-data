@@ -5275,10 +5275,51 @@
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
-        { "filename": "plugins/lwcolor.auc" },
-        { "filename": "plugins/lwdumper.auf" },
-        { "filename": "plugins/lwinput.aui" },
-        { "filename": "plugins/lwmuxer.auf" }
+        {
+          "filename": "lwcolor.auc"
+        },
+        {
+          "filename": "lwdumper.auf"
+        },
+        {
+          "filename": "lwinput.aui"
+        },
+        {
+          "filename": "lwinput64.aui"
+        },
+        {
+          "filename": "lwmuxer.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "r1145",
+          "integrity": {
+            "archive": "sha384-OLxFWAyQiTdzLLLbdfqJSDdYtJooJn4cm0EzvcPqQlpGEzVEp86dyGUYwckOIK0w",
+            "file": [
+              {
+                "hash": "sha384-/l4b2GZh3Z94K2BlIuNI5UxsG1GFi0ih/o6NegMEpKsxEAmniR1RCGNMP3Xa9e71",
+                "target": "lwcolor.auc"
+              },
+              {
+                "hash": "sha384-o1+z9M4egfYxVx20XSwYVzS/2uTF8k9G5qRtWDuri12GruhHNkibvX5mVMhzUcdL",
+                "target": "lwdumper.auf"
+              },
+              {
+                "hash": "sha384-aWq7DoHxHLjVa4if+B2CUaP4Fbgvh2gssINiKsqictZtW3dyp+BetqW42BnQBkRV",
+                "target": "lwinput.aui"
+              },
+              {
+                "hash": "sha384-lUHKN12GrbNeYsAcVNsJA7tZoNkm0peqadLjmXu7UHUG/+CgAXxRSw+6wL7oeGIb",
+                "target": "lwinput64.aui"
+              },
+              {
+                "hash": "sha384-n1vlT4QlNTtEvArWYxKFfE3a6SMR8zHrlhNzcHAqZrQnSsugCkDAaz2xAL0jr7Ac",
+                "target": "lwmuxer.auf"
+              }
+            ]
+          }
+        }
       ]
     },
     {

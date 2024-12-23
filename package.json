@@ -45,7 +45,7 @@
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^3.0.1",
     "apm-schema": "team-apm/apm-schema#v3.3.0",
-    "chalk": "^5.4.0",
+    "chalk": "^5.4.1",
     "clipboardy": "^4.0.0",
     "compare-versions": "^6.1.1",
     "eslint": "^9.17.0",

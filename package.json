@@ -40,7 +40,7 @@
   "devDependencies": {
     "7zip-bin": "^5.2.0",
     "@eslint/js": "^9.17.0",
-    "@octokit/rest": "^21.0.2",
+    "@octokit/rest": "^21.1.0",
     "@prettier/plugin-xml": "^3.4.1",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^3.0.1",

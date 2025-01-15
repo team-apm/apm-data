@@ -12,6 +12,7 @@ updates:
     groups:
       eslint:
         patterns:
+          - '@eslint/*'
           - 'eslint*'
 
   - package-ecosystem: 'github-actions'

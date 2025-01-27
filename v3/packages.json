@@ -3999,7 +3999,7 @@
         {
           "filename": "plugins/ultimate",
           "archivePath": "plugins",
-          "isDirectory": true,          
+          "isDirectory": true,
           "isUninstallOnly": true
         },
         {

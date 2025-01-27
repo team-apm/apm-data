@@ -2950,7 +2950,7 @@
         "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/releases/tag/r36"
       ],
       "name": "python実行環境",
-      "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/tree/master?tab=readme-ov-file",
+      "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin#readme",
       "overview": "アルティメットプラグインの実行に必要なPython実行環境",
       "description": "蛇色(へびいろ)氏のプラグインの実行に必要な環境です。'python32_r36.zip'をダウンロードしてください。",
       "latestVersion": "r36",
@@ -3993,13 +3993,14 @@
       "overview": "AviUtlを使いやすくする複合プラグイン",
       "description": "蛇色(へびいろ)制作プラグインを１つに統合したプラグイン",
       "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/wiki/",
-      "dependencies": ["aviutl1.10", "exedit0.92"],
+      "dependencies": ["aviutl1.10", "exedit0.92", "hebiiro/python32"],
       "conflicts": ["ePi/patch", "nazono/patch<=r43_42"],
       "files": [
         {
           "filename": "plugins/ultimate",
           "archivePath": "plugins",
-          "isDirectory": true
+          "isDirectory": true,          
+          "isUninstallOnly": true
         },
         {
           "filename": "ultimate.auf",

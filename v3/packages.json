@@ -4003,11 +4003,11 @@
           "isUninstallOnly": true
         },
         {
-          "filename": "ultimate.auf",
+          "filename": "plugins/ultimate.auf",
           "archivePath": "plugins"
         },
         {
-          "filename": "ultimate.aul",
+          "filename": "plugins/ultimate.aul",
           "archivePath": "plugins"
         }
       ],

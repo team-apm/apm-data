@@ -2944,6 +2944,25 @@
       ]
     },
     {
+      "id": "hebiiro/python32",
+      "developer": "hebiiro",
+      "downloadURLs": [
+        "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/releases/tag/r36"
+      ],
+      "name": "python実行環境",
+      "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin#readme",
+      "overview": "アルティメットプラグインの実行に必要なPython実行環境",
+      "description": "蛇色(へびいろ)氏のプラグインの実行に必要な環境です。'python32_r36.zip'をダウンロードしてください。",
+      "latestVersion": "r36",
+      "files": [
+        {
+          "filename": "plugins/ultimate",
+          "archivePath": "plugins",
+          "isDirectory": true
+        }
+      ]
+    },
+    {
       "id": "hebiiro/SaveImage",
       "name": "画像保存",
       "overview": "現在のフレーム、または選択アイテムを画像として保存",
@@ -3957,6 +3976,62 @@
               {
                 "target": "SwitchSettings.exe",
                 "hash": "sha384-HJ5PFgi/yEdxfxfvCXYey6I3q34OAFYG7Ji8vkrjVd9TsG7RMWAuFBbJY/xwU3o8"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hebiiro/UltimatePlugin",
+      "developer": "hebiiro",
+      "downloadURLs": [
+        "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/releases/latest"
+      ],
+      "name": "アルティメットプラグイン",
+      "latestVersion": "r38",
+      "overview": "AviUtlを使いやすくする複合プラグイン",
+      "description": "蛇色(へびいろ)制作プラグインを１つに統合したプラグイン",
+      "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/wiki/",
+      "dependencies": ["aviutl1.10", "exedit0.92", "hebiiro/python32"],
+      "conflicts": ["ePi/patch", "nazono/patch<=r43_42"],
+      "files": [
+        {
+          "filename": "plugins/ultimate",
+          "archivePath": "plugins",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/ultimate.auf",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/ultimate.aul",
+          "archivePath": "plugins"
+        }
+      ],
+      "releases": [
+        {
+          "version": "r38",
+          "integrity": {
+            "archive": "sha384-lz85EanJbsWmpwzg3WnZdSi3RqURPr1c3VUIXrRmQ4tk58LFoks3pjzky5yAVTTG",
+            "file": [
+              {
+                "hash": "sha384-Q5GoWcXGAmFcQUe2nPKrODQ9qgHX7/GjcCrAs+ALo54Dg6Ns2YOXezkgqtV3B+b/",
+                "target": "patch.aulの設定.html_local"
+              },
+              {
+                "hash": "sha384-+wk+lYuye44KLsJ8zyzJwtfvGQL1hOMmL0NwwH4ME31Z4yZacGdMaca37Ymbp0EP",
+                "target": "アルティメットプラグインの設定.html_local"
+              },
+              {
+                "hash": "sha384-x/5uEnq23wbaVB0ozHnu6m7kbWyMxcgmHnhhBsoWlpks6EhlgkN/eD05j61NSZ3k",
+                "target": "ultimate.auf"
+              },
+              {
+                "hash": "sha384-HO3vnD3WQZQSQQv6yHDUVXjc6xZWIzjL4LOES0VIq1LHGGiCMhUMXrIZZPhLQJin",
+                "target": "ultimate.aul"
               }
             ]
           }

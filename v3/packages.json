@@ -46,11 +46,15 @@
       "downloadURLs": [
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
-      "latestVersion": "v2.0",
+      "latestVersion": "v2.0_1",
       "nicommons": "sm35585310",
       "files": [
         {
           "filename": "plugins/InputPipeMain.exe",
+          "archivePath": "InputPipePlugin/"
+        },
+        {
+          "filename": "plugins/InputPipeMain64.exe",
           "archivePath": "InputPipePlugin/"
         },
         {
@@ -5351,19 +5355,39 @@
       "isContinuous": true,
       "files": [
         {
-          "filename": "lwcolor.auc"
+          "filename": "plugins/lwcolor.auc"
         },
         {
-          "filename": "lwdumper.auf"
+          "filename": "plugins/lwdumper.auf"
         },
         {
-          "filename": "lwinput.aui"
+          "filename": "plugins/lwinput.aui"
         },
         {
-          "filename": "lwinput64.aui"
+          "filename": "plugins/lwinput64.aui"
         },
         {
-          "filename": "lwmuxer.auf"
+          "filename": "plugins/lwmuxer.auf"
+        },
+        {
+          "filename": "lwcolor.auc",
+          "isObsolete": true
+        },
+        {
+          "filename": "lwdumper.auf",
+          "isObsolete": true
+        },
+        {
+          "filename": "lwinput.aui",
+          "isObsolete": true
+        },
+        {
+          "filename": "lwinput64.aui",
+          "isObsolete": true
+        },
+        {
+          "filename": "lwmuxer.auf",
+          "isObsolete": true
         }
       ],
       "releases": [

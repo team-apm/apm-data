@@ -46,7 +46,7 @@
       "downloadURLs": [
         "https://github.com/amate/InputPipePlugin/releases/latest"
       ],
-      "latestVersion": "v2.0_1",
+      "latestVersion": "v2.0",
       "nicommons": "sm35585310",
       "files": [
         {
@@ -2957,7 +2957,7 @@
       "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin#readme",
       "overview": "アルティメットプラグインの実行に必要なPython実行環境",
       "description": "蛇色(へびいろ)氏のプラグインの実行に必要な環境です。'python32_r36.zip'をダウンロードしてください。",
-      "latestVersion": "r36",
+      "latestVersion": "r73",
       "files": [
         {
           "filename": "plugins/ultimate",
@@ -3242,13 +3242,25 @@
       "downloadURLs": [
         "https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest"
       ],
-      "latestVersion": "7.3.0",
+      "latestVersion": "7.3.1",
       "files": [
         { "filename": "plugins/ShowWaveform.auf" },
         { "filename": "plugins/ShowWaveform.ini", "isUninstallOnly": true },
         { "filename": "plugins/ShowWaveform", "isDirectory": true }
       ],
       "releases": [
+        {
+          "version": "7.3.1",
+          "integrity": {
+            "archive": "sha384-+EVqmGs9lwosrNlgjdKBy7aPciJyMUtdUpDYRYzokt5tlH1mJs6wscWQ/JYkFCrI",
+            "file": [
+              {
+                "target": "plugins/ShowWaveform.auf",
+                "hash": "sha384-HYN6S70qBFPBRhKcJbNAQvBV/HqSQktD4R23CdgFRVkN+ntQzZQrSnS+UCw2XNSe"
+              }
+            ]
+          }
+        },
         {
           "version": "7.3.0",
           "integrity": {
@@ -3993,7 +4005,7 @@
         "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/releases/latest"
       ],
       "name": "アルティメットプラグイン",
-      "latestVersion": "r38",
+      "latestVersion": "r73",
       "overview": "AviUtlを使いやすくする複合プラグイン",
       "description": "蛇色(へびいろ)制作プラグインを１つに統合したプラグイン",
       "pageURL": "https://github.com/hebiiro/anti.aviutl.ultimate.plugin/wiki/",
@@ -4006,14 +4018,8 @@
           "isDirectory": true,
           "isUninstallOnly": true
         },
-        {
-          "filename": "plugins/ultimate.auf",
-          "archivePath": "plugins"
-        },
-        {
-          "filename": "plugins/ultimate.aul",
-          "archivePath": "plugins"
-        }
+        { "filename": "plugins/ultimate.auf", "archivePath": "plugins" },
+        { "filename": "plugins/ultimate.aul", "archivePath": "plugins" }
       ],
       "releases": [
         {
@@ -5155,7 +5161,7 @@
       "downloadURLs": [
         "https://github.com/mimaraka/aviutl-plugin-curve_editor/releases/latest"
       ],
-      "latestVersion": "v1.0.6",
+      "latestVersion": "v2.0-beta1.0.1",
       "files": [
         {
           "filename": "plugins/curve_editor.auf",
@@ -5350,45 +5356,20 @@
       "downloadURLs": [
         "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest"
       ],
-      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2024-11-07-01-32-27/L-SMASH-Works_r1150_Mr-Ojii_Mr-Ojii.zip",
+      "directURL": "https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2025-02-18-14-45-37/L-SMASH-Works_r1151_Mr-Ojii_Mr-Ojii.zip",
       "latestVersion": "最新",
       "isContinuous": true,
       "files": [
-        {
-          "filename": "plugins/lwcolor.auc"
-        },
-        {
-          "filename": "plugins/lwdumper.auf"
-        },
-        {
-          "filename": "plugins/lwinput.aui"
-        },
-        {
-          "filename": "plugins/lwinput64.aui"
-        },
-        {
-          "filename": "plugins/lwmuxer.auf"
-        },
-        {
-          "filename": "lwcolor.auc",
-          "isObsolete": true
-        },
-        {
-          "filename": "lwdumper.auf",
-          "isObsolete": true
-        },
-        {
-          "filename": "lwinput.aui",
-          "isObsolete": true
-        },
-        {
-          "filename": "lwinput64.aui",
-          "isObsolete": true
-        },
-        {
-          "filename": "lwmuxer.auf",
-          "isObsolete": true
-        }
+        { "filename": "plugins/lwcolor.auc" },
+        { "filename": "plugins/lwdumper.auf" },
+        { "filename": "plugins/lwinput.aui" },
+        { "filename": "plugins/lwinput64.aui" },
+        { "filename": "plugins/lwmuxer.auf" },
+        { "filename": "lwcolor.auc", "isObsolete": true },
+        { "filename": "lwdumper.auf", "isObsolete": true },
+        { "filename": "lwinput.aui", "isObsolete": true },
+        { "filename": "lwinput64.aui", "isObsolete": true },
+        { "filename": "lwmuxer.auf", "isObsolete": true }
       ],
       "releases": [
         {
@@ -5694,7 +5675,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_64",
+      "latestVersion": "r43_69",
       "nicommons": "sm41687191",
       "files": [
         { "filename": "patch.aul" },
@@ -5703,6 +5684,18 @@
         { "filename": "plugins/patch.aul.json", "isUninstallOnly": true }
       ],
       "releases": [
+        {
+          "version": "r43_69",
+          "integrity": {
+            "archive": "sha384-tDDYY6wnBr/8/532/opAi+AyC5vlDip5p8Dt+lvAow4KwAazJEfdqBNgvGi8TSKt",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-l13Iq58V/uyO/0oaRCxAn8XUupemotL32ZD4vYEwcrxcmsuZz/PT69HbnTUTJte4"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_64",
           "integrity": {
@@ -6608,13 +6601,25 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_gcmzdrops/releases/latest"
       ],
-      "latestVersion": "v0.4.2",
+      "latestVersion": "v0.4.4",
       "nicommons": "sm33020019",
       "files": [
         { "filename": "GCMZDrops", "isDirectory": true },
         { "filename": "GCMZDrops.auf" }
       ],
       "releases": [
+        {
+          "version": "v0.4.4",
+          "integrity": {
+            "archive": "sha384-bMj34Bs6TK1+q2MhMCTDNKX7tKhINwvfiaUFXaIjTxJmr6xx/T8v13bppmz3UM3i",
+            "file": [
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-sozrNoYTWYczQx1gHZJN9/6TvGP1cEKH8iikM+y0wejRWlgoh0Cf9l3zfzKy8rBP"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.4.2",
           "integrity": {
@@ -8751,7 +8756,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/NVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/NVEnc/releases/latest"],
-      "latestVersion": "7.73",
+      "latestVersion": "8.00b2",
       "files": [
         { "filename": "plugins/NVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/NVEnc.ini", "archivePath": "plugins" },
@@ -8778,6 +8783,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.00b2",
+          "integrity": {
+            "archive": "sha384-MjDJvXq5dIHcTifOXKEV1zTMZjMir/5dy0eoJSsoWUxlqC9u+EnUq7I5MM9IJI2E",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-6wKSX7n4Sa1zwCROYCfY5JRScS2QrsnxEcE00LfammKVZevSjU7knGDWaihg0uJx"
+              }
+            ]
+          }
+        },
         {
           "version": "7.73",
           "integrity": {
@@ -9414,7 +9431,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/QSVEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/QSVEnc/releases/latest"],
-      "latestVersion": "7.72",
+      "latestVersion": "7.81",
       "files": [
         { "filename": "plugins/QSVEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/QSVEnc.ini", "archivePath": "plugins" },
@@ -9441,6 +9458,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "7.81",
+          "integrity": {
+            "archive": "sha384-lu4dubALiWr7a2nWVktmZm0z4FfHc9WJDcIZKJZpS3YjnrH7NQaa/EX4S9AcHYoW",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-KVqrUnmFff2nSepH9CG/gBsNupEFw+OJXDS4wX6Gzpl+feqgC29KGfzn0gklRpVZ"
+              }
+            ]
+          }
+        },
         {
           "version": "7.72",
           "integrity": {
@@ -10437,7 +10466,7 @@
       "developer": "rigaya",
       "pageURL": "https://github.com/rigaya/VCEEnc#readme",
       "downloadURLs": ["https://github.com/rigaya/VCEEnc/releases/latest"],
-      "latestVersion": "8.23",
+      "latestVersion": "8.30",
       "files": [
         { "filename": "plugins/VCEEnc.auo", "archivePath": "plugins" },
         { "filename": "plugins/VCEEnc.ini", "archivePath": "plugins" },
@@ -10464,6 +10493,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.30",
+          "integrity": {
+            "archive": "sha384-/4eo97Qp7Dz1+r1TnYhDR8aabEwxwE/hNiMb2Rhq/O4bXrw0qQBI9a/19ky7zV3o",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-OXOCrMpOlyoywdBa8Pg+Nu3cVbKwE62S1QsRjYwDDRLPijW6O37w7ZDvVgy2Dzpj"
+              }
+            ]
+          }
+        },
         {
           "version": "8.23",
           "integrity": {

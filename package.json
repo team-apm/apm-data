@@ -57,7 +57,7 @@
     "lint-staged": "^15.4.3",
     "node-7z": "^3.0.0",
     "npm-run-all2": "^7.0.2",
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "prettier-plugin-packagejson": "^2.5.8",
     "release-it": "^18.1.2",
     "ssri": "^12.0.0"

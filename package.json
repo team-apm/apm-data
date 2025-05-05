@@ -59,7 +59,7 @@
     "npm-run-all2": "^8.0.1",
     "prettier": "^3.5.3",
     "prettier-plugin-packagejson": "^2.5.10",
-    "release-it": "^19.0.1",
+    "release-it": "^19.0.2",
     "ssri": "^12.0.0"
   },
   "packageManager": "yarn@1.22.22"

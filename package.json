@@ -58,7 +58,7 @@
     "node-7z": "^3.0.0",
     "npm-run-all2": "^8.0.1",
     "prettier": "^3.5.3",
-    "prettier-plugin-packagejson": "^2.5.11",
+    "prettier-plugin-packagejson": "^2.5.14",
     "release-it": "^19.0.2",
     "ssri": "^12.0.0"
   },

@@ -23,23 +23,10 @@ function packages(): void {
   }
   for (const pkg of packages) {
     const id = pkg.id;
-    const { releases, ...rests } = pkg;
-    const pkgYaml = yaml.dump(rests);
+    const pkgYaml = yaml.dump(pkg);
     fs.outputFile(`src/packages/${id}/package.yaml`, pkgYaml, {
       encoding: 'utf-8',
     });
-    if (!releases) {
-      continue;
-    }
-    for (const release of releases) {
-      const version = release.version.replace(/\//g, '-');
-      const releaseYaml = yaml.dump(release);
-      fs.outputFile(
-        `src/packages/${id}/releases/${version}.yaml`,
-        releaseYaml,
-        { encoding: 'utf-8' },
-      );
-    }
   }
 }
 

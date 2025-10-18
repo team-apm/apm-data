@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../schema/mod.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<mod version="1">
-	<core>2021-12-11T12:55:00+09:00</core>
-	<packages_list>2021-12-11T20:10:00+09:00</packages_list>
-</mod>

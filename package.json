@@ -5,7 +5,6 @@
   "repository": "https://github.com/hal-shu-sato/apm-data.git",
   "license": "CC BY-NC-SA 4.0",
   "author": "ato lash <hal-shu-sato@users.noreply.github.com>",
-  "type": "module",
   "scripts": {
     "check-convert": "tsx util/check-convert.ts",
     "check-update": "tsx util/check-update.ts",

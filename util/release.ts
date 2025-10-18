@@ -130,7 +130,7 @@ function list(): void {
   } as List;
   for (const devDir of Object.keys(packagesList)) {
     list.packages.push({
-      path: `packages/${devDir}.yaml`,
+      path: `packages/${devDir}.json`,
       modified: new Date().toISOString(),
     });
   }

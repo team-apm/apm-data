@@ -2,9 +2,9 @@
   "name": "apm-data",
   "version": "1.0.0",
   "private": true,
-  "repository": "https://github.com/hal-shu-sato/apm-data.git",
+  "repository": "https://github.com/team-apm/apm-data.git",
   "license": "CC BY-NC-SA 4.0",
-  "author": "ato lash <hal-shu-sato@users.noreply.github.com>",
+  "author": "ato lash <28973861+hal-shu-sato@users.noreply.github.com>",
   "scripts": {
     "check-convert": "tsx util/check-convert.ts",
     "check-update": "tsx util/check-update.ts",

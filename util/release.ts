@@ -20,6 +20,7 @@
  *   - v3/scripts.min.json
  */
 import { Convert, Core, List, Packages, Scripts } from 'apm-schema';
+import { execSync } from 'child_process';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 
@@ -114,31 +115,135 @@ function scripts(): void {
   fs.outputJson(V3_SCRIPTS_MIN_JSON, scriptsJson);
 }
 
+/**
+ * Compare a workspace file against the file content in `main` branch.
+ * Returns true if the file is new, deleted, or different from main.
+ */
+function isDifferentFromMain(workspacePath: string, mainPath: string): boolean {
+  try {
+    // Get blob hash of the file on main (if present)
+    let mainHash: string | null = null;
+    try {
+      const ls = execSync(`git ls-tree -r main -- ${mainPath}`, {
+        encoding: 'utf-8',
+        stdio: ['pipe', 'pipe', 'ignore'],
+      }).toString();
+      const line = ls.split('\n').find((l) => l.trim().length > 0) || '';
+      // line format: '<mode> <type> <hash>\t<path>' or with spaces
+      const m = line.match(/\b([0-9a-f]{40})\b/);
+      mainHash = m ? m[1] : null;
+    } catch (e) {
+      mainHash = null;
+    }
+
+    const workspaceExists = fs.existsSync(workspacePath);
+
+    // Both missing -> not different
+    if (!workspaceExists && !mainHash) return false;
+    // Deleted on workspace (exists on main) -> different
+    if (!workspaceExists && mainHash) return true;
+    // New file on workspace (not on main) -> different
+    if (workspaceExists && !mainHash) return true;
+
+    // Both exist: compare blob hashes
+    const workHash = execSync(`git hash-object ${workspacePath}`, {
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'ignore'],
+    })
+      .toString()
+      .trim();
+    return workHash !== mainHash;
+  } catch (error) {
+    console.error(
+      'Error comparing file with main (hash):',
+      workspacePath,
+      error,
+    );
+    // On any unexpected error, be conservative and treat as different
+    return true;
+  }
+}
+
+function getListJsonFromMain(): List | null {
+  try {
+    const mainContent = execSync(`git show main:${V3_LIST_JSON}`, {
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'ignore'],
+    });
+    return JSON.parse(mainContent) as List;
+  } catch (e) {
+    return null;
+  }
+}
+
 function list(): void {
-  // Also write v3/list.json which maps package path entries for convert utility
+  const listJson =
+    getListJsonFromMain() ||
+    ({
+      core: { path: 'core.json', modified: new Date().toISOString() },
+      convert: { path: 'convert.json', modified: new Date().toISOString() },
+      packages: [],
+      scripts: [{ path: 'scripts.json', modified: new Date().toISOString() }],
+    } as List);
+
+  // We'll determine differences by comparing generated v3 files to `main` content.
+
+  // Existing packages map (path -> modified)
+  const existingPackages = (listJson.packages || []) as List['packages'];
+  const existingMap = new Map<string, string>();
+  for (const p of existingPackages) existingMap.set(p.path, p.modified);
+
+  const packages: List['packages'] = [];
+  for (const devDir of Object.keys(packagesList)) {
+    const relPath = `packages/${devDir}.json`;
+    const v3Path = `v3/${relPath}`;
+    const prev = existingMap.get(relPath);
+    const isDifferent = isDifferentFromMain(v3Path, v3Path);
+    const modified = !prev || isDifferent ? new Date().toISOString() : prev;
+    packages.push({ path: relPath, modified });
+  }
+
+  // core
+  const coreIsDifferent = isDifferentFromMain(V3_CORE_JSON, V3_CORE_JSON);
+  const coreModified = coreIsDifferent
+    ? new Date().toISOString()
+    : listJson.core?.modified || new Date().toISOString();
+
+  // convert
+  const convertIsDifferent = isDifferentFromMain(
+    V3_CONVERT_JSON,
+    V3_CONVERT_JSON,
+  );
+  const convertModified = convertIsDifferent
+    ? new Date().toISOString()
+    : listJson.convert?.modified || new Date().toISOString();
+
+  // scripts
+  const scriptsPrev = (listJson.scripts && listJson.scripts[0])?.modified;
+  const scriptsIsDifferent = isDifferentFromMain(
+    V3_SCRIPTS_JSON,
+    V3_SCRIPTS_JSON,
+  );
+  const scriptsModified =
+    scriptsIsDifferent || !scriptsPrev ? new Date().toISOString() : scriptsPrev;
+
   const list = {
     core: {
       path: 'core.json',
-      modified: new Date().toISOString(),
+      modified: coreModified,
     },
     convert: {
       path: 'convert.json',
-      modified: new Date().toISOString(),
+      modified: convertModified,
     },
-    packages: [],
+    packages,
     scripts: [
       {
         path: 'scripts.json',
-        modified: new Date().toISOString(),
+        modified: scriptsModified,
       },
     ],
   } as List;
-  for (const devDir of Object.keys(packagesList)) {
-    list.packages.push({
-      path: `packages/${devDir}.json`,
-      modified: new Date().toISOString(),
-    });
-  }
   fs.outputJson(V3_LIST_JSON, list, { spaces: 2 });
   fs.outputJson(V3_LIST_MIN_JSON, list);
 }

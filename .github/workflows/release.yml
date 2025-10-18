@@ -26,3 +26,4 @@ jobs:
           publish_branch: main
           publish_dir: ./v3
           destination_dir: v3
+          enable_jekyll: true

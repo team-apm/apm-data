@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    branches: [source]
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "lts/*"
+          cache: yarn
+      - run: yarn install
+      - run: yarn run tsx util/release.ts
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
+          publish_dir: ./v3
+          destination_dir: v3

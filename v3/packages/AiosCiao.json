@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "AiosCiao/VSThost4aviutl",
+      "name": "VSTホストプラグイン＋α",
+      "overview": "aviutlで音声フィルタとしてVSTオーディオエフェクトがかけられる",
+      "description": "aviutlでVSTオーディオエフェクトプラグインを音声フィルタとして配置できるようにするためのプラグインです。１つのaufファイルにつき１DLLのみマウントできます。複数使いたい場合は、重ね掛け用のプラグインを間にはさんで使用してください。",
+      "developer": "しし/りっちゃん",
+      "pageURL": "https://www.nicovideo.jp/watch/sm29926034",
+      "downloadURLs": [
+        "https://github.com/Aios-Ciao/VSThost4aviutl/raw/master/VSThost4aviutl.zip"
+      ],
+      "latestVersion": "ver.001",
+      "nicommons": "sm29926034",
+      "files": [
+        {
+          "filename": "plugins/vsthost_1.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/vsthost_2.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/vsthost_3.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/vsthost_4.auf",
+          "archivePath": "VSThost4aviutl/"
+        },
+        {
+          "filename": "plugins/wavpatch.auf",
+          "archivePath": "VSThost4aviutl/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "yanagi/Boost",
+      "name": "Boost",
+      "overview": "AviutlをGPU動作化して超高速化",
+      "description": "フィルタ処理・画像合成にGPUを使用し、AviUtlの動作を高速化するプラグイン",
+      "developer": "柳",
+      "pageURL": "https://www.nicovideo.jp/watch/sm40499092",
+      "downloadURLs": [
+        "https://aviutl.techblog.jp/archives/aviutl_plugin_boost.html"
+      ],
+      "latestVersion": "ver0.7",
+      "nicommons": "sm40499092",
+      "files": [
+        {
+          "filename": "Boost.auf",
+          "archivePath": "Boost_ver0.7"
+        }
+      ]
+    },
+    {
+      "id": "yanagi/ContentsTree",
+      "name": "ContentsTree",
+      "overview": "動画内コンテンツを自動リストアップ",
+      "description": "動画に含まれる各種コンテンツをリスト化したHTMLを出力するプラグインです。ニコニ・コモンズIDが一覧できます。",
+      "developer": "柳",
+      "pageURL": "https://www.nicovideo.jp/watch/sm40465457",
+      "downloadURLs": [
+        "https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html"
+      ],
+      "latestVersion": "ver0.2",
+      "nicommons": "sm40465457",
+      "files": [
+        {
+          "filename": "ContentsTree.auf",
+          "archivePath": "ContentsTree_ver0.2"
+        }
+      ]
+    }
+  ]
+}

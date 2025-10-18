@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "yumetodo/SigContrastFastAviUtl",
+      "name": "SigContrastFastAviUtl",
+      "overview": "シグモイド関数に基づくコントラスト調整",
+      "description": "コントラスト/デコントラストをシグモイド関数に基づいて行うプラグイン。ImageMagick不使用。",
+      "developer": "yumetodo",
+      "dependencies": [
+        "MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks"
+      ],
+      "pageURL": "https://github.com/yumetodo/SigContrastFastAviUtl",
+      "downloadURLs": [
+        "https://github.com/yumetodo/SigContrastFastAviUtl/releases/latest"
+      ],
+      "latestVersion": "1.0.0",
+      "files": [
+        {
+          "filename": "SigColorFastAviUtl.auf",
+          "archivePath": "SigColorFastAviUtl/"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.0.0",
+          "integrity": {
+            "archive": "sha384-WvcdxcG5Zng9dvtD30/hmvQbBwLpWhgXXTk7l3Xo3UW2/xqX9+bmB0qtSf/4QhxZ",
+            "file": [
+              {
+                "target": "SigColorFastAviUtl.auf",
+                "hash": "sha384-LJ0USQIgiXWcN/qpFAfRiefmbI974ZfOnUSjAK7Rc5mGIrK20PDr5vikXHV29+8O"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

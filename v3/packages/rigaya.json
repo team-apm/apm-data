@@ -1,0 +1,3210 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "rigaya/AviutlColor",
+      "name": "AviutlColor",
+      "overview": "Aviutlの色空間変換プラグインです",
+      "description": "Aviutlの色空間変換プラグインです。",
+      "developer": "rigaya",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-25.html",
+      "downloadURLs": [
+        "https://1drv.ms/f/s!AsYziax1Q91rpA_zeixfUoylnZ9K"
+      ],
+      "latestVersion": "0.02",
+      "files": [
+        {
+          "filename": "plugins/color_bt2020nc.auc",
+          "archivePath": "AviutlColor_0.02"
+        },
+        {
+          "filename": "plugins/color_bt601.auc",
+          "archivePath": "AviutlColor_0.02"
+        },
+        {
+          "filename": "plugins/color_bt709.auc",
+          "archivePath": "AviutlColor_0.02"
+        },
+        {
+          "filename": "plugins/AviutlColor.ini",
+          "archivePath": "AviutlColor_0.02"
+        }
+      ]
+    },
+    {
+      "id": "rigaya/NVEnc",
+      "name": "NVEnc",
+      "overview": "NVIDIAのNVEncを使用したエンコード",
+      "description": "NVIDIAのNVEncを使用してエンコードを行うAviutlの出力プラグインです。NVEncによるハードウェア高速エンコードを目指します。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/NVEnc#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/NVEnc/releases/latest"
+      ],
+      "latestVersion": "7.73",
+      "files": [
+        {
+          "filename": "plugins/NVEnc.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/NVEnc.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/NVEnc.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/NVEnc_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        },
+        {
+          "filename": "exe_files/NVEncC",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "7.73",
+          "integrity": {
+            "archive": "sha384-CGHlPa+EP3ZLt6mMDomS4hnqQMO/uexeZn56Yz+m7Bngg2XsBoofHyt+vffLwVkV",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-nccN61kJc8oL4ti9HIYj8i1MuyWjkT6hqbMjHBnuZ0INUtPAceBy8fZK0P0lzdZI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.46",
+          "integrity": {
+            "archive": "sha384-ocxI5hjfvirqgrS/6ciaQEfzMB99o+S+fRhxRS21uPJM8BSC/OEy8bXS0Vqish4n",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-dogZI6l0zHErMvBiVe94jdE8G7HTMFoi1pb8Ejf0xEP9hLD5TduL1vaJoujK91EI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.45",
+          "integrity": {
+            "archive": "sha384-LOWxg/X1dtbgvQ7OCi2gIrEOfpFvIoxU5yYjwybp6TxW0vL423w3j/XJnse9iPVp",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-GJ31EmjGrcmB/YeY7bTxwCYW+sNpzrdC9H9XzxwvAxPgaR8eghN1zHdkZi+UG0KO"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.42",
+          "integrity": {
+            "archive": "sha384-MQ4kDhpg4g5QrqtgiRrmTxNrySzAtgGDqytexQWY1Cx13H852tR982CDpcr9RXs6",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-qHMEi+FBKf4JpZvt+rlCDT3u9wdi6IuAK1xM5jbO+Kvo9w6ujen5F7Pn6yKGiGoI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.41",
+          "integrity": {
+            "archive": "sha384-PgzXiVnvlxu9/wkxCQOGPJ8aZ5m9MEJleRumwJvcotrOjgWqIwY+0fJgpOhtY7uj",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-NCEXiDIg+BVAPLGJCQQs82k/D26CjnTacdhVFp/0kNcRBfVOAS2X9erCvTRx/18v"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.40",
+          "integrity": {
+            "archive": "sha384-Z3aIGRRaKhZwTvI9/k3iE/Pnf7NotYqfH8wboKRTVAPRWr6c7bQ7LvG2kW2Q/KvW",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-sIiTM9TsTnbUBkJmrt7JvZdgycVW2iDPFm3RIqmUgcCw+k6aae1HZZZCMm/5WiHB"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.37",
+          "integrity": {
+            "archive": "sha384-vlGpTDgYucAg4gADRt3PGuOcpjk2GfyMl3yf85PhtywSmAY+/81hqWoKsYELEte7",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-eEh1V2LTlhlD0j5s3D7D+RB1/X+sU7D2tJqG0T1JVP3ZDir+PrDVn4BXVnxvAOO3"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.34",
+          "integrity": {
+            "archive": "sha384-fYf4Du7iPoqHsYzQphJJR9niwj8fbyTeirfg52QrGF4NKLpeBSoHrusGfOq8b79Z",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-O58+aS03if7W5yf1qJ2Nrvj1ArjBK9xbui1yLOKT8ALo46u9Y9Rw3gBWJOami1Ak"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.33",
+          "integrity": {
+            "archive": "sha384-/gFwOwnCAtlqaX3O9ZgztMnjCI3DZJwpYuEJPgHeu5upEKAjFACrGqYfldX0DTyP",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-r/3kBcn5aApn75hvTkPYozH/xxaWFWVF7Kgm+K3SvRuE+yn8U1IoXPMaW/pVM6K5"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.32",
+          "integrity": {
+            "archive": "sha384-7BQEdmE/b92bJ2sAcwtkeFPKmePpby9Q849DpSoKtVRf/46LRRKS4EobC8PBAf3X",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-/0VWWOug3bxO3FNDemaoo4dWeW6h5iQstcvNeFakmiHebgTU9wdpLIAq1oQWQqSK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.31",
+          "integrity": {
+            "archive": "sha384-8wg/00MbIEFSQJClOS/duXLrqlufVTBVUCGeCLW1oRWkD8nefx1w0XI5rZPYOAJu",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-Z8yd64PaOYDX5KHKtDxMsFJ9nlgvuzZGdWXEvijTaqGHbQk01UOF0x7g2rq4FBeF"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.30",
+          "integrity": {
+            "archive": "sha384-CpK8GQcdjPtmTCOfdLw8rKRM6kyTJXSdLCNUvNt67wWSD88m3PiIBjnwKob4+TQl",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-Wfo8aNcyVWp59dxuiyjNiwllnLOQ1gTlJdB/Lw7k44Zb924AzZfR8rNS6dmFYiRM"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.29",
+          "integrity": {
+            "archive": "sha384-mgK/ji4pGJuS1DHkHtMeJQj5+LN6KY0z0qE5fAhtdrHgT1eJRIfq9LDmodno3HnB",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-5CP8+rH4n9rqioPckSz57Xyy/vzDWsFNTDTm0Y64DaUyR1qklU4MqYxF7DPYB+6m"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.28",
+          "integrity": {
+            "archive": "sha384-Bu4uVmvyZueslbn2RcJjJyAV75BKU/PyjyJ3MmjM09r1wqQxoWsOvGWg8DgtLXWs",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-RqZQDqCwdAjKS1RbQlO5+iZaDAa3BSa+DYETPdaz+huN6MFCYE5IxmmkSAWODT55"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.27",
+          "integrity": {
+            "archive": "sha384-ZHHJfX1YgQ+gzUVikuxvqNUtQc9mDRbnxlVusYyHCIS+PMfLzU/sCxr0eUbrLl+k",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-pUc0syulpBH1w+44neHDdkOE3djHK0kj0YdqzvWkIZYFE2ReJEJw18OQIITFW1y5"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.26",
+          "integrity": {
+            "archive": "sha384-oIlXDePPGixFjN+RH9SJ2fL80oVmN+CVC1gEPAfiZ23J3jeqKRkOC2M85+7lMZ1B",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-d7E27sltxQ4mLE3oPPZpfQOObhchV3F+rAQORnU6VZ0CJuFa+J/ZzKzFkNSlltBy"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.25",
+          "integrity": {
+            "archive": "sha384-kPUa/KWH+bqtfspRinpQlEkYhW4gTNJR7LQ2OygPMIMgISDyz2Q9HL8nvDDeJCAG",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-iQMvY3DSqTeIkJRucvRXoZChb0+gAsSnywjxk1EK/z8yWRRoLUMyDr+XAYtCxqlw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.24",
+          "integrity": {
+            "archive": "sha384-uUCMjEb8UlkJo2EDCryDjXaYF2dB827DUITqG/o7fI0WFAbn2oMqiKnlSNqLMSlF",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-gbXQnHYpnPxy3YQ5ss/dvAIM5lQcrjWAgC3EByskcrfrhiK6X/ix0okloMmZH73c"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.23",
+          "integrity": {
+            "archive": "sha384-CQPs+z5Orh8d42JQPGkzO13QrTLxQQU0ZQI4YGbbRLV/8/1ticIpb5t7NlXhJT+0",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-ac9RWvEHEP9+1JcyCxpCpTzM2DQ3hG+BBDEDiGmuf5/XAVzLxNXRb5pbOJGPobFo"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.22",
+          "integrity": {
+            "archive": "sha384-X+U6Z2OAgTW6oVf4DxO0m0xfv8+HhzhzYyp//cEbJZqLfMEMOOtpEWUeWQRIxl4M",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-gJr9NyLhkbbstccx4sbvdcuUY2e//mwhCnguUEbTSpPrp3ic0EyxelyLHwKiAJSy"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.21",
+          "integrity": {
+            "archive": "sha384-CBjnjpVNPN9XyqCL2sGvG9TqsChzbHh9FULehIpQIRGrsWxvr4I4MiT9Sm0sc6xi",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-moRmUC5pqxRR6Oi9tO0sfxWHxuTw3I4POraVF6KB6Po/i0QWjV5XdDxRrJhgC7Q+"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.20",
+          "integrity": {
+            "archive": "sha384-cdmOMDJvOd54b7rIbRUtvDHJLoRhZ3NiQYNcvcVx/rojr3s7zd//zomhqBqazPiX",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-SJvJ8j9yOZblyRdEBHWvMNBImi9HVUspYQtCvMHj16bo/5S3nwwIPiOP196rLRCU"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.19",
+          "integrity": {
+            "archive": "sha384-3J5KuOKyunPHQ8pxCHtz5JhkNarFfL0Dl3E1kLTL0oIkEDid32hO+4S6CfO7Z6Ir",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-mr9s1X5w6mVHkolcLb92jfGz7DXKkXPq95WF+g0DQth1WmUw7D2FMyaXeMeJ7OGW"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.18",
+          "integrity": {
+            "archive": "sha384-4kRBA3+eDXFcuNi2UVXN7EEqewpW6b4UNNYR0wD1J3+HFkGhApxJh8a2PJbEVOFt",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-iU8pvzW96CU70LNHAKsRZjysrB7UWwyoKvWjVu6eZESuffr/MVGpJiQYQeTWY+Ff"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.17",
+          "integrity": {
+            "archive": "sha384-GHP8X9dR1p40D+X5jbsHBHGVuU8bJEBQjSXay4cK5Kri1xWc2L2wqbFrGJC8nLmt",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-h0JoaUjmui/byYW7H25ELt1f4suQVgsOCy5QcZVGvgyhkipEwubbrrb5I/E+8tnn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.16",
+          "integrity": {
+            "archive": "sha384-CMxok2MUy2ysUt5vbT4xOsgXM9Kon4DK7nLuByIDNs2fOGMx8yd/Zbeb6YCshjxX",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-1hA7l8a37bsGxbr5bgbJ+1PzGE9fjAWPZMwhnifTIUSKEEcH7NgcpGFhd9e2+dMG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.15",
+          "integrity": {
+            "archive": "sha384-mlXUYKKMN1aJJP40t9YjHC3ejUD/7Id1ZY+mt25dYD/SGX51qimLg+5lIxM2SYx0",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-EbM3QS0zioWZtk3bmftshVYIAH9dPd/Apv68HeavLImoMWpaNSSNZ+prO0ggyVYp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.14",
+          "integrity": {
+            "archive": "sha384-xeN5b5jV83OEyOTFPAq5t1/X6QVNL0gQpageiOfL63bC8H2Dt8cq2Mk3EOASZZjw",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-s4TgF4LZGIyi4FXyeijYmJCncpSi9u81eF72gtGXA8PLV0IHpAsof1Dn+Tltytxp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.13",
+          "integrity": {
+            "archive": "sha384-RizhXyBvSihtKTTVfKvls2MbodDH+bVRrvcJDcn33z1FCSgCDDrH05MulOMQ/fYn",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-urK23GWRaW3zrFr0zYze2f3m05hQsbPX9/t09QZQRYnGn/R+pBQbf3dwcFosn4Uh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.08",
+          "integrity": {
+            "archive": "sha384-2sW9bsC78IjZTS9td19zKXEmmSAKEXYzZqG/8P6Asaf8hsZ6PGENGhQRX23OAA8A",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-C7+hQLiESltMWaFXpNCOx670Kg8+aDuwDPSw/kD3FioPBMWBO/c599Rpqr1WJJVn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.06",
+          "integrity": {
+            "archive": "sha384-OvUuXad+6bLuu/iaJ37Lwst61q9n8Kxco6+oJ94JZLenMpCfe0I2UKPoT7yofXym",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-ann32WsX7a+W+q4Owm3Rx3YHN4URQAcSfNO4BbSbYbmhLuu/G5GkQqP04Apd0Jc9"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.04",
+          "integrity": {
+            "archive": "sha384-2u9VVouxXarjffbHdFDfNfqnEp1WkQN95yd2Qhd4+qVQdzbK9/4PT3xG1mGnhXxz",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-nRZ0+5aSzeJiWhl2UH4y8KUGAo9/UEcdgyiNA9N/oMrtV+UQxmBXIzZP+gCMQzTp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.03",
+          "integrity": {
+            "archive": "sha384-fNZonSmI8TiNkBODSPzs89Qs02YsLuG3dTLqNXzmKQgYSg14ixZhfQmJtI4DU2vI",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-XyrRqOnImN+xrlF/xoACE+7fbXF4/mdgaXW9AE+ecAoz7g6O5ar7qzoI09gy/M3b"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.02",
+          "integrity": {
+            "archive": "sha384-tiqK50NyorY+88ymtsDJKyGRuE30/r5gO6UFFDr7FhxoFlHzbAMBDRPApZ00WHjn",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-Jk/VGqJBVJYMsHV4JvD7Rnpv9BMvlH/OSl1euCKMO/ubUhra/ULHPn6N38x/LftN"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.01",
+          "integrity": {
+            "archive": "sha384-tInby8JoDHQuLtY5Sy+LlAQgZ1f89WDbPoktwuicMSUzumhOVSQJsysRWArApIG8",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-jMhRsjIvgIDasBDjOI/+KXnoEt/NF0qwkPBVAX2PleHBJ9iTtWaJXmXdsUSwecpr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.00",
+          "integrity": {
+            "archive": "sha384-QD7i9aNvhHw9dIlM0Nc/Bh0xRoQrGA1hMK+HTQTQpZ8w0tzgeHQ0QwIDXbA9y6Jm",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-rFHt9d8JHpO0cCO9QUFmfn2+9P7C/pWe8rL+6kx6TwfTkMVZ9oYo8JtANm9Oicm0"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.12",
+          "integrity": {
+            "archive": "sha384-UWzAYkQw2BEHkWxi4WG5ha5lc5IXQzCwR89FbvchfU9NAzUL8y0AN5F8BrcleRl7",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-0VAsJQC3E1ncaX/JHqsjw35Rc2XDGMyyv852mdhnDK7CvGY72tBlNcPALLatLxqG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.11",
+          "integrity": {
+            "archive": "sha384-aWWwFji9Dsl3SoWIpjkY6QZGuYjKrqNYVjqVCMnGOAFw9jCNOebLXP/EFaXa0hSK",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-p3TByCFOJYX4jdvgk+pvA74jZVgrN3jW9UWiD3HpUGNqjte5KfvVxnBa3ChJLf7W"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.10",
+          "integrity": {
+            "archive": "sha384-9y3Cq/Fu8l+LWemO4AUmukoy6wg8Uc28gcUEcpUuZvqozM7HqY+kn8LGx3jBGH0G",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-eK0X1LUXpmfBarVmStHxd99ttyK8kmdlWFIv+8QG9LIi1/nleMsXNDhbPtG4nqvZ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.09",
+          "integrity": {
+            "archive": "sha384-4Q+Tj4k4t2KVzIDk6tDcwAtJPjMwDIGDYyCckl73xp/C4L3JHM/W7E3nZa9C6WeQ",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-6tqDngSiYlKR8r5ecYjUvdKfsJxJ1Wpfcqz2HP9ogwXBMQct+wH1YG6BSN44x5kY"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.08",
+          "integrity": {
+            "archive": "sha384-DkjmGnu1HgGVIQ4pnCZ1R/6oNs5LqFtL70RBVo/RqpekePXQ+RCuvGFrAw/YLg9t",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-spF99vA2C8uXFNnkPpJhfS7CKFbl9S2T4K2fqYjOtkdsYjPQhTZDqEFEUdH5eKm/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.07",
+          "integrity": {
+            "archive": "sha384-xZ7+2QO2NdKTtCB9zIWH7VsCA/GqfZBdR1+rLUP72R+rMtN0oAyACtFaMjAfsAZW",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-4og63jP8DY5/+bsChZ976k5sNZlREH80sjle1kn4ljwu/8dfdk2e/4vXVLSSsF31"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.06",
+          "integrity": {
+            "archive": "sha384-5bI77on5Xb0FdDP89ZhpnV0kvhXLNZ+ZgeMcqyPngRLhiOI3ZxHme/LhdipwHIP5",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-2UScWmHTNpvKx7gW7xwbU40gIXLqiTnTptY3w3eDuJlR4i6G9L6ObFlxFRzIFhzh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.05",
+          "integrity": {
+            "archive": "sha384-b6eKKPaUf1r8fBjSsO9Wp3jguKvMeLOr57Ucg50xAhKG4U4k2DUuALxoPymI3nCh",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-MVQGoHRPvSST5qPGg4Hye5qdMyFaRd4NHZe6Op8CvgQc2Du5VtpY3lV/j4/DmhsD"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.04",
+          "integrity": {
+            "archive": "sha384-D7SfeuHEieZ3hZT52n59JYUly12VCoJ8Im/QXHob3jQSwfs6ktD/AlHYNbQkydDT",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-8LjwH5RVsirbtyY6i7rwGzHS0JZ/3SYrxaobZOs+4uJT32xxGCy8uyhjm03r9QNb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.03",
+          "integrity": {
+            "archive": "sha384-2GuJRil8IxmAdFg4C0RRXqtp0PnNHQGHG3yq8T/XxYlHGS4ZyQiYx1h6LbuxJNDv",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-eI7Uv/mCh0hkqHq5ad2DFPv6gpg6ecIQrPkzBaF8eTJJuqsWbBaMllOqhwK5aQXK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.02",
+          "integrity": {
+            "archive": "sha384-xOrHmZmaNrWl9lHcxlHWZb17KwX8hQpQpbiUWeC0c6oGdQ9sy80xYIyFFP1q8hlg",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-mG1AtkHFcfF14Q9sjwbPu+8DDoX6az6xZLAusYP9Act/5j+t0QBqnsRsmiTPbkXh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.01",
+          "integrity": {
+            "archive": "sha384-WUqpf9rkuU6H92GP3aAXsjjWT1TYxHRSgeNctaYt5Os+o/arC/NRJJggEN0yXn1K",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-2QkOABXpaH4Nm7WEo9Mfn7PKxnkQ0Miixbh8DND/1yEUv/N/ZZE1Sqt4metjqbXp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.00",
+          "integrity": {
+            "archive": "sha384-wST4X1zHU0nocsTJolZ5BkS87AogU4jsQuWpw1WjmcfVNWYngCg73WE2zjodznRH",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-DCTCTINHSqic1Er/hwBdGjr+93W5kTK5VQl3ZexKLdtZLETRwDVh3KwNqefo2WNC"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.42",
+          "integrity": {
+            "archive": "sha384-a9l8bRigK2w2OzlETnr3rD+t0Gsshtn4MbNi1L8VhctvrNc4cW12KVrYk9PhPAzI",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-ACFEiDl87pYv1VGq2gvKtL3izDBFHvY878WtMJjsdtrLpCqoXYWbbaXXZGlnvqmz"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/QSVEnc",
+      "name": "QSVEnc",
+      "overview": "Intel Media SDKを使用したエンコード",
+      "description": "Intel Media SDKを使用してエンコードを行うAviutlの出力プラグインです。QuickSyncVideoによるハードウェア高速エンコードを目指します。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/QSVEnc#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/QSVEnc/releases/latest"
+      ],
+      "latestVersion": "7.72",
+      "files": [
+        {
+          "filename": "plugins/QSVEnc.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/QSVEnc.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/QSVEnc.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/QSVEnc_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        },
+        {
+          "filename": "exe_files/QSVEncC",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "7.72",
+          "integrity": {
+            "archive": "sha384-bCnBl7+mV4L0rdeN7X0Zb8Q9bEhCBlLW/7zV5vf8PWamW4xgm/C5C0wiVDHP9ldO",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-/OGjsR8T2OmYStGF09YxNHV4Xxbried6KNAqlVoTbFqs+glLt3LAci6Js73OduGv"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.61",
+          "integrity": {
+            "archive": "sha384-mo8WoECNAuLjV8OPRvF/3H8opvU1/YF8RHe/NMWpno5qVmSbVHOqX+OVVcISBQx4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-8CkMlzGPkvZ7Voexsoh1+LaXtEaw0XoUYnfIyUs0FO5VFiEr2WmcufnuJtfYeimh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.58",
+          "integrity": {
+            "archive": "sha384-Q8ZsQLxvvvP9OhkfnhaqJcaQpB8KbqVS0TWc1jLD1l91FuLw+jj/Gms1AmOcmopT",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-1XMl/zzon2J4Kgg1B9cIMFcb4HRHEXfnNOsZZjEMa9D+MqlyiMQmPTxOwvbKzH03"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.57",
+          "integrity": {
+            "archive": "sha384-CThLnhValfhpBJfoZKk8E6uxhFdQ6y0FcS52fHtBJnyY+xG2BTEsh5ABdKrIznHJ",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-OvHiDnppG4KDgaWwitjeU/h56SHefaiRL0p/80iJ74+nLNXHcvqUMRevc1gop1QC"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.54",
+          "integrity": {
+            "archive": "sha384-yR7onAkLMoBOkrzzgdeIsWz00lwt2/g1F5Vs0YcojwrPP1kYnZofTacIMLKZ2MBa",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-SEIxhf3wHuIgAtCpfXhq2xSRcH7eLcoRsDHjX+oMNIK9J4tVQ5aAoRBCn0yl9/WX"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.50",
+          "integrity": {
+            "archive": "sha384-2Iql8lUiru+HMbvbZh78Zz2QKK+rWP+HvDeSp2irb6taXK3dQljfJr2ekR+AsUG6",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-2BX+Nt07jTP/E6clr8ceJPoXDoWBdvHqGAhKgG7i43VnIktkEd9iI4O2ho2+AO+v"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.49",
+          "integrity": {
+            "archive": "sha384-JjPRuH8DlNne7kSrNyyI51y/Hu5rDYLNLORlZpIW2EAFdBEIpD6uP0AoDz2c0dyl",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-yIsbCTVIozNf67KcwlQq7rxqfPVBk1Q3cdMG4RQXXTgyk5+7fobwzykJ7VsCVve/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.48",
+          "integrity": {
+            "archive": "sha384-unYcassJ3u/5M6Jd9EmwCNwohEjHA8G46HZDCaUnPzm+VX7QhqbDz+8uDfW5+b9f",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-/A73wSX2XA/ST3XfLuCpQYZ691OtlQgjEd/jnK2dDYQdmNBLcKTQsl3n0DbQ0VbL"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.46",
+          "integrity": {
+            "archive": "sha384-uS5HZzAlAVJdsXy/g3V3x9vzV7i73Zf9Brr6lcoEbep+MiTCr8nSBfFyGQAyPonJ",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-KpBrOWEQhBcWjTZpGZjlPIyTtXoLLPEoqHs9PN8NUdjUJ0YUni/ldWYN6QWpvL0z"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.45",
+          "integrity": {
+            "archive": "sha384-JJSsKtrOnRtiUbCF7wUIch0Xb1sIL/srfzHxsbA0BlzIHad0E2p3ft7HVm3RZORX",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-jDizeNjAGmWo/aaQjD9pNx2uTw7COr8hxvGAhK2Azpl2JVYaW600VsZFKi+w5drL"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.44",
+          "integrity": {
+            "archive": "sha384-N1rdsKZGKrhZ6YYxClQENqKMQMTpdViihkxUreH1BdiSE5Kc8Xd4GgU9gZw5mqjo",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-q5e4DjwqA36SiNjLjP/hdHysA6zKu1laXZUNcYkZnPanyU7IkfT+rPfyzon2zQ6u"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.43",
+          "integrity": {
+            "archive": "sha384-wQ4JmVF0RnH6FSq6gkdcQv/I29fkHRURWB+v0SpRhQM/I0l9eeUzOARJHJPXsjoO",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-GTosqU+Gl/+lfKHewe0bL3tb7z1592FNRFiT8/lSoxX/sDvPcx+vwxD+euN7czyR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.42",
+          "integrity": {
+            "archive": "sha384-rlwEZnzGfC3VkbPCVB5FhOfvfsjEeSInJk5wcsMCRBSd9eYPnVMxfSfs8npQRZ+1",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-pdDrZV1TxH8TGmPYpx5l3ZXyopbXMn/3D4lOBniK7GqD8uIpSXX5Z8tCihF6mb6j"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.41",
+          "integrity": {
+            "archive": "sha384-qZJGbvvjJ55gTS7V+1kJ7tNzfo5C2UMeQ5CADhfFDFya/nVkk6fxaLQY1YPRGLbh",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-pU9SZO/cXyF0csV2RJATLYS/Y845ERRi3KSN3DQuZ9EyzxJf93zxbYswPiN1sBve"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.40",
+          "integrity": {
+            "archive": "sha384-exiKr4B5B3kxicAVVcf5JtZSfaaxe6pBx4CDFPbA56Tr1Xrp4M3W1QgfYNQwJEa+",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-zvk1Yzkcr2EKqsZIa28BV4/PvX4aojSyXFvVr9uU+c/w+VV2orxjoQKIrjEuinkR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.39",
+          "integrity": {
+            "archive": "sha384-q3Kd5QRGo7Eco/f5FYg6Kg1izva0oJHyanKLuC8rkQcH2Rmu0RfDRAAoBldCd2HW",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-BpY6AWzunat2zB4n+rIUx9gBHqQRVy74XTV+XynX2J26479yDsRo71tztSnuf/dp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.38",
+          "integrity": {
+            "archive": "sha384-Oj3Q4Kh4cMfjuz3RhYXIIYo3sF6Q28Pa3ipyzha86+iAZ93+WoS1PUbDm66sdZYK",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-bR3/szCbPxJgSoJJTXy7VU9klYjeVS6XEIQ3z4p8Mk62k5dL5LOUvUMtJSagVulm"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.37",
+          "integrity": {
+            "archive": "sha384-/AryMlxz5OfGo0xNS3Oo4Mp1bwWxGkRSfzkvKSJwrTe6mehBmV7RmaQgq8pXWEpP",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-rLguOQcQELCP07zZ9NHEUiBLoFfZkxocnSi9J1VSiKSKLGCyKfvRbf984pokii48"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.36",
+          "integrity": {
+            "archive": "sha384-bueM5bwITEWcdqdHc4egq54d6E7kNFt2AU8D/PtOTbiv2JtagqbqvoHIcHD5Rxtz",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-VKE6yjkodqQzlmZCPYYR+VwdiGYu4HPZzEh0R64UrVjPoO+veOFGMIx06ocvqvrb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.35",
+          "integrity": {
+            "archive": "sha384-RwvzFlebMeVjpIM19VKpaGxbbpnK+UKKr1K7A2iAKQ3C3mCQHCTlFifFR/lqN8L4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-xliTYpoE6XiqE+GpEfswsIVrzwfFHSQWjNRyFUHXZ0lTTSxEX7Yrapltz2851VaM"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.34",
+          "integrity": {
+            "archive": "sha384-oStSp4mDqIxcznfCpYfPdLTAq6tKX8En2FAUO1OoPsSc3rcOB/0YNE7cZpRdTq0i",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-yQxOIE59m4nHfFRll37rBQlilc77TKgCO2Q3wdsSFQy+WCMkvx1Y9e2WvYiva868"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.33",
+          "integrity": {
+            "archive": "sha384-Ss+egNyFxlEYEeCROljxSJ4tI3b+Ht+BrRBsKAag85maOehOLuax8JQ+uG2eGJRo",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-bg/PLta701MCvNlwHkTCFK6O0JzbVl/f3f5L/x3wRPZuHOSpoqNSYYC+8x4A7CuV"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.32",
+          "integrity": {
+            "archive": "sha384-xByBCajg2jTbPo1LGjIGZ6LLiZsRQ5l5ISftC3OHMwtbdb1BqVy4J1yB4/SWvF43",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TfIaxHYwiJs/kJoBCLTjxuPd7nHZzMF4agwPSnhcwGPiKvY9mqqNSuIFed1NBxe1"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.31",
+          "integrity": {
+            "archive": "sha384-G4mVB0YKXKDHmPAyA7CcpEyQDxvkBiXgH5S4KRMgPyjscXXJkmAynr4RHesp/tzu",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-jd0GFIJ+mPb1taMc0H13akIqSMy5+bpIHCZPKXltilT6VI6g6yT1hch2dUzg6h6o"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.30",
+          "integrity": {
+            "archive": "sha384-SxT8F9mRtvNWye2fwaCT60R4yn4qVvg16K2+mesZ7Z+eYc354ue2hdVyhilbyF6S",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-VkcN1410K0EmBJ1WxHxPiXyA5ZLlbiN9iPzgIjarIsIhzyzHOYe7untRlOfAuZKN"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.29",
+          "integrity": {
+            "archive": "sha384-5+3Pux+jIlMjHjfY40wawaAwxX465XOx+wwKh/a0Z2frjpHfI6NGO1bltm+uHcLq",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-HOuBFaWuii+Xskf2Jfi8rRIYIaOlU69CHbYnBPtKhSA61sqp3wSI/7Ssblbf5+18"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.28",
+          "integrity": {
+            "archive": "sha384-LEBJsUD+xlpLLkvlLdbSp3jxt0KTqa7sUfm+URVSCU5Lh4rn32e/Edavtn0y6gY4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-MfttnYf/QFN1EyHDvV+UInIVwskvHOzM4GqCt7bX2G52AXL1pmAbKjZ29TsGI8qq"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.27",
+          "integrity": {
+            "archive": "sha384-3pS5OvNBqpfVydJxWQ9U9orMGNuCuql6UHoIJSPUGzPUBi6zHSNz3joVel3UO4ET",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-uXeuJc54KJsg/Dbg54QklVesQnr0XpQHf+wQRPOHvQUKCVnhUCcYJBp1/i6pPD6K"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.25",
+          "integrity": {
+            "archive": "sha384-IMCcCpvgRBuVn4on6P3RXnNARXew4dJA1TeZVm03m023fCwdxoNVPMDn/kqeFNU+",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-YO++oxtUHwRtdp2Mz+YWraZYROOmC6FFS1qigvot9Ng1HKa0OKOOOpGKdeCB2gk2"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.24",
+          "integrity": {
+            "archive": "sha384-mdSwQCiuAYNMlAsS5lP/InFPYd2DK6/Fbnopy0gnnkVoU6XGoeSehbpd4ls1fIT3",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-I++GmRDJgMp2pmULSFppyYHwuJFRsSxTOouW0bVW5Twn8XWHV1gdUfNQMNgBpGvm"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.23",
+          "integrity": {
+            "archive": "sha384-kc3bTa5K7YB16qSryQk+ix24QunWMfQJeEfpGWkOjwKqiEzgH0WSpOzEBcbb9Z5Z",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-sZhCxj23M0Fo3gxKNDcVsLbXExcHWepbpzE5P+4HI9BvEjttZiHjCM1kWb2TgVBa"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.22",
+          "integrity": {
+            "archive": "sha384-xgxi5jq+mx/JRzD7G+CJ7rTCBcsrvmBJ59XcJsaiGUaqltMMVJLHRBhd3HKvVV0u",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TjU74OLPTknfaLvnxdiFN9O4c0Rps6rdrs2oQEeYxfLx9AzFRq4X9eQbqPOk08j4"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.21",
+          "integrity": {
+            "archive": "sha384-t8x1X/FLF9oFs4g690XoDVOf4T/CAf9+I8FuIRm7/lCv4NFapSs9jhbfPiKtbz7i",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-/vFRb/2i05wvYOg3zEHFUTzVceZUWM/BoLarze/AKmK7g+P0UNir3vcwigDQg12A"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.20",
+          "integrity": {
+            "archive": "sha384-+BmbnbPv+v8bjUtctjAUp/+F16DcF0nq4PEiNNhAbhxXA5TFD4BK6jJ/jXmtAPD5",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-cZ8UIwrf8R01X6nygSQ0R47sn8xgo0dyhjFlcPRdd226zlyGNHKRJP8J47IX3A+4"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.19",
+          "integrity": {
+            "archive": "sha384-YrkbVNZB8HTrR9o7MJziPkunHoAPwQt+/pAtpf5JChjdwLhK5LVF+wPgan5Z90xn",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TIdgjXUdSQ+hT6SAdIEkasN1NZaGML40j2/WrnsaJAYlWu0Ku2H0s8qJ6tpECAWB"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.18",
+          "integrity": {
+            "archive": "sha384-aoK9tyHgOOIFWfyqmHGtSqOaMMbC1RdVNiggroIDYT3k67O1RVbgYAWjwBZN3DgU",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-0KTB+kXD9pJ9X1xdUcibzBD8w0wexnyQBoclz2tg/gz5Da869bEbYPDxrohXIv8P"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.17",
+          "integrity": {
+            "archive": "sha384-SoLrETCHJJDzPqkIcqhe+iVl45pjKO5rHcZ01LTDmkQI1DEVJQop3lzGO6en4e0z",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-66rzdxom3RwuosZ3Thp9KaphEmHCdOe3+xC++NTe8V9uxDmKErmsBfBtu+UOxjVb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.16",
+          "integrity": {
+            "archive": "sha384-rf+y3cxvaOzeuc+4YOeNet1v9a2k8i+8o3R1U7KZ1N+HIJy1QZT5Y/kcQylPlYPG",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-5Tf+Zw/AT61LNjIneteeNtTpXgZtp4j8RgwHsw40OHO5stXrZvbHYW+dno9r0XZd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.15",
+          "integrity": {
+            "archive": "sha384-29a/Z3ed4Or/RMOFjjjjU1rJi8QjhwFR1V8h2Czk9UiwXtXncqX0bok2ydrraDF5",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-7eq0R8yu0HpQ4NRpmDl3FqQIhBgTMrhneAjuclCfdHtC1fupd8ngcYSIdzEj9l7w"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.14",
+          "integrity": {
+            "archive": "sha384-yRYWA/G4ryXcHTOIx7ppelUidSJAmzwhcWHb2/x1JyJc8s0qdCqnqM87ooHrukDq",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-fdmODzRMcYoT2tyqmN0XgMhhnXmYLFEZ8qM+JdkdYevSLFp5akz+IzMeLiEQIGFg"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.13",
+          "integrity": {
+            "archive": "sha384-rOrKQxwCF1TzyQaWgXuGvgLHgaBUMRO+bn0bMZP8fHvuwmFR7Uts7C2+Fqqavanj",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-OV9eGQKzC3rat7/jQei1pd82me0ECbu5mc2LMiVGo4vTCJhNsNr3M9w0B6haKLXK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.12",
+          "integrity": {
+            "archive": "sha384-viUhzJs5GvQUSDMciL36xGeB++AnJwkM5WVKJr+nZODaANo3VNTsRD4NQkTdjg7L",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-xVP4o5RPt8dooKnU+j7rblmVDhzdqCsYEbAiRUVGwdd5cP0UySvU02209ljkoUYr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.11",
+          "integrity": {
+            "archive": "sha384-PJ8EQ88J76lqxWN+V93MG9SZe0L7wdyYwZq+qcGl1kWRpZLUsoB87mwK6myRBVHN",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-8JwRufxTuds7CTHL+fAzQjeBg3xDQnqx4OLpChGq0RqXP3M8HQ6UaDaMHq8v4zA/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.10",
+          "integrity": {
+            "archive": "sha384-E1ouYkOSCJ93o+X7Esk+IOUbpkncTy8ACR+LiZl1RHBU+AXsoSBcI7qUNnTbWMnz",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-bpb9TTos4yC5PoiJsTCuCgSsz2KeyRAfB035g3a+n37b/2z/bucW1TvtmVhhmLmO"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.09",
+          "integrity": {
+            "archive": "sha384-+PnBWqXqhq8l2dZIV1N9x6pS2aQMH0YvN/cTZYPUrjxeeCff7up43wJdbXRLXmG4",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-0vxpcZ1nxdbWx68j5idtBT1mx930y0hIyTCYBIZFYO4Kpv1J87YEyv+zaHjtPFR0"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.08",
+          "integrity": {
+            "archive": "sha384-Os6a+d3MEyC1MLCJx+XGssqdLFEd2n6rEz5agFveDN+MNzgjX/MUas3rcZfTNKd7",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-qmIggpfBoBGsnCbkMDwlK+jRQTZUBrTBoXhAExF9KzVN6wUBjeOSgPsP9NM01Avn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.07",
+          "integrity": {
+            "archive": "sha384-P+/Os88+1RHRR8iYDm5YobLY77iwgu+RTGSXs172PUXVPBPPE3VOVD3RGvFQ097F",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-KnvrLHc02hU3of+PXP0UocvVdZMEydKC55RQKVlwmR6D4MHwPjFT6ylmUpTMLpb2"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.06",
+          "integrity": {
+            "archive": "sha384-Nk39oWn4eV89wPC40gxej0SxHhadRqM+Y1+3uUJQgkmxk3HxsZ1V6WBKUYZj4afZ",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-UW85egovXzzJ87UT/kN2yHQlea47h1ca05cLNVnnfLhYSnh1p1VD+Z1gYGHYgybg"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.05",
+          "integrity": {
+            "archive": "sha384-1zBsL8HsaS2uJDT3OAtooURc8YCpBnrN8ORPoqF6jZxqZu8qF7yckoiDRTP/wOXu",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-lmgIrqEMari4OGy0YwY+r3PXay5siksj/nl1VYCtiU04xDPqGkwjHPcIY1fsLBxa"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.04",
+          "integrity": {
+            "archive": "sha384-et29XBbGiVfocSFlZcY3eUg5x/rGTm4FXjHnYDsUo+ZSgQFp1+wEQttOA5TN9TMv",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-kfkaxn2/BdUGTgzUwmj+Rl7PryxpBDfDIkur0r+hc9GIrr/YReXtDXBwWg7yDLiO"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.03",
+          "integrity": {
+            "archive": "sha384-PgGu51wUVmx5+v5Kog4YPjzo3q9gYGmkAp73CpPJg1UoyeEFANqvSSCt1K3z5PAs",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-TccX4/c0Zck5IfV2sdXw2sZ1u/n44W93XjKFcxZRqqwBbi/fMwHEmhzkP04aegvQ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.02",
+          "integrity": {
+            "archive": "sha384-ag3KJkaJY0GMGR8TxSDD3u2YXdLDh4z3Z6um20YwNTwJBtgt9i5OmZ5mh1YiNLwd",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-r8sE76YFYlxtSAfeaYUtbtxD4wWe2gHhHUYbWyuoTKK8ShWhvWNxeWcJbNp0ZWVc"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.01",
+          "integrity": {
+            "archive": "sha384-C9yVRBCKrJrXZMffnO0KmncUIsnIEQfGb9w3/pHHc17wGCMvfzYPcwbPwlT2AERR",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-caZN/aFwpQJW/jkNjlmIQLUEN+HXxQoxYziOiXeWyzaIIjCQz+145q5t9WXPaVSy"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.00",
+          "integrity": {
+            "archive": "sha384-FZNQED39/AYxu+9txQDBUqacohZxvlMiSO+2i/eaCROO/Tvwey7AwYWbG9KX4ENh",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-HjXxDS29noUJMEkb0wR8aRFda7LgwDDn1npHe13peYagNrZri9LuKFUfdB96DPiy"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.08",
+          "integrity": {
+            "archive": "sha384-5FMrX54f6s1eThdjN80tLgyxjQPTGR7JMB/mbiBqOTMgID30hKF2RV4PWY6OAARz",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-0CPgLel6+2S9RQKc+KlDi8KletchmooZURxqvW10HMgaGaHtWcAQnlVJFvE0C492"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/VCEEnc",
+      "name": "VCEEnc",
+      "overview": "AMDのVCEを使用してエンコードを行う",
+      "description": "AMDのVCE(VideoCodecEngine)を使用してエンコードを行うAviutlの出力プラグインです。VCEによるハードウェア高速エンコードを目指します。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/VCEEnc#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/VCEEnc/releases/latest"
+      ],
+      "latestVersion": "8.23",
+      "files": [
+        {
+          "filename": "plugins/VCEEnc.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/VCEEnc.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/VCEEnc.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/VCEEnc_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        },
+        {
+          "filename": "exe_files/VCEEncC",
+          "isDirectory": true,
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "8.23",
+          "integrity": {
+            "archive": "sha384-N4toyEi+vl3o+qj2hh17z+PQUfTzUxR7cv+70Tdq9CBSH910AjwT2AcDke3SsOq7",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-soc5FyNwqElDvJ+z25+DR88TsXvbMcQm6mzEuH9CWAWIi8MsGgjAq9vMjxYIBSWo"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.22",
+          "integrity": {
+            "archive": "sha384-ef8iWLpdBCopPe8HLs7um1m9EKIe0MS63oRSEGUpHiocbZpdsUXZRupNLfXIEhSy",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-p17Cw1GK3Vro4AQFQfGjNM9I9SwJaycHWcIPRQBa4AZEaVppE+7g+UM6V1sRHfjD"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.21",
+          "integrity": {
+            "archive": "sha384-nIMxJdWz7qVCoMQbKfioKScRsxNpzmMDlIm1TN4dnyqBhIy4zCGXd0PzdmxVl7ed",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-boqAOh3wzSqzPxAFMMiPk45g0cOccBfiTc4kY1o4VDLsIxoS2Oz+i/XEqxasmt/e"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.20",
+          "integrity": {
+            "archive": "sha384-S2AonS4GK91uE8J//+PurFGfa3ATRTmuKvHClyUlK7z2iji2HXkivnNoxaTPoSLg",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-SaIqO03qkM7D1cfwHdHlAcv7o99mRSXstV3yWErVSJ2DYbDhsAGrgrfxrdWGmKER"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.16",
+          "integrity": {
+            "archive": "sha384-hYKzhFOm4OE7rqbFzOXk3B1vyt1YiB3HoxWAiOHeSxIv+5s7aZSUQopsdy7aHWjh",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-pyysgrhOAsc/x0C3BpZwvf9V9YVhS01q6WKA+2H9bXUmfvBM8mba7zFjSVrrV5pb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.15",
+          "integrity": {
+            "archive": "sha384-iMfLaxKyOih++HkopFH8miWZEpjP1kDxA2J/7x0vvduz79dWV6An5Pxt0j76lN4r",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-AYC3HlA8zkWgMFsJ2faXtSMGZOWjuXqmJ7t5XpGS3mSBQRFaIf42DhvK1wK+d/G7"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.14",
+          "integrity": {
+            "archive": "sha384-xWiJiYJr5LmtgmkVD7A3t/blc9DCQwtLpeTycCG/mZ+eXgTfeoGdHYOxsRqAz0xH",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-r0zSXUtVHtMeNTWbW2XAlfbOCYhr8ux5lLy4SMxA2fQVbgxNjeLJNz6WMGEi3Q3B"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.13",
+          "integrity": {
+            "archive": "sha384-HQ15/qNt8c48HzajGD2uxgRCW2FX5BAWWcAApq6YAEulU10WF2dmCM7st9DrZkn2",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-ang+M8+clbfQq3XmKNiqwRsR2shurtiCnWltw1L9mf3bzaddnMUT0hv+fBbY5/Ya"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.12",
+          "integrity": {
+            "archive": "sha384-uKpv2mrtNTGtvH/9DEHDHRNqS2Tw3MJbleaiORZTh9Mro8tnsRsCbg6RJmYbHjxD",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-R0LdeewwlQ4oe08APwe3M1SM1YNjeOrW2UAxuskycUdJoObJUFsUjaRMLi56oAsj"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.11",
+          "integrity": {
+            "archive": "sha384-Ezv1pqkHCVaF0uhLBs20OkL4bi8XupSkTcRpwcmESYcjMtXSfgnbZe8TaHDg2bln",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-aKuX7Ubl5n1xFV+z1Sop+s5gZnO0VmMYyqsoj5YOPWZr8PItcg+QYuR+VhAj+a4l"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.10",
+          "integrity": {
+            "archive": "sha384-zzpMXGxq3HBj2ts2iaaPB8vXHREose7t/8toNBdQnRHHH5BEOq4E0YWH8gGs8wnB",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-tGpEzyMIQfyggyVI3Bx5ApFOFo0/cYmkVKdPAQ71O5ohjSXTcE88Av1IHai7eMxZ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.09",
+          "integrity": {
+            "archive": "sha384-eN9f6m/ffRJNRLpPkewCJxhjF9kgmtpwkr7DK/zpAyzAK3f9SFAl3e3dq/guaSeR",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-lOyx6wZHNvx56omkcAsrbbvtXxls5cevqj9aHAESV16JSXCelEbJ5kW0xiD2ULGZ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.08",
+          "integrity": {
+            "archive": "sha384-jc8PK6QR6Kz4T0JgmqttTJFdgnxM8vP4/X2U8126bbAu19ZcAzuUD7+99koA/klC",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-3B+3hPaTy/tfM3Fe0vzGfdW7NX9ZKE2J+BYkSqxicJBpUGu69deBF5sqp/mVR68s"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.06",
+          "integrity": {
+            "archive": "sha384-um36qMAWfpY84Dq7Peg0QPWcfTUkNC0DwmrM/r7j0E+quNAEouFhFYr8gUB80Dds",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-eWrNeOEGFYrLtdteh2Sy1ZgS2HPDHqH6dJwolEDqQGb7r9FMSrW5tdXyvr2xHFRd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.05",
+          "integrity": {
+            "archive": "sha384-p2S4WIlPDXEd68kRtSyppIHU2BklbbIR7Zs5T5rcgN3Dr+kUbjpJ6Rd24ZFQ2i02",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-8cJZXs5fGdRx2fdOSoM44uLIJnQWjUvfGIxH+KEMmIJ7kPDmdV+G293z4EMjCH7W"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.04",
+          "integrity": {
+            "archive": "sha384-c5IiTrKOOlQ+VliSFtR4k/po0U12Zm5cZULjJ9MyU1PLwgDmVSjpVyrg/ROLTBdi",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-whz+OS9bCGwb1nrUO0kFvhnQwlns/Z2nsIO5D44YXsW122XLE8DGcWC9dz9uSsLU"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.03",
+          "integrity": {
+            "archive": "sha384-v7IHniHxQM+/Fau3W4GPcV1YvzCCdC/FMETeicl47xkvhAJplr/yBygciE/ri+Gs",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-JgFnxCJ/v1Q9zhznhJZM9Dd8x/EVADL3IB/zmbIKiVF+KzQVoSf+VN9zzGkoxLjr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.02",
+          "integrity": {
+            "archive": "sha384-rgxaxvsMj90AHr7q0bG6XUWm6Z8at3WWcGrAmJsnvK6mLtNKJpQyenUvxN8/5NSJ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-s3PsLhclyGck1quciQHUbwf2hgSyRV0oNUTFToHYtI8WYp81uPZJZTvaujM41v1G"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.01",
+          "integrity": {
+            "archive": "sha384-u7cv1vy2EkrIPsGLk+hUwJAKfWSiyqHog8VQx+TQdF8V4TxxQYc0YSzURYCl/QoJ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-Vog4hCN5b5cqe4bwGK14irCmOPmanFk46QrvPnsQiDAqBDW04pvsnlXUcI//pOTW"
+              }
+            ]
+          }
+        },
+        {
+          "version": "8.00",
+          "integrity": {
+            "archive": "sha384-qG6IXh+h+yWy48GToSXbgBpk7zSTtL91UXvk06jnzIZ3c7tSJwVXv7KtdR9M1QgQ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-ZDnP+NVzxUmLcCCzs3hnBs0s5ouLmhBQST8Sn9L3jlSzE4vogKGIJK4/+FshOGxW"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.18",
+          "integrity": {
+            "archive": "sha384-nVujnDtKOmeHF20Y4V07/bCOvTEECTQ4+qryRNlP+/ZprsBF+oBsAFjNwGZioU30",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-xVp6yvVdzKsjI+qzBtFUVYedjjhDBxqAQ0zitbxs+Y6sQd97vGEyeL6BUlDt+uuL"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.15",
+          "integrity": {
+            "archive": "sha384-G3l5Pzy7n3VpfuujF33NZBnNjP9bdTSDN+WJQsBcZQmMh9H8tHfYrJ6OSN3GAIs+",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-58/4Q+s4vV0dEv8nI1DWyoYJ/T2Pm9IWQMWtew6R03tqZ2pSMXV7XLbmJuXZiEyA"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.14",
+          "integrity": {
+            "archive": "sha384-hDfSEJjFwRQ8Ep8YydgoBUAwKLIUQGIc+8TFgjHtVQLg2dnTxchIIoiYhtNtIrep",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-oZsZA91/sJoNxP/x6sYQWKBTY2nb3Vz4vHP4uLDFS3C3SWYbko4HDQiWkMpdUssP"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.13",
+          "integrity": {
+            "archive": "sha384-6Gt84Bc2nNNFygehRlEbIXTTJZalTm7DHWyphMsLK0ix/cvl/TcQ/jgB3qzaLqIa",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-T2m/Qk0qTvz1mJwF12V9MICRUG3eMlNqD6o8Ss8AoiWcPowBzW/24KU/alLac8wD"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.12",
+          "integrity": {
+            "archive": "sha384-elHv+DDEuqSb7uV8il/qwkoq+b8o1zGc5S2w1RZ2Yp+cBaKi4PVPsyFf0NtYBKwL",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-wc14167rHE/rU5RJ6aewHG6SKoVvPufssX7AvUnRK3fa8NArXI5Au9JCAMTalbJ6"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.11",
+          "integrity": {
+            "archive": "sha384-2TD+QBcD8qJ04Qo7OqfKaD2/1LxiPHLC35i78YsFvFs1G9HRHzPdym+rnel1ZKmu",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-p82Kt/n9arW9QJCunZAFvkOBd3s71WchoQeZphrlu1nVN3aMWhfsAojl7MvRpSs4"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.10",
+          "integrity": {
+            "archive": "sha384-YYRMar5EzaE/YuqnPqEyqaK4a2fFutMxD+HfUqnvNX68YtMRT6Y6YBEy1J+sNXez",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-73R9cbGOM0ejkkyvCdqIIX77rWvAffzoXsr6g9ZxAcGxda8ecsTAloIsTqHNdnPH"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.09",
+          "integrity": {
+            "archive": "sha384-vOtfug/f1QwINOBiPuR70jtKOITEpdxxSZZTozxgdTdW3AKYty5/fN7pj4i3JQ05",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-20nfFDEyTNR1Z2Vu0SBXEkBphae4zmoyKn/EP+1C8b2OcC4Xkzg0EauSZhclEkhJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.08",
+          "integrity": {
+            "archive": "sha384-VunNZoFgz7dslfyfNT3Gqm1IL3gesGy3DVWwAuknbgPfuReu9pIH3lJCKJV1t1t6",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-pUcIkbZ0+vxUz7U7m2CBI3mi/n7E49zdY3EZlXRFbdXJWD1tnt/4rFD3SWo6zFrd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.07",
+          "integrity": {
+            "archive": "sha384-TT/9neqKHL4iwo6QZJeUfSE1vanrLX+1Qx/ljZPSwPwuAyB4rOIp8Ht/IKMplGas",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-uRown4XgUJjQPT99oFloflko8cbENqlbbuQArI3kfhM7SZnxttRA2dHDVCtSaXGI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.06",
+          "integrity": {
+            "archive": "sha384-hG45AyHmDBzLNk7e4g08SIxuN67EXUKmj5aYq4QKL9XxJb/NnRcywziK9qyYWHW7",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-AGSjGCa7WoFBNuoam7mvgxRRIEdgUFu5x2a6YJkkbnmmXP9+pAs8Zwb5ivuK8c6W"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.05",
+          "integrity": {
+            "archive": "sha384-F/bfwYdPu9PPMit1h4fDf0Pn7u29wFTxsKEcXlI2q+sHefdfgD4Ud854EbMekHjt",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-mf1d+AvdQ6oEHhPAk0dGnaTYeHovdVGGxiDpstjmcdsqtavs4YH6Z4eTy40Mz2FG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.04",
+          "integrity": {
+            "archive": "sha384-R7EJUmnlSoRve76tg7x38aXmFSUB5+tXDFCEIUAtRULMVaPCemSmbCe102B2uXnj",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-fBRIC5BOxjTWW8onV2AZ3RnNf92nCIpb7n+/IB+IYEULbsKWo+AJ3axejIDV790r"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.03",
+          "integrity": {
+            "archive": "sha384-/GWBhrGRoAmCE2cnIpgx3aXJTt1qzUH+09/6LaySC0Xhy7z+KQbXxNfev3tcOm1k",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-KmOxy7HiZioPlvjcobxNclVdMtUpychK9ZTmwsd3BN1pTVdeAHb6xvUMSbgWGW+q"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.02",
+          "integrity": {
+            "archive": "sha384-Td2lWaV9JDbyt+dApDxGv9HWXBH/6n1oRZ70ckXVKyi8fH7kC2AuHbam4Qc1Xj2e",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-3/Zmr0tpDUIUOnYhpzKVrV45AmNrcUwBIgiY9PtCqkNZZAxl85dgalI6qZTZgtWR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.01",
+          "integrity": {
+            "archive": "sha384-YOB9fuRCLkHjx5AnZxquF22FfMgcyw69ypk1onXetU14tAmW5u6k9DgFsA9c0vih",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-7eK87bff3nXpSekqmRPYMmgDhIf0bF+MjdUAA3puOGi5lWB98D5k+wHmfg+aijWo"
+              }
+            ]
+          }
+        },
+        {
+          "version": "7.00",
+          "integrity": {
+            "archive": "sha384-MoV6uktyg1dmf0ZldsetV/E+pruHLi9QxPVDbaJ84D6WaouzElR2sYpks4SoILkJ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-OwkPhPf2hBcSjgR3vjuMOBZnKfK7tIEoWAfGITCLnQKYg+8H337L0XWClWNK1mb3"
+              }
+            ]
+          }
+        },
+        {
+          "version": "6.17",
+          "integrity": {
+            "archive": "sha384-eET4ztZyPR5OTD4XxNfZMB1NMnqCAtWMBvx1xH/rkZVLHKqy0FjhZq8CcFYussxs",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-Nw+jRqn07dpSir9+3SAcBqiGfe2jFL22TiivDPbQZ8ZJOiSOzXDy85JFs1GHlWTW"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/afs",
+      "name": "自動フィールドシフト 高速化版",
+      "overview": "自動フィールドシフトの高速化版",
+      "description": "aji氏作「自動フィールドシフト インタレース解除プラグイン」の高速化版",
+      "developer": "rigaya",
+      "originalDeveloper": "aji",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-14.html",
+      "downloadURLs": [
+        "https://1drv.ms/f/s!AsYziax1Q91rhBs2o7PMtyiEP8gC",
+        "https://drive.google.com/folderview?id=0BzA4dIFteM2dSXduMXdPMXBjeFk&usp=sharing"
+      ],
+      "latestVersion": "7.5a+22",
+      "files": [
+        {
+          "filename": "afsvf.auf",
+          "archivePath": "afs_7.5a+22"
+        }
+      ]
+    },
+    {
+      "id": "rigaya/bandingMTSIMD",
+      "name": "バンディング低減MT SIMD",
+      "overview": "バンディング低減フィルタMTを高速化",
+      "description": "がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のバンディング低減フィルタMTを高速化したものです",
+      "developer": "rigaya",
+      "originalDeveloper": "flash3kyuu",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-15.html",
+      "downloadURLs": [
+        "https://drive.google.com/folderview?id=0BzA4dIFteM2dQ1U3dG1mQ3Z5QWM&usp=sharing",
+        "https://1drv.ms/f/s!AsYziax1Q91rhEGimA7oABVfdmkE"
+      ],
+      "latestVersion": "v17+8",
+      "files": [
+        {
+          "filename": "plugins/bandingMT_simd.auf",
+          "archivePath": "bandingMT_simd_v17+8"
+        }
+      ]
+    },
+    {
+      "id": "rigaya/delogoSIMD",
+      "name": "透過性ロゴ フィルタプラグイン SIMD版",
+      "overview": "透過性ロゴ フィルタプラグインをSIMD化",
+      "description": "MakKi様による透過性ロゴ フィルタプラグインver0.13をrigayaがSIMD化したものです。",
+      "developer": "rigaya",
+      "originalDeveloper": "MakKi",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-20.html",
+      "downloadURLs": [
+        "https://1drv.ms/f/s!AsYziax1Q91rlQoaLBz34MoNMe69",
+        "https://drive.google.com/folderview?id=0BzA4dIFteM2dZEhId3NQaWZGbXc&usp=sharing"
+      ],
+      "latestVersion": "r17",
+      "files": [
+        {
+          "filename": "plugins/delogo.auf",
+          "archivePath": "delogoSIMD_r17"
+        },
+        {
+          "filename": "plugins/logoscan.auf",
+          "archivePath": "delogoSIMD_r17"
+        }
+      ]
+    },
+    {
+      "id": "rigaya/edgelevelMT",
+      "name": "エッジレベル調整MT",
+      "overview": "エッジレベル調整をMT化(並列化)",
+      "description": "がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のエッジレベル調整を勝手にMT化(並列化)したものです。オリジナルと同様に動くはずです。",
+      "developer": "rigaya",
+      "originalDeveloper": "flash3kyuu",
+      "pageURL": "https://rigaya34589.blog.fc2.com/blog-category-11.html",
+      "downloadURLs": [
+        "https://1drv.ms/u/s!AsYziax1Q91rgjecLz36N1c41syz?e=7BeQTq",
+        "https://drive.google.com/drive/folders/0BzA4dIFteM2dSEZZbmdOWDNuSHM?usp=sharing"
+      ],
+      "latestVersion": "v9",
+      "files": [
+        {
+          "filename": "plugins/edgelevelMT.auf",
+          "archivePath": "edgelevelMTv9"
+        }
+      ]
+    },
+    {
+      "id": "rigaya/ffmpegOut",
+      "name": "ffmpeg/avconv出力",
+      "overview": "ffmpeg.exeやavconv.exeを使用したエンコード",
+      "description": "ffmpeg.exeやavconv.exeを使用してエンコードを行うAviutlの出力プラグインです。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/ffmpegOut#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/ffmpegOut/releases/latest"
+      ],
+      "latestVersion": "1.13",
+      "files": [
+        {
+          "filename": "plugins/ffmpegOut.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/ffmpegOut.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/ffmpegOut_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.13",
+          "integrity": {
+            "archive": "sha384-XrrJLw9AXjVXHpbagF6oFLwF/J2eXb5ATwGoWZcmIhqGAh6Al1Hd0syuSVYr//I9",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-qHVVIKss4c5zeu7LSJZoMLvDh1oCHe4Ws2PRnJcnnS0elMJLqY/JRlYXjeCFAeES"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-qaqKE8K2O2uuN58Q7NCWm0PZHcvDENW6LEkRm7K1S4+reYtg2IaaA+D8exkwRGWR",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-teMR+/g+0T1C1dBaZP80oh7QiOiDZAQaGjLPyXqR6lWPLMEWg/6v0uv7OssqSRFD"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.09",
+          "integrity": {
+            "archive": "sha384-2Lq9uObGV1O39hBdZ6I55dZeoPmh98PGwaynfpfe4mFmgP1WDGLfe85L/VPca2+5",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-2kBH04QPa7Pte2PEL+QwZ0isUPj2g/Ztrlz8CF9bQL9vRVerRnfZpigRaoIl/nf2"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.08",
+          "integrity": {
+            "archive": "sha384-ibxJItOLxXiDeIB9/KVtqpin/jlJ7iCpQ3dRg3IGIhUXGbfc927lat//5/1J6hCn",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-xJ/6gfXHLBPZv6PoMh6u+633VQcqizNt5Qo+XBRQRotCKo1+UblpBOnQL6tOoMgb"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.07",
+          "integrity": {
+            "archive": "sha384-H5KALINn8ZEk8Y5R+FaT5KxwLXsyGyfbGIVeXRwrq8eIAF2CsIJU5XM+Q1fPc3Og",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-1KXx2tvGUbt/Owj/onyQAKAufJDrzSzYJl1MQVrAMJPCZZRbs8VKb1wVyO0mCIQj"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.06",
+          "integrity": {
+            "archive": "sha384-tDVw/M3XUkhc/G4hkuDOAeBILgS7C3REYgaN2eY/IXoALzebhb2X+ldSLddku7MN",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-Ps6iXOgBE0WQ2O4YCJpgOxNaubWG0nbpocWONx3+OJbeNqXt+xEravjtn7Ax/+tK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.05",
+          "integrity": {
+            "archive": "sha384-e0pvv2nWcV49flFniB6GrgrsVHZUarVCNNJr9niPtsO86lujRXqOaQn8M+G6fcqN",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-XD/6J/ZLPmBhLL49nI62soRYPY7Cfcbo86d5zGEWL6KBQUw2AiaW8PCaL9Hl+bjM"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.02",
+          "integrity": {
+            "archive": "sha384-yu0EXLGoo8+dqXekyyXr3vBReYXmSjam3OU4hIcVhKJJAZ97bKBGxJkPuQJNJ/bf",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-SNCmGCbsegkL4LLKWjr3oVLQBPzAc4ONQgj3aGSnv5h9ht55WYKa7h1nonXYOlHg"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.01",
+          "integrity": {
+            "archive": "sha384-wJLke9oEcQOKiZ3I55Id0VXRRihs+9D1uEh5cx/Iuoo/+gmT1TWr9RK32S+5L+xM",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-EdV6RfI9/8Kdm1s0hBTvXxIowMtX0uugbCIpHhqz307nFAU1B38LThXUasBK6Aot"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-7kfgxgORTvI+EA+HFlxPpGcC94yZKvLfHBHv8HDyBQ3zaLRhYKVSFSk2JoA++H2A",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-xsm3y7kOYBJ7W9Uuv+gsIcEUaf+dtm2UKqyZ/h2YA5LBYzMVZlY25mqJBwfQFOGl"
+              }
+            ]
+          }
+        },
+        {
+          "version": "0.10",
+          "integrity": {
+            "archive": "sha384-pvAZnNFLcnZVAdC1kpydIpZtSq76Gr+M5qgnVONee+J5FpkDkXbxQUtTBTwQchWd",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-wOUpuUYb6Rh0HPi3ycpFaNwKxCEgfoQYgg9z3fNZ1LdDrr9MVcg47T5B0iqQiui9"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/pmdMt",
+      "name": "PMD_MT 高速化版",
+      "overview": "PMD_MTの高速化版",
+      "description": "PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。",
+      "developer": "rigaya",
+      "originalDeveloper": "エモリ, スレ48≫989",
+      "pageURL": "https://github.com/rigaya/pmd_mt#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/pmd_mt/releases/latest"
+      ],
+      "latestVersion": "+7",
+      "files": [
+        {
+          "filename": "plugins/pmd_mt.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "+7",
+          "integrity": {
+            "archive": "sha384-NUyICEn5FRm8uff1IgAL2IS6W8Q8hf72cykclDllCuEcrM+V8Nr1uvR7oQ8xfAmU",
+            "file": [
+              {
+                "target": "plugins/pmd_mt.auf",
+                "hash": "sha384-RsWp5Y2AEvBlc4sXbZurdJt22PS5GonAbz2bRWMnKYjG/xUhhdTM2cp7FtGglH33"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/svtAV1guiEx",
+      "name": "svtAV1guiEx",
+      "overview": "SVT-AV1を使用してエンコードを行う",
+      "description": "SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/svtAV1guiEx#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/svtAV1guiEx/releases/latest"
+      ],
+      "latestVersion": "1.26",
+      "files": [
+        {
+          "filename": "plugins/svtAV1guiEx.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/svtAV1guiEx.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/svtAV1guiEx.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/svtAV1guiEx_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        },
+        {
+          "filename": "exe_files/SvtAv1EncApp_1.0.0-rc2-1_x64.exe",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "exe_files/ffmpeg_audenc.exe",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "exe_files/mp4box.exe",
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.26",
+          "integrity": {
+            "archive": "sha384-UdYGcx9uNh+ETVl//ScO2pcFGF8BnRflYoQEues4Bhx3B/fiQaCoXQ2ilaiediqL",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-MAouvBST8ehow5VUgyS0wWop837KCb7fJWJAJBWr3Xd212RL5hjKoqWa0nuqSmjm"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.23",
+          "integrity": {
+            "archive": "sha384-T/e8iLENlshXA60UP5CPpie1URuSyaE72B8Aer8VSStOvhGVXltv7/03dRbdOEbd",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-RneuwEaIMGR5qQ+2uH/VvLuZ3Dsdfiahe2cbDpuEfto5JW0vtnOYSWOENj6aFdvH"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.22",
+          "integrity": {
+            "archive": "sha384-VMXeHkVGubPFdWsWWUljd12qvTJVHFGlU+Qc5IBjE+vnk8BqOw8VOc0yNoQDrv0z",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-efbbr6MjT9GXd9swnPMmhjJh6gp01U8Xu34p+ZjVQvh/lrPBQgsmEbX79bfSRTm6"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.21",
+          "integrity": {
+            "archive": "sha384-LjYJdES96Jc4qqMRr+bsSxbX3taLviZTens5hYP26xlWgqk+36BthBDm6sSGsWsM",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-+KeZWYo69IHU0AzI3R7KxBbJ58eUA4pnfnVQFnXwSfQPfHYhgqLe0VBJj4IlzWG1"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.20",
+          "integrity": {
+            "archive": "sha384-G6EAoewUhElzcSloPxLmOdBZKqNcxFx+GEDavcYTp6y7smhsE2AMgwFArOSWOhd7",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-ya3FrEVzPJpEc9vqD+wezptHC6tmQODLj/31bfkBkveqyJUnZzSKSA9XJdPSp8y6"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.19",
+          "integrity": {
+            "archive": "sha384-eLEYXIm5aFq4wy1oLY1AoFKH7WRA+CFmrLqETVphQGasCY9IggbtYc4vT1P3L1vz",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-YxGjHG+gF6NrWadawiIXAJZrgV2lk+uAyx69a0K2p3eNn7B5b7bEIqeCqS0qiIO2"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.17",
+          "integrity": {
+            "archive": "sha384-zMWv/3Dc4BpwCRc5wmAleReFD+FvwoIPqKWVOysF3mDzHxvzE1JzNDxc7dhE1+zv",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-HElQVg3K/iREoyXjUDPBj3EIZA7SGc7RKXAMlUZKU8/Vqy1Q7S7JDdeS6qZDlySs"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.16",
+          "integrity": {
+            "archive": "sha384-pDxq8QdjGpIHMZ++i0ulqkTiIx//yJJCR5HbdzJPAYkqQd3q4lbd3tdBzl4mHMpd",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-/RtR+EsX/QDHS3w3KYGd5x6P+OFg0qG4juHyKNTqS9RF4cQW6QKkyUYwH8ORdnMU"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.15",
+          "integrity": {
+            "archive": "sha384-bRCaHHd1OKldn3QsuUAdpa/Oy+6NlMNjjWeq0k1JXypSvTgv6lSndGar3iP1bIdO",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-8TnyiH5Spd49fKFwoC3shQG1QhKWg0YiVGz/NZHZ0jTEcEBzbMww9q88o61A7CvX"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.14",
+          "integrity": {
+            "archive": "sha384-gruBOdvUZE6RsCrkzoskP/5n9Zmd93/PP6pgZEXgFkt1ZCe5ksns3wOIWkID7p2p",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-OoXZKTmIAjnW1Hb97iG9f7uQTFFxJnEGymVZ6IzdKck7yACDpGWB+iMDI9bYrygo"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.13",
+          "integrity": {
+            "archive": "sha384-3VAqNeNincgrjCuTspbi+wewzkR1KIkC+9D8WrbmjTYjrXs8qDU/dvNbQ1jAB/lz",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-lo7BDnQGSFGeo4UJSI5FeOffG28fWJx3pa2ozb5/vDerAEiQECJvF8Ba4GJRFcYF"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.12",
+          "integrity": {
+            "archive": "sha384-lQhXv2TlRnXkJRwqVuHVFzMG/L+8tSXEtwF2A9nl4Zx+IJErFDTJn95ARX3eLU+l",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-TBnM8qSvqcgTemG/T5sXVQqofL88eRLSvmm0yfqvdA94C80+JbjDadTjPmTWwLPn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.11",
+          "integrity": {
+            "archive": "sha384-2h+eWmR3lHRnY6fiV2+tr1zicgbReED4Y0h+9YAfgpCfLntHsW/I2LptYh8BaHED",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-5tL0n3LA/S768La0YUpIKV95yxKa7oBY1uW5+j7WqpJ+bOtK8zeCb11CiUl4QXKM"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-nd0nMP8dALgGmC16AtBd4yV0BE+/H929MFn7CCEMqo/cF7kq6jA3xdEbRQcQCHNW",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-L4SeGy60CmkOFx8jbaFLb4MurwOtFUQGez5YwRcdSc7ilWqe9d+g6VgzTbabM/7x"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.09",
+          "integrity": {
+            "archive": "sha384-14ZzURFgS9O3vq3rls1xXtYkouLAFtyNRLkaVnNuVlAN/JQ5FEfkrpKXnlTHejPJ",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-oWh8YyErreMx2GzHSG4igYftYNKBGyOm8v66tI0gDviPXlJE3Z38n9iB/5GcCwQR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.08",
+          "integrity": {
+            "archive": "sha384-iRT1FRvy9E+TPyhhwSwgtVqUO5RNHdAphn1CSpuXhI2qA8mcz2NGldnKn7nKtB/E",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-7Gl87HuUick4zengqGMlzn/7SObZOR15ZbAp4dd2yJ21+nkHgesdYyBx2HYOsHPg"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.07",
+          "integrity": {
+            "archive": "sha384-Bh8i0fS9jey3R5RgLugcp/bVqJkL9Sp4wI0navODY9EAeKjG/ypuQgNVFUAFUwlG",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-THUg8tg3AFNnF+VKcAnmQjHBgkOBPuGUwlR+Ggt0iPXMXwf4+EigjMtmwt91ovnV"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.06",
+          "integrity": {
+            "archive": "sha384-6/JT1TP+NHOmjxZajqooezkqGRngwADKll0Php61Vx9OyIhr96clI5jL86h3voRh",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-5B0rBzh/a4Zj/Q4ofPCuM11eG+8CLVAAhq2cKE8oMoE8moUNyVAv+j0AFUZ8e4bF"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.05",
+          "integrity": {
+            "archive": "sha384-pVYRqKdoWF3lVo2iZdm4lWcCuE8P0FK/iwINu4ikZG8UXVyahfbteDhsbnng24hc",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-8AAwAgxLYI7T1TK9Cl6m1X5RP1wpxswFRazUFa1kIfWsO1FxbxBGajZZwqmwLDMu"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.04",
+          "integrity": {
+            "archive": "sha384-Wf4pz/Sqgl+KENg19dF08X+SJDUGuNnmS/I2YIH99gNSWWKk1BU+PrHk2JvuxdKF",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-LLgJ/OafLcCakK3/sPsDasqIsbwKG5Mh63DhlzbpX0bB3O6TSnj4HNJScQjURCnN"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.03",
+          "integrity": {
+            "archive": "sha384-IV1NHbi5vlt7IcYbTtzywCOss7R//+Eimtc3y3sv+0osfTn1yYAEUKes0yXEdagr",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-DqFuE0ZIwHpgd+Rvu/0RuvVNYXv/LA5RkuTMRfi8kQ17Fs8HGwT9qRoIOlGMJFWQ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.02",
+          "integrity": {
+            "archive": "sha384-DnoArhyBtVbOLPRDNCM5bj20IoB9CiqqniHDmAjzdxNGM0JyOeJamcIy/7T9Bcdc",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-zn5b/X9Of1hlJmaGOsAhKJq9ocVFwRAlVbUP+qtUsCQ/mQa1SIbvX13yD3FFo5EJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.01",
+          "integrity": {
+            "archive": "sha384-DrmlvGM0YCIDy4ZJQFtZ3nDO/VAiOIDeTcwODKuqVWAeUD/fo1re3QUFg5Xlqmxi",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-ZkbNljW9ryqEzn8yq+ZbUfh2onI5SN7vi1BeszJzg8QR2tCX0Dpm3MzoEKxTpKeB",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-2OqNWFABv/ZTs+ZpnkAUuhe/utJlFLx4rY2TXW8FaOeQuOF4jT0Qdy8OXe5vEkf4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/x264guiEx",
+      "name": "x264guiEx",
+      "overview": "x264を使用したH264出力",
+      "description": "拡張x264出力(GUI)Ex(x264guiEx)は、x264を使用してエンコードを行うAviutlの出力プラグインです。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/x264guiEx#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/x264guiEx/releases/latest"
+      ],
+      "latestVersion": "3.31",
+      "nicommons": "sm40417801",
+      "files": [
+        {
+          "filename": "plugins/x264guiEx.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/x264guiEx.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/x264guiEx.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/x264guiEx_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        },
+        {
+          "filename": "exe_files/x264_3094_x64.exe",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "exe_files/x264_3094_x86.exe",
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "3.27",
+          "integrity": {
+            "archive": "sha384-qvmyhTrGAXj45glyKz+oaJoX6LGstA6qJfctludxwb98y4byXpdyL8ns1jtri6M/",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-x+yV38FLFiLfABemFV9LO8zRFE50fHAbTftMn7lWhEBllQN96hA1S8XNvfHZr6yH"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.26",
+          "integrity": {
+            "archive": "sha384-cgtqxTW01WoemYSQG4jIJeP/TgnX5YRJk2up89ZhrelVB7QwLIJKUs2YYT6M0LTZ",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-+clsoHbulaWqVZIeYBAkvarweHEx7t5NNd6lR6AV7OwdAL0Mt7A3250TntwfW7Jf"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.25",
+          "integrity": {
+            "archive": "sha384-39SJCYdL84lmpVkpyJS2xNBJrI3EXe0ljt1s0smRmDSiQEff+5xrTjUHL0fIKBwQ",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-AfKk/ZPO+NkhstN39eqlCJth2BWXj3/JzO/ndpgOKcVPXLVZVI38dGyO+ntWzENn"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.24",
+          "integrity": {
+            "archive": "sha384-9G95ss6W7ffVgmOVmkTUJc7fuB4Mo2cSol6mIEWOX5BIRIYBb1vddmJzgVZbu69I",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-6vcEhCSG3DSObVunijZDWkRXE9ihzxX2RZbS57RBhOJ1Oot2jLanGCGQpMVrQAOd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.23",
+          "integrity": {
+            "archive": "sha384-tDBy/B270jRQvOU9jlDjK/NC337iIewo2BXdk66YCQvE7aaK6wk0Iqr67C6O3NlE",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-Ra1Mnwnc6lDEfOS7m6aUjsEpNSGOiZq2y+hitwrOoib05J3W3S0vC42m6F+jlgLL"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.22",
+          "integrity": {
+            "archive": "sha384-EqmGD9txhdbb85MSZ2ppGEAgJzuWn8tP8+75Baw+mc+dHipGse4YzR6OO8fFaLB4",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-dJksWq1Mmfp0Z2dbZB5H/vdwdTOlpxq9+DPkray746fbXF9Ox3TLJTDU+/rIEPIk"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.21",
+          "integrity": {
+            "archive": "sha384-oFoYslooTyU1UZiSEefQGVsFcpexMP3DRvbWNXQgaz2GIrRz5gwCVnKj+u4Hv5mS",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-gSbkI6h1umwe4GkQgQ9orhg3iIjU4JFGNzLX0c6auojC9B/DBqeTSwDtmlS+g31q"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.20",
+          "integrity": {
+            "archive": "sha384-tP0WXvQG9kaqFwXLRNIK4JmZ4nOYLrx5sj+uRQkYCKY3d4jUrQU1maTBe7PncNXw",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-m51RMYf1Gx3ro2AAPOR0YIqRcqiYQj1pLe7qYkTGEHoFZDQAEv7FxupAEvgAUJF/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.19",
+          "integrity": {
+            "archive": "sha384-dBNuiO2CQBWR0WUzPv2MU5jZkRuHC52cdRpm7XJNMOP2x5OD1cB61/w9Y4eRGPhN",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-hr7qux1fvKzvTwEWBwqMl0UyvNI/jEgFn6po6yXTqHQfROZ219ij2mkDfu9Of29T"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.18",
+          "integrity": {
+            "archive": "sha384-A65dwzixghoriA16pWYxpJPybL740I3oy80oasplQX7qw17HHGembLA2K6FpZfaM",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-EGS2Q0NbpGtoVZBVcUK7uXp6dDK3Iy+4t0d1bmLPKmMIrMOaHd9581X7Lfn3SouL"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.17",
+          "integrity": {
+            "archive": "sha384-g4mhJCgOJYfh6gvDA6EaLXkLbk+41AVpxeqyb2COvQy0MtiSGmlVPxkDFfye4gF3",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-FaklTG7+u1bOcD3ErzbjGCXjQclmtrpu+hMKH2XUCg2BLjbhfuFdkF9KeIhCifKt"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.16",
+          "integrity": {
+            "archive": "sha384-6LfWRBB9K8vPTvDJmjSB2x5eD7Teh4NX8IufA1c7ZIW0e/xeKNCihR0v551DR4wq",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-ocTnooIaJpl6EJnRw8Is+5y3iQ6KUNTQ7x4a1ei3+4e9d6cR+Qc1+MTpCrUnW3wg"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.15",
+          "integrity": {
+            "archive": "sha384-IVev4vSU+Kr+RSdF2599W978PyPxf2lwrbSIOnSPTCFkEib5oQ0sBmvfdqKKLNF1",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-7p+kaxRsGz0xm+7lsRbKaWeHMjTm6TP2HAXsoXpnxZNzyZe1k6cCy/O9VeMoLjhJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.14",
+          "integrity": {
+            "archive": "sha384-pGdHU0Znmr/VORKgUK9istNecniT2rQn4w/Gkq8tY2GzuTeTR3DXOooTVyWcHoc2",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-38fyHpqZcVlvRXAl6jlyblDuog/IjvNqpkakjw4m7hzU9q4YKEBkBMUCrOpfoRz3"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.13",
+          "integrity": {
+            "archive": "sha384-kv34mSl9q16k4eYg782gEDSaoMm4nF0eeKkNSJtda3v3AUR8pT7qrxPx3eSWfuWB",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-La1PtzKmqL094tiLRlUUyZk2q17dCPQaUJQ9WQ/wo4j58cBhoZJNI5eLt95D/8Zw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.12",
+          "integrity": {
+            "archive": "sha384-X+e2B3kBodppr+Du4EAJxs/g6EeL2SlyAVSTkltTCKZ/nNZE/yuQresRu6fFcDIM",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-Pp+kD6H896+Ii6iaz83IBp5dTr/VqYddIn6uxRcr/i6nqS2NV2E1Nw0QsSACc5Uy"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.11",
+          "integrity": {
+            "archive": "sha384-CqajQHHKM/NmScGbMMR2i469G1ybRbRXhs2WWIFqy7sU7c821auiXjPYhjEy3Jks",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-6AkrGJ4rFx4/0KCTyZhk1aX+jSed6D2fndYHiqiIghM68weOz3iITzEM9rtPyi7G"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.10",
+          "integrity": {
+            "archive": "sha384-IPW/Abvum089vC9ZQVxlQwNGVhHhacmVIhGC1s/QJF/9MX/elpHYppQVlvpXK/x6",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-edxoY0w//MFy7Ydg3Gik6rSF2XRLOh0KE1jcC6T8yVYqoClhedrPxE7RQZ9PEGsm"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.09",
+          "integrity": {
+            "archive": "sha384-is7i0ZnnmWtXUOmWD7aPzhnJUpwX0CZIbC0rLmi0Eobb2MZEFKC5mQQJEq24AR1b",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-i3PL3Y0s5LnLpBb4frDeEkMjiYdK9PY6IGkOgrJVWsLNx8X1DFAOYnmUvwx6xPwh"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.08",
+          "integrity": {
+            "archive": "sha384-Z5AFRNKo2IJDVMZ1H1RmUc9VYwdWd4lC8xd4F4XJf2XFwXZKcA+Ynh0ZaGzWJ5u4",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-nfGzuxi3vaQOow8ced2ujIhtRFdve4DVEHFAAr3YkHgGEFuMVhnWsYzXIbJQam4J"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.07",
+          "integrity": {
+            "archive": "sha384-mQXzsmjZ6ZdR5GWTWHNthMuMoAc6KNLaN63PAOjNHG4s7NGcHyl2Jq+Yu7wIc53C",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-qy4jpe7MplFYcVvSBdytbGIbZy/4Jf2duLlzJ5cSYTPLRXRQbZWH98KAmvrNF62f"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.06",
+          "integrity": {
+            "archive": "sha384-EalrRSDX62QSY56DSRIawe19j2EfHULj5HdwTYGVM8F/V5dfiRfAr2yKd4umMl79",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-OtNWrLqSpLEjsngdx0CLuZw03oEcyXPjeyVy4nRQML0MQI7kjtw7XpTs3fsGjBck"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.05",
+          "integrity": {
+            "archive": "sha384-bYoAdHLaf+q1m773ViDztm1dwGSA/xom6glR9fffy0oOOODyqCgYDcmyM7ufD6oF",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-SsxtQ5w05TZFi+d3Hz0DEM0bx5NQK9B94IcrOstg4bqBXRbzU3bBzdci6Ism2owx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.04",
+          "integrity": {
+            "archive": "sha384-tyOQZQ03tSTEcSbuXk/urpv1mRsY9R/+TXu2wMfXtKChKzpJcivekrVifvkmq4hJ",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-kcwH1qnro4aSD1Op5gt66PKKH499QZ0b7i7SZhxAgjTMsHh23HnVu/Va5YkNNzvm"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.03",
+          "integrity": {
+            "archive": "sha384-42QMqkNYhMetIE9Ftmx3g7/OSz8JFfYSebDkDc0iTboO/G5cGYmbOh7LR3Z0pB8M",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-ZkJcYoMA+OuJRIh6EoerJlpnfhttpOs8tQmdUTkmPkxeROfmSygrq4ZVRa4767lf"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.02",
+          "integrity": {
+            "archive": "sha384-WxeCJi0jZjm2I5sRMYianpx624uqJk3GRI7mZ1yXN94adsOXgNs9SBAMaF4KOlpi",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-QejRMk50Mcl1RxNQ9s41Z94tOeO9/QD6ARYd39JwBqickxZNFSBaxh11SB9vZJbS"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.01",
+          "integrity": {
+            "archive": "sha384-Gi7RkmZIG7j3Fo6zk0Y/1fqFKdJwlsae+q3+PgNIoT2eX2qmODTMUU981CPZVbNn",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-b9k2wvfStnxgu7Up+Pbq8zP1YoYja4to5zK9QebHZr736YI/9YITYrbHHKANFdRe"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.00",
+          "integrity": {
+            "archive": "sha384-g7Wf30OlG0gXfCtv7C8VMvIVedToSOqnTFO6t1n8BfkA8/M9Rz12s1VY00ks5BD/",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-Uw+14A03o0WDfxWhWDEyGi627rq8kS423y1JUT1pT1979LlpQs4yOKOThVHwintE"
+              }
+            ]
+          }
+        },
+        {
+          "version": "2.68",
+          "integrity": {
+            "archive": "sha384-4MABKkhryz3fmUUi+ufUIGueC5iZbQk3hod0gxYM0BxWdRDDqXsc5dd729BlLL7e",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-grUy4QgOBHxblkxgnkHGXiyYbLjJjMyXgny4jrGN81vCzX/Fdvuwe8C2np2nsZGQ"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rigaya/x265guiEx",
+      "name": "x265guiEx",
+      "overview": "x264/x265を使用したエンコード",
+      "description": "拡張x265出力(GUI)Ex(x265guiEx)は、x265を使用してエンコードを行うAviutlの出力プラグインです。",
+      "developer": "rigaya",
+      "pageURL": "https://github.com/rigaya/x265guiEx#readme",
+      "downloadURLs": [
+        "https://github.com/rigaya/x265guiEx/releases/latest"
+      ],
+      "latestVersion": "4.21",
+      "files": [
+        {
+          "filename": "plugins/x265guiEx.auo",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/x265guiEx.ini",
+          "archivePath": "plugins"
+        },
+        {
+          "filename": "plugins/x265guiEx.conf",
+          "archivePath": "plugins",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/auo_setup.auf",
+          "archivePath": "plugins",
+          "isInstallOnly": true
+        },
+        {
+          "filename": "plugins/x265guiEx_stg",
+          "archivePath": "plugins",
+          "isDirectory": true
+        },
+        {
+          "filename": "exe_files",
+          "isDirectory": true,
+          "isInstallOnly": true
+        },
+        {
+          "filename": "exe_files/x265_3.5+35_x64.exe",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "exe_files/x265_3.5+35_x86.exe",
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "4.21",
+          "integrity": {
+            "archive": "sha384-WuQ62M08OLPPxKoGzqbzrP7d5ojY4LI+w/fvJVuOEQyFHmOmpr0C/CgZck02jpq5",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-C4Nz5CtVwYsCimntjLpHsZIyXaTmuFa8VZWDoF0nAXay+fHPVduycB+YtH2E5mq0"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.17",
+          "integrity": {
+            "archive": "sha384-q1SlW+XvZd3B6/4knXEny3d3ugrOjdGjX/5y7csVpydgc+JiepnR3ODulD8w9p4g",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-R861bzmFHQwYzFJ41xvR868uEB7yvR/8ILwuwnYFAPloXJw0zJHB5HZUBGoHkawX"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.16",
+          "integrity": {
+            "archive": "sha384-FBdGrI/6nZP76KRQXAkT9STHzCaMhZffjAUu2zIvKhTTla9vMtl3qSxU/oXSlf6a",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-cOu8ufMMVF8p7NJ26MkqsB0ZJM+IMx4SBn/gYwIFf+Y7dFa/y2wo9bua5ODulmmw"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.15",
+          "integrity": {
+            "archive": "sha384-IgwCfywVzAF+WQIHi28/5HjSVUnmijZ6yvIkmnBgBkZD4zOCEENDJg9PpK37jB5i",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-xurWWzOQJhYtHbdbjtC3vGCX3eHNVA0IILkhNyHyMyge5ldPmT17C0u4c8NTnJPd"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.14",
+          "integrity": {
+            "archive": "sha384-XxSksZbAL/ozFfKXhISmwRfEZCX1OCHfCq7rEpGZJ6dhHC6/7Xr6QeY5k47FKvTr",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-PkqyI1RBOPxk9bNZsU1sWSBKq+oEBUg3LrhKGZdtKOO7a3yHZHVDHFhZbXmwvBqe"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.13",
+          "integrity": {
+            "archive": "sha384-T/BL4mlpB1uiys0PzGc6NIhmsG/SLPbA7RcKA24IcbL0GiWCuFh9F9PPBs0AK0/X",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-tqJPicbdPtIxUcFyHcHaDMQCLM4mN4V4JG37xwTdIIMaN8rLCZ00WLlY8QleHvFt"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.11",
+          "integrity": {
+            "archive": "sha384-Q+/dSbnwZloTYas0x+5+WHmrBZrZ1mJctF6LlvE8B+9E6ZPKN1HGWW/t2e4ausGA",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-lMXUT9k7SYLHUp7hDsukmkZK3IOLTo8WTzQLziWcHR1xjv1Ac02iUq1RF44flPkR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.10",
+          "integrity": {
+            "archive": "sha384-C2zH9nJagbJIGlNx97+H5Hj+VQdsJPMCmCR9qAz3KNA6aijuhpkPcaxPHU2N9K0F",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-5FHen3vAUQJnMZnmw1G3GFXBsshNoQvf0mSLCNLCvTAJdUIbLDJj+dcytcyVlD7m"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.09",
+          "integrity": {
+            "archive": "sha384-JjxPUUwtzmeegdFWHtxoO+swNuhnATwbmWyuIqv5o1rtBs6duI8ZO2/9L/9tTJ5H",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-yXtutX8FModAGa/DH2mGY+ERuEiNJj+WS1+L78a1mr64u1a+uzJXA5se8sVf9aII"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.08",
+          "integrity": {
+            "archive": "sha384-GWtvrVjiMoDxUewz/xUmMbqAU3lPOOEUCZmS34wB5C7okD64ApLFmKQ+9bkPe2ff",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-y5K7xrZ5/oytobSiy+8YeYp5EOsSQnITswPXIm9OUIKQGzuCeeLG/+ouCdR1E/JY"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.07",
+          "integrity": {
+            "archive": "sha384-588powa97wMQhkzZIC66TbVL+0pKlCY8XFAyR30ZsXmDGxGxXlY/xbSNdDrfMKP7",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-qhNf3tKL/9i58mUfON4tDnJokzu/QcTNKnkdZgm8z2zDpaJge5Jl6kaoAUWIUIUy"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.06",
+          "integrity": {
+            "archive": "sha384-XIkNb2hFthUtIC/haZvfKLbf84tWChHRmgF1edKdukx6TyizABftXHyDpTgCYcAb",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-XzzHlSNODf8+K1e5Rb8WYW28Fe6443pSJX+Tmt9AL/v4kZHdzmwBEpIF05vKLvQx"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.05",
+          "integrity": {
+            "archive": "sha384-GLFxT+hYWahCAOV2Ujey2yjzpvlwYxDmKccnA6cwRuPtESsNMz7uTXk4fFtSS6+5",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-DG1OFZeZuWHE6gryhFM4/YSLbTfbcJgR7VMGfbl5YbOOpPw+FlRDBjsOCamUNudX"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.04",
+          "integrity": {
+            "archive": "sha384-w9T+dDm35W6Z+WCJO2RtVlS4tcbklhA2D+h1cfNmQlvr7WeuqYI2cBdymgMLaeAy",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-5CyYPLsCCAPYwZd/rWhAKaib0buRdxYZGiaVwjExLkNk8Ahl0wBWmgsgc9QwmoBp"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.03",
+          "integrity": {
+            "archive": "sha384-NIOEh0IOu6eouuIQvI1DGbBGKYiU1TFNZoK+W7WQVuGuIa7QIMkWuJaoyPTOAJCS",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-z77ZNyZEaxDzUX+MBQNPzkr8yWuK36EzXSpWVApl9ZX0aLfa9gHTqfKDR7OH+sRo"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.02",
+          "integrity": {
+            "archive": "sha384-4uVjholoE89n3hS6WuPNaeviM2ZBCEqE5QlCIlw8VIK5p/dEvoi9dXauV4X9AJBb",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-jJ1jvUex054qi5Sbpsvkpuo6U7xMM9ch5cuG0bR/yT1zn+eJiEJ4m0gxcm6QhnN8"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.01",
+          "integrity": {
+            "archive": "sha384-k4dgWghy4msFSPNrq/MMMcSl9B/MYBuRd4+2gAkH9U8GlzCNlbMV7RuxhnBldieT",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-r+Jt78SJU/Xx3hTeI18Y4srMtve/PU3XA260sNsgF29Rw4clFlsx4kdIlbo5BGfL"
+              }
+            ]
+          }
+        },
+        {
+          "version": "4.00",
+          "integrity": {
+            "archive": "sha384-90hBDCSF2RAfMyPUk75kpuLvpd2obVU1ArUUxOkQuNSvIfu1ewXrP9btS+70XRtH",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-AucRj3yrJG7BQayf6xUaHF1J/COk4ceuegXUxXSxbfVx8BcXAL1JHrDAjaHw0USH"
+              }
+            ]
+          }
+        },
+        {
+          "version": "3.102",
+          "integrity": {
+            "archive": "sha384-nvZwsKJXWbrsc6eCoM98LFyTIx2gUrtzsi0X3AYTWEb5nrknHBkKTxWrXo4VuhRI",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-vHylrjLn+kqGKRpMS8k28RrvJ4LKFZrOanXdgpiB5xPIgq47V+GBbrKy9YJ+EPa9"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

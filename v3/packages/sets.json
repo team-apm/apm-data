@@ -17,7 +17,12 @@
         "https://team-apm.github.io/apm-data/package-sets-description.html"
       ],
       "latestVersion": "2022/06/16",
-      "files": [{ "filename": "placeholder.pkgset", "isObsolete": true }]
+      "files": [
+        {
+          "filename": "placeholder.pkgset",
+          "isObsolete": true
+        }
+      ]
     },
     {
       "id": "sets/aviutlTweaks",
@@ -38,7 +43,12 @@
         "https://team-apm.github.io/apm-data/package-sets-description.html"
       ],
       "latestVersion": "2022/06/16",
-      "files": [{ "filename": "placeholder.pkgset", "isObsolete": true }]
+      "files": [
+        {
+          "filename": "placeholder.pkgset",
+          "isObsolete": true
+        }
+      ]
     },
     {
       "id": "sets/scrapboxAviUtl",
@@ -59,7 +69,12 @@
         "https://team-apm.github.io/apm-data/package-sets-description.html"
       ],
       "latestVersion": "2022/06/16",
-      "files": [{ "filename": "placeholder.pkgset", "isObsolete": true }]
+      "files": [
+        {
+          "filename": "placeholder.pkgset",
+          "isObsolete": true
+        }
+      ]
     },
     {
       "id": "sets/tim",
@@ -165,7 +180,12 @@
         "https://team-apm.github.io/apm-data/package-sets-description.html"
       ],
       "latestVersion": "2022/12/02",
-      "files": [{ "filename": "placeholder.pkgset", "isObsolete": true }]
+      "files": [
+        {
+          "filename": "placeholder.pkgset",
+          "isObsolete": true
+        }
+      ]
     }
   ]
 }

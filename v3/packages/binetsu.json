@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "binetsu/SharpBorder",
+      "name": "角縁取り",
+      "overview": "角をしっかり尖らせて縁取りする",
+      "description": "Adobe Illustratorなどの縁取りみたいに、角をしっかり尖らせて縁取りするスクリプトです。",
+      "developer": "微熱",
+      "pageURL": "https://www.nicovideo.jp/watch/sm41265376",
+      "downloadURLs": [
+        "https://www.dropbox.com/sh/96vgf2p4vji4x9a/AAD4m0XHt9oJKna0aWEWRD79a?dl=0"
+      ],
+      "latestVersion": "2022/10/27",
+      "nicommons": "sm41265376",
+      "files": [
+        {
+          "filename": "opencv_world460.dll"
+        },
+        {
+          "filename": "script/binetsu/角縁取り.anm"
+        },
+        {
+          "filename": "script/binetsu/SharpBorder.dll"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2022/10/27",
+          "integrity": {
+            "archive": "sha384-vrZOlrotjLwSFhc59GD4AibLUI3U8tuy/BqMk/POFEerHSflQdKxVCDBq0lYBTCW",
+            "file": [
+              {
+                "target": "opencv_world460.dll",
+                "hash": "sha384-XM9nIKIhOTW/Lfoi4jEfPNmYyifym4Z3XHkHdIXD6RKtntdpl/xY4fIZ7mZOCRI8"
+              },
+              {
+                "target": "script/binetsu/角縁取り.anm",
+                "hash": "sha384-BrArhuXInFPghUJCKAle0z/W5yrQcG0zpUQ9O2n22/s7XrO/e84NapNU6CZtE03E"
+              },
+              {
+                "target": "script/binetsu/SharpBorder.dll",
+                "hash": "sha384-ez90ymnBFqqIwgVCQjJzMPt7rnmsooKMXiPcMAB8SK9q5Zzah8YdpH8qmtKOLY//"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

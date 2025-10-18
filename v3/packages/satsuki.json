@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "satsuki/satsuki",
+      "name": "AviUtlスクリプト一式",
+      "overview": "AviUtlを使うなら必須のスクリプト",
+      "description": "画像の配置や色やさまざまなエフェクトに関するアニメーション効果、なめらかな加減速が可能なフィルタ効果、連番画像の配置、音声に同期したアニメーション、テキストに対するアニメーション効果、ノイズや模様や図形のカスタムオブジェクトなどのたくさんのスクリプトが含まれています。",
+      "developer": "さつき",
+      "pageURL": "https://dic.nicovideo.jp/u/2787743#script",
+      "downloadURLs": [
+        "https://bowlroll.net/file/3777"
+      ],
+      "latestVersion": "20160828",
+      "files": [
+        {
+          "filename": "script/さつき/@ANM1.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@ANM2.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@FIGURE.obj",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@LOAD.obj",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@TA.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@音声.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@加減速.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/さつき/@連番.anm",
+          "archivePath": "script_20160828/"
+        },
+        {
+          "filename": "script/ANM_ssd/",
+          "archivePath": "script_20160828/",
+          "isDirectory": true
+        },
+        {
+          "filename": "script/TA_ssd/",
+          "archivePath": "script_20160828/",
+          "isDirectory": true
+        }
+      ]
+    },
+    {
+      "id": "satsuki/soundwave",
+      "name": "時系列音声波形",
+      "overview": "音量の変化を時間軸に沿って表示する",
+      "description": "音声データを記録し、そのデータに応じた波形を表示します。",
+      "developer": "さつき/ティム",
+      "pageURL": "https://www.nicovideo.jp/watch/sm16297007",
+      "downloadURLs": [
+        "https://www.axfc.net/u/2153704"
+      ],
+      "latestVersion": "2012/08/07",
+      "nicommons": "sm16297007",
+      "files": [
+        {
+          "filename": "script/satsuki/@onsei.anm",
+          "archivePath": "時系列音声波形"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2012/08/07",
+          "integrity": {
+            "archive": "sha384-xbZmgeAArDSSIEDj6rySMORq9MYDWFx5ZmQ/Iu9FnsoaNUO+ZtH1NY0if5fdK5Q6",
+            "file": [
+              {
+                "target": "script/satsuki/@onsei.anm",
+                "hash": "sha384-NNfwINDAZNCAKDzXIfJAoroPNkt8X4hCS1iIXWegLQcElUYUwSFJOe80wZ16n8WK"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "hage/3daudio",
+      "name": "３D音声波形スクリプトセット",
+      "overview": "3D音声波形スクリプトの合作集",
+      "description": "3D音声波形スクリプトの合作集です。",
+      "developer": "禿げガル/ティム/テツ/野生の木屋P/白水",
+      "pageURL": "https://www.nicovideo.jp/watch/sm18548777",
+      "downloadURLs": [
+        "https://www.axfc.net/u/2542101?key=aviutl",
+        "https://www.axfc.net/u/2541115?key=aviutl"
+      ],
+      "latestVersion": "2012/08/07",
+      "nicommons": "sm18548777",
+      "files": [
+        {
+          "filename": "script/3d_audio/@tim.obj",
+          "archivePath": "3d_audio"
+        },
+        {
+          "filename": "script/3d_audio/@tetsu.obj",
+          "archivePath": "3d_audio"
+        },
+        {
+          "filename": "script/3d_audio/@yasei.obj",
+          "archivePath": "3d_audio"
+        },
+        {
+          "filename": "script/3d_audio/function_rotate_T.lua",
+          "archivePath": "3d_audio"
+        },
+        {
+          "filename": "script/3d_audio/@hksy.obj",
+          "archivePath": "3d_audio"
+        },
+        {
+          "filename": "script/3d_audio/@hage.obj",
+          "archivePath": "3d_audio"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2012/08/07",
+          "integrity": {
+            "archive": "sha384-Nad3zbAR2fEKFAf+d6hglX/4yyAt53s3GzH0NIP+qASU/nNv+hDJDjugkh1a86wS",
+            "file": [
+              {
+                "target": "script/3d_audio/@tim.obj",
+                "hash": "sha384-NjKKGubVg8yLf11JYmT30Xv1+ppwU4fCJNB6SYJ7ir4ib4swWlxOgbnYlNsStc5o"
+              },
+              {
+                "target": "script/3d_audio/@tetsu.obj",
+                "hash": "sha384-ubImo2mTLqVDUU4jDa/R6n1xGc1x8Nps13XV+UvOTJwMCuZ1gVG+G/otcQDwi9ob"
+              },
+              {
+                "target": "script/3d_audio/@yasei.obj",
+                "hash": "sha384-YytUyGvef7BvziQ2vLDiYsC5m04vW6I4iOf2OdiHtVTN3S9Yk9osPRV9xDdHDZef"
+              },
+              {
+                "target": "script/3d_audio/function_rotate_T.lua",
+                "hash": "sha384-ohUmTwDaSuDT92t5RiH4N2whLmuENVYaMSQmF1axJHKr6glRdq5xyr2BRbRqYANb"
+              },
+              {
+                "target": "script/3d_audio/@hksy.obj",
+                "hash": "sha384-ZPTm3vbo+sTmwDMiuxQJU9Sw3QC0/gJtP4i0tfjhqKXbAZ4HRZf1Qdf0jrGidTiQ"
+              },
+              {
+                "target": "script/3d_audio/@hage.obj",
+                "hash": "sha384-BCisCQ3/NDXmRa3QDTNorxAFe6+s96UhLeLOoukXTofmBqC3HQVkVV4m2z/9YmH3"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

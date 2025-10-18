@@ -1,0 +1,79 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "tetsuXIAO/opencv",
+      "name": "OpenCVアニメーションスクリプト",
+      "overview": "OpenCVを使用した画像処理を行うスクリプト",
+      "description": "画像処理ライブラリであるOpenCVをAviUtlで動かしたスクリプト群です。【動作にはVisual C++ 再頒布可能パッケージ 2013 x86(32bit)のインストールが必要です  https://www.microsoft.com/ja-jp/download/details.aspx?id=40784 】",
+      "developer": "てつ(XIAO)",
+      "pageURL": "https://www.nicovideo.jp/watch/sm32520048",
+      "downloadURLs": [
+        "https://drive.google.com/open?id=1qhvFFI0eTPdnqDh3BoOgVEBN6jtFdPA-",
+        "https://1drv.ms/u/s!AtlkGLmQo-xyplvayN9XmZl3LjV1?e=5BvlIT"
+      ],
+      "latestVersion": "v2",
+      "nicommons": "sm32520048",
+      "files": [
+        {
+          "filename": "opencv_core300.dll",
+          "archivePath": "opencv_anm_v2"
+        },
+        {
+          "filename": "opencv_imgcodecs300.dll",
+          "archivePath": "opencv_anm_v2"
+        },
+        {
+          "filename": "opencv_photo300.dll",
+          "archivePath": "opencv_anm_v2"
+        },
+        {
+          "filename": "opencv_imgproc300.dll",
+          "archivePath": "opencv_anm_v2"
+        },
+        {
+          "filename": "script/tetsu_xiao/@opencv.anm",
+          "archivePath": "opencv_anm_v2"
+        },
+        {
+          "filename": "script/tetsu_xiao/ocv_module.dll",
+          "archivePath": "opencv_anm_v2"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v2",
+          "integrity": {
+            "archive": "sha384-Lu9y86FvQCGjThCLWo4ubjTV5zEDE1n08ULe9AXdFH5SnrKpttdKqLjYlBUadQMh",
+            "file": [
+              {
+                "target": "opencv_core300.dll",
+                "hash": "sha384-QIBD+WvQlF9gFiEVsF/tBW6/7Zozf4WrWEld3ibrjd1xZkIjsWWMcO44F7t+rpu0"
+              },
+              {
+                "target": "opencv_imgcodecs300.dll",
+                "hash": "sha384-BfoGJ7o7aNb4ogh5IOWkEKsXqLS1hNDlkKKjz5UPuguxLJqjvFdI7B1FWQeI4cq5"
+              },
+              {
+                "target": "opencv_photo300.dll",
+                "hash": "sha384-8T+v1MV/mAA6BgtXMq7b1BkVIoDiwwt81mc9Bflwcfc7/i2gRx6kv5iATYhjb15s"
+              },
+              {
+                "target": "opencv_imgproc300.dll",
+                "hash": "sha384-08CNlzMdvMgnHjKDcq77zipY6XdeWbEm3luTfQIXptKy4xbVwBNeFVS0yU65a9LY"
+              },
+              {
+                "target": "script/tetsu_xiao/@opencv.anm",
+                "hash": "sha384-3p9FSPRsM7WsmwQsVHHRY1TEBh6LyR/ac1feJewL5GhgoDxlXUmKPMhNVaOMrh3T"
+              },
+              {
+                "target": "script/tetsu_xiao/ocv_module.dll",
+                "hash": "sha384-9g0T6VK4Sa718AkxBNw3iGXY0dJBOa2NHaySnanEg1lhg06W14RbJwBbG4tSy6er"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

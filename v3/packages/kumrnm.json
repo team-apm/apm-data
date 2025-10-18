@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "kumrnm/AdvancedMouseOperation",
+      "name": "マウスオペレーション改",
+      "overview": "AviUtl拡張編集メインウィンドウ上での編集操作を強化するプラグイン",
+      "description": "メインウィンドウ上での編集操作としてマウスコマンドを追加",
+      "developer": "蝙蝠の目",
+      "dependencies": [
+        "exedit0.92"
+      ],
+      "pageURL": "https://github.com/kumrnm/aviutl-advanced-mouse-operation#readme",
+      "downloadURLs": [
+        "https://github.com/kumrnm/aviutl-advanced-mouse-operation/releases/latest"
+      ],
+      "latestVersion": "v1.0.0",
+      "files": [
+        {
+          "filename": "plugins/AdvancedMouseOperation.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.0.0",
+          "integrity": {
+            "archive": "sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d",
+            "file": [
+              {
+                "target": "plugins/AdvancedMouseOperation.auf",
+                "hash": "sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kumrnm/AuthenticGrouping",
+      "name": "真・グループ制御",
+      "overview": "AviUtl 拡張編集のグループ制御の機能を改善するプラグイン",
+      "description": "グループ制御を入れ子にした際の親グループの制御範囲を変更し、グループ制御が複数のグループ制御を制御できるようにする。",
+      "developer": "蝙蝠の目",
+      "dependencies": [
+        "exedit0.92"
+      ],
+      "pageURL": "https://github.com/kumrnm/aviutl-authentic-grouping#readme",
+      "downloadURLs": [
+        "https://github.com/kumrnm/aviutl-authentic-grouping/releases/latest"
+      ],
+      "latestVersion": "v1.1.0",
+      "files": [
+        {
+          "filename": "plugins/authentic_grouping.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.1.0",
+          "integrity": {
+            "archive": "sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3",
+            "file": [
+              {
+                "target": "plugins/authentic_grouping.auf",
+                "hash": "sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kumrnm/EasingQuickSetup",
+      "name": "イージング設定時短プラグイン",
+      "overview": "AviUtl 拡張編集のイージング設定を補助するプラグイン",
+      "description": "パラメーター付きのイージングが選択された場合、パラメーター設定ダイアログをその場で表示します",
+      "developer": "蝙蝠の目",
+      "pageURL": "https://github.com/kumrnm/aviutl-easing-quick-setup#readme",
+      "downloadURLs": [
+        "https://github.com/kumrnm/aviutl-easing-quick-setup/releases/latest"
+      ],
+      "latestVersion": "v1.1.0",
+      "files": [
+        {
+          "filename": "plugins/easing_quick_setup.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.1.0",
+          "integrity": {
+            "archive": "sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO",
+            "file": [
+              {
+                "target": "plugins/easing_quick_setup.auf",
+                "hash": "sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

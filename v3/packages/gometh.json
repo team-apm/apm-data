@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "gometh/SLGhuumi",
+      "name": "SLG風3D戦闘支援スクリプト",
+      "overview": "オブジェクトを3Dのマス目に配置する",
+      "description": "フィールド・キャラクター・移動範囲の３種類のアニメーション効果をオブジェクトに与えることができます。フィールドのアニメーション効果を与えられたオブジェクトに、キャラクター・移動範囲のアニメーション効果を与えられたオブジェクトを座標指定で配置することができ、カメラアングルなどを操作して立体っぽい映像を作ることができます。",
+      "developer": "gometh",
+      "pageURL": "https://www.nicovideo.jp/watch/sm28921356",
+      "downloadURLs": [
+        "http://www1.axfc.net/u/3670270"
+      ],
+      "latestVersion": "2016/05/26",
+      "files": [
+        {
+          "filename": "script/gometh/@SLG風味.anm"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2016/05/26",
+          "integrity": {
+            "archive": "sha384-gVYwaU3V/8ehJroVLmbvuGtOqbmPqBhuo5uyNycGo6lkCS4jWj0cOgTCZaQ/tIfV",
+            "file": [
+              {
+                "target": "script/gometh/@SLG風味.anm",
+                "hash": "sha384-lZTm71GlDdlluaeY0ftABy4fQx/Hocz1agsX03QTEO/ZUd5EsxxKapVW12Eo4cIE"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gometh/moyou",
+      "name": "模様スクリプト",
+      "overview": "オブジェクトに模様を重ねるスクリプト",
+      "description": "テキスト等のオブジェクトに縞模様・格子模様・市松模様・水玉模様を合成するスクリプト",
+      "developer": "gometh",
+      "dependencies": [
+        "ePi/LuaJIT"
+      ],
+      "pageURL": "https://www.nicovideo.jp/watch/sm41446069",
+      "downloadURLs": [
+        "https://drive.google.com/file/d/1gDjg7omiiDxlKTuwRFopw-ySEjIO1qgE/view?usp=sharing"
+      ],
+      "latestVersion": "2022/12/01",
+      "files": [
+        {
+          "filename": "script/gometh/模様.anm"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2022/12/01",
+          "integrity": {
+            "archive": "sha384-QnGz891ctJWvWoWKD58TekNMCm6LZOTHoqTQtEshmBot5Pq8Dgvnj3HtY+WipuoY",
+            "file": [
+              {
+                "target": "script/gometh/模様.anm",
+                "hash": "sha384-QnGz891ctJWvWoWKD58TekNMCm6LZOTHoqTQtEshmBot5Pq8Dgvnj3HtY+WipuoY"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

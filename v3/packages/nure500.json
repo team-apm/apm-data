@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "nure500/vhs",
+      "name": "VHS風のエフェクト",
+      "overview": "VHS風のエフェクトです。記述内容は極めてシンプルです。",
+      "description": "VHS風のエフェクトです。記述内容は極めてシンプルです。",
+      "developer": "Nure",
+      "pageURL": "https://twitter.com/sdkd500/status/1042352681241591810",
+      "downloadURLs": [
+        "https://www.dropbox.com/s/lrlzc0f34bzcvqa/VHS%E9%A2%A8.anm?dl=0"
+      ],
+      "latestVersion": "2018/9/19",
+      "files": [
+        {
+          "filename": "script/nure500/VHS風.anm"
+        }
+      ],
+      "releases": [
+        {
+          "version": "2018/9/19",
+          "integrity": {
+            "archive": "sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D",
+            "file": [
+              {
+                "target": "script/nure500/VHS風.anm",
+                "hash": "sha384-B9s9+Lg4wZmkrIbncRCd3oLxDTFLAkAYoXAzrQB04Cj/oGoXntRxlVTPXzJP4j5D"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

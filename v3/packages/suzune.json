@@ -1,0 +1,69 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "suzune/WideDialog",
+      "name": "WideDialog.auf",
+      "overview": "AviUtlの設定ダイアログを幅広にする",
+      "description": "AviUtlの設定ダイアログの幅を広くします。",
+      "developer": "鈴音",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39708120",
+      "downloadURLs": [
+        "https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest"
+      ],
+      "latestVersion": "v1.04",
+      "nicommons": "sm39708120",
+      "files": [
+        {
+          "filename": "plugins/WideDialog.auf",
+          "archivePath": "WideDialog_aviutl_plugin-1.04/"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.02",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/WideDialog.auf",
+                "hash": "sha384-esDTZQT6MIC5ZUDz9kqohy1VAfi0XgQrOhC8Yk0KYLs04/jXZOgTtCRcPp0Eu2N6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "suzune/bakusoku",
+      "name": "bakusoku.auf",
+      "overview": "AviUtlを爆速化するプラグイン",
+      "description": "ウィンドウの描画処理を変更して、動作を軽くします。",
+      "developer": "鈴音",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39679253",
+      "downloadURLs": [
+        "https://github.com/suzune25254649/bakusoku_aviutl_plugin/releases/latest"
+      ],
+      "latestVersion": "v1.06",
+      "nicommons": "sm39679253",
+      "files": [
+        {
+          "filename": "plugins/bakusoku.auf",
+          "archivePath": "bakusoku_aviutl_plugin-1.06/"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.06",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/bakusoku.auf",
+                "hash": "sha384-R88BgBkWqGyNV7k17Rs1pdSExz5BvYpAjezWiQLL3xalz4LabnEKcZhBx2pSt7EB"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

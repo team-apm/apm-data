@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "uepon/JPEG3piece",
+      "name": "JPEG 3点セット",
+      "overview": "JPEGの入力・連番出力・ワンクリック保存",
+      "description": "JPEGの入力・連番出力・ワンクリック保存を行うプラグイン。特徴は、JPEGのYCbCr（フルレンジ）をYC48（の圧縮レンジ）に直接変換して入出力していることです。ワンクリック保存をショートカットキーに割当てることも可能です。他にもYUV444で保存できたりします。",
+      "developer": "うえぽん",
+      "pageURL": "http://auf.jpn.xxxxxxxx.jp/",
+      "downloadURLs": [
+        "http://auf.jpn.xxxxxxxx.jp/#:~:text=%E2%96%A0JPEG"
+      ],
+      "latestVersion": "0.3.1",
+      "files": [
+        {
+          "filename": "plugins/jpeg_input.aui"
+        },
+        {
+          "filename": "plugins/jpeg_output.auo"
+        },
+        {
+          "filename": "plugins/jpeg_print.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "0.3.1",
+          "integrity": {
+            "archive": "sha384-bNi1uWuBipTrshC4yyDAQxdLt20xSjQXWQVYkQw6t83Ihd8fHwWwij1AJAQ8xej+",
+            "file": [
+              {
+                "target": "plugins/jpeg_input.aui",
+                "hash": "sha384-4+eu6lFvloskhVux2gf70V8dNG9HYvMJz/EPyUcNE5vGuOeMXXPvLQw/R1lXBBBk"
+              },
+              {
+                "target": "plugins/jpeg_output.auo",
+                "hash": "sha384-Pu0RsNujkPFy886s2+vlqLcnwhbEkbV2EZ0M/prHfFoA9i+eiw2IZtDSuaF6JY/h"
+              },
+              {
+                "target": "plugins/jpeg_print.auf",
+                "hash": "sha384-+iNM0Uhd3uWvGx2dk1vm9DC0iOgf+QaJ0bjhfa6bP/6mP3llfNwJC82AzdY2BEKm"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

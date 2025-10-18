@@ -68,10 +68,14 @@
   ],
   "scripts": [
     {
-      "match": ["https://github.com/Aodaruma/Aodaruma-AviUtl-Script/releases*"],
+      "match": [
+        "https://github.com/Aodaruma/Aodaruma-AviUtl-Script/releases*"
+      ],
       "folder": "aodaruma",
       "developer": "Aodaruma",
-      "dependencies": ["rikky/rikkyModuleMemory|rikky/rikkyModule2"]
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2"
+      ]
     },
     {
       "match": [
@@ -85,16 +89,22 @@
       ]
     },
     {
-      "match": ["http://auls.client.jp/*"],
+      "match": [
+        "http://auls.client.jp/*"
+      ],
       "folder": "auls",
       "developer": "yu_noimage_",
       "dependencies": []
     },
     {
-      "match": ["http://auls.client.jp/script/auls_zbuffer.zip*"],
+      "match": [
+        "http://auls.client.jp/script/auls_zbuffer.zip*"
+      ],
       "folder": "auls",
       "developer": "yu_noimage_",
-      "dependencies": ["ePi/aulsMemref"]
+      "dependencies": [
+        "ePi/aulsMemref"
+      ]
     },
     {
       "match": [
@@ -108,37 +118,51 @@
       ]
     },
     {
-      "match": ["*麻雀牌スクリプト*.zip*"],
+      "match": [
+        "*麻雀牌スクリプト*.zip*"
+      ],
       "folder": "麻雀牌",
       "developer": "gometh",
-      "dependencies": ["rikky/rikkyModuleMemory|rikky/rikkyModule2"]
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2"
+      ]
     },
     {
-      "match": ["https://twitter.com/i/moments/950334056461344768*"],
+      "match": [
+        "https://twitter.com/i/moments/950334056461344768*"
+      ],
       "folder": "kaisatsu",
       "developer": "kaisatsu",
       "dependencies": []
     },
     {
-      "match": ["https://github.com/karoterra/aviutl-scripts*"],
+      "match": [
+        "https://github.com/karoterra/aviutl-scripts*"
+      ],
       "folder": "karoterra",
       "developer": "karoterra",
       "dependencies": []
     },
     {
-      "match": ["http://niconicotetu.web.fc2.com/download_page.html*"],
+      "match": [
+        "http://niconicotetu.web.fc2.com/download_page.html*"
+      ],
       "folder": "tetu",
       "developer": "テツ",
       "dependencies": []
     },
     {
-      "match": ["https://tim3.web.fc2.com/sidx.htm*"],
+      "match": [
+        "https://tim3.web.fc2.com/sidx.htm*"
+      ],
       "folder": "tim",
       "developer": "ティム",
       "dependencies": []
     },
     {
-      "match": ["https://tim3.web.fc2.com/script/*BriWipe*.zip"],
+      "match": [
+        "https://tim3.web.fc2.com/script/*BriWipe*.zip"
+      ],
       "redirect": "tim/briwipe"
     },
     {
@@ -150,43 +174,63 @@
       "dependencies": []
     },
     {
-      "match": ["*old_script_etc*.zip*"],
+      "match": [
+        "*old_script_etc*.zip*"
+      ],
       "redirect": "respectrum93/oldScripts"
     },
     {
-      "match": ["https://hazumurhythm.com/wev/amazon/?*search=rikky*"],
+      "match": [
+        "https://hazumurhythm.com/wev/amazon/?*search=rikky*"
+      ],
       "folder": "rikky",
       "developer": "rikky",
-      "dependencies": ["rikky/rikkyModuleMemory|rikky/rikkyModule2"]
+      "dependencies": [
+        "rikky/rikkyModuleMemory|rikky/rikkyModule2"
+      ]
     },
     {
-      "match": ["*fan_clipping*.zip*"],
+      "match": [
+        "*fan_clipping*.zip*"
+      ],
       "redirect": "rikky/fanClipping"
     },
     {
-      "match": ["*ロール巻取(ページめくり)*.zip*"],
+      "match": [
+        "*ロール巻取(ページめくり)*.zip*"
+      ],
       "redirect": "rikky/roll"
     },
     {
-      "match": ["*パーツ分割*.zip*"],
+      "match": [
+        "*パーツ分割*.zip*"
+      ],
       "redirect": "rikky/separate1|rikky/separate2"
     },
     {
-      "match": ["*立体化(R)*.zip*"],
+      "match": [
+        "*立体化(R)*.zip*"
+      ],
       "redirect": "rikky/dimensionize1|rikky/dimensionize2"
     },
     {
-      "match": ["https://bowlroll.net/file/3777*"],
+      "match": [
+        "https://bowlroll.net/file/3777*"
+      ],
       "redirect": "satsuki/satsuki"
     },
     {
-      "match": ["https://www.nicovideo.jp/user/26576669/mylist/37628454*"],
+      "match": [
+        "https://www.nicovideo.jp/user/26576669/mylist/37628454*"
+      ],
       "folder": "undofish",
       "developer": "UndoFish",
       "dependencies": []
     },
     {
-      "match": ["https://shummg.work/downloads/*"],
+      "match": [
+        "https://shummg.work/downloads/*"
+      ],
       "folder": "shummg",
       "developer": "しゅう",
       "dependencies": [
@@ -196,7 +240,9 @@
       ]
     },
     {
-      "match": ["*@Winアイコン*"],
+      "match": [
+        "*@Winアイコン*"
+      ],
       "folder": "shummg",
       "developer": "しゅう",
       "dependencies": [
@@ -207,7 +253,9 @@
       ]
     },
     {
-      "match": ["*easing_tra_2020*.zip*"],
+      "match": [
+        "*easing_tra_2020*.zip*"
+      ],
       "redirect": "UndoFish/easingTra2020"
     },
     {

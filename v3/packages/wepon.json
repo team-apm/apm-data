@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "wepon/loupe360",
+      "name": "虫眼鏡プラグイン",
+      "overview": "別ウィンドウに拡大、縮小したプレビューを表示",
+      "description": "倍率は25%・50%・100%~1600%\n[表示]→[虫眼鏡の表示]で別ウィンドウが開き、ドラッグで移動、マウスホイールで縮小拡大\n設定からグリッド、ルーラーの表示を変更可能。",
+      "developer": "うえぽん",
+      "pageURL": "https://wepon.blog.jp/archives/60071829.html",
+      "downloadURLs": [
+        "http://auf.jpn.xxxxxxxx.jp/"
+      ],
+      "latestVersion": "r10",
+      "files": [
+        {
+          "filename": "loupe360.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "r10",
+          "integrity": {
+            "archive": "sha384-1QQYJGj91VStANtTZ8a8aocOFSS66xVC87d6/b0Aajydhj3WBn4HiaP7kDt7MNeV",
+            "file": [
+              {
+                "target": "loupe360.auf",
+                "hash": "sha384-smjTc4+Ts9N+OWqGJxtpImXEY+dj22fn8vWQhnWCJI1Kti29upD5aeuGc8IeAs9J"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r9.1",
+          "integrity": {
+            "archive": "sha384-JtdnvCwaE1XQ3/5/Z3W1hr4o+931pVvFCtaZ0yS53y/lsqYLzU2C5kGJ579fPOry",
+            "file": [
+              {
+                "target": "loupe360.auf",
+                "hash": "sha384-Y55ehiXUFSs674FTxNxB9KnnjY/S+xdFuZliGmrT8EbXaavufTF19Fo/hS/og87d"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r8",
+          "integrity": {
+            "archive": "sha384-lyt8tcRapvBNS5SYKeM3ZBkmszeXZ/mTg07sS54z+n2eIo/gz5HFq6zzRMZk0ALB",
+            "file": [
+              {
+                "target": "loupe360.auf",
+                "hash": "sha384-PHHW2Bp72cYrB6E0TlmdZLSHBQ+4QzBU+4f6RyIRsKJs/1QgbEyTCbpZYniTdH5g"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r4",
+          "integrity": {
+            "archive": "sha384-HhR+PswEDqWEcEQSNt4Pwy7tBwNKj/peXEVW4Br0HV4+gFcuuv8Ap+54qoq1B78s",
+            "file": [
+              {
+                "target": "loupe360.auf",
+                "hash": "sha384-Ff0ENsfuPd01dd9zAsrFzIkzKZ7Sxjqw1jIfA7HxmNcHKaTvBk1MrI5H9W4CyDPc"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

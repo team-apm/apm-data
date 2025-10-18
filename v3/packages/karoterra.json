@@ -1,0 +1,379 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "karoterra/DynamicPolygon",
+      "name": "動く多角形",
+      "overview": "トラックバーで指定した頂点座標をもとに多角形を描画するスクリプト",
+      "description": "トラックバーで指定した頂点座標をもとに多角形を描画する AviUtl スクリプトです。",
+      "developer": "karoterra",
+      "pageURL": "https://github.com/karoterra/aviutl-DynamicPolygon",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl-DynamicPolygon/releases/latest"
+      ],
+      "latestVersion": "v1.0.2",
+      "nicommons": "sm38752367",
+      "files": [
+        {
+          "filename": "script/karoterra/KaroterraDynamicPolygon.dll"
+        },
+        {
+          "filename": "script/karoterra/動く多角形ベース.obj"
+        },
+        {
+          "filename": "script/karoterra/@動く多角形.anm"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.0.2",
+          "integrity": {
+            "archive": "sha384-v8baIFOdmqDd7oe/WOQLH0e8j6ni4YcJmGrJ74/zUtViIafFb0C1ql27s3qD7O2w",
+            "file": [
+              {
+                "target": "script/karoterra/KaroterraDynamicPolygon.dll",
+                "hash": "sha384-KHSGoE5lbIMyYBRtuvzvJ7hp3l6qD7FccL4BeXp+nwpQW39tM525TBrkgaiNOjEQ"
+              },
+              {
+                "target": "script/karoterra/動く多角形ベース.obj",
+                "hash": "sha384-NJPZWMxFWvMp9iBoNljSU64NzOGGe0sP+larP9l7ktT/O9xcrTt1g5ME0dhHzzSa"
+              },
+              {
+                "target": "script/karoterra/@動く多角形.anm",
+                "hash": "sha384-Bnyi2kh0K/eDYbuiyKwCZi8nVSxFbOr5nl6lB132Wl9mNJvMiclAh7pHNK7G/Ykz"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/MarkdownEX",
+      "name": "AviUtl MarkdownEX",
+      "overview": "aviutl_browserを利用してMarkdownを表示する",
+      "description": "aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト。aviutl_browser同梱のMarkdown.anmを元に機能拡張を行ったものです。",
+      "developer": "karoterra",
+      "dependencies": [
+        "oov/aviutlBrowser"
+      ],
+      "pageURL": "https://github.com/karoterra/aviutl-markdownex",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl-markdownex/releases/latest"
+      ],
+      "latestVersion": "v0.2.0",
+      "nicommons": "sm38814110",
+      "files": [
+        {
+          "filename": "script/browser/MarkdownEX.anm",
+          "archivePath": "script/browser"
+        },
+        {
+          "filename": "script/browser/MarkdownEX.exa",
+          "archivePath": "script/browser"
+        },
+        {
+          "filename": "script/browser/MarkdownEX.obj",
+          "archivePath": "script/browser"
+        },
+        {
+          "filename": "script/browser/contents/MarkdownEX-emoji-list.html",
+          "archivePath": "script/browser/contents"
+        },
+        {
+          "filename": "script/browser/contents/MarkdownEX",
+          "archivePath": "script/browser/contents",
+          "isDirectory": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "v0.2.0",
+          "integrity": {
+            "archive": "sha384-XB94igkLIBojr70+WotxZr626j9o1jgDLDa4Lz5qmYfa6J8EDXjhYiAKQ/+XkFIE",
+            "file": [
+              {
+                "target": "script/browser/MarkdownEX.anm",
+                "hash": "sha384-SNyciswKxUkYhfrruMRMwR4dj/yIuTgwilLZAY4HxtKaeV1Bl9fKO4orufuifmWp"
+              },
+              {
+                "target": "script/browser/MarkdownEX.exa",
+                "hash": "sha384-CvG1pLTqPlD1kH4rauPpDnNzPFCLFJJooa/GMx+z628USeoW4JtMNHub6OeZ8xFe"
+              },
+              {
+                "target": "script/browser/MarkdownEX.obj",
+                "hash": "sha384-iaSbAz0039EpK759RBhmF22mOmtvvNIOVJFtfPlWXtD1hUyane+NuKlr4ouc3SOX"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/OilPainting",
+      "name": "油絵",
+      "overview": "油絵風の加工を施すアニメーション効果",
+      "description": "Kuwahara filter により油絵風の加工を施す AviUtl スクリプトです。高橋直哉氏の油絵スクリプトの処理速度を向上させたものです。",
+      "developer": "karoterra",
+      "pageURL": "https://github.com/karoterra/aviutl-OilPainting",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl-OilPainting/releases/latest"
+      ],
+      "latestVersion": "v1.0.1",
+      "nicommons": "sm39051118",
+      "files": [
+        {
+          "filename": "script/karoterra/KaroterraOilPainting.dll"
+        },
+        {
+          "filename": "script/karoterra/油絵.anm"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.0.1",
+          "integrity": {
+            "archive": "sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy",
+            "file": [
+              {
+                "target": "script/karoterra/KaroterraOilPainting.dll",
+                "hash": "sha384-OIbc00TOruQRt24IojLBbnApEVOsaVgzoHZBVcUINk8nwoLrtHbowX9TOsKRCyhM"
+              },
+              {
+                "target": "script/karoterra/油絵.anm",
+                "hash": "sha384-2Ns5FaSZaP/EZCZd3js91FKPBHR8AwU/Vhf32riHw7xo086Knn0ToQaZ8Cr92lwp"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/ShowLimit",
+      "name": "上限確認",
+      "overview": "スクリプト名等のバッファの使用率を確認する",
+      "description": "AviUtl 拡張編集内部に存在するスクリプト名等のバッファの使用率を確認するプラグインです。 これにより、あとどれくらいスクリプトを追加できるか確認できます。",
+      "developer": "karoterra",
+      "pageURL": "https://github.com/karoterra/aviutl_ShowLimit",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl_ShowLimit/releases/latest"
+      ],
+      "latestVersion": "v0.5.1",
+      "files": [
+        {
+          "filename": "plugins/ShowLimit.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v0.5.1",
+          "integrity": {
+            "archive": "sha384-3Kf8Fewiuy2SE2rF37MBJpfiyKLEuK5DUnZ8g+mG/yeNjGM9P1egGN9EROYLFo3q",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-k9gw+V6e21bmH+2WEzo0cqKm6ttsA6hKiNgT86ubBFtway1txNIS+c62dxFbKyDl"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.4.0",
+          "integrity": {
+            "archive": "sha384-tpieaGZ/9yacfspLjMS6/IvwMYwwvKH/jRvbM/zWJ78rX4lwZKwHNrLAP9zhpMSa",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-+2Wgwi70ELIGQ4wr9OKSfiu7zF11Jp+v4SPNdOGsTGuN+L0oTS1Qa8zh223qqcWt"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3.0",
+          "integrity": {
+            "archive": "sha384-uWSiBjaKWgZ5kqsnoYtu4L6OFRtJ35PRG6Y/gs0D/5YQXBynbkWWqqJO6PcaY/p+",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-k9iIuaAAm9J6y3jG/u2whN8pP5J5wBJrXHiAToviSU8o4zBpBHTAlePtrsaVkYX8"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.1",
+          "integrity": {
+            "archive": "sha384-XZrP9sNNBgzC2SWfisuCB5uLsTuSLxVcfZc0vOJ+MeFQ0iVVoMTah+cBbuv5+V2l",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-4luJCqrt2eJhbNtcJF/1jDLwP8nehb+ztAuSIO1f4JHxgEnD6AIPjqnyEgs26cQP"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.2.0",
+          "integrity": {
+            "archive": "sha384-leaAx7/D9ewe2vqE3dwC9ZyxwKc2J7jr7WK9wcWdA9LOHN0i6n6W96BHuQWdb7R3",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-yHabypMNaAmY+nS4Jw/+t0D9xluCPOodXrFcBVOOA5otytMEz9n5TejcrBrQFSJr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.1.0",
+          "integrity": {
+            "archive": "sha384-fcerL9dZNDObOM+U1IRXOY+cUOijqbOxIl37nUhwLqLAK+yW2NhbY7pFhMxhdrx8",
+            "file": [
+              {
+                "target": "plugins/ShowLimit.auf",
+                "hash": "sha384-BAeuliq8jhmSJK3sMc+NzTeZhyyo+moZkl+06N1AiXGOO5l8IHD+gDbkw2RC3ums"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/aviutlWaveformPreview",
+      "name": "aviutl_WaveformPreview",
+      "overview": "編集中の音声波形を確認する",
+      "description": "AviUtl で編集中の音声波形を確認するためのプラグインです。AviUtl の「設定→波形プレビュー」の設定メニューから波形プレビュープラグインの画面を表示してください。",
+      "developer": "karoterra",
+      "pageURL": "https://github.com/karoterra/aviutl_WaveformPreview",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl_WaveformPreview/releases/latest"
+      ],
+      "latestVersion": "v0.3.1",
+      "nicommons": "sm39258128",
+      "files": [
+        {
+          "filename": "plugins/WaveformPreview.auf"
+        },
+        {
+          "filename": "plugins/WaveformPreview.exe"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v0.3.1",
+          "integrity": {
+            "archive": "sha384-OWNthWW2qFCYKRqFhZ2A+O4mEBd2FSkRlk9ClNVmED3cKDjKpOvuTJdNqTkffJjW",
+            "file": [
+              {
+                "target": "plugins/WaveformPreview.auf",
+                "hash": "sha384-w+uCXEBESFko0vTkhA8xqG6HEfqXG8ouvp3ovNrTzkhDJ1ypR6cj4qM/Mw+SXP98"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v0.3.0",
+          "integrity": {
+            "archive": "sha384-Tfp/IauRVYxxkFlysy48dzp8cZWpe/oMj6JX5WoR5oDFVdmAEvPLJFYBlj7YAiIz",
+            "file": [
+              {
+                "target": "plugins/WaveformPreview.auf",
+                "hash": "sha384-E3+gILdgkLampjNX6EGxWXQ3+na6dYdO1af667x8tOSEQUxY0J0PVcKbm967zCHT"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/bend",
+      "name": "曲げKR",
+      "overview": "画像を曲線に沿って曲げるスクリプト",
+      "description": "画像を曲線に沿って曲げる AviUtl スクリプトです。",
+      "developer": "karoterra",
+      "pageURL": "https://github.com/karoterra/aviutl-Bend",
+      "downloadURLs": [
+        "https://github.com/karoterra/aviutl-Bend/releases/latest"
+      ],
+      "latestVersion": "v1.0.0",
+      "nicommons": "sm39711773",
+      "files": [
+        {
+          "filename": "script/karoterra/@曲げKR.anm"
+        },
+        {
+          "filename": "script/karoterra/KaroterraBend.lua"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.0.0",
+          "integrity": {
+            "archive": "sha384-kQZEZuH0rR6desFAEPGef04zoc8yu/m1T4P7Jw8SgLJp7eY61m/I+Dy+Ep6DxjMe",
+            "file": [
+              {
+                "target": "script/karoterra/@曲げKR.anm",
+                "hash": "sha384-KKoIgVpouYx6YWBq25bpYaQTVdO8kLkIdN9OHw0vRmjPgGehWW4KDMIJ2xsUpBsG"
+              },
+              {
+                "target": "script/karoterra/KaroterraBend.lua",
+                "hash": "sha384-g0AopPBYkSYI8T/Vk+Pz/fsK8bzoCNGGUfSx3ghDN/vcP8GhIyX2FJqrxWLAldIg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "karoterra/confirmclose",
+      "name": "改変版Auls終了確認",
+      "overview": "プロジェクトを閉じる前に確認メッセージを表示する",
+      "description": "拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。Auls( http://auls.client.jp/ )さんの終了確認プラグインを勝手に改変したものです。",
+      "developer": "karoterra",
+      "originalDeveloper": "yu_noimage_",
+      "dependencies": [
+        "exedit0.92"
+      ],
+      "pageURL": "https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D",
+      "downloadURLs": [
+        "https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D"
+      ],
+      "latestVersion": "v1.2",
+      "files": [
+        {
+          "filename": "auls_confirmclose.auf"
+        },
+        {
+          "filename": "plugins/auls_confirmclose.auf",
+          "isObsolete": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.2",
+          "integrity": {
+            "archive": "sha384-xlinFF+FeqB2O6at+csUh/KJGyMoftlLNYpNOpZVkLaMK5udzsQLKrEQkomB64h5",
+            "file": [
+              {
+                "target": "auls_confirmclose.auf",
+                "hash": "sha384-BMVh2RyCX5juitNTKDY4auoYn8M+K21kCDL+lrr36NecCm+s77gqra/MkkPl1yRI"
+              }
+            ]
+          }
+        },
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-gBb6JbNJ8ePaWfSt9MQlj51zaITzq65pKuR+sdWScFyuvsuKUI3nIrNyTk7oMLp+",
+            "file": [
+              {
+                "target": "auls_confirmclose.auf",
+                "hash": "sha384-E1sBtURbjxmn2yWovjcr0R1nQthQxPrgvDLvdxGi4cK9k8LpIVPDmNgEUqrE69WR"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

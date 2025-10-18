@@ -1,0 +1,57 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "pop4bit/LSMASHWorks",
+      "name": "L-SMASH Works",
+      "overview": "様々な形式の動画・音楽ファイルを読み込む",
+      "description": "様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS のぽっぷん氏ビルドです。ffmpegのバージョン4.2.2を使用しています。海外からはダウンロードできません。",
+      "developer": "ぽっぷん",
+      "originalDeveloper": "VFR-maniac",
+      "pageURL": "https://pop.4-bit.jp/?page_id=7929",
+      "downloadURLs": [
+        "https://pop.4-bit.jp/?page_id=7929"
+      ],
+      "latestVersion": "r940 release1",
+      "files": [
+        {
+          "filename": "plugins/lwcolor.auc"
+        },
+        {
+          "filename": "plugins/lwdumper.auf"
+        },
+        {
+          "filename": "plugins/lwinput.aui"
+        },
+        {
+          "filename": "plugins/lwmuxer.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "r940 release1",
+          "integrity": {
+            "archive": "sha384-yBDA/RFCozGCQc6tcPa+Vsm4B0J82skJXN4ZrVRegCgQFTJW8N8eLlWXy55LiFRX",
+            "file": [
+              {
+                "target": "plugins/lwinput.aui",
+                "hash": "sha384-11Bixku/iJUz6SgrABVClbVYcP4yM1D14eS52/HwQA60yYI1UMAoabnjLsIo+o3J"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r940 mod1",
+          "integrity": {
+            "file": [
+              {
+                "target": "plugins/lwinput.aui",
+                "hash": "sha384-G+do1l9i5JW6y18m/C/OzPnKEq667EWIk/PenITnH3ymEYQf+H9lfHlkDhtJHv5C"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

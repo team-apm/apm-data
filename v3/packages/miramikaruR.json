@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "miramikaruR/norinori",
+      "name": "ちょっとノリノリスクリプト",
+      "overview": "BPMに合わせたアニメーションが可能",
+      "description": "オブジェクトにBPMに合わせたアニメーションをつけることができます。",
+      "developer": "おばけ大根",
+      "pageURL": "https://www.nicovideo.jp/watch/sm33151219",
+      "downloadURLs": [
+        "https://www.axfc.net/u/3907922.dat"
+      ],
+      "latestVersion": "2018/05/03",
+      "nicommons": "sm33151219",
+      "files": [
+        {
+          "filename": "script/miramikaruR/ちょっとノリノリスクリプト.anm"
+        }
+      ]
+    }
+  ]
+}

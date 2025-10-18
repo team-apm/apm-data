@@ -2,12 +2,28 @@
   "version": 3,
   "aviutl": {
     "files": [
-      { "filename": "aviutl.exe" },
-      { "filename": "aviutl.txt" },
-      { "filename": "aviutl.aup", "isUninstallOnly": true },
-      { "filename": "aviutl.ini", "isUninstallOnly": true },
-      { "filename": "aviutl.key", "isUninstallOnly": true },
-      { "filename": "aviutl.sav", "isUninstallOnly": true }
+      {
+        "filename": "aviutl.exe"
+      },
+      {
+        "filename": "aviutl.txt"
+      },
+      {
+        "filename": "aviutl.aup",
+        "isUninstallOnly": true
+      },
+      {
+        "filename": "aviutl.ini",
+        "isUninstallOnly": true
+      },
+      {
+        "filename": "aviutl.key",
+        "isUninstallOnly": true
+      },
+      {
+        "filename": "aviutl.sav",
+        "isUninstallOnly": true
+      }
     ],
     "latestVersion": "1.10",
     "releases": [
@@ -41,19 +57,46 @@
   },
   "exedit": {
     "files": [
-      { "filename": "exedit.anm" },
-      { "filename": "exedit.auf" },
-      { "filename": "exedit.aui" },
-      { "filename": "exedit.auo" },
-      { "filename": "exedit.cam" },
-      { "filename": "exedit.ini" },
-      { "filename": "exedit.obj" },
-      { "filename": "exedit.scn" },
-      { "filename": "exedit.tra" },
-      { "filename": "exedit.txt" },
-      { "filename": "lua.txt" },
-      { "filename": "lua51.dll" },
-      { "filename": "lua51jit.dll", "isUninstallOnly": true }
+      {
+        "filename": "exedit.anm"
+      },
+      {
+        "filename": "exedit.auf"
+      },
+      {
+        "filename": "exedit.aui"
+      },
+      {
+        "filename": "exedit.auo"
+      },
+      {
+        "filename": "exedit.cam"
+      },
+      {
+        "filename": "exedit.ini"
+      },
+      {
+        "filename": "exedit.obj"
+      },
+      {
+        "filename": "exedit.scn"
+      },
+      {
+        "filename": "exedit.tra"
+      },
+      {
+        "filename": "exedit.txt"
+      },
+      {
+        "filename": "lua.txt"
+      },
+      {
+        "filename": "lua51.dll"
+      },
+      {
+        "filename": "lua51jit.dll",
+        "isUninstallOnly": true
+      }
     ],
     "latestVersion": "0.92",
     "releases": [

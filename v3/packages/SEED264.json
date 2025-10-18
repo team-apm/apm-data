@@ -1,0 +1,403 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "SEED264/directionalblur",
+      "name": "DirectionalBlur_s",
+      "overview": "CUDAを使用した方向ブラー",
+      "description": "CUDAを用いて方向ブラーを行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "pageURL": "https://github.com/SEED264/DirectionalBlur_s",
+      "downloadURLs": [
+        "https://github.com/SEED264/DirectionalBlur_s/releases/latest"
+      ],
+      "latestVersion": "v1.00",
+      "files": [
+        {
+          "filename": "script/SEED264/DirectionalBlur_s.anm",
+          "archivePath": "DirectionalBlur_s"
+        },
+        {
+          "filename": "script/SEED264/DirectionalBlur_Direct_s.anm",
+          "archivePath": "DirectionalBlur_s"
+        },
+        {
+          "filename": "script/SEED264/DirectionalBlur_s.dll",
+          "archivePath": "DirectionalBlur_s"
+        },
+        {
+          "filename": "cudart32_75.dll",
+          "archivePath": "DirectionalBlur_s",
+          "isInstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.00",
+          "integrity": {
+            "archive": "sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz",
+            "file": [
+              {
+                "target": "script/SEED264/DirectionalBlur_s.anm",
+                "hash": "sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_s.dll",
+                "hash": "sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_Direct_s.anm",
+                "hash": "sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz",
+            "file": [
+              {
+                "target": "script/SEED264/DirectionalBlur_s.anm",
+                "hash": "sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_s.dll",
+                "hash": "sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc"
+              },
+              {
+                "target": "script/SEED264/DirectionalBlur_Direct_s.anm",
+                "hash": "sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/opticscompensation",
+      "name": "OpticsCompensation_s",
+      "overview": "レンズ補正",
+      "description": "いわゆるレンズ補正を行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "conflicts": [
+        "SEED264/opticscompensationold"
+      ],
+      "pageURL": "https://twitter.com/SEED264/status/1268646448452657152",
+      "downloadURLs": [
+        "https://github.com/SEED264/OpticsCompensation_s/releases/latest"
+      ],
+      "latestVersion": "v1.1",
+      "files": [
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.anm",
+          "archivePath": "OpticsCompensation_s"
+        },
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.dll",
+          "archivePath": "OpticsCompensation_s"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1",
+          "integrity": {
+            "archive": "sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.0",
+          "integrity": {
+            "archive": "sha384-8CPsFz5osMl4KMAi+gPzXsOo88p8XVSxh1nFJTK2TtwN/ORBd48witGYDxJJsQ/b",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-RAiMbdouKoje8UMGjmSTMnIeIN4ECQPO0jkqs/WUvHkgrktlnuQN1nNGGEP45AWd"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/opticscompensationold",
+      "name": "OpticsCompensation_s_Old",
+      "overview": "レンズ補正",
+      "description": "いわゆるレンズ補正を行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "conflicts": [
+        "SEED264/opticscompensation"
+      ],
+      "pageURL": "https://github.com/SEED264/OpticsCompensation_s_Old",
+      "downloadURLs": [
+        "https://github.com/SEED264/OpticsCompensation_s_Old/releases/latest"
+      ],
+      "latestVersion": "v1.10",
+      "isHidden": true,
+      "files": [
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.anm",
+          "archivePath": "OpticsCompensation_s"
+        },
+        {
+          "filename": "script/SEED264/OpticsCompensation_s.dll",
+          "archivePath": "OpticsCompensation_s"
+        },
+        {
+          "filename": "script/SEED264/OpticsCompensation_Direct_s.anm",
+          "archivePath": "OpticsCompensation_s",
+          "isObsolete": true
+        },
+        {
+          "filename": "cudart32_75.dll",
+          "archivePath": "OpticsCompensation_s",
+          "isInstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.10",
+          "integrity": {
+            "archive": "sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.10",
+          "integrity": {
+            "archive": "sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.00",
+          "integrity": {
+            "archive": "sha384-CBvodkdAYexqwogMQnRKyIPG049FMuEsKFrzQFECqPIryYCkRuk7cEwXKVYQvUks",
+            "file": [
+              {
+                "target": "script/SEED264/OpticsCompensation_s.anm",
+                "hash": "sha384-aFlP2xMAw2OI6NNVmPnz8m0YDLMNC7hcAyFlZJ5wUlUJkRWq1N4kCkCGXIFLmo2P"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_Direct_s.anm",
+                "hash": "sha384-x6VgL94KFJFMVXuPfjxKnlhh83+rOfQum2rI33TZDDAJ0CN0WcG2FyyQiy5Vy3Lm"
+              },
+              {
+                "target": "script/SEED264/OpticsCompensation_s.dll",
+                "hash": "sha384-KVWo6M49T1s5eVyceP3ZyRD3tcRkCVEvo2pcqZdd18zxH+6FYSer35uRBNczwqB/"
+              },
+              {
+                "target": "cudart32_75.dll",
+                "hash": "sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/pixelsorter",
+      "name": "PixelSorter_s",
+      "overview": "高速なPixelSorter",
+      "description": "Aodaruma氏の「Pixel Sort_A」をDLL化したアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "pageURL": "https://github.com/SEED264/PixelSorter_s",
+      "downloadURLs": [
+        "https://github.com/SEED264/PixelSorter_s/releases/latest"
+      ],
+      "latestVersion": "1.61",
+      "files": [
+        {
+          "filename": "script/SEED264/PixelSorter_s.anm",
+          "archivePath": "PixelSorter_s"
+        },
+        {
+          "filename": "script/SEED264/PixelSorter_s.dll",
+          "archivePath": "PixelSorter_s"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.61",
+          "integrity": {
+            "archive": "sha384-Cez31FFQ7AV1cu1NkS/XEvrSGBfrXmiczHDIqg2cibd4pzOQGl2bqfiXGb4SKLYV",
+            "file": [
+              {
+                "target": "script/SEED264/PixelSorter_s.anm",
+                "hash": "sha384-/AsJG+8gPwzgQgjYuvsyYf/WS4VtUgaIwmQ7UjKWPuQyIGNQYqKha6RxkRi1ZBRL"
+              },
+              {
+                "target": "script/SEED264/PixelSorter_s.dll",
+                "hash": "sha384-C0lZ6qAPIvpWX0wKM1k+yJN0CaHVA8py0synSFWxSKbku5IwqFzRlyHIBKqYsZuK"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.61 (Eng)",
+          "integrity": {
+            "archive": "sha384-7ksGhrwIZk+1iwOoMvAoDZMED5649WLJo/ipSih22GvST3AbEjW67LwCqNKmuJur",
+            "file": [
+              {
+                "target": "script/SEED264/PixelSorter_s.anm",
+                "hash": "sha384-9QMlucDkR1PTvulhjKU8A246jMmyOKS7dFSnLNRvDpUCKiF1m7zMt6FAGpNmCBE5"
+              },
+              {
+                "target": "script/SEED264/PixelSorter_s.dll",
+                "hash": "sha384-qHXfXl4dEjXXmPletwsplAEExYgOY6V35NK7jYpx4jScwrkdihesMj4YgbouAlD/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.60",
+          "integrity": {
+            "archive": "sha384-Cez31FFQ7AV1cu1NkS/XEvrSGBfrXmiczHDIqg2cibd4pzOQGl2bqfiXGb4SKLYV",
+            "file": [
+              {
+                "target": "script/SEED264/PixelSorter_s.anm",
+                "hash": "sha384-/AsJG+8gPwzgQgjYuvsyYf/WS4VtUgaIwmQ7UjKWPuQyIGNQYqKha6RxkRi1ZBRL"
+              },
+              {
+                "target": "script/SEED264/PixelSorter_s.dll",
+                "hash": "sha384-MZ15lOJgR2BZYXzJIYzjZzdY19FUY9s0YuSgRSkXfII6AnUDjedMIUUwxoQPOFOT"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEED264/radialwipe",
+      "name": "RadialWipe_s",
+      "overview": "扇状にクリッピング",
+      "description": "扇状にクリッピングを行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "星野なたね",
+      "pageURL": "https://twitter.com/SEED264/status/1094665960915488768",
+      "downloadURLs": [
+        "https://github.com/SEED264/RadialWipe_s/releases/latest"
+      ],
+      "latestVersion": "v1.1",
+      "files": [
+        {
+          "filename": "script/SEED264/RadialBlind_s.anm",
+          "archivePath": "RadialWipe_s"
+        },
+        {
+          "filename": "script/SEED264/RadialWipe_s.dll",
+          "archivePath": "RadialWipe_s"
+        },
+        {
+          "filename": "script/SEED264/RadialWipe_s.anm",
+          "archivePath": "RadialWipe_s"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v1.1",
+          "integrity": {
+            "archive": "sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8",
+            "file": [
+              {
+                "target": "script/SEED264/RadialBlind_s.anm",
+                "hash": "sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.dll",
+                "hash": "sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.anm",
+                "hash": "sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i"
+              }
+            ]
+          }
+        },
+        {
+          "version": "1.1",
+          "integrity": {
+            "archive": "sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8",
+            "file": [
+              {
+                "target": "script/SEED264/RadialBlind_s.anm",
+                "hash": "sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.dll",
+                "hash": "sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1"
+              },
+              {
+                "target": "script/SEED264/RadialWipe_s.anm",
+                "hash": "sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

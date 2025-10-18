@@ -1,0 +1,241 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "morgue/tr1",
+      "name": "MORGUEトランジション素材#1~20",
+      "overview": "トランジション素材として使用できるPNG画像",
+      "description": "トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。",
+      "developer": "morgue",
+      "pageURL": "https://nega.client.jp/",
+      "downloadURLs": [
+        "https://nega.client.jp/"
+      ],
+      "latestVersion": "2009/03/28",
+      "files": [
+        {
+          "filename": "transition/t1.png"
+        },
+        {
+          "filename": "transition/t2.png"
+        },
+        {
+          "filename": "transition/t3.png"
+        },
+        {
+          "filename": "transition/t4.png"
+        },
+        {
+          "filename": "transition/t5.png"
+        },
+        {
+          "filename": "transition/t6.png"
+        },
+        {
+          "filename": "transition/t7.png"
+        },
+        {
+          "filename": "transition/t8.png"
+        },
+        {
+          "filename": "transition/t9.png"
+        },
+        {
+          "filename": "transition/t10.png"
+        },
+        {
+          "filename": "transition/t11.png"
+        },
+        {
+          "filename": "transition/t12.png"
+        },
+        {
+          "filename": "transition/t13.png"
+        },
+        {
+          "filename": "transition/t14.png"
+        },
+        {
+          "filename": "transition/t15.png"
+        },
+        {
+          "filename": "transition/t16.png"
+        },
+        {
+          "filename": "transition/t17.png"
+        },
+        {
+          "filename": "transition/t18.png"
+        },
+        {
+          "filename": "transition/t19.png"
+        },
+        {
+          "filename": "transition/t20.png"
+        }
+      ]
+    },
+    {
+      "id": "morgue/tr2",
+      "name": "MORGUEトランジション素材#21~40",
+      "overview": "トランジション素材として使用できるPNG画像",
+      "description": "トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。",
+      "developer": "morgue",
+      "pageURL": "https://nega.client.jp/",
+      "downloadURLs": [
+        "https://nega.client.jp/"
+      ],
+      "latestVersion": "2009/03/28",
+      "files": [
+        {
+          "filename": "transition/t21.png"
+        },
+        {
+          "filename": "transition/t22.png"
+        },
+        {
+          "filename": "transition/t23.png"
+        },
+        {
+          "filename": "transition/t24.png"
+        },
+        {
+          "filename": "transition/t25.png"
+        },
+        {
+          "filename": "transition/t26.png"
+        },
+        {
+          "filename": "transition/t27.png"
+        },
+        {
+          "filename": "transition/t28.png"
+        },
+        {
+          "filename": "transition/t29.png"
+        },
+        {
+          "filename": "transition/t30.png"
+        },
+        {
+          "filename": "transition/t31.png"
+        },
+        {
+          "filename": "transition/t32.png"
+        },
+        {
+          "filename": "transition/t33.png"
+        },
+        {
+          "filename": "transition/t34.png"
+        },
+        {
+          "filename": "transition/t35.png"
+        },
+        {
+          "filename": "transition/t36.png"
+        },
+        {
+          "filename": "transition/t37.png"
+        },
+        {
+          "filename": "transition/t38.png"
+        },
+        {
+          "filename": "transition/t39.png"
+        },
+        {
+          "filename": "transition/t40.png"
+        }
+      ]
+    },
+    {
+      "id": "morgue/tr3",
+      "name": "MORGUEトランジション素材#41~50",
+      "overview": "トランジション素材として使用できるPNG画像",
+      "description": "トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。",
+      "developer": "morgue",
+      "pageURL": "https://nega.client.jp/",
+      "downloadURLs": [
+        "https://nega.client.jp/"
+      ],
+      "latestVersion": "2009/03/28",
+      "files": [
+        {
+          "filename": "transition/t41.png"
+        },
+        {
+          "filename": "transition/t42.png"
+        },
+        {
+          "filename": "transition/t43.png"
+        },
+        {
+          "filename": "transition/t44.png"
+        },
+        {
+          "filename": "transition/t45.png"
+        },
+        {
+          "filename": "transition/t46.png"
+        },
+        {
+          "filename": "transition/t47.png"
+        },
+        {
+          "filename": "transition/t48.png"
+        },
+        {
+          "filename": "transition/t49.png"
+        },
+        {
+          "filename": "transition/t50.png"
+        }
+      ]
+    },
+    {
+      "id": "morgue/tr4",
+      "name": "MORGUEトランジション素材#51~60",
+      "overview": "トランジション素材として使用できるPNG画像",
+      "description": "トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。",
+      "developer": "morgue",
+      "pageURL": "https://nega.client.jp/",
+      "downloadURLs": [
+        "https://nega.client.jp/"
+      ],
+      "latestVersion": "2009/03/28",
+      "files": [
+        {
+          "filename": "transition/t51.png"
+        },
+        {
+          "filename": "transition/t52.png"
+        },
+        {
+          "filename": "transition/t53.png"
+        },
+        {
+          "filename": "transition/t54.png"
+        },
+        {
+          "filename": "transition/t55.png"
+        },
+        {
+          "filename": "transition/t56.png"
+        },
+        {
+          "filename": "transition/t57.png"
+        },
+        {
+          "filename": "transition/t58.png"
+        },
+        {
+          "filename": "transition/t59.png"
+        },
+        {
+          "filename": "transition/t60.png"
+        }
+      ]
+    }
+  ]
+}

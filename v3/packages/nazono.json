@@ -1,0 +1,732 @@
+{
+  "version": 3,
+  "packages": [
+    {
+      "id": "nazono/CameraAssistNoRuntime",
+      "name": "カメラ補助プラグイン(ランタイム不要・非推奨)",
+      "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
+      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。",
+      "developer": "謎の生物",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
+      "downloadURLs": [
+        "https://drive.google.com/drive/folders/1VcrWV_HF1fL2V_FfoV5wo5QBxzQuycMB"
+      ],
+      "latestVersion": "1.7",
+      "nicommons": "sm39701988",
+      "files": [
+        {
+          "filename": "カメラ制御",
+          "archivePath": "CameraAssist一式",
+          "isDirectory": true
+        },
+        {
+          "filename": "plugins/xCameraAssist.auf",
+          "archivePath": "CameraAssist一式/plugins"
+        },
+        {
+          "filename": "script/上方向ベクトル.cam",
+          "archivePath": "CameraAssist一式/script"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.7",
+          "integrity": {
+            "archive": "sha384-7Tvy194XtCxrJFV1V+DNTazFgKIjDbO0r1jBGH+2HvhDVYZanN4DROUxRwFh8zo7",
+            "file": [
+              {
+                "target": "plugins/xCameraAssist.auf",
+                "hash": "sha384-8gKIvQAIsvptoWoyKCFBChN39MV0oRfONwwCzDre2gfeAb7gw9e8ZneKoaLJl/Xf"
+              },
+              {
+                "target": "script/上方向ベクトル.cam",
+                "hash": "sha384-/RKqup7p1doYQTjB31kYDSUzo41vShlbU8CvYtjVNse1SonxpW5OdiAxpmtbUExq"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/CameraAssistRuntime",
+      "name": "カメラ補助プラグイン(要ランタイム・省メモリ)",
+      "overview": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン",
+      "description": "Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "謎の生物",
+      "pageURL": "https://www.nicovideo.jp/watch/sm39701988",
+      "downloadURLs": [
+        "https://drive.google.com/drive/folders/1VcrWV_HF1fL2V_FfoV5wo5QBxzQuycMB"
+      ],
+      "latestVersion": "1.7",
+      "nicommons": "sm39701988",
+      "files": [
+        {
+          "filename": "カメラ制御",
+          "archivePath": "CameraAssist一式",
+          "isDirectory": true
+        },
+        {
+          "filename": "plugins/xCameraAssist.auf",
+          "archivePath": "CameraAssist一式/plugins"
+        },
+        {
+          "filename": "script/上方向ベクトル.cam",
+          "archivePath": "CameraAssist一式/script"
+        }
+      ],
+      "releases": [
+        {
+          "version": "1.7",
+          "integrity": {
+            "archive": "sha384-r0LgY3xtc8EAhQw853HrfjCDtXzD/Eqb4sFihx7a7kUG4evlE+kqT2D1WKZkEWFz",
+            "file": [
+              {
+                "target": "plugins/xCameraAssist.auf",
+                "hash": "sha384-dw8X8XD9AnZdIYcZCYbZZ9Vs+wVsdoFkentZpN8EUd3q4l/EnsiUar1O4E961QKv"
+              },
+              {
+                "target": "script/上方向ベクトル.cam",
+                "hash": "sha384-/RKqup7p1doYQTjB31kYDSUzo41vShlbU8CvYtjVNse1SonxpW5OdiAxpmtbUExq"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/LayerWheel",
+      "name": "LayerWheel",
+      "overview": "拡張編集を縦にスクロール",
+      "description": "拡張編集のレイヤーの部分でマウスホイールを使用すると縦スクロールが可能となるプラグインです。【動作にはVisual C++ 再頒布可能パッケージ 2022 x86(32bit)のインストールが必要です。】",
+      "developer": "謎の生物",
+      "dependencies": [
+        "exedit0.92"
+      ],
+      "pageURL": "https://github.com/nazonoSAUNA/LayerWheel",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/LayerWheel/releases/latest"
+      ],
+      "latestVersion": "r1",
+      "files": [
+        {
+          "filename": "plugins/layerwheel.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "r1",
+          "integrity": {
+            "archive": "sha384-Lpe0/UfM983QH3xk+pzf8H8lX0Q5H5bRXbXYTeJVQ9kn0bEuEfZBQcobmA7lSR/K",
+            "file": [
+              {
+                "target": "plugins/layerwheel.auf",
+                "hash": "sha384-j5bHdLi9ycUPG+pZbSc4yKeBzbmfvP9hq4NWrWau9krodrMpGdBktZUN8bs/IiSm"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/SortEffect",
+      "name": "エフェクト並び替え",
+      "overview": "拡張編集のエフェクトメニューを並び替え",
+      "description": "スクロール有りの縦長エフェクトメニューを整理するプラグインです。",
+      "developer": "謎の生物",
+      "pageURL": "https://www.nicovideo.jp/watch/sm40952636",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/SortEffect/releases/latest"
+      ],
+      "latestVersion": "2.0",
+      "nicommons": "sm40952636",
+      "files": [
+        {
+          "filename": "plugins/SortEffect.auf",
+          "archivePath": "plugins/"
+        },
+        {
+          "filename": "plugins/SortEffect_Setting.txt",
+          "archivePath": "plugins/"
+        },
+        {
+          "filename": "exa/ランダム間隔で落ちながら登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/ランダム配置.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/ランダム方向から登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/リール回転.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/円形配置.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/何処からともなく登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/画面外から登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/拡大縮小して登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/簡易変形(カメラ制御).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/簡易変形.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/起き上がって登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/球体(カメラ制御).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/広がって登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/座標の回転(個別オブジェクト).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/座標の拡大縮小(個別オブジェクト).exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/砕け散る.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/振り子.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/震える.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/弾む.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/弾んで登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/点滅.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/点滅して登場.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/反復移動.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/万華鏡.exa",
+          "archivePath": "exa/"
+        },
+        {
+          "filename": "exa/立方体(カメラ制御).exa",
+          "archivePath": "exa/"
+        }
+      ]
+    },
+    {
+      "id": "nazono/patch",
+      "name": "patch.aul",
+      "overview": "拡張編集Plugin ver.0.92のバグを修正する",
+      "description": "AviUtl ver.1.10や拡張編集Plugin ver.0.92に存在するバグを修正します。拡張編集Plugin ver.0.93rc1で修正されたバグも修正します。epi氏patch.aulに対してさらにバグ修正と高速化がなされています。",
+      "developer": "謎の生物",
+      "originalDeveloper": "ePi",
+      "dependencies": [
+        "aviutl1.10",
+        "exedit0.92"
+      ],
+      "pageURL": "https://www.nicovideo.jp/watch/sm41687191",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
+      ],
+      "latestVersion": "r43_64",
+      "nicommons": "sm41687191",
+      "files": [
+        {
+          "filename": "patch.aul"
+        },
+        {
+          "filename": "patch.aul.json",
+          "isUninstallOnly": true
+        },
+        {
+          "filename": "plugins/patch.aul",
+          "isObsolete": true
+        },
+        {
+          "filename": "plugins/patch.aul.json",
+          "isUninstallOnly": true
+        }
+      ],
+      "releases": [
+        {
+          "version": "r43_64",
+          "integrity": {
+            "archive": "sha384-GW5mjhOsMbGeDiQ+5ihRT5F9P0yNQR07n0bpNBwD5f790902JqyeQLDVanDxGsGp",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-9Sn/Fh+N1XtpPmutqtT2ZXl5ktt89lOAzoLS3c1KZsy7IlibbWXVRrkHkVut9o4Z"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_52",
+          "integrity": {
+            "archive": "sha384-RPNipGFkt+KVfSoCPly3sy1OlMThBLWJmmNI5YzurKwXTw90ymeYBho9f0guCDtD",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-JreFG72AerxDhrvXgtH43/hSRZ/93yK1j2WqGMtMJzRciJhaBWZS7le01SlOFRk8"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_48",
+          "integrity": {
+            "archive": "sha384-25sil5wKMYU3CGP+7dAMQXxRPvXUBLXGyuIPUdWodQZr2uwieMRgnTZC4F7Zdrzk",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-Ep6k7Dj2RMT0eU8BrF60n2qDKJ/WGjcy26qwELVAB5YCi5ekkTwoxiShdMgma9yE"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_47",
+          "integrity": {
+            "archive": "sha384-2yE6TlHrzSMRy4uNBmfhx8ETn7fB6X6IZMoo4KmNIq26Xq4VQXB+NRHGEdliJLam",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-28E7eedjabDOEsq8NbQRgi91qFrCUP+PffE648cyel1/hZt860fklS3yLGV9Jmla"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_46",
+          "integrity": {
+            "archive": "sha384-fPBLJdVnvtYtyQN7dje7MyPFZW2FMz71Ku6nR0oUt/SalEyU35fFBFcMGyP2jvn6",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-6tdNKw6A0V0A6AI70ahfdrYSvgS9zKPcFWucgbU8JWwo2kgVv0FRXW0Gzmakw+YG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_45",
+          "integrity": {
+            "archive": "sha384-8bY4jjAI13q+h79n9cTjufjLAPRTneYthzBXzGy90X0sYexs90Fji7zYCOEbJ9J1",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-mLr7Gr0OmWITiKp7+WhbrHIMeXuncnRC5duXnEQnoD4QfGhoEwmtGGn6yUdbUJ2/"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_42",
+          "integrity": {
+            "archive": "sha384-vMvom+zDxsjBnoqR0vMDVvukXJtQ5koBkhUD2iG3OE5gu3VjcXuG+j8udWSwXmro",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-Of6885/dUK+iLuHOydh8NCEwY/sEwuQkQjXKSuf9KEvoRNcVzmUtCyjAHGrVDb4z"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_37",
+          "integrity": {
+            "archive": "sha384-AyF/8u0JoWedMkMC6l2yEM4JklkjZ1teO8u59e0j8XukCVa1WNtMuLjtzWrFKUGE",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-6ih0VHDzKJa9zeeDvZMbuT7u544BMJp004XEEcqvB/DO+w/Bkvk9cGAMu2gjyJsr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_36",
+          "integrity": {
+            "archive": "sha384-iG6N6KU1ygARiFI7CPTOWPmEgzK0okI78Lk/2GSs+V1T3J7fqL8JG56AMFRAb9qz",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-LnKlJxBetvc1RK+ZHAhDOchI0UpS9/WBHZQ/42b/ogE43qnooETBPNEE3D3b6GPP"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_35",
+          "integrity": {
+            "archive": "sha384-vEOHpOOCr6Sx+MqHcy4zbcXYulqOeJ1ARZGE++BL1aiuEEhWEElTIEFZwrcZzFYR",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-bkaRhCiBNM/+nYA6uLN5cjHB0lQoAXYDfk4Vv5dCbhrx5noI/sntV3MyH2fATOZ8"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_34",
+          "integrity": {
+            "archive": "sha384-GjEgOl+oT5y/CZdZw6vjmfNXm4WhhqyHeFxqZIbIv3VsZyUN7s4u7yKN8pDrEDDH",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-h4Ckme+ZHj+R0qItpq9eDIksx2nwrjfP76SAKNjUI+X3O4l26Y3/hLNdc9P1M84a"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_32",
+          "integrity": {
+            "archive": "sha384-4vCvJqsnnHxiRyw8sO8tXAqNh/uvjAlnJazhdfk8isrHT7jkxZQfqN8lUuagDl4E",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-4XU0nDdkCc4NbJZhrnR+sz4BlL/8UYybbmMzd5ZrfyUXIDa4t8opUwHtpc3xEym2"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_31",
+          "integrity": {
+            "archive": "sha384-IuGCJbrXclG1rbdg/+YP/43OLI6+R4bzs18xrM9+tIVY9sGTJhuehe8qnKmoq2mj",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-CLwebkTf82k4amieKrAbsEdj34eGOpZEruIscKx5qNe0k89BpC0ESlGkxlrIGn6G"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_29",
+          "integrity": {
+            "archive": "sha384-pzFAG8diHpmkqeek0qxJVbF2pzTfXUdvW7Q0q9B+U2Y+s3iAY/KVwrC+yRkNqxtd",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-n072ngUm4Li2rhw1p5W1EmIrx1WScY7i9k3n5QSClugRqsHn5nObXcICM7sksGY3"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_28",
+          "integrity": {
+            "archive": "sha384-kXVQaVyjfLCU8+4T7DE7j2T0nJdD1L3nmVsPzFdIXVFfcOTQF7xIYzwwcGoq2OnM",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-FZ78hZ6t9p4/S/3G6udiC/bIGejG9Hr3X/zIS2NlumnoS77+i7P4MBtTjPCXbQcz"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_27",
+          "integrity": {
+            "archive": "sha384-3eI1g1sMn53Fx0TnquN54UptfWIMTnm0tBiCItixnhMFG0JzfWLXtDlzgEk86rIo",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-/VTGGNguao5NIu2vSNaX733YzBPvwmzZXazsHHxqi6hzK/2rPlFm2T8Zye/pGBjr"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_25",
+          "integrity": {
+            "archive": "sha384-LIZYIeOwzDSvhk8KZDKCo/luw7beAeQyhzmAucbuaXhugBaxCsOEDPk+2WRJlerK",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-/Z2rJr+Yy0+9dzgPhnTPZ00RpXl/MtHF/iBtPteBLqT1I4PrVfAlTPIyyGrocgSJ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_24",
+          "integrity": {
+            "archive": "sha384-6ianpot0ZqUtbTg2EVh9raPpm6WS6ARzwuYIOiNvLAlOv48uNduVdB3lPHaaIFRu",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-nRRHq91PQurro/AiqGOFogmyoHil3IeOr1jbTcMrIbgAizUlA0p49Iw8NAsJtfPO"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_23",
+          "integrity": {
+            "archive": "sha384-YIr2+bWUKa5r/6cAYQInsyTySPQzVk6h3JeNOGCpz+D+YVUgVxi/58QNcpCvLXR1",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-1S0yy4MOGP37XeYtuygsMygDiUNCHzqSfPO3uMX5wXVVggfgApZGETnJZf0Y9LXG"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_22",
+          "integrity": {
+            "archive": "sha384-IUH+ei6r/oFTqXpCe2O0SALQTrvotXBk0Jk/JdeXWzxAOTNp7Bxp4ooQ6SWgzJEU",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-4K7K5YhxlcBha0vTQ+G0WbsibLH6V30gCHjHb7ZFb50RRdi9saloD0nS1i5MBgQQ"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_21",
+          "integrity": {
+            "archive": "sha384-KhKwQHW1VziGJweYEunKWtCuZuKUeVJRwx8E/zD1/pG7WpWobjLM/tiGtP0u4A1R",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-C0gzge84Ubc3Ctts5r3B6IltBkY21Y+0nr0yjpXBZrkzIfIsenjKyBQF6RHQUN37"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_20",
+          "integrity": {
+            "archive": "sha384-31yBUEoo/8yHlX4fijoE73a/W9X+h0aCKbdAJj5x2XiCXs1L2RmjaTrhGSVXXbZc",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-Fanq3DQH6AJPFjjYXVs4SU9WWB57BV81Lt/rikjVqTyyzcg/rUJKQkpwxr+am61h"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_19",
+          "integrity": {
+            "archive": "sha384-PniDmidWnCVylyNW5QNlQNXaD/btjV+K8xEPZAfQk4FcGlWJDViin5E4Qp98mzEY",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-WUEcvUFOHDmkDKMrywkHF4guLdz4zHCl1UAsqrrWdtjLZRw+T7jc21ZeBrETPFQR"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_18",
+          "integrity": {
+            "archive": "sha384-QzPRBBEnHVSs8Vkf0a+jLF00Shrw4z6gS1xEMv3LNms2wZa9A+3wIwRpnEtM9liK",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-aKe9d7ItuNBxpem6r22PD1S0AtS4NHTtoMGaQ3kCcCAuMaEJLhEcPXEKU3KTR7sl"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_17",
+          "integrity": {
+            "archive": "sha384-ombs79jo/BEK6HxxyrJT3GSObWtcdsHNlKYkpL4EOn25XL/H9c8pjoHVVkL5VsDN",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-im+MxHGTwOqFpYZy/TF1wKTgpjbQbZeCK4yRiS/AuG13LsuI6g1LtRGJXTPfxdYf"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_16",
+          "integrity": {
+            "archive": "sha384-MepQZXOTY4PsiK031AXXd8eorHkCizn2w6uxEDIsJNqiKkQdg00XAZCnRJsYGJQy",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-sq13RIesg17C2YLH5JA4qavgRbFiGf2WdgiYSXFEw/M9eedgTrSyyhkvA/EAVabP"
+              }
+            ]
+          }
+        },
+        {
+          "version": "r43_15",
+          "integrity": {
+            "archive": "sha384-tX7AE9V17hHPsa/ak7ViojW5adB1qq8Zc/ts/Kke3pzZ8/pE6iiMUBIm9osrtmRd",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-KokkKUL25cUCyCmetLXc9BPmWQIfU24alsNdu0xXPPCBkQ4oF6fbEjNWkyDH3Jqa"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/redoNoRuntime",
+      "name": "Redoプラグイン(ランタイム不要・非推奨)",
+      "overview": "Ctrl+Yキーでのやり直し機能を追加する",
+      "description": "AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。",
+      "developer": "謎の生物",
+      "dependencies": [
+        "exedit0.92"
+      ],
+      "pageURL": "https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY",
+      "downloadURLs": [
+        "https://drive.google.com/drive/folders/11whtRpnaNEzp-_VkORZpmHoqj5yfPrgD"
+      ],
+      "latestVersion": "v2.7",
+      "nicommons": "sm39263447",
+      "files": [
+        {
+          "filename": "plugins/Redo.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v2.7",
+          "integrity": {
+            "archive": "sha384-2r0hL+qtRjQCQyc0dogmR/Q3ZjdDr13IYGttudAc3We2H3Wv0zmsS9ydy5ik5r02",
+            "file": [
+              {
+                "target": "plugins/Redo.auf",
+                "hash": "sha384-ddEOS42sd1gqLqSoTx/pP19EfSBO9RDshyYILzaqnenkYk/DxoTx/gHf2q9DTkg0"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/redoRuntime",
+      "name": "Redoプラグイン(要ランタイム・省メモリ)",
+      "overview": "Ctrl+Yキーでのやり直し機能を追加する",
+      "description": "AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "謎の生物",
+      "dependencies": [
+        "exedit0.92"
+      ],
+      "pageURL": "https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY",
+      "downloadURLs": [
+        "https://drive.google.com/drive/folders/1tg-kZSw6m3d5MLeKuA95UB8Kv_H2uoT5"
+      ],
+      "latestVersion": "v2.7rt",
+      "nicommons": "sm39263447",
+      "files": [
+        {
+          "filename": "plugins/Redo.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v2.7rt",
+          "integrity": {
+            "archive": "sha384-hSHKjKjQwy1XTpuGuORffr7MDjzYTQqBy2gcHsdMFlcOqYrorflZRg/vIZ6rUgH9",
+            "file": [
+              {
+                "target": "plugins/Redo.auf",
+                "hash": "sha384-0s8DAzZIdJvw0aSKbMIALM3O1ddY414jbKj02ZrlMoncLppMN8Rd52FIuZKI71bE"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nazono/tlItemcut",
+      "name": "切り取りプラグイン",
+      "overview": "拡張編集の切り取りを改善",
+      "description": "拡張編集での特殊な切り取りをユーザーが期待する動作に変更します。リップル切り取りとグループ分割も実装しています。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022 x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】",
+      "developer": "謎の生物",
+      "dependencies": [
+        "exedit0.92",
+        "ePi/patch|nazono/patch"
+      ],
+      "pageURL": "https://www.nicovideo.jp/watch/sm41787566",
+      "downloadURLs": [
+        "https://github.com/nazonoSAUNA/tl_Item_cut/releases/latest"
+      ],
+      "latestVersion": "v5.0",
+      "files": [
+        {
+          "filename": "plugins/tl_Item_cut.auf"
+        }
+      ],
+      "releases": [
+        {
+          "version": "v5.0",
+          "integrity": {
+            "archive": "sha384-gQxLz2ui91Gr1cgIXvzU/2TnYs0BabzJRYPSArZcXLlWVwcZqq2BEj78VUJY03Io",
+            "file": [
+              {
+                "target": "plugins/tl_Item_cut.auf",
+                "hash": "sha384-fE5swu6SxYeBkP1u2eA0rnYI8qWEcn3CNipST7sy/v3D/IkAnyfrLsNmFkCxzv/F"
+              }
+            ]
+          }
+        },
+        {
+          "version": "5.0",
+          "integrity": {
+            "archive": "sha384-gQxLz2ui91Gr1cgIXvzU/2TnYs0BabzJRYPSArZcXLlWVwcZqq2BEj78VUJY03Io",
+            "file": [
+              {
+                "target": "plugins/tl_Item_cut.auf",
+                "hash": "sha384-fE5swu6SxYeBkP1u2eA0rnYI8qWEcn3CNipST7sy/v3D/IkAnyfrLsNmFkCxzv/F"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

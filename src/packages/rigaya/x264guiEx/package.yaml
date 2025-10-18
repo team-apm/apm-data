@@ -6,7 +6,7 @@ developer: rigaya
 pageURL: https://github.com/rigaya/x264guiEx#readme
 downloadURLs:
   - https://github.com/rigaya/x264guiEx/releases/latest
-latestVersion: '3.31'
+latestVersion: '4.07'
 nicommons: sm40417801
 files:
   - filename: plugins/x264guiEx.auo
@@ -30,6 +30,13 @@ files:
   - filename: exe_files/x264_3094_x86.exe
     isUninstallOnly: true
 releases:
+  - version: '4.07'
+    integrity:
+      archive: sha384-8oVn/rTa01HdKSi+AOlP9/gEO0L5gRhDEnhFB1ucRWa97SS2Os93gorbaZ5Pm+nI
+      file:
+        - target: plugins/x264guiEx.auo
+          hash: >-
+            sha384-NiGfVSnxBs7gg1J45Ypsy2tmeH2k1aCTAfM32ZKue9TMLMxdqrz/MnCvfGDCnc+m
   - version: '3.27'
     integrity:
       archive: sha384-qvmyhTrGAXj45glyKz+oaJoX6LGstA6qJfctludxwb98y4byXpdyL8ns1jtri6M/

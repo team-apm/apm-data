@@ -8,7 +8,7 @@ developer: rigaya
 pageURL: https://github.com/rigaya/QSVEnc#readme
 downloadURLs:
   - https://github.com/rigaya/QSVEnc/releases/latest
-latestVersion: '7.72'
+latestVersion: '8.01'
 files:
   - filename: plugins/QSVEnc.auo
     archivePath: plugins
@@ -30,6 +30,13 @@ files:
     isDirectory: true
     isUninstallOnly: true
 releases:
+  - version: '8.01'
+    integrity:
+      archive: sha384-8F2g196Ntfuyix8idhxJJdVhfN2+7WPo/bdE2wZvzZCevKLCmDQXPNJmVJZyltzr
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-V9f1AtJ+DGsOr0mu9dWONawzTn6dbsbO88jHxVJdW8w3N7Rx8tRkhqBoNt6KBGXG
   - version: '7.72'
     integrity:
       archive: sha384-bCnBl7+mV4L0rdeN7X0Zb8Q9bEhCBlLW/7zV5vf8PWamW4xgm/C5C0wiVDHP9ldO

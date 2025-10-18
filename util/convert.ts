@@ -1,4 +1,4 @@
-import { Core, List, Packages } from 'apm-schema';
+import { Core, List, Packages, Scripts } from 'apm-schema';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 
@@ -43,9 +43,18 @@ function packages(): void {
   }
 }
 
+function scripts(): void {
+  const scriptsJson = fs.readJsonSync('v3/scripts.json', 'utf-8') as Scripts;
+  const webpageYaml = yaml.dump(scriptsJson.webpage);
+  fs.outputFileSync('src/scripts/webpage.yaml', webpageYaml, 'utf-8');
+  const scriptsYaml = yaml.dump(scriptsJson.scripts);
+  fs.outputFileSync('src/scripts/scripts.yaml', scriptsYaml, 'utf-8');
+}
+
 function main(): void {
   core();
   packages();
+  scripts();
 }
 
 main();

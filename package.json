@@ -7,24 +7,24 @@
   "author": "ato lash <hal-shu-sato@users.noreply.github.com>",
   "type": "module",
   "scripts": {
-    "check-convert": "node util/check-convert.js",
-    "check-update": "node util/check-update.js",
+    "check-convert": "tsx util/check-convert.ts",
+    "check-update": "tsx util/check-update.ts",
     "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "eslint --fix .",
     "fix:prettier": "prettier --write .",
-    "format": "node util/format-json.js",
-    "generate-releases": "node util/generate-releases.js",
+    "format": "tsx util/format-json.ts",
+    "generate-releases": "tsx util/generate-releases.ts",
     "lint": "run-s lint:prettier lint:eslint lint:jsonschema",
     "lint:eslint": "eslint --fix-dry-run .",
     "lint:jsonschema": "ajv -s node_modules/apm-schema/v3/schema/core.json -d v3/core.json && ajv -s node_modules/apm-schema/v3/schema/packages.json -d v3/packages.json && ajv -s node_modules/apm-schema/v3/schema/scripts.json -d v3/scripts.json && ajv -c ajv-formats -s node_modules/apm-schema/v3/schema/list.json  -d v3/list.json && ajv -s node_modules/apm-schema/v3/schema/convert.json  -d v3/convert.json",
     "lint:prettier": "prettier --check .",
-    "mod-convert": "node util/update-mod.js --convert",
-    "mod-core": "node util/update-mod.js --core",
-    "mod-packages": "node util/update-mod.js --packages",
-    "mod-scripts": "node util/update-mod.js --scripts",
+    "mod-convert": "tsx util/update-mod.ts --convert",
+    "mod-core": "tsx util/update-mod.ts --core",
+    "mod-packages": "tsx util/update-mod.ts --packages",
+    "mod-scripts": "tsx util/update-mod.ts --scripts",
     "prepare": "husky",
     "release": "tsx util/release.ts",
-    "sri": "node util/sri.js"
+    "sri": "tsx util/sri.ts"
   },
   "lint-staged": {
     "*.js": [

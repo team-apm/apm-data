@@ -18,7 +18,7 @@ jobs:
           node-version: 'lts/*'
           cache: yarn
       - run: yarn install
-      - run: yarn run tsx util/release.ts
+      - run: yarn run release
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:

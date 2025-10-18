@@ -1,15 +1,15 @@
 // > yarn run generate-releases <package_id>
 
-import { Octokit } from '@octokit/rest';
+import { Octokit, RestEndpointMethodTypes } from '@octokit/rest';
+import { List, Packages } from 'apm-schema';
 import chalk from 'chalk';
 import { compareVersions } from 'compare-versions';
-import fs from 'fs-extra';
+import { readJson, readJsonSync, remove, writeFile } from 'fs-extra';
 import { basename, dirname, extname, resolve } from 'path';
 import { format } from 'prettier';
 import download from './lib/download.js';
 import generateHash from './lib/generateHash.js';
 import unzip from './lib/unzip.js';
-const { readJson, readJsonSync, remove, writeFile } = fs;
 const { whiteBright, green, red, cyanBright } = chalk;
 
 // Options
@@ -17,7 +17,7 @@ const exclude = ['suzune/bakusoku', 'suzune/WideDialog'];
 const packagesJsonPath = 'v3/packages.json';
 const listJsonPath = 'v3/list.json';
 
-function compareVersion(firstVersion, secondVersion) {
+function compareVersion(firstVersion: string, secondVersion: string): number {
   if (firstVersion === secondVersion) return 0;
   const isDate1 = firstVersion.match(/^\d{4}\/\d{2}\/\d{2}$/);
   const isDate2 = secondVersion.match(/^\d{4}\/\d{2}\/\d{2}$/);
@@ -29,7 +29,7 @@ function compareVersion(firstVersion, secondVersion) {
     ); // 2022/02/02 -> 2022.02.02
   }
 
-  const toSemver = (v) =>
+  const toSemver = (v: string) =>
     v
       .toLowerCase()
       .replaceAll(' ', '')
@@ -54,17 +54,24 @@ function compareVersion(firstVersion, secondVersion) {
 }
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-const archiveNamePattern = readJsonSync('util/archive-name-pattern.json');
+const archiveNamePattern = readJsonSync(
+  'util/archive-name-pattern.json',
+) as Record<string, string>;
 
-async function generateReleases(args) {
+async function generateReleases(args: string[]) {
   const id = args[0];
   if (!(id in archiveNamePattern)) {
     console.error(red('The archive-name pattern does not exist.'));
     return;
   }
 
-  const packagesObj = await readJson(packagesJsonPath, 'utf-8');
+  const packagesObj = (await readJson(packagesJsonPath, 'utf-8')) as Packages;
   const packageItem = packagesObj.packages.find((p) => p.id === id);
+
+  if (!packageItem) {
+    console.error(red('The package ID does not exist.'));
+    return;
+  }
 
   const downloadURL = new URL(packageItem.downloadURLs[0]);
   const currentVersion = packageItem.latestVersion;
@@ -89,8 +96,15 @@ async function generateReleases(args) {
       per_page: 100,
     });
 
-    const generateRelease = async (release) => {
-      const result = {
+    const generateRelease = async (
+      release: RestEndpointMethodTypes['repos']['listReleases']['response']['data'][number],
+    ) => {
+      const result: {
+        newReleaseObj?: Required<
+          Packages['packages'][number]
+        >['releases'][number];
+        message: string[];
+      } = {
         newReleaseObj: undefined,
         message: [],
       };
@@ -116,13 +130,29 @@ async function generateReleases(args) {
         if (!oldReleaseObj) {
           throw new Error('The old release data does not exist.');
         }
-        if (packageItem?.releases.some((p) => p.version === tag))
+        if (packageItem.releases!.some((p) => p.version === tag))
           throw new Error('The release data of the same version exist.');
 
         const assets = release.assets.filter(
           (asset) => extname(asset.name) === '.zip',
         );
-        let archiveData = {};
+        let archiveData: RestEndpointMethodTypes['repos']['listReleases']['response']['data'][number]['assets'][number] =
+          {
+            url: '',
+            browser_download_url: '',
+            id: 0,
+            node_id: '',
+            name: '',
+            label: null,
+            state: 'uploaded',
+            content_type: '',
+            size: 0,
+            digest: null,
+            download_count: 0,
+            created_at: '',
+            updated_at: '',
+            uploader: null,
+          };
         if (assets.length === 1) {
           archiveData = assets[0];
         } else if (assets.length >= 2) {
@@ -192,7 +222,7 @@ async function generateReleases(args) {
         };
         result.message.push(green('Successful.'));
       } catch (e) {
-        result.message.push(red(e.message));
+        if (e instanceof Error) result.message.push(red(e.message));
       }
 
       return result;
@@ -206,7 +236,7 @@ async function generateReleases(args) {
     result.forEach(({ message, newReleaseObj }) => {
       console.log(message.join('\n'));
       if (newReleaseObj) {
-        packageItem.releases.unshift(newReleaseObj);
+        packageItem.releases!.unshift(newReleaseObj);
         releasesAvailable = true;
       }
     });
@@ -215,10 +245,12 @@ async function generateReleases(args) {
         compareVersion(r1.version, r2.version),
       );
   } catch (e) {
-    if (e.status === 404) {
-      console.log(whiteBright(id) + ' ' + red('Not Found'));
-    } else {
-      console.error(red(e.message));
+    if (e instanceof Error) {
+      if ('status' in e && e.status === 404) {
+        console.log(whiteBright(id) + ' ' + red('Not Found'));
+      } else {
+        console.error(red(e.message));
+      }
     }
   }
 
@@ -231,10 +263,10 @@ async function generateReleases(args) {
 
     console.log(green('Updated ' + basename(packagesJsonPath)));
 
-    const listObj = await readJson(listJsonPath, 'utf-8');
+    const listObj = (await readJson(listJsonPath, 'utf-8')) as List;
 
-    const padNumber = (number) => number.toString().padStart(2, '0');
-    const toISODate = (date) =>
+    const padNumber = (number: number) => number.toString().padStart(2, '0');
+    const toISODate = (date: Date) =>
       date.getFullYear() +
       '-' +
       padNumber(date.getMonth() + 1) +
@@ -249,7 +281,7 @@ async function generateReleases(args) {
     const now = new Date();
     listObj.packages.find(
       (value) => value.path === basename(packagesJsonPath),
-    ).modified = toISODate(now);
+    )!.modified = toISODate(now);
 
     await writeFile(
       listJsonPath,
@@ -281,9 +313,9 @@ if (args.length >= 1) {
         }
       }
     };
-    generateAll();
+    void generateAll();
   } else {
-    generateReleases(args);
+    void generateReleases(args);
   }
 } else {
   console.error('A ID is required.');

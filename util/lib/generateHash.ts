@@ -1,8 +1,7 @@
-import fs from 'fs-extra';
+import { createReadStream } from 'fs-extra';
 import { fromStream } from 'ssri';
-const { createReadStream } = fs;
 
-export default async function generateHash(path) {
+export default async function generateHash(path: string): Promise<string> {
   const readStream = createReadStream(path);
   const str = await fromStream(readStream, {
     algorithms: ['sha384'],

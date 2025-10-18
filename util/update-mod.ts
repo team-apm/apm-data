@@ -2,23 +2,23 @@
 // > yarn run mod-packages
 // > yarn run mod-convert
 
+import { List } from 'apm-schema';
 import chalk from 'chalk';
-import fs from 'fs-extra';
+import { readJson, writeFile } from 'fs-extra';
 import { basename } from 'path';
 import { format } from 'prettier';
-const { readJson, writeFile } = fs;
 const { green, red } = chalk;
 
 // options
 const listJsonPath = 'v3/list.json';
 
-async function update(args) {
+async function update(args: string[]) {
   const newDate = new Date();
   newDate.setSeconds(0, 0);
 
-  const listObj = await readJson(listJsonPath, 'utf-8');
+  const listObj = (await readJson(listJsonPath, 'utf-8')) as List;
 
-  let targetObj;
+  let targetObj: { modified: string };
   if (args[0] === '--core') {
     targetObj = listObj.core;
   } else if (args[0] === '--packages') {
@@ -27,12 +27,15 @@ async function update(args) {
     targetObj = listObj.convert;
   } else if (args[0] === '--scripts') {
     targetObj = listObj.scripts[0];
+  } else {
+    console.error(red('Invalid argument: ' + args[0]));
+    return;
   }
 
   const oldDate = new Date(targetObj.modified);
   if (newDate.getTime() > oldDate.getTime()) {
-    const padNumber = (number) => number.toString().padStart(2, '0');
-    const toISODate = (date) =>
+    const padNumber = (number: number) => number.toString().padStart(2, '0');
+    const toISODate = (date: Date) =>
       date.getFullYear() +
       '-' +
       padNumber(date.getMonth() + 1) +
@@ -60,7 +63,7 @@ async function update(args) {
 const args = process.argv.slice(2);
 
 if (args.length >= 1) {
-  update(args);
+  void update(args);
 } else {
   console.error(red('Arguments are missing!'));
 }

@@ -4,19 +4,18 @@ import chalk from 'chalk';
 import clipboardy from 'clipboardy';
 import generateHash from './lib/generateHash.js';
 const { yellowBright, green } = chalk;
-const { write } = clipboardy;
 
-async function generate(args) {
+async function generate(args: string[]) {
   const str = await generateHash(args[0]);
   console.log(yellowBright(str));
-  write(str);
+  void clipboardy.write(str);
   console.log(green('This hash has been copied in the clipboard!'));
 }
 
 const args = process.argv.slice(2);
 
 if (args.length >= 1) {
-  generate(args);
+  void generate(args);
 } else {
   console.error('A path is required.');
 }

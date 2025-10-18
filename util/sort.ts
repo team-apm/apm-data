@@ -1,3 +1,5 @@
+import { Core, Packages } from 'apm-schema';
+
 // Order definition
 const fileOrder = [
   'filename',
@@ -39,23 +41,23 @@ const packageOrder = [
 ];
 
 // Sort function
-function sort(object, order) {
-  const result = {};
+function sort<T extends object>(object: T, order: string[]): T {
+  const result: Partial<T> = {};
   for (const key of order) {
-    if (key in object) result[key] = object[key];
+    if (key in object) result[key as keyof T] = object[key as keyof T];
   }
-  return result;
+  return result as T;
 }
-function sortArray(array, order) {
-  const result = [];
+function sortArray<T extends object>(array: T[], order: string[]) {
+  const result: T[] = [];
   for (const object of array) {
     result.push(sort(object, order));
   }
   return result;
 }
 
-export function sortCore(object) {
-  for (const program of ['aviutl', 'exedit']) {
+export function sortCore(object: Core) {
+  for (const program of ['aviutl', 'exedit'] as const) {
     for (const release of object[program].releases) {
       release.integrity.file = sortArray(
         release.integrity.file,
@@ -75,9 +77,9 @@ export function sortCore(object) {
   return sort(object, coreOrder);
 }
 
-export function sortPackages(object) {
+export function sortPackages(object: Packages) {
   for (const packageItem of object.packages) {
-    if ('releases' in packageItem) {
+    if (packageItem.releases) {
       for (const release of packageItem.releases) {
         release.integrity.file = sortArray(
           release.integrity.file,

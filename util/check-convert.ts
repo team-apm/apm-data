@@ -1,17 +1,17 @@
 // > yarn check-convert convertJson/dir/ old/packages.json new/packages.json
 
+import { Convert, Packages } from 'apm-schema';
 import chalk from 'chalk';
-import fs from 'fs-extra';
+import { readJson } from 'fs-extra';
 import { join } from 'path';
-const { readJson } = fs;
 const { cyan, cyanBright, green, redBright, red } = chalk;
 
-async function check(args) {
-  const [convertJson, oldJsonObj, newJsonObj] = await Promise.all([
+async function check(args: string[]) {
+  const [convertJson, oldJsonObj, newJsonObj] = (await Promise.all([
     readJson(join(args[0], 'convert.json'), 'utf-8'),
     readJson(args[1], 'utf-8'),
     readJson(args[2], 'utf-8'),
-  ]);
+  ])) as [Convert, Packages, Packages];
 
   let checkNumber = 0;
   let correctNumber = 0;
@@ -38,7 +38,7 @@ async function check(args) {
 const args = process.argv.slice(2);
 
 if (args.length >= 3) {
-  check(args);
+  void check(args);
 } else {
   console.error(red('Arguments are missing!'));
 }

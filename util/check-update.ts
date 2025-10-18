@@ -1,15 +1,15 @@
 // > yarn run check-update
 
 import { Octokit } from '@octokit/rest';
+import { List, Packages } from 'apm-schema';
 import chalk from 'chalk';
 import { execSync } from 'child_process';
-import fs from 'fs-extra';
+import { readJson, readJsonSync, remove, writeFile } from 'fs-extra';
 import { basename, dirname, extname, join, resolve } from 'path';
 import { format } from 'prettier';
 import download from './lib/download.js';
 import generateHash from './lib/generateHash.js';
 import unzip from './lib/unzip.js';
-const { readJson, readJsonSync, remove, writeFile } = fs;
 const { whiteBright, green, yellow, cyanBright, red } = chalk;
 
 // Options
@@ -17,10 +17,15 @@ const exclude = ['oov/PSDToolKit']; // IDs that won't be checked
 const listJsonPath = 'v3/list.json';
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-const archiveNamePattern = readJsonSync('util/archive-name-pattern.json');
+const archiveNamePattern = readJsonSync(
+  'util/archive-name-pattern.json',
+) as Record<string, string>;
 
-async function checkPackageUpdate(packageItem) {
-  const result = {
+async function checkPackageUpdate(packageItem: Packages['packages'][number]) {
+  const result: {
+    updateAvailable: boolean;
+    message: string[];
+  } = {
     updateAvailable: false,
     message: [],
   };
@@ -62,7 +67,7 @@ async function checkPackageUpdate(packageItem) {
     if (id === 'MrOjii/LSMASHWorks' && packageItem.directURL) {
       const newDownloadUrl = res.data.assets.find((asset) =>
         asset.name.includes('Mr-Ojii_Mr-Ojii'),
-      ).browser_download_url;
+      )!.browser_download_url;
       if (newDownloadUrl && packageItem.directURL !== newDownloadUrl) {
         packageItem.directURL = newDownloadUrl;
         result.updateAvailable = true;
@@ -171,18 +176,20 @@ async function checkPackageUpdate(packageItem) {
         }
       }
 
-      packageItem.releases.unshift({
+      packageItem.releases!.unshift({
         version: latestTag,
         integrity: { archive: archiveHash, file: newIntegrityFileArray },
       });
     }
   } catch (e) {
-    if (e.status === 404) {
-      result.message.push(
-        whiteBright(id) + ' ' + currentVersion + ' ' + red('Not Found'),
-      );
-    } else {
-      result.message.push(red(e.message));
+    if (e instanceof Error) {
+      if ('status' in e && e.status === 404) {
+        result.message.push(
+          whiteBright(id) + ' ' + currentVersion + ' ' + red('Not Found'),
+        );
+      } else {
+        result.message.push(red(e.message));
+      }
     }
   }
 
@@ -190,11 +197,11 @@ async function checkPackageUpdate(packageItem) {
 }
 
 async function check() {
-  const listObj = await readJson(listJsonPath);
+  const listObj = (await readJson(listJsonPath)) as List;
 
   for (const jsonInfo of listObj.packages) {
     const packagesJsonPath = join(dirname(listJsonPath), jsonInfo.path);
-    const packagesObj = await readJson(packagesJsonPath, 'utf-8');
+    const packagesObj = (await readJson(packagesJsonPath, 'utf-8')) as Packages;
 
     const promisesInWaiting = [];
     for (const p of packagesObj.packages) {
@@ -219,7 +226,7 @@ async function check() {
 
       console.log(green('Updated ' + basename(jsonInfo.path) + '.'));
       try {
-        remove('util/temp');
+        void remove('util/temp');
       } catch (e) {
         console.error(e);
       }
@@ -230,8 +237,8 @@ async function check() {
       execSync('git diff --exit-code -- ' + packagesJsonPath);
       console.log('No updates available in ' + basename(jsonInfo.path) + '.');
     } catch {
-      const padNumber = (number) => number.toString().padStart(2, '0');
-      const toISODate = (date) =>
+      const padNumber = (number: number) => number.toString().padStart(2, '0');
+      const toISODate = (date: Date) =>
         date.getFullYear() +
         '-' +
         padNumber(date.getMonth() + 1) +
@@ -258,4 +265,4 @@ async function check() {
   console.log('Check complete.');
 }
 
-check();
+void check();

@@ -118,3 +118,4 @@ dist
 .pnp.*
 
 .vscode/
+v[0-9]*/

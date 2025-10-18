@@ -132,7 +132,7 @@ function isDifferentFromMain(workspacePath: string, mainPath: string): boolean {
       // line format: '<mode> <type> <hash>\t<path>' or with spaces
       const m = line.match(/\b([0-9a-f]{40})\b/);
       mainHash = m ? m[1] : null;
-    } catch (e) {
+    } catch {
       mainHash = null;
     }
 
@@ -171,7 +171,7 @@ function getListJsonFromMain(): List | null {
       stdio: ['pipe', 'pipe', 'ignore'],
     });
     return JSON.parse(mainContent) as List;
-  } catch (e) {
+  } catch {
     return null;
   }
 }

@@ -52,16 +52,16 @@ function core(): void {
     fs.readFileSync(EXEDIT_YAML_PATH, 'utf-8'),
   ) as Core['exedit'];
   const coreObj = { version: VERSION, aviutl, exedit } as Core;
-  fs.outputJson(V3_CORE_JSON, coreObj, { spaces: 2 });
-  fs.outputJson(V3_CORE_MIN_JSON, coreObj);
+  void fs.outputJson(V3_CORE_JSON, coreObj, { spaces: 2 });
+  void fs.outputJson(V3_CORE_MIN_JSON, coreObj);
 }
 
 function convert(): void {
   const convertObj = yaml.load(
     fs.readFileSync(CONVERT_YAML_PATH, 'utf-8'),
   ) as Convert;
-  fs.outputJson(V3_CONVERT_JSON, convertObj, { spaces: 2 });
-  fs.outputJson(V3_CONVERT_MIN_JSON, convertObj);
+  void fs.outputJson(V3_CONVERT_JSON, convertObj, { spaces: 2 });
+  void fs.outputJson(V3_CONVERT_MIN_JSON, convertObj);
 }
 
 // Walk through src/packages/* and read package.yaml files
@@ -96,10 +96,10 @@ function packages(): void {
   for (const [devDir, pkgs] of Object.entries(packagesList)) {
     // devDir is the src/packages/<devDir> directory name (ASCII)
     const packagesObj = { version: VERSION, packages: pkgs } as Packages;
-    fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.json`, packagesObj, {
+    void fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.json`, packagesObj, {
       spaces: 2,
     });
-    fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.min.json`, packagesObj);
+    void fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.min.json`, packagesObj);
   }
 }
 
@@ -111,8 +111,8 @@ function scripts(): void {
     fs.readFileSync(SCRIPTS_SCRIPTS_YAML_PATH, 'utf-8'),
   ) as Scripts['scripts'];
   const scriptsJson = { webpage, scripts: scriptsObj } as Scripts;
-  fs.outputJson(V3_SCRIPTS_JSON, scriptsJson, { spaces: 2 });
-  fs.outputJson(V3_SCRIPTS_MIN_JSON, scriptsJson);
+  void fs.outputJson(V3_SCRIPTS_JSON, scriptsJson, { spaces: 2 });
+  void fs.outputJson(V3_SCRIPTS_MIN_JSON, scriptsJson);
 }
 
 /**
@@ -244,8 +244,8 @@ function list(): void {
       },
     ],
   } as List;
-  fs.outputJson(V3_LIST_JSON, list, { spaces: 2 });
-  fs.outputJson(V3_LIST_MIN_JSON, list);
+  void fs.outputJson(V3_LIST_JSON, list, { spaces: 2 });
+  void fs.outputJson(V3_LIST_MIN_JSON, list);
 }
 
 function main(): void {

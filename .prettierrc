@@ -3,13 +3,6 @@
   "plugins": ["prettier-plugin-packagejson"],
   "overrides": [
     {
-      "files": ["*.xsd"],
-      "options": {
-        "plugins": ["@prettier/plugin-xml"],
-        "xmlWhitespaceSensitivity": "ignore"
-      }
-    },
-    {
       "files": ["*.json"],
       "options": {
         "singleQuote": false

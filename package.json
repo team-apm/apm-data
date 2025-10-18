@@ -9,10 +9,6 @@
   "scripts": {
     "check-convert": "node util/check-convert.js",
     "check-update": "node util/check-update.js",
-    "convert-2-3": "run-p convert-2-3:*",
-    "convert-2-3:core": "node util/convert-2-3.js --core",
-    "convert-2-3:mod": "node util/convert-2-3.js --mod",
-    "convert-2-3:packages": "node util/convert-2-3.js --packages",
     "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "eslint --fix .",
     "fix:prettier": "prettier --write .",
@@ -35,12 +31,11 @@
       "prettier --write",
       "eslint --fix"
     ],
-    "*.{json,html,css,md,xml,xsd}": "prettier --write"
+    "*.{json,html,css,md}": "prettier --write"
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",
     "@octokit/rest": "^22.0.0",
-    "@prettier/plugin-xml": "^3.4.2",
     "7zip-bin": "^5.2.0",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^3.0.1",
@@ -50,7 +45,6 @@
     "compare-versions": "^6.1.1",
     "eslint": "^9.38.0",
     "eslint-config-prettier": "^10.1.8",
-    "fast-xml-parser": "^5.3.0",
     "fs-extra": "^11.3.2",
     "globals": "^16.4.0",
     "husky": "^9.1.7",

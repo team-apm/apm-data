@@ -23,6 +23,8 @@ import { Core, List, Packages, Scripts } from 'apm-schema';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 
+const VERSION = 3;
+
 const AVIUTL_YAML_PATH = 'src/core/aviutl.yaml';
 const EXEDIT_YAML_PATH = 'src/core/exedit.yaml';
 const CONVERT_YAML_PATH = 'src/convert.yaml';
@@ -48,7 +50,7 @@ function core(): void {
   const exedit = yaml.load(
     fs.readFileSync(EXEDIT_YAML_PATH, 'utf-8'),
   ) as Core['exedit'];
-  const coreObj = { aviutl, exedit } as Core;
+  const coreObj = { version: VERSION, aviutl, exedit } as Core;
   fs.outputJson(V3_CORE_JSON, coreObj, { spaces: 2 });
   fs.outputJson(V3_CORE_MIN_JSON, coreObj);
 }
@@ -92,8 +94,11 @@ function packages(): void {
   fs.ensureDirSync(V3_PACKAGES_DIR);
   for (const [devDir, pkgs] of Object.entries(packagesList)) {
     // devDir is the src/packages/<devDir> directory name (ASCII)
-    fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.json`, pkgs, { spaces: 2 });
-    fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.min.json`, pkgs);
+    const packagesObj = { version: VERSION, packages: pkgs } as Packages;
+    fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.json`, packagesObj, {
+      spaces: 2,
+    });
+    fs.outputJson(`${V3_PACKAGES_DIR}/${devDir}.min.json`, packagesObj);
   }
 }
 

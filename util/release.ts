@@ -189,7 +189,7 @@ function list(): void {
   // We'll determine differences by comparing generated v3 files to `main` content.
 
   // Existing packages map (path -> modified)
-  const existingPackages = (listJson.packages || []) as List['packages'];
+  const existingPackages = listJson.packages || [];
   const existingMap = new Map<string, string>();
   for (const p of existingPackages) existingMap.set(p.path, p.modified);
 

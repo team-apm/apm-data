@@ -5,9 +5,9 @@ import yaml from 'js-yaml';
 function core(): void {
   const coreJson = fs.readJsonSync('v3/core.json', 'utf-8') as Core;
   const aviutlYaml = yaml.dump(coreJson.aviutl);
-  fs.outputFileSync('src/core/aviutl.yaml', aviutlYaml, 'utf-8');
+  fs.outputFile('src/core/aviutl.yaml', aviutlYaml, 'utf-8');
   const exeditYaml = yaml.dump(coreJson.exedit);
-  fs.outputFileSync('src/core/exedit.yaml', exeditYaml, 'utf-8');
+  fs.outputFile('src/core/exedit.yaml', exeditYaml, 'utf-8');
 }
 
 function packages(): void {
@@ -25,7 +25,7 @@ function packages(): void {
     const id = pkg.id;
     const { releases, ...rests } = pkg;
     const pkgYaml = yaml.dump(rests);
-    fs.outputFileSync(`src/packages/${id}/package.yaml`, pkgYaml, {
+    fs.outputFile(`src/packages/${id}/package.yaml`, pkgYaml, {
       encoding: 'utf-8',
     });
     if (!releases) {
@@ -34,7 +34,7 @@ function packages(): void {
     for (const release of releases) {
       const version = release.version;
       const releaseYaml = yaml.dump(release);
-      fs.outputFileSync(
+      fs.outputFile(
         `src/packages/${id}/releases/${version}.yaml`,
         releaseYaml,
         { encoding: 'utf-8' },
@@ -46,9 +46,9 @@ function packages(): void {
 function scripts(): void {
   const scriptsJson = fs.readJsonSync('v3/scripts.json', 'utf-8') as Scripts;
   const webpageYaml = yaml.dump(scriptsJson.webpage);
-  fs.outputFileSync('src/scripts/webpage.yaml', webpageYaml, 'utf-8');
+  fs.outputFile('src/scripts/webpage.yaml', webpageYaml, 'utf-8');
   const scriptsYaml = yaml.dump(scriptsJson.scripts);
-  fs.outputFileSync('src/scripts/scripts.yaml', scriptsYaml, 'utf-8');
+  fs.outputFile('src/scripts/scripts.yaml', scriptsYaml, 'utf-8');
 }
 
 function main(): void {

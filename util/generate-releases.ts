@@ -7,9 +7,9 @@ import { compareVersions } from 'compare-versions';
 import { readJson, readJsonSync, remove, writeFile } from 'fs-extra';
 import { basename, dirname, extname, resolve } from 'path';
 import { format } from 'prettier';
-import download from './lib/download.js';
-import generateHash from './lib/generateHash.js';
-import unzip from './lib/unzip.js';
+import download from './lib/download';
+import generateHash from './lib/generateHash';
+import unzip from './lib/unzip';
 const { whiteBright, green, red, cyanBright } = chalk;
 
 // Options

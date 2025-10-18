@@ -2,7 +2,7 @@ import { Core, List, Packages } from 'apm-schema';
 import { existsSync, readJson, writeFile } from 'fs-extra';
 import { dirname, join, relative } from 'path';
 import { format as prettierFormat } from 'prettier';
-import { sortCore, sortPackages } from './sort.js';
+import { sortCore, sortPackages } from './sort';
 
 function findListJson(path: string): string {
   const dirpath = dirname(path);

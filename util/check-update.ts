@@ -14,9 +14,9 @@ import {
 } from 'fs-extra';
 import yaml from 'js-yaml';
 import { basename, extname, resolve } from 'path';
-import download from './lib/download.js';
-import generateHash from './lib/generateHash.js';
-import unzip from './lib/unzip.js';
+import download from './lib/download';
+import generateHash from './lib/generateHash';
+import unzip from './lib/unzip';
 const { whiteBright, green, yellow, cyanBright, red } = chalk;
 
 // Options

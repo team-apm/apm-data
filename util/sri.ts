@@ -2,7 +2,7 @@
 
 import chalk from 'chalk';
 import clipboardy from 'clipboardy';
-import generateHash from './lib/generateHash.js';
+import generateHash from './lib/generateHash';
 const { yellowBright, green } = chalk;
 
 async function generate(args: string[]) {

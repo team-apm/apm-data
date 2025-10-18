@@ -1,12 +1,18 @@
 // > yarn run generate-releases <package_id>
 
 import { Octokit, RestEndpointMethodTypes } from '@octokit/rest';
-import { List, Packages } from 'apm-schema';
+import { Packages } from 'apm-schema';
 import chalk from 'chalk';
 import { compareVersions } from 'compare-versions';
-import { readJson, readJsonSync, remove, writeFile } from 'fs-extra';
+import {
+  existsSync,
+  readFileSync,
+  readJsonSync,
+  remove,
+  writeFile,
+} from 'fs-extra';
+import yaml from 'js-yaml';
 import { basename, dirname, extname, resolve } from 'path';
-import { format } from 'prettier';
 import download from './lib/download';
 import generateHash from './lib/generateHash';
 import unzip from './lib/unzip';
@@ -14,8 +20,7 @@ const { whiteBright, green, red, cyanBright } = chalk;
 
 // Options
 const exclude = ['suzune/bakusoku', 'suzune/WideDialog'];
-const packagesJsonPath = 'v3/packages.json';
-const listJsonPath = 'v3/list.json';
+const PACKAGES_DIR_PATH = 'src/packages/';
 
 function compareVersion(firstVersion: string, secondVersion: string): number {
   if (firstVersion === secondVersion) return 0;
@@ -64,14 +69,16 @@ async function generateReleases(args: string[]) {
     console.error(red('The archive-name pattern does not exist.'));
     return;
   }
+  const packageYamlPath = resolve(PACKAGES_DIR_PATH, id, 'package.yaml');
 
-  const packagesObj = (await readJson(packagesJsonPath, 'utf-8')) as Packages;
-  const packageItem = packagesObj.packages.find((p) => p.id === id);
-
-  if (!packageItem) {
-    console.error(red('The package ID does not exist.'));
+  if (!existsSync(packageYamlPath)) {
+    console.error(red('The package YAML file does not exist.'));
     return;
   }
+
+  const packageItem = yaml.load(
+    readFileSync(packageYamlPath, 'utf-8'),
+  ) as Packages['packages'][number];
 
   const downloadURL = new URL(packageItem.downloadURLs[0]);
   const currentVersion = packageItem.latestVersion;
@@ -255,41 +262,9 @@ async function generateReleases(args: string[]) {
   }
 
   if (releasesAvailable) {
-    await writeFile(
-      packagesJsonPath,
-      await format(JSON.stringify(packagesObj), { parser: 'json' }),
-      'utf-8',
-    );
+    await writeFile(packageYamlPath, yaml.dump(packageItem), 'utf-8');
 
-    console.log(green('Updated ' + basename(packagesJsonPath)));
-
-    const listObj = (await readJson(listJsonPath, 'utf-8')) as List;
-
-    const padNumber = (number: number) => number.toString().padStart(2, '0');
-    const toISODate = (date: Date) =>
-      date.getFullYear() +
-      '-' +
-      padNumber(date.getMonth() + 1) +
-      '-' +
-      padNumber(date.getDate()) +
-      'T' +
-      padNumber(date.getHours()) +
-      ':' +
-      padNumber(date.getMinutes()) +
-      ':00+09:00';
-
-    const now = new Date();
-    listObj.packages.find(
-      (value) => value.path === basename(packagesJsonPath),
-    )!.modified = toISODate(now);
-
-    await writeFile(
-      listJsonPath,
-      await format(JSON.stringify(listObj), { parser: 'json', printWidth: 60 }),
-      'utf-8',
-    );
-
-    console.log(green('Updated ' + basename(listJsonPath)));
+    console.log(green('Updated ' + basename(packageYamlPath)));
   }
 
   try {

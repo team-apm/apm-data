@@ -10,6 +10,12 @@ function core(): void {
   fs.outputFile('src/core/exedit.yaml', exeditYaml, 'utf-8');
 }
 
+function convert(): void {
+  const convertJson = fs.readJsonSync('v3/convert.json', 'utf-8');
+  const convertYaml = yaml.dump(convertJson);
+  fs.outputFile('src/convert.yaml', convertYaml, 'utf-8');
+}
+
 function packages(): void {
   const listJson = fs.readJsonSync('v3/list.json', 'utf-8') as List;
   const packagePaths = listJson.packages.map((pkg) => pkg.path);
@@ -38,6 +44,7 @@ function scripts(): void {
 
 function main(): void {
   core();
+  convert();
   packages();
   scripts();
 }

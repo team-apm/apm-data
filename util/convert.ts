@@ -32,7 +32,7 @@ function packages(): void {
       continue;
     }
     for (const release of releases) {
-      const version = release.version;
+      const version = release.version.replace(/\//g, '-');
       const releaseYaml = yaml.dump(release);
       fs.outputFile(
         `src/packages/${id}/releases/${version}.yaml`,

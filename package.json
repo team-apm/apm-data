@@ -36,6 +36,7 @@
   "devDependencies": {
     "@eslint/js": "^9.38.0",
     "@octokit/rest": "^22.0.0",
+    "@types/js-yaml": "^4.0.9",
     "7zip-bin": "^5.2.0",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^3.0.1",
@@ -48,6 +49,7 @@
     "fs-extra": "^11.3.2",
     "globals": "^16.4.0",
     "husky": "^9.1.7",
+    "js-yaml": "^4.1.0",
     "lint-staged": "^16.2.4",
     "node-7z": "^3.0.0",
     "npm-run-all2": "^8.0.4",

@@ -24,9 +24,7 @@ function packages(): void {
   for (const pkg of packages) {
     const id = pkg.id;
     const pkgYaml = yaml.dump(pkg);
-    fs.outputFile(`src/packages/${id}/package.yaml`, pkgYaml, {
-      encoding: 'utf-8',
-    });
+    fs.outputFile(`src/packages/${id}/package.yaml`, pkgYaml, 'utf-8');
   }
 }
 

@@ -1,0 +1,14 @@
+id: auls/addshortcut
+name: ショートカット追加
+overview: 拡張編集関連のショートカットを追加
+description: 拡張編集用のショートカットを追加する
+developer: yu_noimage_
+dependencies:
+  - ePi/aulsMemref
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2014/05/06
+files:
+  - filename: plugins/auls_addshortcut.auf
+    archivePath: auls_addshortcut

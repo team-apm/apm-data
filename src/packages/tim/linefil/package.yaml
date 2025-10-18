@@ -1,0 +1,29 @@
+id: tim/linefil
+name: ジグザグ塗りT
+overview: 線で画像を塗りつぶしたり、切り抜いたりするスクリプト
+description: >-
+  画像を線で塗りつぶしたり、切り抜いたりします。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm36355165
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LinFil.zip
+  - https://tim3.web.fc2.com/sidx.htm#LinFil
+latestVersion: 2020/02/12
+nicommons: sm36355165
+files:
+  - filename: script/tim/@ジグザグ塗りT.anm
+    archivePath: LinFil
+  - filename: script/tim/T_LineFill_Module.dll
+    archivePath: LinFil
+releases:
+  - version: 2020/02/12
+    integrity:
+      archive: sha384-1PrXrufRVlUhvzKDpWnk7sCIM7w71Gs6jpmZY1U7m5zbgtSGX7q6rvpgxh/Ln5yq
+      file:
+        - target: script/tim/@ジグザグ塗りT.anm
+          hash: >-
+            sha384-gCJ6lYkoi+4I3G2JUBScJB5z+AprQpPgsKmSaKpm7grZM2VHrWKb5DLz7tGiMBge
+        - target: script/tim/T_LineFill_Module.dll
+          hash: >-
+            sha384-/scZuVC5D9dfsK2nQXUydjVX/nceHZ70Sxi7rm56VpjObUHDMAxbaBOFVDyI0jwr

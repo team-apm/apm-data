@@ -1,0 +1,13 @@
+id: kame/pointlinetext
+name: 丸付き折れ線テキスト
+overview: 丸付折線テキスト カスタムオブジェクトスクリプト
+description: 丸付き引き出し線とテキストがセットになったカスタムオブジェクトのスクリプトです。
+developer: カメ/ウサギ
+pageURL: https://www.nicovideo.jp/watch/sm22558183
+downloadURLs:
+  - https://takeshima.halfmoon.jp/room/aviutl/#pointlinetext_obj
+latestVersion: ver.001
+nicommons: sm22558183
+files:
+  - filename: script/kame/丸付折線テキスト.obj
+    archivePath: pointlinetext_obj_001/

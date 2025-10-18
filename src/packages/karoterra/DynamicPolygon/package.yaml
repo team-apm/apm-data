@@ -1,0 +1,28 @@
+id: karoterra/DynamicPolygon
+name: 動く多角形
+overview: トラックバーで指定した頂点座標をもとに多角形を描画するスクリプト
+description: トラックバーで指定した頂点座標をもとに多角形を描画する AviUtl スクリプトです。
+developer: karoterra
+pageURL: https://github.com/karoterra/aviutl-DynamicPolygon
+downloadURLs:
+  - https://github.com/karoterra/aviutl-DynamicPolygon/releases/latest
+latestVersion: v1.0.2
+nicommons: sm38752367
+files:
+  - filename: script/karoterra/KaroterraDynamicPolygon.dll
+  - filename: script/karoterra/動く多角形ベース.obj
+  - filename: script/karoterra/@動く多角形.anm
+releases:
+  - version: v1.0.2
+    integrity:
+      archive: sha384-v8baIFOdmqDd7oe/WOQLH0e8j6ni4YcJmGrJ74/zUtViIafFb0C1ql27s3qD7O2w
+      file:
+        - target: script/karoterra/KaroterraDynamicPolygon.dll
+          hash: >-
+            sha384-KHSGoE5lbIMyYBRtuvzvJ7hp3l6qD7FccL4BeXp+nwpQW39tM525TBrkgaiNOjEQ
+        - target: script/karoterra/動く多角形ベース.obj
+          hash: >-
+            sha384-NJPZWMxFWvMp9iBoNljSU64NzOGGe0sP+larP9l7ktT/O9xcrTt1g5ME0dhHzzSa
+        - target: script/karoterra/@動く多角形.anm
+          hash: >-
+            sha384-Bnyi2kh0K/eDYbuiyKwCZi8nVSxFbOr5nl6lB132Wl9mNJvMiclAh7pHNK7G/Ykz

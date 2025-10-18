@@ -1,0 +1,23 @@
+id: tim/twitch
+name: twitchっぽいものT
+overview: さつき氏の「twitchっぽいもの」の別バージョン
+description: さつき氏の「twitchっぽいもの」の別バージョンのようなもの。
+developer: ティム
+originalDeveloper: さつき
+pageURL: https://www.nicovideo.jp/watch/sm21060861
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Twitch.zip
+  - https://tim3.web.fc2.com/sidx.htm#Twitch
+latestVersion: 2020/06/17
+nicommons: sm21060861
+files:
+  - filename: script/tim/twitchっぽいものT.anm
+    archivePath: Twitch
+releases:
+  - version: 2020/06/17
+    integrity:
+      archive: sha384-nDSeyv0XykbxReGPbvM3nlI+tktzqdCjSmT/hf3qV70TMvotpjB980ly4lhte460
+      file:
+        - target: script/tim/twitchっぽいものT.anm
+          hash: >-
+            sha384-Z8cPjT42SidWajuik9DyxXhbGx1SjcQh4yH6Qx19XR4z2d1nIk1Barlj2bF8670P

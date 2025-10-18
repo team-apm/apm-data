@@ -1,0 +1,20 @@
+id: rikky/smallPlay
+name: 少し音確認再生
+overview: 数秒音声を流して音合わせをするプラグイン
+description: 再生位置前後の音を流すことで映像と音のずれを確認できます。
+developer: rikky
+pageURL: https://www.nicovideo.jp/watch/sm30290443
+downloadURLs:
+  - https://hazumurhythm.com/a/5Kf/
+latestVersion: alpha.kai2.A
+nicommons: sm30290443
+files:
+  - filename: plugins/small_play.auf
+    archivePath: 少し音再生
+releases:
+  - version: alpha.kai2.A
+    integrity:
+      file:
+        - target: plugins/small_play.auf
+          hash: >-
+            sha384-JRiUwelhzxHL0iRj9En4YzkhWdyKcXOM9bUWgwi9dAM6vFImtqhP0u8R70TDLClJ

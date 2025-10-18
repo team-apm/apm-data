@@ -1,0 +1,11 @@
+id: aoytsk/statbarx
+name: ステータスバー＋
+overview: 編集情報を一覧できるステータスバーをAviUtlに追加
+description: ステータスバー＋は編集情報を一覧できるステータスバーをAviUtlに追加するプラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/435251.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/435251.html
+latestVersion: Ver 0.5.0
+files:
+  - filename: plugins/statbarx.auf

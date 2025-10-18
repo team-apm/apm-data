@@ -1,0 +1,24 @@
+id: karoterra/bend
+name: 曲げKR
+overview: 画像を曲線に沿って曲げるスクリプト
+description: 画像を曲線に沿って曲げる AviUtl スクリプトです。
+developer: karoterra
+pageURL: https://github.com/karoterra/aviutl-Bend
+downloadURLs:
+  - https://github.com/karoterra/aviutl-Bend/releases/latest
+latestVersion: v1.0.0
+nicommons: sm39711773
+files:
+  - filename: script/karoterra/@曲げKR.anm
+  - filename: script/karoterra/KaroterraBend.lua
+releases:
+  - version: v1.0.0
+    integrity:
+      archive: sha384-kQZEZuH0rR6desFAEPGef04zoc8yu/m1T4P7Jw8SgLJp7eY61m/I+Dy+Ep6DxjMe
+      file:
+        - target: script/karoterra/@曲げKR.anm
+          hash: >-
+            sha384-KKoIgVpouYx6YWBq25bpYaQTVdO8kLkIdN9OHw0vRmjPgGehWW4KDMIJ2xsUpBsG
+        - target: script/karoterra/KaroterraBend.lua
+          hash: >-
+            sha384-g0AopPBYkSYI8T/Vk+Pz/fsK8bzoCNGGUfSx3ghDN/vcP8GhIyX2FJqrxWLAldIg

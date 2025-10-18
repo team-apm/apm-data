@@ -1,0 +1,15 @@
+id: rigaya/bandingMTSIMD
+name: バンディング低減MT SIMD
+overview: バンディング低減フィルタMTを高速化
+description: がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のバンディング低減フィルタMTを高速化したものです
+developer: rigaya
+originalDeveloper: flash3kyuu
+pageURL: https://rigaya34589.blog.fc2.com/blog-category-15.html
+downloadURLs:
+  - >-
+    https://drive.google.com/folderview?id=0BzA4dIFteM2dQ1U3dG1mQ3Z5QWM&usp=sharing
+  - https://1drv.ms/f/s!AsYziax1Q91rhEGimA7oABVfdmkE
+latestVersion: v17+8
+files:
+  - filename: plugins/bandingMT_simd.auf
+    archivePath: bandingMT_simd_v17+8

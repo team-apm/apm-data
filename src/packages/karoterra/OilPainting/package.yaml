@@ -1,0 +1,24 @@
+id: karoterra/OilPainting
+name: 油絵
+overview: 油絵風の加工を施すアニメーション効果
+description: Kuwahara filter により油絵風の加工を施す AviUtl スクリプトです。高橋直哉氏の油絵スクリプトの処理速度を向上させたものです。
+developer: karoterra
+pageURL: https://github.com/karoterra/aviutl-OilPainting
+downloadURLs:
+  - https://github.com/karoterra/aviutl-OilPainting/releases/latest
+latestVersion: v1.0.1
+nicommons: sm39051118
+files:
+  - filename: script/karoterra/KaroterraOilPainting.dll
+  - filename: script/karoterra/油絵.anm
+releases:
+  - version: v1.0.1
+    integrity:
+      archive: sha384-hVfMvLMwJ9SWgUAXqzos0ci56kUjP8wbwcbgvjnOEmixzFMSaHsfF2B8p4o423gy
+      file:
+        - target: script/karoterra/KaroterraOilPainting.dll
+          hash: >-
+            sha384-OIbc00TOruQRt24IojLBbnApEVOsaVgzoHZBVcUINk8nwoLrtHbowX9TOsKRCyhM
+        - target: script/karoterra/油絵.anm
+          hash: >-
+            sha384-2Ns5FaSZaP/EZCZd3js91FKPBHR8AwU/Vhf32riHw7xo086Knn0ToQaZ8Cr92lwp

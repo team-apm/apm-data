@@ -1,0 +1,27 @@
+id: shummg/dotdrawer
+name: dotdrawer
+overview: ドット絵を描画するためのライブラリ
+description: dotdrawerは、ドット絵を描画するだけのシンプルなライブラリです。
+developer: しゅう
+pageURL: https://shummg.work/archives/1231
+downloadURLs:
+  - https://github.com/shumm7/AviUtl-dotdrawer.lua/releases/latest
+latestVersion: '1.1'
+isHidden: true
+files:
+  - filename: script/shummg/dotdrawer.lua
+releases:
+  - version: '1.1'
+    integrity:
+      archive: sha384-pg/9VD7ZZLOcenlC/NIprGYlgMrxuzxcB7h75IEbYcuEepY5ZRMc/3yfxynoqk0X
+      file:
+        - target: script/shummg/dotdrawer.lua
+          hash: >-
+            sha384-kfm/wnRgGySW1tr7F0kX7vD91VtnR+58s1Hyabvge6PoZZswVnFjoiqVAz55z9kL
+  - version: '1.0'
+    integrity:
+      archive: sha384-3bpsQGsoP3NNspeeYEexwqwlnClncpIxVGGabhosK20myQPBtc8QhnDg25j5TZX9
+      file:
+        - target: script/shummg/dotdrawer.lua
+          hash: >-
+            sha384-7f20fHDyPT4/1joe9vSYI15qwUD+j8X5GSOg3YEi9ToaVdptxRvxNbPiciX3D+wh

@@ -1,0 +1,32 @@
+id: aoytsk/easymp4
+name: かんたんMP4出力
+overview: セットアップ不要、プラグイン一つで簡単にエンコード
+description: セットアップ不要、プラグイン一つで簡単にエンコードできます。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/34586383.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/34586383.html
+directURL: https://aoytsk.blog.jp/aviutl/easymp4v0.1.1.zip
+latestVersion: v0.1.1
+files:
+  - filename: plugins/easymp4.auo
+releases:
+  - version: v0.1.1
+    integrity:
+      archive: sha384-GTJj01R8s/hVG98mFN3GTAYH4iRkOq3/5jwhcxpk4OG3tG7G7o2fC1bfyKljs6Jx
+      file:
+        - target: plugins/easymp4.auo
+          hash: >-
+            sha384-KqP7FgXutVgItDDzUI7iGiqR/scffirppUcToFdU5MAB2QCKYTda7suNNzaiuwB5
+  - version: v0.1.1(仮修正)
+    integrity:
+      file:
+        - target: plugins/easymp4.auo
+          hash: >-
+            sha384-q1ur+XoS/QRVeHkCINN7EKyBB1KY/uYKN869NWq3jf+GuKm/tKpiWOHjWPMYbDFM
+  - version: v0.1.0
+    integrity:
+      file:
+        - target: plugins/easymp4.auo
+          hash: >-
+            sha384-9d9tQl1Xd9UpLtE7Y69+kYsH5SF7l4d3rNTG+O3NxrPMV/w73wOv1NsxKTULKKJo

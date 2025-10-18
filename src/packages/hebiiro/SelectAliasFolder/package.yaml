@@ -1,0 +1,21 @@
+id: hebiiro/SelectAliasFolder
+name: エイリアスフォルダ選択
+overview: エイリアスフォルダを選択できるようにする
+description: エイリアスフォルダをコンボボックスで選択できるようにします。
+developer: hebiiro
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SelectAliasFolder
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SelectAliasFolder/releases/latest
+latestVersion: 1.0.0
+files:
+  - filename: plugins/SelectAliasFolder.auf
+releases:
+  - version: 1.0.0
+    integrity:
+      archive: sha384-ZbCesHBFc6k9C+cHAtSxknv+qGfIG+x4jkOYQ+Qek3py3vrNRmaqb3t/7NlEQ63q
+      file:
+        - target: plugins/SelectAliasFolder.auf
+          hash: >-
+            sha384-bE4xxQxErK6izZLYfTrnIxTG0Y9rbFl7VbDrYxOdpU15Wjx7QviZ7ta3NSkCr64G

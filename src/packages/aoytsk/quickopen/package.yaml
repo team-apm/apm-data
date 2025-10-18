@@ -1,0 +1,11 @@
+id: aoytsk/quickopen
+name: クイックオープン
+overview: 出力後の動画ファイルを素早く開く
+description: クイックオープンは編集中、出力後の動画ファイルを素早く開くためのプラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1347719.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1347719.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/quickopen.auf

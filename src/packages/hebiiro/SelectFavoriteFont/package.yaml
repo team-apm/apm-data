@@ -1,0 +1,43 @@
+id: hebiiro/SelectFavoriteFont
+name: お気に入りフォント選択
+overview: 最近使ったフォントを選択できるようにする
+description: テキストオブジェクトのオブジェクト編集ダイアログで、お気に入り、または最近使ったフォントからフォントを選択できるようにします。
+developer: hebiiro
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SelectFavoriteFont/releases/latest
+latestVersion: 6.0.2
+files:
+  - filename: plugins/SelectFavoriteFont.auf
+  - filename: plugins/SelectFavoriteFont.xml
+releases:
+  - version: 6.0.2
+    integrity:
+      archive: sha384-4H85XB5NayQ77lWddYctSDxIwbeED55G7WUI49w+Fax4A0WT2NFwAsQoSZCCIA2w
+      file:
+        - target: plugins/SelectFavoriteFont.auf
+          hash: >-
+            sha384-hEpO8xh7rqpx8kk5R9EYEw/ZAQYatfFRYMrMzZ7hLOIgkTpixyq1r/zfstMzbnYV
+  - version: 6.0.1
+    integrity:
+      archive: sha384-qVzQbBCquNZTMP0Dx1WzbFmDO4kPNPG2xLgvGQv5yjwx40luT+wkemvY8XghXdT6
+      file:
+        - target: plugins/SelectFavoriteFont.auf
+          hash: >-
+            sha384-xCqZD1SwwrvKlmUd0Jtdx/8z70vsc62kW6VrOVhjt1lprVBIzbqwYJoX2h+Z5tZu
+  - version: 6.0.0
+    integrity:
+      archive: sha384-Yk3DtdiHL1jYPYyjDawPHu2FBHLXgkdEp+cNxlKw6l8wgmDmob49L+WOfFWiCCRl
+      file:
+        - target: plugins/SelectFavoriteFont.auf
+          hash: >-
+            sha384-suF/1rbFcPD7NxpJSRqNnnb+Dx/ymzg6ViMuyxq2Ce/sJe7MMopU32TJtvKxP0o7
+  - version: 5.1.2
+    integrity:
+      archive: sha384-OnscpLHWlkzmqkVmIRWE5hMjh95+MlKS7pzdNo0EFXnM1/cEpE6uhB8xZ/X31yUg
+      file:
+        - target: plugins/SelectFavoriteFont.auf
+          hash: >-
+            sha384-iZ23/fJUGHue/f6CikFxYWQ6rzcOt7+S3weRnhzDKZLsqYFOv6mgEq64SR+fYVgp

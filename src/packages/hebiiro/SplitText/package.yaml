@@ -1,0 +1,45 @@
+id: hebiiro/SplitText
+name: テキスト分解
+overview: テキストオブジェクトをバラバラに分解します
+description: Aviutl拡張編集上のテキストオブジェクトを一文字ごとに別オブジェクトとして新たに生成します。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SplitText#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SplitText/releases/latest
+latestVersion: 2.0.1
+files:
+  - filename: plugins/SplitText
+    isDirectory: true
+  - filename: plugins/SplitText.auf
+releases:
+  - version: 2.0.1
+    integrity:
+      archive: sha384-+nK24japhGRMA8Uh1GtPgUCCFEqj1+gYD5iuwthh4aPt8WD0xM6sGTidZ+4EoNFF
+      file:
+        - target: plugins/SplitText.auf
+          hash: >-
+            sha384-faTAsknFLBanVB+6OtXlhEHY8MyOgwUr8Z+k++JUDsnxSQfbMgcVcjDltWHExN90
+  - version: 2.0.0
+    integrity:
+      archive: sha384-FfXsBLW9aBRsFY8BzlORX9Su0qbk9+X5+rMQIw1m3qElDNrLOMnloOItP/Y9GpH+
+      file:
+        - target: plugins/SplitText.auf
+          hash: >-
+            sha384-wJszLDjzfnwhLTDv8TrHLOKR3zucweuh6EodYXWh14DdkR6IW5PRw/1CZ58pYCSJ
+  - version: 1.8.0
+    integrity:
+      archive: sha384-iBE4KyDwoe+7uOTccJnTTMz3669EsQuGgUZzeW/3+Zve4mH2gUS5iP3AjtN5y48O
+      file:
+        - target: plugins/SplitText.auf
+          hash: >-
+            sha384-kiUdYBguPGLG8JEtxrLZ2P68MLFRjyl1KJ9tqGESu0tdsFND8CtO2LG3LRyXkLPR
+  - version: 1.7.0
+    integrity:
+      archive: sha384-R5uqW0sHLT+pePJhXbM5IDUFCB9UNPvUYV2M2TUr+AysMYyRZEcU5R8ye+CqveYy
+      file:
+        - target: plugins/SplitText.auf
+          hash: >-
+            sha384-yokIL3bAf4lXtA0DqBLdh61ErbxOXOqwYOT4HljXBmn+MiQTrZR0uv5qsIcKrOhX

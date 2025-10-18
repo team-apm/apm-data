@@ -1,0 +1,22 @@
+id: tim/limpFr
+name: ぐにゃ枠T
+overview: ぐにゃっと曲がった枠線を作るスクリプト
+description: ぐにゃっと曲がった枠線を作るスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm41716901
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LimpFr.zip
+  - https://tim3.web.fc2.com/sidx.htm#LimpFr
+latestVersion: 2012/02/10
+nicommons: sm41716901
+files:
+  - filename: script/tim/ぐにゃ枠T.obj
+    archivePath: LimpFr
+releases:
+  - version: 2012/02/10
+    integrity:
+      archive: sha384-RTyK2tUaV8E+IsEExxpBhSFGeW59t1SY4n3S1qWJknwT1aIbswinqP/sw9nGgE2E
+      file:
+        - target: script/tim/ぐにゃ枠T.obj
+          hash: >-
+            sha384-e969ePCV3wsrLsVF8rFeWxhORsQlK55tAldO1Nz2g3jVXvqoB8OiCCnmWymqsKdx

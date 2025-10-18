@@ -1,0 +1,12 @@
+id: aoytsk/dbgwnd
+name: デバッグウィンドウ
+overview: Aviutlの構造体やメッセージなどの情報を表示
+description: >-
+  「デバッグウィンドウ」はAviutlの構造体やメッセージなどの情報を表示するプラグインです。OutputDebugStringに対応しているのでスクリプトのデバッグ出力も表示できます。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1545310.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1545310.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/dbgwnd.auf

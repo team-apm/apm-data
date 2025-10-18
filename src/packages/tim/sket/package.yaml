@@ -1,0 +1,30 @@
+id: tim/sket
+name: 点描T
+overview: 画像を点描風に変換するスクリプト
+description: >-
+  画像を点描風に変換します。AEの「点描」と似た効果のスクリプトです。【動作にはVisual C++ 再頒布可能パッケージ 2008
+  x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm40379397
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Sket.zip
+  - https://tim3.web.fc2.com/sidx.htm#Sket
+latestVersion: 2022/05/11
+nicommons: sm40379397
+files:
+  - filename: script/tim/点描T.anm
+    archivePath: Sket
+  - filename: script/tim/T_Sketch_Module.dll
+    archivePath: Sket
+releases:
+  - version: 2022/05/11
+    integrity:
+      archive: sha384-yyA8hI2riZx697PDjNbwg8jaTDYq2Ip4cv3gGn8jFl7zXIFuTo9sM0r6ZPKrB3Jb
+      file:
+        - target: script/tim/点描T.anm
+          hash: >-
+            sha384-BwAqzG3rL/7b1kfJ131tYg6D7u1Jlo01bxlNHM9NV22b4bp/6IFr6fGw/7gD9hkm
+        - target: script/tim/T_Sketch_Module.dll
+          hash: >-
+            sha384-UhxdcaE9PMrLVjJxWlm5pRpfLUMBCXHzYyaeO/fepImN1T3gfEargPD3r4e3iV2T

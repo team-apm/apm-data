@@ -1,0 +1,26 @@
+id: rikky/aulsPluginsByRikky
+name: Aulsプラグインforaviutl110
+overview: Auls氏プラグインの拡張編集0.93rc1対応版
+description: >-
+  Auls氏が公開しているプラグイン「ショートカット追加」「エイリアス一覧」「終了確認
+  」をaviutl1.10+exedit0.93rc1に対応させたものです。
+developer: rikky
+originalDeveloper: yu_noimage_
+dependencies:
+  - exedit0.93rc1
+  - rikky/rikkyModule2
+pageURL: https://hazumurhythm.com/a/s1BS/
+downloadURLs:
+  - https://hazumurhythm.com/a/s1BS/
+latestVersion: ver 1.1
+nicommons: sm36182329
+files:
+  - filename: plugins/auls_plugins_by_rikky.auf
+    archivePath: auls_plugins_by_rikky
+releases:
+  - version: ver 1.1
+    integrity:
+      file:
+        - target: plugins/auls_plugins_by_rikky.auf
+          hash: >-
+            sha384-lIgdU3YYovmPXDcLzYeR3gob5Rfc5U3NRq/cHbLILHhAXYy5Nb64pQy/6w9AaNE6

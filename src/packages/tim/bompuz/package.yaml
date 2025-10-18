@@ -1,0 +1,34 @@
+id: tim/bompuz
+name: 砕け散るパズル
+overview: パズル形状に分解する効果のスクリプト
+description: |-
+  パズルのように分解し、飛散させます。
+  飛ばし方や形状にある程度の自由度があります。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm30452741
+downloadURLs:
+  - https://tim3.web.fc2.com/script/BomPuz21.zip
+  - https://tim3.web.fc2.com/sidx.htm#BomPuz
+latestVersion: V2
+nicommons: sm30452741
+files:
+  - filename: script/tim/パズルピース.obj
+    archivePath: BomPuz21
+  - filename: script/tim/砕け散るパズル-old.lua
+    archivePath: BomPuz21
+  - filename: script/tim/砕け散るパズル.anm
+    archivePath: BomPuz21
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-pmoUxyN0ho0EqxMN6eLuB18pTWee0Pmyf7gj/JC4X9AmPezO/scmn3H9SzFVKUEK
+      file:
+        - target: script/tim/パズルピース.obj
+          hash: >-
+            sha384-D4DdE92aUSXO0MduoblTNdWX32W4szsvd+dSUyzjdNixbuZiL9n1OdIxW+CEc/bT
+        - target: script/tim/砕け散るパズル-old.lua
+          hash: >-
+            sha384-e0+HvLe4yjJ2YWl1inFUYGjQsoENm/WRAG7hEDH5ypItyfP+HTxjRPUxIxWW2ZTv
+        - target: script/tim/砕け散るパズル.anm
+          hash: >-
+            sha384-W7IviXOEHLFtVPuFs0DYUCQmbrefSB9KpjceFI5pHggc9wrYAetAAQzn96HQxBiQ

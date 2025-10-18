@@ -1,0 +1,13 @@
+id: aoytsk/wndman
+name: ウィンドウマネージャー
+overview: ウィンドウの配置を記録して切り替える機能などを追加
+description: ウィンドウマネージャーはAviUtlのウィンドウの配置を記録して切り替えたり、消えたウィンドウを表示させる機能などを追加するウィンドウ管理プラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1470428.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1470428.html
+latestVersion: Ver 0.4.0
+files:
+  - filename: plugins/wndman.auf
+  - filename: plugins/wndman.ini
+    isUninstallOnly: true

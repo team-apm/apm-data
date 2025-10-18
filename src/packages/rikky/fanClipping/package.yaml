@@ -1,0 +1,13 @@
+id: rikky/fanClipping
+name: 扇クリッピングR
+overview: 扇のようなクリッピングができるスクリプト
+description: 扇のようなクリッピングができるスクリプト。標準のカスタムオブジェクトの扇を拡張したようなものです。
+developer: rikky
+pageURL: https://www.nicovideo.jp/watch/sm26625892
+downloadURLs:
+  - https://hazumurhythm.com/a/3Os/
+latestVersion: ver3
+nicommons: sm26625892
+files:
+  - filename: script/扇クリッピングR/fan_clipping.lua
+  - filename: script/扇クリッピングR/扇クリッピングR.anm

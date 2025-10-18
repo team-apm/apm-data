@@ -1,0 +1,22 @@
+id: rikky/relativePath2
+name: 相対パス保存(rikky_module 2)
+overview: 保存したとき画像のパスなどを相対パスで保存するプラグイン
+description: 保存したとき画像のパスなどを相対パスで保存するプラグイン。
+developer: rikky
+dependencies:
+  - rikky/rikkyModule2
+pageURL: https://www.nicovideo.jp/watch/sm31884370
+downloadURLs:
+  - https://hazumurhythm.com/a/3Av/
+latestVersion: v0.9a
+nicommons: sm31884370
+files:
+  - filename: plugins/relative_path.auf
+    archivePath: relative0.9e/rikky_module ver2用
+releases:
+  - version: v0.9a
+    integrity:
+      file:
+        - target: plugins/relative_path.auf
+          hash: >-
+            sha384-TcmsW8q1/2EHtKQQnd6+0kVUYIyCuXxkQdvc+0ac9g2jP7IMOKnQXS9vBW4y6Etu

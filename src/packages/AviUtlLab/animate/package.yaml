@@ -1,0 +1,16 @@
+id: AviUtlLab/animate
+name: アニメーション編集 for AviUtl
+overview: スクリプトを読み込んで動画を編集する
+description: スクリプトを読み込んで動画を編集するプラグインです。座標や色などのパラメータにフレーム番号を含む数式を記述できるので動きなどを表現できます。
+developer: AviUtl実験室
+pageURL: >-
+  http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl
+downloadURLs:
+  - >-
+    http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl
+latestVersion: ver1.4
+files:
+  - filename: plugins/animate.auf
+    archivePath: animate/
+  - filename: plugins/animation.txt
+    archivePath: animate/

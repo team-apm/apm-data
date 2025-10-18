@@ -1,0 +1,12 @@
+id: auls/framesound
+name: フレーム移動時に音を鳴らす
+overview: 現在フレームを移動させた時に、そのフレームの音を鳴らす
+description: 編集中、現在フレームの音を鳴らすプラグインです。
+developer: yu_noimage_
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2012/09/10
+files:
+  - filename: plugins/framesound.auf
+    archivePath: framesound

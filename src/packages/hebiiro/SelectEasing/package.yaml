@@ -1,0 +1,26 @@
+id: hebiiro/SelectEasing
+name: イージング簡単選択
+overview: イージング番号を画像から選択できるようにします。
+description: |-
+  イージング番号の選択時にイージング番号の表示と、easeモードの場合はベジエ曲線の表示を行います。
+  ease.dllの利用を推奨します。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SelectEasing#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SelectEasing/releases/latest
+latestVersion: 4.5.0
+files:
+  - filename: plugins/SelectEasing
+    isDirectory: true
+  - filename: plugins/SelectEasing.auf
+releases:
+  - version: 4.5.0
+    integrity:
+      archive: sha384-rktAcO6vo2Oki55xX5qIuYthzcdZFpXz1xkLCa7mejKSbT/k0wLtTBFUoVwBNW82
+      file:
+        - target: plugins/SelectEasing.auf
+          hash: >-
+            sha384-+N3+N2foDURoTvcpwaKy9847iu0A2pqF491amO/p54pD3uk3Ok6+uda3sX7Iys7g

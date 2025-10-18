@@ -1,0 +1,11 @@
+id: aoytsk/inputprofile
+name: 入力優先度変更 β
+overview: 入力プラグインの優先度をプロファイルに記録する
+description: 「入力優先度変更」は、入力プラグインの優先度をプロファイルに記録することで切り替えを容易にするAviutlプラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/Aviutl/711549.html
+downloadURLs:
+  - https://aoytsk.blog.jp/Aviutl/711549.html
+latestVersion: Ver 0.2b
+files:
+  - filename: plugins/inputprofile.auf

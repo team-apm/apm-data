@@ -1,0 +1,25 @@
+id: tim/26poly
+name: 二十六面体
+overview: 二十六面体を作成する
+description: 二十六面体を表示するアニメーション効果及びカスタムオブジェクトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19110075
+downloadURLs:
+  - https://tim3.web.fc2.com/script/26Poly.zip
+  - https://tim3.web.fc2.com/sidx.htm#26Poly
+latestVersion: 2012/10/13
+nicommons: sm19110075
+files:
+  - filename: script/tim/二十六面体.obj
+  - filename: script/tim/二十六面体.anm
+releases:
+  - version: 2012/10/13
+    integrity:
+      archive: sha384-QoJYSnBfxjH3qbmfh+oT7zd7zUnV83EmM98shgAZ9ANI5tBFgamsxEUZv3g9Khe6
+      file:
+        - target: script/tim/二十六面体.obj
+          hash: >-
+            sha384-sJxgW0iwlFJ8ba/It8ffwqNgSyEOJOay+DdvAPz+d98OntCOpfjdcii1i5NhvkEU
+        - target: script/tim/二十六面体.anm
+          hash: >-
+            sha384-xCSmNnudlCky0gKU14F6Sfwk4vQC/SMeT4ykj4uUOBtXqduuuVFjP38BcHA5MVNs

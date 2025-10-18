@@ -1,0 +1,27 @@
+id: tim/polygon
+name: 任意多角形カスタムオブジェクト
+overview: 任意多角形のカスタムオブジェクト
+description: 任意多角形のカスタムオブジェクトです。厚みも持たせることができます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16109364
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Polygon.zip
+  - https://tim3.web.fc2.com/sidx.htm#Polygon
+latestVersion: 2011/11/08
+nicommons: sm16109364
+files:
+  - filename: script/tim/Make_exo.hta
+    archivePath: 配布パック
+  - filename: script/tim/@任意多角形.obj
+    archivePath: 配布パック
+releases:
+  - version: 2011/11/08
+    integrity:
+      archive: sha384-nu+Oh8shalnQYNSBJCT+fjtbsgWuILd5+iwUkCy3Agj1cTdKHlF9+Sbw9kt3gqpp
+      file:
+        - target: script/tim/Make_exo.hta
+          hash: >-
+            sha384-v24vlHNm5cXXuDN9SQAvJQdLXSC79jmMr+JTp8AhECjLqOyn/up4Bp5WmDjmQQYz
+        - target: script/tim/@任意多角形.obj
+          hash: >-
+            sha384-6LLS8+oGtDOMnuGlV0jmUQLlydHYP5MP2mCv0pOtwfMZOGsKO0owY+oMWWCshhKy

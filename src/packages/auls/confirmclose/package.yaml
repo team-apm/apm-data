@@ -1,0 +1,24 @@
+id: auls/confirmclose
+name: 終了確認
+overview: プロジェクトを閉じる前に確認メッセージを表示する
+description: 拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。
+developer: yu_noimage_
+dependencies:
+  - ePi/aulsMemref
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2014/05/06
+files:
+  - filename: auls_confirmclose.auf
+    archivePath: auls_confirmclose
+  - filename: plugins/auls_confirmclose.auf
+    isObsolete: true
+releases:
+  - version: 2014/05/06
+    integrity:
+      archive: sha384-nV+/t3V8xZUJTcMxzD0H8+VsZaHpnOaQ2F2lbDWVA22rFVZwp/v/JLNTSHWhWJ+v
+      file:
+        - target: auls_confirmclose.auf
+          hash: >-
+            sha384-YrLMXhOCr4N+Ij5PttIAR9WUMAP2Bc7avWs4XnSL4fWMU0cAjsntm+p0f02uEXKA

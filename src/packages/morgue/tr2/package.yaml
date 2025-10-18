@@ -1,0 +1,30 @@
+id: morgue/tr2
+name: MORGUEトランジション素材#21~40
+overview: トランジション素材として使用できるPNG画像
+description: トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。
+developer: morgue
+pageURL: https://nega.client.jp/
+downloadURLs:
+  - https://nega.client.jp/
+latestVersion: 2009/03/28
+files:
+  - filename: transition/t21.png
+  - filename: transition/t22.png
+  - filename: transition/t23.png
+  - filename: transition/t24.png
+  - filename: transition/t25.png
+  - filename: transition/t26.png
+  - filename: transition/t27.png
+  - filename: transition/t28.png
+  - filename: transition/t29.png
+  - filename: transition/t30.png
+  - filename: transition/t31.png
+  - filename: transition/t32.png
+  - filename: transition/t33.png
+  - filename: transition/t34.png
+  - filename: transition/t35.png
+  - filename: transition/t36.png
+  - filename: transition/t37.png
+  - filename: transition/t38.png
+  - filename: transition/t39.png
+  - filename: transition/t40.png

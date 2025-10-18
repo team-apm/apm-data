@@ -1,0 +1,22 @@
+id: tim/conline
+name: 集中線T
+overview: 自由度の高い集中線を作成するスクリプト
+description: 自由度の高い集中線を作ります。線の配置が偏ったものもできます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm26938922
+downloadURLs:
+  - https://tim3.web.fc2.com/script/ConLine.zip
+  - https://tim3.web.fc2.com/sidx.htm#ConLine
+latestVersion: 2020/07/04
+nicommons: sm26938922
+files:
+  - filename: script/tim/@集中線T.obj
+    archivePath: ConLine
+releases:
+  - version: 2020/07/04
+    integrity:
+      archive: sha384-JzmL6cFQfvr8XuroLzyJ5rPCdMpzP9Bo7GVWVOGdMIXFOWM3GjuNASrw0cWQWUD6
+      file:
+        - target: script/tim/@集中線T.obj
+          hash: >-
+            sha384-Yhho70UWsaznisHhPaxurHCXstq3X+1lh34l0MI7jak4GzRwxKVy6C21+0c4IFQv

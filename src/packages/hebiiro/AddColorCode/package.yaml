@@ -1,0 +1,36 @@
+id: hebiiro/AddColorCode
+name: カラーコード追加
+overview: 色の選択ダイアログでカラーコードを使えるようにします。
+description: 色の選択ダイアログでカラーコードを使えるようにします。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-AddColorCode#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-AddColorCode/releases/latest
+latestVersion: 1.2.1
+files:
+  - filename: plugins/AddColorCode.auf
+releases:
+  - version: 1.2.1
+    integrity:
+      archive: sha384-x6t4snIQXavUtESJHtU1bqG1J7Y4xQ2uzW1yw/4MwK/oCmeqP+SBpnGiaiEgUn4N
+      file:
+        - target: plugins/AddColorCode.auf
+          hash: >-
+            sha384-NZdYr7rqdOvbAdzIKJGGgHehdMAzALBR3R0LFz3mTMcqueQstVO94OxpaS1wNoSJ
+  - version: 1.2.0
+    integrity:
+      archive: sha384-eMHbbV0DfGm9VvFc6j61M4Tu6fteZbWrlidmE6uVz9JzsCrOXzYwWIUVYFp1euD0
+      file:
+        - target: plugins/AddColorCode.auf
+          hash: >-
+            sha384-/RDw/K2mgeZzfu9WT9ExZMS4ymSlKPKbXqc/bEQjYEw6HC9F570L5i52tRiDyqC8
+  - version: 1.1.0
+    integrity:
+      archive: sha384-n2z9GeotGy3EuO51QVx9xKS/ryZUKqu5HJNCpRKKInZ20ZqdZfG4kY1ehCPB5Kji
+      file:
+        - target: plugins/AddColorCode.auf
+          hash: >-
+            sha384-0BQxE9x6b+0MYPvUVuMWpSsovckKwuJdcMNgvdy9n21waMvW/TOncH7pmXSdPGa4

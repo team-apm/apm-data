@@ -1,0 +1,22 @@
+id: tim/moja2F
+name: もじゃもじゃT
+overview: もじゃもじゃした線を作るスクリプト
+description: もじゃもじゃした線を作るスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm41923988
+downloadURLs:
+  - https://tim3.web.fc2.com/script/moja2F.zip
+  - https://tim3.web.fc2.com/sidx.htm#moja2F
+latestVersion: 2023/03/13
+nicommons: sm41923988
+files:
+  - filename: script/tim/もじゃもじゃT.obj
+    archivePath: moja2F
+releases:
+  - version: 2023/03/13
+    integrity:
+      archive: sha384-FZyq56Az3YvFZAYy+9/5rsxNwmta+VaKTsKI/9MvY9uss+a/n6BJqhoWot/8xrBi
+      file:
+        - target: script/tim/もじゃもじゃT.obj
+          hash: >-
+            sha384-Sqed1HScrycq0hAc8P3U7YKhkb4KyuH/kBlXzsv4GPVaeQiA568OxkHEoMLPYotN

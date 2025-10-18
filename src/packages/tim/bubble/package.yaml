@@ -1,0 +1,21 @@
+id: tim/bubble
+name: 泡
+overview: 泡のカスタムオブジェクト
+description: 泡っぽいものを複数生成します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16108745
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Bubble.zip
+  - https://tim3.web.fc2.com/sidx.htm#Bubble
+latestVersion: 2011/11/07
+nicommons: sm16108745
+files:
+  - filename: script/tim/泡.obj
+releases:
+  - version: 2011/11/07
+    integrity:
+      archive: sha384-oPGq3pR3tqrlGXwCWC/HTIqvtaSWUNTom7ts6MJECnmnmV1SaEh1EBoSY35nLicL
+      file:
+        - target: script/tim/泡.obj
+          hash: >-
+            sha384-YiKTWu1yeFNBB5+RKRMYXjhWZbqtfNMV2naGB5yVdmxldrJnfxMO2puvy3o5T2Or

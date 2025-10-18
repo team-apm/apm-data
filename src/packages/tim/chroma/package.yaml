@@ -1,0 +1,21 @@
+id: tim/chroma
+name: 色収差
+overview: 簡易的な色収差を与える効果のスクリプト
+description: 簡易的な色収差を表現します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19417956
+downloadURLs:
+  - https://tim3.web.fc2.com/script/ChromaV2.zip
+  - https://tim3.web.fc2.com/sidx.htm#Chroma
+latestVersion: 2017/02/26
+nicommons: sm19417956
+files:
+  - filename: script/tim/色収差.anm
+releases:
+  - version: 2017/02/26
+    integrity:
+      archive: sha384-D2Aa18D4ea7AtBjGDFuHfdSZzlBkWLmSq0IuwFThMqrXb/rzLO4lNs3u3TyZT3n+
+      file:
+        - target: script/tim/色収差.anm
+          hash: >-
+            sha384-JRUeAtU69JlkL4HJOXYrJnWLZa4nO9eC2CX7h/lSpH6wZySqtcuG/IqdY9l9rgUM

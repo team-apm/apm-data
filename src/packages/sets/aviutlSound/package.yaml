@@ -1,0 +1,16 @@
+id: sets/aviutlSound
+name: 音声編集 パッケージセット
+overview: AviUtlでより良く音声を扱うためのパッケージセット
+description: AviUtlでより良く音声を扱うためのパッケージを追加できます。
+developer: apm
+dependencies:
+  - AiosCiao/VSThost4aviutl
+  - rikky/smallPlay
+  - hebiiro/ShowWaveform
+pageURL: https://github.com/team-apm/apm-data
+downloadURLs:
+  - https://team-apm.github.io/apm-data/package-sets-description.html
+latestVersion: 2022/06/16
+files:
+  - filename: placeholder.pkgset
+    isObsolete: true

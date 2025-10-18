@@ -1,0 +1,21 @@
+id: tim/filmscr
+name: フィルム焦げ
+overview: 徐々に燃えていくような効果のスクリプト
+description: 物が焦げていく様子に見えなくもない効果。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17192955
+downloadURLs:
+  - https://tim3.web.fc2.com/script/FilmScr.zip
+  - https://tim3.web.fc2.com/sidx.htm#FilmScr
+latestVersion: 2012/03/08
+nicommons: sm17192955
+files:
+  - filename: script/tim/フィルム焦げ.anm
+releases:
+  - version: 2012/03/08
+    integrity:
+      archive: sha384-XfH2cqSZX4q9dCSbMEt1MrEgfRkUkiCNF1Xnia20zNHt96H4MretpIhz8RuebmUq
+      file:
+        - target: script/tim/フィルム焦げ.anm
+          hash: >-
+            sha384-pJRxBqfkdIe+TpHlQf2c/K4wsAzY+tc3u9IkBp1x1inKZFJcxpUfRI8eyZU+UAhY

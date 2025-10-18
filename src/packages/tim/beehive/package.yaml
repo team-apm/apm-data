@@ -1,0 +1,21 @@
+id: tim/beehive
+name: 蜂の巣モザイク
+overview: 六角形のモザイクを付与するスクリプト
+description: 画像を六角形のモザイクにします。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17848725
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Beehive.zip
+  - https://tim3.web.fc2.com/sidx.htm#Beehive
+latestVersion: 2012/05/17
+nicommons: sm17848725
+files:
+  - filename: script/tim/蜂の巣モザイク.anm
+releases:
+  - version: 2012/05/17
+    integrity:
+      archive: sha384-ifTUE906xE4H7oVRYVsK2viVS846IN6ozMa6xqarsLY+wxPYKV4tpuMC/6TwD17b
+      file:
+        - target: script/tim/蜂の巣モザイク.anm
+          hash: >-
+            sha384-7y8WXAOaGl3AbSdWkqVNwlBntnY0spI42kLydw2AjNFW3RkBZIpS9Y3S9FR8gBaz

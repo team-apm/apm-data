@@ -1,0 +1,21 @@
+id: tim/colext
+name: 色抽出
+overview: 特定の色を抽出するスクリプト
+description: 特定の色を抽出します。逆カラーキーのようなものです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20237800
+downloadURLs:
+  - https://tim3.web.fc2.com/script/ColExt.zip
+  - https://tim3.web.fc2.com/sidx.htm#ColExt
+latestVersion: 2013/03/03
+nicommons: sm20237800
+files:
+  - filename: script/tim/色抽出T.anm
+releases:
+  - version: 2013/03/03
+    integrity:
+      archive: sha384-ffjSIEEH59uvMb4m1WgbONLVdu8Iw6KJHpihyeoSfXdukq4kJm2nz4CcCzrWeb+s
+      file:
+        - target: script/tim/色抽出T.anm
+          hash: >-
+            sha384-9Xv4aH5PqtDx6QyN/u4kYqsQLA4g1qeHTVvlJ6UqM7KpsG3mLMNF289rdAlVulQ1

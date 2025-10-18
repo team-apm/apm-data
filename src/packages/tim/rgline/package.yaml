@@ -1,0 +1,30 @@
+id: tim/rgline
+name: ラフ画線T
+overview: 画像を線画風に加工
+description: >-
+  画像を特定角度の画線の集合に変換するスクリプトです。【動作にはVisual C++ 再頒布可能パッケージ 2008
+  x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm41257973
+downloadURLs:
+  - https://tim3.web.fc2.com/script/RgLine.zip
+  - https://tim3.web.fc2.com/sidx.htm#RgLine
+latestVersion: 2022/10/20
+nicommons: sm41257973
+files:
+  - filename: script/tim/T_RoughLine_Module.dll
+    archivePath: RgLine
+  - filename: script/tim/ラフ画線T.anm
+    archivePath: RgLine
+releases:
+  - version: 2022/10/20
+    integrity:
+      archive: sha384-5pqglvQcmP+yDv+98ohsXwHg+jmQ8PtN5g6QCkFhIkPVcgaXuCFgz0EeJNepFOzc
+      file:
+        - target: script/tim/T_RoughLine_Module.dll
+          hash: >-
+            sha384-7+TDmtIneUOoFV40gMMHQ90GrOeDZOmj/ZhXjJu2gi1TsXF43ftux8vT/4RRSbAx
+        - target: script/tim/ラフ画線T.anm
+          hash: >-
+            sha384-Rshyvt/1FnJeHfXntj8LJVg2UIiTVm6ICUv2T6Ao8hoUEMR6SbqxO/00d7FCmE2I

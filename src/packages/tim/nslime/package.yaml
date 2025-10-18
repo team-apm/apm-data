@@ -1,0 +1,23 @@
+id: tim/nslime
+name: な～さりい☆らいむ風TA
+overview: な～さりい☆らいむ風のテキストアニメーション
+description: |-
+  きしめんエフェクトセット第4弾。な～さりい☆らいむ風のTAです。
+  オブジェクト分割と併用すれば画像にも使えます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18731552
+downloadURLs:
+  - https://tim3.web.fc2.com/script/k4-NsLime.zip
+  - https://tim3.web.fc2.com/sidx.htm#NsLime
+latestVersion: 2012/08/27
+nicommons: sm18731552
+files:
+  - filename: script/tim/な～さりい☆らいむ風TA.anm
+releases:
+  - version: 2012/08/27
+    integrity:
+      archive: sha384-zDGLNd/uM7vC3gy50u/EsDDA0vm7BuoybHZPVIBtfPKHJSVehGkTIwmZljARD8j3
+      file:
+        - target: script/tim/な～さりい☆らいむ風TA.anm
+          hash: >-
+            sha384-d9lpnulOz/4o3xXg7EBy8Y+H0z+ODzgb1G4J/IVBRK/LTpljcF8ycX1tm/ERpt5B

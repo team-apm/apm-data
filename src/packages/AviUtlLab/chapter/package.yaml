@@ -1,0 +1,14 @@
+id: AviUtlLab/chapter
+name: チャプター編集 for AviUtl
+overview: ogm/mkv/mp4用のチャプターファイルを作成する
+description: ogm/mkv/mp4用のチャプターファイルを作成するためのプラグインです。表示メニューに「チャプター編集」を追加します。
+developer: AviUtl実験室
+pageURL: >-
+  http://videoinfo.tenchi.ne.jp/?%A5%C1%A5%E3%A5%D7%A5%BF%A1%BC%CA%D4%BD%B8%20for%20AviUtl
+downloadURLs:
+  - >-
+    http://videoinfo.tenchi.ne.jp/?%A5%C1%A5%E3%A5%D7%A5%BF%A1%BC%CA%D4%BD%B8%20for%20AviUtl
+latestVersion: ver0.6
+files:
+  - filename: plugins/chapter.auf
+    archivePath: chapter/

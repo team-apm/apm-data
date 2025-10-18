@@ -1,0 +1,21 @@
+id: tim/reelrot
+name: リール回転T
+overview: リール回転の拡張版スクリプト
+description: スロットのような回転をします。斜めにも回せます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm22528296
+downloadURLs:
+  - https://tim3.web.fc2.com/script/ReelRot.zip
+  - https://tim3.web.fc2.com/sidx.htm#ReelRot
+latestVersion: 2013/12/25
+nicommons: sm22528296
+files:
+  - filename: script/tim/リール回転T.anm
+releases:
+  - version: 2013/12/25
+    integrity:
+      archive: sha384-xL6MJH6jB9gxiT64/ReDp/G5vf4hTrFIn274blTG6WCEmiNc9Xud6y4c0ATBfFgw
+      file:
+        - target: script/tim/リール回転T.anm
+          hash: >-
+            sha384-RdwOZYcSYV+WHT16Ng9j5yB8RuGDmMFqk0fllM9l95AniH9JGeJBxtWBgTEHLxVd

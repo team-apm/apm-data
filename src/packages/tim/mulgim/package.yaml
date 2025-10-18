@@ -1,0 +1,21 @@
+id: tim/mulgim
+name: 多角錐変形
+overview: 多角錐を作成するスクリプト
+description: 多角錐を作ります。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20483016
+downloadURLs:
+  - https://tim3.web.fc2.com/script/MulGim.zip
+  - https://tim3.web.fc2.com/sidx.htm#MulGim
+latestVersion: V2
+nicommons: sm20483016
+files:
+  - filename: script/tim/錐変形.anm
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-nELgZM0rkyNd/4rKhejHfHjsQpI7uj4yi+cT2HhEJFM3xrGGthTYgKP0mWR1DWu1
+      file:
+        - target: script/tim/錐変形.anm
+          hash: >-
+            sha384-sL4p3SwlQgh6k8tXMEMwyf56SmVD4xpKTrWFNMbc0tG0XwQ0LPJ6NmTExfbmcwjR

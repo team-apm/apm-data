@@ -1,0 +1,13 @@
+id: hebiiro/python32
+developer: hebiiro
+downloadURLs:
+  - https://github.com/hebiiro/anti.aviutl.ultimate.plugin/releases/tag/r36
+name: python実行環境
+pageURL: https://github.com/hebiiro/anti.aviutl.ultimate.plugin#readme
+overview: アルティメットプラグインの実行に必要なPython実行環境
+description: 蛇色(へびいろ)氏のプラグインの実行に必要な環境です。'python32_r36.zip'をダウンロードしてください。
+latestVersion: r36
+files:
+  - filename: plugins/ultimate
+    archivePath: plugins
+    isDirectory: true

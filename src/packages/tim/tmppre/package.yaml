@@ -1,0 +1,24 @@
+id: tim/tmppre
+name: 一時保存読込
+overview: 画像を一時的に保存するスクリプト
+description: |-
+  画像を一時的に保存しますが、相性が悪いスクリプトが多いです。
+  現在では他に手段が幾つかありますので、それらを推奨します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15784672
+downloadURLs:
+  - https://tim3.web.fc2.com/script/TmpPre.zip
+  - https://tim3.web.fc2.com/sidx.htm#TmpPre
+latestVersion: 2011/10/03
+nicommons: sm15784672
+files:
+  - filename: script/tim/@一時保存読込.obj
+    archivePath: 公開
+releases:
+  - version: 2011/10/03
+    integrity:
+      archive: sha384-UP2cjqXXg8r0a9vJl+4sIEQZAYN+MDPfGtpxsE3PpU9t6diSAF68kB/b5bEa9Cp1
+      file:
+        - target: script/tim/@一時保存読込.obj
+          hash: >-
+            sha384-sfGHiI170dyoL45D5f325Mj3gLqFd2Oo1ZPVzZOFRfLLpaj/HT2XLWr2L8jyWMfB

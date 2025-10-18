@@ -1,0 +1,22 @@
+id: tim/traeasy
+name: TrackingラインEasy
+overview: テツ氏の「Trackingライン」の簡易版
+description: Trackingラインの機能限定＋追加機能版です。
+developer: ティム
+originalDeveloper: テツ
+pageURL: https://www.nicovideo.jp/watch/sm19924144
+downloadURLs:
+  - https://tim3.web.fc2.com/script/TraEasy.zip
+  - https://tim3.web.fc2.com/sidx.htm#TraEasy
+latestVersion: 2013/01/26
+nicommons: sm19924144
+files:
+  - filename: script/tim/@TrackingラインEasy.anm
+releases:
+  - version: 2013/01/26
+    integrity:
+      archive: sha384-8mNs+cV2KMF6Ol9pQbr0/Em3McWLNYb7MmYlbUP+J33uKCm+iO/0LW0DL7uVFxab
+      file:
+        - target: script/tim/@TrackingラインEasy.anm
+          hash: >-
+            sha384-8IRXaU/KTF1khti7hB8xkjUSOtC+GkfEPapCm4CoVIRh5xnhbFrDwoMI8php/BDF

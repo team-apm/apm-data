@@ -1,0 +1,23 @@
+id: nazono/LayerWheel
+name: LayerWheel
+overview: 拡張編集を縦にスクロール
+description: >-
+  拡張編集のレイヤーの部分でマウスホイールを使用すると縦スクロールが可能となるプラグインです。【動作にはVisual C++ 再頒布可能パッケージ 2022
+  x86(32bit)のインストールが必要です。】
+developer: 謎の生物
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/nazonoSAUNA/LayerWheel
+downloadURLs:
+  - https://github.com/nazonoSAUNA/LayerWheel/releases/latest
+latestVersion: r1
+files:
+  - filename: plugins/layerwheel.auf
+releases:
+  - version: r1
+    integrity:
+      archive: sha384-Lpe0/UfM983QH3xk+pzf8H8lX0Q5H5bRXbXYTeJVQ9kn0bEuEfZBQcobmA7lSR/K
+      file:
+        - target: plugins/layerwheel.auf
+          hash: >-
+            sha384-j5bHdLi9ycUPG+pZbSc4yKeBzbmfvP9hq4NWrWau9krodrMpGdBktZUN8bs/IiSm

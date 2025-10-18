@@ -1,0 +1,20 @@
+id: rigaya/pmdMt
+name: PMD_MT 高速化版
+overview: PMD_MTの高速化版
+description: PMD（2Dノイズ除去プラグイン）のマルチスレッド版PMD_MTを高速化したプラグインです。
+developer: rigaya
+originalDeveloper: エモリ, スレ48≫989
+pageURL: https://github.com/rigaya/pmd_mt#readme
+downloadURLs:
+  - https://github.com/rigaya/pmd_mt/releases/latest
+latestVersion: '+7'
+files:
+  - filename: plugins/pmd_mt.auf
+releases:
+  - version: '+7'
+    integrity:
+      archive: sha384-NUyICEn5FRm8uff1IgAL2IS6W8Q8hf72cykclDllCuEcrM+V8Nr1uvR7oQ8xfAmU
+      file:
+        - target: plugins/pmd_mt.auf
+          hash: >-
+            sha384-RsWp5Y2AEvBlc4sXbZurdJt22PS5GonAbz2bRWMnKYjG/xUhhdTM2cp7FtGglH33

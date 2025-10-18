@@ -1,0 +1,21 @@
+id: tim/broken
+name: 砕け散る(改)
+overview: 「砕け散る」を改良したもの
+description: 「砕け散る」を立体化したアニメーション効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15221902
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Broken.zip
+  - https://tim3.web.fc2.com/sidx.htm#Broken
+latestVersion: 2011/08/05
+nicommons: sm15221902
+files:
+  - filename: script/tim/砕け散るT.anm
+releases:
+  - version: 2011/08/05
+    integrity:
+      archive: sha384-mFJTJL9WhKGBBLy5eoTNkMluM1ciltqvDkQ47QeewIxiwIKPGFIT/HY0yn7lnvGB
+      file:
+        - target: script/tim/砕け散るT.anm
+          hash: >-
+            sha384-sccwhwxz6Xu6Hh7GOw5HuOCa/UAZ/+hYIdttZWiztY1EwQ+CaNB2jHvXc8ueJGL9

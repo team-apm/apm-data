@@ -1,0 +1,21 @@
+id: tim/lightng
+name: 稲妻
+overview: 稲妻を表示するスクリプト
+description: 稲妻風なカスタムオブジェクトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16931205
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LightNg.zip
+  - https://tim3.web.fc2.com/sidx.htm#LightNg
+latestVersion: 2012/02/10
+nicommons: sm16931205
+files:
+  - filename: script/tim/稲妻.obj
+releases:
+  - version: 2012/02/10
+    integrity:
+      archive: sha384-8Dyo/eauB4+/+s97JREJ4O+hMiFhtsAu8UgEKCJQns0T9pqKvZ0u7iXZdczXPHSu
+      file:
+        - target: script/tim/稲妻.obj
+          hash: >-
+            sha384-wSQRAhswT4S6JaGj2vkntKgDuE4wZJIIomAi+F7i99Fmef6wTuvx3TOcUdDZcw3w

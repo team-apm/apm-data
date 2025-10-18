@@ -1,0 +1,21 @@
+id: aoytsk/misc
+name: 小物詰め合わせ
+overview: 小物プラグイン色々
+description: 小物プラグイン色々。「音声プレビュー」「黒塗り」「編集＋」「タイムライン拡大率」「メモ」「ポイントミュート」「選択範囲編集」「タイムスタンプ合わせ」
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1607088.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1607088.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/audiopreview.auf
+  - filename: plugins/blacken.auf
+  - filename: plugins/editx.auf
+  - filename: plugins/exlayerjump.auf
+  - filename: plugins/exlayerswitch.auf
+  - filename: plugins/exscale.auf
+  - filename: plugins/exsceneswitch.auf
+  - filename: plugins/memo.auf
+  - filename: plugins/pointmute.auf
+  - filename: plugins/selector.auf
+  - filename: plugins/timestamp.auf

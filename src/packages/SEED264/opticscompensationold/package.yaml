@@ -1,0 +1,68 @@
+id: SEED264/opticscompensationold
+name: OpticsCompensation_s_Old
+overview: レンズ補正
+description: >-
+  いわゆるレンズ補正を行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022
+  x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】
+developer: 星野なたね
+conflicts:
+  - SEED264/opticscompensation
+pageURL: https://github.com/SEED264/OpticsCompensation_s_Old
+downloadURLs:
+  - https://github.com/SEED264/OpticsCompensation_s_Old/releases/latest
+latestVersion: v1.10
+isHidden: true
+files:
+  - filename: script/SEED264/OpticsCompensation_s.anm
+    archivePath: OpticsCompensation_s
+  - filename: script/SEED264/OpticsCompensation_s.dll
+    archivePath: OpticsCompensation_s
+  - filename: script/SEED264/OpticsCompensation_Direct_s.anm
+    archivePath: OpticsCompensation_s
+    isObsolete: true
+  - filename: cudart32_75.dll
+    archivePath: OpticsCompensation_s
+    isInstallOnly: true
+releases:
+  - version: v1.10
+    integrity:
+      archive: sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq
+      file:
+        - target: script/SEED264/OpticsCompensation_s.anm
+          hash: >-
+            sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG
+        - target: script/SEED264/OpticsCompensation_s.dll
+          hash: >-
+            sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK
+        - target: cudart32_75.dll
+          hash: >-
+            sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr
+  - version: '1.10'
+    integrity:
+      archive: sha384-nXO6/f30lL4T5kFzZrUnh/dSNJ6ZIP+ZEDtaqJYUXINhA0vqNUU6ruNFUfcF3Lrq
+      file:
+        - target: script/SEED264/OpticsCompensation_s.anm
+          hash: >-
+            sha384-qnUIpCu6HjL8ITlQsFbqldPdLEBY3p6UfgbralnUwyj2m2RAYImbAIfSKMgpfvoG
+        - target: script/SEED264/OpticsCompensation_s.dll
+          hash: >-
+            sha384-nxgGskIZuA3LUlXcSfW0/ZtdOBqWseCJ861rlitVvXSJcpqj1e84X2j3ZRhLshYK
+        - target: cudart32_75.dll
+          hash: >-
+            sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr
+  - version: '1.00'
+    integrity:
+      archive: sha384-CBvodkdAYexqwogMQnRKyIPG049FMuEsKFrzQFECqPIryYCkRuk7cEwXKVYQvUks
+      file:
+        - target: script/SEED264/OpticsCompensation_s.anm
+          hash: >-
+            sha384-aFlP2xMAw2OI6NNVmPnz8m0YDLMNC7hcAyFlZJ5wUlUJkRWq1N4kCkCGXIFLmo2P
+        - target: script/SEED264/OpticsCompensation_Direct_s.anm
+          hash: >-
+            sha384-x6VgL94KFJFMVXuPfjxKnlhh83+rOfQum2rI33TZDDAJ0CN0WcG2FyyQiy5Vy3Lm
+        - target: script/SEED264/OpticsCompensation_s.dll
+          hash: >-
+            sha384-KVWo6M49T1s5eVyceP3ZyRD3tcRkCVEvo2pcqZdd18zxH+6FYSer35uRBNczwqB/
+        - target: cudart32_75.dll
+          hash: >-
+            sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr

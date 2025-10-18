@@ -1,0 +1,22 @@
+id: rikky/rikkyModule2
+name: rikkymodule(version2)
+overview: スクリプト製作の役に立つプラグイン
+description: スクリプト製作に役に立つかもしれないプラグインです 20/01/11現在対応しているAviUtlは1.10のみ 対応している拡張編集は0.93rc1のみ
+developer: rikky
+dependencies:
+  - exedit0.93rc1
+pageURL: https://hazumurhythm.com/a/q9Q/
+downloadURLs:
+  - https://hazumurhythm.com/a/q9Q/
+latestVersion: v2_0.1d
+nicommons: sm34776162
+files:
+  - filename: rikky_module.auf
+    archivePath: modulev2_0.1d
+releases:
+  - version: v2_0.1d
+    integrity:
+      file:
+        - target: rikky_module.auf
+          hash: >-
+            sha384-BMz0JmZND+d73mda5UiangRaPMYJPWV9cQJBfLTUgLowP9ZZnvEOZRapd0KlNPjv

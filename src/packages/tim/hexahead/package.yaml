@@ -1,0 +1,21 @@
+id: tim/hexahead
+name: 直方体展開
+overview: 直方体を展開するスクリプト
+description: 直方体を展開するスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm14573964
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Hexahed.zip
+  - https://tim3.web.fc2.com/sidx.htm#Hexahed
+latestVersion: 2011/05/27
+nicommons: sm14573964
+files:
+  - filename: script/tim/直方体展開.anm
+releases:
+  - version: 2011/05/27
+    integrity:
+      archive: sha384-5Naiz17q2J130gpANUNxNRYFVe7udOP61QSC3UJPTgdKE1xJaKMjicZSN3/xoz92
+      file:
+        - target: script/tim/直方体展開.anm
+          hash: >-
+            sha384-7MfvtpQMMK0ltw9U+YtoYKKKiO3/xMNgXoTKzdd/3wT6LQJRs5n/zRVd6ozNhz2E

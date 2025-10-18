@@ -1,0 +1,27 @@
+id: tim/radpar
+name: 放射分布 変色パーティクル
+overview: オブジェクトを放射状に分布＆パーティクルの色を時間的に変化
+description: |-
+  きしめんエフェクトセット第6弾。
+  オブジェクトを放射状に分布させるものと、パーティクルの色を発生してから消えるまでの間に変えるものです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19109766
+downloadURLs:
+  - https://tim3.web.fc2.com/script/k6-RadPar.zip
+  - https://tim3.web.fc2.com/sidx.htm#RadPar
+latestVersion: 2012/10/13
+nicommons: sm19109766
+files:
+  - filename: script/tim/変色パーティクル.anm
+  - filename: script/tim/放射分布.anm
+releases:
+  - version: 2012/10/13
+    integrity:
+      archive: sha384-l1qN3VtRhA7UedJyKxAOKr4vcyjgQsV4SvuDBhBR66x60LNUGKW+jDRkwfymcgYl
+      file:
+        - target: script/tim/変色パーティクル.anm
+          hash: >-
+            sha384-hD+JtedCxBx7W2BAlZ1dbN4Mxq/e5pozGR+oUYIc6WA6n+CRTAXRXPo0vCmQtbxV
+        - target: script/tim/放射分布.anm
+          hash: >-
+            sha384-4+5IPWi388F+peRXof5IPT3srWOF49RFy+pwScNxMvTrIRcNLGakVCCcp1roC97D

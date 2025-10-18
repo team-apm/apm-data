@@ -1,0 +1,23 @@
+id: tim/glpast
+name: グループ補助
+overview: グループ制御を補助するスクリプト
+description: |-
+  グループ制御に追加することで、グループ制御を補助します。
+  現在は本体に追加された「基本効果」エフェクトで同じことができます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15454862
+downloadURLs:
+  - https://tim3.web.fc2.com/script/GlpAst.zip
+  - https://tim3.web.fc2.com/sidx.htm#GlpAst
+latestVersion: 2011/08/29
+nicommons: sm15454862
+files:
+  - filename: script/tim/@グループ補助.anm
+releases:
+  - version: 2011/08/29
+    integrity:
+      archive: sha384-favXKvNDqN0e0iMM5cKjQx6X4WfZm60NqC1CbUo/3SSbw8xXi3Jsqz/Rd7uYg+Yp
+      file:
+        - target: script/tim/@グループ補助.anm
+          hash: >-
+            sha384-c4pSYnRblQ+vbm34yDZfzQhGr7uY6DWZIUtxJg2wgGKTQin8Cgga80q3YV9QuiQ9

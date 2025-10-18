@@ -1,0 +1,28 @@
+id: oov/bridge
+name: bridge.dll
+overview: Luaから外部プログラムを使った処理をしやすくする
+description: >-
+  拡張編集で Lua から外部プログラムを使って処理をしやすくするためのプラグインです。外部プログラムは stdin / stdout
+  を使って通信するものを作成する必要があります。
+developer: oov
+pageURL: https://github.com/oov/aviutl_bridge
+downloadURLs:
+  - https://github.com/oov/aviutl_bridge/releases/latest
+latestVersion: v0.14.0
+files:
+  - filename: bridge.dll
+releases:
+  - version: v0.14.0
+    integrity:
+      archive: sha384-1m4f3/cUkN2QaUjDhrgeajaA/Q1ucT/kS2EyZkXPNrystRr4ndCqmlRgrfvG+Mnd
+      file:
+        - target: bridge.dll
+          hash: >-
+            sha384-/C2QYLXsqWYpGSufI78N+dAwtOqjUsA79VL5gWQGtcBQFopiWBPjF97gLHqWisp3
+  - version: v0.13
+    integrity:
+      archive: sha384-ctbtwlj/LWdgUPTebvTPXw27GSlf1av1VgTIcQ0jdKWq0xil2B8JxGDk0JYMz4Ak
+      file:
+        - target: bridge.dll
+          hash: >-
+            sha384-sroOD6MUty/pSAsv66c9Q8iIH0CFr2uHaD3djL18AhsWvtOfjI1fZxDcKPQap6Ph

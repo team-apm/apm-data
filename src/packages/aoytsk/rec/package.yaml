@@ -1,0 +1,11 @@
+id: aoytsk/rec
+name: 簡易録音
+overview: Aviutlで録音をするプラグイン
+description: 簡易録音はAviutlで録音をするプラグインです。プレビューを再生しながら録音したり、拡張編集のタイムラインに自動で追加することができます。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1677824.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1677824.html
+latestVersion: Ver 0.2
+files:
+  - filename: plugins/rec.auf

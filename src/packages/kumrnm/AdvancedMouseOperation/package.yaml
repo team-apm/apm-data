@@ -1,0 +1,21 @@
+id: kumrnm/AdvancedMouseOperation
+name: マウスオペレーション改
+overview: AviUtl拡張編集メインウィンドウ上での編集操作を強化するプラグイン
+description: メインウィンドウ上での編集操作としてマウスコマンドを追加
+developer: 蝙蝠の目
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/kumrnm/aviutl-advanced-mouse-operation#readme
+downloadURLs:
+  - https://github.com/kumrnm/aviutl-advanced-mouse-operation/releases/latest
+latestVersion: v1.0.0
+files:
+  - filename: plugins/AdvancedMouseOperation.auf
+releases:
+  - version: v1.0.0
+    integrity:
+      archive: sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d
+      file:
+        - target: plugins/AdvancedMouseOperation.auf
+          hash: >-
+            sha384-Ef9jJjYNpuY5Jkz6SoeOjz6QCthuNd/R82pY+7wEi3czpHm7g4ut3uTgH7TueR1d

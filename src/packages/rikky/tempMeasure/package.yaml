@@ -1,0 +1,22 @@
+id: rikky/tempMeasure
+name: 手動テンポ計測(メトロノーム)
+overview: BPMを手動で計測するプラグイン
+description: リズムよくクリックして、BPMを計測できるプラグイン。ついでにメトロノームにもなります。
+developer: rikky
+pageURL: https://www.nicovideo.jp/watch/sm32113857
+downloadURLs:
+  - https://hazumurhythm.com/a/Ow8/
+latestVersion: v0.1
+nicommons: sm32113857
+files:
+  - filename: pthreadGC2.dll
+    archivePath: TempMeasure_alpha
+  - filename: temp_measure.auf
+    archivePath: TempMeasure_alpha
+releases:
+  - version: v0.1
+    integrity:
+      file:
+        - target: temp_measure.auf
+          hash: >-
+            sha384-kKS3HFEnqivQx3TVpjVF2k/RaAwokPlx/BTf0xu2SsYZ+NW267+ls+6XIgvfc5dj

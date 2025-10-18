@@ -1,0 +1,26 @@
+id: tim/split
+name: スプリット
+overview: 画面をスプリットするスクリプト
+description: 画像に切れ目を入れて穴を広げる効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17935960
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Split.zip
+  - https://tim3.web.fc2.com/sidx.htm#Split
+latestVersion: 2012/05/27
+nicommons: sm17935960
+files:
+  - filename: script/tim/split1.txt
+    archivePath: 公開用
+  - filename: script/tim/split2.txt
+    archivePath: 公開用
+  - filename: script/tim/@スプリット.anm
+    archivePath: 公開用
+releases:
+  - version: 2012/05/27
+    integrity:
+      archive: sha384-9h1P7PkEJ1DvigkF8jTW6uuqfpYrDpaE5DYViF99RahqlUDhClJt10P+8ymPwjV4
+      file:
+        - target: script/tim/@スプリット.anm
+          hash: >-
+            sha384-MEjqCCk5/QT8fK3Z591SAeIxMxCTbVAb6i/dxaeyU0ZWhZONbUBM8baPYpTuiraI

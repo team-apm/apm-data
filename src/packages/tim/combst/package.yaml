@@ -1,0 +1,29 @@
+id: tim/combst
+name: 燃焼
+overview: 燃えているような効果のスクリプト
+description: >-
+  画像が燃えていくようなエフェクトです。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20042712
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Combst2.zip
+  - https://tim3.web.fc2.com/sidx.htm#Combst
+latestVersion: V2
+nicommons: sm20042712
+files:
+  - filename: script/tim/燃焼T.anm
+    archivePath: Combst2
+  - filename: script/tim/T_burning_Module.dll
+    archivePath: Combst2
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-1gqMh3PYknTAEIH/TdRKVylIMg6u32XlghoXOi6l6tulJ6vD/31RMR/+PGNZpnIp
+      file:
+        - target: script/tim/燃焼T.anm
+          hash: >-
+            sha384-oO9N+TDntXpCtpzLAhZH7FVU5BpcCv/kOMMaTOSXOdhyfhES9IxI5bfNt81zoaLZ
+        - target: script/tim/T_burning_Module.dll
+          hash: >-
+            sha384-mWFEaYxJXe6C3hiP5zD4rK2EjEA34IUaQe26OGzDF8mZbkmyRvV+WRDHQCuhTjmL

@@ -1,0 +1,21 @@
+id: tim/roughe
+name: ラフエッジ
+overview: 周囲をギザギザにするスクリプト
+description: 境界を侵食するような効果を与えます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20763137
+downloadURLs:
+  - https://tim3.web.fc2.com/script/RoughE.zip
+  - https://tim3.web.fc2.com/sidx.htm#RoughE
+latestVersion: 2013/05/03
+nicommons: sm20763137
+files:
+  - filename: script/tim/ラフエッジ.anm
+releases:
+  - version: 2013/05/03
+    integrity:
+      archive: sha384-cpS1BB2HZGvdJX018IszD6UZer9g0JmMmNb9LFW6HiT7uxBgTi5IVyBb4V4v0G+S
+      file:
+        - target: script/tim/ラフエッジ.anm
+          hash: >-
+            sha384-HavEk02+Y7dvulbZeT4FwlC+AjO8A7PqTbBtQucUpRSF5z9k0/rKmNRHVpMvrYd6

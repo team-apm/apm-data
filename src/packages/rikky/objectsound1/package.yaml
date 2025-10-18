@@ -1,0 +1,22 @@
+id: rikky/objectsound1
+name: オブジェクトサウンド(rm 1)
+overview: オブジェクトやスクリプト制御で音声を追加するためのプラグイン
+description: オブジェクトやスクリプト制御で音声を追加するためのプラグインです。
+developer: rikky
+dependencies:
+  - rikky/rikkyModuleMemory
+pageURL: https://www.nicovideo.jp/watch/sm34781714
+downloadURLs:
+  - https://hazumurhythm.com/a/0bS/
+latestVersion: '1.1'
+nicommons: sm34781714
+files:
+  - filename: plugins/objectsound.auf
+    archivePath: オブジェクトサウンドv1,2/aviutl1.00用
+releases:
+  - version: '1.1'
+    integrity:
+      file:
+        - target: plugins/objectsound.auf
+          hash: >-
+            sha384-eq3wqyyVpH8aVW9k/ES4fq4BeHX42UhETX2VhNnbP/yqqViVJ00dgSu7vy+S+UIc

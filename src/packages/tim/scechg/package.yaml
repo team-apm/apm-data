@@ -1,0 +1,21 @@
+id: tim/scechg
+name: シーンチェンジセット
+overview: シーンチェンジの詰め合わせ
+description: シーンチェンジの詰め合わせです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19788901
+downloadURLs:
+  - https://tim3.web.fc2.com/script/SceChg.zip
+  - https://tim3.web.fc2.com/sidx.htm#SceChg
+latestVersion: 2013/01/09
+nicommons: sm19788901
+files:
+  - filename: script/tim/@シーンチェンジセットT.scn
+releases:
+  - version: 2013/01/09
+    integrity:
+      archive: sha384-Ye8vOZnDl43DhlrUQOKCNYmKT3CIRoWp6o7I1bJn/Z1twBdXYk0Xe5lWph7xsq1b
+      file:
+        - target: script/tim/@シーンチェンジセットT.scn
+          hash: >-
+            sha384-w+etmc36YiqImdplsG1ibd8Rz96z3k4L6sutTO+Rmpt91T1ocALwCUZPGWFmPSA5

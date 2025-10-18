@@ -1,0 +1,21 @@
+id: tim/esyrpt
+name: 簡易リピーター
+overview: 簡易的なリピーター
+description: 画像を繰り返し配置しますが、画像ループと比較して自由度が高いです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19322190
+downloadURLs:
+  - https://tim3.web.fc2.com/script/EsyRpt.zip
+  - https://tim3.web.fc2.com/sidx.htm#EsyRpt
+latestVersion: V2
+nicommons: sm19322190
+files:
+  - filename: script/tim/@簡易リピーター.anm
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-VCsk5jvKfl4V1vbhmVWKKvbPHvyyE6sGPTv6BrIQjtV6DTXrnVSPpVfks4t9WoRR
+      file:
+        - target: script/tim/@簡易リピーター.anm
+          hash: >-
+            sha384-5+vKDCOZKN8Y/nbx/m5AZ9qDvRXtr4ZZ28Myw+rpZMhVP9EAo6lZTwCQjMEwxDe0

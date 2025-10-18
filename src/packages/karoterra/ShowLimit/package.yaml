@@ -1,0 +1,56 @@
+id: karoterra/ShowLimit
+name: 上限確認
+overview: スクリプト名等のバッファの使用率を確認する
+description: >-
+  AviUtl 拡張編集内部に存在するスクリプト名等のバッファの使用率を確認するプラグインです。
+  これにより、あとどれくらいスクリプトを追加できるか確認できます。
+developer: karoterra
+pageURL: https://github.com/karoterra/aviutl_ShowLimit
+downloadURLs:
+  - https://github.com/karoterra/aviutl_ShowLimit/releases/latest
+latestVersion: v0.5.1
+files:
+  - filename: plugins/ShowLimit.auf
+releases:
+  - version: v0.5.1
+    integrity:
+      archive: sha384-3Kf8Fewiuy2SE2rF37MBJpfiyKLEuK5DUnZ8g+mG/yeNjGM9P1egGN9EROYLFo3q
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-k9gw+V6e21bmH+2WEzo0cqKm6ttsA6hKiNgT86ubBFtway1txNIS+c62dxFbKyDl
+  - version: v0.4.0
+    integrity:
+      archive: sha384-tpieaGZ/9yacfspLjMS6/IvwMYwwvKH/jRvbM/zWJ78rX4lwZKwHNrLAP9zhpMSa
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-+2Wgwi70ELIGQ4wr9OKSfiu7zF11Jp+v4SPNdOGsTGuN+L0oTS1Qa8zh223qqcWt
+  - version: v0.3.0
+    integrity:
+      archive: sha384-uWSiBjaKWgZ5kqsnoYtu4L6OFRtJ35PRG6Y/gs0D/5YQXBynbkWWqqJO6PcaY/p+
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-k9iIuaAAm9J6y3jG/u2whN8pP5J5wBJrXHiAToviSU8o4zBpBHTAlePtrsaVkYX8
+  - version: v0.2.1
+    integrity:
+      archive: sha384-XZrP9sNNBgzC2SWfisuCB5uLsTuSLxVcfZc0vOJ+MeFQ0iVVoMTah+cBbuv5+V2l
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-4luJCqrt2eJhbNtcJF/1jDLwP8nehb+ztAuSIO1f4JHxgEnD6AIPjqnyEgs26cQP
+  - version: v0.2.0
+    integrity:
+      archive: sha384-leaAx7/D9ewe2vqE3dwC9ZyxwKc2J7jr7WK9wcWdA9LOHN0i6n6W96BHuQWdb7R3
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-yHabypMNaAmY+nS4Jw/+t0D9xluCPOodXrFcBVOOA5otytMEz9n5TejcrBrQFSJr
+  - version: v0.1.0
+    integrity:
+      archive: sha384-fcerL9dZNDObOM+U1IRXOY+cUOijqbOxIl37nUhwLqLAK+yW2NhbY7pFhMxhdrx8
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-BAeuliq8jhmSJK3sMc+NzTeZhyyo+moZkl+06N1AiXGOO5l8IHD+gDbkw2RC3ums

@@ -1,0 +1,45 @@
+id: SEED264/radialwipe
+name: RadialWipe_s
+overview: 扇状にクリッピング
+description: >-
+  扇状にクリッピングを行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022
+  x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】
+developer: 星野なたね
+pageURL: https://twitter.com/SEED264/status/1094665960915488768
+downloadURLs:
+  - https://github.com/SEED264/RadialWipe_s/releases/latest
+latestVersion: v1.1
+files:
+  - filename: script/SEED264/RadialBlind_s.anm
+    archivePath: RadialWipe_s
+  - filename: script/SEED264/RadialWipe_s.dll
+    archivePath: RadialWipe_s
+  - filename: script/SEED264/RadialWipe_s.anm
+    archivePath: RadialWipe_s
+releases:
+  - version: v1.1
+    integrity:
+      archive: sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8
+      file:
+        - target: script/SEED264/RadialBlind_s.anm
+          hash: >-
+            sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB
+        - target: script/SEED264/RadialWipe_s.dll
+          hash: >-
+            sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1
+        - target: script/SEED264/RadialWipe_s.anm
+          hash: >-
+            sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i
+  - version: '1.1'
+    integrity:
+      archive: sha384-oHb6mzT3zSE1hIPz76BrQ72X6DqNBYWJYdHhGKEFGV1wRGMgA0X7mPSAcp6WNLD8
+      file:
+        - target: script/SEED264/RadialBlind_s.anm
+          hash: >-
+            sha384-E4Z4COAx0RsOAMTL1ptbaFxen7PHSazG09r/6wk1zukuWy7gRWqXey47nXBaAWCB
+        - target: script/SEED264/RadialWipe_s.dll
+          hash: >-
+            sha384-O4+ffBa8bBMUun8ArdrfiY5n7ClVsqBMH06Zw0bBClZgU0F4t8USUl0yogfjQAa1
+        - target: script/SEED264/RadialWipe_s.anm
+          hash: >-
+            sha384-LfDVsTsrKbUBJYfYs6bUS2xBXX1tWsxGiHD+kMuFzJBV977URErbjfMPj+WOW/+i

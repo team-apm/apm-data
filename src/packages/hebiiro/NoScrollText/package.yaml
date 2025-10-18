@@ -1,0 +1,22 @@
+id: hebiiro/NoScrollText
+name: アイテム名常時表示
+overview: タイムラインのアイテム名を常に表示する
+description: タイムラインをスクロールしてもアイテム名が見切れないようになります。「アイテム内音声波形」と同時に使用できません。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-NoScrollText#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-NoScrollText/releases/latest
+latestVersion: 1.0.0
+files:
+  - filename: plugins/NoScrollText.auf
+releases:
+  - version: 1.0.0
+    integrity:
+      archive: sha384-zV5eiglC/ffGP2ruyh0DnoFh1PO4Y1RkqAdgKO0701ROkKkIC9hQnIGeTiBt/jCf
+      file:
+        - target: plugins/NoScrollText.auf
+          hash: >-
+            sha384-83xWutRX5sFhowxJDQzEs9MNGhwWRyueA9tfgDCFaaQlWJ1WHBhuwKAiKFLtCiY3

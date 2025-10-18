@@ -1,0 +1,30 @@
+id: karoterra/aviutlWaveformPreview
+name: aviutl_WaveformPreview
+overview: 編集中の音声波形を確認する
+description: >-
+  AviUtl で編集中の音声波形を確認するためのプラグインです。AviUtl
+  の「設定→波形プレビュー」の設定メニューから波形プレビュープラグインの画面を表示してください。
+developer: karoterra
+pageURL: https://github.com/karoterra/aviutl_WaveformPreview
+downloadURLs:
+  - https://github.com/karoterra/aviutl_WaveformPreview/releases/latest
+latestVersion: v0.3.1
+nicommons: sm39258128
+files:
+  - filename: plugins/WaveformPreview.auf
+  - filename: plugins/WaveformPreview.exe
+releases:
+  - version: v0.3.1
+    integrity:
+      archive: sha384-OWNthWW2qFCYKRqFhZ2A+O4mEBd2FSkRlk9ClNVmED3cKDjKpOvuTJdNqTkffJjW
+      file:
+        - target: plugins/WaveformPreview.auf
+          hash: >-
+            sha384-w+uCXEBESFko0vTkhA8xqG6HEfqXG8ouvp3ovNrTzkhDJ1ypR6cj4qM/Mw+SXP98
+  - version: v0.3.0
+    integrity:
+      archive: sha384-Tfp/IauRVYxxkFlysy48dzp8cZWpe/oMj6JX5WoR5oDFVdmAEvPLJFYBlj7YAiIz
+      file:
+        - target: plugins/WaveformPreview.auf
+          hash: >-
+            sha384-E3+gILdgkLampjNX6EGxWXQ3+na6dYdO1af667x8tOSEQUxY0J0PVcKbm967zCHT

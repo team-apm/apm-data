@@ -1,0 +1,47 @@
+id: mimaraka/curveeditor
+name: Curve Editor（カーブエディタ）
+overview: 様々なイージングをウィンドウ上で編集
+description: >-
+  様々なイージングをウィンドウ上で編集できるAviUtlプラグイン&スクリプトです。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022
+  x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】
+developer: みまらか
+pageURL: https://github.com/mimaraka/aviutl-plugin-curve_editor#readme
+downloadURLs:
+  - https://github.com/mimaraka/aviutl-plugin-curve_editor/releases/latest
+latestVersion: v1.0.6
+files:
+  - filename: plugins/curve_editor.auf
+    archivePath: curve_editor-v1.0.6
+  - filename: script/@Curve Editor.tra
+    archivePath: curve_editor-v1.0.6
+releases:
+  - version: v1.0.6
+    integrity:
+      archive: sha384-GE5vAcqwYZhI9kBfW2qV8Tl3C7OxaD+tAchdJS1SREfvW/dTD3R5F2lhrUEjTLGj
+      file:
+        - target: plugins/curve_editor.auf
+          hash: >-
+            sha384-okQGl77kdxFmyuaTZ60pA5IitsunD3V2JhXY1LY/q7Ct7w5g3te8pKbxEc9y82Uh
+        - target: script/@Curve Editor.tra
+          hash: >-
+            sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+
+  - version: v1.0.5
+    integrity:
+      archive: sha384-XFZtyb3E6hQz6/fSs7uRXgaODOVPjMHGgxeIs4NHdoP2WGb6ntTm8y4cR6CgB5EH
+      file:
+        - target: plugins/curve_editor.auf
+          hash: >-
+            sha384-dwj5qtg6ANMI6Ozw1tnjMaCCkWfwx5sKKhdBJCwTABKTHCOJTc4hciagqlxWqpOx
+        - target: script/@Curve Editor.tra
+          hash: >-
+            sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+
+  - version: v1.0.4
+    integrity:
+      archive: sha384-pJnAaRoCTmkkcAnF3mL0kFGUq/l96WBb+GC2bicovFj9Y4CSJ3oaI7RkkNYtMnR0
+      file:
+        - target: plugins/curve_editor.auf
+          hash: >-
+            sha384-fVBG3Hastb5jnmZ1hZwY2OwY32eRdLK16M9vhhhWRub4+MmLwkyVnvAZ2vvOJlpI
+        - target: script/@Curve Editor.tra
+          hash: >-
+            sha384-CI3i9TaatLv7c/Kt0FFOWnpggg4G9/VthIeZwQ+zkuAabreIGnPWBQ49vAxgA7S+

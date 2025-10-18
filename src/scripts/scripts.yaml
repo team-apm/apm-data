@@ -1,0 +1,120 @@
+- match:
+    - https://github.com/Aodaruma/Aodaruma-AviUtl-Script/releases*
+  folder: aodaruma
+  developer: Aodaruma
+  dependencies:
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+- match:
+    - https://github.com/Aodaruma/Aodaruma-AviUtl-Script/releases*/3DObject.zip*
+  folder: aodaruma
+  developer: Aodaruma
+  dependencies:
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+    - respectrum93/oldScripts
+- match:
+    - http://auls.client.jp/*
+  folder: auls
+  developer: yu_noimage_
+  dependencies: []
+- match:
+    - http://auls.client.jp/script/auls_zbuffer.zip*
+  folder: auls
+  developer: yu_noimage_
+  dependencies:
+    - ePi/aulsMemref
+- match:
+    - https://drive.google.com/drive/folders/1axN8BDCSGY3w1YaeUgZ4TjlU7MzwRoGI*
+  folder: gometh
+  developer: gometh
+  dependencies:
+    - ePi/LuaJIT
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+- match:
+    - '*麻雀牌スクリプト*.zip*'
+  folder: 麻雀牌
+  developer: gometh
+  dependencies:
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+- match:
+    - https://twitter.com/i/moments/950334056461344768*
+  folder: kaisatsu
+  developer: kaisatsu
+  dependencies: []
+- match:
+    - https://github.com/karoterra/aviutl-scripts*
+  folder: karoterra
+  developer: karoterra
+  dependencies: []
+- match:
+    - http://niconicotetu.web.fc2.com/download_page.html*
+  folder: tetu
+  developer: テツ
+  dependencies: []
+- match:
+    - https://tim3.web.fc2.com/sidx.htm*
+  folder: tim
+  developer: ティム
+  dependencies: []
+- match:
+    - https://tim3.web.fc2.com/script/*BriWipe*.zip
+  redirect: tim/briwipe
+- match:
+    - https://www.dropbox.com/sh/u73uud29hcxlply/AABH9ZhzL1P1kX-bWrL4asdDa*
+  folder: respectrum93
+  developer: Respectrum93
+  dependencies: []
+- match:
+    - '*old_script_etc*.zip*'
+  redirect: respectrum93/oldScripts
+- match:
+    - https://hazumurhythm.com/wev/amazon/?*search=rikky*
+  folder: rikky
+  developer: rikky
+  dependencies:
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+- match:
+    - '*fan_clipping*.zip*'
+  redirect: rikky/fanClipping
+- match:
+    - '*ロール巻取(ページめくり)*.zip*'
+  redirect: rikky/roll
+- match:
+    - '*パーツ分割*.zip*'
+  redirect: rikky/separate1|rikky/separate2
+- match:
+    - '*立体化(R)*.zip*'
+  redirect: rikky/dimensionize1|rikky/dimensionize2
+- match:
+    - https://bowlroll.net/file/3777*
+  redirect: satsuki/satsuki
+- match:
+    - https://www.nicovideo.jp/user/26576669/mylist/37628454*
+  folder: undofish
+  developer: UndoFish
+  dependencies: []
+- match:
+    - https://shummg.work/downloads/*
+  folder: shummg
+  developer: しゅう
+  dependencies:
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+    - shummg/textmodule
+    - ePi/LuaJIT
+- match:
+    - '*@Winアイコン*'
+  folder: shummg
+  developer: しゅう
+  dependencies:
+    - rikky/rikkyModuleMemory|rikky/rikkyModule2
+    - shummg/textmodule
+    - ePi/LuaJIT
+    - shummg/dotdrawer
+- match:
+    - '*easing_tra_2020*.zip*'
+  redirect: UndoFish/easingTra2020
+- match:
+    - https://z9z.sakura.ne.jp/box/aviutl/*
+    - http://takeshima.halfmoon.jp/room/aviutl*
+  folder: usagi
+  developer: カメ/ウサギ
+  dependencies: []

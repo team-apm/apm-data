@@ -1,0 +1,21 @@
+id: tim/polyhed
+name: 正多面体
+overview: 正多面体を作成するスクリプト
+description: 正4、6、8、12、24面体ができるアニメーション効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17765571
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Polyhed.zip
+  - https://tim3.web.fc2.com/sidx.htm#Polyhed
+latestVersion: 2012/05/07
+nicommons: sm17765571
+files:
+  - filename: script/tim/正多面体.anm
+releases:
+  - version: 2012/05/07
+    integrity:
+      archive: sha384-6IJmJqVdUar9VpJYE0o22+1ph2NkCT4WcJGZb3feQaCSiwCvwjhPOJFeGZbL8ou2
+      file:
+        - target: script/tim/正多面体.anm
+          hash: >-
+            sha384-k261DgF+QgfqwQtVq4Xe+idwYVTj2RgJgZ9fPjR7/mVEwsLjGtNMVQgXNEv7yyUO

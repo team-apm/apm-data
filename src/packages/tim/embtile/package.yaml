@@ -1,0 +1,21 @@
+id: tim/embtile
+name: エンボスタイル
+overview: 立体感のあるタイル状にするスクリプト
+description: 立体感のあるタイル状にします。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15248261
+downloadURLs:
+  - https://tim3.web.fc2.com/script/EmbTile.zip
+  - https://tim3.web.fc2.com/sidx.htm#EmbTile
+latestVersion: 2011/08/08
+nicommons: sm15248261
+files:
+  - filename: script/tim/エンボスタイル.anm
+releases:
+  - version: 2011/08/08
+    integrity:
+      archive: sha384-yZ1H3MKbVqeeU8m63VnLes4i0d68Ygxk+xE2tz+0mC3SwkoJ5E14FPUgWO9ETcng
+      file:
+        - target: script/tim/エンボスタイル.anm
+          hash: >-
+            sha384-JivgbuFRGTON5StcwKYKnJTF0BPbLE4uQzCTAcmYuEkVPphTcDIcIjn1wXcpWBc4

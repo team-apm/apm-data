@@ -1,0 +1,29 @@
+id: tim/rbwgra
+name: 虹色グラデーション
+overview: 虹色のグラデーションを作るスクリプト
+description: >-
+  画像に虹色のグラデーションをかけます。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19425542
+downloadURLs:
+  - https://tim3.web.fc2.com/script/RbwGra.zip
+  - https://tim3.web.fc2.com/sidx.htm#RbwGra
+latestVersion: 2012/11/24
+nicommons: sm19425542
+files:
+  - filename: script/tim/虹色グラデーション.anm
+    archivePath: RbwGra
+  - filename: script/tim/T_R_gradation.dll
+    archivePath: RbwGra
+releases:
+  - version: 2012/11/24
+    integrity:
+      archive: sha384-mcJpga5zaSPk/85UpC+oCEJMyGFBO42c3nSOqggd4uXYor/5rpDvCZyNAF0m2Nlz
+      file:
+        - target: script/tim/虹色グラデーション.anm
+          hash: >-
+            sha384-7xA6u7qetCFxM+RVLliyhvfMIAmNedWk6NhU1/E+v79GOLGp7uWdLziPMWAw3ynL
+        - target: script/tim/T_R_gradation.dll
+          hash: >-
+            sha384-4aZ6Rh3Dtaoa4mjtdB5MND8cLLDkFw1+76wiTBobUSdt0mG2DrO/knW0uV4cV044

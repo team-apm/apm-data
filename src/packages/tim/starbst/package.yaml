@@ -1,0 +1,21 @@
+id: tim/starbst
+name: スターバースト
+overview: スターバーストを付与するスクリプト
+description: 画像にスターバースト（暗い所で光が十字に輝く効果）を付与します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19745635
+downloadURLs:
+  - https://tim3.web.fc2.com/script/StarBst.zip
+  - https://tim3.web.fc2.com/sidx.htm#StarBst
+latestVersion: 2013/01/03
+nicommons: sm19745635
+files:
+  - filename: script/tim/スターバースト.anm
+releases:
+  - version: 2013/01/03
+    integrity:
+      archive: sha384-eOBiBYYo1Cnn90l1eFc1/v2dT6jmpFe2F2ZuAPP1aU0fbNNQKW6w+I6gEzFdb+zA
+      file:
+        - target: script/tim/スターバースト.anm
+          hash: >-
+            sha384-r2zDxy5siXqa5Kto6Jjwc3HdYxXzYrI1kZENtpjx1mTB2QHOsRBWnPBe/uEtBtT3

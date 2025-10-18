@@ -1,0 +1,18 @@
+id: aoytsk/extoolbar
+name: 拡張ツールバー
+overview: Aviutlに拡張編集用ツールバーを追加
+description: 拡張ツールバーはAviutlに拡張編集用ツールバーを追加するプラグインです。ツールバーのアイコンは自分で書き換えることもできます。
+developer: aoytsk
+dependencies:
+  - exedit0.92
+pageURL: https://aoytsk.blog.jp/aviutl/422768.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/422768.html
+latestVersion: Ver 0.3.5
+files:
+  - filename: plugins/extoolbar.auf
+  - filename: plugins/extoolbar.ini
+    isUninstallOnly: true
+  - filename: plugins/extoolbar/
+    isDirectory: true
+    isUninstallOnly: true

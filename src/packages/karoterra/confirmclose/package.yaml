@@ -1,0 +1,35 @@
+id: karoterra/confirmclose
+name: 改変版Auls終了確認
+overview: プロジェクトを閉じる前に確認メッセージを表示する
+description: >-
+  拡張編集に未保存のデータがある場合、プロジェクトを閉じる前に確認メッセージを表示します。Auls( http://auls.client.jp/
+  )さんの終了確認プラグインを勝手に改変したものです。
+developer: karoterra
+originalDeveloper: yu_noimage_
+dependencies:
+  - exedit0.92
+pageURL: >-
+  https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D
+downloadURLs:
+  - >-
+    https://scrapbox.io/karoterra/%E6%94%B9%E5%A4%89%E7%89%88Auls%E7%B5%82%E4%BA%86%E7%A2%BA%E8%AA%8D
+latestVersion: v1.2
+files:
+  - filename: auls_confirmclose.auf
+  - filename: plugins/auls_confirmclose.auf
+    isObsolete: true
+releases:
+  - version: v1.2
+    integrity:
+      archive: sha384-xlinFF+FeqB2O6at+csUh/KJGyMoftlLNYpNOpZVkLaMK5udzsQLKrEQkomB64h5
+      file:
+        - target: auls_confirmclose.auf
+          hash: >-
+            sha384-BMVh2RyCX5juitNTKDY4auoYn8M+K21kCDL+lrr36NecCm+s77gqra/MkkPl1yRI
+  - version: v1.1
+    integrity:
+      archive: sha384-gBb6JbNJ8ePaWfSt9MQlj51zaITzq65pKuR+sdWScFyuvsuKUI3nIrNyTk7oMLp+
+      file:
+        - target: auls_confirmclose.auf
+          hash: >-
+            sha384-E1sBtURbjxmn2yWovjcr0R1nQthQxPrgvDLvdxGi4cK9k8LpIVPDmNgEUqrE69WR

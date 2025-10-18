@@ -1,0 +1,22 @@
+id: tim/pour
+name: 注ぎT
+overview: オブジェクトに水を注ぐような効果のスクリプト
+description: オブジェクトに水を注ぐような効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm37665519
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Pour.zip
+  - https://tim3.web.fc2.com/sidx.htm#Pour
+latestVersion: 2020/10/13
+nicommons: sm37665519
+files:
+  - filename: script/tim/注ぎT.anm
+    archivePath: Pour
+releases:
+  - version: 2020/10/13
+    integrity:
+      archive: sha384-wmKWx/8B7++u3mpYa3PXQNdZo2K8KYjVKcykXPc7mNknBfco7DrZeODkxL8Fg+/4
+      file:
+        - target: script/tim/注ぎT.anm
+          hash: >-
+            sha384-7XWlurSz/mNdchcXJ38ShP3BQF0ElW2OUMMj8QIYJeX93MRVD5X+Y6qH11EKVPy4

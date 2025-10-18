@@ -1,0 +1,39 @@
+id: tim/access
+name: 小物(カメラデータコピー等)
+overview: 様々なサポートスクリプトの詰め合わせ
+description: |-
+  いくつかの小物スクリプトの詰め合わせです。
+  （カメラデータコピー、サイズ修正T、けいおんグッズ、ミラーT）
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16943422
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Access.zip
+  - https://tim3.web.fc2.com/sidx.htm#Access
+latestVersion: 2012/02/11
+nicommons: sm16943422
+files:
+  - filename: script/tim/@けいおんグッズ.obj
+    archivePath: Access
+  - filename: script/tim/@サイズ修正T.anm
+    archivePath: Access
+  - filename: script/tim/@カメラデータコピー.cam
+    archivePath: Access
+  - filename: script/tim/ミラーT.anm
+    archivePath: Access
+releases:
+  - version: 2012/02/11
+    integrity:
+      archive: sha384-IJa7aDwZ5qcHi54QE2LnbAYOX4DqAfE9GA50mv+ttMpR+W3oYvDl/CDnhNgVA+du
+      file:
+        - target: script/tim/@けいおんグッズ.obj
+          hash: >-
+            sha384-C0cp+Hhr1J6x4tsxMEzmNIoXRIyI/ObcEdMUkv9D9cydjjw8aXkRtrmxbcxzXuQ6
+        - target: script/tim/@サイズ修正T.anm
+          hash: >-
+            sha384-EXx5D6EXbJolAJTXQlGijaUhXKaLY0CVGVaJq2ttZM4kmbet3Ds+iPu0i5SSh+r5
+        - target: script/tim/@カメラデータコピー.cam
+          hash: >-
+            sha384-STQRizGyzhJC9MspYfuZmcdAGzoPL3x8Y1vxxCdWMqo749EDPPUkFPB3jEzZL+TT
+        - target: script/tim/ミラーT.anm
+          hash: >-
+            sha384-7pObCiNFOrsLiuXlbCkj41XoLr2jhVp1EUkcjXu5gRXj9y7u/UrM0mzgzuYh33C8

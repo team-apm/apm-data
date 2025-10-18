@@ -1,0 +1,15 @@
+id: AviUtlLab/wmvoutvfr
+name: 可変FR出力(WMV出力)
+overview: 30/24fps混在のソースを可変フレームレートで出力
+description: >-
+  30/24fps混在のソースを自動判定して可変フレームレートで出力するプラグインセットです。24fpsで動きが大きなシーンは24fps、それ以外は30fpsで出力されます。逆テレシネプラグインと出力プラグインのセットで動作します。
+developer: AviUtl実験室
+pageURL: >-
+  http://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#m37cd4ca
+downloadURLs:
+  - >-
+    http://videoinfo.tenchi.ne.jp/?%B2%C4%CA%D1%A5%D5%A5%EC%A1%BC%A5%E0%A5%EC%A1%BC%A5%C8%BD%D0%CE%CF%20for%20AviUtl#m37cd4ca
+latestVersion: ver0.5a
+files:
+  - filename: plugins/wmvout_vfr.auo
+    archivePath: wmvout_vfr/

@@ -1,0 +1,21 @@
+id: tim/splmrp
+name: 簡易モーフィング
+overview: モーフィングをするスクリプト
+description: 簡易的なモーフィングと輪郭モーフィングができます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20358620
+downloadURLs:
+  - https://tim3.web.fc2.com/script/SplMrp.zip
+  - https://tim3.web.fc2.com/sidx.htm#SplMrp
+latestVersion: 2013/03/17
+nicommons: sm20358620
+files:
+  - filename: script/tim/@モーフィング.anm
+releases:
+  - version: 2013/03/17
+    integrity:
+      archive: sha384-lsLFYpCPO9d25Qrt4MmhARF+JI/WNDAohwuSPjO6qXAWewcyFUq+xloOZQovGE2k
+      file:
+        - target: script/tim/@モーフィング.anm
+          hash: >-
+            sha384-Qbe3WV19Qz2OdXUAff9oZtjFMfzkTytvKCaxKDU5NSkkW3B4r9l9fOBgMH2X2mPT

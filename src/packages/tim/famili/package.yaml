@@ -1,0 +1,29 @@
+id: tim/famili
+name: カメレオン効果
+overview: 画像を背景に馴染ませるスクリプト
+description: >-
+  画像を背景に馴染むように色調を調整します。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm34225787
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Famili.zip
+  - https://tim3.web.fc2.com/sidx.htm#Famili
+latestVersion: 2020/07/19
+nicommons: sm34225787
+files:
+  - filename: script/tim/T_Familiar_Module.dll
+    archivePath: Famili
+  - filename: script/tim/@カメレオン効果.anm
+    archivePath: Famili
+releases:
+  - version: 2020/07/19
+    integrity:
+      archive: sha384-IK9cOYJDekvENBYxdEi/vKQw4y77SVNxxO/Gnj8UswboPUBK+ueMcYcVLMoKnHJl
+      file:
+        - target: script/tim/T_Familiar_Module.dll
+          hash: >-
+            sha384-khH/WzLAIiq4OYoIznBzdfS1Amdd3Um92JBu8cO6ztJUEKHZIyQkDMacuxXLJphZ
+        - target: script/tim/@カメレオン効果.anm
+          hash: >-
+            sha384-NeVLRPEPIdN/07gZQpCBfgVaTK/RV5ltEMt5AoWCtkM6RA2yiYOwny2jCNcgMwAY

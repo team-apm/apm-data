@@ -1,0 +1,22 @@
+id: amate/MFVideoReader
+name: MFVideoReader
+overview: Media Foundationを使った入力プラグイン
+description: ファイルの入力、分離、デコードに、Media Foundation を使っており、DXVA2(GPU)を利用した高速なデコードが可能です
+developer: amate
+pageURL: https://github.com/amate/MFVideoReader
+downloadURLs:
+  - https://github.com/amate/MFVideoReader/releases/latest
+latestVersion: v1.0
+files:
+  - filename: plugins/MFVideoReader.exe
+    archivePath: MFVideoReader/
+  - filename: plugins/MFVideoReaderPlugin.aui
+    archivePath: MFVideoReader/
+releases:
+  - version: v1.0
+    integrity:
+      archive: sha384-0tqAjYTNhvoQqi3aMqJtqzeLV+3QunCdcxbVIVyWpSSfeHnPjbNnSqMLoV/fSSEQ
+      file:
+        - target: plugins/MFVideoReaderPlugin.aui
+          hash: >-
+            sha384-yv+DMCLzY7ZuLqY16MqIniq5M+f/LXJC6JSkQqmmnbKhMJV75nvqFrr3A6DGMGFr

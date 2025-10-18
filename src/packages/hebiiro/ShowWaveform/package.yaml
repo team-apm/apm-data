@@ -1,0 +1,105 @@
+id: hebiiro/ShowWaveform
+name: アイテム内音声波形
+overview: 拡張編集ウインドウに音声波形を表示する
+description: 拡張編集ウィンドウの音声アイテム内に音声波形を表示します。「アイテム名常時表示」と同時に使用できません。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+  - >-
+    MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest
+latestVersion: 7.3.0
+files:
+  - filename: plugins/ShowWaveform.auf
+  - filename: plugins/ShowWaveform.ini
+    isUninstallOnly: true
+  - filename: plugins/ShowWaveform
+    isDirectory: true
+releases:
+  - version: 7.3.0
+    integrity:
+      archive: sha384-qBe/0+t9mUnu0kaZnmM63nTAEO1v48ah9NsM2664ZrPCCNYbzLT3PG36RsB871Qv
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-kZEp6D9fMnRts21e3J9j9B9eyRShohhAqFkyKG0ZZUf1TQn5pIM7j1ZjAT1qpmYu
+  - version: 7.2.0
+    integrity:
+      archive: sha384-SaV6IMJxgRxS5qdOL5yoHh1OhgTozPSXDN7RIuUP6qyiL6smXSDw0/b6XY9jVBhQ
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-NK29FOsDYpOkS5ZCa9dk8nba/Kx/8WAmxEyiee+00/rSBLL1TAR6MMeZAATzlv9/
+  - version: 7.1.0
+    integrity:
+      archive: sha384-KZ8L1FVz7ArBJ5tALeCfwwNCMrqwZccZb/YBX+JxRRsrNLa8Xhdd8j4WBd4v/zCG
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-zVCEc/2KSrXYdBLI6pSbX15eh9M3wtpLpdep9cNeMEMvnyxFTIiQG86/PQ0TkNp6
+  - version: 7.0.0
+    integrity:
+      archive: sha384-P9YrO9xpns6NF2CPY5uPlpNwZWzYPA7uv6Z94mPK2a7BA/ypvBAbQcuYpEaqHiTV
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-bTwomt4GlF5uEAEen819gANUX6GMOzgTjfiT9nXqMkvvPSpPKvx3v0f9BfBGylh0
+  - version: 6.4.1
+    integrity:
+      archive: sha384-UF4pUZNu0NWX/CjnaBayHyHDOP+be/toOnM4mr1cwJ5Y3fNmMcaD0GH+3pyLWAhq
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-8octu8LmUwqididpqZWpLcQOTZEh+OkXc6JtX3r7JuQy5kxRx1S51o+g0pPPAUFZ
+  - version: 6.4.0
+    integrity:
+      archive: sha384-4uFrYUYgV/dpY9qazbmbAoo7sOTkGQK8f1FXa9FY14gcdEgktChJZdskDVBQoo7B
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-5UkCFZRtHN7Gmvbyfpki1P5ZhDjq/Fk/POX8n6TwePDVxtNpBrCWoW4tf9EUOJWb
+  - version: 2.3.0
+    integrity:
+      archive: sha384-M9jcnNKLy6/49led5TkiRsLGSIKtb8MijTqED6LWT5A1PATOaaZP/KfSzTXlXIPa
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-uEzIvRD9KKoWwUHkm3x+p1G19WddvY2VjDRN0F7EHFiZIaGBkZQXoEx+9+yvRWma
+  - version: 2.2.0
+    integrity:
+      archive: sha384-pl2KK1b7s+EA5NJnrneemFBBkT+C3BpjmQI6DwxRg5JWWOdZFpKPPdoj0iC7v0xr
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-yfX613MNEGP8R3gW91mdUO3nnJy4tp6QynOSAtDFpRDwj9+aBiw1CSa7Ih0Ovqdv
+  - version: 2.1.0
+    integrity:
+      archive: sha384-eU1+6fvIadJ2GD7n7TFZaWdRFDkzMwfzCJ2A3+TC1t5/kBE5jwxikJanvFKdrRbp
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-6eh8NrzZzmGcZTgQiPJzqVY1AtJ5ppmU9W0H2CnRZLGyvaWrGOfrkkJIKTWmJfVH
+  - version: 2.0.0
+    integrity:
+      archive: sha384-lqqTqRZoZCcgjiMQKFNwE03kDH+jbiY2mNX7zGs365KbstssoIMmpeGhUjcvsQoJ
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-euxIP3xaVSWkiL2ujV55yFDHChW7LjH8wYxHQzL0UEYyVLoxX02E821PdSM7cD3L
+  - version: 1.0.1
+    integrity:
+      archive: sha384-suQX2aJdmVCoWhoFIaNG0P8+C1uwGuW1z3R4I9yQRMNWT5d0PzyJcbCiiveL/zmH
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-GOSiwfpxgtO2EgvaevFJXNKxQJhefjLmiOP5SEeSD3twK039uRuS3dY1IXeHtxJl
+  - version: 1.0.0
+    integrity:
+      archive: sha384-RubAM8HLXEgC9l7GWIDXAzCU4SauEFWSZzYVO6TMw+IWTvtESVBFmHRsdcVakDFP
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-gH1I7KSHrRVhyYGzANetaWDGbl+v54qqMx2HX8kBIMNqxooef8VcgcIi0swj0GJX

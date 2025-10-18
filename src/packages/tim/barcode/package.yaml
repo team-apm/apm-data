@@ -1,0 +1,21 @@
+id: tim/barcode
+name: バーコードT
+overview: バーコードを作成するスクリプト
+description: CODE128のバーコードを作成します。入れた情報はリーダーで読み込めます。
+developer: ティム
+pageURL: https://timnoheya.fc2.net/blog-entry-10.html
+downloadURLs:
+  - https://tim3.web.fc2.com/script/BarCode.zip
+  - https://tim3.web.fc2.com/sidx.htm#BarCode
+latestVersion: 2020/02/08
+files:
+  - filename: script/tim/バーコードT.obj
+    archivePath: BarCode
+releases:
+  - version: 2020/02/08
+    integrity:
+      archive: sha384-HGTdLfgkvBr/xNMT8cjIESpOGeCl+81HLnyNMWgC+tLJjpMNaH6ey/rkKK1mZAQn
+      file:
+        - target: script/tim/バーコードT.obj
+          hash: >-
+            sha384-Z2bc27to8F3H1u97gUj5tOycVSNz3t+B7dCeEXLeBWbZe+FBb35oWTsRDjtzkj2e

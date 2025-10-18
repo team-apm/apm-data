@@ -1,0 +1,27 @@
+id: tim/polcgra
+name: 多色グラデーション
+overview: 複数の色のグラデーションを適用するスクリプト
+description: 平面内に色の中心点を複数セットしてグラデーションを表現します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15604220
+downloadURLs:
+  - https://tim3.web.fc2.com/script/PolCGra.zip
+  - https://tim3.web.fc2.com/sidx.htm#PolCGra
+latestVersion: 2011/09/14
+nicommons: sm15604220
+files:
+  - filename: script/tim/@多色グラデーション.anm
+    archivePath: PolCGra
+  - filename: script/tim/４色グラデーション.anm
+    archivePath: PolCGra
+releases:
+  - version: 2011/09/14
+    integrity:
+      archive: sha384-9Gj9GYLPe5TLPejbAAxKZK2xuWgV9LYGxRWWsiRgM3QIWBpBvvemk+T+5rmMkNeQ
+      file:
+        - target: script/tim/@多色グラデーション.anm
+          hash: >-
+            sha384-d/IQ4WnzlrBekiMTQknI8uL7cd9s81qmRp8hwKPNubVUlJqiO089j5DAcLobUvaA
+        - target: script/tim/４色グラデーション.anm
+          hash: >-
+            sha384-fLpNABYlJEEckPZPFRknelf6cCGvGn5KxfoYkHwk1Iko0XFpjM6uwGcUSV9kBbNT

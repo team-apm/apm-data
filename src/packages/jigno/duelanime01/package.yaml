@@ -1,0 +1,19 @@
+id: jigno/duelanime01
+name: 架空デュエル_スラインドイン・アウト01
+overview: スライドイン・アウトを簡単に付与
+description: スライドイン・アウトのアニメーション効果をセットで簡単につけることができます。カードゲームを扱う動画に適しています。
+developer: jigno
+pageURL: http://onomirukust.blog.fc2.com/blog-entry-221.html
+downloadURLs:
+  - https://www.axfc.net/u/4022952
+latestVersion: 2020/06/03
+files:
+  - filename: script/jigno/架空デュエル_01.anm
+releases:
+  - version: 2020/06/03
+    integrity:
+      archive: sha384-GpIUGjXjm0ItLiq84j7aBKs7yRygI0Yovky0NnHq+EvjrZ6YMUIdr9DSAd5IQY3U
+      file:
+        - target: script/jigno/架空デュエル_01.anm
+          hash: >-
+            sha384-GpIUGjXjm0ItLiq84j7aBKs7yRygI0Yovky0NnHq+EvjrZ6YMUIdr9DSAd5IQY3U

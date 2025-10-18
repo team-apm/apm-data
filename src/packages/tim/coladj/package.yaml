@@ -1,0 +1,60 @@
+id: tim/coladj
+name: 色調調整セット
+overview: 画像にかける様々なエフェクト
+description: >-
+  色調調整系のスクリプトセットです。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm35722623
+downloadURLs:
+  - https://tim3.web.fc2.com/script/ColAdj6.zip
+  - https://tim3.web.fc2.com/sidx.htm#ColAdj
+latestVersion: V6
+nicommons: sm35722623
+files:
+  - filename: script/tim/T_Color_Module.dll
+    archivePath: ColAdj6
+  - filename: script/tim/@T_Color_Module.anm
+    archivePath: ColAdj6
+  - filename: script/tim/簡易トーンカーブ.obj
+    archivePath: ColAdj6
+  - filename: script/tim/簡易ヒストグラム.obj
+    archivePath: ColAdj6
+  - filename: script/tim/色相環.obj
+    archivePath: ColAdj6
+releases:
+  - version: V6
+    integrity:
+      archive: sha384-tJuVS1keQg1RMMA7EgOBvOgeeIsbHjfEYt7Pq8v7TdS34hp71n/9d82BjktxQEje
+      file:
+        - target: script/tim/T_Color_Module.dll
+          hash: >-
+            sha384-cRMwao0y76op485JAY34gCtAk6xxnt6iy9/p7uB8EUPUV06zUHjAc28LdVDBmwWY
+        - target: script/tim/@T_Color_Module.anm
+          hash: >-
+            sha384-d2sqn3YzzMb/11jzUeHZJBc4Uocv3RtlBrJnp1JrVj0iTkT9mhvJvxrreZf0HVod
+        - target: script/tim/簡易トーンカーブ.obj
+          hash: >-
+            sha384-5bpOsx44daUKPnBPegybM5hCA177zu1kw/CEmv+Q4WzT+UwLkq7zDPeYI8NUmfq4
+        - target: script/tim/簡易ヒストグラム.obj
+          hash: >-
+            sha384-kdvlWTsJx0CvYldfLy8gRFtfP504dWdzYOXNKsWBsnS6p3zO7J8O2qV5MczOIZ8V
+        - target: script/tim/色相環.obj
+          hash: >-
+            sha384-nSj1COGUW7jMySA8oA6qwInBepnIyvlEPQZRjloCqGD1C0Vv5tyMsh0BPoYgQc+d
+  - version: V5
+    integrity:
+      archive: sha384-s/GeG0kHLHNiLsvURtT6K7shGeZhHoHbhHSMZVvMqqYYQPYkTlig19f2Ino+pG6r
+      file:
+        - target: script/tim/T_Color_Module.dll
+          hash: >-
+            sha384-ZlwAz7gUSBc2sh/LuZ6F1Hp5sgNaN2ahp/fkQaaoOE59ZgeOvi2+nR9ovnsw0e9O
+        - target: script/tim/簡易トーンカーブ.obj
+          hash: >-
+            sha384-ZdWudCOy+kLOTD1SxO4Ba5HHWigYKe29fc1DrNKx2IBg/zUIDZlqDa66vbL9ZoWa
+        - target: script/tim/@T_Color_Module.anm
+          hash: >-
+            sha384-MO6wPcor/yh3WXX0YBXNmm/AbTgIHuJIMOM6LULr6xKQjPUSTnZICZRHMY9YCTNv
+        - target: script/tim/色相環.obj
+          hash: >-
+            sha384-2h8yAv6zdaktRVfYCEYO0JkTPYSRZm95fhZv9Zid37r4E/7pyneaNvHmixAllSsX

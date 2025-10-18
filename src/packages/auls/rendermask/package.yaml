@@ -1,0 +1,12 @@
+id: auls/rendermask
+name: 出力マスク
+overview: オブジェクトを配置した範囲の出力をキャンセルする
+description: オブジェクトを配置した範囲の出力をキャンセルします。
+developer: yu_noimage_
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2014/04/16
+files:
+  - filename: plugins/auls_rendermask.auf
+    archivePath: auls_rendermask

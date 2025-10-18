@@ -1,0 +1,19 @@
+id: sets/scrapboxAviUtl
+name: scrapbox/AviUtl 推奨環境
+overview: scrapbox.io/aviutl推奨のAviUtl環境
+description: https://scrapbox.io/aviutl/ にて紹介されている推奨環境です。
+developer: scrapbox.io/aviutl
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+  - MrOjii/LSMASHWorks
+  - amate/InputPipePlugin
+  - aoytsk/easymp4
+  - ePi/patch
+pageURL: https://scrapbox.io/aviutl/セットアップ
+downloadURLs:
+  - https://team-apm.github.io/apm-data/package-sets-description.html
+latestVersion: 2022/06/16
+files:
+  - filename: placeholder.pkgset
+    isObsolete: true

@@ -1,0 +1,34 @@
+id: tim/polcon
+name: 極座標変換＋ぼかしミラー
+overview: AviUtl本体のものとは異なる極座標変換
+description: |-
+  AviUtl本体のものとは異なる極座標変換。
+  「スカイドーム」の背景画像作成にも応用可能です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17154269
+downloadURLs:
+  - https://tim3.web.fc2.com/script/PolCon.zip
+  - https://tim3.web.fc2.com/sidx.htm#PolCon
+latestVersion: 2012/03/04
+nicommons: sm17154269
+files:
+  - filename: script/tim/T_PolarConversion_Module.dll
+    archivePath: 公開Rep
+  - filename: script/tim/極座標変換T.anm
+    archivePath: 公開Rep
+  - filename: script/tim/ぼかしミラー.anm
+    archivePath: 公開Rep
+releases:
+  - version: 2012/03/04
+    integrity:
+      archive: sha384-A9CMNmRE80/oZXeIe/lFiDdfUQIDMl+Dz3gBXOWfSjWR6WnoPmfeWWkKxCrGN1z6
+      file:
+        - target: script/tim/T_PolarConversion_Module.dll
+          hash: >-
+            sha384-tWaKfBta7L4YaJ5IkNDuVWzNaBjbEF4b8tLLiba48QIGsKA4zHNuVvT4AB32J0n4
+        - target: script/tim/極座標変換T.anm
+          hash: >-
+            sha384-i2xsrQ3fnxYnkozsaFCtnXHWCcATFnXJbd5T3NBdg1vnUnFN1db9tg2B0NUXcKyh
+        - target: script/tim/ぼかしミラー.anm
+          hash: >-
+            sha384-16uvBYI3wnnXT4m97jup2A/BsS8/9uLb9gj7vRkZcsWYN2mBRCU5EPRHvwnvLMY6

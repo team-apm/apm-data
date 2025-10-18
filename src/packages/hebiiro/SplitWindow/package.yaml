@@ -1,0 +1,292 @@
+id: hebiiro/SplitWindow
+name: SplitWindow
+overview: AviUtl のウィンドウを再帰分割可能なペインに分割します
+description: AviUtl のウィンドウを再帰分割可能なペインに貼り付けられるようにします。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SplitWindow#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SplitWindow/releases/latest
+latestVersion: 4.6.0
+files:
+  - filename: plugins/SplitWindow.aul
+  - filename: plugins/SplitWindow.xml
+    isUninstallOnly: true
+  - filename: plugins/SplitWindow
+    isDirectory: true
+releases:
+  - version: 4.6.0
+    integrity:
+      archive: sha384-OyMwn5eU0ue+oELCiMsS0AdeD8gPnK3DJp8UIAyRqA+P3KSxvp0VIBCUwNmuxbHW
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-FW8PdaAXlME1T7LG7FbFvue1o0oiZrBXxr5hjTC9OEhosKDRX50wDZUdHC5YzVYP
+  - version: 4.5.0
+    integrity:
+      archive: sha384-PzKCI3y1mx9iWnWqYHqOUK7/+baJZ2OdBgLEvLgmEuXtcZg+ko9G2S1XmNkp/N/g
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-Kw6xRtnUDunfS9POfqXAIpbRNlVP9pWuPdBZ8HBie2ltEbC2/9hykUnO7/NhvBFj
+  - version: 4.4.2
+    integrity:
+      archive: sha384-qmj5lXDFffcqnHEcHQKo1xxrh1ZsFzqfmxkKHW/BfEBJJcLXad604CBKiPjwu27v
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-bdAECaDbaovclBfXMvtj3JPW2/MTxg9SBFVqH7aQ5XSc8dRB1g7rJTHvNzvFIXQv
+  - version: 4.4.1
+    integrity:
+      archive: sha384-KY8cc119S1I5bWIPfNjRfyRjvydAlL1Tw18iD0704++AYtK+CnjXb3CRTKPNJL+l
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-IcdG0w/xQsf6tjNzAbq7O2WnD25ccAfoU8coiKbE4jKAgbGIboA8q4DSTmvY8gIP
+  - version: 4.4.0
+    integrity:
+      archive: sha384-10hah2aUKxdEkz75LcvVPTdUszblSOoV62LxxDIT1TWX/k1qXDypOtHBa+rIx8NV
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-lgZOAhf0vBlVbJgKA2UltehzqjNGvP4PuRpNfO2d2NXPDyNJEi/nodt9ay86oOqG
+  - version: 4.3.3
+    integrity:
+      archive: sha384-aP3AMloYzOaa0YuiaNIME34sHmWRxwm1hMjE4dJgJPlAydO0dpz33k2DQTek2z2K
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-s1N0t7U0+VLWM61Hznok/hKExBZQVPhUWvpFaLfmzhiJZXxue2nuioJsUTcPWHOt
+  - version: 4.3.1
+    integrity:
+      archive: sha384-En/fkHO9XOTfyZiANPHwqN+R7hcqt+kQr0k452MG03/Smj9nQW44R6DG09DWY6WB
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-EJprrfrnBaYzwu2b4svuasbWub0iBAgeKJSXgHTis5gM2hhTUCBII5iQSEOxIKP5
+  - version: 4.2.0
+    integrity:
+      archive: sha384-ET7wzd/VcHSb7vsMBwRNlqfwiyxzNPCALIygxhUdwhbORcyT/RAJa6jtMhfcLBra
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-TwxbD1l1JHaKAzOsfqTzICTc9t5QcAcFazRoSzO76TAZRWOAOxCsdF3xkKY2zdLb
+  - version: 4.1.1
+    integrity:
+      archive: sha384-LSX7Rc5Mn1VfWG4htaR8DDkaU171wW7cOeyh7hW3r2ZiL6f4Iva33bQAJWocwjIf
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-9N/oq/tSuCdgOuTK/0nY7YMXQ0/d2x7tN6PEinF3YhDsQ5F4SYj2Ewd4fO37XAwk
+  - version: 4.1.0
+    integrity:
+      archive: sha384-KYJ7/FevE/VDhypy5aVAb/uQaw2FkB/+TP4M8n4MOYh4C46mhm0+7D6PHlmbr27E
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-+elBAQwg+IjsfXy9H2yO8vJdnHJwNolSyxHzpDVxrTfSMskKhH4MiWD/fekdX76B
+  - version: 4.0.4
+    integrity:
+      archive: sha384-QQ1PGXHn9TeIlVjiTuvH+TBHdYmRwsf9nkDad/BppGZ23jzsylGXCAOzn+l0EGcG
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-gLEhFdnl5zY/O43fu1UilQIt2wZzwgxXtujr22MW9tXrEBFDZoi79n+H4kYuVDsd
+  - version: 4.0.3
+    integrity:
+      archive: sha384-tFw1X3qlXOpcK2FjOnatng/3EQqPm7bxk2cZcFbz1R6zA1v01CnfQSWhOCPa7xIh
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-vfM3+6FGUB7eWr6EGxnixahWs2iOxeoSGNlwJSEd/LIaCgVocGQYE+PS7+R/iYuc
+  - version: 4.0.2
+    integrity:
+      archive: sha384-/g424pizYDa1BNHfMQaCLyySLP0d+hBwuud7mU8SduXLyjWb111K62Y+ahJrnMXP
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-01UZCtknfliDnCbw+jBYHESQag3oAQHqoVzVnCMR9c0V1eltfyf3kSzKPUfvC/Gg
+  - version: 3.4.0
+    integrity:
+      archive: sha384-9QcLfTvVnkCo2dctrtAQEf84jGsUwa7pNcIqMG3CF8uEggaUv4F8hhRe32RjUhW+
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-bjtzWsHigj5G5Bp77N3s1V4r7pyvIkyiRXJ9zK1WbL2sfka9d5SjSjppSSAVMnKl
+  - version: 3.3.0
+    integrity:
+      archive: sha384-N+7jRmGZuRE1nnpdJW/9N8vVF0aMkbEDbjTTc2c4e+7+aW0iq6n/8RNnPziPee8v
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-TJq48wTMnATYM6zMEhYUnrIRRA53Urtuj+wheg/lnMe39pucsRQnPAmwbIp8/z3Y
+  - version: 3.2.3
+    integrity:
+      archive: sha384-buE2spo3RwMGADSiI9sYgxJoxlqrDAoC+6nNn52iVPCCf0zq6LdqUdjSgET6BW7b
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-0CSvEESTK7u4EVHQDT+oqb4Y9ujbp/AVyiCJZ9jMSA/kqfc35rccnIenKnx+6evB
+  - version: 3.2.2
+    integrity:
+      archive: sha384-UFfzOKWhtshaRwywT87QaKWPCX4Q0YTeUX5s+RS+CXY6/Ca2sLsMElUeBYJS8/FE
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-GCwTgftx8UF/iQv1+YOTQV1C//HBmxGIsJ+FLY7fn96m4wt8NPJv9bx4aHUUrmD5
+  - version: 3.2.1
+    integrity:
+      archive: sha384-VWbwGGv/5BLXv3ygjzH8hYuAOqETe1nKL0xeNefL2bTmohq/mrD7uCE3wU307CCa
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-yYyO3meCKnnpFKL1+24qK+JJcfBaLXcrZvAG5PsTW8Ys5XWsjbiIK12bynK+l6fb
+  - version: 3.2.0
+    integrity:
+      archive: sha384-0EqJHijXHxlZzhcr/Kpv9MP2y15NF1XSUuwQj3WWogxh+/3rTJfHV2Y75CEhXjdT
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-LvUvYEBMH5W3C5XKYealDQpl/mjlIt8a6uZ5I8GRbWTj/nOppKv3PqdNEY4cVX3H
+  - version: 3.1.0
+    integrity:
+      archive: sha384-/Y7TxXBILpI0idzJNHHUEj+LFs3fRyKIxlX4DxsB5PCbCsaQ5eUJmZ3PFMuDwtoL
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-IMwE7AQjuyc6OhPlAj7jPbRktkAg7fepguFIv1eBQc5C/oPB2JBWNVpQf7mEzaf4
+  - version: 3.0.5
+    integrity:
+      archive: sha384-uVmUohKKZiyYKa/mD52B9qmugOh43Vspt4yDlQEcxCBMW7kFNbN2ZGQP9Olx2tDY
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-h+VotXWGnTvIWOrIhfU3N8iytn5VW2z8nEV4d3HMjfNrO73IL+5Nv+ZSvI65sNYG
+  - version: 3.0.4
+    integrity:
+      archive: sha384-J7ljR2+/HS0DrXIvLxI0ivQ7L3+P6X1BzLBFSLFCkiW2nZjYdhDcPx63CjKlGiTp
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-a7BaFjM8hHp5crw6VUg9+incWALWrKBFmGKm6Cp9MDx7KnKe3PHbJjYoRjanirof
+  - version: 3.0.2
+    integrity:
+      archive: sha384-KQKBNp1ubNRN/egpCdu+P2Fy8Zb8W5ajduCAtjngaUa2C+T/lbwhETY5ya4uPCxz
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-UT59zZ/U/2Dy7e5MC0Ibc/zEugrww4YFKoAo7XVCh7mmGZUeA9oprkCPiWtjOvaL
+  - version: 3.0.1
+    integrity:
+      archive: sha384-JOSoo1m7ZICpZnct0GjVHh7jbZAog/DEe60DxSLjz5CbHXVkL4eWCY/CzDSp2DqP
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-xCZAEl7h66dGBoP53boZvyIUMwPby1h3FEG8fAIjgBT2q4FPinsY/QoVpmZ0/rL+
+  - version: 3.0.0
+    integrity:
+      archive: sha384-F8p0Pl7gKdF7NL1yIZNGdKz+u+tIJcUP5elksO8h8ovv5dcAFNkH+PkKPOCSuUs5
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-FWMQezlrVEM+Sw3cczyN4BmYR3zlhv4BYex43i+1B1ImNyC4VpltVUXMnztHny+X
+  - version: 2.2.0
+    integrity:
+      archive: sha384-/rjv9x1uaIhu4ad47UOa7NNfGEP+H/aYZlYb+XlLEkVm7n5Tmx8Jd17kCHz9chtz
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-tXVOpjGovf64VdzZ/repp3gQjOz4AsskGUQEDiScAoQMdkW7egZawCyvn4dFppGs
+  - version: 2.1.0
+    integrity:
+      archive: sha384-4BfMX0Y5BKDGh98XH/A/JzRP0IBAZLgKPTAYs0vp0BVYQCzNuTjjAhP+iIiWyI6n
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-krPwwbrQq8KVa1aBtbl12KUVa/EOmU6ddcKjUNC8ChDIUEy94eckg4wT/V8BirKR
+  - version: 2.0.0
+    integrity:
+      archive: sha384-mITQJ9W68MNSBcSey3K3JFopel5phSyfdhORCOMNX+QS/4sKKZBRSYstRNuZsvVT
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-STsLTWQ4RFFFGoRF22kRamI+G6PVrvNmuE161maGjl9lWwJiseN8nyuL4U94v6V4
+  - version: 1.1.0
+    integrity:
+      archive: sha384-BWpUZmTu3eJAgKqc+FmqOE/nY2dvdzyuCmzfDRE0FH5yHY7rGxB9qhswo7mw5eD6
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-BULE8gcKLjB3i+EmYob+KXeU7V+szkl3Npbg3qf4vLHDHZaqQrzjMEnvLthHVDbE
+  - version: 1.0.9
+    integrity:
+      archive: sha384-qkyFtPl0mjCbiC8TjczKAiq6vQH2p7HsVtCHLugEWs/tazVw/xXzSFkyPcC3v47O
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-m4A+Os0YlFyqSbAySsTIl0N7pCW9QstS7m6TyRe5Xr+8s4rx7ckyHeA0mx4hSfea
+  - version: 1.0.8
+    integrity:
+      archive: sha384-NVx/Cyae1qo9J8kaT7Rr/X7+P7Q3Rz7kFANJbWAkXMJQI9bHA34bUxrmA/3FouD/
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-GRYD3xGVi6sTT0MT95FL2fEclTz0G9HOOYaQ88titczGk0Od8YCRpvKEn1fAeVnd
+  - version: 1.0.7
+    integrity:
+      archive: sha384-thLJvBBGsnj4VKwjT1sxR+jadloBLq99mSQI0NGYI9lh7XFo4ncNU7jbipcXeaBz
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-FCU+6oEfF4UVreJvRNV49YL1/XGBdrjwH8d23V4m0nSggewZkJhkgdPiFSYfGvkG
+  - version: 1.0.6
+    integrity:
+      archive: sha384-DvJzuY2Ka9ueZ+hCICuoRwin1T9hDt6XQiObzEzGb6CLPiotz1CZnAgOeNbdAGdi
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-/YQ04EvZbA5/NosvfpwC99ZNsCryli4kJ8VMiGYvcuuES/IpPrHQvWrapYMVkK4+
+  - version: 1.0.5
+    integrity:
+      archive: sha384-VsGlZF7mIfWl28TlHVdgopZSQMrIBZufoW8sVgwiN2QQo0K+Yn1sJmF7cF2xwYz8
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-5SJf293ZBHtJcTpWOcG3uA3rqvDHeeUXRq7Msw6Xq9O3YYT/iqoeaMMbElwgaRka
+  - version: 1.0.4
+    integrity:
+      archive: sha384-amGM8Fn47EkC3DxN8C4y3gkTCdYwVuniujFZ6q2bCUVgOXm+GgATsHFF4ox/Hc93
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-sJjqTMfFJuwDeHGhFadYt8cB2be5mmqTb+jPq4DzqISgJWbBwpqZX4UiGM2Xr7PM
+  - version: 1.0.3
+    integrity:
+      archive: sha384-uMfKvm2gbX9iG/1y+Ml33K2Lfns94q2lIKp5dKnwkkiCbZf0E7ncKoIQY5DJ5sMs
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-F0u3M3eEMTZyqzO5oQF5UhHv6LG7Oc8Q3sChKNo7pdC2mMv3yH5pKnRq/X2wVFKI
+  - version: 1.0.2
+    integrity:
+      archive: sha384-3cViMhlnQETEzSWQDZcgaQAMkF/HRKxE0IqrbAn2X8hkcStlTDjRA0DVtRQtqmR6
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-yeZzabFS/4ts6jtBEwi+CnGvV2F73cuoYrYM6A8Poxrpgd/k8j5gD5nMkrG/Enyj
+  - version: 1.0.1
+    integrity:
+      archive: sha384-Zh4RcM/VcYnobKkikhge4YEvOS86TxKVc1KlQXhHFzPdL5a5jfK42B2kgCUsRW05
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-pX/12AMuur0YVQDCqRdprQZlB0XEVk33ptQUtfXJi8ynV8CZewK4wqSlD7VwCq6S
+  - version: 1.0.0
+    integrity:
+      archive: sha384-sytgUV683q8JFgFBEY+FS6Lp37YQlbQ1pUAfq4H3XGr+VgB5UWCZQi+kah7BIz8k
+      file:
+        - target: plugins/SplitWindow.aul
+          hash: >-
+            sha384-h2YMvsnBqbS08dDHeuXFfds0ahL23BXQ3awDuJHMAYzMH3BjOuXoLRhuGSIsorek

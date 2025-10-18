@@ -1,0 +1,12 @@
+id: auls/outputpng
+name: PNG出力
+overview: 現在フレームの画像をPNG形式で出力
+description: 現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。
+developer: yu_noimage_
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2014/04/06
+files:
+  - filename: plugins/auls_outputpng.auf
+    archivePath: auls_outputpng/

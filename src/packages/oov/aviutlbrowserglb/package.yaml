@@ -1,0 +1,35 @@
+id: oov/aviutlbrowserglb
+name: aviutl_browser_glb
+overview: AviUtlでGLBファイルを読み込めるようにします
+description: AviUtlでGLB形式の3Dモデルを読み込み&操作できるようにします。
+developer: oov
+dependencies:
+  - oov/aviutlBrowser
+pageURL: https://www.nicovideo.jp/watch/sm41075836
+downloadURLs:
+  - https://github.com/oov/aviutl_browser_glb/releases/latest
+latestVersion: v0.0.4
+files:
+  - filename: script/browser/@GLB.anm
+    archivePath: script/browser
+  - filename: script/browser/@GLB.exa
+    archivePath: script/browser
+  - filename: script/browser/@GLB.obj
+    archivePath: script/browser
+  - filename: script/browser/contents/GLB
+    archivePath: script/browser/contents
+    isDirectory: true
+releases:
+  - version: v0.0.4
+    integrity:
+      archive: sha384-U9AeQhX7ly08fbGbyx/s/7sU62vlPTRrMoimQecS6nTeK0ZnfGf8vgMG2tusn7XJ
+      file:
+        - target: script/browser/@GLB.anm
+          hash: >-
+            sha384-TUhNFKv9pDjBlEyTRAuxZxyZUWzCA6Q8qkV9BjgeBap/wIszdEBxvmH/uGp6RTUh
+        - target: script/browser/@GLB.exa
+          hash: >-
+            sha384-Jgw2GTjbucqFCAV79vHnD0JGZVRFabz/9Au75+T8RGxFdi5l79MrIlYRMt34zp0f
+        - target: script/browser/@GLB.obj
+          hash: >-
+            sha384-T3f6gsXJ6hVnvK4rtfyF4IWBRDVcH0CKQDfbzyqyeW/WbYZ6KEhfJmjBYPe9U0FZ

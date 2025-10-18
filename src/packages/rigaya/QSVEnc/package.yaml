@@ -1,0 +1,417 @@
+id: rigaya/QSVEnc
+name: QSVEnc
+overview: Intel Media SDKを使用したエンコード
+description: >-
+  Intel Media
+  SDKを使用してエンコードを行うAviutlの出力プラグインです。QuickSyncVideoによるハードウェア高速エンコードを目指します。
+developer: rigaya
+pageURL: https://github.com/rigaya/QSVEnc#readme
+downloadURLs:
+  - https://github.com/rigaya/QSVEnc/releases/latest
+latestVersion: '7.72'
+files:
+  - filename: plugins/QSVEnc.auo
+    archivePath: plugins
+  - filename: plugins/QSVEnc.ini
+    archivePath: plugins
+  - filename: plugins/QSVEnc.conf
+    archivePath: plugins
+    isUninstallOnly: true
+  - filename: plugins/auo_setup.auf
+    archivePath: plugins
+    isInstallOnly: true
+  - filename: plugins/QSVEnc_stg
+    archivePath: plugins
+    isDirectory: true
+  - filename: exe_files
+    isDirectory: true
+    isInstallOnly: true
+  - filename: exe_files/QSVEncC
+    isDirectory: true
+    isUninstallOnly: true
+releases:
+  - version: '7.72'
+    integrity:
+      archive: sha384-bCnBl7+mV4L0rdeN7X0Zb8Q9bEhCBlLW/7zV5vf8PWamW4xgm/C5C0wiVDHP9ldO
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-/OGjsR8T2OmYStGF09YxNHV4Xxbried6KNAqlVoTbFqs+glLt3LAci6Js73OduGv
+  - version: '7.61'
+    integrity:
+      archive: sha384-mo8WoECNAuLjV8OPRvF/3H8opvU1/YF8RHe/NMWpno5qVmSbVHOqX+OVVcISBQx4
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-8CkMlzGPkvZ7Voexsoh1+LaXtEaw0XoUYnfIyUs0FO5VFiEr2WmcufnuJtfYeimh
+  - version: '7.58'
+    integrity:
+      archive: sha384-Q8ZsQLxvvvP9OhkfnhaqJcaQpB8KbqVS0TWc1jLD1l91FuLw+jj/Gms1AmOcmopT
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-1XMl/zzon2J4Kgg1B9cIMFcb4HRHEXfnNOsZZjEMa9D+MqlyiMQmPTxOwvbKzH03
+  - version: '7.57'
+    integrity:
+      archive: sha384-CThLnhValfhpBJfoZKk8E6uxhFdQ6y0FcS52fHtBJnyY+xG2BTEsh5ABdKrIznHJ
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-OvHiDnppG4KDgaWwitjeU/h56SHefaiRL0p/80iJ74+nLNXHcvqUMRevc1gop1QC
+  - version: '7.54'
+    integrity:
+      archive: sha384-yR7onAkLMoBOkrzzgdeIsWz00lwt2/g1F5Vs0YcojwrPP1kYnZofTacIMLKZ2MBa
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-SEIxhf3wHuIgAtCpfXhq2xSRcH7eLcoRsDHjX+oMNIK9J4tVQ5aAoRBCn0yl9/WX
+  - version: '7.50'
+    integrity:
+      archive: sha384-2Iql8lUiru+HMbvbZh78Zz2QKK+rWP+HvDeSp2irb6taXK3dQljfJr2ekR+AsUG6
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-2BX+Nt07jTP/E6clr8ceJPoXDoWBdvHqGAhKgG7i43VnIktkEd9iI4O2ho2+AO+v
+  - version: '7.49'
+    integrity:
+      archive: sha384-JjPRuH8DlNne7kSrNyyI51y/Hu5rDYLNLORlZpIW2EAFdBEIpD6uP0AoDz2c0dyl
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-yIsbCTVIozNf67KcwlQq7rxqfPVBk1Q3cdMG4RQXXTgyk5+7fobwzykJ7VsCVve/
+  - version: '7.48'
+    integrity:
+      archive: sha384-unYcassJ3u/5M6Jd9EmwCNwohEjHA8G46HZDCaUnPzm+VX7QhqbDz+8uDfW5+b9f
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-/A73wSX2XA/ST3XfLuCpQYZ691OtlQgjEd/jnK2dDYQdmNBLcKTQsl3n0DbQ0VbL
+  - version: '7.46'
+    integrity:
+      archive: sha384-uS5HZzAlAVJdsXy/g3V3x9vzV7i73Zf9Brr6lcoEbep+MiTCr8nSBfFyGQAyPonJ
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-KpBrOWEQhBcWjTZpGZjlPIyTtXoLLPEoqHs9PN8NUdjUJ0YUni/ldWYN6QWpvL0z
+  - version: '7.45'
+    integrity:
+      archive: sha384-JJSsKtrOnRtiUbCF7wUIch0Xb1sIL/srfzHxsbA0BlzIHad0E2p3ft7HVm3RZORX
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-jDizeNjAGmWo/aaQjD9pNx2uTw7COr8hxvGAhK2Azpl2JVYaW600VsZFKi+w5drL
+  - version: '7.44'
+    integrity:
+      archive: sha384-N1rdsKZGKrhZ6YYxClQENqKMQMTpdViihkxUreH1BdiSE5Kc8Xd4GgU9gZw5mqjo
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-q5e4DjwqA36SiNjLjP/hdHysA6zKu1laXZUNcYkZnPanyU7IkfT+rPfyzon2zQ6u
+  - version: '7.43'
+    integrity:
+      archive: sha384-wQ4JmVF0RnH6FSq6gkdcQv/I29fkHRURWB+v0SpRhQM/I0l9eeUzOARJHJPXsjoO
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-GTosqU+Gl/+lfKHewe0bL3tb7z1592FNRFiT8/lSoxX/sDvPcx+vwxD+euN7czyR
+  - version: '7.42'
+    integrity:
+      archive: sha384-rlwEZnzGfC3VkbPCVB5FhOfvfsjEeSInJk5wcsMCRBSd9eYPnVMxfSfs8npQRZ+1
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-pdDrZV1TxH8TGmPYpx5l3ZXyopbXMn/3D4lOBniK7GqD8uIpSXX5Z8tCihF6mb6j
+  - version: '7.41'
+    integrity:
+      archive: sha384-qZJGbvvjJ55gTS7V+1kJ7tNzfo5C2UMeQ5CADhfFDFya/nVkk6fxaLQY1YPRGLbh
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-pU9SZO/cXyF0csV2RJATLYS/Y845ERRi3KSN3DQuZ9EyzxJf93zxbYswPiN1sBve
+  - version: '7.40'
+    integrity:
+      archive: sha384-exiKr4B5B3kxicAVVcf5JtZSfaaxe6pBx4CDFPbA56Tr1Xrp4M3W1QgfYNQwJEa+
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-zvk1Yzkcr2EKqsZIa28BV4/PvX4aojSyXFvVr9uU+c/w+VV2orxjoQKIrjEuinkR
+  - version: '7.39'
+    integrity:
+      archive: sha384-q3Kd5QRGo7Eco/f5FYg6Kg1izva0oJHyanKLuC8rkQcH2Rmu0RfDRAAoBldCd2HW
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-BpY6AWzunat2zB4n+rIUx9gBHqQRVy74XTV+XynX2J26479yDsRo71tztSnuf/dp
+  - version: '7.38'
+    integrity:
+      archive: sha384-Oj3Q4Kh4cMfjuz3RhYXIIYo3sF6Q28Pa3ipyzha86+iAZ93+WoS1PUbDm66sdZYK
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-bR3/szCbPxJgSoJJTXy7VU9klYjeVS6XEIQ3z4p8Mk62k5dL5LOUvUMtJSagVulm
+  - version: '7.37'
+    integrity:
+      archive: sha384-/AryMlxz5OfGo0xNS3Oo4Mp1bwWxGkRSfzkvKSJwrTe6mehBmV7RmaQgq8pXWEpP
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-rLguOQcQELCP07zZ9NHEUiBLoFfZkxocnSi9J1VSiKSKLGCyKfvRbf984pokii48
+  - version: '7.36'
+    integrity:
+      archive: sha384-bueM5bwITEWcdqdHc4egq54d6E7kNFt2AU8D/PtOTbiv2JtagqbqvoHIcHD5Rxtz
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-VKE6yjkodqQzlmZCPYYR+VwdiGYu4HPZzEh0R64UrVjPoO+veOFGMIx06ocvqvrb
+  - version: '7.35'
+    integrity:
+      archive: sha384-RwvzFlebMeVjpIM19VKpaGxbbpnK+UKKr1K7A2iAKQ3C3mCQHCTlFifFR/lqN8L4
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-xliTYpoE6XiqE+GpEfswsIVrzwfFHSQWjNRyFUHXZ0lTTSxEX7Yrapltz2851VaM
+  - version: '7.34'
+    integrity:
+      archive: sha384-oStSp4mDqIxcznfCpYfPdLTAq6tKX8En2FAUO1OoPsSc3rcOB/0YNE7cZpRdTq0i
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-yQxOIE59m4nHfFRll37rBQlilc77TKgCO2Q3wdsSFQy+WCMkvx1Y9e2WvYiva868
+  - version: '7.33'
+    integrity:
+      archive: sha384-Ss+egNyFxlEYEeCROljxSJ4tI3b+Ht+BrRBsKAag85maOehOLuax8JQ+uG2eGJRo
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-bg/PLta701MCvNlwHkTCFK6O0JzbVl/f3f5L/x3wRPZuHOSpoqNSYYC+8x4A7CuV
+  - version: '7.32'
+    integrity:
+      archive: sha384-xByBCajg2jTbPo1LGjIGZ6LLiZsRQ5l5ISftC3OHMwtbdb1BqVy4J1yB4/SWvF43
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-TfIaxHYwiJs/kJoBCLTjxuPd7nHZzMF4agwPSnhcwGPiKvY9mqqNSuIFed1NBxe1
+  - version: '7.31'
+    integrity:
+      archive: sha384-G4mVB0YKXKDHmPAyA7CcpEyQDxvkBiXgH5S4KRMgPyjscXXJkmAynr4RHesp/tzu
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-jd0GFIJ+mPb1taMc0H13akIqSMy5+bpIHCZPKXltilT6VI6g6yT1hch2dUzg6h6o
+  - version: '7.30'
+    integrity:
+      archive: sha384-SxT8F9mRtvNWye2fwaCT60R4yn4qVvg16K2+mesZ7Z+eYc354ue2hdVyhilbyF6S
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-VkcN1410K0EmBJ1WxHxPiXyA5ZLlbiN9iPzgIjarIsIhzyzHOYe7untRlOfAuZKN
+  - version: '7.29'
+    integrity:
+      archive: sha384-5+3Pux+jIlMjHjfY40wawaAwxX465XOx+wwKh/a0Z2frjpHfI6NGO1bltm+uHcLq
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-HOuBFaWuii+Xskf2Jfi8rRIYIaOlU69CHbYnBPtKhSA61sqp3wSI/7Ssblbf5+18
+  - version: '7.28'
+    integrity:
+      archive: sha384-LEBJsUD+xlpLLkvlLdbSp3jxt0KTqa7sUfm+URVSCU5Lh4rn32e/Edavtn0y6gY4
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-MfttnYf/QFN1EyHDvV+UInIVwskvHOzM4GqCt7bX2G52AXL1pmAbKjZ29TsGI8qq
+  - version: '7.27'
+    integrity:
+      archive: sha384-3pS5OvNBqpfVydJxWQ9U9orMGNuCuql6UHoIJSPUGzPUBi6zHSNz3joVel3UO4ET
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-uXeuJc54KJsg/Dbg54QklVesQnr0XpQHf+wQRPOHvQUKCVnhUCcYJBp1/i6pPD6K
+  - version: '7.25'
+    integrity:
+      archive: sha384-IMCcCpvgRBuVn4on6P3RXnNARXew4dJA1TeZVm03m023fCwdxoNVPMDn/kqeFNU+
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-YO++oxtUHwRtdp2Mz+YWraZYROOmC6FFS1qigvot9Ng1HKa0OKOOOpGKdeCB2gk2
+  - version: '7.24'
+    integrity:
+      archive: sha384-mdSwQCiuAYNMlAsS5lP/InFPYd2DK6/Fbnopy0gnnkVoU6XGoeSehbpd4ls1fIT3
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-I++GmRDJgMp2pmULSFppyYHwuJFRsSxTOouW0bVW5Twn8XWHV1gdUfNQMNgBpGvm
+  - version: '7.23'
+    integrity:
+      archive: sha384-kc3bTa5K7YB16qSryQk+ix24QunWMfQJeEfpGWkOjwKqiEzgH0WSpOzEBcbb9Z5Z
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-sZhCxj23M0Fo3gxKNDcVsLbXExcHWepbpzE5P+4HI9BvEjttZiHjCM1kWb2TgVBa
+  - version: '7.22'
+    integrity:
+      archive: sha384-xgxi5jq+mx/JRzD7G+CJ7rTCBcsrvmBJ59XcJsaiGUaqltMMVJLHRBhd3HKvVV0u
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-TjU74OLPTknfaLvnxdiFN9O4c0Rps6rdrs2oQEeYxfLx9AzFRq4X9eQbqPOk08j4
+  - version: '7.21'
+    integrity:
+      archive: sha384-t8x1X/FLF9oFs4g690XoDVOf4T/CAf9+I8FuIRm7/lCv4NFapSs9jhbfPiKtbz7i
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-/vFRb/2i05wvYOg3zEHFUTzVceZUWM/BoLarze/AKmK7g+P0UNir3vcwigDQg12A
+  - version: '7.20'
+    integrity:
+      archive: sha384-+BmbnbPv+v8bjUtctjAUp/+F16DcF0nq4PEiNNhAbhxXA5TFD4BK6jJ/jXmtAPD5
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-cZ8UIwrf8R01X6nygSQ0R47sn8xgo0dyhjFlcPRdd226zlyGNHKRJP8J47IX3A+4
+  - version: '7.19'
+    integrity:
+      archive: sha384-YrkbVNZB8HTrR9o7MJziPkunHoAPwQt+/pAtpf5JChjdwLhK5LVF+wPgan5Z90xn
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-TIdgjXUdSQ+hT6SAdIEkasN1NZaGML40j2/WrnsaJAYlWu0Ku2H0s8qJ6tpECAWB
+  - version: '7.18'
+    integrity:
+      archive: sha384-aoK9tyHgOOIFWfyqmHGtSqOaMMbC1RdVNiggroIDYT3k67O1RVbgYAWjwBZN3DgU
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-0KTB+kXD9pJ9X1xdUcibzBD8w0wexnyQBoclz2tg/gz5Da869bEbYPDxrohXIv8P
+  - version: '7.17'
+    integrity:
+      archive: sha384-SoLrETCHJJDzPqkIcqhe+iVl45pjKO5rHcZ01LTDmkQI1DEVJQop3lzGO6en4e0z
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-66rzdxom3RwuosZ3Thp9KaphEmHCdOe3+xC++NTe8V9uxDmKErmsBfBtu+UOxjVb
+  - version: '7.16'
+    integrity:
+      archive: sha384-rf+y3cxvaOzeuc+4YOeNet1v9a2k8i+8o3R1U7KZ1N+HIJy1QZT5Y/kcQylPlYPG
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-5Tf+Zw/AT61LNjIneteeNtTpXgZtp4j8RgwHsw40OHO5stXrZvbHYW+dno9r0XZd
+  - version: '7.15'
+    integrity:
+      archive: sha384-29a/Z3ed4Or/RMOFjjjjU1rJi8QjhwFR1V8h2Czk9UiwXtXncqX0bok2ydrraDF5
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-7eq0R8yu0HpQ4NRpmDl3FqQIhBgTMrhneAjuclCfdHtC1fupd8ngcYSIdzEj9l7w
+  - version: '7.14'
+    integrity:
+      archive: sha384-yRYWA/G4ryXcHTOIx7ppelUidSJAmzwhcWHb2/x1JyJc8s0qdCqnqM87ooHrukDq
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-fdmODzRMcYoT2tyqmN0XgMhhnXmYLFEZ8qM+JdkdYevSLFp5akz+IzMeLiEQIGFg
+  - version: '7.13'
+    integrity:
+      archive: sha384-rOrKQxwCF1TzyQaWgXuGvgLHgaBUMRO+bn0bMZP8fHvuwmFR7Uts7C2+Fqqavanj
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-OV9eGQKzC3rat7/jQei1pd82me0ECbu5mc2LMiVGo4vTCJhNsNr3M9w0B6haKLXK
+  - version: '7.12'
+    integrity:
+      archive: sha384-viUhzJs5GvQUSDMciL36xGeB++AnJwkM5WVKJr+nZODaANo3VNTsRD4NQkTdjg7L
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-xVP4o5RPt8dooKnU+j7rblmVDhzdqCsYEbAiRUVGwdd5cP0UySvU02209ljkoUYr
+  - version: '7.11'
+    integrity:
+      archive: sha384-PJ8EQ88J76lqxWN+V93MG9SZe0L7wdyYwZq+qcGl1kWRpZLUsoB87mwK6myRBVHN
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-8JwRufxTuds7CTHL+fAzQjeBg3xDQnqx4OLpChGq0RqXP3M8HQ6UaDaMHq8v4zA/
+  - version: '7.10'
+    integrity:
+      archive: sha384-E1ouYkOSCJ93o+X7Esk+IOUbpkncTy8ACR+LiZl1RHBU+AXsoSBcI7qUNnTbWMnz
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-bpb9TTos4yC5PoiJsTCuCgSsz2KeyRAfB035g3a+n37b/2z/bucW1TvtmVhhmLmO
+  - version: '7.09'
+    integrity:
+      archive: sha384-+PnBWqXqhq8l2dZIV1N9x6pS2aQMH0YvN/cTZYPUrjxeeCff7up43wJdbXRLXmG4
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-0vxpcZ1nxdbWx68j5idtBT1mx930y0hIyTCYBIZFYO4Kpv1J87YEyv+zaHjtPFR0
+  - version: '7.08'
+    integrity:
+      archive: sha384-Os6a+d3MEyC1MLCJx+XGssqdLFEd2n6rEz5agFveDN+MNzgjX/MUas3rcZfTNKd7
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-qmIggpfBoBGsnCbkMDwlK+jRQTZUBrTBoXhAExF9KzVN6wUBjeOSgPsP9NM01Avn
+  - version: '7.07'
+    integrity:
+      archive: sha384-P+/Os88+1RHRR8iYDm5YobLY77iwgu+RTGSXs172PUXVPBPPE3VOVD3RGvFQ097F
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-KnvrLHc02hU3of+PXP0UocvVdZMEydKC55RQKVlwmR6D4MHwPjFT6ylmUpTMLpb2
+  - version: '7.06'
+    integrity:
+      archive: sha384-Nk39oWn4eV89wPC40gxej0SxHhadRqM+Y1+3uUJQgkmxk3HxsZ1V6WBKUYZj4afZ
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-UW85egovXzzJ87UT/kN2yHQlea47h1ca05cLNVnnfLhYSnh1p1VD+Z1gYGHYgybg
+  - version: '7.05'
+    integrity:
+      archive: sha384-1zBsL8HsaS2uJDT3OAtooURc8YCpBnrN8ORPoqF6jZxqZu8qF7yckoiDRTP/wOXu
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-lmgIrqEMari4OGy0YwY+r3PXay5siksj/nl1VYCtiU04xDPqGkwjHPcIY1fsLBxa
+  - version: '7.04'
+    integrity:
+      archive: sha384-et29XBbGiVfocSFlZcY3eUg5x/rGTm4FXjHnYDsUo+ZSgQFp1+wEQttOA5TN9TMv
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-kfkaxn2/BdUGTgzUwmj+Rl7PryxpBDfDIkur0r+hc9GIrr/YReXtDXBwWg7yDLiO
+  - version: '7.03'
+    integrity:
+      archive: sha384-PgGu51wUVmx5+v5Kog4YPjzo3q9gYGmkAp73CpPJg1UoyeEFANqvSSCt1K3z5PAs
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-TccX4/c0Zck5IfV2sdXw2sZ1u/n44W93XjKFcxZRqqwBbi/fMwHEmhzkP04aegvQ
+  - version: '7.02'
+    integrity:
+      archive: sha384-ag3KJkaJY0GMGR8TxSDD3u2YXdLDh4z3Z6um20YwNTwJBtgt9i5OmZ5mh1YiNLwd
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-r8sE76YFYlxtSAfeaYUtbtxD4wWe2gHhHUYbWyuoTKK8ShWhvWNxeWcJbNp0ZWVc
+  - version: '7.01'
+    integrity:
+      archive: sha384-C9yVRBCKrJrXZMffnO0KmncUIsnIEQfGb9w3/pHHc17wGCMvfzYPcwbPwlT2AERR
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-caZN/aFwpQJW/jkNjlmIQLUEN+HXxQoxYziOiXeWyzaIIjCQz+145q5t9WXPaVSy
+  - version: '7.00'
+    integrity:
+      archive: sha384-FZNQED39/AYxu+9txQDBUqacohZxvlMiSO+2i/eaCROO/Tvwey7AwYWbG9KX4ENh
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-HjXxDS29noUJMEkb0wR8aRFda7LgwDDn1npHe13peYagNrZri9LuKFUfdB96DPiy
+  - version: '6.08'
+    integrity:
+      archive: sha384-5FMrX54f6s1eThdjN80tLgyxjQPTGR7JMB/mbiBqOTMgID30hKF2RV4PWY6OAARz
+      file:
+        - target: plugins/QSVEnc.auo
+          hash: >-
+            sha384-0CPgLel6+2S9RQKc+KlDi8KletchmooZURxqvW10HMgaGaHtWcAQnlVJFvE0C492

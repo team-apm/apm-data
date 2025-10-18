@@ -1,0 +1,23 @@
+id: tim/rcube
+name: ルービックキューブ配置
+overview: ルービックキューブのように動くスクリプト
+description: |-
+  ルービックキューブの配置にします。
+  配置だけでなく、任意の回転を加えることができます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm14573891
+downloadURLs:
+  - https://tim3.web.fc2.com/script/RCube2.zip
+  - https://tim3.web.fc2.com/sidx.htm#RCube2
+latestVersion: V2
+nicommons: sm14573891
+files:
+  - filename: script/tim/ルービックキューブ配置V2.anm
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-XP7CmkwHOxjcHMKaH1YBIqWAysBfOlGljCP7Iv0CQqhUOyg/7tKtNF2NCakJeSFr
+      file:
+        - target: script/tim/ルービックキューブ配置V2.anm
+          hash: >-
+            sha384-6eOVbQuvm72v72eHS+3UJhVALYMtaUdWwpL5HKUnHkwHNJtoUGhmiL0CVXOeHVtZ

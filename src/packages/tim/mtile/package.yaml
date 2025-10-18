@@ -1,0 +1,21 @@
+id: tim/mtile
+name: モーションタイル
+overview: 画像ループの多機能版スクリプト
+description: 高機能な画像ループを追加するスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20729858
+downloadURLs:
+  - https://tim3.web.fc2.com/script/MTile.zip
+  - https://tim3.web.fc2.com/sidx.htm#MTile
+latestVersion: 2013/04/29
+nicommons: sm20729858
+files:
+  - filename: script/tim/モーションタイルＴ.anm
+releases:
+  - version: 2013/04/29
+    integrity:
+      archive: sha384-RF0lcuRMwtceaMqZ+ypITJ1OxwjXll4F/BAyySKaGdP1wPU3RM/XrHZegNmwY4pj
+      file:
+        - target: script/tim/モーションタイルＴ.anm
+          hash: >-
+            sha384-2WtdBzzKz6yVysPT/r+V3a8HJTOkSLULygnVY6mumg35L8pFgTuPcB0CTvZLwbMR

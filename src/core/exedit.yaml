@@ -1,0 +1,33 @@
+files:
+  - filename: exedit.anm
+  - filename: exedit.auf
+  - filename: exedit.aui
+  - filename: exedit.auo
+  - filename: exedit.cam
+  - filename: exedit.ini
+  - filename: exedit.obj
+  - filename: exedit.scn
+  - filename: exedit.tra
+  - filename: exedit.txt
+  - filename: lua.txt
+  - filename: lua51.dll
+  - filename: lua51jit.dll
+    isUninstallOnly: true
+latestVersion: '0.92'
+releases:
+  - url: http://spring-fragrance.mints.ne.jp/aviutl/exedit93rc1.zip
+    version: 0.93rc1
+    integrity:
+      archive: sha384-tTGQHYA16JBSXELzf7w0PAavkkoOjZFC6cWJzG3l2EssP5jeZO+Ou0xndh/vOolW
+      file:
+        - target: exedit.auf
+          hash: >-
+            sha384-Zbt+Oc8pG3dGXmPqr3c767Y5/3/FaSVngmipn0v1KyXRW8dWVZuOZ2WTrP09YRDZ
+  - url: http://spring-fragrance.mints.ne.jp/aviutl/exedit92.zip
+    version: '0.92'
+    integrity:
+      archive: sha384-1+quM7LqkkFzFKjDoipezYsRsAqKXZC+OM1uPNJpzT58pMYFKnlGrniYxe8amgZK
+      file:
+        - target: exedit.auf
+          hash: >-
+            sha384-aW5769CsMnmDGnZzNzqP4KFvM2npA8gfopzwB//TBbwYfoLZtGvoP/oXZctVEZxp

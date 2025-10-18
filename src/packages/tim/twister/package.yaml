@@ -1,0 +1,31 @@
+id: tim/twister
+name: ツイスター
+overview: 画像をひねる効果のスクリプト
+description: |-
+  きしめんエフェクトセット第1弾。
+  画像をくるりとひねります。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18580953
+downloadURLs:
+  - https://tim3.web.fc2.com/script/k1-TwisterV2.zip
+  - https://tim3.web.fc2.com/sidx.htm#Twister
+latestVersion: V2
+nicommons: sm18580953
+files:
+  - filename: script/tim/ツイスター.anm
+    archivePath: k1-TwisterV2
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-cnY9ytV5B64m3qB4RTl0GRDziK2Z8rF8vkV0lp5pAuluSC0fb2m8S7sJUBIwStOy
+      file:
+        - target: script/tim/ツイスター.anm
+          hash: >-
+            sha384-RFMd5qLgt0XmVQcOhgNolYB4VTREKFeo+CnXxc8GwlWt1Bnmy7CT2pykrolXOHJX
+  - version: V1
+    integrity:
+      archive: sha384-7INGPslJwcSn3zMYzT0HzGkUNzUgWP8vSodmlJmiCGqtZE9XC4aWfPZkHqt0gunq
+      file:
+        - target: script/tim/ツイスター.anm
+          hash: >-
+            sha384-MXvxoAX1Kv05JY94FY5ky+tZle6yZIpdgjj4Km8V16jFbfQlSmYqrvbmc+2llO7T

@@ -1,0 +1,29 @@
+id: hebiiro/CopyFilter
+name: フィルタのコピペ
+overview: 設定ダイアログのフィルタをコピーアンドペーストできるようにします
+description: >-
+  設定ダイアログ内のフィルタを右クリックして「切り取り」や「コピー」後、コピー先のフィルタを右クリックして「貼り付け」を選ぶことでフィルタのコピーアンドペーストができます。
+
+  先頭のフィルタはカットやコピーができません。コピペは同じ分類のオブジェクト同士でのみで可能です。
+
+  分類: 1. 映像メディアオブジェクト(グループ制御含む), 2. 映像フィルタオブジェクト, 3. 音声メディアオブジェクト, 4.
+  音声フィルタオブジェクト, 5. カメラ制御
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://www.nicovideo.jp/watch/sm40932595
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-CopyFilter/releases/latest
+latestVersion: 1.0.0
+files:
+  - filename: plugins/CopyFilter.auf
+    isDirectory: false
+releases:
+  - version: 1.0.0
+    integrity:
+      archive: sha384-pJuowsDeK9skGOvv+4YmgVmYgDlDEk6fQhGybbbCXg0LX05eFqXqorioPRkcJt7Q
+      file:
+        - target: plugins/CopyFilter.auf
+          hash: >-
+            sha384-yFW8OxLPyea/P4nmxlecZvIsApO46r0ejK9YIR4ptoUt/ckSSFZ4EgPLdrpwL2ep

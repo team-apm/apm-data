@@ -1,0 +1,13 @@
+id: aoytsk/cmpwnd
+name: 比較ウィンドウ
+overview: ２つの動画を比較するためのプラグイン
+description: >-
+  比較ウィンドウ
+  は２つの動画を比較するためのプラグインです。プラグインのコピーで複数の動画を比較することもできます。エンコード設定や参考動画の比較に役立ちます。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1490264.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1490264.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/cmpwnd.auf

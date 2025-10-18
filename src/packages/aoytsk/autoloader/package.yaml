@@ -1,0 +1,13 @@
+id: aoytsk/autoloader
+name: オートローダー
+overview: ファイルを開いたときに追加で他のファイルを読み込みます
+description: オートローダーはAviutlでファイルを開いたときに追加で他のファイルを読み込んだり他のプラグインにファイルを渡す機能を追加します。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1578022.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1578022.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/autoloader.auf
+  - filename: plugins/autoloader.ini
+    isUninstallOnly: true

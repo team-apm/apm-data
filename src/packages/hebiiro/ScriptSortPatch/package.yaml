@@ -1,0 +1,23 @@
+id: hebiiro/ScriptSortPatch
+name: スクリプト並び替えパッチ
+overview: スクリプト並び替えプラグインの不具合を解消します
+description: スクリプト並び替えプラグインの不具合を解消します。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+  - rikky/scriptSort1
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-script_sort_patch#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-script_sort_patch/releases/latest
+latestVersion: 2.0.0
+files:
+  - filename: plugins/script_sort_patch.auf
+releases:
+  - version: 2.0.0
+    integrity:
+      archive: sha384-lpBZGjLfnl/SonKmu7+Rebu36FYdNR++g4ii257nsfTqYfbkIlMGwY+5/rCtVOOY
+      file:
+        - target: plugins/script_sort_patch.auf
+          hash: >-
+            sha384-2+4BAqQBLPPo6KBC5vyFtZAJ6DWpeymp0FkuBayW1jA0YjeVMku/2S/AbACwRzPE

@@ -1,0 +1,381 @@
+id: oov/GCMZDrops
+name: ごちゃまぜドロップス
+overview: ファイルをドラッグ＆ドロップで読み込み
+description: >-
+  ごちゃまぜドロップス（ GCMZDrops.auf ）は AviUtl
+  の拡張編集ウィンドウへファイルやテキストをドラッグ＆ドロップした時の挙動を拡張するための AviUtl プラグインです。
+developer: oov
+pageURL: https://www.nicovideo.jp/watch/sm33020019
+downloadURLs:
+  - https://github.com/oov/aviutl_gcmzdrops/releases/latest
+latestVersion: v0.4.2
+nicommons: sm33020019
+files:
+  - filename: GCMZDrops
+    isDirectory: true
+  - filename: GCMZDrops.auf
+releases:
+  - version: v0.4.2
+    integrity:
+      archive: sha384-bCbwNuNMcaTmu4q54fDysHfsH88x4qU1tBSkh0UrLjQgz7c9WACIjsQvenBYZV/l
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-KeLITYtHUCiahCwj0AIgc8VtZfZTsXsRGlPAUdvMcFpz87HFq8qnsjIDiKoCwiF7
+  - version: v0.4.1
+    integrity:
+      archive: sha384-l9B1kF4nOqu2n36HXdCQRTg04q6yjtEhi3v+BVFHWxeB2NzXqxwc/bdN/6UoXJ4a
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-OGicOaA3efddufAH2no67su8XOmPmSPRv2W5jpup/9xIcWTr2CPACEcPQGIE4N9t
+  - version: v0.4.0beta8
+    integrity:
+      archive: sha384-8NT0qoXBV31k2m1yqOCk3pvwsr122weB3wgPTEGjOc7G94LQOiLMhrq/6YtdM17C
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-LB9aQUOuLTIWKszShqN9DFXHcMDLo6Ox5Frt0KayFE779hKvy24gMllQY183uV1c
+  - version: v0.4.0beta7
+    integrity:
+      archive: sha384-T+9JplEqQOQDU5+TAD/um9oXTg0IAgBDaqSQEqco/8dQyR/Yt+yg56m5NPktkCPg
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-S5P9jwZ4sXXvFuDRXp0tSoilhMKIpW9k5VvkMqW2s0XzvWUeoLnDXAs2apitIx/t
+  - version: v0.4.0beta6
+    integrity:
+      archive: sha384-DqHS7NCGykMvKIh92X2na1TUv5Y8CpgupAAwQmuOlptgluBQ8NdPmL4xoWxIC5ym
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-8ZBabJ8USrVDRO+YmW4EiokqZysIme2eQ9h/7iT2wcO+uUTJzpcZZzsJX+HZTCkK
+  - version: v0.4.0beta5
+    integrity:
+      archive: sha384-nsGuZjeE7HDZuOulWEN7zekZK+VAuud4A+MiVpUzAndM9S5VPsST4XSQJT/l2y1t
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-/g2L8gQvGykZUzzUvEc1fZQxQUaY/IQUdx38IuQMhG2c4Iop48rxHSJUInJQodmh
+  - version: v0.4.0beta4
+    integrity:
+      archive: sha384-aR4gEPa0qShRc6OOQo5AoXLfYeqLfjX7Jp8sbhvcE/KQDrYe1/XP7+EHJLylNpVh
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-DT+3yCobV1bBqVxYCggi8EuEKOrtXLJMM8fKZDlFEOqdwQetB1WPlmeqfRpxIZvg
+  - version: v0.4.0beta3
+    integrity:
+      archive: sha384-9knS10eGFBYkCMZpIDZ56ESsHvARrQIweGyA8mc8hw++9kCwCzxsUbhovYIuMfLW
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-dtY8ZjoEH3NxgFFILPZjHIKgqo4rjV8ZbHub4qdWXsDB0CaO1PmTcsU3PuEUZRN8
+  - version: v0.4.0beta2
+    integrity:
+      archive: sha384-SaPgiWUSsRHVXbR3F6yyVxh4UvcaMzT7STNA/ypWR26EZkPfAmPKySBXPXKr1mNl
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-YO79ME2QSA6f7RnnunkIt75hVZfCmObzYJKuYvff6Gb9og1V8f96T0ce6BiUkgLp
+  - version: v0.4.0beta1
+    integrity:
+      archive: sha384-viUiCOOtI6Yck6Fy/yne8AamXWLwMo5uWFg4UCb8cGEKyS8XJgJXGoAo8ebCP2d9
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-2y/HQBDU3tDYSTg9R1ea1p4At2VVkWIJApM0QJsxwpsn55TpJ+XVbhCJ4KQQG432
+  - version: v0.3.25
+    integrity:
+      archive: sha384-D4IK3xsYJHC629EUaQfiGcmPzZg1oabFi+GlHHVy+20krJclA1b74hcgtz1+/pwC
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-yliKW077iF+UXevk5+1CDd+HkKeQWYTw2TxNNlWSTM/9AdyCx/VHc17lFxgE9Len
+  - version: v0.3.24
+    integrity:
+      archive: sha384-at6ISKAf6B9gQ8OJw99uhUug0thMxl/67QmJxY+a5kg9VEYP/4BtZsy2OAUTcM+j
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-sqjSc9UtaByafH05aWI1wQfHV308PCcTGsMF47mV+MPWdMosCUVH0hA2eNoIxsHX
+  - version: v0.3.23
+    integrity:
+      archive: sha384-cuYe3OJDoa7705bzl9iasKsVPTvKABwo5ScSAaDimVYJspnbPH2s3FNX/V1hmlH3
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-MkVs4FbPnEG2ae5vaNcuBqypEjyBMz9hhTPwa7MkKbEXGOyunttosuR6DnzTRpS0
+  - version: v0.3.22
+    integrity:
+      archive: sha384-RypESMsRDUwI+ENN3GRTkEykgnx5fo/Bi3teNL5X2wP0zYaC/Omb7OpHZJIff5xm
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-quu7lPIvlOG/hsVA4Fa6zdO1FSWAXIgWk2TtP/VjM9Urad9w/wqN4gBR8hex3p7g
+  - version: v0.3.21
+    integrity:
+      archive: sha384-k/Y7GuGOi1QV79P8hJQwrlDuON3zrqlETnWkHXRb+kN1FrMZPm86ViXUE9rnr9en
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-kqWsZPiZyTtVLBoE/DeliPvjh4mlfM83QNSIcK6r+vdBfZ6yeI0ragT/R+9EcGmQ
+  - version: v0.3.20
+    integrity:
+      archive: sha384-gAPsFdld9CQJJwwJmHK9h86EO1kUTRldbkvr+vxT8AAYWGNm6iPuRBwuXrtokXKl
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-/6T30yXgjBYWbCWzZch5HTpGLAQPr3Rdae6aSfx++qKabQsHAc1e6CxuR7Lkd5Ug
+  - version: v0.3.19
+    integrity:
+      archive: sha384-/vjhezTqSZvfijD9mkNsaLvGTD+G+wWIdImKhewHzEU1e72PQtOg/Y6JnSwtMsRb
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-afYMZvrfg7grCzdwXSd8QwGWacc3mGw9aDkzjgki7Pm4VcxlZZ7O6K3ApL5zbegL
+  - version: v0.3.18
+    integrity:
+      archive: sha384-mIBBfudO+VxONnM/2STrOcM1U/r/rqFQ3byOvqkAugmaZm9ucHMoQV09ti5Ovkgq
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-gMAQBYsVn2yMuLSwyE37Jp38qB3Rs++WiTikWFSjA8J3lttUCby/1PV1AtG+G1OV
+  - version: v0.3.17
+    integrity:
+      archive: sha384-+THLuxA3wsunxUYwOJAzNA+uu4G1un4l/+KcZS7+NCd+Vcg//MwtZGHqWwGlDyDY
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-sAQ6ZIgkiI0NxUMWZ4X5S2HXK2mreF47qBxXmHL4aERflOR9Xya2PjbZHQT8IfDH
+  - version: v0.3.16
+    integrity:
+      archive: sha384-N8V/ckD+yk+kEnpvrdeBYzlZFc/HEAiK8LYFeCaTwGD3HWjSO4Z+nFjhCvIptmjX
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-PRb/2oyruYUMoBSkZAP0c01k5s+Be5x0gWPOwAh7I0I6zfBNlU+MMOxfJNvg2Cn9
+  - version: v0.3.15
+    integrity:
+      archive: sha384-Q4BklyRd+M13R836HMfO9n160tZSRFXYeGVfRheH/gl4OTbpGFZBDJXEmglqV+mj
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-nVRZZYVZBQ9X/8zQPmRjTJmIcWMRo9H1ML6dVKAMbG4SbZm5MiS3HrE6se4kUrpt
+  - version: v0.3.14
+    integrity:
+      archive: sha384-Rn/Zy97/KY1gnAA17Mu8s5T5oj5xt0+1VmZmHO+VRTSLDz137gIMDXqerikBFAKW
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-l9FokRCbp21Sej0NuCuYHb2KNyb/TJrWoqV3m19fOfQKC+XTSDRPr3YmkSlCicbD
+  - version: v0.3.13
+    integrity:
+      archive: sha384-d70lDD8KPyhMfi5fFN3nC2z+jJR8PHfI6TBIJYw4KY/6X5bxuSukWGuC3SZpFN+Z
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-DC9nnc2zWqQ/uWq23axSUPckJsJ/f8JmBgIaVOhDD8yxlXraJbLMZJKx6c/gzX8T
+  - version: v0.3.12
+    integrity:
+      archive: sha384-TMA5cWcVFev9rX8BuNL7i6W9wIcNVJ8aBZSEwAiQB4mbV+tgQRiz+0zJWYF6kKYf
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-wigfMJls3AJ23wZe01x0VTZ1w9DQmZoENOwE4+RTlaqScMQphrFGv3gSdMQSyzhK
+  - version: v0.3.11
+    integrity:
+      archive: sha384-+YIYsje0tZW765LxKBET9vHR+1SOGwVbZgaTfhmO1Oo3wGsP2xTA1XSm502m3/P5
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-KueSG2eH7xqP7mNBXoounAVaLV2nLGMUGUBY6MEL4M/KE1Ml+AkrAw2BZHJc1RDk
+  - version: v0.3.10
+    integrity:
+      archive: sha384-Xx5qrT5536AbN28p8Fb18T5dChysJT5AofZOz3XpypqMJyvyge3cJOdhVeCby4NJ
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-0AYXi9kZJRSAEndiMTHbXSTjJj4nAqXkrmgay++xso8crhl3yxmhK5yrJxWaO0iy
+  - version: v0.3.9
+    integrity:
+      archive: sha384-HFWN/2qP9rnIbfxhBOSrOwx7pcY4YaPW6Nr27X4kuApssyp3IHUjNzUYD0S7owoe
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-lIUJ/yk/Q+2XyYVw3iCi+ZUTeGCl6Qg2CBO81BG8/qTT3lKajzW+aru6t+t0oiQd
+  - version: v0.3.8
+    integrity:
+      archive: sha384-/pqLRJ5yTXAmM93XTqTHMKNLWc0qdfY/wj87ArBAkd6EIXmx4o81+Zs1exUA9c6l
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-hyYt7yBqUtiv2TyuJrKkUVBpo0H1qj1PkPzDyMzTl+f71YQOo++eYpXEAJVRFO8G
+  - version: v0.3.7
+    integrity:
+      archive: sha384-tlUBeE2J2J8E2/et4ao7dYwblNvKjzV6LeB7Z5CrhvyT+kx/P7035x1YIJOqOJWs
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-B2IsNYIknzBcIQnB5dTX7QzwEp3zPttsv4A9BDzj+HBins2JX+0Bz40vNZlRHR5z
+  - version: v0.3.6
+    integrity:
+      archive: sha384-itmCV2fn0olY5/5id2++Js1H8vlfeUPO9XS77g4IGbz/4pQOS+cOf5iW0qFowQDk
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-0eGKxWyDEQAheQX3SNJd4g+QplGuLzY0LD+vxAw4NNWWWE/pjJ7ljM67bSDva/kY
+  - version: v0.3.5
+    integrity:
+      archive: sha384-SCK+1boMTAJ//K36TPIjBHlgQr6LzwAsarqu636C+vtVxp3bBnbL2MC1NQvZoLHX
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-tqhzThINdWjpwiYuu2AEguHLxkDNRbJcDWlmw+awf/xGbN1n+Z2Llvxowj7qrvd7
+  - version: v0.3.4
+    integrity:
+      archive: sha384-TEitxT9WAmzSrZFaNHHWNX56Ozt+oD8P5wKAk8AGnJ33I171/fFjAQA3JrY6GYlk
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-/EEz5Owir9JVlL6PWLH0GGOqxYAyrGaRFwo+uhxp16mDy2BTZw9MpUviTPlRUCK0
+  - version: v0.3.3
+    integrity:
+      archive: sha384-1u1O9giVnd2kx4IUNW+X/XNfLCXXPBnnk9e1IvdzqCl8GRbvz7Wq1oRSsYrIAG0f
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-zTpoHwJFUpFlMR+q04SjyDYXUd3XchDdHgF602GquKHSFleK45KEtGSdzstQbCer
+  - version: v0.3.2
+    integrity:
+      archive: sha384-MV9MGKrbHdGVZjyzYATgxGZkHfo8Je0HVroe2OBpoqsrp5iSWGPT4tOVxEcOivou
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-QPAfgv2jJNR/lKSflmJVoCa1xWr4Cga8PSs+yOpHO1VfBXQjbw2KpVfrcRe08ObA
+  - version: v0.3.1
+    integrity:
+      archive: sha384-jImiFbgCIBZXDNQsfwS94DEga32JUX0N0NLF4Znfvg1Qppj6IxkZDzsws30iy0h+
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-Xnb9h/L4qEr37M4xtMkEBXF1izbRBzTdGmZLseovEyErUTZKUS/lq5dMxx++VzxW
+  - version: v0.3
+    integrity:
+      archive: sha384-xSuNF/ocZTJNUxamC+BumFFqgm9ZW2fdLuQwKObxuWzbytOUU0DhUt4bbFTZHFXc
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-6Vdu0M1brFbtWxa2fg4Jz1vifjgZzM5L0cx9EyvZhQWzKpD4WXeK9C23AoeVUmUO
+  - version: v0.3rc3
+    integrity:
+      archive: sha384-n7G5JolJ9nCegYD79294xK4/V+cEQAKu2zgwSkwnauhNC8cAmw7ICRvov8dkEo7S
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-5O9mKv8qVsECz8jI4CjGrTSOngP5YIf0yY0MAk0Vzf3RnOgXKg/Je1SUIVUeIpGK
+  - version: v0.3rc2
+    integrity:
+      archive: sha384-YV0seaoq2g7WpBQMlDLovv769wKodVzbwGrOW0k92ydejktGkLCqHBC5DDpEblDg
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-4GKyxmof+Ik+KV3XSKjiZVGYUgPmzDq61H6KS+9kXDoDckSPHwWAPmE4/DsoRdti
+  - version: v0.3rc
+    integrity:
+      archive: sha384-huvJPXpg2gc8kzTZdSRiivZsrvllwer9k5rcYFnjs1Az+gTk4dVc9kBkpaVwGBTs
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-nZ3yBpu98pQA/mTVIxIeTpDLTOP/m/QpIoC+v54HLehsjPbVQ4Zf5vEe1hM+mnjd
+  - version: v0.3beta3
+    integrity:
+      archive: sha384-T/axECusC5K351fBEJIw4EPkGTnf9PQzUOBFifkGE7k/UmObXUQ0vNx0QSOd+6TJ
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-eSFMS3xdGsR3y2Lb2YtNy8owI1YoBLPOcWufhDE4yn1PcRjEMZU6Z7bqMVES0ADj
+  - version: v0.3beta2
+    integrity:
+      archive: sha384-JpSj6LwlR4jTwxTMtd9kuWLv0CbWonSgWhHNLK4KqqTrjx9BDmPG9JjOexpjpEXd
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-J8b6/xeXjC3iumnSwgu5plMPjMy0NhVDVT6lTA0EPauhY/L/asD+FhLl7BSfxzc5
+  - version: v0.3beta
+    integrity:
+      archive: sha384-nvHSsynSgnNwhJYDc1reaOf/WoZIilDUVB7GJniOTKTFy8RbB4EWpkd7MjVDdX+g
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-6vrmNb+iGKQhtkliCeJ2fzLii7TUElNT5bfG6qvrUO87v97vsD65p53GryU0xs/i
+  - version: v0.2.3
+    integrity:
+      archive: sha384-EvJ5sGxw87S04+wSiLAv4fLP+vgvTVUFLPH8VozmfJA0PxvRXFGyL1lR783bRr9B
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-qsJAKtydv+DElNwtFEOP0hZasXHTZoFBewFSWlT3gbAtFFu0a7mygPKDWzf1/x3m
+  - version: v0.2.2
+    integrity:
+      archive: sha384-qCM14SKMTU9bNggyQHrBvPnMgWZO32jQNOBRmXG6GKQvqjwESYk1CuKSQRXT+nrt
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-UCWCaYftxGAtRn7Svnwr5y/iXkGlUzuXMGNws2HQ7sjbWj+qOK1C+6LInHE+ZXi6
+  - version: v0.2.2rc2
+    integrity:
+      archive: sha384-GOGMUkkBWBHmNwdtO6YnflUcP8CyS4qeA1NpO7WICI0Hb8QHzRaNg4NHrk7HJQB5
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-qSTD0ueBNAPXkfdSwVHi2tQ6+6BDBA2XJesamU/pxj4FrT80vxvKHwMgpsaKjyiy
+  - version: v0.2.2rc
+    integrity:
+      archive: sha384-MSR/JCVKmacdi1qa5W5e6hgME/53TZMDqPC6gsKzYryNrvfkbBZdB1Na1DPRwxHP
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-AV+MqpIcHRQIOVjMKmAdyHzbXflMFcF9ewjl8AnX0ld5QlOmWikS0c0Prh5NgkEf
+  - version: v0.2.1
+    integrity:
+      archive: sha384-CaYE31+jX6NewbxFyUUwDZ0Z5UXEQOqusCogzt7qOP5zphxAD9HeBcTyOqM2sWlg
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-/DCAe8yu7xqWSLuLHGFry6QijISFHWoEo3PVK5N6m1zqzYao2V0ezLCsbby1y4CS
+  - version: v0.2
+    integrity:
+      archive: sha384-n8oc3ePv/tbRKUiIWj2JV3JGhOfM4+ysdVXWJFOgcebwq3aI2W/uuZnMdu8IGqoc
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-awCqwD1NjWFUXPWjf0cdphdaIV6eR4ooNVKqYqXhG0heupPG011iIVTkA0cRvkMT
+  - version: v0.2rc4
+    integrity:
+      archive: sha384-9PS7RuHmysZ2TDg+2JDwb/+7ytcTyqhUjGjnVNuKsnOPL0/hhufTxXfURdhX1i76
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-PejP3IsebGzhc1UNV85aFlwnZFho5GvwOaOz9cfurNHtb/kgX2Up06dUYWPEXRXc
+  - version: v0.2rc3
+    integrity:
+      archive: sha384-cIhZ45PIwUIx8cNGF4Ur70B80LnwaUJD6V7FC3xa1J5rUzOxB0EtPy4oIWJ3JYe9
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-rSvebsf2D8GzrATkdQ2GeH7+VPndCr937pDRgJPmthZeZ8jt2LQavHh0TJ2t2sqj
+  - version: v0.2rc2
+    integrity:
+      archive: sha384-fLzd/9nq7/GPBjDgI+oVZIHOHXdGDs3HuRg5FuzNtgVqscjsnMnfMp6Onq7+lREd
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-B1ICDy/5QSLBg12P+YYVP1IaPo7hxc7Ol5yq0dPBzMLiS71DyKAIT5A2rRc2CzUS
+  - version: v0.2rc
+    integrity:
+      archive: sha384-VRYO9IRM9Un5G88xjeHNJ17Gw8NDGgvqhoe8aPzDCSr0uhQRP4blXAL7hAgnaNtK
+      file:
+        - target: GCMZDrops.auf
+          hash: >-
+            sha384-PYU/02Q4Cw+UY4KgoQMgDeCzd1apmRJpGn5ToA0ijAywF/D1BjXUPQ3jjOYRhh8t

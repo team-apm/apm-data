@@ -1,0 +1,20 @@
+id: suzune/WideDialog
+name: WideDialog.auf
+overview: AviUtlの設定ダイアログを幅広にする
+description: AviUtlの設定ダイアログの幅を広くします。
+developer: 鈴音
+pageURL: https://www.nicovideo.jp/watch/sm39708120
+downloadURLs:
+  - https://github.com/suzune25254649/WideDialog_aviutl_plugin/releases/latest
+latestVersion: v1.04
+nicommons: sm39708120
+files:
+  - filename: plugins/WideDialog.auf
+    archivePath: WideDialog_aviutl_plugin-1.04/
+releases:
+  - version: v1.02
+    integrity:
+      file:
+        - target: plugins/WideDialog.auf
+          hash: >-
+            sha384-esDTZQT6MIC5ZUDz9kqohy1VAfi0XgQrOhC8Yk0KYLs04/jXZOgTtCRcPp0Eu2N6

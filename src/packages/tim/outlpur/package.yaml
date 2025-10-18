@@ -1,0 +1,21 @@
+id: tim/outlpur
+name: 輪郭追跡
+overview: 輪郭追跡を行うスクリプト
+description: 輪郭に沿って動く枠を追加します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18259978
+downloadURLs:
+  - https://tim3.web.fc2.com/script/OutLPur.zip
+  - https://tim3.web.fc2.com/sidx.htm#OutLPur
+latestVersion: V1.1
+nicommons: sm18259978
+files:
+  - filename: script/tim/@輪郭追跡.anm
+releases:
+  - version: V1.1
+    integrity:
+      archive: sha384-q/YdbhI3h30MAPTZ05eqDSIbv+FQIbva1vgkowxN8tpJISKW//DDScVKIFYXdv0j
+      file:
+        - target: script/tim/@輪郭追跡.anm
+          hash: >-
+            sha384-0DKNeBT8d3blyoQaUm7xeSczRqFJSoj0g3Q+9mBABvlDyCi2NF4nyEAnJqnaA3j6

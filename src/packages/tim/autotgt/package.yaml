@@ -1,0 +1,37 @@
+id: tim/autotgt
+name: オートターゲット
+overview: オブジェクトにカメラが自動で近寄るスクリプト
+description: オブジェクトの位置と角度にあわせてカメラが自動で移動するカメラ効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16555929
+downloadURLs:
+  - https://tim3.web.fc2.com/script/AutoTgt.zip
+  - https://tim3.web.fc2.com/sidx.htm#AutoTgt
+latestVersion: 2018/12/27
+nicommons: sm16555929
+files:
+  - filename: script/tim/位置補正.cam
+    archivePath: AutoTgt
+  - filename: script/tim/オートターゲット.cam
+    archivePath: AutoTgt
+  - filename: script/tim/位置補正R.cam
+    archivePath: AutoTgt
+  - filename: script/tim/オートターゲット100.cam
+    archivePath: AutoTgt
+releases:
+  - version: 2018/12/27
+    integrity:
+      archive: sha384-aE9nnFCBw54LK0vcTa308T1mpFuXDyemPKLASzDqyCXwpDOmuZ0JFsrLgJtDfHfX
+      file:
+        - target: script/tim/位置補正.cam
+          hash: >-
+            sha384-qMRtRcHtKeS3nqrxntQeCspDs38c2OVr2DcQgPj3e9ER0Q+V3FF/iRjIYC5jGih6
+        - target: script/tim/オートターゲット.cam
+          hash: >-
+            sha384-OkZgS502IVgMXIJ80br4T9I3O7XG7fwT1OWgEEyUPXiVhd+l+mRz/tBP92Wjwcqx
+        - target: script/tim/位置補正R.cam
+          hash: >-
+            sha384-GsyDQr3ejhFuFsUb1P1hc46mfUdXnFABm14EM5hncQRlxUj+KRaImZSm9gavX0ZP
+        - target: script/tim/オートターゲット100.cam
+          hash: >-
+            sha384-qgXC3tZvJf5/DBgtF6RJ2atBokyXzuhSqjwkGFCh1B9BVb6SPLwqfFSAQ8X/4cyA

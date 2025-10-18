@@ -1,0 +1,12 @@
+id: auls/transparence
+name: 拡張編集を半透明化
+overview: 拡張編集ウィンドウを半透明にする
+description: 拡張編集ウィンドウを半透明にします。後ろにあるウィンドウをマウスで操作することもできます。
+developer: yu_noimage_
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2013/01/08
+files:
+  - filename: plugins/auls_transparence.auf
+    archivePath: auls_transparence

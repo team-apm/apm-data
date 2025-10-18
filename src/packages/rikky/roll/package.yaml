@@ -1,0 +1,16 @@
+id: rikky/roll
+name: ロール巻取(ページめくり)
+overview: 画像を巻いたり、シールのように捲ったりするスクリプト
+description: >-
+  適応したときに画像が崩れる際は、ファイル→環境設定→システム設定の順でクリックしてください。最大画面サイズを大きくすると直ります。それでも崩れるときはもっと大きくしてください。
+developer: rikky
+pageURL: https://www.nicovideo.jp/watch/sm27678925
+downloadURLs:
+  - https://hazumurhythm.com/a/Y2n/
+latestVersion: v4
+nicommons: sm27678925
+files:
+  - filename: script/rollv4/ロール巻取(ページめくり).anm
+    archivePath: rollv4
+  - filename: script/rollv4/動画背景スクリプト.exo
+    archivePath: rollv4

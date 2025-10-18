@@ -1,0 +1,21 @@
+id: kumrnm/AuthenticGrouping
+name: 真・グループ制御
+overview: AviUtl 拡張編集のグループ制御の機能を改善するプラグイン
+description: グループ制御を入れ子にした際の親グループの制御範囲を変更し、グループ制御が複数のグループ制御を制御できるようにする。
+developer: 蝙蝠の目
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/kumrnm/aviutl-authentic-grouping#readme
+downloadURLs:
+  - https://github.com/kumrnm/aviutl-authentic-grouping/releases/latest
+latestVersion: v1.1.0
+files:
+  - filename: plugins/authentic_grouping.auf
+releases:
+  - version: v1.1.0
+    integrity:
+      archive: sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3
+      file:
+        - target: plugins/authentic_grouping.auf
+          hash: >-
+            sha384-cLaHAQ94n3U4Uhj/9PB2Al6TtsG3IcZ9+CgFNov2J6VHSNcjYUvBdSi7fNTk1Pg3

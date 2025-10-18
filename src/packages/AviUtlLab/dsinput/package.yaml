@@ -1,0 +1,14 @@
+id: AviUtlLab/dsinput
+name: DirectShow File Reader
+overview: 様々なファイルを読み込む
+description: AviUtl0.98以降で使用できるDirectShow入力プラグインです。
+developer: AviUtl実験室
+pageURL: >-
+  http://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl
+downloadURLs:
+  - >-
+    http://videoinfo.tenchi.ne.jp/?DirectShow%20File%20Reader%20%A5%D7%A5%E9%A5%B0%A5%A4%A5%F3%20for%20AviUtl
+latestVersion: ver0.26a
+files:
+  - filename: plugins/ds_input.aui
+    archivePath: ds_input/

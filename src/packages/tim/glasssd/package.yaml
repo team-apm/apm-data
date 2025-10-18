@@ -1,0 +1,21 @@
+id: tim/glasssd
+name: 砕けたガラス
+overview: 背景が屈折したように見えるガラスの破片風スクリプト
+description: 屈折効果を持つガラス破片風のアニメーション効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16763314
+downloadURLs:
+  - https://tim3.web.fc2.com/script/GlassSd.zip
+  - https://tim3.web.fc2.com/sidx.htm#GlassSd
+latestVersion: 2012/01/22
+nicommons: sm16763314
+files:
+  - filename: script/tim/@砕けたガラス.anm
+releases:
+  - version: 2012/01/22
+    integrity:
+      archive: sha384-jpoEAygf7n9X0deaB0q2d6/qh3BnSs/CFjj8/jW/LMZRapjDDdk7DRWcVoX8MIuL
+      file:
+        - target: script/tim/@砕けたガラス.anm
+          hash: >-
+            sha384-9ZbGAlSvxOh0ikRdaiOzNg5neU0xu1fjy2bc5cHxTNWA4cFFhLIHFZGNPvNFpJQw

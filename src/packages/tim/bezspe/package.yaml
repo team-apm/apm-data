@@ -1,0 +1,25 @@
+id: tim/bezspe
+name: ベジエ曲線による軌道調整
+overview: MMDのようなグラフで軌道を調整するスクリプト
+description: MMD同様、グラフィカルにトラックバーの調整ができます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20632293
+downloadURLs:
+  - https://tim3.web.fc2.com/script/BezSpe.zip
+  - https://tim3.web.fc2.com/sidx.htm#BezSpe
+latestVersion: 2013/04/17
+nicommons: sm20632293
+files:
+  - filename: script/tim/ベジエ軌道Ｔ.obj
+  - filename: script/tim/ベジエ軌道Ｔ.tra
+releases:
+  - version: 2013/04/17
+    integrity:
+      archive: sha384-IokvX/F6gXx6mferQEorbBTw5sOd9cyIr9SHjKdnHnPbkAtXJcTEaXCB2tLfYlT4
+      file:
+        - target: script/tim/ベジエ軌道Ｔ.obj
+          hash: >-
+            sha384-qIutIfzTAe+fQ+mimXRhqDkqtM9n7syttwzoLARe87wNWe9W/ghc9MjT6ULnS0Nw
+        - target: script/tim/ベジエ軌道Ｔ.tra
+          hash: >-
+            sha384-tt/K3P6yOErmTqrU5h0Mr04fg1Gf4b+OPkSwEoE3h/0b2ubt5j6d8KKIjIzu42RM

@@ -1,0 +1,21 @@
+id: tim/lburst
+name: ライトバースト
+overview: ライトバーストを表示するスクリプト
+description: 後方から光が差し込む効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16497408
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LBurst.zip
+  - https://tim3.web.fc2.com/sidx.htm#LBurst
+latestVersion: 2011/12/23
+nicommons: sm16497408
+files:
+  - filename: script/tim/@ライトバースト.anm
+releases:
+  - version: 2011/12/23
+    integrity:
+      archive: sha384-9iokw0xS7ZkCKSgSqkcKuq/tgJbtZ2EFb8JOamF6T3bfcHNUcNSQdfB0wDYN+nPK
+      file:
+        - target: script/tim/@ライトバースト.anm
+          hash: >-
+            sha384-El8XlMcx5inW++PORvRCJaNTHWStF3X9vRDabat6LhA7SbqnEYVuRSdS2x0WYPrN

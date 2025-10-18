@@ -1,0 +1,380 @@
+id: rigaya/NVEnc
+name: NVEnc
+overview: NVIDIAのNVEncを使用したエンコード
+description: NVIDIAのNVEncを使用してエンコードを行うAviutlの出力プラグインです。NVEncによるハードウェア高速エンコードを目指します。
+developer: rigaya
+pageURL: https://github.com/rigaya/NVEnc#readme
+downloadURLs:
+  - https://github.com/rigaya/NVEnc/releases/latest
+latestVersion: '7.73'
+files:
+  - filename: plugins/NVEnc.auo
+    archivePath: plugins
+  - filename: plugins/NVEnc.ini
+    archivePath: plugins
+  - filename: plugins/NVEnc.conf
+    archivePath: plugins
+    isUninstallOnly: true
+  - filename: plugins/auo_setup.auf
+    archivePath: plugins
+    isInstallOnly: true
+  - filename: plugins/NVEnc_stg
+    archivePath: plugins
+    isDirectory: true
+  - filename: exe_files
+    isDirectory: true
+    isInstallOnly: true
+  - filename: exe_files/NVEncC
+    isDirectory: true
+    isUninstallOnly: true
+releases:
+  - version: '7.73'
+    integrity:
+      archive: sha384-CGHlPa+EP3ZLt6mMDomS4hnqQMO/uexeZn56Yz+m7Bngg2XsBoofHyt+vffLwVkV
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-nccN61kJc8oL4ti9HIYj8i1MuyWjkT6hqbMjHBnuZ0INUtPAceBy8fZK0P0lzdZI
+  - version: '7.46'
+    integrity:
+      archive: sha384-ocxI5hjfvirqgrS/6ciaQEfzMB99o+S+fRhxRS21uPJM8BSC/OEy8bXS0Vqish4n
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-dogZI6l0zHErMvBiVe94jdE8G7HTMFoi1pb8Ejf0xEP9hLD5TduL1vaJoujK91EI
+  - version: '7.45'
+    integrity:
+      archive: sha384-LOWxg/X1dtbgvQ7OCi2gIrEOfpFvIoxU5yYjwybp6TxW0vL423w3j/XJnse9iPVp
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-GJ31EmjGrcmB/YeY7bTxwCYW+sNpzrdC9H9XzxwvAxPgaR8eghN1zHdkZi+UG0KO
+  - version: '7.42'
+    integrity:
+      archive: sha384-MQ4kDhpg4g5QrqtgiRrmTxNrySzAtgGDqytexQWY1Cx13H852tR982CDpcr9RXs6
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-qHMEi+FBKf4JpZvt+rlCDT3u9wdi6IuAK1xM5jbO+Kvo9w6ujen5F7Pn6yKGiGoI
+  - version: '7.41'
+    integrity:
+      archive: sha384-PgzXiVnvlxu9/wkxCQOGPJ8aZ5m9MEJleRumwJvcotrOjgWqIwY+0fJgpOhtY7uj
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-NCEXiDIg+BVAPLGJCQQs82k/D26CjnTacdhVFp/0kNcRBfVOAS2X9erCvTRx/18v
+  - version: '7.40'
+    integrity:
+      archive: sha384-Z3aIGRRaKhZwTvI9/k3iE/Pnf7NotYqfH8wboKRTVAPRWr6c7bQ7LvG2kW2Q/KvW
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-sIiTM9TsTnbUBkJmrt7JvZdgycVW2iDPFm3RIqmUgcCw+k6aae1HZZZCMm/5WiHB
+  - version: '7.37'
+    integrity:
+      archive: sha384-vlGpTDgYucAg4gADRt3PGuOcpjk2GfyMl3yf85PhtywSmAY+/81hqWoKsYELEte7
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-eEh1V2LTlhlD0j5s3D7D+RB1/X+sU7D2tJqG0T1JVP3ZDir+PrDVn4BXVnxvAOO3
+  - version: '7.34'
+    integrity:
+      archive: sha384-fYf4Du7iPoqHsYzQphJJR9niwj8fbyTeirfg52QrGF4NKLpeBSoHrusGfOq8b79Z
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-O58+aS03if7W5yf1qJ2Nrvj1ArjBK9xbui1yLOKT8ALo46u9Y9Rw3gBWJOami1Ak
+  - version: '7.33'
+    integrity:
+      archive: sha384-/gFwOwnCAtlqaX3O9ZgztMnjCI3DZJwpYuEJPgHeu5upEKAjFACrGqYfldX0DTyP
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-r/3kBcn5aApn75hvTkPYozH/xxaWFWVF7Kgm+K3SvRuE+yn8U1IoXPMaW/pVM6K5
+  - version: '7.32'
+    integrity:
+      archive: sha384-7BQEdmE/b92bJ2sAcwtkeFPKmePpby9Q849DpSoKtVRf/46LRRKS4EobC8PBAf3X
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-/0VWWOug3bxO3FNDemaoo4dWeW6h5iQstcvNeFakmiHebgTU9wdpLIAq1oQWQqSK
+  - version: '7.31'
+    integrity:
+      archive: sha384-8wg/00MbIEFSQJClOS/duXLrqlufVTBVUCGeCLW1oRWkD8nefx1w0XI5rZPYOAJu
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-Z8yd64PaOYDX5KHKtDxMsFJ9nlgvuzZGdWXEvijTaqGHbQk01UOF0x7g2rq4FBeF
+  - version: '7.30'
+    integrity:
+      archive: sha384-CpK8GQcdjPtmTCOfdLw8rKRM6kyTJXSdLCNUvNt67wWSD88m3PiIBjnwKob4+TQl
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-Wfo8aNcyVWp59dxuiyjNiwllnLOQ1gTlJdB/Lw7k44Zb924AzZfR8rNS6dmFYiRM
+  - version: '7.29'
+    integrity:
+      archive: sha384-mgK/ji4pGJuS1DHkHtMeJQj5+LN6KY0z0qE5fAhtdrHgT1eJRIfq9LDmodno3HnB
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-5CP8+rH4n9rqioPckSz57Xyy/vzDWsFNTDTm0Y64DaUyR1qklU4MqYxF7DPYB+6m
+  - version: '7.28'
+    integrity:
+      archive: sha384-Bu4uVmvyZueslbn2RcJjJyAV75BKU/PyjyJ3MmjM09r1wqQxoWsOvGWg8DgtLXWs
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-RqZQDqCwdAjKS1RbQlO5+iZaDAa3BSa+DYETPdaz+huN6MFCYE5IxmmkSAWODT55
+  - version: '7.27'
+    integrity:
+      archive: sha384-ZHHJfX1YgQ+gzUVikuxvqNUtQc9mDRbnxlVusYyHCIS+PMfLzU/sCxr0eUbrLl+k
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-pUc0syulpBH1w+44neHDdkOE3djHK0kj0YdqzvWkIZYFE2ReJEJw18OQIITFW1y5
+  - version: '7.26'
+    integrity:
+      archive: sha384-oIlXDePPGixFjN+RH9SJ2fL80oVmN+CVC1gEPAfiZ23J3jeqKRkOC2M85+7lMZ1B
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-d7E27sltxQ4mLE3oPPZpfQOObhchV3F+rAQORnU6VZ0CJuFa+J/ZzKzFkNSlltBy
+  - version: '7.25'
+    integrity:
+      archive: sha384-kPUa/KWH+bqtfspRinpQlEkYhW4gTNJR7LQ2OygPMIMgISDyz2Q9HL8nvDDeJCAG
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-iQMvY3DSqTeIkJRucvRXoZChb0+gAsSnywjxk1EK/z8yWRRoLUMyDr+XAYtCxqlw
+  - version: '7.24'
+    integrity:
+      archive: sha384-uUCMjEb8UlkJo2EDCryDjXaYF2dB827DUITqG/o7fI0WFAbn2oMqiKnlSNqLMSlF
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-gbXQnHYpnPxy3YQ5ss/dvAIM5lQcrjWAgC3EByskcrfrhiK6X/ix0okloMmZH73c
+  - version: '7.23'
+    integrity:
+      archive: sha384-CQPs+z5Orh8d42JQPGkzO13QrTLxQQU0ZQI4YGbbRLV/8/1ticIpb5t7NlXhJT+0
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-ac9RWvEHEP9+1JcyCxpCpTzM2DQ3hG+BBDEDiGmuf5/XAVzLxNXRb5pbOJGPobFo
+  - version: '7.22'
+    integrity:
+      archive: sha384-X+U6Z2OAgTW6oVf4DxO0m0xfv8+HhzhzYyp//cEbJZqLfMEMOOtpEWUeWQRIxl4M
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-gJr9NyLhkbbstccx4sbvdcuUY2e//mwhCnguUEbTSpPrp3ic0EyxelyLHwKiAJSy
+  - version: '7.21'
+    integrity:
+      archive: sha384-CBjnjpVNPN9XyqCL2sGvG9TqsChzbHh9FULehIpQIRGrsWxvr4I4MiT9Sm0sc6xi
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-moRmUC5pqxRR6Oi9tO0sfxWHxuTw3I4POraVF6KB6Po/i0QWjV5XdDxRrJhgC7Q+
+  - version: '7.20'
+    integrity:
+      archive: sha384-cdmOMDJvOd54b7rIbRUtvDHJLoRhZ3NiQYNcvcVx/rojr3s7zd//zomhqBqazPiX
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-SJvJ8j9yOZblyRdEBHWvMNBImi9HVUspYQtCvMHj16bo/5S3nwwIPiOP196rLRCU
+  - version: '7.19'
+    integrity:
+      archive: sha384-3J5KuOKyunPHQ8pxCHtz5JhkNarFfL0Dl3E1kLTL0oIkEDid32hO+4S6CfO7Z6Ir
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-mr9s1X5w6mVHkolcLb92jfGz7DXKkXPq95WF+g0DQth1WmUw7D2FMyaXeMeJ7OGW
+  - version: '7.18'
+    integrity:
+      archive: sha384-4kRBA3+eDXFcuNi2UVXN7EEqewpW6b4UNNYR0wD1J3+HFkGhApxJh8a2PJbEVOFt
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-iU8pvzW96CU70LNHAKsRZjysrB7UWwyoKvWjVu6eZESuffr/MVGpJiQYQeTWY+Ff
+  - version: '7.17'
+    integrity:
+      archive: sha384-GHP8X9dR1p40D+X5jbsHBHGVuU8bJEBQjSXay4cK5Kri1xWc2L2wqbFrGJC8nLmt
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-h0JoaUjmui/byYW7H25ELt1f4suQVgsOCy5QcZVGvgyhkipEwubbrrb5I/E+8tnn
+  - version: '7.16'
+    integrity:
+      archive: sha384-CMxok2MUy2ysUt5vbT4xOsgXM9Kon4DK7nLuByIDNs2fOGMx8yd/Zbeb6YCshjxX
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-1hA7l8a37bsGxbr5bgbJ+1PzGE9fjAWPZMwhnifTIUSKEEcH7NgcpGFhd9e2+dMG
+  - version: '7.15'
+    integrity:
+      archive: sha384-mlXUYKKMN1aJJP40t9YjHC3ejUD/7Id1ZY+mt25dYD/SGX51qimLg+5lIxM2SYx0
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-EbM3QS0zioWZtk3bmftshVYIAH9dPd/Apv68HeavLImoMWpaNSSNZ+prO0ggyVYp
+  - version: '7.14'
+    integrity:
+      archive: sha384-xeN5b5jV83OEyOTFPAq5t1/X6QVNL0gQpageiOfL63bC8H2Dt8cq2Mk3EOASZZjw
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-s4TgF4LZGIyi4FXyeijYmJCncpSi9u81eF72gtGXA8PLV0IHpAsof1Dn+Tltytxp
+  - version: '7.13'
+    integrity:
+      archive: sha384-RizhXyBvSihtKTTVfKvls2MbodDH+bVRrvcJDcn33z1FCSgCDDrH05MulOMQ/fYn
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-urK23GWRaW3zrFr0zYze2f3m05hQsbPX9/t09QZQRYnGn/R+pBQbf3dwcFosn4Uh
+  - version: '7.08'
+    integrity:
+      archive: sha384-2sW9bsC78IjZTS9td19zKXEmmSAKEXYzZqG/8P6Asaf8hsZ6PGENGhQRX23OAA8A
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-C7+hQLiESltMWaFXpNCOx670Kg8+aDuwDPSw/kD3FioPBMWBO/c599Rpqr1WJJVn
+  - version: '7.06'
+    integrity:
+      archive: sha384-OvUuXad+6bLuu/iaJ37Lwst61q9n8Kxco6+oJ94JZLenMpCfe0I2UKPoT7yofXym
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-ann32WsX7a+W+q4Owm3Rx3YHN4URQAcSfNO4BbSbYbmhLuu/G5GkQqP04Apd0Jc9
+  - version: '7.04'
+    integrity:
+      archive: sha384-2u9VVouxXarjffbHdFDfNfqnEp1WkQN95yd2Qhd4+qVQdzbK9/4PT3xG1mGnhXxz
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-nRZ0+5aSzeJiWhl2UH4y8KUGAo9/UEcdgyiNA9N/oMrtV+UQxmBXIzZP+gCMQzTp
+  - version: '7.03'
+    integrity:
+      archive: sha384-fNZonSmI8TiNkBODSPzs89Qs02YsLuG3dTLqNXzmKQgYSg14ixZhfQmJtI4DU2vI
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-XyrRqOnImN+xrlF/xoACE+7fbXF4/mdgaXW9AE+ecAoz7g6O5ar7qzoI09gy/M3b
+  - version: '7.02'
+    integrity:
+      archive: sha384-tiqK50NyorY+88ymtsDJKyGRuE30/r5gO6UFFDr7FhxoFlHzbAMBDRPApZ00WHjn
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-Jk/VGqJBVJYMsHV4JvD7Rnpv9BMvlH/OSl1euCKMO/ubUhra/ULHPn6N38x/LftN
+  - version: '7.01'
+    integrity:
+      archive: sha384-tInby8JoDHQuLtY5Sy+LlAQgZ1f89WDbPoktwuicMSUzumhOVSQJsysRWArApIG8
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-jMhRsjIvgIDasBDjOI/+KXnoEt/NF0qwkPBVAX2PleHBJ9iTtWaJXmXdsUSwecpr
+  - version: '7.00'
+    integrity:
+      archive: sha384-QD7i9aNvhHw9dIlM0Nc/Bh0xRoQrGA1hMK+HTQTQpZ8w0tzgeHQ0QwIDXbA9y6Jm
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-rFHt9d8JHpO0cCO9QUFmfn2+9P7C/pWe8rL+6kx6TwfTkMVZ9oYo8JtANm9Oicm0
+  - version: '6.12'
+    integrity:
+      archive: sha384-UWzAYkQw2BEHkWxi4WG5ha5lc5IXQzCwR89FbvchfU9NAzUL8y0AN5F8BrcleRl7
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-0VAsJQC3E1ncaX/JHqsjw35Rc2XDGMyyv852mdhnDK7CvGY72tBlNcPALLatLxqG
+  - version: '6.11'
+    integrity:
+      archive: sha384-aWWwFji9Dsl3SoWIpjkY6QZGuYjKrqNYVjqVCMnGOAFw9jCNOebLXP/EFaXa0hSK
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-p3TByCFOJYX4jdvgk+pvA74jZVgrN3jW9UWiD3HpUGNqjte5KfvVxnBa3ChJLf7W
+  - version: '6.10'
+    integrity:
+      archive: sha384-9y3Cq/Fu8l+LWemO4AUmukoy6wg8Uc28gcUEcpUuZvqozM7HqY+kn8LGx3jBGH0G
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-eK0X1LUXpmfBarVmStHxd99ttyK8kmdlWFIv+8QG9LIi1/nleMsXNDhbPtG4nqvZ
+  - version: '6.09'
+    integrity:
+      archive: sha384-4Q+Tj4k4t2KVzIDk6tDcwAtJPjMwDIGDYyCckl73xp/C4L3JHM/W7E3nZa9C6WeQ
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-6tqDngSiYlKR8r5ecYjUvdKfsJxJ1Wpfcqz2HP9ogwXBMQct+wH1YG6BSN44x5kY
+  - version: '6.08'
+    integrity:
+      archive: sha384-DkjmGnu1HgGVIQ4pnCZ1R/6oNs5LqFtL70RBVo/RqpekePXQ+RCuvGFrAw/YLg9t
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-spF99vA2C8uXFNnkPpJhfS7CKFbl9S2T4K2fqYjOtkdsYjPQhTZDqEFEUdH5eKm/
+  - version: '6.07'
+    integrity:
+      archive: sha384-xZ7+2QO2NdKTtCB9zIWH7VsCA/GqfZBdR1+rLUP72R+rMtN0oAyACtFaMjAfsAZW
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-4og63jP8DY5/+bsChZ976k5sNZlREH80sjle1kn4ljwu/8dfdk2e/4vXVLSSsF31
+  - version: '6.06'
+    integrity:
+      archive: sha384-5bI77on5Xb0FdDP89ZhpnV0kvhXLNZ+ZgeMcqyPngRLhiOI3ZxHme/LhdipwHIP5
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-2UScWmHTNpvKx7gW7xwbU40gIXLqiTnTptY3w3eDuJlR4i6G9L6ObFlxFRzIFhzh
+  - version: '6.05'
+    integrity:
+      archive: sha384-b6eKKPaUf1r8fBjSsO9Wp3jguKvMeLOr57Ucg50xAhKG4U4k2DUuALxoPymI3nCh
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-MVQGoHRPvSST5qPGg4Hye5qdMyFaRd4NHZe6Op8CvgQc2Du5VtpY3lV/j4/DmhsD
+  - version: '6.04'
+    integrity:
+      archive: sha384-D7SfeuHEieZ3hZT52n59JYUly12VCoJ8Im/QXHob3jQSwfs6ktD/AlHYNbQkydDT
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-8LjwH5RVsirbtyY6i7rwGzHS0JZ/3SYrxaobZOs+4uJT32xxGCy8uyhjm03r9QNb
+  - version: '6.03'
+    integrity:
+      archive: sha384-2GuJRil8IxmAdFg4C0RRXqtp0PnNHQGHG3yq8T/XxYlHGS4ZyQiYx1h6LbuxJNDv
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-eI7Uv/mCh0hkqHq5ad2DFPv6gpg6ecIQrPkzBaF8eTJJuqsWbBaMllOqhwK5aQXK
+  - version: '6.02'
+    integrity:
+      archive: sha384-xOrHmZmaNrWl9lHcxlHWZb17KwX8hQpQpbiUWeC0c6oGdQ9sy80xYIyFFP1q8hlg
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-mG1AtkHFcfF14Q9sjwbPu+8DDoX6az6xZLAusYP9Act/5j+t0QBqnsRsmiTPbkXh
+  - version: '6.01'
+    integrity:
+      archive: sha384-WUqpf9rkuU6H92GP3aAXsjjWT1TYxHRSgeNctaYt5Os+o/arC/NRJJggEN0yXn1K
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-2QkOABXpaH4Nm7WEo9Mfn7PKxnkQ0Miixbh8DND/1yEUv/N/ZZE1Sqt4metjqbXp
+  - version: '6.00'
+    integrity:
+      archive: sha384-wST4X1zHU0nocsTJolZ5BkS87AogU4jsQuWpw1WjmcfVNWYngCg73WE2zjodznRH
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-DCTCTINHSqic1Er/hwBdGjr+93W5kTK5VQl3ZexKLdtZLETRwDVh3KwNqefo2WNC
+  - version: '5.42'
+    integrity:
+      archive: sha384-a9l8bRigK2w2OzlETnr3rD+t0Gsshtn4MbNi1L8VhctvrNc4cW12KVrYk9PhPAzI
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-ACFEiDl87pYv1VGq2gvKtL3izDBFHvY878WtMJjsdtrLpCqoXYWbbaXXZGlnvqmz

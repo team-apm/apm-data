@@ -1,0 +1,18 @@
+id: rigaya/AviutlColor
+name: AviutlColor
+overview: Aviutlの色空間変換プラグインです
+description: Aviutlの色空間変換プラグインです。
+developer: rigaya
+pageURL: https://rigaya34589.blog.fc2.com/blog-category-25.html
+downloadURLs:
+  - https://1drv.ms/f/s!AsYziax1Q91rpA_zeixfUoylnZ9K
+latestVersion: '0.02'
+files:
+  - filename: plugins/color_bt2020nc.auc
+    archivePath: AviutlColor_0.02
+  - filename: plugins/color_bt601.auc
+    archivePath: AviutlColor_0.02
+  - filename: plugins/color_bt709.auc
+    archivePath: AviutlColor_0.02
+  - filename: plugins/AviutlColor.ini
+    archivePath: AviutlColor_0.02

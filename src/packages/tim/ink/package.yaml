@@ -1,0 +1,25 @@
+id: tim/ink
+name: インク（＋ひょうたん）
+overview: インクのようなオブジェクトを追加するスクリプト
+description: インクのような形状のカスタムオブジェクトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17999314
+downloadURLs:
+  - https://tim3.web.fc2.com/script/InkV2.zip
+  - https://tim3.web.fc2.com/sidx.htm#Ink
+latestVersion: V2
+nicommons: sm17999314
+files:
+  - filename: script/tim/ひょうたんTM.obj
+  - filename: script/tim/インクTM.obj
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-KKeI0pTw0dIMcaScPSB3LZpVxcEe2JcBPu3RYHBxuf5ybTWEBV0seTl7iUcTt/K5
+      file:
+        - target: script/tim/ひょうたんTM.obj
+          hash: >-
+            sha384-Kn6/knNL6ZWyucmTCkp+RdhbmgnHfUflnZyudEV16qmJHN/w2457Si+RHO9BH6D7
+        - target: script/tim/インクTM.obj
+          hash: >-
+            sha384-vlAZjtbaAXwyS4WiKAJqAonfOuL44EnvVp7wItqoWiuyXrnannJ0Zu9P3hmbsARO

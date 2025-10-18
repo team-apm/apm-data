@@ -1,0 +1,21 @@
+id: tim/polycut
+name: 任意多角形カット
+overview: 任意多角形を切り抜くスクリプト
+description: 任意多角形に切り抜きます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16326102
+downloadURLs:
+  - https://tim3.web.fc2.com/script/PolyCut.zip
+  - https://tim3.web.fc2.com/sidx.htm#PolyCut
+latestVersion: 2011/12/02
+nicommons: sm16326102
+files:
+  - filename: script/tim/@任意多角形カット.anm
+releases:
+  - version: 2011/12/02
+    integrity:
+      archive: sha384-hom78uCG7K+qBFMwwQRGkyQK0PxOdwx+jhjpYJD4DMaTUA1h7l+uVST+DHX4/C73
+      file:
+        - target: script/tim/@任意多角形カット.anm
+          hash: >-
+            sha384-wWiItR8uUCVLVqtXFXSGGi9EnttvCK58m2xpP8VPG7vapnRXAgvLNucB0bsB63JH

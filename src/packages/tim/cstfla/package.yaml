@@ -1,0 +1,28 @@
+id: tim/cstfla
+name: カスタムフレア
+overview: 細かな指定ができるフレアを表示するスクリプト
+description: ある程度自由にカスタマイズできるフレアです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17476172
+downloadURLs:
+  - https://tim3.web.fc2.com/script/CstFlaV3.zip
+  - https://tim3.web.fc2.com/sidx.htm#CstFla
+latestVersion: V3
+nicommons: sm17476172
+files:
+  - filename: script/tim/カスタムフレア・プリセット
+    archivePath: CstFlaV3
+    isDirectory: true
+  - filename: script/tim/CF-image
+    archivePath: CstFlaV3
+    isDirectory: true
+  - filename: script/tim/@カスタムフレア.anm
+    archivePath: CstFlaV3
+releases:
+  - version: V3
+    integrity:
+      archive: sha384-AMO3Ir5s32F2fIdJ/lXf7lWRGNN8dTXLqO+jy0CxfU3Ez+VPwrs8aPKO2z7VSvEn
+      file:
+        - target: script/tim/@カスタムフレア.anm
+          hash: >-
+            sha384-e4StZuX/MzCRV4nsok5iUxwcridLRq2TYKQSTTM4K9rdo8n/QltWSB1BufpzVWUv

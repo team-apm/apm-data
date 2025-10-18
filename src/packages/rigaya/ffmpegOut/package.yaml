@@ -1,0 +1,101 @@
+id: rigaya/ffmpegOut
+name: ffmpeg/avconv出力
+overview: ffmpeg.exeやavconv.exeを使用したエンコード
+description: ffmpeg.exeやavconv.exeを使用してエンコードを行うAviutlの出力プラグインです。
+developer: rigaya
+pageURL: https://github.com/rigaya/ffmpegOut#readme
+downloadURLs:
+  - https://github.com/rigaya/ffmpegOut/releases/latest
+latestVersion: '1.13'
+files:
+  - filename: plugins/ffmpegOut.auo
+    archivePath: plugins
+  - filename: plugins/ffmpegOut.ini
+    archivePath: plugins
+  - filename: plugins/auo_setup.auf
+    archivePath: plugins
+    isInstallOnly: true
+  - filename: plugins/ffmpegOut_stg
+    archivePath: plugins
+    isDirectory: true
+  - filename: exe_files
+    isDirectory: true
+    isInstallOnly: true
+releases:
+  - version: '1.13'
+    integrity:
+      archive: sha384-XrrJLw9AXjVXHpbagF6oFLwF/J2eXb5ATwGoWZcmIhqGAh6Al1Hd0syuSVYr//I9
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-qHVVIKss4c5zeu7LSJZoMLvDh1oCHe4Ws2PRnJcnnS0elMJLqY/JRlYXjeCFAeES
+  - version: '1.10'
+    integrity:
+      archive: sha384-qaqKE8K2O2uuN58Q7NCWm0PZHcvDENW6LEkRm7K1S4+reYtg2IaaA+D8exkwRGWR
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-teMR+/g+0T1C1dBaZP80oh7QiOiDZAQaGjLPyXqR6lWPLMEWg/6v0uv7OssqSRFD
+  - version: '1.09'
+    integrity:
+      archive: sha384-2Lq9uObGV1O39hBdZ6I55dZeoPmh98PGwaynfpfe4mFmgP1WDGLfe85L/VPca2+5
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-2kBH04QPa7Pte2PEL+QwZ0isUPj2g/Ztrlz8CF9bQL9vRVerRnfZpigRaoIl/nf2
+  - version: '1.08'
+    integrity:
+      archive: sha384-ibxJItOLxXiDeIB9/KVtqpin/jlJ7iCpQ3dRg3IGIhUXGbfc927lat//5/1J6hCn
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-xJ/6gfXHLBPZv6PoMh6u+633VQcqizNt5Qo+XBRQRotCKo1+UblpBOnQL6tOoMgb
+  - version: '1.07'
+    integrity:
+      archive: sha384-H5KALINn8ZEk8Y5R+FaT5KxwLXsyGyfbGIVeXRwrq8eIAF2CsIJU5XM+Q1fPc3Og
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-1KXx2tvGUbt/Owj/onyQAKAufJDrzSzYJl1MQVrAMJPCZZRbs8VKb1wVyO0mCIQj
+  - version: '1.06'
+    integrity:
+      archive: sha384-tDVw/M3XUkhc/G4hkuDOAeBILgS7C3REYgaN2eY/IXoALzebhb2X+ldSLddku7MN
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-Ps6iXOgBE0WQ2O4YCJpgOxNaubWG0nbpocWONx3+OJbeNqXt+xEravjtn7Ax/+tK
+  - version: '1.05'
+    integrity:
+      archive: sha384-e0pvv2nWcV49flFniB6GrgrsVHZUarVCNNJr9niPtsO86lujRXqOaQn8M+G6fcqN
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-XD/6J/ZLPmBhLL49nI62soRYPY7Cfcbo86d5zGEWL6KBQUw2AiaW8PCaL9Hl+bjM
+  - version: '1.02'
+    integrity:
+      archive: sha384-yu0EXLGoo8+dqXekyyXr3vBReYXmSjam3OU4hIcVhKJJAZ97bKBGxJkPuQJNJ/bf
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-SNCmGCbsegkL4LLKWjr3oVLQBPzAc4ONQgj3aGSnv5h9ht55WYKa7h1nonXYOlHg
+  - version: '1.01'
+    integrity:
+      archive: sha384-wJLke9oEcQOKiZ3I55Id0VXRRihs+9D1uEh5cx/Iuoo/+gmT1TWr9RK32S+5L+xM
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-EdV6RfI9/8Kdm1s0hBTvXxIowMtX0uugbCIpHhqz307nFAU1B38LThXUasBK6Aot
+  - version: '1.00'
+    integrity:
+      archive: sha384-7kfgxgORTvI+EA+HFlxPpGcC94yZKvLfHBHv8HDyBQ3zaLRhYKVSFSk2JoA++H2A
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-xsm3y7kOYBJ7W9Uuv+gsIcEUaf+dtm2UKqyZ/h2YA5LBYzMVZlY25mqJBwfQFOGl
+  - version: '0.10'
+    integrity:
+      archive: sha384-pvAZnNFLcnZVAdC1kpydIpZtSq76Gr+M5qgnVONee+J5FpkDkXbxQUtTBTwQchWd
+      file:
+        - target: plugins/ffmpegOut.auo
+          hash: >-
+            sha384-wOUpuUYb6Rh0HPi3ycpFaNwKxCEgfoQYgg9z3fNZ1LdDrr9MVcg47T5B0iqQiui9

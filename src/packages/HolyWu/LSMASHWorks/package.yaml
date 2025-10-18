@@ -1,0 +1,18 @@
+id: HolyWu/LSMASHWorks
+name: L-SMASH Works
+overview: 様々な形式の動画・音楽ファイルを読み込む
+description: >-
+  様々な形式の動画・音楽ファイルを読み込み可能にします。VFR-maniac氏が L-SMASH Works 開発の一環として実装を進めている OSS
+  のHolyWu氏版です。Mr-Ojii氏により毎日最新のffmpegを用いてビルドされています。
+developer: HolyWu
+originalDeveloper: VFR-maniac
+pageURL: https://github.com/HolyWu/L-SMASH-Works
+downloadURLs:
+  - https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/latest
+latestVersion: 最新
+isContinuous: true
+files:
+  - filename: plugins/lwcolor.auc
+  - filename: plugins/lwdumper.auf
+  - filename: plugins/lwinput.aui
+  - filename: plugins/lwmuxer.auf

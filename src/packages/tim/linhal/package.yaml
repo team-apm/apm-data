@@ -1,0 +1,25 @@
+id: tim/linhal
+name: ライントーン＆ハーフトーン
+overview: ライントーンやハーフトーンにするスクリプト
+description: 画像をハーフトーン・ライントーンにします。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20946264
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LinHal.zip
+  - https://tim3.web.fc2.com/sidx.htm#LinHal
+latestVersion: 2013/05/24
+nicommons: sm20946264
+files:
+  - filename: script/tim/ハーフトーンT.anm
+  - filename: script/tim/ライントーンT.anm
+releases:
+  - version: 2013/05/24
+    integrity:
+      archive: sha384-XVI6hu/e7s7Q64EveXIBPMSLJecIK7a3P/RXSKXz+M5bH9lgDZosq1tWUpD0lcKN
+      file:
+        - target: script/tim/ハーフトーンT.anm
+          hash: >-
+            sha384-VC/SK9wXHF+03WWRXzu/INC6g7NMLVJz2/h3cbA1e0XKdGbqnYZwhE0sDDRcnMvS
+        - target: script/tim/ライントーンT.anm
+          hash: >-
+            sha384-hpheoXvIZtJiym+TqgW5e9bnyj3/A+bAAoy/yohSS8O5hlksdioIjVZWOmh+1671

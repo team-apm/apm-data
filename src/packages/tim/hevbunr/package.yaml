@@ -1,0 +1,22 @@
+id: tim/hevbunr
+name: ヘブバン風音声波形T
+overview: ヘブンバーンズレッド風の音声波形
+description: ヘブンバーンズレッド風の音声波形スクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm40816069
+downloadURLs:
+  - https://tim3.web.fc2.com/script/HevBunR.zip
+  - https://tim3.web.fc2.com/sidx.htm#HevBunR
+latestVersion: 2022/07/24
+nicommons: sm40816069
+files:
+  - filename: script/tim/ヘブバン風音声波形T.obj
+    archivePath: HevBunR
+releases:
+  - version: 2022/07/24
+    integrity:
+      archive: sha384-BXCm7JHLUxyNmyX1TXrHWQr1NqYqpDU2gnH5m00Yp++psuSd/qz3QMa5cBEzPmif
+      file:
+        - target: script/tim/ヘブバン風音声波形T.obj
+          hash: >-
+            sha384-DQgAxLeA2Z3Z0vCNXC09MvU2Bw9tK34Qpubp64eB0zGSHbkN1plHy4vYo4MpG0OC

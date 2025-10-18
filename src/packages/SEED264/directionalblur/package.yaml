@@ -1,0 +1,54 @@
+id: SEED264/directionalblur
+name: DirectionalBlur_s
+overview: CUDAを使用した方向ブラー
+description: >-
+  CUDAを用いて方向ブラーを行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022
+  x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】
+developer: 星野なたね
+pageURL: https://github.com/SEED264/DirectionalBlur_s
+downloadURLs:
+  - https://github.com/SEED264/DirectionalBlur_s/releases/latest
+latestVersion: v1.00
+files:
+  - filename: script/SEED264/DirectionalBlur_s.anm
+    archivePath: DirectionalBlur_s
+  - filename: script/SEED264/DirectionalBlur_Direct_s.anm
+    archivePath: DirectionalBlur_s
+  - filename: script/SEED264/DirectionalBlur_s.dll
+    archivePath: DirectionalBlur_s
+  - filename: cudart32_75.dll
+    archivePath: DirectionalBlur_s
+    isInstallOnly: true
+releases:
+  - version: v1.00
+    integrity:
+      archive: sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz
+      file:
+        - target: script/SEED264/DirectionalBlur_s.anm
+          hash: >-
+            sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P
+        - target: script/SEED264/DirectionalBlur_s.dll
+          hash: >-
+            sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc
+        - target: script/SEED264/DirectionalBlur_Direct_s.anm
+          hash: >-
+            sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr
+        - target: cudart32_75.dll
+          hash: >-
+            sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr
+  - version: '1.00'
+    integrity:
+      archive: sha384-nbosVXCgULqAaGYFOBvey0E7dE+nzC8PFrQ89CztuWebjdXfxY7xdEOXbOBE6Zdz
+      file:
+        - target: script/SEED264/DirectionalBlur_s.anm
+          hash: >-
+            sha384-dm+D28My/BDCPWnUCK+ACNA8yj9H3bFWUGixMgYrsWjUZLK3ypr8npJVkObddk2P
+        - target: script/SEED264/DirectionalBlur_s.dll
+          hash: >-
+            sha384-lkwqZVERvr6BoCD8UGBIPQymn3SHKIpgcPRh+9H8EXSVhZNKCk73ib51FUrw0zpc
+        - target: script/SEED264/DirectionalBlur_Direct_s.anm
+          hash: >-
+            sha384-NrSbC/uqS5biUb09sgTVaLYSaqveRU6c3XZTS1whcZU95xkMG2RIm6nB9nuFFXbr
+        - target: cudart32_75.dll
+          hash: >-
+            sha384-aXRc8QB31EbMf/tUbw4H/ZT4OY8iqQwsa4D9/7qBsBgax0gPZ+siBpMbHS21xyTr

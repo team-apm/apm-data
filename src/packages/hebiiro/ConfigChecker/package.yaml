@@ -1,0 +1,23 @@
+id: hebiiro/ConfigChecker
+name: コンフィグチェッカー
+overview: 動画を出力するとき、設定が適正かどうかをチェックします
+description: >-
+  動画を出力する際に、設定が適正かどうかをチェックするプラグインです。出力範囲やフレームレートが設定されている場合、最終フレームがアイテムの最終位置と一致しない場合に注意文を表示します。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-ConfigChecker#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-ConfigChecker/releases/latest
+latestVersion: 1.2.0
+files:
+  - filename: plugins/ConfigChecker.auf
+releases:
+  - version: 1.2.0
+    integrity:
+      archive: sha384-DtkQc3EstKeJ+bVZJpaJ1+UV4bgNgLPjfwwG8PI11eCOAnROxtRIlYkWJSYFjbJY
+      file:
+        - target: plugins/ConfigChecker.auf
+          hash: >-
+            sha384-Z0NSEKWkBXGoh/2qi/zDjNaL2b/zXxo5yYIiLekT/VcgmRrWWK5BZNG3KCrJnH9R

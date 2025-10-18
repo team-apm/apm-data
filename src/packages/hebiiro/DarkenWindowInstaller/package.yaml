@@ -1,0 +1,14 @@
+id: hebiiro/DarkenWindowInstaller
+name: 【廃止】自動インストーラ(黒窓)
+overview: 黒窓の自動インストール
+description: >-
+  【自動インストーラは不要となりましたのでアンインストールをおすすめします。このパッケージをアンインストールしても黒窓の動作に影響はありません。】apmから黒窓をインストールするためのパッケージです。インストール時にインストーラが起動します。
+developer: hebiiro
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-DarkenWindow/releases/latest
+latestVersion: 8.1.0
+isHidden: true
+files:
+  - filename: placeholder
+    isObsolete: true

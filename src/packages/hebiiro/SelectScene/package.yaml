@@ -1,0 +1,38 @@
+id: hebiiro/SelectScene
+name: シーン簡単選択
+overview: シーンを簡単に切り替えられるようにします
+description: Aviutl拡張編集内部のシーンを簡単に切り替えられるウィジェットを表示します。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SelectScene#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SelectScene/releases/latest
+latestVersion: 2.1.1
+files:
+  - filename: plugins/SelectScene.auf
+  - filename: plugins/SelectScene
+    isDirectory: true
+releases:
+  - version: 2.1.1
+    integrity:
+      archive: sha384-6C5K9fqr19f6yF1WNs59IvAShmaRTm9eX76WXfDYEOhxi2y7zT1wyKw4BzN+BHwf
+      file:
+        - target: plugins/SelectScene.auf
+          hash: >-
+            sha384-hLPu2SmGS83zdqqV4UY7DehF1DgR9yfF8m9ydHaGLzEsCoLM48R5YctW5wjvGfvf
+  - version: 2.1.0
+    integrity:
+      archive: sha384-bKwzymnidSBtJj8uuCHtcUrD48OEb2WMkW6szru9wxKulPcbyCBwyn90qCDedrw+
+      file:
+        - target: plugins/SelectScene.auf
+          hash: >-
+            sha384-hgCkVBbjeye/Q4sxnop5mgfuhUxakQVNtB8OVQyA6HxJ7EQvnbZ4M3gf8o4a++qG
+  - version: 2.0.0
+    integrity:
+      archive: sha384-MGBJTDi58ph04aXW1Z27Ed2o8/j0udcVwwiAm55Qpr20D43L9AERzbPjInO9y+Ob
+      file:
+        - target: plugins/SelectScene.auf
+          hash: >-
+            sha384-W/ZqdKzatgw+fD73PWep63ClXMN/+O2n38EoxcpHByx7tAFocYx2thoMi8xxD9bS

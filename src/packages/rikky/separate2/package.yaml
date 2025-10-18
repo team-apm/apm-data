@@ -1,0 +1,17 @@
+id: rikky/separate2
+name: パーツ分割（rikky_module 2）
+overview: 文字などをパーツごとに分割するスクリプト
+description: 分割したいイメージにパーツ分割のアニメーション効果を付けるだけです。分割された一部が表示されます。順番の数値を変えれば、分割される部分も変わります。
+developer: rikky
+dependencies:
+  - rikky/rikkyModule2
+pageURL: https://www.nicovideo.jp/watch/sm34776228
+downloadURLs:
+  - https://hazumurhythm.com/a/pA2/
+latestVersion: '5'
+nicommons: sm34776228
+files:
+  - filename: script/パーツ分割/パーツ分割(ライト版).anm
+    archivePath: パーツ分割5
+  - filename: script/パーツ分割/rikky_separate.dll
+    archivePath: パーツ分割5/rikky_module ver2用

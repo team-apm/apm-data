@@ -1,0 +1,21 @@
+id: tim/halfres
+name: 網点分解T
+overview: 印刷の網点のようなモノを作成するスクリプト
+description: CMY網点分解します。特色分解も可能です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm30453526
+downloadURLs:
+  - https://tim3.web.fc2.com/script/HalfRes.zip
+  - https://tim3.web.fc2.com/sidx.htm#HalfRes
+latestVersion: 2017/01/18
+nicommons: sm30453526
+files:
+  - filename: script/tim/@網点分解T.anm
+releases:
+  - version: 2017/01/18
+    integrity:
+      archive: sha384-HMT/1arlviLjwYH41qGQJs2QqIPnofJ5ME68YF3q1uPBVNt1IEIHkQRUREgk4S9U
+      file:
+        - target: script/tim/@網点分解T.anm
+          hash: >-
+            sha384-jKLA0MhnE64T8tAs6UC21QQQQJhkuBhYQbAJqrt+hZifxcM5fyKCo15yzaptCBvY

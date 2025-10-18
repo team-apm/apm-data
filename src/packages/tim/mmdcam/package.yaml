@@ -1,0 +1,27 @@
+id: tim/mmdcam
+name: MMDカメラデータ読込
+overview: MMDのカメラデータをAviUtlに取り込むスクリプト
+description: MMDのカメラデータにあわせて、AviUtlのカメラが自動で移動するカメラ効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16630776
+downloadURLs:
+  - https://tim3.web.fc2.com/script/MMDCam.zip
+  - https://tim3.web.fc2.com/sidx.htm#MMDCam
+latestVersion: 2012/01/07
+nicommons: sm16630776
+files:
+  - filename: script/tim/MMD2AviUtl.dll
+    archivePath: 公開2
+  - filename: script/tim/MMDカメラデータ読込VMD.cam
+    archivePath: 公開2
+releases:
+  - version: 2012/01/07
+    integrity:
+      archive: sha384-7v38PVXGQ9rfchjqs7W8edjBtJyzd8zP3ovVcS1IYAvAzUfZFIGmd5ZEB+G8yaTN
+      file:
+        - target: script/tim/MMD2AviUtl.dll
+          hash: >-
+            sha384-OG4x1h7ezGfnOh/4BTD7HT+XzscRfKfn/JKnh1y8naDuKkexX2Qa2V1kQBLwgK71
+        - target: script/tim/MMDカメラデータ読込VMD.cam
+          hash: >-
+            sha384-WDb3Gv8WJjQSt3eswsrPZFDdOBZkF0cYm3bKcXWEFL3e5BtXIQCMGovwt37CVYff

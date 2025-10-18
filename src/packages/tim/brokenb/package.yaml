@@ -1,0 +1,21 @@
+id: tim/brokenb
+name: 砕け散る球
+overview: 破片が飛び散る球を表示するスクリプト
+description: 平面を球体化したものを飛散させます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15498968
+downloadURLs:
+  - https://tim3.web.fc2.com/script/BrokenB.zip
+  - https://tim3.web.fc2.com/sidx.htm#BrokenB
+latestVersion: 2011/09/03
+nicommons: sm15498968
+files:
+  - filename: script/tim/砕け散る球.anm
+releases:
+  - version: 2011/09/03
+    integrity:
+      archive: sha384-sQzhrGpujiMCeLf8oYGrNSyVQ2fPgpB3kuvruc8KKipr62wBAOchfB0qYhS6Z8YL
+      file:
+        - target: script/tim/砕け散る球.anm
+          hash: >-
+            sha384-7NMRMXlWsOfBiuQQBepxx2XS/48D5dfcAzRMuWwuQXIp96mTLPC7bLAUPF59kVP6

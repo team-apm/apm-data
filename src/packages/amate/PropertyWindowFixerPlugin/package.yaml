@@ -1,0 +1,86 @@
+id: amate/PropertyWindowFixerPlugin
+name: 設定ダイアログ画面サイズ固定化プラグイン
+overview: 拡張編集設定ダイアログのウインドウサイズを固定化する
+description: このプラグインは、拡張編集の設定ダイアログのウィンドウサイズが長くなったり短くなったりするのを阻止し、常に同じウィンドウサイズに固定化するプラグインである
+developer: amate
+pageURL: https://www.nicovideo.jp/watch/sm36085428
+downloadURLs:
+  - https://github.com/amate/PropertyWindowFixerPlugin/releases/latest
+latestVersion: v2.6
+nicommons: sm36085428
+files:
+  - filename: plugins/PropertyWindowFixerPlugin.auf
+    archivePath: PropertyWindowFixerPlugin/
+  - filename: plugins/PropertyWindowFixerPluginConfig.ini
+    archivePath: PropertyWindowFixerPlugin/
+releases:
+  - version: v2.6
+    integrity:
+      archive: sha384-UMWM3/X7wX2vRKdRVBhMsWKgK5slNYGVLXiRXW43g1/Yh8rlG4y+Ih+Naya6iEvB
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-zOTgCZ/xUxXVfdT7HxeQ4J0cJO7d32rJKdpzqLwrsdVmhLOBYkvlycco12s8Ct2A
+  - version: v2.5
+    integrity:
+      archive: sha384-n9dPTPI0Dyy/t0qbgNeXUEw9Ia4iokcPZ4eP3E8vWR86EMfKQiU7iBZbt/AsCRB1
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-5UlGm9x1LziOiDnLv1RMVlYLZPdNrkKZ5S7YvEerTHi4zXEA7uc8Rdi8uYHhvYr5
+  - version: v2.4
+    integrity:
+      archive: sha384-wfjwIoZK+ZissY86R0KkQKv4EPGSuO5kihQxYSZ7TC4sqmblJ3w0s3zFgCF/n40P
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-yzKrr9e2Mg/qKMbZWEU/3xj4QzKy0czv/SebETCGVT+mYm7HsKH0+j7ONMFFvEKi
+  - version: v2.3
+    integrity:
+      archive: sha384-BftSzR8tsS5HwtgqS04KyIxPYsOways4hVqOM+APQ5XiQDnwb2hldvGyykzQ3Vdg
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-qPvrztRGvpg0JqcaL4XrH5tNkC9JPtcg5s2xEk3oHR3TQjwje6Mjmh+kpxzueHdD
+  - version: v2.2
+    integrity:
+      archive: sha384-yKw2W3sJ5kBwBekakzdPAFiKDJqiMR5myWysm9kaBjnfRpN5TTNdQTQIbMxSZBcl
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-7CmDHovRuWDeZYzqrZaqjrDz6xaHdicy3iorg9Qh3pBFqjjGa8m2Mw936mTR36G3
+  - version: v2.1
+    integrity:
+      archive: sha384-c8M5PolUI03MQnmvYMw92b/8D/uReZIDkPqPcKOp6x/TuivSLzzbkrs7B1nQbR3q
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-oCwXgCBKUBWCYmk/oD8d0tOEJcSqpFrhSCYlEgHCOqafHfRrfpab8KkLsvv9gojT
+  - version: v2.0
+    integrity:
+      archive: sha384-gzf0ReQK3zOtT8E6DLVyMWOn9XwmC9kJjg2HIZ4gVtViEwhAyZNtvTUrbI8xTE0h
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-4fPhjcACV58nTY6nMnorFeHvZ+go2jt4sHj4K8ShfqPQIEs2Ck6v+JH07lQ/oN8B
+  - version: v1.2
+    integrity:
+      archive: sha384-s7bPqjnx+ASakmbyqlzYlOKYz0mbztwNZXYIDB3gZ/jH6e8V8H+lLuArRGutSbuc
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-ZbN25Mt4klMj6b3FZbPAcxx6G456mpYKNal3dOzBarDuzvXvPVSEfhgjtb/nb6OY
+  - version: v1.1
+    integrity:
+      archive: sha384-a1WFnSbjdKkhP7BZ0bzC9p2qcwLthwUqgDTNaz4MaQ1croAQdvvu6P+gMX4yu5fB
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-ZbN25Mt4klMj6b3FZbPAcxx6G456mpYKNal3dOzBarDuzvXvPVSEfhgjtb/nb6OY
+  - version: v1.0
+    integrity:
+      archive: sha384-ScdDlSakq+3uPFd7O64CwX/xDBApdhHRnTGqnonZX7e/qTE6Zb8pJD9S4A/GjaZK
+      file:
+        - target: plugins/PropertyWindowFixerPlugin.auf
+          hash: >-
+            sha384-mYRh6J8/U6Pv+htRqo7YqjM3HkJVAPDPJF+pSK3rgaRyoUo45je4DzfZNRy6Mj05

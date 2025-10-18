@@ -1,0 +1,21 @@
+id: tim/pickup
+name: つまむ
+overview: つまんだような効果のスクリプト
+description: 画像をつまんだ感じにします。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18114436
+downloadURLs:
+  - https://tim3.web.fc2.com/script/PickUp.zip
+  - https://tim3.web.fc2.com/sidx.htm#PickUp
+latestVersion: 2012/06/17
+nicommons: sm18114436
+files:
+  - filename: script/tim/つまむ.anm
+releases:
+  - version: 2012/06/17
+    integrity:
+      archive: sha384-qUqB45egllYBESjYMb0kbP6BVFg1SA3alsdr/4UirRtUKNSwoVYUP7QGKjoJK+Yq
+      file:
+        - target: script/tim/つまむ.anm
+          hash: >-
+            sha384-Z+WgxjoLHkZ63S6szf6lXGomNx6inbnIT9AszyPaXYmfatS7r65wrqLtQAB8EM4B

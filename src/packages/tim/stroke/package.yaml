@@ -1,0 +1,21 @@
+id: tim/stroke
+name: ストロークT
+overview: 曲線に沿って画像を繰り返すスクリプト
+description: 曲線に沿って画像を繰り返します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm21475670
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Stroke.zip
+  - https://tim3.web.fc2.com/sidx.htm#Stroke
+latestVersion: 2013/07/30
+nicommons: sm21475670
+files:
+  - filename: script/tim/@ストロークT.anm
+releases:
+  - version: 2013/07/30
+    integrity:
+      archive: sha384-2WtoYffhVZIE+EZufzS5q9z+f9DcShkpby0iEnQByYp52WxtG9nHQi/ocOrjzNcM
+      file:
+        - target: script/tim/@ストロークT.anm
+          hash: >-
+            sha384-rtwyVXeNMcMst1NgLFBDbrI+1Un/UrojN09s2UlKaIyb7oakAskLGd4BCnZip+Jt

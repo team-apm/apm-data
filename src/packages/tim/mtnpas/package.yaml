@@ -1,0 +1,27 @@
+id: tim/mtnpas
+name: 簡易モーションパス
+overview: 画像をパスにそって伸ばす。
+description: 画像をパスにそって伸ばしていきます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm14647929
+downloadURLs:
+  - https://tim3.web.fc2.com/script/MtnPas.zip
+  - https://tim3.web.fc2.com/sidx.htm#MtnPas
+latestVersion: 2011/06/04
+nicommons: sm14647929
+files:
+  - filename: script/tim/@モーションパスA.anm
+    archivePath: AB公開時
+  - filename: script/tim/@モーションパスB.anm
+    archivePath: AB公開時
+releases:
+  - version: 2011/06/04
+    integrity:
+      archive: sha384-2xVWj6Tm95v26TxD5w2mM4P9E0qfobkoRRWNoqP36qOYrkGYHng3DkThE0KlDsPu
+      file:
+        - target: script/tim/@モーションパスA.anm
+          hash: >-
+            sha384-UnnGbGci85Ytq0jZPQRJupfQu1IhJcvrzSMzVCojwk+brbesKzygHH1d10NEUDiD
+        - target: script/tim/@モーションパスB.anm
+          hash: >-
+            sha384-rNWM+2fL8Bdt6H8+jY4uuzEPq9frdsd5M2Au6TWRxFTsArEAIbkNnkm7QXHP0jnn

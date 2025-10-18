@@ -1,0 +1,22 @@
+id: tim/flutter
+name: はためき
+overview: 旗がはためくようなスクリプト
+description: 画像を立体的にはためかせます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm14441618
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Flutter.zip
+  - https://tim3.web.fc2.com/sidx.htm#Flutter
+latestVersion: 2020/06/17
+nicommons: sm14441618
+files:
+  - filename: script/tim/はためき.anm
+    archivePath: Flutter
+releases:
+  - version: 2020/06/17
+    integrity:
+      archive: sha384-vh8cpxEpmhPO14imDTDF0LNwrlBU9CLHvlm1wxEVAHnOche7o6tRwKpme73+dSiw
+      file:
+        - target: script/tim/はためき.anm
+          hash: >-
+            sha384-I8OytXEzmJrB2P3SiPAPaXRZiIE+2CSOLv9yY2VMTgK07ar+vrB0n69wAU/7dE+/

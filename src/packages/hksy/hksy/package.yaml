@@ -1,0 +1,41 @@
+id: hksy/hksy
+name: '@hksy'
+overview: 白水氏が公開していたスクリプトの詰め合わせ
+description: >-
+  白水氏が自身のサイトで公開していたスクリプトの詰め合わせ。スクリプトの一覧：【通常】ランダム配置, 通常弾, ％位置指定2, 画像ループ 透明度ランダム,
+  画面フィット, それらしき角度に傾ける, ピクセル拡大, 拡散, 境界ノイズぼかし, 斜めラスター, フレームバッファ上書き, エンボス, 擬似3D,
+  部分グラデーション, ノイズ, 頂点指定モザイク, AeroGrass風, RGBストレート, 領域内ぼかし, 領域内モザイク 【テキスト】字間調整,
+  背景, グラデーション, 擦りガラス風 【カスタムオブジェクト】連番画像読み込み, 直線, チェッカー, チェッカー 複数色版, 菱形, 角丸四角形,
+  アクアボタン, 雷, 4:3端埋め, 音声波形表示（過去参照）, ラベル, ブレード, ノイズ, ライン（アンカー指定）, グリッドシーンチェンジ,
+  ブラインド, ワイプ（方向）, 輝度ワイプ（方向）
+developer: 白水
+pageURL: https://aviutl.info/hksy-11/
+downloadURLs:
+  - https://purinka.work/download/hksy.html
+latestVersion: 2014/10/20
+files:
+  - filename: script/hksy/@hksy.anm
+    archivePath: '@hksy'
+  - filename: script/hksy/@hksy.obj
+    archivePath: '@hksy'
+  - filename: script/hksy/@hksy.scn
+    archivePath: '@hksy'
+  - filename: script/hksy/QED「495年の波紋」.anm
+    archivePath: '@hksy'
+releases:
+  - version: 2014/10/20
+    integrity:
+      archive: sha384-blKbycwTvqXK5MLvFvqqS4nVAFyJ93b9lYn4GTrsb4vX76EpikOavLzxllI+MRGF
+      file:
+        - target: script/hksy/@hksy.anm
+          hash: >-
+            sha384-MvEBUjxMsf8ibSZW4zCr9kL7SjZ5FMFRGspOMbcJujv6awb1QB9BqA/MHTZH4XAc
+        - target: script/hksy/@hksy.obj
+          hash: >-
+            sha384-IDpoGnBilLb5Li9/Im2aDR35WAktiD6SYxnroSBWul7Z4LFqlylcXIg4VQndcXTD
+        - target: script/hksy/@hksy.scn
+          hash: >-
+            sha384-FZEJmXiZrTxyeX6K64Kj0WxrPvnz04Ncr5/udAgteaFQHalOhkLCbjmY3P2eCgzS
+        - target: script/hksy/QED「495年の波紋」.anm
+          hash: >-
+            sha384-CBGB8YHMHTjw6FSzqf6effLu5gMwrGS5+Cb8aCwG6Uu0MAdvvzbjdnUmS3ZnW3Dk

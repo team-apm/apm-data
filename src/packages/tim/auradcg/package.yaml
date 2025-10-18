@@ -1,0 +1,21 @@
+id: tim/auradcg
+name: オーラ放出
+overview: オーラを放出するような効果のスクリプト
+description: オーラを出すような効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19868761
+downloadURLs:
+  - https://tim3.web.fc2.com/script/AuraDcg.zip
+  - https://tim3.web.fc2.com/sidx.htm#AuraDcg
+latestVersion: 2013/01/19
+nicommons: sm19868761
+files:
+  - filename: script/tim/オーラ放出.anm
+releases:
+  - version: 2013/01/19
+    integrity:
+      archive: sha384-4trR1Ik8PntB6bHKdOJbsoQMmxWCTod709yGgFF9eP3Z/gmYfhVHiUQXhtphfad1
+      file:
+        - target: script/tim/オーラ放出.anm
+          hash: >-
+            sha384-MMpbtiCFyUluCIR3TobxFUKf3QbuFHDXpp5p6siSzLzeJsQ7+UQJ0TaW33jwlds4

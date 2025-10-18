@@ -1,0 +1,30 @@
+id: tim/crkgls
+name: ひび割れガラスT
+overview: ガラスが割れたような効果を与えるスクリプト
+description: >-
+  画像にひび割れたガラス越しに見たような効果を付与します。【動作にはVisual C++ 再頒布可能パッケージ 2008
+  x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm38361197
+downloadURLs:
+  - https://tim3.web.fc2.com/script/CrkGls.zip
+  - https://tim3.web.fc2.com/sidx.htm#CrkGls
+latestVersion: 2022/05/05
+nicommons: sm38361197
+files:
+  - filename: script/tim/ひび割れガラスT.anm
+    archivePath: CrkGls
+  - filename: script/tim/T_CrackedGlass_Module.dll
+    archivePath: CrkGls
+releases:
+  - version: 2022/05/05
+    integrity:
+      archive: sha384-E2R+Laq+vbPLQcUslrU5Y8Y2iVs/T7RSABSwcpgRQfSelGDT/SujQ+L9QCaG+txR
+      file:
+        - target: script/tim/ひび割れガラスT.anm
+          hash: >-
+            sha384-7Fh/obJQ+3RI6v7M64dlE0TuU8fBPHk3p6V2PsKM9DRdQ/4nBJug8nPjFWuhzzLe
+        - target: script/tim/T_CrackedGlass_Module.dll
+          hash: >-
+            sha384-tHjjuw8z4U3da72/7G0RJf8J2Si2y5LjkXHoA34Laj4x/i4GvS0rHrOgvxSUVaJs

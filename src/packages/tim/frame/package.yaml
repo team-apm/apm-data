@@ -1,0 +1,21 @@
+id: tim/frame
+name: 領域枠
+overview: オブジェクトに枠を追加するスクリプト
+description: オブジェクトに枠を付けます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19322302
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Frame2.zip
+  - https://tim3.web.fc2.com/sidx.htm#Frame2
+latestVersion: V2
+nicommons: sm19322302
+files:
+  - filename: script/tim/@領域枠.anm
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-4gDr5phpZcz4oNkz3t63JN/C/ZsC/kartIMiNOdEUvMNHPyaxMVJMKZzB++qqqFF
+      file:
+        - target: script/tim/@領域枠.anm
+          hash: >-
+            sha384-PBYvXLI9o4CLEc6aKF7l7k6Q8xXxNy6EJBx65CG/Z4LlGECZKOFWgXO8gzE63ug3

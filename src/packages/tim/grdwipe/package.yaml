@@ -1,0 +1,23 @@
+id: tim/grdwipe
+name: グリッドワイプ
+overview: グリッドワイプを行うスクリプト
+description: |-
+  きしめんエフェクトセット第2弾。
+  な～さりい☆らいむでおなじみのグリッドワイプ。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18581033
+downloadURLs:
+  - https://tim3.web.fc2.com/script/k2-GrdWipe.zip
+  - https://tim3.web.fc2.com/sidx.htm#GrdWipe
+latestVersion: 2012/08/10
+nicommons: sm18581033
+files:
+  - filename: script/tim/グリッドワイプ.anm
+releases:
+  - version: 2012/08/10
+    integrity:
+      archive: sha384-28D0gzc8vc34dmipLWWl4GJTKeSqxwObOSxq2YqDN50iVBgnZT6FRLLdz7CLSsA2
+      file:
+        - target: script/tim/グリッドワイプ.anm
+          hash: >-
+            sha384-KnMP/ozVGyiizRcUGBa/HsDa8HcNV8eiB7rl/Vy9EYM2Hy5dKOiDzctNeob98jQa

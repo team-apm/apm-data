@@ -1,0 +1,68 @@
+id: hebiiro/ObjectExplorer
+name: オブジェクトエクスプローラ
+overview: エイリアスの管理を効率化する
+description: 「オブジェクトエクスプローラプラグイン」はAviUtl内に簡易エクスプローラを表示させ、エイリアスの管理を効率化するAviUtlプラグインです。
+developer: hebiiro
+pageURL: https://www.nicovideo.jp/watch/sm41048473
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-ObjectExplorer/releases/latest
+latestVersion: 3.6.1
+nicommons: sm41048473
+files:
+  - filename: plugins/ObjectExplorer.auf
+  - filename: plugins/セカンドエクスプローラ.auf
+  - filename: plugins/ObjectExplorer
+    isDirectory: true
+  - filename: plugins/セカンドエクスプローラ
+    isDirectory: true
+releases:
+  - version: 3.6.1
+    integrity:
+      archive: sha384-FHTW45tRwgovrHPRoGSMPjWsHQdjop2wk+ISFnA/Q3MgvOHKGxDS4IY3NMgxZPlI
+      file:
+        - target: plugins/ObjectExplorer.auf
+          hash: >-
+            sha384-SEbCYBocurYO0XSZjT3FV6z7OzWI5XFhLmvLp1xR1Knr8ae3p+1Lu6fr9U9W0Ujk
+        - target: plugins/セカンドエクスプローラ.auf
+          hash: >-
+            sha384-SEbCYBocurYO0XSZjT3FV6z7OzWI5XFhLmvLp1xR1Knr8ae3p+1Lu6fr9U9W0Ujk
+  - version: 3.6.0
+    integrity:
+      archive: sha384-f+tui+A5rRm52ff5VYIPwe6nTx6czAYRE+GOma9FcnOdPmxHcYlr6tI3qMNri4T/
+      file:
+        - target: plugins/ObjectExplorer.auf
+          hash: >-
+            sha384-UrbL9lvfpebNs3zFR8ezdeUgOxIS9RZq1hZy3r4oquKIY4+Lr/65uKgjv3Jj+Dl0
+        - target: plugins/セカンドエクスプローラ.auf
+          hash: >-
+            sha384-UrbL9lvfpebNs3zFR8ezdeUgOxIS9RZq1hZy3r4oquKIY4+Lr/65uKgjv3Jj+Dl0
+  - version: 3.5.0
+    integrity:
+      archive: sha384-xqC6VW8l3klsUz5MSvI8jaURCN+Ad3N//0nYK8p3ZA5yCHZJDaJcRSCSl8NVxcKW
+      file:
+        - target: plugins/ObjectExplorer.auf
+          hash: >-
+            sha384-x0dxKWTunQqoada2LS8qh+XyWEfK1Fs4b78IYHKupHt9rp8I+TY05yj3CKMz47J/
+        - target: plugins/セカンドエクスプローラ.auf
+          hash: >-
+            sha384-x0dxKWTunQqoada2LS8qh+XyWEfK1Fs4b78IYHKupHt9rp8I+TY05yj3CKMz47J/
+  - version: 3.3.0
+    integrity:
+      archive: sha384-FHc3N/9RDhINvriKIXkgaiIS4qMWPafUpXlUAIQgoOxFhja8e1LqqO7KKjTj9flq
+      file:
+        - target: plugins/ObjectExplorer.auf
+          hash: >-
+            sha384-jjBFXuXoFTePdZZAFZJ2dctooo0y0ynNP7ApUG046dgeMd9Yx4OhvqWYLY1GH5l+
+        - target: plugins/セカンドエクスプローラ.auf
+          hash: >-
+            sha384-jjBFXuXoFTePdZZAFZJ2dctooo0y0ynNP7ApUG046dgeMd9Yx4OhvqWYLY1GH5l+
+  - version: 3.4.0
+    integrity:
+      archive: sha384-MdP7quHXr89dlWOo/r+0zIp2W4G0vD9OOs/+dcRXO2LuQDKEmkqAG+qWJUqaJbfy
+      file:
+        - target: ObjectExplorer.auf
+          hash: >-
+            sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE
+        - target: セカンドエクスプローラ.auf
+          hash: >-
+            sha384-uUrwSg9LgM7MTAo/JCjpJKlaMpaCzrvI0dFQ7Cc0bcPh5Knsvx7Ajj5R7WfklfXE

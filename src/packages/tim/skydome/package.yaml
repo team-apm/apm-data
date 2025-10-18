@@ -1,0 +1,23 @@
+id: tim/skydome
+name: スカイドーム
+overview: 全天球画像を操作するスクリプト
+description: |-
+  全天球画像を操作するアニメーション効果。
+  AEプラグインのHorizonのようなもので、MMDではスカイドームとも呼ばれている効果です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19465675
+downloadURLs:
+  - https://tim3.web.fc2.com/script/SkyDome.zip
+  - https://tim3.web.fc2.com/sidx.htm#SkyDome
+latestVersion: 2012/11/29
+nicommons: sm19465675
+files:
+  - filename: script/tim/@スカイドーム.anm
+releases:
+  - version: 2012/11/29
+    integrity:
+      archive: sha384-0O4WAFNdzEBmXAQnaZCaCz8BA7bmzxUDVOFzPzcEpsdJz/PoE/dmgtE0kDJbbpbI
+      file:
+        - target: script/tim/@スカイドーム.anm
+          hash: >-
+            sha384-DbNGN4oaaO5pbk/89nCY4X3PK1xgO36LX9+eyb6aJ3PSTv51MeBAwNr2fmY0diax

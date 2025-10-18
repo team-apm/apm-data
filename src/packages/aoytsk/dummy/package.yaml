@@ -1,0 +1,11 @@
+id: aoytsk/dummy
+name: ダミーファイル入力
+overview: 指定した設定で空の動画を読み込む
+description: 「ダミーファイル入力」はテキストファイルで指定した設定で空の動画を読み込む入力プラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/1559137.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/1559137.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/dummy.aui

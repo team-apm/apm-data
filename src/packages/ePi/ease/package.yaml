@@ -1,0 +1,29 @@
+id: ePi/ease
+name: ease
+overview: よりスマートに書き直されたイージングスクリプト
+description: |-
+  undofish版イージングをより扱いやすくすることを目的としたスクリプト。
+  カスタムオブジェクトのベジエ曲線を配置せず、数値指定でグラフを表現することが可能。
+developer: ePi
+pageURL: https://scrapbox.io/ePi5131/ease
+downloadURLs:
+  - https://scrapbox.io/ePi5131/ease
+latestVersion: '1.0'
+files:
+  - filename: ease.dll
+  - filename: script/epi/ease_common.lua
+  - filename: script/epi/@ease.tra
+releases:
+  - version: '1.0'
+    integrity:
+      archive: sha384-6h3mWXA+B8uVw6WfePzDUleCDV6yTwtziSASH0n3xByI1i/CkRbKGVxOA6ROfv1C
+      file:
+        - target: ease.dll
+          hash: >-
+            sha384-928LaRvK77QLMFPc5nRCxhzc/oilvmmLcLoYIQg9J6lGJINN0S8C99Jt7+RBY/0F
+        - target: script/epi/ease_common.lua
+          hash: >-
+            sha384-MLIPqtTkqNHlyz8LWFF9+IwVbdNkXiEv41NicZrIdwbrUnx43iya/PBHMRLqXazX
+        - target: script/epi/@ease.tra
+          hash: >-
+            sha384-rHpTS4Admu7jOfM0Jucs16hY30S8jZdB/Y5/s6+qdjjD0CVMl8fP9I849nmrjute

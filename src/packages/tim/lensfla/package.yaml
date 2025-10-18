@@ -1,0 +1,22 @@
+id: tim/lensfla
+name: レンズフレア
+overview: レンズフレアを表示するスクリプト
+description: レンズフレアを表示する。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm14199347
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LensFla.zip
+  - https://tim3.web.fc2.com/sidx.htm#LensFla
+latestVersion: 2011/04/18
+nicommons: sm14199347
+files:
+  - filename: script/tim/Lensflare.obj
+    archivePath: LF
+releases:
+  - version: 2011/04/18
+    integrity:
+      archive: sha384-iJFqe6xt6LM+A4EF4NqEcXqzM9rIybpL4IzNjl2ooJ85pFveNVCaSd9ZlOpadTfP
+      file:
+        - target: script/tim/Lensflare.obj
+          hash: >-
+            sha384-xTVcVJqZ0BO9ViV8lwG4K8v413/4Cfj/NKFVd3zShB5xWmpdswugXg+c1FETWUeD

@@ -1,0 +1,33 @@
+id: satsuki/satsuki
+name: AviUtlスクリプト一式
+overview: AviUtlを使うなら必須のスクリプト
+description: >-
+  画像の配置や色やさまざまなエフェクトに関するアニメーション効果、なめらかな加減速が可能なフィルタ効果、連番画像の配置、音声に同期したアニメーション、テキストに対するアニメーション効果、ノイズや模様や図形のカスタムオブジェクトなどのたくさんのスクリプトが含まれています。
+developer: さつき
+pageURL: https://dic.nicovideo.jp/u/2787743#script
+downloadURLs:
+  - https://bowlroll.net/file/3777
+latestVersion: '20160828'
+files:
+  - filename: script/さつき/@ANM1.anm
+    archivePath: script_20160828/
+  - filename: script/さつき/@ANM2.anm
+    archivePath: script_20160828/
+  - filename: script/さつき/@FIGURE.obj
+    archivePath: script_20160828/
+  - filename: script/さつき/@LOAD.obj
+    archivePath: script_20160828/
+  - filename: script/さつき/@TA.anm
+    archivePath: script_20160828/
+  - filename: script/さつき/@音声.anm
+    archivePath: script_20160828/
+  - filename: script/さつき/@加減速.anm
+    archivePath: script_20160828/
+  - filename: script/さつき/@連番.anm
+    archivePath: script_20160828/
+  - filename: script/ANM_ssd/
+    archivePath: script_20160828/
+    isDirectory: true
+  - filename: script/TA_ssd/
+    archivePath: script_20160828/
+    isDirectory: true

@@ -1,0 +1,27 @@
+id: tim/trapnt
+name: 透明塗り
+overview: 透明部分を塗りつぶすスクリプト
+description: >-
+  透明部分を塗りつぶします。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20426178
+downloadURLs:
+  - https://tim3.web.fc2.com/script/TraPnt.zip
+  - https://tim3.web.fc2.com/sidx.htm#TraPnt
+latestVersion: 2013/03/24
+nicommons: sm20426178
+files:
+  - filename: script/tim/透明塗り.anm
+  - filename: script/tim/T_Alpha_Module.dll
+releases:
+  - version: 2013/03/24
+    integrity:
+      archive: sha384-JRrbmJ59O6DeJ90/Bsqc0yGZXTcrlDOT9LuBwWoctuK7ve+FmIQMdQsaEHeYOr4k
+      file:
+        - target: script/tim/透明塗り.anm
+          hash: >-
+            sha384-ta6jdFmZi3KyQpxqjNkHW+hu7VPutZJHhWteprimt/VS4QoSOHqLW/BmfE+BDhGN
+        - target: script/tim/T_Alpha_Module.dll
+          hash: >-
+            sha384-v9waBKk529XhOcuaDPAxe6nBhsUbn0R+aXH5rFx+uVuT3UgkD5karFmIZoxIjbgt

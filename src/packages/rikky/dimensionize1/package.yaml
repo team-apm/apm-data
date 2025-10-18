@@ -1,0 +1,28 @@
+id: rikky/dimensionize1
+name: 立体化(R)（rikky_module 1）
+overview: オブジェクトに厚みを持たせて、立体的にする
+description: 適応させるとオブジェクトに厚みが出ます。立体的なものなので、カメラ制御下に置き拡張描画またはフィルタウィンドウの左上のカメラマークをオンにしてください。
+developer: rikky
+dependencies:
+  - rikky/rikkyModuleMemory
+pageURL: https://www.nicovideo.jp/watch/sm26877964
+downloadURLs:
+  - https://hazumurhythm.com/a/1Sm/
+latestVersion: 2020/09/05
+nicommons: sm26877964
+files:
+  - filename: script/rikky/立体化(R).anm
+    archivePath: 立体化
+  - filename: script/rikky/dimensionize.dll
+    archivePath: 立体化/rikky_module ver1用
+releases:
+  - version: 2020/09/05
+    integrity:
+      archive: sha384-biDdEFGaj4C8E4OU+QxVMgqlH//mek5lwsHWFWJgxyz6iHKXhkyQ1ZiUKutcw6Kh
+      file:
+        - target: script/rikky/立体化(R).anm
+          hash: >-
+            sha384-7TAm1DAC5QLGp9d64pC9mN4s655r3fJ2XdCjtdTyL8c7TcGOC7fC+M9656bBjAsU
+        - target: script/rikky/dimensionize.dll
+          hash: >-
+            sha384-oDufk/QVZZGm6TcyOjUzuWMc7BiovlJZoKrI50JPZg7e2YNgfG7AErStAJQ+7bPl

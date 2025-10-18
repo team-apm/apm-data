@@ -1,0 +1,21 @@
+id: tim/cogwhl
+name: 歯車変形
+overview: 歯車の形に変形するスクリプト
+description: 画像から立体的な歯車を生成します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm14632269
+downloadURLs:
+  - https://tim3.web.fc2.com/script/CogWhl.zip
+  - https://tim3.web.fc2.com/sidx.htm#CogWhl
+latestVersion: 2011/06/02
+nicommons: sm14632269
+files:
+  - filename: script/tim/歯車.anm
+releases:
+  - version: 2011/06/02
+    integrity:
+      archive: sha384-l7LA50LaNXOb15HLLxJUXLSo0pOnJENzYIWcBjEZuiuSLyROuI7q/lPQCeRrPFuW
+      file:
+        - target: script/tim/歯車.anm
+          hash: >-
+            sha384-+LTBIgSaC+EXYe9qnl+strAbKmC2MN7RJictNlA183kFKUOLl/992XwPvgv3CI3Q

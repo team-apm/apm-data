@@ -1,0 +1,66 @@
+id: hebiiro/BuildStairs
+name: アイテムずらし
+overview: タイムラインのアイテムをずらしたり整列したりする
+description: タイムライン上のアイテムを一定フレーム感覚でずらしたり、一括で整列したりできます。
+developer: hebiiro
+dependencies:
+  - aviutl1.10
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-BuildStairs#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-BuildStairs/releases/latest
+latestVersion: 3.2.0
+files:
+  - filename: plugins/BuildStairs
+    isDirectory: true
+  - filename: plugins/BuildStairs.auf
+releases:
+  - version: 3.2.0
+    integrity:
+      archive: sha384-UmeVD46tiK2soGxJuF9n7l6yuqWyA4VAVWIsV4UDEWjr0sPE5E4teoV1Kr2obEak
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-rPjVIcQjoshk9yNwUrie6uoEJqQ0rbnaHguRDbIkSVPqo4AxyEl5SuK4uDZkzBd8
+  - version: 3.0.2
+    integrity:
+      archive: sha384-0L/KvEWRsxTlU4nSdmLXbiYZ8pd4UPRI/U1tXyGMfUBmtuzd05KW20K7GW9i64OR
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-hUPKoNy7b/sdTyeh4t+Wbqk1aRZrH8oOa6Pc6LSoiTH6vQ4gyfwu+zuyqbz+0GtM
+  - version: 3.0.1
+    integrity:
+      archive: sha384-posnouMrlLxgO9MxvteUWfijEx305MPAGt2aMzx9nWZlUNmtG0VzSlm/dxB+HkJk
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-6RckaM91n/Fw/coRkyPbr3RmL08LV+lK2sYMZ0SP/DsElKXIP8o1gJSFg5Xukfhw
+  - version: 3.0.0
+    integrity:
+      archive: sha384-ZMXMLFX+tWp7stOTMNDOE6wvfEZhYtpI0Ztprxv5CH59M5bF45P1XrGfWLVn4pNh
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-zdwtreD3EUYrazgyWWKHgU49UkUeTXDG7Ol5nwZ7IkSC/3H2QpU6nfIV9hkp0cMF
+  - version: 2.3.0
+    integrity:
+      archive: sha384-vgwp7lFQCkKC1ozbvjOMd/7YPAOzSbf+FvBi+SFfeHSj9fohxZLLdrPQ+WqK6+yc
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-B036NklBwyiSlrQcVdYKq6GAMhO3VbKwCaG/MUogBut8A0pR1BfDfDcGSLFk3WG/
+  - version: 2.2.0
+    integrity:
+      archive: sha384-SeTaVFo8qwU6TXOBCFz1kTt6K+Gg8ICr7G0I+ANL7ts44EzRtkWgvfvC7wIV8zSd
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-wOwx9IZJCOHURorN0LWK+OC9aqoerHSngtsMtT22NLJyhuJNvDPAb9MuPxC7c9os
+  - version: 2.1.0
+    integrity:
+      archive: sha384-2TjkrJw5PEtt7z0ph8P3UXqWC3TUQS8JtaZ9A23m/vmFpqM/+77a2JAPDxieIuOZ
+      file:
+        - target: plugins/BuildStairs.auf
+          hash: >-
+            sha384-RjjM4H9Zxr9n4chL7KZUOElpcTxJuLLzAh3oZsKZ/svW+dzxrKB07peYrQI9J44x

@@ -1,0 +1,22 @@
+id: gometh/moyou
+name: 模様スクリプト
+overview: オブジェクトに模様を重ねるスクリプト
+description: テキスト等のオブジェクトに縞模様・格子模様・市松模様・水玉模様を合成するスクリプト
+developer: gometh
+dependencies:
+  - ePi/LuaJIT
+pageURL: https://www.nicovideo.jp/watch/sm41446069
+downloadURLs:
+  - >-
+    https://drive.google.com/file/d/1gDjg7omiiDxlKTuwRFopw-ySEjIO1qgE/view?usp=sharing
+latestVersion: 2022/12/01
+files:
+  - filename: script/gometh/模様.anm
+releases:
+  - version: 2022/12/01
+    integrity:
+      archive: sha384-QnGz891ctJWvWoWKD58TekNMCm6LZOTHoqTQtEshmBot5Pq8Dgvnj3HtY+WipuoY
+      file:
+        - target: script/gometh/模様.anm
+          hash: >-
+            sha384-QnGz891ctJWvWoWKD58TekNMCm6LZOTHoqTQtEshmBot5Pq8Dgvnj3HtY+WipuoY

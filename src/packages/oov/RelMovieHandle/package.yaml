@@ -1,0 +1,29 @@
+id: oov/RelMovieHandle
+name: 動画ハンドル開放
+overview: 動画ハンドルを開放します
+description: >-
+  AviUtl のメニューから 編集→動画ハンドル開放→動画ハンドルを開放 を選ぶと動画ハンドルが開放されます。このコマンドにはショートカットキー Ctrl
+  + F5 が標準で割り当てられています。
+developer: oov
+pageURL: https://github.com/oov/aviutl_relmoviehandle
+downloadURLs:
+  - https://github.com/oov/aviutl_relmoviehandle/releases/latest
+latestVersion: v1.1
+nicommons: sm32989880
+files:
+  - filename: RelMovieHandle.auf
+releases:
+  - version: v1.1
+    integrity:
+      archive: sha384-IQlUxWDJE23O3Lh0dKvMZcG3cKvS6pQF7lQshcROfMHRyn//AnSz2IBP7cZ6OclG
+      file:
+        - target: RelMovieHandle.auf
+          hash: >-
+            sha384-U049dMV3i3cDklOCvD/tAJH4/cdtreZ/zITH0W6/Lz7qvjOaPskyD8xoYM63LHkR
+  - version: v1.0
+    integrity:
+      archive: sha384-wrAmA9WiPuonR5YksUKrNUHNcvRsq9erL1ghDpq7AvyfgbjEboxPm5cNU2N8XoaZ
+      file:
+        - target: RelMovieHandle.auf
+          hash: >-
+            sha384-pZc/kgGhKb+K4dOhUErvXOOXXR50skcbKhgjEmD3XBmMSwEvgrnCS3MI+dOUoX1A

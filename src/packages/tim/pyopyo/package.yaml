@@ -1,0 +1,21 @@
+id: tim/pyopyo
+name: ぷよぷよT
+overview: にょきにょきと突起を出すスクリプト
+description: にょきにょきと突起を出します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm30453564
+downloadURLs:
+  - https://tim3.web.fc2.com/script/PyoPyo.zip
+  - https://tim3.web.fc2.com/sidx.htm#PyoPyo
+latestVersion: 2017/01/18
+nicommons: sm30453564
+files:
+  - filename: script/tim/ぷよぷよT.anm
+releases:
+  - version: 2017/01/18
+    integrity:
+      archive: sha384-d6OxtiBGrX08LyZRhcB9xgJHzhBBWkQolI57DpkvTxPOmDH/DaMUKojokNSJ0lmi
+      file:
+        - target: script/tim/ぷよぷよT.anm
+          hash: >-
+            sha384-5eNsaHOBj6mk3E4zIzfMjUnOn6hJPcDgESjq7P4S9q82NsBGRQVwXXcmGzv4RjbI

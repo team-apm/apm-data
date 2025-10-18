@@ -1,0 +1,22 @@
+id: rikky/scriptSort1
+name: スクリプト並べ替え管理(rm 1)
+overview: アニメーション効果一覧の並び替えやフィルタのドロップ追加
+description: アニメーション効果一覧を並び替えたりフィルタをドロップできるプラグインです。
+developer: rikky
+dependencies:
+  - rikky/rikkyModuleMemory
+pageURL: https://www.nicovideo.jp/watch/sm30290540
+downloadURLs:
+  - https://hazumurhythm.com/a/Di0/
+latestVersion: v1.5
+nicommons: sm30290540
+files:
+  - filename: script_sort.auf
+    archivePath: スクリプトを並び替え2/rikky_module ver1用
+releases:
+  - version: v1.5
+    integrity:
+      file:
+        - target: script_sort.auf
+          hash: >-
+            sha384-upOneFu04DzGrLWk6v7S4X+eMiQ73fRRCXpA2K9aJiHJ2rHqt1+Ve/vRQ2AS6ojx

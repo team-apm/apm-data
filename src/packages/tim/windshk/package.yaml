@@ -1,0 +1,22 @@
+id: tim/windshk
+name: 風揺れT
+overview: 風に揺れてるような効果を出すスクリプト
+description: 風に吹かれたように揺らめきます。髪の毛などを揺らす時に便利です。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm21864731
+downloadURLs:
+  - https://tim3.web.fc2.com/script/WindShk.zip
+  - https://tim3.web.fc2.com/sidx.htm#WindShk
+latestVersion: 2020/01/24
+nicommons: sm21864731
+files:
+  - filename: script/tim/風揺れT.anm
+    archivePath: WindShk
+releases:
+  - version: 2020/01/24
+    integrity:
+      archive: sha384-o2h6r0ylXnVfmlDQeiXzRKzxEE36stReeKmiZMX/T4BbTDUXgQqKw57d8BMU5SgC
+      file:
+        - target: script/tim/風揺れT.anm
+          hash: >-
+            sha384-EtPeCV5t5MVKQLYQYAC6kRktdvb99Z2kXapEg5UmZTxywha7fiYR8PEsehDF6jmi

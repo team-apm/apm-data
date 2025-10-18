@@ -1,0 +1,17 @@
+id: rigaya/delogoSIMD
+name: 透過性ロゴ フィルタプラグイン SIMD版
+overview: 透過性ロゴ フィルタプラグインをSIMD化
+description: MakKi様による透過性ロゴ フィルタプラグインver0.13をrigayaがSIMD化したものです。
+developer: rigaya
+originalDeveloper: MakKi
+pageURL: https://rigaya34589.blog.fc2.com/blog-category-20.html
+downloadURLs:
+  - https://1drv.ms/f/s!AsYziax1Q91rlQoaLBz34MoNMe69
+  - >-
+    https://drive.google.com/folderview?id=0BzA4dIFteM2dZEhId3NQaWZGbXc&usp=sharing
+latestVersion: r17
+files:
+  - filename: plugins/delogo.auf
+    archivePath: delogoSIMD_r17
+  - filename: plugins/logoscan.auf
+    archivePath: delogoSIMD_r17

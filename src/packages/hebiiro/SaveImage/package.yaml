@@ -1,0 +1,35 @@
+id: hebiiro/SaveImage
+name: 画像保存
+overview: 現在のフレーム、または選択アイテムを画像として保存
+description: 現在のフレーム、または選択アイテムを画像として保存します。
+developer: hebiiro
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SaveImage#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SaveImage/releases/latest
+latestVersion: 1.2.0
+files:
+  - filename: plugins/SaveImage.auf
+releases:
+  - version: 1.2.0
+    integrity:
+      archive: sha384-PYKEx8/BCtBf5Oyau7A94M4GcRatQFkS8F+dcSi0FAIvofiLv6SlFXODHRfo25pn
+      file:
+        - target: plugins/SaveImage.auf
+          hash: >-
+            sha384-FT8toqKSyxz8O4nOlT72zie9wkLg3GEudiuwe0ovzFI1ZmoNgmJZtk2tpk9BvStV
+  - version: 1.1.0
+    integrity:
+      archive: sha384-t3MwUro/bXRQ7+bHAafZPUZir3eY5Xfqej7W2YNfor1X8WG1I5cdW/N08oxp46R7
+      file:
+        - target: plugins/SaveImage.auf
+          hash: >-
+            sha384-xE6BCiPOGb36YZS+UtJEKIsEtvHa3DCZso0lEsuEvt3i5TwIZl9x0u0oBAI8p8u6
+  - version: v1.1.0
+    integrity:
+      archive: sha384-t3MwUro/bXRQ7+bHAafZPUZir3eY5Xfqej7W2YNfor1X8WG1I5cdW/N08oxp46R7
+      file:
+        - target: plugins/SaveImage.auf
+          hash: >-
+            sha384-xE6BCiPOGb36YZS+UtJEKIsEtvHa3DCZso0lEsuEvt3i5TwIZl9x0u0oBAI8p8u6

@@ -1,0 +1,27 @@
+id: ePi/discordrp
+name: Discord Rich Presence
+overview: Discordに「AviUtlをプレイ中」と表示する
+description: |-
+  AviUtlを起動すると、DiscordのRich Presenceを適用するプラグイン。
+  プロフィール上に「AviUtlをプレイ中」と表示される。
+developer: ePi
+pageURL: >-
+  https://scrapbox.io/ePi5131/%E3%80%90AviUtl%E3%80%91Discord_Rich_Presence_Plugin
+downloadURLs:
+  - >-
+    https://scrapbox.io/ePi5131/%E3%80%90AviUtl%E3%80%91Discord_Rich_Presence_Plugin
+latestVersion: 2021/01/21
+files:
+  - filename: plugins/discord_game_sdk.dll
+  - filename: plugins/discord_rp.auf
+releases:
+  - version: 2021/01/21
+    integrity:
+      archive: sha384-vlwD8Lp3MpZhkwIcpw5uBlktWpJtHf3s0roz9D6JIGq3dtRgT69nJNCUXoSNCOok
+      file:
+        - target: plugins/discord_game_sdk.dll
+          hash: >-
+            sha384-Lm8BwVOl5PhnijVqRhOiBN/eMUWR6OLdAeg344KgllmYGMLMUx0iWsLBFKpRiWmk
+        - target: plugins/discord_rp.auf
+          hash: >-
+            sha384-cVUCmAvkfdEuIsAdiAk35lq5Xg/xj8+tkPX+lOykPGUgQ3FQUrElZw+LW1aTrP5R

@@ -1,0 +1,16 @@
+id: oov/ZRamPreview
+name: 拡張編集RAMプレビュー
+overview: キャッシュしてコマ落ちを減らす
+description: 拡張編集のレンダリング結果をメモリにキャッシュすることで、プレビューのコマ落ちを軽減させるプラグインです。メモリがいっぱいあればいっぱい使えます。
+developer: oov
+pageURL: https://www.nicovideo.jp/watch/sm32668490
+downloadURLs:
+  - https://github.com/oov/aviutl_rampreview/releases
+latestVersion: v0.3rc7
+nicommons: sm32668490
+files:
+  - filename: ZRamPreview.auf
+  - filename: ZRamPreview.auo
+  - filename: ZRamPreview.exe
+  - filename: script/Extram.dll
+    archivePath: script/

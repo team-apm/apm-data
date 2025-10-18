@@ -1,0 +1,53 @@
+id: MaverickTse/AGifExport
+name: Animated Gif Export
+overview: アニメーションGIFを出力する
+description: 動画のエンコードと同じ要領でアニメーションGIFの出力ができます。
+developer: Maverick Tse
+pageURL: https://www.nicovideo.jp/watch/sm24236552
+downloadURLs:
+  - >-
+    https://onedrive.live.com/?authkey=%21ABNo3i9YR5_dnT8&id=26840CDF9818EB8E%21391&cid=26840CDF9818EB8E
+latestVersion: v0.51 beta
+nicommons: sm24236552
+files:
+  - filename: AForge.dll
+    archivePath: AGifExportPack
+  - filename: AForge.Imaging.dll
+    archivePath: AGifExportPack
+  - filename: AForge.Imaging.Formats.dll
+    archivePath: AGifExportPack
+  - filename: AGifExport.auo
+    archivePath: AGifExportPack
+  - filename: CORE_RL_bzlib_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_glib_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_lcms_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_lqr_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_magick_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_ttf_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_wand_.dll
+    archivePath: AGifExportPack
+  - filename: CORE_RL_zlib_.dll
+    archivePath: AGifExportPack
+  - filename: IM_MOD_RL_gif_.dll
+    archivePath: AGifExportPack
+  - filename: msvcp120.dll
+    archivePath: AGifExportPack
+  - filename: msvcr120.dll
+    archivePath: AGifExportPack
+  - filename: thresholds.xml
+    archivePath: AGifExportPack
+  - filename: vcomp120.dll
+    archivePath: AGifExportPack
+releases:
+  - version: v0.51 beta
+    integrity:
+      file:
+        - target: AGifExport.auo
+          hash: >-
+            sha384-5vZn/bLFtFF7vZd05QjxhxxrxnSulTTiGjaGqM+vsn6MljbkddZoyH75gLseI0dd

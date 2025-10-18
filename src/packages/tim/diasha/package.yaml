@@ -1,0 +1,22 @@
+id: tim/diasha
+name: 斜めブラインド(改)
+overview: さつき氏の「斜めブラインド」の改良版
+description: さつき氏の「斜めブラインド」の改良版です
+developer: ティム
+originalDeveloper: さつき
+pageURL: https://www.nicovideo.jp/watch/sm17155254
+downloadURLs:
+  - https://tim3.web.fc2.com/script/DiaSha.zip
+  - https://tim3.web.fc2.com/sidx.htm#DiaSha
+latestVersion: 2012/03/04
+nicommons: sm17155254
+files:
+  - filename: script/tim/斜めブラインド(改).anm
+releases:
+  - version: 2012/03/04
+    integrity:
+      archive: sha384-8Qlgb2lIWOT5gTexdrwgz7pXL75uehv26FGh+BBihJcJ1OwEzOF8QqeVsWDllTVF
+      file:
+        - target: script/tim/斜めブラインド(改).anm
+          hash: >-
+            sha384-N/x9EyDIlxwxUasFtmVFRfq9puzux125ZGuIX1ZVtCV4dMdk9Bwkg6/tu3Njc/mL

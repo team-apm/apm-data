@@ -1,0 +1,14 @@
+id: auls/aliaslist
+name: エイリアス一覧
+overview: エイリアス一覧からエイリアスを配置できるようにする
+description: エイリアス一覧からエイリアスを配置できるようにします。
+developer: yu_noimage_
+dependencies:
+  - ePi/aulsMemref
+pageURL: https://auls.client.jp/
+downloadURLs:
+  - https://auls.client.jp/
+latestVersion: 2014/05/06
+files:
+  - filename: plugins/auls_aliaslist.auf
+    archivePath: auls_aliaslist

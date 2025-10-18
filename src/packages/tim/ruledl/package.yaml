@@ -1,0 +1,22 @@
+id: tim/ruledl
+name: 罫線T
+overview: 罫線を作成するスクリプト
+description: 罫線を作るスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm38304163
+downloadURLs:
+  - https://tim3.web.fc2.com/script/RuledL.zip
+  - https://tim3.web.fc2.com/sidx.htm#RuledL
+latestVersion: 2021/02/20
+nicommons: sm38304163
+files:
+  - filename: script/tim/@罫線T.anm
+    archivePath: RuledL
+releases:
+  - version: 2021/02/20
+    integrity:
+      archive: sha384-gKfyq4x3YFpr3BEvo4QdI4OSV9jVrw2TXsdztQH8mrBAUu/Qmlkjknv6KYuWCXFm
+      file:
+        - target: script/tim/@罫線T.anm
+          hash: >-
+            sha384-H/YOXI8UROI22GZKL7jqvyy+nlh6+rJQOrrS78FidjnBtaB/FHBBL1DSeHqfJm3x

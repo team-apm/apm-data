@@ -1,0 +1,22 @@
+id: tim/blolus
+name: ブロックラスターT
+overview: ブロック単位でラスターをかけるスクリプト
+description: 画像にブロック単位でラスターをかけます。本家のラスターより若干多彩な表現ができます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm33598240
+downloadURLs:
+  - https://tim3.web.fc2.com/script/BloLus.zip
+  - https://tim3.web.fc2.com/sidx.htm#BloLus
+latestVersion: 2018/07/28
+nicommons: sm33598240
+files:
+  - filename: script/tim/ブロックラスターT.anm
+    archivePath: BloLus
+releases:
+  - version: 2018/07/28
+    integrity:
+      archive: sha384-9CM/7kVfoq2UovjNRtkvSx5S9s3f9783Bgct0eugUigTMtUYizQw36hqy6Q8TLB8
+      file:
+        - target: script/tim/ブロックラスターT.anm
+          hash: >-
+            sha384-D0afPaWThOP+fzaExhrgMEUg5uoDX7PkQzBD2l/XH5aOsLrHU95H24w6udGaA4By

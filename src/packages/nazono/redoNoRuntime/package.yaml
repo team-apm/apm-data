@@ -1,0 +1,22 @@
+id: nazono/redoNoRuntime
+name: Redoプラグイン(ランタイム不要・非推奨)
+overview: Ctrl+Yキーでのやり直し機能を追加する
+description: AviUtlにCtrl+Yキーでのやり直し機能を追加するプラグイン。元に戻す関係のバグの修正も同時に行ってくれます。
+developer: 謎の生物
+dependencies:
+  - exedit0.92
+pageURL: https://drive.google.com/drive/folders/1OBl9qLIWDYlAghXaNUj7Sfme7hpCSSzY
+downloadURLs:
+  - https://drive.google.com/drive/folders/11whtRpnaNEzp-_VkORZpmHoqj5yfPrgD
+latestVersion: v2.7
+nicommons: sm39263447
+files:
+  - filename: plugins/Redo.auf
+releases:
+  - version: v2.7
+    integrity:
+      archive: sha384-2r0hL+qtRjQCQyc0dogmR/Q3ZjdDr13IYGttudAc3We2H3Wv0zmsS9ydy5ik5r02
+      file:
+        - target: plugins/Redo.auf
+          hash: >-
+            sha384-ddEOS42sd1gqLqSoTx/pP19EfSBO9RDshyYILzaqnenkYk/DxoTx/gHf2q9DTkg0

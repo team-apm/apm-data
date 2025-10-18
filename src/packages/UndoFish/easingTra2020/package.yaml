@@ -1,0 +1,17 @@
+id: UndoFish/easingTra2020
+name: トラックバー対応イージングスクリプト
+overview: オブジェクトの動きに緩急をつける
+description: オブジェクトに加速、減速、バウンドなどの動きをつけることができます。補間移動版では中間点を使った曲線上のイージングにも対応しています。
+developer: UndoFish
+pageURL: https://www.nicovideo.jp/watch/sm37721332
+downloadURLs:
+  - https://www.nicovideo.jp/watch/sm37721332
+latestVersion: 2020版
+nicommons: sm37721332
+files:
+  - filename: script/easing_tra_2020/@uf_easing.anm
+  - filename: script/easing_tra_2020/@uf_easing.tra
+  - filename: script/easing_tra_2020/easing.lua
+  - filename: script/easing_tra_2020/easing.png
+  - filename: script/easing_tra_2020/easing_aviutl2020.lua
+  - filename: script/easing_tra_2020/uf_easing.obj

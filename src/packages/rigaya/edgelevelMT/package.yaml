@@ -1,0 +1,16 @@
+id: rigaya/edgelevelMT
+name: エッジレベル調整MT
+overview: エッジレベル調整をMT化(並列化)
+description: >-
+  がらくたハウスのがらくた置き場様(http://www.geocities.jp/flash3kyuu/)のエッジレベル調整を勝手にMT化(並列化)したものです。オリジナルと同様に動くはずです。
+developer: rigaya
+originalDeveloper: flash3kyuu
+pageURL: https://rigaya34589.blog.fc2.com/blog-category-11.html
+downloadURLs:
+  - https://1drv.ms/u/s!AsYziax1Q91rgjecLz36N1c41syz?e=7BeQTq
+  - >-
+    https://drive.google.com/drive/folders/0BzA4dIFteM2dSEZZbmdOWDNuSHM?usp=sharing
+latestVersion: v9
+files:
+  - filename: plugins/edgelevelMT.auf
+    archivePath: edgelevelMTv9

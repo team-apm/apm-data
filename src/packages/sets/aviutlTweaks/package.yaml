@@ -1,0 +1,19 @@
+id: sets/aviutlTweaks
+name: AviUtl効率化 パッケージセット
+overview: AviUtlをより使いやすくするためのパッケージセット
+description: AviUtlの機能を調整してより使いやすくするためのパッケージを追加できます。
+developer: apm
+dependencies:
+  - aoytsk/seekbarx
+  - hebiiro/adjust
+  - hebiiro/DragFilter
+  - hebiiro/OptimizeEditBox
+  - hebiiro/ShowWaveform
+  - ePi/LuaJIT
+pageURL: https://github.com/team-apm/apm-data
+downloadURLs:
+  - https://team-apm.github.io/apm-data/package-sets-description.html
+latestVersion: 2022/06/16
+files:
+  - filename: placeholder.pkgset
+    isObsolete: true

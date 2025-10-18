@@ -1,0 +1,27 @@
+id: tim/traspe
+name: 透明度指定
+overview: 他のオブジェクトから透明度を指定・コピーするスクリプト
+description: >-
+  透明度を指定＆コピーできます。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20729870
+downloadURLs:
+  - https://tim3.web.fc2.com/script/TraSpe.zip
+  - https://tim3.web.fc2.com/sidx.htm#TraSpe
+latestVersion: 2013/04/29
+nicommons: sm20729870
+files:
+  - filename: script/tim/透明度指定.anm
+  - filename: script/tim/T_Alpha_Module.dll
+releases:
+  - version: 2013/04/29
+    integrity:
+      archive: sha384-IKlWzB5EUgcu1W0JwEYXrF9W7TRwsNL/DQA6Q894athjOxeOvB2fyDnuYXwG0yb4
+      file:
+        - target: script/tim/透明度指定.anm
+          hash: >-
+            sha384-+Rc5Uta097DyuPAVtC65SJoQOjmWkRzUmnYEcfY+FYYZjK+3WGTk/RUrlciKO+BD
+        - target: script/tim/T_Alpha_Module.dll
+          hash: >-
+            sha384-v9waBKk529XhOcuaDPAxe6nBhsUbn0R+aXH5rFx+uVuT3UgkD5karFmIZoxIjbgt

@@ -1,0 +1,90 @@
+id: oov/textassist
+name: テキスト編集補助プラグイン
+overview: 拡張編集プラグイン上で制御文字の書き換えを行う
+description: AviUtl の拡張編集プラグインで複数行テキストを編集する際に、Alt + 方向キー で制御文字の内容を書き換える AviUtl 用プラグインです。
+developer: oov
+pageURL: https://github.com/oov/aviutl_textassist
+downloadURLs:
+  - https://github.com/oov/aviutl_textassist/releases/latest
+latestVersion: v0.3.8
+nicommons: sm37598954
+files:
+  - filename: textassist.auf
+releases:
+  - version: v0.3.8
+    integrity:
+      archive: sha384-wiE+zkuGENDVKrl5S9OklI8oKyYNol0NqGHriq675lPCJ0LS9S76Vzcq2kybAWve
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-uu4pp3rVXSKvh0nyoPw6ZYVKBoHpE+C5hpnz5qcWGPGgPs2aE3JA4o8OC8+bL2DO
+  - version: v0.3.7
+    integrity:
+      archive: sha384-17BwLPeKO7uHn18QZOqC9fRCdU8A/ZUaw3mF6DggRsU3ghzv9hM0XuVoHgcWEnL8
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-5/4XknY+YXs65R/kTf1oaheYgDEALW7XPE0+aJN2l6p/oM/PMHoZq8PCs3eXfsct
+  - version: v0.3.6
+    integrity:
+      archive: sha384-PjuH5cky7mSQ8FEgkUOD6ci2Zm0sao7QWFiYUBMd6d5McH6IeTswtT4/imDLFrBd
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-2PC/J4TmmnNdWqK/HmNPmG6QcbEYmi4yPJl1B9eiXQz8H0wAGOQhunO+fKncRJHK
+  - version: v0.3.5
+    integrity:
+      archive: sha384-jn54hGwFsnRnxo1nqH+g58xI4QELGAVQvKFbumNI7xV1dQfoF5LWRYRi2t5s9xBq
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-64vjupDuVZd1FKOKv9iJrtN+zayGT1Gx3bLBMd1fTEyFPo5h+AviICwZgHKVtwi+
+  - version: v0.3.4
+    integrity:
+      archive: sha384-DUxiabvX/hmE8gxZW4jLqxnCsnrAXuaVvPZrDGdeJYr1qkIkpH23E2eluVQ0Hzvb
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-On6dm/MeI93WYSFR5oxLSDUxtz3rbPp9S/p3L5ahHnexLC+BLVv4dQ0WFLAlLTxe
+  - version: v0.3.3
+    integrity:
+      archive: sha384-fGyadT6Us3IdpdRd8Pm94Zf/eioJe+FZhCaugLDa/6JGkfEGal70LuwrsAaAMYo6
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-vYhKVm6Y8ILxv/LtkYmxTuXdaXGq70DBz4pXKaQ8moN6yS6N+b2w1xUB0lGMPcIU
+  - version: v0.3.2
+    integrity:
+      archive: sha384-R/x/AAWkPuI/wKZboB9rDHrNQbh5B6tSJ8JpBcGYtsSYc+O3l/B6l95YAPyz3UqK
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-RDkmpPWDC4eYGl8VI50F5CDT4opO+J0vbF99fuC62wKHyJySgr9NAYjvHUGJ3Ip0
+  - version: v0.3.1
+    integrity:
+      archive: sha384-dWhRzc2lto5OzKj0YOsqKktKJ8Kxaiur/CpJu+v33ePdcrOjuYT5aS2FzJq4C6rh
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-EBPapFjP7fgZjFS5WNKqEwBR3POeonSHZ3Luk82jlneOhiPwh8YI7nqdwGN9oMPc
+  - version: v0.3
+    integrity:
+      archive: sha384-lfeuCpfHXLfRMrVYYoe2iq2A7A4kqMV8dJIjLTrLSjRglkCJ7eK0I6GKyFKZyvDp
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-K8nmKK7QwW0vzLXYvg1WudF3CfklWtjaG40v3v9vj2UXQLdTylWPsXpkCh+nSTlP
+  - version: v0.2
+    integrity:
+      archive: sha384-97a4T9QuPVOOTMyhxIf7rzeEonmwWkm9wilZMkTYFvgDDUsp2RsjhrWS6uoz0VvP
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-5q6FkogtxMByaEi0vFTQMzPIu+jjO58r/ug4jL/ooUoq2vXIaOIOC4sDjs+sU2yT
+  - version: v0.1
+    integrity:
+      archive: sha384-9phNGZdAA2xou1gvAbjbNu62dckskvJmIq8ZS9p2qWX3HSSKu5xwCMuvRMpuwqu2
+      file:
+        - target: textassist.auf
+          hash: >-
+            sha384-venvXTToMvCkG4kwEFcVgkmIOZ2MkSunHXK4ZtHntb8+zrwyUF/FTkr4PaaIAWPS

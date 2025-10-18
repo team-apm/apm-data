@@ -1,0 +1,22 @@
+id: rikky/renamePlugin2
+name: オブジェクト名変更(rm 2)
+overview: タイムラインのオブジェクトの名称を変更するプラグイン
+description: タイムラインのオブジェクトの名称を変更するプラグイン
+developer: rikky
+dependencies:
+  - rikky/rikkyModule2
+pageURL: https://www.nicovideo.jp/watch/sm30290486
+downloadURLs:
+  - https://hazumurhythm.com/a/G8o/
+latestVersion: 0.9b
+nicommons: sm30290486
+files:
+  - filename: plugins/rename_plugin.auf
+    archivePath: rename_plugin/rikky_module ver2用
+releases:
+  - version: 0.9b
+    integrity:
+      file:
+        - target: plugins/rename_plugin.auf
+          hash: >-
+            sha384-qTblQcbdaGH50dD15umyI6Iz7AGGRs38bPeFKK3wYy5j1WjmWNFBctpvf4pZ1hpT

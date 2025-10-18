@@ -1,0 +1,11 @@
+id: aoytsk/trayiconx
+name: トレイアイコン＋
+overview: Aviutl を通知領域(タスクトレイ)に格納する
+description: トレイアイコン＋はAviutl を通知領域(タスクトレイ)に格納したり、進捗情報の表示や一時停止機能を追加する Aviutlプラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/450565.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/450565.html
+latestVersion: Ver 0.4
+files:
+  - filename: plugins/trayiconx.auf

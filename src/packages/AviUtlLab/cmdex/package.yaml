@@ -1,0 +1,19 @@
+id: AviUtlLab/cmdex
+name: コマンド実行 for AviUtl
+overview: バッチ処理にコマンドラインによる処理を組み込む
+description: >-
+  バッチ処理にコマンドラインツールによる処理を組み込むための出力プラグインです。このプラグイン自体は何も出力しません（一時ファイルは作ります）。使うにはコマンドラインツールを扱える知識が必要です。
+developer: AviUtl実験室
+pageURL: >-
+  http://videoinfo.tenchi.ne.jp/?%A5%B3%A5%DE%A5%F3%A5%C9%BC%C2%B9%D4%20for%20AviUtl
+downloadURLs:
+  - >-
+    http://videoinfo.tenchi.ne.jp/?%A5%B3%A5%DE%A5%F3%A5%C9%BC%C2%B9%D4%20for%20AviUtl
+latestVersion: ver0.3
+files:
+  - filename: plugins/cmdex.auo
+    archivePath: cmdex/
+  - filename: plugins/cmdex.txt
+    archivePath: cmdex/
+  - filename: plugins/powerctl.exe
+    archivePath: cmdex/

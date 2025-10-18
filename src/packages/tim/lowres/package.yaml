@@ -1,0 +1,22 @@
+id: tim/lowres
+name: 低解像度T
+overview: アナログチックに低解像度にするスクリプト
+description: アナログチックに低解像度にする効果のスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm37665554
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LowRes.zip
+  - https://tim3.web.fc2.com/sidx.htm#LowRes
+latestVersion: 2020/10/13
+nicommons: sm37665554
+files:
+  - filename: script/tim/低解像度T.anm
+    archivePath: LowRes
+releases:
+  - version: 2020/10/13
+    integrity:
+      archive: sha384-tOh98Pg73VRcfWPNDNZwcHct2dCabwh+hbmgVE1fSjiUBQQA2AuJJKmMr13AGoSi
+      file:
+        - target: script/tim/低解像度T.anm
+          hash: >-
+            sha384-+IMeHPzK6cQ7TE/QvkuyGn+l7dTjGYoI5d7k3NG4YaWWY7Kfatdi5xo4giBmZnpO

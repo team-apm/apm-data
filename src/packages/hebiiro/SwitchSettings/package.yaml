@@ -1,0 +1,28 @@
+id: hebiiro/SwitchSettings
+name: 設定切り替え
+overview: 起動時に設定ファイルを選択できるようにする
+description: >-
+  起動時に設定ファイルがあるフォルダを選択できるようにします。プログラムの挙動から考えてセキュリティソフトからウィルス扱いされる可能性があります。そのときは例外に指定するとか自分でソースコードを改良してビルドするとか各自で対策をとってください。
+developer: hebiiro
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-SwitchSettings
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-SwitchSettings/releases/latest
+latestVersion: 1.0.1
+files:
+  - filename: SwitchSettings
+    isDirectory: true
+  - filename: SwitchSettings.dll
+  - filename: SwitchSettings.exe
+releases:
+  - version: 1.0.1
+    integrity:
+      archive: sha384-tY9lZrNmLRXlRvJ5fY3FLPkSz4aidtSSSjM2bhRL6dhWZzFOqu8c69EswJx+Z105
+      file:
+        - target: SwitchSettings.dll
+          hash: >-
+            sha384-muThntkEjBGn2t5/Yv7bqbZ8i69ffl0WkEP9eoBTJ+OPP9GEpGXSDaaJPJVq/2Zg
+        - target: SwitchSettings.exe
+          hash: >-
+            sha384-HJ5PFgi/yEdxfxfvCXYey6I3q34OAFYG7Ji8vkrjVd9TsG7RMWAuFBbJY/xwU3o8

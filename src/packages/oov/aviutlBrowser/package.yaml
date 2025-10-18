@@ -1,0 +1,92 @@
+id: oov/aviutlBrowser
+name: aviutl_browser
+overview: 拡張編集上にブラウザーの表示内容を持ち込む
+description: AviUtl の拡張編集プラグイン上でブラウザーの表示内容を持ち込めるようにするためのプログラムです。使用には bridge.dll の導入が必要です。
+developer: oov
+dependencies:
+  - oov/bridge
+pageURL: https://www.nicovideo.jp/watch/sm38772089
+downloadURLs:
+  - https://github.com/oov/aviutl_browser/releases/latest
+latestVersion: v0.4.2
+nicommons: sm38772089
+files:
+  - filename: script/browser/exe
+    archivePath: script/browser
+    isDirectory: true
+  - filename: script/browser/contents/絵文字セレクター
+    archivePath: script/browser/contents
+    isDirectory: true
+  - filename: script/browser/browser.lua
+    archivePath: script/browser
+  - filename: script/browser/glTF表示デモ.obj
+    archivePath: script/browser
+    isObsolete: true
+  - filename: script/browser/Markdown.anm
+    archivePath: script/browser
+  - filename: script/browser/Markdown.exa
+    archivePath: script/browser
+  - filename: script/browser/SVGアニメ.obj
+    archivePath: script/browser
+    isObsolete: true
+  - filename: script/browser/ファイル参照デモ.obj
+    archivePath: script/browser
+    isObsolete: true
+  - filename: script/browser/絵文字.obj
+    archivePath: script/browser
+  - filename: script/browser/contents/glTF表示デモ.abc
+    archivePath: script/browser/contents
+    isObsolete: true
+  - filename: script/browser/contents/Markdown.abc
+    archivePath: script/browser/contents
+  - filename: script/browser/contents/SVGアニメ.abc
+    archivePath: script/browser/contents
+    isObsolete: true
+  - filename: script/browser/contents/ファイル参照デモ.abc
+    archivePath: script/browser/contents
+    isObsolete: true
+  - filename: script/browser/contents/絵文字.abc
+    archivePath: script/browser/contents
+releases:
+  - version: v0.4.2
+    integrity:
+      archive: sha384-DDXXUk7diV1ZxUnNCQPwrglIPOPeuVLm9rNFwXVHHH/iE6OCWg5Rec08UgiX6PpQ
+      file:
+        - target: script/browser/browser.lua
+          hash: >-
+            sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R
+  - version: v0.4.1
+    integrity:
+      archive: sha384-tHyJvY0K6l3QIIC03oe/NwD6/rM4Ye/p5UB9Bnm6YoQkzjUswlQy9mQApS5wjf1U
+      file:
+        - target: script/browser/browser.lua
+          hash: >-
+            sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R
+  - version: v0.4.0
+    integrity:
+      archive: sha384-0vQ0YrV7EwAsWhGy6NwWvCy5BfKZ43uy0i2z5FnbAbKaJMKAmCnz8+IyI0tPbR6l
+      file:
+        - target: script/browser/browser.lua
+          hash: >-
+            sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R
+  - version: v0.3
+    integrity:
+      archive: sha384-kJGEa3eVTbrC8Vb7JCOlCwYxyxSCRWfhpMySxiZpLPttT+CXq7yBTQISUCJVizOw
+      file:
+        - target: script/browser/browser.lua
+          hash: >-
+            sha384-D9YPS7W3pxcdwYxPuK9Z1yiheDh9VT8rO3N3TNtspVap8Ght1BYhhPZwadQF5d+R
+  - version: v0.2
+    integrity:
+      archive: sha384-OZ7ATVUwXeljiWrhoCiRixhxl88x078BLIl8VU8oYFFvmsCibWYgyMUu/9l/9AIf
+      file:
+        - target: script/browser/browser.lua
+          hash: >-
+            sha384-vmBlC5Ut3AhZ3i57hTOHtbuS5WBOgT9Uy8rj7LzGwpfr2NNmk7GxIyEcTF113LiJ
+  - version: v0.1
+    integrity:
+      archive: sha384-XqR6AT4V2z2sy6jz/QaYvKzGyvaWftP1PXW0iQ+cBmaMekIHca429u3k1vT9mLpp
+      file:
+        - target: script/browser/browser.lua
+          hash: >-
+            sha384-vmBlC5Ut3AhZ3i57hTOHtbuS5WBOgT9Uy8rj7LzGwpfr2NNmk7GxIyEcTF113LiJ

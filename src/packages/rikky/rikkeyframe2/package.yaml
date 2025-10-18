@@ -1,0 +1,30 @@
+id: rikky/rikkeyframe2
+name: キーフレームプラグイン(rm 2)
+overview: 中間点でなくキーフレームでオブジェクトのパラメータを制御する
+description: 中間点ではなく独自のキーフレームでオブジェクトのパラメータを制御できるものです。
+developer: rikky
+dependencies:
+  - rikky/rikkyModule2
+pageURL: https://www.nicovideo.jp/watch/sm34389463
+downloadURLs:
+  - https://hazumurhythm.com/a/tZl0/
+latestVersion: 1.0a
+nicommons: sm34389463
+files:
+  - filename: KeyFrameEasing
+    archivePath: rikkkkkkyframe_2
+    isDirectory: true
+  - filename: KeyFrameScript
+    archivePath: rikkkkkkyframe_2
+    isDirectory: true
+  - filename: rikkeyframe.auf
+    archivePath: rikkkkkkyframe_2/rikky_module ver2用
+  - filename: script/rikkeyframe.tra
+    archivePath: rikkkkkkyframe_2
+releases:
+  - version: 1.0a
+    integrity:
+      file:
+        - target: rikkeyframe.auf
+          hash: >-
+            sha384-rzc1zTKYKrqRQmvZhIcklR/ptl4PNw/lHJTbJAfBjMqFUe7yOG8wywDDSQFJBzNR

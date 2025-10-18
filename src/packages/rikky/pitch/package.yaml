@@ -1,0 +1,19 @@
+id: rikky/pitch
+name: ピッチ変更プラグイン
+overview: 音声のピッチを変更する
+description: オーディオ関係のプラグイン。VSTを読み込めるプラグインが実はあって、これは要らない子になってしまいましたとさ。
+developer: rikky
+pageURL: https://www.nicovideo.jp/watch/sm29432469
+downloadURLs:
+  - https://hazumurhythm.com/a/qP6/
+latestVersion: v01(補助), v02
+nicommons: sm29432469
+files:
+  - filename: pitch.auf
+releases:
+  - version: v01(補助), v02
+    integrity:
+      file:
+        - target: pitch.auf
+          hash: >-
+            sha384-mfCffqrKd7bnKWCSOV20BohxYJlpr3Xf0qouyA4w7upsJ3bCQVc82Lkflo9ddvvr

@@ -1,0 +1,21 @@
+id: tim/vanishP2
+name: バニシングポイント2
+overview: 平面画像を3Dに変形させるスクリプト
+description: 平面画像を3Dに変形させるスクリプトです。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm16461298
+downloadURLs:
+  - https://tim3.web.fc2.com/script/VanishP2_V2.zip
+  - https://tim3.web.fc2.com/sidx.htm#VanishP2
+latestVersion: V2
+nicommons: sm16461298
+files:
+  - filename: script/tim/バニシングポイント2.anm
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-XNh+jMIRPhrAfpVLsInBCnr6WoL4qEqxm+nzAZhfbYAveXJiAavPaMn8mpiU8nSz
+      file:
+        - target: script/tim/バニシングポイント2.anm
+          hash: >-
+            sha384-kViXxvWN5hZ+I3hJdrqTE8CTLNsDjqTiBk+rF0wVj84O0abDnj79Cr4z9yRDZjym

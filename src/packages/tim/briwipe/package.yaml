@@ -1,0 +1,25 @@
+id: tim/briwipe
+name: 輝度ワイプ
+overview: 輝度によってワイプするスクリプト
+description: |-
+  きしめんエフェクトセット第3弾。
+  輝度値を参考にして画像を切り替えます。
+developer: ティム
+dependencies:
+  - tim/coladj
+pageURL: https://www.nicovideo.jp/watch/sm18581114
+downloadURLs:
+  - https://tim3.web.fc2.com/script/k3-BriWipe.zip
+  - https://tim3.web.fc2.com/sidx.htm#BriWipe
+latestVersion: 2018/12/28
+nicommons: sm18581114
+files:
+  - filename: script/tim/輝度ワイプ.anm
+releases:
+  - version: 2018/12/28
+    integrity:
+      archive: sha384-tGIeeUYPK6iV+SWEHyD1a281fv5kCrtK328Hrzsib66jlSikpWlzsFYprCEjNGdQ
+      file:
+        - target: script/tim/輝度ワイプ.anm
+          hash: >-
+            sha384-i7V/u2LHj6rh2gcp1kv5C8c7eUGH8/rlZEQNManjCsaJRFa6gs4/8AmF0tJwvp8e

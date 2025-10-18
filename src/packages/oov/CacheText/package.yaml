@@ -1,0 +1,19 @@
+id: oov/CacheText
+name: キャッシュテキスト
+overview: テキストをキャッシュすることで描画処理を効率化する
+description: >-
+  キャッシュテキストは、生成したテキストを画像としてキャッシュすることで描画処理を効率化する拡張編集用スクリプトです。画像としてキャッシュするため、表示速度を利用したアニメーション、サイズのリアルタイムな変更などのような機能は使用できません。
+developer: oov
+dependencies:
+  - oov/ZRamPreview|oov/PSDToolKit
+pageURL: https://www.nicovideo.jp/watch/sm37598954
+downloadURLs:
+  - https://github.com/oov/aviutl_cachetext/releases
+latestVersion: v0.8
+nicommons: sm37598954
+files:
+  - filename: キャッシュテキスト.exa
+  - filename: script/CacheText.lua
+    archivePath: script
+  - filename: script/CacheText.anm
+    archivePath: script

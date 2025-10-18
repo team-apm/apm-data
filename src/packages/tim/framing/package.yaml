@@ -1,0 +1,29 @@
+id: tim/framing
+name: 縁取りT
+overview: 縁取りをするスクリプト
+description: >-
+  輪郭から等距離で縁取りをします。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm33598259
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Framing.zip
+  - https://tim3.web.fc2.com/sidx.htm#Framing
+latestVersion: 2020/07/19
+nicommons: sm33598259
+files:
+  - filename: script/tim/T_Framing_Module.dll
+    archivePath: Framing
+  - filename: script/tim/縁取りT.anm
+    archivePath: Framing
+releases:
+  - version: 2020/07/19
+    integrity:
+      archive: sha384-4/H2icEzd/lxf2a/3M7Yi3jZNsyxmjtu0i7Gi9HkfBfhUAL+ybGSP5S+sjF8dDDd
+      file:
+        - target: script/tim/T_Framing_Module.dll
+          hash: >-
+            sha384-Rf8pLtpHPx6yauGv2arjWZFN9SMi+QkLToIVVz4Pg0bB3y50ZDhveMakTLkbDNuB
+        - target: script/tim/縁取りT.anm
+          hash: >-
+            sha384-dTVqak5QzmuI+W/LKZuT9LxmqOVmzMSipm+yD2A7oCv1p1tWShfEU4M2bPDFkIZa

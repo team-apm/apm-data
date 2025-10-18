@@ -1,0 +1,13 @@
+id: oov/loudness
+name: loudness.auf
+overview: Loudness値を測定
+description: ラウドネス値が表示できるプラグイン
+developer: oov
+pageURL: https://www.nicovideo.jp/watch/sm34877728
+downloadURLs:
+  - >-
+    https://drive.google.com/drive/folders/11QQmeQTapEZvHADf-8B5JPaGMb5yQ7Uz?usp=sharing
+latestVersion: v0.1
+nicommons: sm34877728
+files:
+  - filename: plugins/loudness.auf

@@ -1,0 +1,21 @@
+id: tim/coledge
+name: 色付きエッジ抽出
+overview: 色付きでエッジ抽出するスクリプト
+description: 色付きでエッジ抽出します。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18348885
+downloadURLs:
+  - https://tim3.web.fc2.com/script/ColEdge.zip
+  - https://tim3.web.fc2.com/sidx.htm#ColEdge
+latestVersion: 2012/07/14
+nicommons: sm18348885
+files:
+  - filename: script/tim/色付きエッジ抽出.anm
+releases:
+  - version: 2012/07/14
+    integrity:
+      archive: sha384-ODD+krB3h2iGlCqquaf7OKJoCxjJy1kcUHpsaDUo05V3LuDZ3u1fRSA5r8fSC4V1
+      file:
+        - target: script/tim/色付きエッジ抽出.anm
+          hash: >-
+            sha384-Tmf2IV7g9QjBovpibZVGXP0jhrn82G7GmsWN3dUoFcNZ63rbSIYyYTx87oFJZQ27

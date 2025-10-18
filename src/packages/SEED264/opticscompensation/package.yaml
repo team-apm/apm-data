@@ -1,0 +1,49 @@
+id: SEED264/opticscompensation
+name: OpticsCompensation_s
+overview: レンズ補正
+description: >-
+  いわゆるレンズ補正を行うアニメーション効果です。【動作にはVisual C++ 再頒布可能パッケージ 2015-2022
+  x86(32bit)のインストールが必要です https://aka.ms/vs/17/release/vc_redist.x86.exe 】
+developer: 星野なたね
+conflicts:
+  - SEED264/opticscompensationold
+pageURL: https://twitter.com/SEED264/status/1268646448452657152
+downloadURLs:
+  - https://github.com/SEED264/OpticsCompensation_s/releases/latest
+latestVersion: v1.1
+files:
+  - filename: script/SEED264/OpticsCompensation_s.anm
+    archivePath: OpticsCompensation_s
+  - filename: script/SEED264/OpticsCompensation_s.dll
+    archivePath: OpticsCompensation_s
+releases:
+  - version: v1.1
+    integrity:
+      archive: sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8
+      file:
+        - target: script/SEED264/OpticsCompensation_s.anm
+          hash: >-
+            sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY
+        - target: script/SEED264/OpticsCompensation_s.dll
+          hash: >-
+            sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88
+  - version: '1.1'
+    integrity:
+      archive: sha384-O1em7VMqPZHdcgmpJ739/6agmlRT54GBtqDFf5yKdYhpXEkPutYHaNMlahHm6CC8
+      file:
+        - target: script/SEED264/OpticsCompensation_s.anm
+          hash: >-
+            sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY
+        - target: script/SEED264/OpticsCompensation_s.dll
+          hash: >-
+            sha384-2RSl5iF4kRxQaSGDskSbDpwPy23/+pmmHgEzgfczEA1rT62rYLPZ4jfrOguBHr88
+  - version: '1.0'
+    integrity:
+      archive: sha384-8CPsFz5osMl4KMAi+gPzXsOo88p8XVSxh1nFJTK2TtwN/ORBd48witGYDxJJsQ/b
+      file:
+        - target: script/SEED264/OpticsCompensation_s.anm
+          hash: >-
+            sha384-+7hoPsL03ZlRKQM0o9YN1hNV4buZFp4gpGVHxuphJy1xEI49MwRBzFhkpSaAxAwY
+        - target: script/SEED264/OpticsCompensation_s.dll
+          hash: >-
+            sha384-RAiMbdouKoje8UMGjmSTMnIeIN4ECQPO0jkqs/WUvHkgrktlnuQN1nNGGEP45AWd

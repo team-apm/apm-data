@@ -1,0 +1,29 @@
+id: nazono/CameraAssistNoRuntime
+name: カメラ補助プラグイン(ランタイム不要・非推奨)
+overview: Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン
+description: Aviutlカメラの移動方法を変更し、より使いやすくするプラグイン。
+developer: 謎の生物
+pageURL: https://www.nicovideo.jp/watch/sm39701988
+downloadURLs:
+  - https://drive.google.com/drive/folders/1VcrWV_HF1fL2V_FfoV5wo5QBxzQuycMB
+latestVersion: '1.7'
+nicommons: sm39701988
+files:
+  - filename: カメラ制御
+    archivePath: CameraAssist一式
+    isDirectory: true
+  - filename: plugins/xCameraAssist.auf
+    archivePath: CameraAssist一式/plugins
+  - filename: script/上方向ベクトル.cam
+    archivePath: CameraAssist一式/script
+releases:
+  - version: '1.7'
+    integrity:
+      archive: sha384-7Tvy194XtCxrJFV1V+DNTazFgKIjDbO0r1jBGH+2HvhDVYZanN4DROUxRwFh8zo7
+      file:
+        - target: plugins/xCameraAssist.auf
+          hash: >-
+            sha384-8gKIvQAIsvptoWoyKCFBChN39MV0oRfONwwCzDre2gfeAb7gw9e8ZneKoaLJl/Xf
+        - target: script/上方向ベクトル.cam
+          hash: >-
+            sha384-/RKqup7p1doYQTjB31kYDSUzo41vShlbU8CvYtjVNse1SonxpW5OdiAxpmtbUExq

@@ -1,0 +1,12 @@
+id: aoytsk/exeditbutton
+name: 拡張編集が...消えた?
+overview: 拡張編集の表示を切り替えるメニューを追加
+description: >-
+  拡張編集のウィンドウが消えてももう大丈夫。メニューから素早く表示できます。・メインウィンドウに拡張編集を表示を切り替えるメニューを追加・画面外に消えた拡張編集ウィンドウを起動時に画面内に移動させる。(既に本体で実装されている模様)
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/Aviutl/891011.html
+downloadURLs:
+  - https://aoytsk.blog.jp/Aviutl/891011.html
+latestVersion: Ver 1.0
+files:
+  - filename: plugins/exeditbutton.auf

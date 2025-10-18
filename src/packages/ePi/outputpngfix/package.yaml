@@ -1,0 +1,24 @@
+id: ePi/outputpngfix
+name: PNG出力（バグ修正版）
+overview: 現在フレームの画像をPNG形式で出力
+description: |-
+  現在フレームの画像をPNG形式で出力します。アルファチャンネルの有無を選べます。
+  出力画像の幅が4の倍数でないと正しく出力できない問題が修正されています。
+developer: ePi
+originalDeveloper: yu_noimage_
+pageURL: >-
+  https://scrapbox.io/ePi5131/AulsPNG%E5%87%BA%E5%8A%9B_%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3
+downloadURLs:
+  - >-
+    https://scrapbox.io/ePi5131/AulsPNG%E5%87%BA%E5%8A%9B_%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3
+latestVersion: 2021/11/29
+files:
+  - filename: plugins/auls_outputpng.auf
+releases:
+  - version: 2021/11/29
+    integrity:
+      archive: sha384-6fjC375MZlzU00wqH5fz+kIy7HmW6IuLqoGC9M7IaocxwvV3pR3z3Qm/DpuyYwSx
+      file:
+        - target: plugins/auls_outputpng.auf
+          hash: >-
+            sha384-7CyKZcMeGdlqGsYMM5GLc7Daqja30Xyj8BXy0+rI9KQlpdSx3Hl3OaAIyNWuIX2Z

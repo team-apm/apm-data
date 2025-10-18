@@ -1,0 +1,11 @@
+id: aoytsk/recovery
+name: リカバリ
+overview: AviUtlが落ちた時の編集状態を復元し、再起動する
+description: 「リカバリ」はAviUtlが落ちた時の編集状態を復元し、再起動するプラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/34739355.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/34739355.html
+latestVersion: Ver 0.1.0
+files:
+  - filename: plugins/recovery.auf

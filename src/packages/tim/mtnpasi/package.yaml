@@ -1,0 +1,39 @@
+id: tim/mtnpasi
+name: 簡易モーションパス(パス数無制限版)
+overview: 画像をパスにそって伸ばす
+description: |-
+  画像をパスに沿って伸ばしていきます。
+  「簡易モーションパススクリプト」のパス数を無制限にしたもの。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm15039124
+downloadURLs:
+  - https://tim3.web.fc2.com/script/MtnPasI.zip
+  - https://tim3.web.fc2.com/sidx.htm#MtnPasI
+latestVersion: 2011/07/17
+nicommons: sm15039124
+files:
+  - filename: script/tim/@モーションパスD.anm
+    archivePath: CD公開時
+  - filename: script/tim/@モーションパスC.anm
+    archivePath: CD公開時
+  - filename: script/tim/@モーションパスB-V2.anm
+    archivePath: CD公開時
+  - filename: script/tim/@モーションパスA-V2.anm
+    archivePath: CD公開時
+releases:
+  - version: 2011/07/17
+    integrity:
+      archive: sha384-vrAYuw80tulR7Sj9Ub7xFDqn9E6xLO5FlnenI2fmofS+qhheQvdFZ+/7gyRYQW6k
+      file:
+        - target: script/tim/@モーションパスD.anm
+          hash: >-
+            sha384-RmjW+GvaVAIRaS5RCsyTdUfkDI6v55mfhrPudNs3WOL7AA5HBTK7U4zQtT8Lmf5w
+        - target: script/tim/@モーションパスC.anm
+          hash: >-
+            sha384-qGPOa4X/XBjysJWdh7fZX1T8b9afMv8qbplxxvyMe21n4lNiWOqPa6pk0weaN3NL
+        - target: script/tim/@モーションパスB-V2.anm
+          hash: >-
+            sha384-Vc7AoyZv1gvllqHbzXYwokVyiYk95QkOxqm/CIriIQuBd7EgE2cFKZuq/O5NsRXB
+        - target: script/tim/@モーションパスA-V2.anm
+          hash: >-
+            sha384-zhlb/XnWpOHRTQtYKd+ql+wpP5/+biiPrYViumaOrSKRYSdzNH7y2gqSPIk7eNy1

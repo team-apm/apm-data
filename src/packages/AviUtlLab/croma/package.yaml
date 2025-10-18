@@ -1,0 +1,15 @@
+id: AviUtlLab/croma
+name: クロマキー画像作成プラグイン
+overview: クロマキー合成用の画像またはマスク画像を作る
+description: >-
+  指定範囲内、または範囲外の色を塗り潰してクロマキー合成用の画像またはマスク画像を作るプラグインです。また、マウスクリックした場所の座標と色をポップアップダイアログで表示できます。
+developer: AviUtl実験室
+pageURL: >-
+  http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792
+downloadURLs:
+  - >-
+    http://videoinfo.tenchi.ne.jp/?%A5%A2%A5%CB%A5%E1%A1%BC%A5%B7%A5%E7%A5%F3%CA%D4%BD%B8%20for%20AviUtl#bc777792
+latestVersion: ver0.1
+files:
+  - filename: plugins/croma.auf
+    archivePath: croma/

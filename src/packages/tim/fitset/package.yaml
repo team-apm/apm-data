@@ -1,0 +1,29 @@
+id: tim/fitset
+name: フィルターセット
+overview: Photoshopのようなフィルターをかけるスクリプト
+description: >-
+  Photoshopのようなフィルターをかけます。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20550446
+downloadURLs:
+  - https://tim3.web.fc2.com/script/FltSet.zip
+  - https://tim3.web.fc2.com/sidx.htm#FltSet
+latestVersion: 2013/04/07
+nicommons: sm20550446
+files:
+  - filename: script/tim/T_Filter_Module.dll
+    archivePath: FltSet
+  - filename: script/tim/@T_Filter_Module.anm
+    archivePath: FltSet
+releases:
+  - version: 2013/04/07
+    integrity:
+      archive: sha384-4EBjhFfCKNUnMWQ+fE12DFxkiCnXQPl3SxPfPwFLoqd3iEhAV/Y6JeRBWavmaWEp
+      file:
+        - target: script/tim/T_Filter_Module.dll
+          hash: >-
+            sha384-bpWS8b1rmTt2BmS63qAoXN9rcJTlrrGeQveDq3gyAdgbWsnfaGhqnfwY14B9ne8l
+        - target: script/tim/@T_Filter_Module.anm
+          hash: >-
+            sha384-3EVpMo6ncJBCRCcbarfa08KMnejblGgPw5IxUigqixy2MPYDrspmsfKLPlGiow73

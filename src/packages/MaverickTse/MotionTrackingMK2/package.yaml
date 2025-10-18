@@ -1,0 +1,25 @@
+id: MaverickTse/MotionTrackingMK2
+name: Motion Tracking MK-II
+overview: モーショントラッキング機能を追加する
+description: 動画中の物体の動きに追従するモーショントラッキング機能を追加します。
+developer: Maverick Tse
+pageURL: https://aviutl.info/motiontracking/
+downloadURLs:
+  - >-
+    https://onedrive.live.com/?authkey=%21ABNo3i9YR5_dnT8&id=26840CDF9818EB8E%21434&cid=26840CDF9818EB8E
+latestVersion: 2014/11/17
+nicommons: sm24953465
+files:
+  - filename: plugins/haarcascade_profileface.xml
+    archivePath: MotionTrackingMKII-Release
+  - filename: plugins/haarcascade_frontalface_default.xml
+    archivePath: MotionTrackingMKII-Release
+  - filename: plugins/MotionTrackingMKII.auf
+    archivePath: MotionTrackingMKII-Release
+releases:
+  - version: 2014/11/17
+    integrity:
+      file:
+        - target: plugins/MotionTrackingMKII.auf
+          hash: >-
+            sha384-64R4Z8zmaaQj0xNLWb90s68nlalNpAukcpNS6G8o1kkH5pKL9xuZRjmqYbWxSdtv

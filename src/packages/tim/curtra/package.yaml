@@ -1,0 +1,23 @@
+id: tim/curtra
+name: 曲面変形
+overview: 3次元的に曲面変形させるスクリプト
+description: |-
+  きしめんエフェクトセット第5弾。
+  3次元的に曲面変形させます。パーティクルのように大量に発生させることもできます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm18731596
+downloadURLs:
+  - https://tim3.web.fc2.com/script/k5-CurTra.zip
+  - https://tim3.web.fc2.com/sidx.htm#CurTra
+latestVersion: 2012/08/27
+nicommons: sm18731596
+files:
+  - filename: script/tim/曲面変形.anm
+releases:
+  - version: 2012/08/27
+    integrity:
+      archive: sha384-UJK0Ld6z8OBpLOWWEvmtxWdwZ7XldPr11prbluv9VCrTrJuoKCl293iuCnwuyB6r
+      file:
+        - target: script/tim/曲面変形.anm
+          hash: >-
+            sha384-Op8md0rRrsfp4TfYtPHOn2+k2iFZ058QQXgf/rD85w+oyobMx7T+i5j8P26fvzLN

@@ -1,0 +1,201 @@
+id: rigaya/svtAV1guiEx
+name: svtAV1guiEx
+overview: SVT-AV1を使用してエンコードを行う
+description: SVT-AV1を使用してエンコードを行うAviutlの出力プラグインです。
+developer: rigaya
+pageURL: https://github.com/rigaya/svtAV1guiEx#readme
+downloadURLs:
+  - https://github.com/rigaya/svtAV1guiEx/releases/latest
+latestVersion: '1.26'
+files:
+  - filename: plugins/svtAV1guiEx.auo
+    archivePath: plugins
+  - filename: plugins/svtAV1guiEx.ini
+    archivePath: plugins
+  - filename: plugins/svtAV1guiEx.conf
+    archivePath: plugins
+    isUninstallOnly: true
+  - filename: plugins/auo_setup.auf
+    archivePath: plugins
+    isInstallOnly: true
+  - filename: plugins/svtAV1guiEx_stg
+    archivePath: plugins
+    isDirectory: true
+  - filename: exe_files
+    isDirectory: true
+    isInstallOnly: true
+  - filename: exe_files/SvtAv1EncApp_1.0.0-rc2-1_x64.exe
+    isUninstallOnly: true
+  - filename: exe_files/ffmpeg_audenc.exe
+    isUninstallOnly: true
+  - filename: exe_files/mp4box.exe
+    isUninstallOnly: true
+releases:
+  - version: '1.26'
+    integrity:
+      archive: sha384-UdYGcx9uNh+ETVl//ScO2pcFGF8BnRflYoQEues4Bhx3B/fiQaCoXQ2ilaiediqL
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-MAouvBST8ehow5VUgyS0wWop837KCb7fJWJAJBWr3Xd212RL5hjKoqWa0nuqSmjm
+  - version: '1.23'
+    integrity:
+      archive: sha384-T/e8iLENlshXA60UP5CPpie1URuSyaE72B8Aer8VSStOvhGVXltv7/03dRbdOEbd
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-RneuwEaIMGR5qQ+2uH/VvLuZ3Dsdfiahe2cbDpuEfto5JW0vtnOYSWOENj6aFdvH
+  - version: '1.22'
+    integrity:
+      archive: sha384-VMXeHkVGubPFdWsWWUljd12qvTJVHFGlU+Qc5IBjE+vnk8BqOw8VOc0yNoQDrv0z
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-efbbr6MjT9GXd9swnPMmhjJh6gp01U8Xu34p+ZjVQvh/lrPBQgsmEbX79bfSRTm6
+  - version: '1.21'
+    integrity:
+      archive: sha384-LjYJdES96Jc4qqMRr+bsSxbX3taLviZTens5hYP26xlWgqk+36BthBDm6sSGsWsM
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-+KeZWYo69IHU0AzI3R7KxBbJ58eUA4pnfnVQFnXwSfQPfHYhgqLe0VBJj4IlzWG1
+  - version: '1.20'
+    integrity:
+      archive: sha384-G6EAoewUhElzcSloPxLmOdBZKqNcxFx+GEDavcYTp6y7smhsE2AMgwFArOSWOhd7
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-ya3FrEVzPJpEc9vqD+wezptHC6tmQODLj/31bfkBkveqyJUnZzSKSA9XJdPSp8y6
+  - version: '1.19'
+    integrity:
+      archive: sha384-eLEYXIm5aFq4wy1oLY1AoFKH7WRA+CFmrLqETVphQGasCY9IggbtYc4vT1P3L1vz
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-YxGjHG+gF6NrWadawiIXAJZrgV2lk+uAyx69a0K2p3eNn7B5b7bEIqeCqS0qiIO2
+  - version: '1.17'
+    integrity:
+      archive: sha384-zMWv/3Dc4BpwCRc5wmAleReFD+FvwoIPqKWVOysF3mDzHxvzE1JzNDxc7dhE1+zv
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-HElQVg3K/iREoyXjUDPBj3EIZA7SGc7RKXAMlUZKU8/Vqy1Q7S7JDdeS6qZDlySs
+  - version: '1.16'
+    integrity:
+      archive: sha384-pDxq8QdjGpIHMZ++i0ulqkTiIx//yJJCR5HbdzJPAYkqQd3q4lbd3tdBzl4mHMpd
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-/RtR+EsX/QDHS3w3KYGd5x6P+OFg0qG4juHyKNTqS9RF4cQW6QKkyUYwH8ORdnMU
+  - version: '1.15'
+    integrity:
+      archive: sha384-bRCaHHd1OKldn3QsuUAdpa/Oy+6NlMNjjWeq0k1JXypSvTgv6lSndGar3iP1bIdO
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-8TnyiH5Spd49fKFwoC3shQG1QhKWg0YiVGz/NZHZ0jTEcEBzbMww9q88o61A7CvX
+  - version: '1.14'
+    integrity:
+      archive: sha384-gruBOdvUZE6RsCrkzoskP/5n9Zmd93/PP6pgZEXgFkt1ZCe5ksns3wOIWkID7p2p
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-OoXZKTmIAjnW1Hb97iG9f7uQTFFxJnEGymVZ6IzdKck7yACDpGWB+iMDI9bYrygo
+  - version: '1.13'
+    integrity:
+      archive: sha384-3VAqNeNincgrjCuTspbi+wewzkR1KIkC+9D8WrbmjTYjrXs8qDU/dvNbQ1jAB/lz
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-lo7BDnQGSFGeo4UJSI5FeOffG28fWJx3pa2ozb5/vDerAEiQECJvF8Ba4GJRFcYF
+  - version: '1.12'
+    integrity:
+      archive: sha384-lQhXv2TlRnXkJRwqVuHVFzMG/L+8tSXEtwF2A9nl4Zx+IJErFDTJn95ARX3eLU+l
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-TBnM8qSvqcgTemG/T5sXVQqofL88eRLSvmm0yfqvdA94C80+JbjDadTjPmTWwLPn
+  - version: '1.11'
+    integrity:
+      archive: sha384-2h+eWmR3lHRnY6fiV2+tr1zicgbReED4Y0h+9YAfgpCfLntHsW/I2LptYh8BaHED
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-5tL0n3LA/S768La0YUpIKV95yxKa7oBY1uW5+j7WqpJ+bOtK8zeCb11CiUl4QXKM
+  - version: '1.10'
+    integrity:
+      archive: sha384-nd0nMP8dALgGmC16AtBd4yV0BE+/H929MFn7CCEMqo/cF7kq6jA3xdEbRQcQCHNW
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-L4SeGy60CmkOFx8jbaFLb4MurwOtFUQGez5YwRcdSc7ilWqe9d+g6VgzTbabM/7x
+  - version: '1.09'
+    integrity:
+      archive: sha384-14ZzURFgS9O3vq3rls1xXtYkouLAFtyNRLkaVnNuVlAN/JQ5FEfkrpKXnlTHejPJ
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-oWh8YyErreMx2GzHSG4igYftYNKBGyOm8v66tI0gDviPXlJE3Z38n9iB/5GcCwQR
+  - version: '1.08'
+    integrity:
+      archive: sha384-iRT1FRvy9E+TPyhhwSwgtVqUO5RNHdAphn1CSpuXhI2qA8mcz2NGldnKn7nKtB/E
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-7Gl87HuUick4zengqGMlzn/7SObZOR15ZbAp4dd2yJ21+nkHgesdYyBx2HYOsHPg
+  - version: '1.07'
+    integrity:
+      archive: sha384-Bh8i0fS9jey3R5RgLugcp/bVqJkL9Sp4wI0navODY9EAeKjG/ypuQgNVFUAFUwlG
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-THUg8tg3AFNnF+VKcAnmQjHBgkOBPuGUwlR+Ggt0iPXMXwf4+EigjMtmwt91ovnV
+  - version: '1.06'
+    integrity:
+      archive: sha384-6/JT1TP+NHOmjxZajqooezkqGRngwADKll0Php61Vx9OyIhr96clI5jL86h3voRh
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-5B0rBzh/a4Zj/Q4ofPCuM11eG+8CLVAAhq2cKE8oMoE8moUNyVAv+j0AFUZ8e4bF
+  - version: '1.05'
+    integrity:
+      archive: sha384-pVYRqKdoWF3lVo2iZdm4lWcCuE8P0FK/iwINu4ikZG8UXVyahfbteDhsbnng24hc
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-8AAwAgxLYI7T1TK9Cl6m1X5RP1wpxswFRazUFa1kIfWsO1FxbxBGajZZwqmwLDMu
+  - version: '1.04'
+    integrity:
+      archive: sha384-Wf4pz/Sqgl+KENg19dF08X+SJDUGuNnmS/I2YIH99gNSWWKk1BU+PrHk2JvuxdKF
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-LLgJ/OafLcCakK3/sPsDasqIsbwKG5Mh63DhlzbpX0bB3O6TSnj4HNJScQjURCnN
+  - version: '1.03'
+    integrity:
+      archive: sha384-IV1NHbi5vlt7IcYbTtzywCOss7R//+Eimtc3y3sv+0osfTn1yYAEUKes0yXEdagr
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-DqFuE0ZIwHpgd+Rvu/0RuvVNYXv/LA5RkuTMRfi8kQ17Fs8HGwT9qRoIOlGMJFWQ
+  - version: '1.02'
+    integrity:
+      archive: sha384-DnoArhyBtVbOLPRDNCM5bj20IoB9CiqqniHDmAjzdxNGM0JyOeJamcIy/7T9Bcdc
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-zn5b/X9Of1hlJmaGOsAhKJq9ocVFwRAlVbUP+qtUsCQ/mQa1SIbvX13yD3FFo5EJ
+  - version: '1.01'
+    integrity:
+      archive: sha384-DrmlvGM0YCIDy4ZJQFtZ3nDO/VAiOIDeTcwODKuqVWAeUD/fo1re3QUFg5Xlqmxi
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-casNq+32eoBF5T8dFCUKOU/1VyCNklxQVG4ZPpofav8NERFFVdJLpwiswL0WmFtw
+  - version: '1.00'
+    integrity:
+      archive: sha384-ZkbNljW9ryqEzn8yq+ZbUfh2onI5SN7vi1BeszJzg8QR2tCX0Dpm3MzoEKxTpKeB
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-2OqNWFABv/ZTs+ZpnkAUuhe/utJlFLx4rY2TXW8FaOeQuOF4jT0Qdy8OXe5vEkf4

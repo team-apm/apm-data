@@ -1,0 +1,108 @@
+id: amate/InputPipePlugin
+name: InputPipePlugin
+overview: AviUtlのメモリ使用量を減らす
+description: >-
+  このソフトは、L-SMASH_Works File
+  Reader(lwinput.aui)を別プロセスで実行してあげることによって、Aviutlのメモリ使用量削減を目論む、aviutlの入力プラグインです
+developer: amate
+dependencies:
+  - >-
+    MrOjii/LSMASHWorks|pop4bit/LSMASHWorks|VFRmaniac/LSMASHWorks|HolyWu/LSMASHWorks
+pageURL: https://www.nicovideo.jp/watch/sm35585310
+downloadURLs:
+  - https://github.com/amate/InputPipePlugin/releases/latest
+latestVersion: v2.0_1
+nicommons: sm35585310
+files:
+  - filename: plugins/InputPipeMain.exe
+    archivePath: InputPipePlugin/
+  - filename: plugins/InputPipeMain64.exe
+    archivePath: InputPipePlugin/
+  - filename: plugins/InputPipePlugin.aui
+    archivePath: InputPipePlugin/
+  - filename: plugins/InputPipePlugin.log
+    isUninstallOnly: true
+releases:
+  - version: v2.0
+    integrity:
+      archive: sha384-xJdDcMcY7Rx2MCwswep776OElZj5drn3qJwcG49B/3HXxhOIJGovMiNvsCIL5cRZ
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-GTUAtPssy6EDgtFOzA5te/cY8nzPWYisYFakiSIXCGbm3+TrOB/+xGm7P7zphmzW
+  - version: v1.10
+    integrity:
+      archive: sha384-vmLfFYCx3LUIj6UeldXMJrWhPlOjcMUIR0fZpg1z2iuYuQFLMPCJ964tTmVkqqXI
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-gNZCgSweF6AG9S6PoamaUAx31OzBslK9oflQNMj2EYzeaB17B0q0riOkHobT+0ce
+  - version: v1.9
+    integrity:
+      archive: sha384-dMF6xsJF97Ic0/+pN49XAH8J9H+h/M/f9mirxvBKQpTZdixyuwj0ibR8p41q6cJq
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-P7MQRYjMPPAq3Xvo4AUcXTgKdf7821FN8eiEzdVVG7y+i5HX31Kdj81ljrPQwF+A
+  - version: v1.8
+    integrity:
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-ujWRvgLYdr/2XKYMuzfkHSttfgJPXtXsH+StEkpPXj6cXTlJy2F3tha0sr0/lD14
+  - version: v1.7
+    integrity:
+      archive: sha384-k1YS5h2fJ27qiQKvSGMOZWKcWPJ2KqwhxizNzigQhqP5/Obrc119IH+Lypjr4KKB
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-SdWLV9pXKU4i0Wil9wG/WZTuifKlnhYgEqTokTWYUTWngMNtQ0k5QQQpEIU7psof
+  - version: v1.6
+    integrity:
+      archive: sha384-SgRSGgYFe6E5hEz6JJxYiiTKuLtK0Sr/3BLTlg2c2lxj803ogj3Mm4AZPY5+e1+6
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-trWK8xHJGzFHnWeOqYC9bYRVvYNstvwRf1ywFozZPvsIt83CCrXBRkkNzzprxrFp
+  - version: v1.5
+    integrity:
+      archive: sha384-rQf507vQ5Mj63Yrj14cNmGwn4Kz14PSESlbZQf5behwAhy3hS6uKKCgj5tdXaICz
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-SeKRgHcx+WjyQfE52KGrDa8T5VpBda+/Omdci0yYSRkDDMrdBDo+espwsA3Qf0Mw
+  - version: v1.4
+    integrity:
+      archive: sha384-s8yetAvrGKankoodcIigkfcT+Ui7ShhskUo1M09iL1WoB4BOK3zYRs8d6T/fZdgc
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-m3LrqdXTho/fhmmMsDLsWJMDa6HCPtGx52iMCvu4JpgKUQ7kpsntB0FY7bi/HZ03
+  - version: v1.3
+    integrity:
+      archive: sha384-79XShEGl5CcN6A1leP0LNn12UdNgTdS4Glk71wQ30hqPBZ9BUpQmqD1Q6fM2J8RS
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-s0lSdB3uLnWdAiOYCUy5CsOvj8IiFCYLzhpR/CZtOFTJqtLDUX+Xu6GalFmvCL+V
+  - version: v1.2
+    integrity:
+      archive: sha384-cHP6IZwQhnj4wjcdFTxDFi7wFX3qNfaEO/9YMAWkNWyirDCjOnoRvEqBfJDGzfnS
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-eqXeQarXb6S7LQ+XGY6LP3A2hdPoSJKYCxQdcmzuam9o0TFAOljezxbCyq7k6IWJ
+  - version: v1.1
+    integrity:
+      archive: sha384-rLSpls2gZVXq9c6QwI1gDWBDV+kMW3uBIzzfqPjUtIluaLrQUOxJqYATIqajD+0q
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-Hmn9qqq5bOWJprQJr7yEuu/y1k5dg+o30GphRG66h4uxwLGct0POCyN4Hs6XkrRM
+  - version: v1.0
+    integrity:
+      archive: sha384-T38a9PFYFM3cLR1syEJREnEqSRFumLHAoay1jyMgvcVaA6s+51nMY0AxvvwW2gmr
+      file:
+        - target: plugins/InputPipePlugin.aui
+          hash: >-
+            sha384-aPQd+nCsXYKv4r4wAz11vyRcj2PZRW/UzPxDKPerYjPUVFrYcEUOOL05w//dY2fe

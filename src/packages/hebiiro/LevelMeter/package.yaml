@@ -1,0 +1,45 @@
+id: hebiiro/LevelMeter
+name: レベルメーター
+overview: 音声のレベルメーター
+description: Aviutl内に音声のレベルメーターを表示します。
+developer: hebiiro
+dependencies:
+  - exedit0.92
+pageURL: https://github.com/hebiiro/AviUtl-Plugin-LevelMeter#readme
+downloadURLs:
+  - https://github.com/hebiiro/AviUtl-Plugin-LevelMeter/releases/latest
+latestVersion: 2.2.0
+files:
+  - filename: plugins/LevelMeter.auf
+  - filename: plugins/LevelMeter.ini
+    isObsolete: true
+  - filename: plugins/LevelMeter
+    isDirectory: true
+releases:
+  - version: 2.1.0
+    integrity:
+      archive: sha384-O8trsPxETzVPHbk1TdAQjui47pj7I+Sxda1InQMe1A91iZXfcURVoCkfJOmLy4us
+      file:
+        - target: plugins/LevelMeter.auf
+          hash: >-
+            sha384-9DHLYSNNeWeYMxY2hHgEX3ZpTk2FCg7jG4hGsa7E8uIa2SkfHXvAm8e7KADOd+WF
+        - target: plugins/LevelMeter/LevelMeter.exe
+          hash: >-
+            sha384-DQPTbK2mjkCQsHHIHZZvGJ8orlBMm0tPtNoY1hOJHzpHM/nFBfZGHet4atjiF9wj
+        - target: plugins/LevelMeter/glew32.dll
+          hash: >-
+            sha384-cKTm0FIHmOolPJHWFc+HVoKC2uazeh3oWBcaFueY1MfwhX8QJErws+4xA+Mrhy23
+  - version: 1.4.0
+    integrity:
+      archive: sha384-LuEF3p+KrkgPPq4nS2vDTiie3eBN+cxGdSBvtOi99yvDV6CThYDfV6/RN1I2tOfi
+      file:
+        - target: plugins/LevelMeter.auf
+          hash: >-
+            sha384-zXBAx2/+zUu/JtxQWulBQIF3N5SidztEsBYQbc0Z08gPQR2rhsjUZvcYYnenR0nM
+  - version: 1.3.0
+    integrity:
+      archive: sha384-9t4WxpSz8g5tlAmLH+J7jkXfXlu5533r76Xrar+hrdcN1pIuZ3iqbygn8XHgHkja
+      file:
+        - target: plugins/LevelMeter.auf
+          hash: >-
+            sha384-QnxVgpbXI5kArpAY6NgxYde4sSd764NNGjYXHjav08zD3gr9MrYZgGfL9KvTta8A

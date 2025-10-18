@@ -1,0 +1,13 @@
+id: yanagi/ContentsTree
+name: ContentsTree
+overview: 動画内コンテンツを自動リストアップ
+description: 動画に含まれる各種コンテンツをリスト化したHTMLを出力するプラグインです。ニコニ・コモンズIDが一覧できます。
+developer: 柳
+pageURL: https://www.nicovideo.jp/watch/sm40465457
+downloadURLs:
+  - https://aviutl.techblog.jp/archives/aviutl_plugin_contentstree.html
+latestVersion: ver0.2
+nicommons: sm40465457
+files:
+  - filename: ContentsTree.auf
+    archivePath: ContentsTree_ver0.2

@@ -1,0 +1,164 @@
+id: rigaya/x265guiEx
+name: x265guiEx
+overview: x264/x265を使用したエンコード
+description: 拡張x265出力(GUI)Ex(x265guiEx)は、x265を使用してエンコードを行うAviutlの出力プラグインです。
+developer: rigaya
+pageURL: https://github.com/rigaya/x265guiEx#readme
+downloadURLs:
+  - https://github.com/rigaya/x265guiEx/releases/latest
+latestVersion: '4.21'
+files:
+  - filename: plugins/x265guiEx.auo
+    archivePath: plugins
+  - filename: plugins/x265guiEx.ini
+    archivePath: plugins
+  - filename: plugins/x265guiEx.conf
+    archivePath: plugins
+    isUninstallOnly: true
+  - filename: plugins/auo_setup.auf
+    archivePath: plugins
+    isInstallOnly: true
+  - filename: plugins/x265guiEx_stg
+    archivePath: plugins
+    isDirectory: true
+  - filename: exe_files
+    isDirectory: true
+    isInstallOnly: true
+  - filename: exe_files/x265_3.5+35_x64.exe
+    isUninstallOnly: true
+  - filename: exe_files/x265_3.5+35_x86.exe
+    isUninstallOnly: true
+releases:
+  - version: '4.21'
+    integrity:
+      archive: sha384-WuQ62M08OLPPxKoGzqbzrP7d5ojY4LI+w/fvJVuOEQyFHmOmpr0C/CgZck02jpq5
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-C4Nz5CtVwYsCimntjLpHsZIyXaTmuFa8VZWDoF0nAXay+fHPVduycB+YtH2E5mq0
+  - version: '4.17'
+    integrity:
+      archive: sha384-q1SlW+XvZd3B6/4knXEny3d3ugrOjdGjX/5y7csVpydgc+JiepnR3ODulD8w9p4g
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-R861bzmFHQwYzFJ41xvR868uEB7yvR/8ILwuwnYFAPloXJw0zJHB5HZUBGoHkawX
+  - version: '4.16'
+    integrity:
+      archive: sha384-FBdGrI/6nZP76KRQXAkT9STHzCaMhZffjAUu2zIvKhTTla9vMtl3qSxU/oXSlf6a
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-cOu8ufMMVF8p7NJ26MkqsB0ZJM+IMx4SBn/gYwIFf+Y7dFa/y2wo9bua5ODulmmw
+  - version: '4.15'
+    integrity:
+      archive: sha384-IgwCfywVzAF+WQIHi28/5HjSVUnmijZ6yvIkmnBgBkZD4zOCEENDJg9PpK37jB5i
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-xurWWzOQJhYtHbdbjtC3vGCX3eHNVA0IILkhNyHyMyge5ldPmT17C0u4c8NTnJPd
+  - version: '4.14'
+    integrity:
+      archive: sha384-XxSksZbAL/ozFfKXhISmwRfEZCX1OCHfCq7rEpGZJ6dhHC6/7Xr6QeY5k47FKvTr
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-PkqyI1RBOPxk9bNZsU1sWSBKq+oEBUg3LrhKGZdtKOO7a3yHZHVDHFhZbXmwvBqe
+  - version: '4.13'
+    integrity:
+      archive: sha384-T/BL4mlpB1uiys0PzGc6NIhmsG/SLPbA7RcKA24IcbL0GiWCuFh9F9PPBs0AK0/X
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-tqJPicbdPtIxUcFyHcHaDMQCLM4mN4V4JG37xwTdIIMaN8rLCZ00WLlY8QleHvFt
+  - version: '4.11'
+    integrity:
+      archive: sha384-Q+/dSbnwZloTYas0x+5+WHmrBZrZ1mJctF6LlvE8B+9E6ZPKN1HGWW/t2e4ausGA
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-lMXUT9k7SYLHUp7hDsukmkZK3IOLTo8WTzQLziWcHR1xjv1Ac02iUq1RF44flPkR
+  - version: '4.10'
+    integrity:
+      archive: sha384-C2zH9nJagbJIGlNx97+H5Hj+VQdsJPMCmCR9qAz3KNA6aijuhpkPcaxPHU2N9K0F
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-5FHen3vAUQJnMZnmw1G3GFXBsshNoQvf0mSLCNLCvTAJdUIbLDJj+dcytcyVlD7m
+  - version: '4.09'
+    integrity:
+      archive: sha384-JjxPUUwtzmeegdFWHtxoO+swNuhnATwbmWyuIqv5o1rtBs6duI8ZO2/9L/9tTJ5H
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-yXtutX8FModAGa/DH2mGY+ERuEiNJj+WS1+L78a1mr64u1a+uzJXA5se8sVf9aII
+  - version: '4.08'
+    integrity:
+      archive: sha384-GWtvrVjiMoDxUewz/xUmMbqAU3lPOOEUCZmS34wB5C7okD64ApLFmKQ+9bkPe2ff
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-y5K7xrZ5/oytobSiy+8YeYp5EOsSQnITswPXIm9OUIKQGzuCeeLG/+ouCdR1E/JY
+  - version: '4.07'
+    integrity:
+      archive: sha384-588powa97wMQhkzZIC66TbVL+0pKlCY8XFAyR30ZsXmDGxGxXlY/xbSNdDrfMKP7
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-qhNf3tKL/9i58mUfON4tDnJokzu/QcTNKnkdZgm8z2zDpaJge5Jl6kaoAUWIUIUy
+  - version: '4.06'
+    integrity:
+      archive: sha384-XIkNb2hFthUtIC/haZvfKLbf84tWChHRmgF1edKdukx6TyizABftXHyDpTgCYcAb
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-XzzHlSNODf8+K1e5Rb8WYW28Fe6443pSJX+Tmt9AL/v4kZHdzmwBEpIF05vKLvQx
+  - version: '4.05'
+    integrity:
+      archive: sha384-GLFxT+hYWahCAOV2Ujey2yjzpvlwYxDmKccnA6cwRuPtESsNMz7uTXk4fFtSS6+5
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-DG1OFZeZuWHE6gryhFM4/YSLbTfbcJgR7VMGfbl5YbOOpPw+FlRDBjsOCamUNudX
+  - version: '4.04'
+    integrity:
+      archive: sha384-w9T+dDm35W6Z+WCJO2RtVlS4tcbklhA2D+h1cfNmQlvr7WeuqYI2cBdymgMLaeAy
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-5CyYPLsCCAPYwZd/rWhAKaib0buRdxYZGiaVwjExLkNk8Ahl0wBWmgsgc9QwmoBp
+  - version: '4.03'
+    integrity:
+      archive: sha384-NIOEh0IOu6eouuIQvI1DGbBGKYiU1TFNZoK+W7WQVuGuIa7QIMkWuJaoyPTOAJCS
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-z77ZNyZEaxDzUX+MBQNPzkr8yWuK36EzXSpWVApl9ZX0aLfa9gHTqfKDR7OH+sRo
+  - version: '4.02'
+    integrity:
+      archive: sha384-4uVjholoE89n3hS6WuPNaeviM2ZBCEqE5QlCIlw8VIK5p/dEvoi9dXauV4X9AJBb
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-jJ1jvUex054qi5Sbpsvkpuo6U7xMM9ch5cuG0bR/yT1zn+eJiEJ4m0gxcm6QhnN8
+  - version: '4.01'
+    integrity:
+      archive: sha384-k4dgWghy4msFSPNrq/MMMcSl9B/MYBuRd4+2gAkH9U8GlzCNlbMV7RuxhnBldieT
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-r+Jt78SJU/Xx3hTeI18Y4srMtve/PU3XA260sNsgF29Rw4clFlsx4kdIlbo5BGfL
+  - version: '4.00'
+    integrity:
+      archive: sha384-90hBDCSF2RAfMyPUk75kpuLvpd2obVU1ArUUxOkQuNSvIfu1ewXrP9btS+70XRtH
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-AucRj3yrJG7BQayf6xUaHF1J/COk4ceuegXUxXSxbfVx8BcXAL1JHrDAjaHw0USH
+  - version: '3.102'
+    integrity:
+      archive: sha384-nvZwsKJXWbrsc6eCoM98LFyTIx2gUrtzsi0X3AYTWEb5nrknHBkKTxWrXo4VuhRI
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-vHylrjLn+kqGKRpMS8k28RrvJ4LKFZrOanXdgpiB5xPIgq47V+GBbrKy9YJ+EPa9

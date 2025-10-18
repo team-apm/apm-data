@@ -1,0 +1,21 @@
+id: tim/mltline
+name: マルチラインT
+overview: ラインを一括操作するスクリプト
+description: 複数の矢印を同時に作ります。折れ線矢印も可能。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm22974710
+downloadURLs:
+  - https://tim3.web.fc2.com/script/MltLine.zip
+  - https://tim3.web.fc2.com/sidx.htm#MltLine
+latestVersion: 2014/02/26
+nicommons: sm22974710
+files:
+  - filename: script/tim/マルチラインT.obj
+releases:
+  - version: 2014/02/26
+    integrity:
+      archive: sha384-1oNLwoiqT4T5hxb0I2ksxzz1djLnFci2TBGMFFp3QLjtZvwOyhIye0CS3WqWKjat
+      file:
+        - target: script/tim/マルチラインT.obj
+          hash: >-
+            sha384-4HDoALoDB3LG7YIIfQ1uOHvRUf8bLkKt+27FRvgUFUuLnSE3x+iS6zjLYD4Uj3P0

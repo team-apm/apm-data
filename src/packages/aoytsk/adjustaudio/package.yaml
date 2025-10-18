@@ -1,0 +1,12 @@
+id: aoytsk/adjustaudio
+name: 音声の位置微調整
+overview: 1フレーム以下のより細かい精度で音ズレを修正
+description: 音声の位置微調整は1フレーム以下のより細かい精度(周波数単位)で音ズレを修正できるプラグインです。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/2092140.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/2092140.html
+latestVersion: Ver 0.1
+files:
+  - filename: plugins/adjustaudio.auf
+  - filename: plugins/adjustaudioex.auf

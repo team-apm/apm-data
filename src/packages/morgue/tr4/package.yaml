@@ -1,0 +1,20 @@
+id: morgue/tr4
+name: MORGUEトランジション素材#51~60
+overview: トランジション素材として使用できるPNG画像
+description: トランジション素材として使用できるPNG画像です。シーンチェンジやワイプに対して指定できます。
+developer: morgue
+pageURL: https://nega.client.jp/
+downloadURLs:
+  - https://nega.client.jp/
+latestVersion: 2009/03/28
+files:
+  - filename: transition/t51.png
+  - filename: transition/t52.png
+  - filename: transition/t53.png
+  - filename: transition/t54.png
+  - filename: transition/t55.png
+  - filename: transition/t56.png
+  - filename: transition/t57.png
+  - filename: transition/t58.png
+  - filename: transition/t59.png
+  - filename: transition/t60.png

@@ -1,0 +1,19 @@
+id: kumrnm/EasingQuickSetup
+name: イージング設定時短プラグイン
+overview: AviUtl 拡張編集のイージング設定を補助するプラグイン
+description: パラメーター付きのイージングが選択された場合、パラメーター設定ダイアログをその場で表示します
+developer: 蝙蝠の目
+pageURL: https://github.com/kumrnm/aviutl-easing-quick-setup#readme
+downloadURLs:
+  - https://github.com/kumrnm/aviutl-easing-quick-setup/releases/latest
+latestVersion: v1.1.0
+files:
+  - filename: plugins/easing_quick_setup.auf
+releases:
+  - version: v1.1.0
+    integrity:
+      archive: sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO
+      file:
+        - target: plugins/easing_quick_setup.auf
+          hash: >-
+            sha384-MSAF2biby803lPT3xKariRh0bqVo+JD3COG1eJMbWUKeM4cpQVy5lsTyq/wfWdZO

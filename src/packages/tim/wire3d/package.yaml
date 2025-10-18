@@ -1,0 +1,21 @@
+id: tim/wire3d
+name: ワイヤー3D
+overview: ３Dワイヤーを作成するスクリプト
+description: 平面データから３Dワイヤーを作ります。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm20001035
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Wire3D.zip
+  - https://tim3.web.fc2.com/sidx.htm#Wire3D
+latestVersion: 2013/02/04
+nicommons: sm20001035
+files:
+  - filename: script/tim/@ワイヤー3D.anm
+releases:
+  - version: 2013/02/04
+    integrity:
+      archive: sha384-O4vQPAhiHceAqmg+/m+NO7YBYqHAsWJ8yME0yl6QX7x0w+xYzEAsKJ0SM6N91+rm
+      file:
+        - target: script/tim/@ワイヤー3D.anm
+          hash: >-
+            sha384-Kh8W+nRnFaB++3zHQUszQH/dkX/j2+W/Ihly8oV31NGzf7uMpw+Dk2EOne4baPwr

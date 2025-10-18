@@ -1,0 +1,15 @@
+id: rigaya/afs
+name: 自動フィールドシフト 高速化版
+overview: 自動フィールドシフトの高速化版
+description: aji氏作「自動フィールドシフト インタレース解除プラグイン」の高速化版
+developer: rigaya
+originalDeveloper: aji
+pageURL: https://rigaya34589.blog.fc2.com/blog-category-14.html
+downloadURLs:
+  - https://1drv.ms/f/s!AsYziax1Q91rhBs2o7PMtyiEP8gC
+  - >-
+    https://drive.google.com/folderview?id=0BzA4dIFteM2dSXduMXdPMXBjeFk&usp=sharing
+latestVersion: 7.5a+22
+files:
+  - filename: afsvf.auf
+    archivePath: afs_7.5a+22

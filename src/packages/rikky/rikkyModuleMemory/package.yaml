@@ -1,0 +1,29 @@
+id: rikky/rikkyModuleMemory
+name: rikkymodule memory
+overview: スクリプト製作の役に立つプラグイン
+description: >-
+  スクリプト製作に役に立つかもしれないDLL及びスクリプト及びそれらを使えるようにするプラグインです
+  2020/01/13現在対応しているAviUtlは1.10まで 対応している拡張編集は0.92まで
+developer: rikky
+dependencies:
+  - exedit0.92
+pageURL: https://www.nicovideo.jp/watch/sm34776162
+downloadURLs:
+  - https://hazumurhythm.com/a/a2Z/
+latestVersion: 1.4b
+nicommons: sm34776162
+files:
+  - filename: rikky_module.dll
+    archivePath: dll_v_12
+  - filename: rikky_memory.auf
+    archivePath: dll_v_12
+releases:
+  - version: 1.4b
+    integrity:
+      file:
+        - target: rikky_module.dll
+          hash: >-
+            sha384-alK8STLxUEklHYahTWI4aR5AnIqoeap6z0veuStJ9gKzY3JDQMKG4RGai8IMF6CZ
+        - target: rikky_memory.auf
+          hash: >-
+            sha384-Fx0g0aXkoonki1Ql0057tsztntM1fFftxMfRR5hsoya/J1Ou4vEoPFihGQ231lsj

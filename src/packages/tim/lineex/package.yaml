@@ -1,0 +1,29 @@
+id: tim/lineex
+name: ライン抽出T
+overview: 画線を抽出するスクリプト
+description: >-
+  画像の画線を抽出します。【動作にはVisual C++ 再頒布可能パッケージ 2008 x86(32bit)のインストールが必要です
+  https://www.microsoft.com/ja-jp/download/details.aspx?id=26368 】
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm38701215
+downloadURLs:
+  - https://tim3.web.fc2.com/script/LineEx.zip
+  - https://tim3.web.fc2.com/sidx.htm#LineEx
+latestVersion: 2021/05/07
+nicommons: sm38701215
+files:
+  - filename: script/tim/T_LineExtra_Module.dll
+    archivePath: LineEx
+  - filename: script/tim/ライン抽出T.anm
+    archivePath: LineEx
+releases:
+  - version: 2021/05/07
+    integrity:
+      archive: sha384-nlxapeb+tb5RvFv4zrW4y8CVNgULZjZ4lKdCCk06AQbkK1xscfOkbVcxzbnStMoU
+      file:
+        - target: script/tim/T_LineExtra_Module.dll
+          hash: >-
+            sha384-u7MVIPL3l9I3pfuqLZYusoPsUbiMy/0ur6qKZhc7PFsMe4k8CwlPQ7EZQXynYR1v
+        - target: script/tim/ライン抽出T.anm
+          hash: >-
+            sha384-gE383v2nk9vxoNjrYQGPl6AXYEUMfkAoWmi3hrfG3DdmtWXdua7e6NGeaSVMymsg

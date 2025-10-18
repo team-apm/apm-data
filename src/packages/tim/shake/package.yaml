@@ -1,0 +1,24 @@
+id: tim/shake
+name: ゆらめき
+overview: オブジェクトをゆらめかせるスクリプト
+description: |-
+  画像をゆらゆらとゆらめかせます。
+  海の中の表現とかに使えるかも？
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm17156271
+downloadURLs:
+  - https://tim3.web.fc2.com/script/Shake.zip
+  - https://tim3.web.fc2.com/sidx.htm#Shake
+latestVersion: 2012/03/04
+nicommons: sm17156271
+files:
+  - filename: script/tim/ゆらめき.anm
+    archivePath: Shake
+releases:
+  - version: 2012/03/04
+    integrity:
+      archive: sha384-vngFKL83zcdr92UkhBJ+C1S9zAkKqkzYo8+ZLLdDP8NH9lYD74SHh1LqdrefpCRo
+      file:
+        - target: script/tim/ゆらめき.anm
+          hash: >-
+            sha384-Bs2+0imfTpZ35TC+5UpeKrx6G+x/QdTqC6vPgCCkmtwH/uJO3Vw7MPBh6o+OBJjn

@@ -1,0 +1,39 @@
+id: karoterra/MarkdownEX
+name: AviUtl MarkdownEX
+overview: aviutl_browserを利用してMarkdownを表示する
+description: >-
+  aviutl_browserを使ってAviUtlでMarkdownを表示するスクリプト。aviutl_browser同梱のMarkdown.anmを元に機能拡張を行ったものです。
+developer: karoterra
+dependencies:
+  - oov/aviutlBrowser
+pageURL: https://github.com/karoterra/aviutl-markdownex
+downloadURLs:
+  - https://github.com/karoterra/aviutl-markdownex/releases/latest
+latestVersion: v0.2.0
+nicommons: sm38814110
+files:
+  - filename: script/browser/MarkdownEX.anm
+    archivePath: script/browser
+  - filename: script/browser/MarkdownEX.exa
+    archivePath: script/browser
+  - filename: script/browser/MarkdownEX.obj
+    archivePath: script/browser
+  - filename: script/browser/contents/MarkdownEX-emoji-list.html
+    archivePath: script/browser/contents
+  - filename: script/browser/contents/MarkdownEX
+    archivePath: script/browser/contents
+    isDirectory: true
+releases:
+  - version: v0.2.0
+    integrity:
+      archive: sha384-XB94igkLIBojr70+WotxZr626j9o1jgDLDa4Lz5qmYfa6J8EDXjhYiAKQ/+XkFIE
+      file:
+        - target: script/browser/MarkdownEX.anm
+          hash: >-
+            sha384-SNyciswKxUkYhfrruMRMwR4dj/yIuTgwilLZAY4HxtKaeV1Bl9fKO4orufuifmWp
+        - target: script/browser/MarkdownEX.exa
+          hash: >-
+            sha384-CvG1pLTqPlD1kH4rauPpDnNzPFCLFJJooa/GMx+z628USeoW4JtMNHub6OeZ8xFe
+        - target: script/browser/MarkdownEX.obj
+          hash: >-
+            sha384-iaSbAz0039EpK759RBhmF22mOmtvvNIOVJFtfPlWXtD1hUyane+NuKlr4ouc3SOX

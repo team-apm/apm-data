@@ -1,0 +1,27 @@
+id: rikky/colorPalette2
+name: カラーパレット(rm 2)
+overview: 色選択ダイアログのパレット情報を変更する
+description: 色選択ダイアログのパレット情報を変更ができるプラグイン
+developer: rikky
+dependencies:
+  - rikky/rikkyModule2
+pageURL: https://www.nicovideo.jp/watch/sm30290590
+downloadURLs:
+  - https://hazumurhythm.com/a/Y3c/
+latestVersion: v2.2a
+nicommons: sm30290590
+files:
+  - filename: color_palette_edit
+    archivePath: からぱれ
+    isDirectory: true
+  - filename: color_palette.auf
+    archivePath: からぱれ/aviutl1.10用
+  - filename: script/color_palette.obj
+    archivePath: からぱれ
+releases:
+  - version: v2.2a
+    integrity:
+      file:
+        - target: color_palette.auf
+          hash: >-
+            sha384-r0yTfHgJO4451AtAzF4ZzdHTpguFpR4gOXkuijGvwpymR2tYud4g5mDRG12X/fKx

@@ -1,0 +1,13 @@
+id: aoytsk/jumpdlg32
+name: ジャンプダイアログ（増量版）
+overview: 指定した位置に簡単にジャンプできるダイアログを追加する
+description: >-
+  ジャンプダイアログはAviutlに指定した位置に簡単にジャンプできるダイアログを追加するプラグインです。10ヶ所まで登録できる通常版と、32ヶ所まで登録できる
+  増量版があります。
+developer: aoytsk
+pageURL: https://aoytsk.blog.jp/aviutl/445066.html
+downloadURLs:
+  - https://aoytsk.blog.jp/aviutl/445066.html
+latestVersion: Ver 0.4
+files:
+  - filename: plugins/jumpdlg32.auf

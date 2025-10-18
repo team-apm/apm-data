@@ -1,0 +1,20 @@
+id: tim/vanishP
+name: バニシングポイント
+overview: 自動で擬似3D変換するスクリプト
+description: ４辺形で囲まれた領域を３Ｄであるとみなし、オブジェクトを移動させると、自動で３Ｄ的に変形します。
+developer: ティム
+pageURL: https://timnoheya.fc2.net/blog-entry-8.html
+downloadURLs:
+  - https://tim3.web.fc2.com/script/VanishP1_V2.zip
+  - https://tim3.web.fc2.com/sidx.htm#VanishP
+latestVersion: V2
+files:
+  - filename: script/tim/バニシングポイント.anm
+releases:
+  - version: V2
+    integrity:
+      archive: sha384-s6DmKuuWQ9jT6sh84sb2AmpCdZhHx0l8WH1EcEWc4C44ejjN7KvFLlJl1g8l028v
+      file:
+        - target: script/tim/バニシングポイント.anm
+          hash: >-
+            sha384-y7JoJJDRnlyO4jKk5qlv3Hwufu6PB4RUBIjrwaycDfeR1h8O1brwei52VhJ4+oSE

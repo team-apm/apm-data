@@ -1,0 +1,21 @@
+id: tim/simwrp2
+name: 簡易ワープ(改)
+overview: 画像を歪ませる
+description: 簡易ワープの改良版。画像を歪ませます。
+developer: ティム
+pageURL: https://www.nicovideo.jp/watch/sm19322218
+downloadURLs:
+  - https://tim3.web.fc2.com/script/SimWrp2.zip
+  - https://tim3.web.fc2.com/sidx.htm#SimWrp2
+latestVersion: 2012/11/10
+nicommons: sm19322218
+files:
+  - filename: script/tim/簡易ワープV2.anm
+releases:
+  - version: 2012/11/10
+    integrity:
+      archive: sha384-bUHNWtc9SH0L7bcqbRwfMgZBGT+STuXPmjLocx8RtLe+DuMnVglFkWwVAMIQX04t
+      file:
+        - target: script/tim/簡易ワープV2.anm
+          hash: >-
+            sha384-TkFn3lV6CWkRaNSpQ9R56HmJdujWLeVdSnW2APGsab6Uw7FxObAt8O/K5WAUukhJ

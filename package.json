@@ -23,7 +23,7 @@
     "mod-packages": "node util/update-mod.js --packages",
     "mod-scripts": "node util/update-mod.js --scripts",
     "prepare": "husky",
-    "release": "release-it",
+    "release": "tsx util/release.ts",
     "sri": "node util/sri.js"
   },
   "lint-staged": {

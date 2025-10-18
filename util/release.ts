@@ -19,7 +19,7 @@
  *   - v3/scripts.json
  *   - v3/scripts.min.json
  */
-import { Core, List, Packages, Scripts } from 'apm-schema';
+import { Convert, Core, List, Packages, Scripts } from 'apm-schema';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 
@@ -58,7 +58,7 @@ function core(): void {
 function convert(): void {
   const convertObj = yaml.load(
     fs.readFileSync(CONVERT_YAML_PATH, 'utf-8'),
-  ) as Record<string, string>;
+  ) as Convert;
   fs.outputJson(V3_CONVERT_JSON, convertObj, { spaces: 2 });
   fs.outputJson(V3_CONVERT_MIN_JSON, convertObj);
 }

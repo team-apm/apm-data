@@ -393,10 +393,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node-7z@^2.1.10":
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/@types/node-7z/-/node-7z-2.1.10.tgz#37f0703ec9f415393b8413be8ebdc0711d45df09"
-  integrity sha512-LdfuQcGAKsLafyM96+F8VekToCuGQnFy9DMM0UdS6f5pEnaP5kAixp3TQPc1NJU4C6IwLwnednktYBjp/z2LRw==
+"@types/node-7z@^2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@types/node-7z/-/node-7z-2.1.11.tgz#d4f290b2411e99d51dd24286f2ba01201267978d"
+  integrity sha512-7gwLx44tqZqjyrvjkX41CWW4h7+aXrazFg/JR6N5g+R5BW1eqsNuw8SNLWrh7KcnfKhAYFiWyNb10ti5v5eCmQ==
   dependencies:
     "@types/node" "*"
 

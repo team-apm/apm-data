@@ -38,8 +38,8 @@
     "@tsconfig/node22": "^22.0.2",
     "@types/fs-extra": "^11.0.4",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.8.1",
-    "@types/node-7z": "^2.1.10",
+    "@types/node": "^24.9.2",
+    "@types/node-7z": "^2.1.11",
     "@types/ssri": "^7.1.5",
     "7zip-bin": "^5.2.0",
     "ajv-cli": "^5.0.0",
@@ -54,15 +54,15 @@
     "globals": "^16.4.0",
     "husky": "^9.1.7",
     "js-yaml": "^4.1.0",
-    "lint-staged": "^16.2.4",
+    "lint-staged": "^16.2.6",
     "node-7z": "^3.0.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "prettier-plugin-packagejson": "^2.5.19",
-    "ssri": "^12.0.0",
+    "ssri": "^13.0.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.1"
+    "typescript-eslint": "^8.46.2"
   },
   "packageManager": "yarn@1.22.22"
 }

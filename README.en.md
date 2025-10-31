@@ -1,6 +1,6 @@
 # apm-data
 
-[![Node CI](https://github.com/team-apm/apm-data/actions/workflows/nodejs.yml/badge.svg)](https://github.com/team-apm/apm-data/actions/workflows/nodejs.yml)
+[![Lint](https://github.com/team-apm/apm-data/actions/workflows/lint.yml/badge.svg)](https://github.com/team-apm/apm-data/actions/workflows/lint.yml)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/team-apm/apm-data/badge?style=rounded)](https://www.jsdelivr.com/package/gh/team-apm/apm-data)
 
 Data repository for [AviUtl Package Manager](https://github.com/team-apm/apm)

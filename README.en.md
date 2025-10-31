@@ -2,6 +2,7 @@
 
 [![Lint](https://github.com/team-apm/apm-data/actions/workflows/lint.yml/badge.svg)](https://github.com/team-apm/apm-data/actions/workflows/lint.yml)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/team-apm/apm-data/badge?style=rounded)](https://www.jsdelivr.com/package/gh/team-apm/apm-data)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/team-apm/apm-data)
 
 Data repository for [AviUtl Package Manager](https://github.com/team-apm/apm)
 

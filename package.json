@@ -38,7 +38,7 @@
     "@tsconfig/node22": "^22.0.2",
     "@types/fs-extra": "^11.0.4",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.9.2",
+    "@types/node": "^24.10.0",
     "@types/node-7z": "^2.1.11",
     "@types/ssri": "^7.1.5",
     "7zip-bin": "^5.2.0",

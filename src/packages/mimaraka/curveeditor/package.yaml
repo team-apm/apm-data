@@ -8,7 +8,7 @@ developer: みまらか
 pageURL: https://github.com/mimaraka/aviutl-plugin-curve_editor#readme
 downloadURLs:
   - https://github.com/mimaraka/aviutl-plugin-curve_editor/releases/latest
-latestVersion: v1.0.6
+latestVersion: v2.0-beta1.4
 files:
   - filename: plugins/curve_editor.auf
     archivePath: curve_editor-v1.0.6

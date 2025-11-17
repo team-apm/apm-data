@@ -3,7 +3,7 @@ developer: hebiiro
 downloadURLs:
   - https://github.com/hebiiro/anti.aviutl.ultimate.plugin/releases/latest
 name: アルティメットプラグイン
-latestVersion: r38
+latestVersion: r101
 overview: AviUtlを使いやすくする複合プラグイン
 description: 蛇色(へびいろ)制作プラグインを１つに統合したプラグイン
 pageURL: https://github.com/hebiiro/anti.aviutl.ultimate.plugin/wiki/

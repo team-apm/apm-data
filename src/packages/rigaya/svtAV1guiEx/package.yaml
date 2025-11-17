@@ -6,7 +6,7 @@ developer: rigaya
 pageURL: https://github.com/rigaya/svtAV1guiEx#readme
 downloadURLs:
   - https://github.com/rigaya/svtAV1guiEx/releases/latest
-latestVersion: '1.26'
+latestVersion: '2.06'
 files:
   - filename: plugins/svtAV1guiEx.auo
     archivePath: plugins
@@ -31,6 +31,13 @@ files:
   - filename: exe_files/mp4box.exe
     isUninstallOnly: true
 releases:
+  - version: '2.06'
+    integrity:
+      archive: sha384-y8EAOJcMbmYao955miuodMBa7SxBxBWMakftuXPAz9CNBpl9vQGF7nvsup05+o+Z
+      file:
+        - target: plugins/svtAV1guiEx.auo
+          hash: >-
+            sha384-5NPSm1ihVqRFq3GQocR7cN5ranJFrSqdNLc9LG6nW71MCgPakIUpK56UwDtT03sF
   - version: '1.26'
     integrity:
       archive: sha384-UdYGcx9uNh+ETVl//ScO2pcFGF8BnRflYoQEues4Bhx3B/fiQaCoXQ2ilaiediqL

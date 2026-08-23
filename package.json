@@ -15,7 +15,7 @@
     "generate-releases": "tsx util/generate-releases.ts",
     "lint": "run-s lint:prettier lint:eslint",
     "lint:eslint": "eslint --fix-dry-run .",
-    "lint:jsonschema": "ajv -s node_modules/apm-schema/v3/schema/core.json -d v3/core.json && ajv -s node_modules/apm-schema/v3/schema/packages.json -d v3/packages.json && ajv -s node_modules/apm-schema/v3/schema/scripts.json -d v3/scripts.json && ajv -c ajv-formats -s node_modules/apm-schema/v3/schema/list.json  -d v3/list.json && ajv -s node_modules/apm-schema/v3/schema/convert.json  -d v3/convert.json",
+    "lint:jsonschema": "ajv -s node_modules/apm-schema/v3/schema/core.json -d v3/core.json && ajv -s node_modules/apm-schema/v3/schema/packages.json -d 'v3/packages/*.json' && ajv -s node_modules/apm-schema/v3/schema/scripts.json -d v3/scripts.json && ajv -c ajv-formats -s node_modules/apm-schema/v3/schema/list.json -d v3/list.json && ajv -s node_modules/apm-schema/v3/schema/convert.json -d v3/convert.json",
     "lint:prettier": "prettier --check .",
     "mod-convert": "tsx util/update-mod.ts --convert",
     "mod-core": "tsx util/update-mod.ts --core",

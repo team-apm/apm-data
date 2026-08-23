@@ -19,3 +19,10 @@ jobs:
           cache: yarn
       - run: yarn install
       - run: yarn run lint
+      # v3/*.json is generated from the YAML sources and is not committed,
+      # so it has to be built before the schema check can see it. Without
+      # the main branch the modified timestamps it produces are meaningless,
+      # but only the shape of the data is being validated here.
+      - name: Generate the published JSON
+        run: yarn run release
+      - run: yarn run lint:jsonschema

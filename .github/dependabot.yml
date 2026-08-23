@@ -1,21 +1,44 @@
 # To get started with Dependabot version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
-# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
 updates:
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'daily'
+      # Weekly rather than daily: a single maintainer cannot keep up with a
+      # daily stream, and unreviewed pull requests accumulate until Dependabot
+      # pauses its own updates for the repository.
+      interval: 'weekly'
+    open-pull-requests-limit: 5
+    ignore:
+      # Majors are taken deliberately, one major per pull request. Listed by
+      # name rather than as '*' because ignore conditions also suppress
+      # Dependabot security updates, and a blanket rule would hide a fix that
+      # only ships in a new major.
+      - dependency-name: 'eslint'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'typescript-eslint'
+        update-types: ['version-update:semver-major']
     groups:
       eslint:
         patterns:
           - '@eslint/*'
           - 'eslint*'
+      typescript-eslint:
+        patterns:
+          - 'typescript-eslint'
+      prettier:
+        patterns:
+          - 'prettier*'
+      types:
+        patterns:
+          - '@types/*'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
+    open-pull-requests-limit: 2

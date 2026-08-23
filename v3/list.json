@@ -1,210 +1,210 @@
 {
   "core": {
     "path": "core.json",
-    "modified": "2026-08-23T12:59:10.061Z"
+    "modified": "2026-08-23T13:00:03.486Z"
   },
   "convert": {
     "path": "convert.json",
-    "modified": "2026-08-23T12:59:10.065Z"
+    "modified": "2026-08-23T13:00:03.490Z"
   },
   "packages": [
     {
       "path": "packages/AiosCiao.json",
-      "modified": "2026-08-23T12:59:09.825Z"
+      "modified": "2026-08-23T13:00:03.319Z"
     },
     {
       "path": "packages/AviUtlLab.json",
-      "modified": "2026-08-23T12:59:09.831Z"
+      "modified": "2026-08-23T13:00:03.323Z"
     },
     {
       "path": "packages/HolyWu.json",
-      "modified": "2026-08-23T12:59:09.836Z"
+      "modified": "2026-08-23T13:00:03.326Z"
     },
     {
       "path": "packages/MaverickTse.json",
-      "modified": "2026-08-23T12:59:09.841Z"
+      "modified": "2026-08-23T13:00:03.330Z"
     },
     {
       "path": "packages/MrOjii.json",
-      "modified": "2026-08-23T12:59:09.845Z"
+      "modified": "2026-08-23T13:00:03.333Z"
     },
     {
       "path": "packages/SEED264.json",
-      "modified": "2026-08-23T12:59:09.850Z"
+      "modified": "2026-08-23T13:00:03.336Z"
     },
     {
       "path": "packages/UndoFish.json",
-      "modified": "2026-08-23T12:59:09.855Z"
+      "modified": "2026-08-23T13:00:03.340Z"
     },
     {
       "path": "packages/VFRmaniac.json",
-      "modified": "2026-08-23T12:59:09.860Z"
+      "modified": "2026-08-23T13:00:03.343Z"
     },
     {
       "path": "packages/WDee.json",
-      "modified": "2026-08-23T12:59:09.864Z"
+      "modified": "2026-08-23T13:00:03.347Z"
     },
     {
       "path": "packages/amate.json",
-      "modified": "2026-08-23T12:59:09.869Z"
+      "modified": "2026-08-23T13:00:03.350Z"
     },
     {
       "path": "packages/aoytsk.json",
-      "modified": "2026-08-23T12:59:09.874Z"
+      "modified": "2026-08-23T13:00:03.353Z"
     },
     {
       "path": "packages/auls.json",
-      "modified": "2026-08-23T12:59:09.878Z"
+      "modified": "2026-08-23T13:00:03.357Z"
     },
     {
       "path": "packages/binetsu.json",
-      "modified": "2026-08-23T12:59:09.883Z"
+      "modified": "2026-08-23T13:00:03.360Z"
     },
     {
       "path": "packages/ePi.json",
-      "modified": "2026-08-23T12:59:09.888Z"
+      "modified": "2026-08-23T13:00:03.363Z"
     },
     {
       "path": "packages/gometh.json",
-      "modified": "2026-08-23T12:59:09.893Z"
+      "modified": "2026-08-23T13:00:03.367Z"
     },
     {
       "path": "packages/hage.json",
-      "modified": "2026-08-23T12:59:09.897Z"
+      "modified": "2026-08-23T13:00:03.370Z"
     },
     {
       "path": "packages/hebiiro.json",
-      "modified": "2026-08-23T12:59:09.902Z"
+      "modified": "2026-08-23T13:00:03.373Z"
     },
     {
       "path": "packages/hksy.json",
-      "modified": "2026-08-23T12:59:09.907Z"
+      "modified": "2026-08-23T13:00:03.377Z"
     },
     {
       "path": "packages/jigno.json",
-      "modified": "2026-08-23T12:59:09.911Z"
+      "modified": "2026-08-23T13:00:03.380Z"
     },
     {
       "path": "packages/kame.json",
-      "modified": "2026-08-23T12:59:09.916Z"
+      "modified": "2026-08-23T13:00:03.384Z"
     },
     {
       "path": "packages/karoterra.json",
-      "modified": "2026-08-23T12:59:09.921Z"
+      "modified": "2026-08-23T13:00:03.387Z"
     },
     {
       "path": "packages/khsk.json",
-      "modified": "2026-08-23T12:59:09.925Z"
+      "modified": "2026-08-23T13:00:03.390Z"
     },
     {
       "path": "packages/kumrnm.json",
-      "modified": "2026-08-23T12:59:09.930Z"
+      "modified": "2026-08-23T13:00:03.394Z"
     },
     {
       "path": "packages/mimaraka.json",
-      "modified": "2026-08-23T12:59:09.935Z"
+      "modified": "2026-08-23T13:00:03.397Z"
     },
     {
       "path": "packages/miramikaruR.json",
-      "modified": "2026-08-23T12:59:09.940Z"
+      "modified": "2026-08-23T13:00:03.401Z"
     },
     {
       "path": "packages/morgue.json",
-      "modified": "2026-08-23T12:59:09.945Z"
+      "modified": "2026-08-23T13:00:03.404Z"
     },
     {
       "path": "packages/mtripg6666tdr.json",
-      "modified": "2026-08-23T12:59:09.949Z"
+      "modified": "2026-08-23T13:00:03.407Z"
     },
     {
       "path": "packages/nagomiku.json",
-      "modified": "2026-08-23T12:59:09.954Z"
+      "modified": "2026-08-23T13:00:03.411Z"
     },
     {
       "path": "packages/nazono.json",
-      "modified": "2026-08-23T12:59:09.959Z"
+      "modified": "2026-08-23T13:00:03.419Z"
     },
     {
       "path": "packages/nilpo.json",
-      "modified": "2026-08-23T12:59:09.970Z"
+      "modified": "2026-08-23T13:00:03.423Z"
     },
     {
       "path": "packages/nure500.json",
-      "modified": "2026-08-23T12:59:09.975Z"
+      "modified": "2026-08-23T13:00:03.428Z"
     },
     {
       "path": "packages/oov.json",
-      "modified": "2026-08-23T12:59:09.982Z"
+      "modified": "2026-08-23T13:00:03.431Z"
     },
     {
       "path": "packages/pop4bit.json",
-      "modified": "2026-08-23T12:59:09.987Z"
+      "modified": "2026-08-23T13:00:03.434Z"
     },
     {
       "path": "packages/respectrum93.json",
-      "modified": "2026-08-23T12:59:09.991Z"
+      "modified": "2026-08-23T13:00:03.437Z"
     },
     {
       "path": "packages/rigaya.json",
-      "modified": "2026-08-23T12:59:09.996Z"
+      "modified": "2026-08-23T13:00:03.441Z"
     },
     {
       "path": "packages/rikky.json",
-      "modified": "2026-08-23T12:59:10.001Z"
+      "modified": "2026-08-23T13:00:03.444Z"
     },
     {
       "path": "packages/satsuki.json",
-      "modified": "2026-08-23T12:59:10.005Z"
+      "modified": "2026-08-23T13:00:03.447Z"
     },
     {
       "path": "packages/sets.json",
-      "modified": "2026-08-23T12:59:10.010Z"
+      "modified": "2026-08-23T13:00:03.451Z"
     },
     {
       "path": "packages/shummg.json",
-      "modified": "2026-08-23T12:59:10.015Z"
+      "modified": "2026-08-23T13:00:03.454Z"
     },
     {
       "path": "packages/suzune.json",
-      "modified": "2026-08-23T12:59:10.019Z"
+      "modified": "2026-08-23T13:00:03.457Z"
     },
     {
       "path": "packages/tetsuXIAO.json",
-      "modified": "2026-08-23T12:59:10.024Z"
+      "modified": "2026-08-23T13:00:03.460Z"
     },
     {
       "path": "packages/tihagura.json",
-      "modified": "2026-08-23T12:59:10.028Z"
+      "modified": "2026-08-23T13:00:03.464Z"
     },
     {
       "path": "packages/tim.json",
-      "modified": "2026-08-23T12:59:10.033Z"
+      "modified": "2026-08-23T13:00:03.467Z"
     },
     {
       "path": "packages/uepon.json",
-      "modified": "2026-08-23T12:59:10.038Z"
+      "modified": "2026-08-23T13:00:03.470Z"
     },
     {
       "path": "packages/wepon.json",
-      "modified": "2026-08-23T12:59:10.042Z"
+      "modified": "2026-08-23T13:00:03.473Z"
     },
     {
       "path": "packages/yanagi.json",
-      "modified": "2026-08-23T12:59:10.047Z"
+      "modified": "2026-08-23T13:00:03.477Z"
     },
     {
       "path": "packages/yaseiNoMokuyaP.json",
-      "modified": "2026-08-23T12:59:10.051Z"
+      "modified": "2026-08-23T13:00:03.480Z"
     },
     {
       "path": "packages/yumetodo.json",
-      "modified": "2026-08-23T12:59:10.056Z"
+      "modified": "2026-08-23T13:00:03.483Z"
     }
   ],
   "scripts": [
     {
       "path": "scripts.json",
-      "modified": "2026-08-23T12:59:10.070Z"
+      "modified": "2026-08-23T13:00:03.493Z"
     }
   ]
 }

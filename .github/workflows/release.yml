@@ -19,6 +19,11 @@ jobs:
           cache: yarn
       - run: yarn install
       - run: yarn run release
+      # The published JSON is generated rather than committed, so this is
+      # the only point at which it can be checked against apm-schema before
+      # apm downloads it. Failing here leaves the previous release on main
+      # in place instead of publishing data apm cannot read.
+      - run: yarn run lint:jsonschema
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:

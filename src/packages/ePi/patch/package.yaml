@@ -8,7 +8,7 @@ developer: ePi
 dependencies:
   - aviutl1.10
   - exedit0.92
-pageURL: https://scrapbox.io/ePi5131/patch.aul
+pageURL: https://github.com/ePi5131/patch.aul
 downloadURLs:
   - https://github.com/ePi5131/patch.aul/releases/latest
 latestVersion: r42

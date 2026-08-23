@@ -20,15 +20,42 @@ jobs:
           cache: yarn
       - run: yarn install --frozen-lockfile
       - run: yarn run check-update
+      # The pull request opened below is created with GITHUB_TOKEN, and GitHub
+      # does not trigger workflows for events raised by that token, so lint.yml
+      # never runs on it — #968 has had no checks at all since 2025-10. These
+      # two steps are the only check the update gets.
+      #
+      # They deliberately do not gate the pull request. One malformed upstream
+      # entry would otherwise withhold every valid update batched with it, and
+      # a failure is more useful reviewed than suppressed. The result goes into
+      # the pull request body, and the job fails once the pull request exists so
+      # the scheduled run still goes red.
+      - name: Generate the published JSON
+        id: generate
+        continue-on-error: true
+        run: yarn run release
+      - name: Validate the generated data against the schema
+        id: schema
+        continue-on-error: true
+        run: yarn run lint:jsonschema
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:
+          # Add a CREATE_PR_TOKEN secret holding a personal access token to have
+          # the pull request trigger workflows the normal way; the fallback keeps
+          # today's behaviour when it is absent.
+          token: ${{ secrets.CREATE_PR_TOKEN || secrets.GITHUB_TOKEN }}
           commit-message: Update packages data
           branch: create-pull-request/check-update
           delete-branch: true
           title: '[Update] Update packages data'
           body: |
             Update some packages data
+
+            Schema validation: ${{ (steps.generate.outcome == 'success' && steps.schema.outcome == 'success') && 'passed' || '**FAILED** — check the workflow run before merging' }}
           labels: enhancement
           assignees: hal-shu-sato
           reviewers: hal-shu-sato
+      - name: Fail if the generated data is invalid
+        if: steps.generate.outcome == 'failure' || steps.schema.outcome == 'failure'
+        run: exit 1

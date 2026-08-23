@@ -3,9 +3,18 @@ name: Lint
 on:
   push:
     branches: [source]
+  # Do not restrict the base to source: pull requests targeting an intermediate
+  # branch (a stacked pull request) must be checked too. The branches filter
+  # matches the base, not the head, so restricting it leaves them unverified.
   pull_request:
-    branches: [source]
   workflow_dispatch:
+
+# Cancel superseded runs for the same pull request. Pushes are not cancelled:
+# every commit on the default branch needs to keep its own Actions status, and
+# a burst of merges would otherwise discard the earlier ones.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   lint:

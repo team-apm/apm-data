@@ -14,9 +14,10 @@ name: 'CodeQL'
 on:
   push:
     branches: [source]
+  # Do not restrict the base to source: pull requests targeting an intermediate
+  # branch (a stacked pull request) must be checked too. The branches filter
+  # matches the base, not the head, so restricting it leaves them unverified.
   pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [source]
   schedule:
     - cron: '43 19 * * 5'
   workflow_dispatch:

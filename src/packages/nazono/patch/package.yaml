@@ -12,7 +12,7 @@ dependencies:
 pageURL: https://www.nicovideo.jp/watch/sm41687191
 downloadURLs:
   - https://github.com/nazonoSAUNA/patch.aul/releases/latest
-latestVersion: r43_64
+latestVersion: r43_73
 nicommons: sm41687191
 files:
   - filename: patch.aul
@@ -23,6 +23,13 @@ files:
   - filename: plugins/patch.aul.json
     isUninstallOnly: true
 releases:
+  - version: r43_73
+    integrity:
+      archive: sha384-ArXQELpf/w88osqrLA+URCbQADE+ZWwa1fIPyoGevpOF0+VaeIqCUtjKLF01qORi
+      file:
+        - target: patch.aul
+          hash: >-
+            sha384-NkuTY1j/Hm7dVTwqC3UdjZ4RvEXwPkLQKL+gxq+lfED/LyKLugZJFzU/mgqh1Ink
   - version: r43_64
     integrity:
       archive: sha384-GW5mjhOsMbGeDiQ+5ihRT5F9P0yNQR07n0bpNBwD5f790902JqyeQLDVanDxGsGp

@@ -8,10 +8,17 @@ developer: karoterra
 pageURL: https://github.com/karoterra/aviutl_ShowLimit
 downloadURLs:
   - https://github.com/karoterra/aviutl_ShowLimit/releases/latest
-latestVersion: v0.5.1
+latestVersion: v0.6.0
 files:
   - filename: plugins/ShowLimit.auf
 releases:
+  - version: v0.6.0
+    integrity:
+      archive: sha384-bNc/YVpu8M9l9C5Sm3QjhFHeM2LgNS7W4pVij7W4Pr8DwxmXiOWSekjmpp9REss8
+      file:
+        - target: plugins/ShowLimit.auf
+          hash: >-
+            sha384-p26+ZMRGukyrtM25eg05Kk4JsFPP02+bVU1dyy9R74SysIysDkFfk7VjJOrFjDAc
   - version: v0.5.1
     integrity:
       archive: sha384-3Kf8Fewiuy2SE2rF37MBJpfiyKLEuK5DUnZ8g+mG/yeNjGM9P1egGN9EROYLFo3q

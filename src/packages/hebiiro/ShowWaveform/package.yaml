@@ -11,7 +11,7 @@ dependencies:
 pageURL: https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform#readme
 downloadURLs:
   - https://github.com/hebiiro/AviUtl-Plugin-ShowWaveform/releases/latest
-latestVersion: 7.3.0
+latestVersion: 7.3.3
 files:
   - filename: plugins/ShowWaveform.auf
   - filename: plugins/ShowWaveform.ini
@@ -19,6 +19,13 @@ files:
   - filename: plugins/ShowWaveform
     isDirectory: true
 releases:
+  - version: 7.3.3
+    integrity:
+      archive: sha384-Yc6e0Sh67Y7cSqFFuxzVAE6hL39T7NAuAllKi+RO3GGYlgk7PztDT1NgGSXtPnJ/
+      file:
+        - target: plugins/ShowWaveform.auf
+          hash: >-
+            sha384-j8Xz3eeIRk4tpkKYfMHpn8Zkqvj0Ah1ZKelxioDsU0W8HkNTbDgoc/NaIL3thMfn
   - version: 7.3.0
     integrity:
       archive: sha384-qBe/0+t9mUnu0kaZnmM63nTAEO1v48ah9NsM2664ZrPCCNYbzLT3PG36RsB871Qv

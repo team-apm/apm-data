@@ -265,7 +265,7 @@
       "downloadURLs": [
         "https://github.com/nazonoSAUNA/patch.aul/releases/latest"
       ],
-      "latestVersion": "r43_64",
+      "latestVersion": "r43_73",
       "nicommons": "sm41687191",
       "files": [
         {
@@ -285,6 +285,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "r43_73",
+          "integrity": {
+            "archive": "sha384-ArXQELpf/w88osqrLA+URCbQADE+ZWwa1fIPyoGevpOF0+VaeIqCUtjKLF01qORi",
+            "file": [
+              {
+                "target": "patch.aul",
+                "hash": "sha384-NkuTY1j/Hm7dVTwqC3UdjZ4RvEXwPkLQKL+gxq+lfED/LyKLugZJFzU/mgqh1Ink"
+              }
+            ]
+          }
+        },
         {
           "version": "r43_64",
           "integrity": {

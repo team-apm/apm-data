@@ -40,7 +40,7 @@
       "downloadURLs": [
         "https://github.com/oov/aviutl_gcmzdrops/releases/latest"
       ],
-      "latestVersion": "v0.4.2",
+      "latestVersion": "v0.4.5",
       "nicommons": "sm33020019",
       "files": [
         {
@@ -52,6 +52,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "v0.4.5",
+          "integrity": {
+            "archive": "sha384-2RSbuu2MBuXPm7TPgconKoedeMZl24nMjzij4kgkMVp9rzCgRcjxkFzeLoI6HqYg",
+            "file": [
+              {
+                "target": "GCMZDrops.auf",
+                "hash": "sha384-WA0IBEy65ZS/Yyp9379kbASD9nR2uPZJoDxnWmdCOs32T6kQIVcWcvhCHBG6nLfu"
+              }
+            ]
+          }
+        },
         {
           "version": "v0.4.2",
           "integrity": {

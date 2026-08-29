@@ -41,7 +41,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/NVEnc/releases/latest"
       ],
-      "latestVersion": "7.73",
+      "latestVersion": "9.33",
       "files": [
         {
           "filename": "plugins/NVEnc.auo",
@@ -78,6 +78,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "9.33",
+          "integrity": {
+            "archive": "sha384-Lwr8Q0l7Ou43qsKswtyuU9u8HrfrmRBuIWtRAbfLOpRHeCMc6X68hZ8MhfrCyA+0",
+            "file": [
+              {
+                "target": "plugins/NVEnc.auo",
+                "hash": "sha384-h2mG9iPxw/rP6B3+IpIzp/BXGrwvb3uOp4hDxYoRQ1xQg5dl1oj8FrjasA+y01OX"
+              }
+            ]
+          }
+        },
         {
           "version": "7.73",
           "integrity": {
@@ -690,7 +702,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/QSVEnc/releases/latest"
       ],
-      "latestVersion": "7.72",
+      "latestVersion": "8.28",
       "files": [
         {
           "filename": "plugins/QSVEnc.auo",
@@ -727,6 +739,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "8.28",
+          "integrity": {
+            "archive": "sha384-4AGE5lq/vms5Fn5XVti/ypLnn2u9Y+Q4T11HHy+KmEsW2EDehOoo6AoYwe+wLIko",
+            "file": [
+              {
+                "target": "plugins/QSVEnc.auo",
+                "hash": "sha384-dyS+UoTgm2QwUROlENW6xsUmGH5I8fag0u/F9BHV8f+KvM9//p5JoDNExUxYCGTs"
+              }
+            ]
+          }
+        },
         {
           "version": "7.72",
           "integrity": {
@@ -1399,7 +1423,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/VCEEnc/releases/latest"
       ],
-      "latestVersion": "8.23",
+      "latestVersion": "9.14",
       "files": [
         {
           "filename": "plugins/VCEEnc.auo",
@@ -1436,6 +1460,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "9.14",
+          "integrity": {
+            "archive": "sha384-BWvHy3nggtmX1qoxMqxgao4vvy0buX2XVgJN/bXQSWJ7747luFZnSNZ04iAxVIIQ",
+            "file": [
+              {
+                "target": "plugins/VCEEnc.auo",
+                "hash": "sha384-D+NgkdMi9jE8kFNA1aijqO/JmMmtETfCrkDlVJlC1cLGpT07o01z0xmvNSBMswVR"
+              }
+            ]
+          }
+        },
         {
           "version": "8.23",
           "integrity": {
@@ -1988,7 +2024,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/ffmpegOut/releases/latest"
       ],
-      "latestVersion": "1.13",
+      "latestVersion": "2.08",
       "files": [
         {
           "filename": "plugins/ffmpegOut.auo",
@@ -2015,6 +2051,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "2.08",
+          "integrity": {
+            "archive": "sha384-s7UpW9FqD8E52vQCy6Rg8gf8MGq3dnd4klKhEtzSEeWnXiy/eAkMPBsT345SqzlX",
+            "file": [
+              {
+                "target": "plugins/ffmpegOut.auo",
+                "hash": "sha384-Zu0FYVGECC6FPOaU3fNNDIs8KKKSPvQ4Ao0bbSmd19Yag1eR6YGHVTeX4gm/mXUA"
+              }
+            ]
+          }
+        },
         {
           "version": "1.13",
           "integrity": {
@@ -2160,7 +2208,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/pmd_mt/releases/latest"
       ],
-      "latestVersion": "+7",
+      "latestVersion": "+8",
       "files": [
         {
           "filename": "plugins/pmd_mt.auf"
@@ -2191,7 +2239,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/svtAV1guiEx/releases/latest"
       ],
-      "latestVersion": "1.26",
+      "latestVersion": "2.14",
       "files": [
         {
           "filename": "plugins/svtAV1guiEx.auo",
@@ -2235,6 +2283,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "2.14",
+          "integrity": {
+            "archive": "sha384-fNcoeoYwGYoBChVBB56QdNWFk5fhDo8KrgsaCqb71NCxQR5QTeaU/HNvpL+ymz/m",
+            "file": [
+              {
+                "target": "plugins/svtAV1guiEx.auo",
+                "hash": "sha384-q77ojKHJkuoMipnf9Ej+tr8jIF8dh+x8tGA4Sjiv51+xEfHxGEm7ikoMhF7HEH6b"
+              }
+            ]
+          }
+        },
         {
           "version": "1.26",
           "integrity": {
@@ -2535,7 +2595,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/x264guiEx/releases/latest"
       ],
-      "latestVersion": "3.31",
+      "latestVersion": "4.12",
       "nicommons": "sm40417801",
       "files": [
         {
@@ -2576,6 +2636,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "4.12",
+          "integrity": {
+            "archive": "sha384-SikPD+dQd7fPBiQEFp61yp2z0b6Yp0n9QfbZioQHKC+cywX+juFbR1SB/LHLAXZF",
+            "file": [
+              {
+                "target": "plugins/x264guiEx.auo",
+                "hash": "sha384-+Ai7X9QJs85XUdYYcKHLfLg+3HzVZ9G8TABjudiy0G78nWzW0CuDC2zYJvHVAXCi"
+              }
+            ]
+          }
+        },
         {
           "version": "3.27",
           "integrity": {
@@ -2936,7 +3008,7 @@
       "downloadURLs": [
         "https://github.com/rigaya/x265guiEx/releases/latest"
       ],
-      "latestVersion": "4.21",
+      "latestVersion": "5.11",
       "files": [
         {
           "filename": "plugins/x265guiEx.auo",
@@ -2976,6 +3048,18 @@
         }
       ],
       "releases": [
+        {
+          "version": "5.11",
+          "integrity": {
+            "archive": "sha384-nZMPlOVVbiq/9jbCOG6/MB7A8fCdRhb4uWWeQ6GXE6FS2k7t/2jJLlfmtE1Yc+qV",
+            "file": [
+              {
+                "target": "plugins/x265guiEx.auo",
+                "hash": "sha384-rkpNU7uSQw1I+KtDMxKuv2CiwAnaZP0aYYeBhSwH03itWi5gCY2BVn/lBnmRD6ML"
+              }
+            ]
+          }
+        },
         {
           "version": "4.21",
           "integrity": {

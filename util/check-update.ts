@@ -47,7 +47,12 @@ async function checkPackageUpdate(packageItem: Packages['packages'][number]) {
   if (
     exclude.includes(id) ||
     downloadURL.hostname !== 'github.com' ||
-    dirs[2] !== 'releases'
+    dirs[2] !== 'releases' ||
+    // /releases/tag/<tag> は特定の版に固定した URL。ここで最新リリースを見に
+    // 行くと、downloadURLs と description が古い版を指したまま latestVersion
+    // だけが進む。hebiiro/python32 が r36 のまま r117 になった経路がこれで、
+    // 同じリポジトリを共有する hebiiro/UltimatePlugin の版を拾っていた
+    dirs[3] === 'tag'
   )
     return result;
 

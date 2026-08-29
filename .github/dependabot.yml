@@ -20,6 +20,10 @@ updates:
       # only ships in a new major.
       - dependency-name: 'eslint'
         update-types: ['version-update:semver-major']
+      # @eslint/js ships in lockstep with eslint, so ignoring only the latter
+      # lets a major land on one half of the pair while the other stays behind.
+      - dependency-name: '@eslint/*'
+        update-types: ['version-update:semver-major']
       - dependency-name: 'typescript-eslint'
         update-types: ['version-update:semver-major']
     groups:

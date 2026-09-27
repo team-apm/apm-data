@@ -1,0 +1,75 @@
+name: Link Health
+
+on:
+  schedule:
+    # 週次。check-update(毎日 20:43 UTC)と時間帯をずらして、同じ配布ホストへ
+    # 同時に当たらないようにしている
+    - cron: '17 18 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: Check distribution links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 'lts/*'
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+
+      # 進捗は stderr、レポートは stdout に出る
+      - name: Probe distribution URLs
+        # --silent が無いと yarn のバナーがレポートの先頭に混ざる
+        run: yarn --silent run check-links > "$RUNNER_TEMP/report.md"
+
+      # 追跡用の issue は 1 本だけ持ち、毎週その本文を差し替える。
+      # 週ごとに新しい issue を立てると、直っていない同じ 30 件が積み上がる。
+      - name: Open or update the tracking issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          body_file="$RUNNER_TEMP/body.md"
+          {
+            cat "$RUNNER_TEMP/report.md"
+            echo
+            echo '---'
+            echo
+            echo "この issue は [Link Health]($RUN_URL) が毎週書き換えています。手で編集しても次回の実行で上書きされます。"
+            echo
+            echo '配布元が消えたパッケージを直すには「作者が今どこで配布しているか」を確定する必要があり、それは人間の判断です。このワークフローは検知だけを担当します。'
+          } > "$body_file"
+
+          # ラベルがまだ無い初回は gh がエラーを返すので、空として扱う
+          existing=$(gh issue list --repo "$REPO" --state open --label link-health \
+            --json number --jq '.[0].number // empty' 2>/dev/null || true)
+
+          if grep -q '^すべての配布 URL に到達できました。$' "$RUNNER_TEMP/report.md"; then
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --repo "$REPO" \
+                --body "すべての配布 URL に到達できました。閉じます。"
+              gh issue close "$existing" --repo "$REPO"
+            fi
+            exit 0
+          fi
+
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --repo "$REPO" --body-file "$body_file"
+          else
+            gh label create link-health --repo "$REPO" \
+              --description '配布 URL の到達性(自動検知)' --color 'B60205' 2>/dev/null || true
+            gh issue create --repo "$REPO" --label link-health \
+              --title '配布 URL に到達できないパッケージがある' --body-file "$body_file"
+          fi

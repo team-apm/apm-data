@@ -6,7 +6,7 @@ developer: rigaya
 pageURL: https://github.com/rigaya/NVEnc#readme
 downloadURLs:
   - https://github.com/rigaya/NVEnc/releases/latest
-latestVersion: '9.33'
+latestVersion: '9.38'
 files:
   - filename: plugins/NVEnc.auo
     archivePath: plugins
@@ -28,6 +28,13 @@ files:
     isDirectory: true
     isUninstallOnly: true
 releases:
+  - version: '9.38'
+    integrity:
+      archive: sha384-toEv/TVlMcMFi+bTiTCRN6Q/KiwffBC2XILjgTQHJhtUHwCcR3NExah+aEXBdVis
+      file:
+        - target: plugins/NVEnc.auo
+          hash: >-
+            sha384-QU4KeWyAv6vTwKNx3PDxiOv+Hy1Yrv4V+zf3nvhj5za27v08HEKedAra6TuDl036
   - version: '9.33'
     integrity:
       archive: sha384-Lwr8Q0l7Ou43qsKswtyuU9u8HrfrmRBuIWtRAbfLOpRHeCMc6X68hZ8MhfrCyA+0

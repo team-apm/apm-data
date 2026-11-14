@@ -7,7 +7,7 @@ developer: rigaya
 pageURL: https://github.com/rigaya/VCEEnc#readme
 downloadURLs:
   - https://github.com/rigaya/VCEEnc/releases/latest
-latestVersion: '9.14'
+latestVersion: '9.22'
 files:
   - filename: plugins/VCEEnc.auo
     archivePath: plugins
@@ -29,6 +29,13 @@ files:
     isDirectory: true
     isUninstallOnly: true
 releases:
+  - version: '9.22'
+    integrity:
+      archive: sha384-mnM9ZFNiR4z2SPWYrv8DT/3byLLU7WbLI8CgltWu+wvXS4zo1ta+gimkXwcdGv3+
+      file:
+        - target: plugins/VCEEnc.auo
+          hash: >-
+            sha384-3Iaw/Zs5lWc0iyGdsUDODD85/s9S7UqM4ekPTeg9RVeD+h1JzIRbPP003fREiZir
   - version: '9.14'
     integrity:
       archive: sha384-BWvHy3nggtmX1qoxMqxgao4vvy0buX2XVgJN/bXQSWJ7747luFZnSNZ04iAxVIIQ

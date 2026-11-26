@@ -6,7 +6,7 @@ developer: rigaya
 pageURL: https://github.com/rigaya/x265guiEx#readme
 downloadURLs:
   - https://github.com/rigaya/x265guiEx/releases/latest
-latestVersion: '5.11'
+latestVersion: '5.12'
 files:
   - filename: plugins/x265guiEx.auo
     archivePath: plugins
@@ -29,6 +29,13 @@ files:
   - filename: exe_files/x265_3.5+35_x86.exe
     isUninstallOnly: true
 releases:
+  - version: '5.12'
+    integrity:
+      archive: sha384-RBbJfo9QUKihqwmjSg+8shV9u1a3KXB3mAYd9JzPxbTTAkxR38Mt8K6kgiyiLiJK
+      file:
+        - target: plugins/x265guiEx.auo
+          hash: >-
+            sha384-bUgRw+4apshyenOubt5Z9Ti6TFgUG5iVZIWJnJBKom71xCky7KDvIl7SWF4ahejn
   - version: '5.11'
     integrity:
       archive: sha384-nZMPlOVVbiq/9jbCOG6/MB7A8fCdRhb4uWWeQ6GXE6FS2k7t/2jJLlfmtE1Yc+qV
